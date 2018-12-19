@@ -53,6 +53,10 @@ Element `mix-console` ////////////////////////////////////////////////
     initialize ()
       { console.warn (this.localName, this) }
 
+    adjust (event) {
+      console.warn ('Adjusting', event)
+    }
+
     get title ()
       { return 'Behringer X2 (32 x 32)' }
 
