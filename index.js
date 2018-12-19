@@ -1,1 +1,1 @@
-alert('WTF this worked!');
+console.warn ('WTF this worked!');
