@@ -42,16 +42,21 @@
 
 <foo-bar>
 
-<template>WHATEVER!</template>
+<table border=4>
+  <thead>
+    <tr><th>This is the table header</th></tr>
+  </thead>
 
-<table>
-  <tbody>
+  <tfoot>
+    <tr><th>This is the table footer</th></tr>
+  </tfoot>
 
   <template name=table>
+  <tr>
     <td>FOOOIN! {foo}</td>
+  </tr>
   </template>
 
-  </tbody>
 </table>
 
 
