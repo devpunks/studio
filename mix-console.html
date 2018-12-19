@@ -52,9 +52,8 @@ Element `channel-strip` ////////////////////////////////////////////////
     initialize ()
       { console.warn ('Element', this.localName, this) }
 
-    onconnect (event) {
-      console.warn ('Channel strip connected', this, event)
-    }
+    onconnect (event)
+      { console.warn ('connected', this, event) }
   })
 
 
