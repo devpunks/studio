@@ -40,6 +40,40 @@
 </header>
 <!-- header.html -->
 
+<foo-bar>
+
+<template>WHATEVER!</template>
+
+<table>
+  <tbody>
+
+  <template name=table>
+    <td>FOOOIN! {foo}</td>
+  </template>
+
+  </tbody>
+</table>
+
+
+<script>
+
+  Element `foo-bar`
+
+  (class extends HTMLElement {
+
+    get table () {
+      return [
+        { foo: 'What do we have here?!' }
+      , { foo: 'ANOTHER ONE' }
+      ]
+    }
+
+  })
+</script>
+
+</foo-bar>
+
+
 <main id=main>
   <h1>Devpunks.studio</h1>
 
