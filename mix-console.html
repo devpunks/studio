@@ -1,0 +1,70 @@
+<mix-console>
+
+  <template name=channels>
+    <channel-strip>
+      <header>Channel {#}</header>
+    </channel-strip>
+  </template>
+
+  <channel-strip>
+    <header>Channel {#}</header>
+  </channel-strip>
+</mix-console>
+
+
+<style>
+
+  channel-strip {
+    width: 10vw;
+    height: 90vh;
+    background: #aaa;
+    text-align: center;
+    display: inline-block;
+    outline: 4px dashed #444;
+  }
+
+  mix-console {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background: #222;
+  }
+
+</style>
+
+
+<script src=/snuggsi.es></script>
+<script>
+
+Element `channel-strip` ////////////////////////////////////////////////
+
+  (class extends HTMLElement {
+
+    initialize ()
+      { console.warn ('Element', this.localName, this) }
+
+    onconnect (event) {
+      console.warn ('Channel strip connected', this, event)
+    }
+  })
+
+
+Element `mix-console` ////////////////////////////////////////////////
+
+  (class extends HTMLElement {
+
+    initialize ()
+      { console.warn (this.localName, this) }
+
+    get channels () {
+
+        return [
+          'Sennheiser 416T (Black)'
+        , 'Sennheiser 416T (Silver)'
+        , 'Sennheiser 418T (Silver)'
+        , 'Sennheiser 418T (Silver)'
+        ]
+    }
+  })
+
+</script>
