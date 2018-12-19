@@ -1,11 +1,14 @@
   channel-strip {
     width: 10vw;
     height: 90vh;
+    background: #444;
     text-align: center;
     display: inline-block;
     outline: 4px dashed #444;
   }
 
+
+/* fader.css */
   channel-strip [name=fader] {
     transform: rotate(90deg)
   }
