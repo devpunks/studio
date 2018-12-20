@@ -1,22 +1,15 @@
-<mix-console title={title} oninput=adjust>
+<mix-console title={title}>
 
   <template name=channels>
-    <channel-strip title={self}>
+    <channel-strip title={self} oninput=adjust>
       <header><em>Channel {#}</em> - <strong>{self}</strong></header>
 
+      <h3 style='background:white;color:black'>Rando {rando}</h3>
       <label>Fader
-        <input type=range name=fader>
+        <input type=range name=fader min=-60 max=20 step=1>
       </label>
     </channel-strip>
   </template>
-
-  <channel-strip>
-    <header><em>Channel {#}</em> - <strong>{self}</strong></header>
-
-    <label>Fader
-      <input type=range name=fader>
-    </label>
-  </channel-strip>
 
 </mix-console>
 
