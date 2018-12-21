@@ -5,6 +5,13 @@ import (
   "time";
 )
 
+type Microphone struct {
+  ID              int
+  Name            string
+  ProductionDate  time.Time
+}
+
+
 func main () {
   fmt.Println (`SHIT THIS WORKS!!!`)
 
