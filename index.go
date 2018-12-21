@@ -17,7 +17,7 @@ type Microphone struct {
 
 
 func Index(w http.ResponseWriter, req *http.Request) {
-  w.Write([]byte("Hello from web server!\n\n\n" + time.Now().String()))
+  w.Write([]byte("Hello from web server!\n\n\n" + time.Now().String() + "\n\n\n"))
 
   URL := "https://api.github.com/users"
   res, err := http.Get(URL)
