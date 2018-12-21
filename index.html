@@ -52,12 +52,13 @@
     <tr><th colspan=2>This is the table footer</th></tr>
   </tfoot>
 
-  <template name=table>
-  <tr>
-    <td>FOOOIN! {foo}</td>
-  </tr>
-  </template>
-
+  <tbody>
+    <template name=table role=row hidden>
+    <tr>
+      <td>FOOOIN! {foo}
+    </tr>
+    </template>
+  </tbody>
 </table>
 
 <ul>
