@@ -2,8 +2,6 @@
     color: #aaa;
     width: 5vw;
     height: 90vh;
-    background: #444 url(channel-strip.jpg) no-repeat top center;
-    background-size: 100%;
     text-align: center;
     display: inline-block;
     outline: 4px dashed #444;
