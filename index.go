@@ -14,7 +14,7 @@ type Microphone struct {
 
 
 func Index(w http.ResponseWriter, req *http.Request) {
-  w.Write([]byte("Hello from web server!"))
+  w.Write([]byte("Hello from web server!" + time.Now().String()))
 }
 
 func Serve(port string) {
