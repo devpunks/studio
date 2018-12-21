@@ -13,6 +13,18 @@ type Microphone struct {
 }
 
 
+func Index(w http.ResponseWriter, req *http.Request) {
+  w.Write([]byte("Hello from web server!"))
+}
+
+func Serve(port string) {
+  http.HandleFunc("/", Index)
+
+  if err := http.ListenAndServe(port, nil); err != nil {
+    panic(err)
+  }
+}
+
 func main () {
   fmt.Println (`SHIT THIS WORKS!!!`)
 
@@ -36,4 +48,6 @@ func main () {
   fmt.Println("Microphone ID", m.ID)
   fmt.Println("Microphone Name", m.Name)
   fmt.Println("Microphone Production Date", m.ProductionDate)
+
+  Serve(":8080")
 }
