@@ -51,11 +51,16 @@ Element `mix-console` ////////////////////////////////////////////////
 
   (class extends HTMLElement {
 
-    initialize ()
-      { console.warn (this.localName, this) }
+//  initialize ()
+//    { console.warn ('Element', this.localName, this) }
 
-    adjust (event) {
-      console.warn ('Adjusting', event)
+    onconnect (event) {
+//    console.warn ('connected', this, event)
+//    console.time ('render')
+    }
+
+    onidle (event) {
+//    console.timeEnd ('render')
     }
 
     get title ()
