@@ -34,8 +34,16 @@ Element `channel-strip` ////////////////////////////////////////////////
 //  initialize ()
 //    { console.warn ('Element', this.localName, this) }
 
-    onconnect (event)
-      { console.warn ('connected', this, event) }
+//  onconnect (event)
+//    { console.warn ('connected', this, event) }
+
+    adjust (event) {
+      console.warn ('Adjusting', event)
+    }
+
+    get rando () {
+      return Math.round (Math.random () * 20)
+    }
   })
 
 
