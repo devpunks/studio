@@ -32,7 +32,7 @@ func main () {
     fmt.Println(key, value)
   }
 
-  fmt.Println("Microphone ID", Microphone["ID"])
-  fmt.Println("Microphone Name", Microphone["Name"])
-  fmt.Println("Microphone Production Date", Microphone["Production-Date"])
+  fmt.Println("Microphone ID", m.ID)
+  fmt.Println("Microphone Name", m.Name)
+  fmt.Println("Microphone Production Date", m.ProductionDate)
 }
