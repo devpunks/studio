@@ -25,7 +25,7 @@ func main () {
     ID: 416,
     Name: "Sennheiser MKH416",
     // https://github.com/fxtlabs/date/blob/master/date.go#L93
-    "Production-Date": time.Date(1979, time.November, 13, 23, 45, 2, 0, time.UTC),
+    ProductionDate: time.Date(1979, time.November, 13, 23, 45, 2, 0, time.UTC),
   }
 
   for key, value := range microphone {
