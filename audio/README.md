@@ -1,3 +1,3 @@
-# _Devpunks.studio_/AUDIOS
+# _Devpunks.studio_/audios
 
 
