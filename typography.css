@@ -61,8 +61,8 @@ html {
   unicode-range: U+0-10FFFF;
   font-feature-settings: normal;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
-  -moz-tab-size: 4;
-       tab-size: 4;
+  -moz-tab-size: var(--tab-size);
+       tab-size: var(--tab-size);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
   -webkit-text-size-adjust: 100%;
           text-size-adjust: 100%;
