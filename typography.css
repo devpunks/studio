@@ -116,6 +116,9 @@ a:hover {
 p
   { margin: var(--p-margin); }
 
+ul, ol {
+  list-style-position: inside;
+}
 img
   { width: 100%; height: auto; }
 
