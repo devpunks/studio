@@ -89,7 +89,7 @@ body > header {
  */
 h1 {
   margin: var(--margin);
-  
+  line-height: 1.12em;
   font-size: 2em;
 }
 
