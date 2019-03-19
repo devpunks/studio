@@ -39,5 +39,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: .1em;
   overflow: visible;
   color: var(--color);
+  margin-bottom: 1.612em;
+  display:block;
   background: var(--color);
 }
