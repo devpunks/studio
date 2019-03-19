@@ -60,6 +60,7 @@ html {
   background:  var(--background);
   font-family: var(--font-family);
   line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
   
   font-stretch: normal;
   font-variant: normal;
