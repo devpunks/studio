@@ -23,7 +23,7 @@ button
   { cursor: pointer; }
 progress
   { cursor: progress; }
-  
+
 html {
   box-sizing: border-box;
 }
