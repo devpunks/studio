@@ -16,6 +16,7 @@
   --tab-size:   4;
   --text-align: center;
   --line-height: 1.612em;
+  --text-size-adjust: 100%;
   --paragraph-margin: 0 1.4em 1.612em;
   --font-family:
     system-ui,
