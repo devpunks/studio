@@ -7,15 +7,6 @@
     https://github.com/csstools/sanitize.css/blob/master/sanitize.css
 */
 
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
- h1 {
-  font-size: 20em !important;
-  margin: 0.67rem inherit;
-}
 /* ----------------------- */
 
 
