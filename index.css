@@ -35,7 +35,7 @@ main {
   background: green;
 }
 
-hr {
+hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: 5em;
   overflow: visible;
   color: var(--color);
