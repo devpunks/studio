@@ -32,6 +32,7 @@
     text-size-adjust:         100%;
 }
 body, * {
+  /* margin: 0 auto; */
   padding: 0;
 }
 /* ----------------------- */
