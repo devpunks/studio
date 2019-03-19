@@ -1,15 +1,5 @@
 
 :root {
-  /* colors */
-  --background:     rgba(10,10,10, 0.8);
-  --color:          rgba(240,240,240, 0.8);
-  --lightest-color: rgba(255,255,255,0.9);
-  --lighter-color:  rgba(245,245,245,0.8);
-  --darker-color:   rgba(200,200,200, 0.8);
-  --darkest-color:  rgba(180,180,180, 0.7);
-  --link:           rgba(100,100,240,0.8);
-  --hover-link:     rgba(150,150,240,1.0);
-
   /* typograpy */
   --margin:     0.67em 2.0vw;
   --font-size:  2.8vw;
