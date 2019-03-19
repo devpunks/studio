@@ -13,8 +13,9 @@ html {
   box-sizing: border-box;
 }
 
-html * {
-  max-width: 1200px;
+main {
+  max-width: 1200px; 
+  background: green;
 }
 
 *, ::before, ::after, *:before, *:after
