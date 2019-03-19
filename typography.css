@@ -80,7 +80,17 @@ body > *, body > header > p {
 
 body > header {
   text-align: center;
-  margin: 0 0 1.612em
+  margin: 0 0 1.612em;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  margin: var(--margin);
+  
+  font-size: 2em;
 }
 
 a:link,
