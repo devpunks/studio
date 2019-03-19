@@ -118,7 +118,7 @@ p
   { margin: var(--paragraph-margin); }
 
 img
-  { width: 100%; height: auto }
+  { width: 100%; height: auto; }
 
 /*
   - https://zellwk.com/blog/why-vertical-rhythms
