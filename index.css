@@ -15,12 +15,6 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-::before,
-::after {
-  text-decoration: inherit;
-  vertical-align:  inherit;
-}
+*, ::before, ::after, *:before, *:after
+  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
+  { box-sizing: inherit; }
