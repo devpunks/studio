@@ -3,7 +3,8 @@
 */
 
 html {
-  box-sizing: border-box
+  cursor: default;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
