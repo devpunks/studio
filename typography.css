@@ -53,7 +53,12 @@ html {
   letter-spacing: -0.02em;
   unicode-range: U+0-10FFFF;
   font-feature-settings: normal;
-  font-family: 'Ubuntu', sans-serif;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
+  -moz-tab-size: 4;
+       tab-size: 4;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
+  -webkit-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 html * {
