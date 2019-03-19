@@ -9,19 +9,6 @@
 
 /* typography.css */
 :root {
-  font-family:
-    system-ui,
-    -apple-system,       /* macOS 10.11-10.12 */
-    'segoe ui',          /* Windows 6+ */
-    roboto,              /* Android 4+ */
-    ubuntu,              /* Ubuntu 10.10+ */
-    cantarell,           /* Gnome 3+ */
-    'noto sans',         /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
-    sans-serif,          /* fallback */
-    'Apple Color Emoji', /* macOS emoji */
-    'Segoe UI Emoji',    /* Windows emoji */
-    'Segoe UI Symbol',   /* Windows emoji */
-    'Noto Color Emoji';  /* Linux emoji */
 
   line-height: 1.15;
   word-break:  break-word;
