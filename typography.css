@@ -11,8 +11,8 @@
 }
 
 :root {
-  --rem: 3.8vw;
-  --margin: 0 2vw;
+  --margin:     0 2vw;
+  --font-size:  3.8vw;
   --text-align: center;
   --paragraph-margin: 0 1.4em 1.612em
 }
