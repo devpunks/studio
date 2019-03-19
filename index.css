@@ -2,6 +2,33 @@
   https://www.reddit.com/r/webdev/comments/8q269x/is_css_reset_necessary_still_in_2018/
 */
 
+/* typography.css */
+:root {
+  font-family:
+    system-ui,
+    -apple-system,       /* macOS 10.11-10.12 */
+    'segoe ui',          /* Windows 6+ */
+    roboto,              /* Android 4+ */
+    ubuntu,              /* Ubuntu 10.10+ */
+    cantarell,           /* Gnome 3+ */
+    'noto sans',         /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
+    sans-serif,          /* fallback */
+    'Apple Color Emoji', /* macOS emoji */
+    'Segoe UI Emoji',    /* Windows emoji */
+    'Segoe UI Symbol',   /* Windows emoji */
+    'Noto Color Emoji';  /* Linux emoji */
+
+  line-height: 1.15; /* 3 */
+  -moz-tab-size: 4; /* 4 */
+  tab-size: 4; /* 4 */
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
+}
+/* ----------------------- */
+
+
+
 html {
   cursor: default;
   box-sizing: border-box;
