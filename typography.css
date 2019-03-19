@@ -64,8 +64,8 @@ html {
   -moz-tab-size: var(--tab-size);
        tab-size: var(--tab-size);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
-  -webkit-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  -webkit-text-size-adjust: var(--text-size-adjust);
+          text-size-adjust: var(--text-size-adjust);
 }
 
 html * {
