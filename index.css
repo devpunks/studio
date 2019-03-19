@@ -8,6 +8,12 @@
     https://github.com/csstools/sanitize.css/blob/master/sanitize.css
 */
 
+/* cursors */
+html
+  { cursor: default; }
+abbr[title]
+  { cursor: help; }
+  
 html {
   cursor: default;
   box-sizing: border-box;
