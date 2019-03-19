@@ -24,9 +24,8 @@ button
 progress
   { cursor: progress; }
 
-html {
-  box-sizing: border-box;
-}
+html
+  { box-sizing: border-box; }
 
 main {
   display: block;
