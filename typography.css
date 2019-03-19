@@ -74,7 +74,11 @@ html * {
   padding: 0.02px 0;
 }
 
-body { padding: 1.612em 0 }
+body {
+  margin: auto;
+  padding: 1.612em 0;
+  background: green;
+}
 
 body > *, body > header > p {
   margin: var(--margin);
