@@ -42,6 +42,13 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  :root {
+    --margin:     .67em 6vw;
+    --font-size:  1.2vw;
+    --text-align: left;
+  }
+}
 *, ::before, ::after, *:before, *:after
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { text-decoration: inherit; }
