@@ -19,15 +19,17 @@ html
 
 abbr[title]
   { cursor: help; }
+button
+  { cursor: pointer; }
 progress
   { cursor: progress; }
-
+  
 html {
   box-sizing: border-box;
 }
 
 main {
   display: block;
-  max-width: 1200px; 
+  max-width: 1200px;
   background: green;
 }
