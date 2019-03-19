@@ -34,3 +34,10 @@ main {
   max-width: 1200px;
   background: green;
 }
+
+hr {
+  height: 5em;
+  overflow: visible;
+  color: var(--color);
+  background: var(--color);
+}
