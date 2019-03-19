@@ -7,10 +7,6 @@
     https://github.com/csstools/sanitize.css/blob/master/sanitize.css
 */
 
-body, * {
-  /* margin: 0 auto; */
-  padding: 0;
-}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
