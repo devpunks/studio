@@ -13,6 +13,7 @@
  * `article` contexts in Chrome, Firefox, and Safari.
  */
  h1 {
+  font-size: 20em !important;
   margin: 0.67rem inherit;
 }
 /* ----------------------- */
