@@ -9,9 +9,8 @@
   --darkest-color:  rgba(180,180,180, 0.7);
   --link:           rgba(100,100,240,0.8);
   --hover-link:     rgba(150,150,240,1.0);
-}
 
-:root {
+  /* typograpy */
   --margin:     0 2vw;
   --font-size:  3.8vw;
   --text-align: center;
