@@ -16,6 +16,7 @@
 /* cursors */
 html
   { cursor: default; }
+
 abbr[title]
   { cursor: help; }
 
