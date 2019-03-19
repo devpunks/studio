@@ -49,6 +49,9 @@ html {
   font-stretch: normal;
   font-variant: normal;
   font-size-adjust: 0.5;
+  word-break:  break-word;
+  letter-spacing: -0.02em;
+  unicode-range: U+0-10FFFF;
   font-feature-settings: normal;
   font-family: 'Ubuntu', sans-serif;
 }
