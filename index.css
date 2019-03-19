@@ -13,7 +13,7 @@
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { box-sizing: inherit; }
 
-/* cursors */
+/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 html
   { cursor: default; }
 
