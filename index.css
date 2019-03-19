@@ -19,6 +19,8 @@ html
 
 abbr[title]
   { cursor: help; }
+progress
+  { cursor: progress; }
 
 html {
   box-sizing: border-box;
