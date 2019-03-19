@@ -8,11 +8,6 @@
     https://github.com/csstools/sanitize.css/blob/master/sanitize.css
 */
 
-/* boxing */
-*, ::before, ::after, *:before, *:after
-  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
-  { box-sizing: inherit; }
-
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 html
   { cursor: default; }
