@@ -84,7 +84,6 @@ html * {
 body {
   margin: auto;
   padding: 1.612em 0;
-  background: green;
 }
 
 body > *, body > header > p {
