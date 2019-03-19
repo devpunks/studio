@@ -7,7 +7,7 @@
   --darker-color:   rgba(200,200,200, 0.8);
   --darkest-color:  rgba(180,180,180, 0.7);
   --link:           rgba(100,100,240,0.8);
-  --hover-link:     rgba(150,150,240,1.0)
+  --hover-link:     rgba(150,150,240,1.0);
 }
 
 :root {
