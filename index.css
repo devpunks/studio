@@ -10,14 +10,6 @@
 /* typography.css */
 :root {
 
-  line-height: 1.15;
-  word-break:  break-word;
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
-    -moz-tab-size: 4;
-    tab-size:      4;
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust:         100%;
 }
 body, * {
   /* margin: 0 auto; */
