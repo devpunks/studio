@@ -119,6 +119,14 @@ p
 ul, ol {
   list-style-position: inside;
 }
+/**
+ * Remove list bullets for navigation
+ */
+
+nav ol, nav ul {
+  list-style: none;
+}
+
 img
   { width: 100%; height: auto; }
 
