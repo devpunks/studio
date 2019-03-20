@@ -20,7 +20,8 @@ button
   { cursor: pointer; }
 progress
   { cursor: progress; }
-
+[disabled]
+  { cursor: not-allowed; }
 
 /* boxing */
 html
