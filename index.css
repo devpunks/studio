@@ -142,6 +142,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 a[href^=mailto]::before {
   content: '📧';
   opacity: 0.8;
+  white-space: pre;
   margin-right: 0.2em;
   display: inline-block;
   text-decoration: none;
