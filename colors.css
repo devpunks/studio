@@ -9,6 +9,9 @@
   --hover-link:     rgba(150,150,240,1.0);
 }
 
+
+/* ----------------------------------------------------- */
+
 html {
   color:      var(--color);
   background: var(--background);
