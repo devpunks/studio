@@ -137,3 +137,17 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
 }
+
+/* icons.css */
+a[href^=mailto]::before {
+  content: '✉';
+  opacity: 0.8;
+  margin-right: 0.2em;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+}
+a:hover[href^=mailto]::before {
+  opacity: 1.0;
+  text-decoration: none;
+}
