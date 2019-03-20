@@ -17,3 +17,11 @@ html {
   background: var(--background);
 
 }
+
+a:link,
+a:active,
+a:visited
+{ color: var(--link); }
+
+a:hover
+{ color: var(--hover-link); }
