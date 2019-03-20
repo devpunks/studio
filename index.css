@@ -149,7 +149,10 @@ a[href^=mailto]::before
   text-decoration: none;
   vertical-align: middle;
 }
-a:hover[href^=mailto]::before {
-  opacity: 1.0;
-  text-decoration: none;
-}
+
+/* icons.css */
+a[href^=mailto]::before
+  { content: '📧'; }
+
+a[href^=tel]::before
+  { content: '📞'; }
