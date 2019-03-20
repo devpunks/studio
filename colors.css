@@ -22,6 +22,10 @@
   background-color: var(--color);
 }
 
+::backdrop
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
+  { background-color: var(--background-color); }
+
 html {
   color:            var(--color);
   background-color: var(--background-color);
