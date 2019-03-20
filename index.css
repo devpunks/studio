@@ -59,5 +59,17 @@ table
 /* forms.css */
 
 button, [type=submit], [type=button], [type=reset]
-  /* enable iOS / Safari button styling */
-  { -webkit-appearance: button; }
+{
+  -webkit-appearance: button;
+  appearance:         button;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  -moz-appearance:    button;
+  appearance:         button;
+}
+::-moz-file-upload-button {
+  -webkit-appearance: button;
+  -moz-appearance:    button;
+  appearance:         button;
+}
