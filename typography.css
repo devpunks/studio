@@ -111,7 +111,6 @@ b, strong
   { font-weight: bolder; }
 p
   { margin: var(--p-margin); }
-
 q
   { font-style: italic; }
 
