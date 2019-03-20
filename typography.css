@@ -115,14 +115,8 @@ p
 cite {
   font-size: 80%;
 }
-cite::before {
-  content: '—'; /* https://en.wikipedia.org/wiki/Dash */
-  white-space: pre;
-  margin-right: 0.2em;
-  /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
-  display: inline-block;
-}
-
+cite::before
+  { content: '—'; /* https://en.wikipedia.org/wiki/Dash */ }
 q
   { font-style: italic; }
 ul, ol
