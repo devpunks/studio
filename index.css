@@ -39,7 +39,6 @@ html
 }
 
 main, details {
-  display: block;
   max-width: 1200px;
   background: green;
 }
