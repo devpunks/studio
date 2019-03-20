@@ -83,10 +83,6 @@ button, [type=submit], [type=button], [type=reset]
   appearance:         button;
 }
 
-/*
- * Add the correct styles in Edge, IE, and Safari.
- */
-
 dialog {
   background-color: white;
   border: solid;
