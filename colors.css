@@ -43,7 +43,6 @@ a:visited
 
 a:hover {
   color: var(--a\:hover);
-  text-decoration: underline;
 }
 
 legend
