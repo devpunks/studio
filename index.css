@@ -105,6 +105,5 @@ dialog {
   width: fit-content;
 }
 
-dialog:not([open]) {
-  display: none;
-}
+dialog:not([open])
+  { display: none; }
