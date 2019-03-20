@@ -138,6 +138,12 @@ pre, code, kbd, samp {
     monospace;        /* fallback */
 }
 
+button, input, select, textarea {
+  font-size:   inherit;
+  line-height: inherit;
+  font-family: inherit;
+}
+
 /*
   - https://zellwk.com/blog/why-vertical-rhythms
   - http://mikeyanderson.com/optimal_characters_per_line
