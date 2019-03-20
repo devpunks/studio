@@ -132,3 +132,19 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 
 [hidden]
   { display: none; }
+
+/* accessibility.css */
+[aria-busy=true]
+  { cursor: progress; }
+
+[aria-controls]
+  { cursor: pointer; }
+
+[aria-disabled=true]
+  { cursor: not-allowed; }
+
+[aria-hidden="false"][hidden]:not(:focus) {
+  display: inherit;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
