@@ -138,7 +138,6 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   clip: rect(0, 0, 0, 0);
 }
 
-/* icons.css */
 /* URLI Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier */
 a[href^=mailto]::before {
   content: '📧';
