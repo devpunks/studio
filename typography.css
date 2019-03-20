@@ -103,6 +103,9 @@ a:hover {
   border-color: .1em solid var(--hover-link)
 }
 
+b, strong
+  { font-weight: bolder; }
+
 p
   { margin: var(--p-margin); }
 
