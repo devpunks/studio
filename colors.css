@@ -14,7 +14,7 @@
 
 html {
   color:      var(--color);
-  background: var(--background);
+  background-color: var(--background-color);
 
 }
 
