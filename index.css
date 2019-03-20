@@ -38,7 +38,7 @@ html
   outline: 1px dotted ButtonText;
 }
 
-main {
+main, details {
   display: block;
   max-width: 1200px;
   background: green;
