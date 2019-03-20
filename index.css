@@ -92,6 +92,8 @@ dialog {
   margin: auto;
   border: solid;
   display: block;
+  position: absolute;
+
   height: -moz-fit-content;
   height: -webkit-fit-content;
   height: fit-content;
