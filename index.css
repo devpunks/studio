@@ -55,6 +55,11 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 img
   { width: 100%; height: auto; }
 
+canvas {
+  display: inline-block;
+  outline: 1px solid var(--color);
+}
+
 audio, canvas, iframe, img, svg, video {
   vertical-align: middle;
   margin: 0 auto 1.612em;
