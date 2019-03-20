@@ -109,9 +109,8 @@ b, strong
 p
   { margin: var(--p-margin); }
 
-ul, ol {
-  list-style-position: inside;
-}
+ul, ol
+  { list-style-position: inside; }
 
 abbr[title] {
   text-decoration: underline;
