@@ -84,7 +84,12 @@ button, [type=submit], [type=button], [type=reset]
 }
 
 dialog {
-  background-color: white;
+  color: var(--background-color);
+  background-color: var(--color);
+
+  left: 0;
+  right: 0;
+  margin: auto;
   border: solid;
   color: black;
   display: block;
