@@ -123,6 +123,19 @@ nav ol, nav ul
 img
   { width: 100%; height: auto; }
 
+pre, code, kbd, samp {
+  font-size: var(--font-size);
+  
+  font-family:
+    Menlo,            /* macOS 10.10+ */
+    Consolas,         /* Windows 6+ */
+    Roboto Mono,      /* Android 4+ */
+    Ubuntu Monospace, /* Ubuntu 10.10+ */
+    Noto Mono,        /* KDE Plasma 5+ */
+    Oxygen Mono,      /* KDE Plasma 4+ */
+    Liberation Mono,  /* Linux/OpenOffice fallback */
+    monospace;        /* fallback */
+}
 /*
   - https://zellwk.com/blog/why-vertical-rhythms
   - http://mikeyanderson.com/optimal_characters_per_line
