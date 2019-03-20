@@ -113,10 +113,6 @@ dialog {
 dialog:not([open])
   { display: none; }
 
-::backdrop
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
-  { background: var(--background-color); }
-
 a, area, button, input, label, select, summary, textarea, [tabindex] {
   /* Remove tapping delay */
   -ms-touch-action: manipulation;
