@@ -94,9 +94,6 @@ summary
   { display: list-item; }
   
 dialog {
-  color: var(--background-color);
-  background-color: var(--color);
-
   left: 0;
   right: 0;
   margin: auto;
