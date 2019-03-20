@@ -57,5 +57,8 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 }
 
 /* media elements */
+img
+  { width: 100%; height: auto; }
+
 audio, canvas, iframe, img, svg, video
   { vertical-align: middle; }
