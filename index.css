@@ -139,7 +139,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 }
 
 /* icons.css */
-/* URLI Schemes - https://en.wikipedia.org/wiki/About_URI_scheme */
+/* URLI Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier */
 a[href^=mailto]::before {
   content: '📧';
   opacity: 0.8;
