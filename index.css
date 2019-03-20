@@ -141,7 +141,6 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 ::before, :before
 {
   white-space: pre;
-  margin-right: 0.2em;
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   display: inline-block;
   text-decoration: none;
