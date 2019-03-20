@@ -21,7 +21,7 @@ html {
 a:link,
 a:active,
 a:visited
-{ color: var(--link); }
+  { color: var(--link); }
 
 a:hover
 { color: var(--hover-link); }
