@@ -14,7 +14,7 @@ html
   { cursor: default; }
 abbr[title]
   { cursor: help; }
-button
+button, [type=submit], [type=button], [type=reset]
   { cursor: pointer; }
 progress
   { cursor: progress; }
