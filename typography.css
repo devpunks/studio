@@ -128,7 +128,7 @@ small
 
 pre, code, kbd, samp {
   font-size: var(--font-size);
-  
+
   font-family:
     Menlo,            /* macOS 10.10+ */
     Consolas,         /* Windows 6+ */
