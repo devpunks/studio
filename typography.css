@@ -89,19 +89,6 @@ h1 {
   line-height: 1.12em;
 }
 
-a:link,
-a:active,
-a:visited {
-  color: var(--link);
-  text-decoration: none;
-  border-bottom: .1em solid var(--link)
-}
-
-a:hover {
-  color: var(--hover-link);
-  border-color: .1em solid var(--hover-link)
-}
-
 b, strong
   { font-weight: bolder; }
 
