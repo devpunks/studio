@@ -39,6 +39,9 @@ html
   outline: 1px dotted ButtonText;
 }
 
+template /* IE custom elements */
+  { display: none; }
+
 main {
   max-width: 1200px;
   background: green;
