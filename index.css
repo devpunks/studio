@@ -140,7 +140,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 
 /* icons.css */
 a[href^=mailto]::before {
-  content: '✉';
+  content: '📧';
   opacity: 0.8;
   margin-right: 0.2em;
   display: inline-block;
