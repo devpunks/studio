@@ -115,24 +115,30 @@ abbr[title] {
   text-decoration: underline dotted;
 }
 
+del::before, ins::before {
+    font-family: var(--font-family-mono);
+}
+
+del::before
+  { content: '−'; }
+
+ins::before
+  { content: '+'; }
+
 nav ol, nav ul
   { list-style: none; }
 
+del, s, strike {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+  
 small
   { font-size: 80%; }
 
 pre, code, kbd, samp {
-  font-size: var(--font-size);
-
-  font-family:
-    Menlo,            /* macOS 10.10+ */
-    Consolas,         /* Windows 6+ */
-    Roboto Mono,      /* Android 4+ */
-    Ubuntu Monospace, /* Ubuntu 10.10+ */
-    Noto Mono,        /* KDE Plasma 5+ */
-    Oxygen Mono,      /* KDE Plasma 4+ */
-    Liberation Mono,  /* Linux/OpenOffice fallback */
-    monospace;        /* fallback */
+  font-size:   var(--font-size);
+  font-family: var(--font-family-mono);
 }
 
 button, input, select, textarea {
