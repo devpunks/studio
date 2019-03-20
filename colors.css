@@ -18,7 +18,6 @@
 }
 
 ::selection {
-  text-shadow: none;
   color: var(--background-color);
   background-color: var(--color);
 }
