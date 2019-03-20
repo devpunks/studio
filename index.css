@@ -107,5 +107,5 @@ dialog:not([open])
   { display: none; }
 
 dialog::backdrop
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
   { background: rgba(0,0,0,.25); }
