@@ -144,6 +144,7 @@ a[href^=mailto]::before {
   opacity: 0.8;
   white-space: pre;
   margin-right: 0.2em;
+  /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   display: inline-block;
   text-decoration: none;
   vertical-align: middle;
