@@ -24,4 +24,4 @@ a:visited
   { color: var(--link); }
 
 a:hover
-{ color: var(--hover-link); }
+  { color: var(--hover-link); }
