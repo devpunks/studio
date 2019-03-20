@@ -132,14 +132,6 @@ del::before
 
 ins::before
   { content: '+'; }
-
-nav ol, nav ul
-  { list-style: none; }
-
-del, s, strike {
-  opacity: 0.5;
-  text-decoration: line-through;
-}
   
 small
   { font-size: 80%; }
