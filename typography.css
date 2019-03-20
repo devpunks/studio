@@ -113,7 +113,6 @@ p
   { margin: var(--p-margin); }
 q
   { font-style: italic; }
-
 ul, ol
   { list-style-position: inside; }
 
