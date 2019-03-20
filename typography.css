@@ -49,6 +49,11 @@
   }
 }
 
+::-moz-selection
+  { text-shadow: none; }
+::selection
+  { text-shadow: none; }
+
 body :not(a), *, ::before, ::after, *:before, *:after
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { text-decoration: inherit; }
@@ -87,6 +92,9 @@ body {
 body > *, body > header > p {
   margin: var(--margin);
 }
+
+a:hover
+  { text-decoration: underline; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
