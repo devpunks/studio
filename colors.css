@@ -47,3 +47,8 @@ a:hover {
 
 legend
   { color: inherit; /* IE */ }
+
+dialog {
+  color: var(--background-color);
+  background-color: var(--color);
+}
