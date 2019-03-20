@@ -32,7 +32,7 @@
     'Liberation Mono',   /* Linux/OpenOffice fallback */
     monospace;           /* fallback */
 }
-}
+
 
 @media screen and (min-width: 786px) {
   :root {
