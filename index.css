@@ -139,9 +139,9 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 }
 
 /* URLI Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier */
-a[href^=mailto]::before {
-  content: '📧';
-  opacity: 0.8;
+a[href^=tel]::before,
+a[href^=mailto]::before
+{
   white-space: pre;
   margin-right: 0.2em;
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
