@@ -20,7 +20,9 @@ progress
   { cursor: progress; }
 [disabled]
   { cursor: not-allowed; }
-
+canvas
+  { cursor: none; }
+  
 /* boxing */
 html
   { box-sizing: border-box; }
