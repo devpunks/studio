@@ -139,6 +139,7 @@ pre, code, kbd, samp {
 }
 
 button, input, select, textarea {
+  margin:      0; /* Safari */
   font-size:   inherit;
   line-height: inherit;
   font-family: inherit;
