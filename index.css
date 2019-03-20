@@ -52,7 +52,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   background: var(--color);
 }
 
-/* media elements */
+/* media.css */
 img
   { width: 100%; height: auto; }
 
