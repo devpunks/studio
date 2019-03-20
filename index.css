@@ -82,6 +82,11 @@ button, [type=submit], [type=button], [type=reset]
   appearance:         button;
 }
 
+details
+  { display: block; }
+summary
+  { display: list-item; }
+  
 dialog {
   color: var(--background-color);
   background-color: var(--color);
