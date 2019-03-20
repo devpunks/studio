@@ -67,3 +67,10 @@ audio, canvas, iframe, img, svg, video {
 
 table
   { border-collapse: collapse; }
+
+
+/* forms.css */
+
+button, [type=submit], [type=button], [type=reset]
+  /* enable iOS / Safari button styling */
+  { -webkit-appearance: button; }
