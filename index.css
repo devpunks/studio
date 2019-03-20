@@ -43,9 +43,8 @@ html
 template /* IE custom elements */
   { display: none; }
 
-main {
-  max-width: 1200px;
-}
+main
+  { max-width: 1200px; }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: .1em;
