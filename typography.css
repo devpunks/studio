@@ -117,9 +117,8 @@ abbr[title] {
   text-decoration: underline dotted;
 }
 
-nav ol, nav ul {
-  list-style: none;
-}
+nav ol, nav ul
+  { list-style: none; }
 
 img
   { width: 100%; height: auto; }
