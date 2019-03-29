@@ -135,7 +135,7 @@ h1 {
 }
 
 b, strong
-  { font-weight: bolder; }
+  { font-weight: bolder }
 p
   { margin: var(--p-margin); }
 
