@@ -185,7 +185,7 @@ ins::before
   { content: '+' }
   
 small
-  { font-size: 80%; }
+  { font-size: 80% }
 
 pre, code, kbd, samp {
   font-size:   var(--font-size);
