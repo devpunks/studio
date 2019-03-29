@@ -145,7 +145,7 @@ cite
 cite::before
   { content: '—' /* https://en.wikipedia.org/wiki/Dash */ }
 q
-  { font-style: italic; }
+  { font-style: italic }
 
 ul, ol {
   margin: auto auto auto 2em;
