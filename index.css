@@ -47,7 +47,7 @@ main
   { max-width: 1200px; }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
-  height: .1em;
+  height: .15em;
   overflow: visible;
   margin-bottom: 1.612em;
 }
