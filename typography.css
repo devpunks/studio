@@ -99,7 +99,7 @@ html {
   font-size-adjust: 0.5;
   word-break:  break-word;
   unicode-range: U+0-10FFFF;
-  font-feature-settings: normal;
+  font-feature-settings: normal
 }
 
 html * {
