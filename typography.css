@@ -127,8 +127,11 @@ cite::before
   { content: '—'; /* https://en.wikipedia.org/wiki/Dash */ }
 q
   { font-style: italic; }
-ul, ol
-  { list-style-position: inside; }
+
+ul, ol {
+  margin: auto auto auto 2em;
+  list-style-position: inside;
+}
 
 abbr[title] {
   text-decoration: underline;
