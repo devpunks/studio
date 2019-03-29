@@ -87,8 +87,8 @@ html {
   line-height:    var(--line-height);
   letter-spacing: var(--letter-spacing);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
-  -moz-tab-size: var(--tab-size);
-       tab-size: var(--tab-size);
+  -moz-tab-size:  var(--tab-size);
+       tab-size:  var(--tab-size);
   /* Prevent adjustments of font size after orientation changes in iOS.
    * https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
   -webkit-text-size-adjust: var(--text-size-adjust);
