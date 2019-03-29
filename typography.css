@@ -69,7 +69,7 @@
   }
 }
 
-::-moz-selection
+::-moz-selection /* set separately */
   { text-shadow: none; }
 ::selection
   { text-shadow: none; }
