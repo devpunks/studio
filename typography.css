@@ -179,7 +179,7 @@ del::before, ins::before
   { font-family: var(--font-family-mono) }
 
 del::before
-  { content: '−'; /* https://en.wikipedia.org/wiki/Dash */ }
+  { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
 
 ins::before
   { content: '+'; }
