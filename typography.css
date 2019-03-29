@@ -90,7 +90,7 @@ body {
 }
 
 body > aside  {
-  background: red;
+  outline: 4px dotted red;
 }
 
 body > footer {
