@@ -182,7 +182,7 @@ del::before
   { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
 
 ins::before
-  { content: '+'; }
+  { content: '+' }
   
 small
   { font-size: 80%; }
