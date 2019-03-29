@@ -143,7 +143,7 @@ cite
   { font-size: 80% }
 
 cite::before
-  { content: '—'; /* https://en.wikipedia.org/wiki/Dash */ }
+  { content: '—' /* https://en.wikipedia.org/wiki/Dash */ }
 q
   { font-style: italic; }
 
