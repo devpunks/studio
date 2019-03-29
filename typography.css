@@ -72,7 +72,7 @@
 ::-moz-selection /* set separately */
   { text-shadow: none }
 ::selection
-  { text-shadow: none; }
+  { text-shadow: none }
 
 body :not(a), *,
 ::before, *:before,
