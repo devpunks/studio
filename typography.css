@@ -158,7 +158,7 @@ abbr[title] {
 }
 
 nav ol, nav ul
-  { list-style: none; }
+  { list-style: none }
 
 body del, body s {
   opacity: 0.5;
