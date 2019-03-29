@@ -74,7 +74,9 @@
 ::selection
   { text-shadow: none; }
 
-body :not(a), *, ::before, ::after, *:before, *:after
+body :not(a), *,
+::before, *:before,
+::after,  *:after
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { text-decoration: inherit; }
 
