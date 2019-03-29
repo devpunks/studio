@@ -131,7 +131,7 @@ a:hover
 h1 {
   margin: var(--margin);
 
-  font-size: 2em;
+  font-size:   2em;
   line-height: 1.12em;
 }
 
