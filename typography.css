@@ -115,9 +115,8 @@ body > aside  {
   outline: 4px dotted red;
 }
 
-body > footer {
-  text-align: center;
-}
+body > footer
+  { text-align: center; }
 
 body > *, body > header > p {
   margin: var(--margin);
