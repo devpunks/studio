@@ -118,9 +118,8 @@ body > aside  {
 body > footer
   { text-align: center; }
 
-body > *, body > header > p {
-  margin: var(--margin);
-}
+body > *, body > header > p
+  { margin: var(--margin); }
 
 a:hover
   { text-decoration: underline; }
