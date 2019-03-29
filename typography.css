@@ -89,6 +89,10 @@ body {
   padding: 1.612em 0;
 }
 
+body > aside  {
+  background: red;
+}
+
 body > footer {
   text-align: center;
 }
