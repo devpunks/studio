@@ -70,7 +70,7 @@
 }
 
 ::-moz-selection /* set separately */
-  { text-shadow: none; }
+  { text-shadow: none }
 ::selection
   { text-shadow: none; }
 
