@@ -176,7 +176,7 @@ blockquote::before
 }
 
 del::before, ins::before
-  { font-family: var(--font-family-mono); }
+  { font-family: var(--font-family-mono) }
 
 del::before
   { content: '−'; /* https://en.wikipedia.org/wiki/Dash */ }
