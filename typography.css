@@ -107,9 +107,8 @@ html * {
   padding: 0.02px 0
 }
 
-body {
-  padding: 1.612em 0;
-}
+body
+  { padding: 1.612em 0 }
 
 body > aside  {
   outline: 4px dotted red;
