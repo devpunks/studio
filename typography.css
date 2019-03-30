@@ -115,6 +115,9 @@ body > header {
 }
 body > header a[target=_top] {
   display: block;
+  background: url(index.png) no-repeat center;
+  outline: 3px solid var(--color);
+  background-size: contain;
 
   /* header */
   line-height: 2em;
