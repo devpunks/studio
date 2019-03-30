@@ -110,6 +110,10 @@ html * {
 body
   { padding: 1.612em 0 }
 
+body > header {
+  background: green;
+}
+
 body > aside  {
   outline: 4px dotted red
 }
