@@ -120,7 +120,6 @@ body > header a[target=_top] {
   /* header */
   line-height: 2em;
   font-size: 3em;
-  display: block;
 }
 
 body > aside  {
