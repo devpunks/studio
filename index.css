@@ -169,5 +169,7 @@ a[href*=facebook]::before {
   content: 'F';
   color: #fff;
   margin: 0 .3em;
+  padding: 0 .3em;
+  font-weight: bold;
   border-radius: .3em;
  }
