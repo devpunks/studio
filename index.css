@@ -155,3 +155,6 @@ a[href^=mailto]::before
 
 a[href^=tel]::before
   { content: '📞'; }
+
+a[href*=twitter]::before
+  { content: '🐦' }
