@@ -158,3 +158,6 @@ a[href^=tel]::before
 
 a[href*=twitter]::before
   { content: '🐦' }
+
+a[href*=instagram]::before
+  { content: '📷' }
