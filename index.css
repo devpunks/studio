@@ -164,3 +164,6 @@ a[href*=instagram]::before
 
 a[href*=github]::before
   { content: '🐙' }
+
+a[href*=facebook]::before
+  { content: '🇫'; background: blue }
