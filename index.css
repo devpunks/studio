@@ -161,3 +161,6 @@ a[href*=twitter]::before
 
 a[href*=instagram]::before
   { content: '📷' }
+
+a[href*=github]::before
+  { content: '🐙' }
