@@ -120,8 +120,8 @@ body > header a[target=_top] {
   background-size: contain;
 
   /* header */
-  line-height: 2em;
   font-size: 3em;
+  line-height: 2em;
 }
 
 body > aside  {
