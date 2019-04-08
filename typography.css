@@ -129,6 +129,7 @@ body > header[role=banner] { }
 
 [role=search] {
   background-color: green;
+  text-align: right;
 }
 
 body > main {
