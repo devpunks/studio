@@ -47,7 +47,7 @@ body > aside  {
   outline: 4px dotted red
 }
 
-main
+body > main
   { max-width: 1200px; }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
