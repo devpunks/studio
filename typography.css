@@ -125,7 +125,6 @@ body { }
 [role=banner] a[target=_top] {
   display: block;
   background: currentColor url(index.png) no-repeat left;
-  background-size: contain;
 
   font-size: 3em;
   line-height: 2em;
