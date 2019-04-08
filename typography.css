@@ -117,7 +117,7 @@ body { }
 
 body > header[role=banner] { }
 
-body > header[role=banner] a[target=_top] {
+[role=banner] a[target=_top] {
   display: block;
   background: var(--color) url(index.png) no-repeat center;
   background-size: contain;
