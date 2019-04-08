@@ -124,6 +124,7 @@ body > header[role=banner] { }
 
   font-size: 3em;
   line-height: 2em;
+  margin-bottom: 0.2em;
 }
 
 [role=search] {
