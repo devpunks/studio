@@ -244,3 +244,8 @@ table {
   margin: 0 auto 1.612em;
   box-shadow: 0.2em 0.2em 0.2em var(--shadow);
 }
+
+table thead {
+  background: var(--color);
+  color: var(--background-color);
+}
