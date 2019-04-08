@@ -127,7 +127,10 @@ body > main {
   background-color: red;
 }
 body > aside
-  { margin: 0 auto 1em }
+{
+  width:  90%;
+  margin: 0 auto 1em;
+}
 
 body > footer
   { text-align: center; }
