@@ -128,8 +128,8 @@ body { }
 }
 
 [role=search] {
-  outline: 0.3em dashed currentColor;
   text-align: right;
+  outline: 0.3em dashed currentColor;
 }
 
 body > main {
