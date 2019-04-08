@@ -136,8 +136,7 @@ body > main {
   outline: 0.3em dashed currentColor;
 }
 
-body > aside
-{
+body > aside {
   width:  90%;
   margin: 0 auto 1em;
 }
