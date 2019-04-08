@@ -43,6 +43,10 @@ html
 template /* IE custom elements */
   { display: none; }
 
+body > aside  {
+  outline: 4px dotted red
+}
+
 main
   { max-width: 1200px; }
 
