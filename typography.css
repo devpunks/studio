@@ -242,4 +242,5 @@ table {
   background: green;
   width: 96%;
   margin: 0 auto 1.612em;
+  box-shadow: 0.2em 0.2em 0.2em var(--shadow);
 }
