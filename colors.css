@@ -41,9 +41,8 @@ a:active,
 a:visited
   { color: var(--a); }
 
-a:hover {
-  color: var(--a\:hover);
-}
+a:hover
+  { color: var(--a\:hover); }
 
 legend
   { color: inherit; /* IE */ }
