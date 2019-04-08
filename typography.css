@@ -124,10 +124,6 @@ body > header a[target=_top] {
   line-height: 2em;
 }
 
-body > aside  {
-  outline: 4px dotted red
-}
-
 body > footer
   { text-align: center; }
 
