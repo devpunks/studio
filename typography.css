@@ -167,6 +167,9 @@ h1 {
   font-size:   2em;
   line-height: 1.12em
 }
+h1, h2, h3, h4, h5, h6, header {
+  margin: var(--margin);
+}
 
 b, strong
   { font-weight: bolder }
