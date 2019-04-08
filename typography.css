@@ -129,6 +129,7 @@ body { }
 
 [role=search] {
   background-color: green;
+  outline: 0.3em dashed currentColor;
   text-align: right;
 }
 
