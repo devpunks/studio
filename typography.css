@@ -123,6 +123,12 @@ body > header a[target=_top] {
   line-height: 2em;
 }
 
+body > main {
+  background-color: red;
+}
+body > aside
+  { margin: 0 auto 1em }
+
 body > footer
   { text-align: center; }
 
