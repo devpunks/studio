@@ -127,6 +127,10 @@ body > header[role=banner] { }
   line-height: 2em;
 }
 
+[role=search] {
+  background-color: green;
+}
+
 body > main {
   background-color: red;
 }
