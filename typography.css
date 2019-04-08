@@ -46,6 +46,7 @@
     'Liberation Mono',   /* Linux/OpenOffice fallback */
     monospace;           /* fallback */
 
+  --border-collapse-bugfix: 0.02px
 }
 
 @media screen and (min-width: 786px) {
