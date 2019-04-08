@@ -133,7 +133,6 @@ body { }
 }
 
 body > main {
-  background-color: red;
   outline: 0.3em dashed currentColor;
 }
 
