@@ -142,8 +142,9 @@ body > aside
   margin: 0 auto 1em;
 }
 
-body > footer
-  { text-align: center; }
+body > footer {
+  text-align: center;
+}
 
 body > *, body > header > p
   { margin: var(--margin) }
