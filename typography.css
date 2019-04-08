@@ -106,7 +106,7 @@ html {
 
 html * {
   margin:  0 0 var(--border-collapse-bugfix);
-  padding: 0.02px 0
+  padding: var(--border-collapse-bugfix) 0 0;
 }
 
 body { }
