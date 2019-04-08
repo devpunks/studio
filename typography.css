@@ -122,7 +122,6 @@ body > header[role=banner] { }
   background: var(--color) url(index.png) no-repeat center;
   background-size: contain;
 
-  /* header */
   font-size: 3em;
   line-height: 2em;
 }
