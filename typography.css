@@ -237,3 +237,7 @@ button {
   overflow:       visible; /* Show the overflow in IE. */
   text-transform: none     /* Remove the inheritance of text transform in Edge, Firefox, and IE. */
 }
+
+table {
+  background: green;
+}
