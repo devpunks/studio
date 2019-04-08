@@ -115,7 +115,7 @@ html * {
 
 body { }
 
-body > header[role=banner] { }
+header[role=banner] { }
 
 [role=banner] a[target=_top] {
   display: block;
