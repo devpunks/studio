@@ -44,7 +44,9 @@ template /* IE custom elements */
   { display: none; }
 
 body > aside  {
-  outline: 4px dotted red
+  outline: .5em dashed currentColor;
+  color: var(--background-color);
+  background-color: var(--color);
 }
 
 body > main
