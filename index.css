@@ -49,7 +49,7 @@ body > aside  {
   background-color: var(--color);
 }
 
-body > main
+body > main, body > aside
   { max-width: 1200px; }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
