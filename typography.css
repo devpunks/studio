@@ -119,8 +119,7 @@ body > header { }
 
 body > header a[target=_top] {
   display: block;
-  background: url(index.png) no-repeat center;
-  outline: 3px solid var(--color);
+  background: var(--color) url(index.png) no-repeat center;
   background-size: contain;
 
   /* header */
