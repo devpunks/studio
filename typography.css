@@ -110,9 +110,8 @@ html * {
 body
   { padding: 1.612em 0 }
 
-body > header {
-  
-}
+body > header { }
+
 body > header a[target=_top] {
   display: block;
   background: url(index.png) no-repeat center;
