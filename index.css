@@ -163,7 +163,7 @@ a[href^=mailto]::before
   { content: '📧' }
 
 a[href^=tel]::before
-  { content: '📞'; }
+  { content: '📞' }
 
 a[href*=twitter]::before
   { content: '🐦' }
