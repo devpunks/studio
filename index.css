@@ -137,7 +137,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   { cursor: progress }
 
 [aria-controls]
-  { cursor: pointer; }
+  { cursor: pointer }
 
 [aria-disabled=true]
   { cursor: not-allowed; }
