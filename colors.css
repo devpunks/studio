@@ -55,5 +55,5 @@ dialog {
 
 table tr:nth-child(odd) {
   color: var(--background-color);
-  background-color: var(--color);
+  background-color: var(--color)
 }
