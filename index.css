@@ -140,7 +140,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   { cursor: pointer }
 
 [aria-disabled=true]
-  { cursor: not-allowed; }
+  { cursor: not-allowed }
 
 [aria-hidden="false"][hidden]:not(:focus) {
   display: inherit;
