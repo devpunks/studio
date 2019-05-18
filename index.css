@@ -35,6 +35,7 @@ html
   padding:      0;
   border-style: none;
 }
+
 :-moz-focusring
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText; }
