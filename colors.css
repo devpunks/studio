@@ -29,7 +29,7 @@
 
 html {
   color:            var(--color);
-  background-color: var(--background-color);
+  background-color: var(--background-color)
 }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
