@@ -43,6 +43,9 @@ html
 template /* IE custom elements */
   { display: none; }
 
+article, aside, footer, header, nav, section
+  { display:block }
+
 body > aside  {
   outline: .5em dashed currentColor;
   color: var(--background-color);
