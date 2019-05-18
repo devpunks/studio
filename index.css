@@ -154,7 +154,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   display: inline-block;
   text-decoration: none;
-  vertical-align: baseline;
+  vertical-align: baseline
 }
 
 /* icons.css */
