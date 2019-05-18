@@ -40,7 +40,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 a:link,
 a:active,
 a:visited
-  { color: var(--a); }
+  { color: var(--a) }
 
 a:hover
   { color: var(--a\:hover); }
