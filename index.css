@@ -126,7 +126,7 @@ dialog:not([open])
 a, area, button, input, label, select, summary, textarea, [tabindex] {
   /* Remove tapping delay */
   -ms-touch-action: manipulation;
-  touch-action:     manipulation;
+  touch-action:     manipulation
 }
 
 [hidden]
