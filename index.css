@@ -134,7 +134,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 
 /* accessibility.css */
 [aria-busy=true]
-  { cursor: progress; }
+  { cursor: progress }
 
 [aria-controls]
   { cursor: pointer; }
