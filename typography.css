@@ -69,6 +69,8 @@
 @media screen and (min-width: 1200px) {
   :root {
 
+    --column-count: 1;
+
     --font-size: 1.5vw;
     
     --text-align: left;
