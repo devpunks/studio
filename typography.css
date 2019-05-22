@@ -194,6 +194,11 @@ ul, ol {
   list-style-position: inside
 }
 
+nav ol, nav ul
+  { list-style: none }
+
+main ol, main ul { }
+
 abbr[title] {
   text-decoration: underline;
   text-decoration: underline dotted
