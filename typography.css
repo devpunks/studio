@@ -169,7 +169,6 @@ h1, h2, h3, h4, h5, h6, header {
   margin: var(--margin);
 
   font-weight: bold;
-  margin: var(--margin);
   text-shadow: 0.05em 0.05em 0.2em var(--shadow);
 }
 header {
