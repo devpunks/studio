@@ -204,9 +204,6 @@ abbr[title] {
   text-decoration: underline dotted
 }
 
-nav ol, nav ul
-  { list-style: none }
-
 body del, body s {
   opacity: 0.5;
   text-decoration: line-through
