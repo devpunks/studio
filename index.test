@@ -3,9 +3,6 @@ const
     = require ('snuggsi')
 
 
-console.log ('HEY HO LETS GO!!!!', process.env.NODE_PATH)
-
-
 test ('Holy shit this actually works', t => {
 
   console.warn ('About to test')
