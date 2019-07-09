@@ -4,10 +4,6 @@ const
 
 
 test ('Holy shit this actually works', t => {
-
-  console.warn ('About to test')
-
   t.equal (true, true)
-
   t.end ()
 })
