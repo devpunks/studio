@@ -2,8 +2,5 @@ const
   { test }
     = require ('snuggsi')
 
-
-test ('Holy shit this actually works', t => {
-  t.equal (true, true)
-  t.end ()
-})
+test `Holy shit this actually works`
+  ( assert => assert (true) )
