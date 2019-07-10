@@ -1,6 +1,21 @@
 const
-  { test }
+  { test, fetch }
     = require ('snuggsi')
 
 test `Holy shit this actually works`
   ( assert => assert (true) )
+
+
+test `Payload from test json`
+
+( async assert => {
+
+  let payload =
+    await fetch `https://jsonplaceholder.typicode.com/todos/1`
+
+  console.log ('Payload', await payload.json ``)
+
+  assert (true)
+})
+
+
