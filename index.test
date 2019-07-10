@@ -12,10 +12,6 @@ test `Payload from test json`
   , json    = await payload.json ``
   , text    = await read `index.go`
 
-
-  console.log ('Payload', json)
-  console.log ('text', text)
-
   assert (text)
   assert ('title' in json)
 })
