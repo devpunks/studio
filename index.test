@@ -21,5 +21,6 @@ test `Payload from test json`
   console.log ('Payload', json)
   console.log ('text', text)
 
+  assert (text)
   assert ('title' in json)
 })
