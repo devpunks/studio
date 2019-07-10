@@ -15,7 +15,6 @@ test `Payload from test json`
       await payload.json ``
 
   console.log ('Payload', json)
-
   assert ('title' in json)
 })
 
