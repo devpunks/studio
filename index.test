@@ -17,5 +17,3 @@ test `Payload from test json`
   console.log ('Payload', json)
   assert ('title' in json)
 })
-
-
