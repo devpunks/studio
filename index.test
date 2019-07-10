@@ -1,5 +1,5 @@
 const
-  { test, fetch }
+  { test, fetch, read }
     = require ('snuggsi')
 
 
