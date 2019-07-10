@@ -12,6 +12,7 @@ test `Payload from test json`
   , json    = await payload.json ``
   , text    = await read `index.go`
 
-  assert (text)
-  assert ('title' in json)
+  assert
+    (text)
+    ('title' in json)
 })
