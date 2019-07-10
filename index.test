@@ -8,9 +8,8 @@ test `Payload from test json`
 ( async assert => {
 
   let
-    payload = await fetch `https://jsonplaceholder.typicode.com/todos/1`
-  , json    = await payload.json ``
-  , text    = await read `index.go`
+    payload =
+      await fetch `https://jsonplaceholder.typicode.com/todos/1`
 
   assert
     (text)
