@@ -2,9 +2,6 @@ const
   { test, fetch }
     = require ('snuggsi')
 
-test `Holy shit this actually works`
-  ( assert => assert (true) )
-
 
 test `Payload from test json`
 
