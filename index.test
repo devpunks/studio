@@ -7,10 +7,9 @@ test `Payload from test json`
 
 (async assert => {
 
-  let
-    response = await fetch
-      `https://jsonplaceholder.typicode.com/todos/1`
-
+  let response = await fetch
+    `https://jsonplaceholder.typicode.com/todos/1`
+  
   assert
     ( await read `index.go` )
     ( 'title' in await response.json `` )
