@@ -5,7 +5,7 @@ const
 
 test `Payload from test json`
 
-( async assert => {
+(async assert => {
 
   let
     payload =
