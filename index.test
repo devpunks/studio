@@ -13,9 +13,11 @@ test `Payload from test json`
   let payload =
     await fetch `https://jsonplaceholder.typicode.com/todos/1`
 
-  console.log ('Payload', await payload.json ``)
+  , json = await payload.json ``
 
-  assert (true)
+  console.log ('Payload', json)
+
+  assert ('title' in json)
 })
 
 
