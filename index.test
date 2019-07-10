@@ -11,7 +11,8 @@ test `Payload from test json`
     response =
       await fetch `https://jsonplaceholder.typicode.com/todos/1`
 
+
   assert
     (await read `index.go`)
-    ('title' in await payload.json ``)
+    ('title' in await response.json ``)
 })
