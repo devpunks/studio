@@ -3,7 +3,6 @@ const
     = require ('snuggsi')
 
 
-test `Payload from test json`
 
 (async assert => {
 
