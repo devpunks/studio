@@ -21,4 +21,3 @@ test `"title" property of test json`
     // for Tom Shits and giggles
       ( await read `index.go` )
   )
-
