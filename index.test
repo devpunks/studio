@@ -11,8 +11,8 @@ test `"title" property of test json`
   ( async ( assert, response, json ) => assert
 
   // setup assertions
-    ( response = await fetch `https://jsonplaceholder.typicode.com/todos/1` )
-    ( json = response.json ``, 'test json response' )
+    ( response = fetch `https://jsonplaceholder.typicode.com/todos/1` )
+    ( json = ( await response ).json ``, 'test json response' )
 
   // main assertions
     ( 'title' in await json, 'test title in payload' )
