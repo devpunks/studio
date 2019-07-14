@@ -4,12 +4,21 @@ const
 
 
 
-(async assert => {
+test `A pending test to be defined later`
 
-  let response = await fetch
-    `https://jsonplaceholder.typicode.com/todos/1`
-  
-  assert
-    ( await read `index.go` )
-    ( 'title' in await response.json `` )
-})
+
+test `"title" property of test json`
+
+  ( async ( assert, response, json ) => assert
+
+    // setup assertions
+      ( response = await fetch `https://jsonplaceholder.typicode.com/todos/1`)
+      ( json = response.json `` )
+
+    // main assertions
+      ( 'title' in await json )
+
+    // for Tom Shits and giggles
+      ( await read `index.go` )
+  )
+
