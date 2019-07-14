@@ -19,5 +19,5 @@ test `"title" property of test json`
     ( 'title' in await json, 'test title in payload' )
 
   // for Tom Shits and giggles
-    ( await read `index.go` )
+    ( await read `index.go`, 'test golang file contents' )
   )
