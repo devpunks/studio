@@ -1,6 +1,6 @@
 {
   "name": "devpunks.studio",
-  "short_name": "HackerWeb",
+  "short_name": "devpunks.studio",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
