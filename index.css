@@ -1,5 +1,5 @@
-@import 'colors.css';
-@import 'typography.css';
+@import '/style/colors.css';
+@import '/style/typography.css';
 
 /*
   - normalize.css
