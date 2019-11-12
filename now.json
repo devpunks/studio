@@ -12,7 +12,7 @@
           "content-type": "application/manifest+json"
         }
       ],
-      "dest": "/index.manifest"
+      "dest": "/$1.webmanifest"
     }
   ]
 }
