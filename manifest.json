@@ -19,7 +19,7 @@
     "sizes": "96x96",
     "type": "image/png"
   }, {
-    "src": "images/touch/homescreen144.png",
+    "src": "index.144x144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
