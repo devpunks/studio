@@ -3,7 +3,7 @@
   "short_name": "devpunks.studio",
   "scope": "/",
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#0f0",
   "orientation": "landscape",
   "background_color": "#f00",
