@@ -6,7 +6,7 @@
 
   "routes": [
     {
-      "src": "/(.*).manifest",
+      "src": "/(.*).webmanifest",
       "headers": [
         {
           "content-type": "application/json"
