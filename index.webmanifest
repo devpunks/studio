@@ -50,5 +50,12 @@
 
   "screenshots": [
     { "src": "screenshots/index.jpg", "sizes": "1280x920", "type": "image/jpeg" }
-  ]
+  ],
+
+  "serviceworker": {
+    "src": "./worker.js",
+    "scope": "/",
+    "type": "",
+    "update_via_cache": "none"
+  }
 }
