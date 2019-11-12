@@ -9,7 +9,7 @@
       "src": "/(.*).webmanifest",
       "headers": [
         {
-          "content-type": "application/json"
+          "content-type": "application/manifest+json"
         }
       ],
       "dest": "/index.manifest"
