@@ -1,7 +1,18 @@
 {
   "version": 2,
   "name": "studio",
-  "alias": [],
+  "alias": ["devpunks"],
+  "scope": "devpunks",
+
+  "routes": [
+    {
+      "src": "/(.*).manifest",
+      "headers": {
+        "content-type": "application/json"
+        },
+      "dest": "/$1.manifest"
+    }
+  ],
 
     "builds": [
       { "src": "*", "use": "@now/static" },
