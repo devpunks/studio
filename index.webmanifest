@@ -4,7 +4,7 @@
   "scope": "/",
   "start_url": ".",
   "display": "fullscreen",
-  "theme_color": "#0f0",
+  "theme_color": "#000",
   "orientation": "landscape",
   "background_color": "#f00",
   "description": "Devpunks studio",
