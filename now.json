@@ -7,10 +7,12 @@
   "routes": [
     {
       "src": "/(.*).manifest",
-      "headers": {
-        "content-type": "application/json"
-      },
-      "dest": "/$1.manifest"
+      "headers": [
+        {
+          "content-type": "application/json"
+        }
+      ],
+      "dest": "/index.manifest"
     }
   ]
 }
