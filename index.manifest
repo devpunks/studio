@@ -14,6 +14,16 @@
     "url": "https://play.google.com/store/apps/details?id=devpunks.studio"
   }],
 
+  "routes": [
+    {
+      "src": "/(.*).manifest",
+      "headers": {
+        "content-type": "application/json"
+        },
+      "dest": "/$1.manifest"
+    }
+  ],
+
   "icons": [{
     "src": "index.48x48.png",
     "sizes": "48x48",
