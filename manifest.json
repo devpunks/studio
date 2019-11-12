@@ -1,6 +1,7 @@
 {
   "name": "devpunks.studio",
   "short_name": "devpunks.studio",
+  "scope": "/",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#0f0",
