@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "BioBashQuest",
+  "alias": ["biobashquest.com", "biobashquest"],
+
+    "builds": [
+      { "src": "*", "use": "@now/static" },
+      { "src": "*.manifest", "use": "@now/static" }
+    ]
+}
