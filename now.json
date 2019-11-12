@@ -9,7 +9,7 @@
       "src": "/(.*).manifest",
       "headers": {
         "content-type": "application/json"
-        },
+      },
       "dest": "/$1.manifest"
     }
   ],
