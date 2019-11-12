@@ -9,6 +9,11 @@
   "background_color": "#f00",
   "description": "Devpunks studio",
 
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=devpunks.studio"
+  }],
+
   "icons": [{
     "src": "index.48x48.png",
     "sizes": "48x48",
