@@ -4,4 +4,4 @@
 
 ### Manifest
 
-  https://www.w3.org/TR/appmanifest
+  w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
