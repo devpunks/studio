@@ -7,11 +7,9 @@
   "routes": [
     {
       "src": "/(.*).webmanifest",
-      "headers": [
-        {
-          "content-type": "application/manifest+json"
-        }
-      ],
+      "headers": {
+        "content-type": "application/manifest+json"
+      },
       "dest": "/$1.webmanifest"
     }
   ]
