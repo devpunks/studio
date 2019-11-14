@@ -129,9 +129,11 @@ body > footer { }
 
 /* LANDMARKS */
 
-[role=banner] {
-  outline: 0.3em dashed currentColor
-}
+body > main, body > aside, body > footer, [role=banner], [role=search]
+{ outline: 0.3em dashed currentColor }
+
+[role=search]
+  { text-align: right }
 
 [role=banner] a[target=_top] {
   display: block;
