@@ -15,13 +15,7 @@
 html
   { cursor: default }
 abbr[title]
-  { cursor: help; }
-button, [type=submit], [type=button], [type=reset]
-  { cursor: pointer; }
-progress
-  { cursor: progress; }
-[disabled]
-  { cursor: not-allowed; }
+  { cursor: help }
 canvas
   { cursor: none; }
 
