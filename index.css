@@ -50,6 +50,7 @@ template /* IE custom elements */
 body > main, body > aside, body > footer
   { max-width: 1200px }
 
+body > main   { }
 body > aside  {
   outline: .5em dashed currentColor;
   color: var(--background-color);
