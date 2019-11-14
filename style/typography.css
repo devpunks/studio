@@ -254,5 +254,5 @@ table {
 
 table thead {
   background: var(--color);
-  color: var(--background-color);
+  color: var(--background-color)
 }
