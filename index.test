@@ -1,7 +1,9 @@
 const
-  { test, fetch, read }
+  { test, fetch, read, browse }
     = require ('snuggsi')
 
+
+console.warn ('Browse', browse)
 
 test `A pending test to be defined later`
 
