@@ -45,7 +45,7 @@ article, aside, footer, header, nav, section
 body > aside  {
   outline: .5em dashed currentColor;
   color: var(--background-color);
-  background-color: var(--color);
+  background-color: var(--color)
 }
 
 body > main, body > aside
