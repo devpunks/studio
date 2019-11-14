@@ -78,9 +78,6 @@ audio, canvas, iframe, img, svg, video {
   margin: 0 auto 1.612em
 }
 
-table
-  { border-collapse: collapse }
-
 /* accessibility.css */
 [aria-controls]
   { cursor: pointer }
