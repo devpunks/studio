@@ -16,7 +16,9 @@ abbr[title]
 canvas
   { cursor: none }
 
-/* boxing */
+/*
+  boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
 html
   { box-sizing: border-box }
 
@@ -55,7 +57,7 @@ body > aside  {
 }
 
 body > main, body > aside
-  { max-width: 1200px; }
+  { max-width: 1200px }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: .15em;
