@@ -84,7 +84,6 @@ audio, canvas, iframe, img, svg, video {
 table
   { border-collapse: collapse; }
 
-
 /* accessibility.css */
 [aria-busy=true]
   { cursor: progress }
