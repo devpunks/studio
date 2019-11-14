@@ -60,8 +60,6 @@ body > footer { }
 article, aside, footer, header, nav, section
   { display:block }
 
-body > main, body > aside
-  { max-width: 1200px }
 
 /* media.css */
 img
