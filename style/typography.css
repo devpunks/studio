@@ -249,7 +249,7 @@ table {
   width: 96%;
   margin: 0 auto 1.612em;
   outline: 0.4em double var(--color);
-  box-shadow: 0.4em 0.4em 0.8em var(--shadow);
+  box-shadow: 0.4em 0.4em 0.8em var(--shadow)
 }
 
 table thead {
