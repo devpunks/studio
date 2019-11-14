@@ -23,7 +23,7 @@ button, [type=submit], [type=button], [type=reset]
 }
 
 details
-  { display: block; }
+  { display: block }
 summary
   { display: list-item; }
 
