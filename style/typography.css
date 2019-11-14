@@ -152,7 +152,7 @@ body > main {
 body > aside {
   width:  90%;
   margin: 0 auto 1em;
-  outline: 0.3em dashed currentColor;
+  outline: 0.3em dashed currentColor
 }
 
 body > footer {
