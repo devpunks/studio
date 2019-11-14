@@ -128,7 +128,7 @@ body { }
 /* LANDMARKS */
 
 [role=banner] {
-  outline: 0.3em dashed currentColor;
+  outline: 0.3em dashed currentColor
 }
 
 [role=banner] a[target=_top] {
