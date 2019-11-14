@@ -180,9 +180,8 @@ h1 {
   font-size:   2em;
   line-height: 1.12em
 }
-header {
-  font-size: 120%;
-}
+header
+  { font-size: 120% }
 
 b, strong
   { font-weight: bolder }
