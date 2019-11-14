@@ -1,8 +1,4 @@
-@import '/style';
-@import '/style/icons.css';
-@import '/style/colors.css';
-@import '/style/typography.css';
-@import '/style/forms.css';
+@import '/style/index.css';
 
 /*
   - normalize.css
