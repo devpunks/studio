@@ -29,7 +29,7 @@ html
 
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
   padding:      0;
-  border-style: none;
+  border-style: none
 }
 
 :-moz-focusring
