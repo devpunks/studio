@@ -1,0 +1,7 @@
+/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+button, [type=submit], [type=button], [type=reset]
+  { cursor: pointer }
+progress
+  { cursor: progress }
+[disabled]
+  { cursor: not-allowed }
