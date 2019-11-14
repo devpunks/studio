@@ -43,7 +43,7 @@ html
   { outline: 1px dotted ButtonText }
 
 template /* IE custom elements */
-  { display: none; }
+  { display: none }
 
 article, aside, footer, header, nav, section
   { display:block }
