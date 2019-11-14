@@ -9,7 +9,7 @@ progress
 button, [type=submit], [type=button], [type=reset]
 {
   -webkit-appearance: button;
-  appearance:         button;
+  appearance:         button
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
