@@ -190,7 +190,6 @@ p
   { margin: var(--p-margin) }
 cite
   { font-size: 80% }
-
 cite::before
   { content: '—' /* https://en.wikipedia.org/wiki/Dash */ }
 q
