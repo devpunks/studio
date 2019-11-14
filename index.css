@@ -76,58 +76,6 @@ table
   { border-collapse: collapse; }
 
 
-/* forms.css */
-
-button, [type=submit], [type=button], [type=reset]
-{
-  -webkit-appearance: button;
-  appearance:         button;
-}
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  -moz-appearance:    button;
-  appearance:         button;
-}
-::-moz-file-upload-button {
-  -webkit-appearance: button;
-  -moz-appearance:    button;
-  appearance:         button;
-}
-
-details
-  { display: block; }
-summary
-  { display: list-item; }
-  
-dialog {
-  left: 0;
-  right: 0;
-  margin: auto;
-  border: solid;
-  display: block;
-  position: absolute;
-
-  height: -moz-fit-content;
-  height: -webkit-fit-content;
-  height: fit-content;
-
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
-}
-
-dialog:not([open])
-  { display: none }
-
-a, area, button, input, label, select, summary, textarea, [tabindex] {
-  /* Remove tapping delay */
-  -ms-touch-action: manipulation;
-  touch-action:     manipulation
-}
-
-[hidden]
-  { display: none }
-
 /* accessibility.css */
 [aria-busy=true]
   { cursor: progress }
