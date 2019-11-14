@@ -55,6 +55,10 @@ body > aside  {
   color: var(--background-color);
   background-color: var(--color)
 }
+body > footer { }
+
+article, aside, footer, header, nav, section
+  { display:block }
 
 body > main, body > aside
   { max-width: 1200px }
