@@ -108,7 +108,7 @@ html {
    * https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
   -webkit-text-size-adjust: var(--text-size-adjust);
           text-size-adjust: var(--text-size-adjust);
-  
+
   font-stretch: normal;
   font-variant: normal;
   font-size-adjust: 0.5;
