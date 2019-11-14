@@ -13,7 +13,7 @@
 
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 html
-  { cursor: default; }
+  { cursor: default }
 abbr[title]
   { cursor: help; }
 button, [type=submit], [type=button], [type=reset]
