@@ -47,9 +47,8 @@ html
 template /* IE custom elements */
   { display: none }
 
-body > main   { }
-body > aside  { }
-body > footer { }
+body > main, body > aside, body > footer
+  { max-width: 1200px }
 
 body > aside  {
   outline: .5em dashed currentColor;
