@@ -64,7 +64,7 @@ img
 
 canvas {
   display: inline-block;
-  outline: 1px solid var(--color);
+  outline: 1px solid var(--color)
 }
 
 audio, canvas, iframe, img, svg, video {
