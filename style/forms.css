@@ -14,7 +14,7 @@ button, [type=submit], [type=button], [type=reset]
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   -moz-appearance:    button;
-  appearance:         button;
+  appearance:         button
 }
 ::-moz-file-upload-button {
   -webkit-appearance: button;
