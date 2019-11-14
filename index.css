@@ -21,7 +21,7 @@ canvas
 
 /* boxing */
 html
-  { box-sizing: border-box; }
+  { box-sizing: border-box }
 
 *, ::before, ::after, *:before, *:after
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
