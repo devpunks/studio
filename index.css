@@ -59,13 +59,6 @@ body > aside  {
 body > main, body > aside
   { max-width: 1200px }
 
-hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
-  height: .15em;
-  overflow: visible;
-  margin-top: 3.612em;
-  margin-bottom: 3.612em
-}
-
 /* media.css */
 img
   { width: 100%; height: auto }
