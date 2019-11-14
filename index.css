@@ -87,7 +87,8 @@ table
 /* accessibility.css */
 [aria-controls]
   { cursor: pointer }
-
+[aria-busy=true]
+  { cursor: progress }
 [aria-disabled=true]
   { cursor: not-allowed }
 
