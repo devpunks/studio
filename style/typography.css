@@ -213,7 +213,7 @@ blockquote::before
   padding: 0;
   content: "\201C";
   left: -20px;
-  top: -20px;
+  top: -20px
 }
 
 del::before, ins::before
