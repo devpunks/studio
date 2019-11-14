@@ -144,26 +144,6 @@ body > main, body > aside, body > footer, [role=banner], [role=search]
   margin-bottom: 0.2em
 }
 
-[role=search] {
-  text-align: right;
-  outline: 0.3em dashed currentColor
-}
-
-body > main {
-  outline: 0.3em dashed currentColor
-}
-
-body > aside {
-  width:  90%;
-  margin: 0 auto 1em;
-  outline: 0.3em dashed currentColor
-}
-
-body > footer {
-  text-align: center;
-  outline: 0.3em dashed currentColor
-}
-
 body > *, body > header > p
   { margin: var(--margin) }
 
