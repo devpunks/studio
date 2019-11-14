@@ -60,6 +60,8 @@ body > footer { }
 
 article, aside, footer, header, nav, section
   { display:block }
+table
+  { border-collapse: collapse }
 
 
 /* media.css */
