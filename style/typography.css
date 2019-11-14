@@ -142,7 +142,7 @@ body { }
 
 [role=search] {
   text-align: right;
-  outline: 0.3em dashed currentColor;
+  outline: 0.3em dashed currentColor
 }
 
 body > main {
