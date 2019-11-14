@@ -146,7 +146,7 @@ body { }
 }
 
 body > main {
-  outline: 0.3em dashed currentColor;
+  outline: 0.3em dashed currentColor
 }
 
 body > aside {
