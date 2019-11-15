@@ -1,6 +1,5 @@
 const
-  worker
-, first  = document.querySelector `#first`
+  first  = document.querySelector `#first`
 , second = document.querySelector `#second`
 , result = document.querySelector `#result`
 
