@@ -45,6 +45,14 @@ html
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText }
 
+/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+html
+  { cursor: default }
+abbr[title]
+  { cursor: help }
+canvas
+  { cursor: none }
+
 template /* IE custom elements */
   { display: none }
 
