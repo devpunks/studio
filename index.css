@@ -11,7 +11,7 @@
   @media resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
 */
 :root {
-  --max-width: 100vw;
+  --max-width: 100vw
 }
 
 @media screen and (min-width: 1000px) {
