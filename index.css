@@ -59,7 +59,7 @@ table
 abbr[title]
   { cursor: help }
 
-body > header, body > main, body > aside, body > footer
+body, body > header, body > main, body > aside, body > footer
   { max-width: var(--max-width) }
 
 body > header { }
