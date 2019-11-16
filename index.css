@@ -7,15 +7,15 @@
   - sanitize.css
     https://github.com/csstools/sanitize.css/blob/master/sanitize.css
 */
-
-/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
-html
-  { cursor: default }
-abbr[title]
-  { cursor: help }
-canvas
-  { cursor: none }
-
+/*
+  @media resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
+*/
+@media screen and (min-width: 1000px) {
+  :root {
+  --min-width: 130vw;
+  --max-width: 150vw
+  }
+}
 /*
   LAYOUT
   boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/
