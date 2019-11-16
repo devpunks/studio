@@ -39,6 +39,13 @@
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText }
 
+/*
+  LAYOUT
+  boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html
+  { box-sizing: border-box }
+
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 html
   { cursor: default }
