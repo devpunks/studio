@@ -16,12 +16,6 @@
   --max-width: 150vw
   }
 }
-/*
-  LAYOUT
-  boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/
-*/
-html
-  { box-sizing: border-box }
 
 /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
 *, ::before, ::after, *:before, *:after
