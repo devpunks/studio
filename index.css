@@ -59,10 +59,7 @@ abbr[title]
 canvas
   { cursor: none }
 
-template /* IE custom elements */
-  { display: none }
-
-body > main, body > aside, body > footer
+body > header, body > main, body > aside, body > footer
   { max-width: var(--max-width) }
 
 body > main   { }
