@@ -62,6 +62,7 @@ canvas
 body > header, body > main, body > aside, body > footer
   { max-width: var(--max-width) }
 
+body > header { }
 body > main   { }
 body > aside  {
   color: var(--background-color);
