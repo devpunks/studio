@@ -10,10 +10,13 @@
 /*
   @media resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
 */
+:root {
+  --max-width: 100vw;
+}
+
 @media screen and (min-width: 1000px) {
   :root {
-  --min-width: 130vw;
-  --max-width: 150vw
+    --max-width: 1000px
   }
 }
 
@@ -58,7 +61,7 @@ template /* IE custom elements */
   { display: none }
 
 body > main, body > aside, body > footer
-  { max-width: 1200px }
+  { max-width: var(--max-width) }
 
 body > main   { }
 body > aside  {
