@@ -60,8 +60,6 @@ html
   { cursor: default }
 abbr[title]
   { cursor: help }
-canvas
-  { cursor: none }
 
 body > header, body > main, body > aside, body > footer
   { max-width: var(--max-width) }
