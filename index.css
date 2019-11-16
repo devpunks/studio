@@ -48,6 +48,8 @@
 */
 html
   { box-sizing: border-box }
+template /* IE custom elements */
+  { display: none }
 
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 html
