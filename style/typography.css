@@ -276,6 +276,7 @@ table thead {
   color: var(--background-color)
 }
 table th
+/* Inherit from the closest parent with a set `text-align`, or `<body>`. */
   { text-align: inherit }
 
 button, input, select, textarea {
