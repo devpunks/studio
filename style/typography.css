@@ -275,6 +275,8 @@ table thead {
   background: var(--color);
   color: var(--background-color)
 }
+th
+  { text-align: inherit }
 
 button, input, select, textarea {
   margin:         0; /* Safari */
