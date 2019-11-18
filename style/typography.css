@@ -235,7 +235,7 @@ del::before
 
 ins::before
   { content: '+' }
-  
+
 small
   { font-size: 80% }
 
