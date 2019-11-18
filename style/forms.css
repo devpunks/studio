@@ -12,6 +12,10 @@ progress
 [disabled]
   { cursor: not-allowed }
 
+select
+  /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+  { word-wrap: normal }
+
 fieldset, [type=radio], [type=checkbox]{
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
   border:    0;
