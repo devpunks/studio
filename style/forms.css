@@ -73,10 +73,6 @@ textarea {
 
 progress
   { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
-details
-  { display: block }
-summary
-  { display: list-item }
 
 dialog {
   left: 0;
