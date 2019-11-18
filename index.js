@@ -12,7 +12,8 @@ worker.onmessage = e => {
   console.log ('Message received from worker')
 }
 
-first.addEventHandler ('change', e => {
+first
+&& first.addEventHandler ('change', e => {
   'postMessage' in worker
     && worker.postMessage ( [first.value, second.value] )
 
