@@ -57,6 +57,11 @@ button, input, select {
 label
   { display: inline-block }
 
+textarea {
+  overflow: auto; /* Remove IE vertical scrollbar. */
+  resize: vertical;
+}
+
 details
   { display: block }
 summary
