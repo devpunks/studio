@@ -17,6 +17,9 @@ fieldset {
   margin:  0;
   padding: 0
 }
+select
+  /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+  { word-wrap: normal }
 
 button, [type=submit], [type=button], [type=reset]
 {
