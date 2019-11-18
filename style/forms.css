@@ -12,7 +12,7 @@ progress
 [disabled]
   { cursor: not-allowed }
 
-fieldset {
+[type=radio], [type=checkbox], fieldset {
   border:  0;
   margin:  0;
   padding: 0
