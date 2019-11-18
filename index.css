@@ -73,10 +73,7 @@ body, body > header, body > main, body > aside, body > footer
 
 body > header { margin-bottom: 1.612em }
 body > main   { }
-body > aside  {
-  color: var(--background-color);
-  background-color: var(--color)
-}
+body > aside  { }
 body > footer { }
 
 /* media.css */
