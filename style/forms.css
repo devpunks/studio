@@ -23,6 +23,10 @@ input:not(type), [type=color], [type=date], [type=datetime-local],
   outline-offset: -2px;
   -webkit-appearance: none
 }
+[type='search']::-webkit-search-decoration
+ /* Remove the inner padding in Chrome and Safari on macOS. */
+ { -webkit-appearance: none }
+
 
 fieldset
   { min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */ }
