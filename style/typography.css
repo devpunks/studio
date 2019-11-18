@@ -234,10 +234,12 @@ pre, code, kbd, samp {
 }
 
 button, input, select, textarea {
-  margin:      0; /* Safari */
-  font-size:   inherit;
-  line-height: inherit;
-  font-family: inherit
+  margin:         0; /* Safari */
+  font:           inherit;
+  color:          inherit;
+  line-height:    inherit;
+  font-family:    inherit;
+  letter-spacing: inherit
 }
 
 button {
