@@ -1,3 +1,9 @@
+/* Remove tapping delay */
+a, area, button, input, label, select, summary, textarea, [tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action:     manipulation
+}
+
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 button, [type=submit], [type=button], [type=reset]
   { cursor: pointer }
