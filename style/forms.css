@@ -59,6 +59,7 @@ button, [type=button], [type=reset], [type=submit]
   appearance:         button
 }
 ::-webkit-file-upload-button {
+  font: inherit;
   -webkit-appearance: button;
   -moz-appearance:    button;
   appearance:         button
