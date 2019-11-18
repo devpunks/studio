@@ -79,7 +79,9 @@ canvas {
   outline: 1px solid var(--color)
 }
 
-picture, audio, canvas, iframe, img, svg, video {
+audio, canvas, embed, iframe, img, object, picture, svg, video {
+  display: block;
+  max-width: 100%;
   vertical-align: middle;
   margin: 0 auto 1.612em
 }
