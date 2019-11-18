@@ -63,7 +63,12 @@ button, [type=button], [type=reset], [type=submit]
 {
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
   -webkit-appearance: button;
-  appearance:         button
+  appearance:         button;
+
+  font-size: 161%;
+  font-weight: bold;
+  padding: 0 1.612em;
+  line-height: 1.612em;
 }
 ::-webkit-file-upload-button {
   font: inherit;
