@@ -22,6 +22,7 @@ fieldset, [type=radio], [type=checkbox]{
   margin:    0;
   padding:   0
 }
+
 [type=date], [type=time], [type=datetime-local], [type=month]
 /* https://bugs.webkit.org/show_bug.cgi?id=139848
   and https://github.com/twbs/bootstrap/issues/11266 */
