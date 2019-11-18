@@ -35,6 +35,7 @@ button, [type=submit], [type=button], [type=reset]
   appearance:         button
 }
 button:focus {
+/* transparent `button` background results in a loss of the default `button` focus styles */
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color
 }
