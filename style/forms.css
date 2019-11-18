@@ -99,7 +99,7 @@ label
 
 textarea {
   overflow: auto; /* Remove IE vertical scrollbar. */
-  resize: vertical;
+  resize: vertical
 }
 
 progress
