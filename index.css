@@ -111,4 +111,4 @@ audio, canvas, embed, iframe, img, object, picture, svg, video {
   clip: rect(0, 0, 0, 0)
 }
 
-html * { pointer-events: none }
+// html * { pointer-events: none }
