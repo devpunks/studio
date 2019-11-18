@@ -50,7 +50,7 @@ html
   { box-sizing: border-box }
 template /* IE custom elements */
   { display: none }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary
   { display:block }
 table
 {
