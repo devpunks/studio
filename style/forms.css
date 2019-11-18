@@ -33,7 +33,7 @@ input:not(type), [type=color], [type=date]
 output
   { display: inline-block }
 fieldset
-  { min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */ }
+  { min-width: 0 /* See https://github.com/twbs/bootstrap/issues/12359 */ }
 legend {
 
   width: 100%; /* Correct the text wrapping in Edge and IE. */
