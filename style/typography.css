@@ -279,6 +279,7 @@ table th
 /* Inherit from the closest parent with a set `text-align`, or `<body>`. */
   { text-align: inherit }
 
+fieldset { }
 button, input, select, textarea {
   margin:         0; /* Safari */
   font:           inherit;
