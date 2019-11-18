@@ -18,6 +18,11 @@ input:not(type), [type=color], [type=date], [type=datetime-local],
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   background: yellow
 }
+[type='search'] {
+  /* Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586. */
+  outline-offset: -2px;
+  -webkit-appearance: none
+}
 
 fieldset
   { min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */ }
