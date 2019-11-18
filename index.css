@@ -116,4 +116,4 @@ iframe
   - https://css-tricks.com/almanac/properties/p/pointer-events/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 */
-{ pointer-events: none }
+// html * { pointer-events: none }
