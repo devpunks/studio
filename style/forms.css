@@ -20,7 +20,7 @@ fieldset {
 
 button, [type=submit], [type=button], [type=reset]
 {
-  border-radius: 0;
+  border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
   -webkit-appearance: button;
   appearance:         button
 }
