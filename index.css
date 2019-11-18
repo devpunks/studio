@@ -54,6 +54,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 table
 {
+  width: 96%;
   table-layout:    fixed;
   border-collapse: collapse
 }
