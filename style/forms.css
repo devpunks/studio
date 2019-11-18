@@ -71,6 +71,8 @@ textarea {
   resize: vertical;
 }
 
+progress
+  { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
 details
   { display: block }
 summary
