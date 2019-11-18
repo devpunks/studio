@@ -27,10 +27,6 @@ fieldset, [type=radio], [type=checkbox]{
   and https://github.com/twbs/bootstrap/issues/11266 */
  { -webkit-appearance: listbox }
 
-select
-  /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
-  { word-wrap: normal }
-
 button, [type=button], [type=reset], [type=submit]
 {
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
