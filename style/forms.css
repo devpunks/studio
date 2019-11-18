@@ -12,6 +12,13 @@ progress
 [disabled]
   { cursor: not-allowed }
 
+input:not(type), [type=color], [type=date], [type=datetime-local],
+[type=email], [type=month], [type=number], [type=password], [type=search],
+[type=tel], [type=text], [type=time], [type=url], [type=week]
+{
+  background: yellow
+}
+
 fieldset
   { min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */ }
 legend {
