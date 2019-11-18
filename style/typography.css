@@ -265,11 +265,3 @@ button {
   overflow:       visible; /* Show the overflow in IE. */
   text-transform: none     /* Remove the inheritance of text transform in Edge, Firefox, and IE. */
 }
-
-table
-  { margin: 0 auto 1.612em }
-
-table thead {
-  background: var(--color);
-  color: var(--background-color)
-}
