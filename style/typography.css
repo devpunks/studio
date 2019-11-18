@@ -275,7 +275,7 @@ table thead {
   background: var(--color);
   color: var(--background-color)
 }
-th
+table th
   { text-align: inherit }
 
 button, input, select, textarea {
