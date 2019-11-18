@@ -95,6 +95,9 @@ audio, canvas, embed, iframe, img, object, picture, svg, video {
   margin: 0 auto 1.612em
 }
 
+iframe
+  { border: none }
+
 /* accessibility.css */
 [tabindex='-1']:focus
   { outline: 0 }
