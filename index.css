@@ -85,6 +85,8 @@ picture, audio, canvas, iframe, img, svg, video {
 }
 
 /* accessibility.css */
+[tabindex='-1']:focus
+  { outline: 0 }
 [aria-controls]
   { cursor: pointer }
 [aria-busy=true]
