@@ -12,7 +12,8 @@
 
   --column-count: 1;
 
-  --font-size: 2.8vw;
+  /* --font-size: 2.8vw; */
+  --font-size: 62.5%;
 
   --text-align: center;
 
