@@ -5,7 +5,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 }
 
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
-button, [type=submit], [type=button], [type=reset]
+summary
   { cursor: pointer }
 progress
   { cursor: progress }
