@@ -12,16 +12,11 @@ progress
 [disabled]
   { cursor: not-allowed }
 
-fieldset { }
-legend { /* Correct the text wrapping in Edge and IE. */
-  padding: 0;
-  color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
-  font-size: 2.4em;
-  white-space: normal;
-  margin-bottom: 0.8em;
-  line-height: inherit;
+fieldset
+  { min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */ }
+legend {
 
-  width: 100%;
+  width: 100%; /* Correct the text wrapping in Edge and IE. */
   display: block;
   max-width: 100%
 }
