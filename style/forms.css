@@ -20,6 +20,7 @@ fieldset {
 
 button, [type=submit], [type=button], [type=reset]
 {
+  border-radius: 0;
   -webkit-appearance: button;
   appearance:         button
 }
