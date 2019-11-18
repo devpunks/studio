@@ -12,10 +12,11 @@ progress
 [disabled]
   { cursor: not-allowed }
 
-[type=radio], [type=checkbox], fieldset {
-  border:  0;
-  margin:  0;
-  padding: 0
+fieldset, [type=radio], [type=checkbox]{
+  min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
+  border:    0;
+  margin:    0;
+  padding:   0
 }
 [type=date], [type=time], [type=datetime-local], [type=month]
 /* https://bugs.webkit.org/show_bug.cgi?id=139848
