@@ -244,6 +244,13 @@ pre, code, kbd, samp {
   font-family: var(--font-family-mono)
 }
 
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
 address {
   font-style: normal;
   line-height: inherit;
