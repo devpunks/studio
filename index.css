@@ -89,6 +89,7 @@ canvas {
 }
 
 audio, canvas, embed, iframe, img, object, picture, svg, video {
+  width: 100%;
   display: block;
   max-width: 100%;
   vertical-align: middle;
