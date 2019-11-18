@@ -11,6 +11,8 @@ progress
   { cursor: progress }
 [disabled]
   { cursor: not-allowed }
+button, [type=submit], [type=button], [type=reset]
+  { cursor: pointer }
 
 input:not(type), [type=color], [type=date]
 [type=datetime-local], [type=email], [type=month], [type=number]
