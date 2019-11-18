@@ -34,6 +34,9 @@ button, [type=submit], [type=button], [type=reset]
   appearance:         button
 }
 
+label
+  { display: inline-block }
+
 details
   { display: block }
 summary
