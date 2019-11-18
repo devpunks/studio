@@ -53,7 +53,10 @@ template /* IE custom elements */
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 table
-  { border-collapse: collapse }
+{
+  table-layout:    fixed;
+  border-collapse: collapse
+}
 
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 abbr[title]
