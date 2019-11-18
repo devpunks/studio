@@ -13,6 +13,19 @@ progress
   { cursor: not-allowed }
 
 fieldset { }
+legend { /* Correct the text wrapping in Edge and IE. */
+  padding: 0;
+  color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
+  font-size: 2.4em;
+  white-space: normal;
+  margin-bottom: 0.8em;
+  line-height: inherit;
+
+  width: 100%;
+  display: block;
+  max-width: 100%
+}
+
 select
   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
   { word-wrap: normal }
