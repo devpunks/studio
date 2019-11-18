@@ -279,7 +279,17 @@ table th
 /* Inherit from the closest parent with a set `text-align`, or `<body>`. */
   { text-align: inherit }
 
-fieldset { }
+fieldset
+  { }
+legend {
+  padding: 0;
+  color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
+  font-size: 2.4em;
+  white-space: normal;
+  margin-bottom: 0.8em;
+  line-height: inherit;
+}
+
 button, input, select, textarea {
   margin:         0; /* Safari */
   font:           inherit;
