@@ -244,6 +244,14 @@ pre, code, kbd, samp {
   font-family: var(--font-family-mono)
 }
 
+table
+  { margin: 0 auto 1.612em }
+
+table thead {
+  background: var(--color);
+  color: var(--background-color)
+}
+
 button, input, select, textarea {
   margin:         0; /* Safari */
   font:           inherit;
