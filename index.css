@@ -87,6 +87,7 @@ canvas {
 
 audio, canvas, embed, iframe, img, object, picture, svg, video {
   width: 100%;
+  height: auto;
   display: block;
   vertical-align: middle;
   margin: 0 auto 1.612em
