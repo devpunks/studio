@@ -293,7 +293,6 @@ legend {
 button, input, select, textarea {
   margin:         0; /* Safari */
   font:           inherit;
-  color:          inherit;
   line-height:    inherit;
   font-family:    inherit;
   letter-spacing: inherit
