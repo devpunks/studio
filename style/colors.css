@@ -32,6 +32,11 @@ html {
   background-color: var(--background-color)
 }
 
+body > aside {
+  color: var(--background-color);
+  background-color: var(--color)
+}
+
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   color:            var(--color);
   background-color: currentColor
