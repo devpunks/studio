@@ -99,3 +99,5 @@ picture, audio, canvas, iframe, img, svg, video {
   position: absolute;
   clip: rect(0, 0, 0, 0)
 }
+
+html * { pointer-events: none }
