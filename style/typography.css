@@ -126,6 +126,10 @@ html * {
   padding: var(--margin-collapse-bugfix) 0 0
 }
 
+body {
+  font-size: 1.6rem;
+}
+
 body > main   { }
 body > aside  { }
 body > footer { }
