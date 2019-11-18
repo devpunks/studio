@@ -12,6 +12,12 @@ progress
 [disabled]
   { cursor: not-allowed }
 
+fieldset {
+  border:  0;
+  margin:  0;
+  padding: 0
+}
+
 button, [type=submit], [type=button], [type=reset]
 {
   -webkit-appearance: button;
