@@ -61,6 +61,11 @@ fieldset, [type=radio], [type=checkbox]{
 
 button, [type=button], [type=reset], [type=submit]
 {
+  font-size: 161%;
+  font-weight: bold;
+  padding: 0 1.612em;
+  line-height: 1.612em;
+
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
   -webkit-appearance: button;
   appearance:         button;
