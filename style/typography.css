@@ -285,6 +285,10 @@ table > thead th
   { text-align: inherit }
 table > tfoot { }
 table > tbody { }
+table td {
+  width: inherit;
+  background: yellow;
+}
 
 fieldset
   { }
