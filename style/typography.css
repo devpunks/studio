@@ -278,11 +278,9 @@ address {
 table
   { margin: 0 auto 1.612em }
 
-table thead {
-  background: var(--color);
-  color: var(--background-color)
-}
-table th
+table > caption { }
+table > thead { }
+table > thead th
 /* Inherit from the closest parent with a set `text-align`, or `<body>`. */
   { text-align: inherit }
 
