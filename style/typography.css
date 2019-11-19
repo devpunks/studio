@@ -160,6 +160,7 @@ body > *, body > header > p
   { margin: var(--margin) }
 
 a {
+  margin:  .1em;
   padding: .1em;
   margin: .1em;
   display: inline-block;
