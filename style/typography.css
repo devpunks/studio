@@ -283,6 +283,8 @@ table > thead { }
 table > thead th
 /* Inherit from the closest parent with a set `text-align`, or `<body>`. */
   { text-align: inherit }
+table > tfoot { }
+table > tbody { }
 
 fieldset
   { }
