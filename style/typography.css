@@ -286,7 +286,6 @@ table > thead th
 table > tfoot { }
 table > tbody { }
 table td {
-  width: inherit;
   background: yellow;
 }
 
