@@ -97,7 +97,7 @@ iframe
 
 /* accessibility.css */
 /* WAI-ARIA guide - https://github.com/w3c/aria-practices */
-[tabindex='-1']:focus
+[tabindex=-1]:focus
   { outline: 0 }
 [aria-controls]
   { cursor: pointer }
