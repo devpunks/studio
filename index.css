@@ -44,6 +44,10 @@
 */
 html
   { box-sizing: border-box }
+*, ::before, ::after, *:before, *:after
+/* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
+  { box-sizing: inherit }
+
 template /* IE custom elements */
   { display: none }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
