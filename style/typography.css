@@ -159,6 +159,12 @@ body > main, body > aside, body > footer, [role=banner], [role=search]
 body > *, body > header > p
   { margin: var(--margin) }
 
+a {
+  padding: .1em;
+  margin: .1em;
+  display: inline-block;
+}
+
 a:hover
   { text-decoration: underline }
 
