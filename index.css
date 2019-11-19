@@ -59,7 +59,8 @@ summary
 
 table
 {
-  table-layout:    fixed;
+  width: inherit;
+  table-layout: fixed;
   border-collapse: collapse;
   outline: 0.4em double var(--color);
   box-shadow: 0.4em 0.4em 0.8em var(--shadow)
