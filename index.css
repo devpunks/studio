@@ -106,7 +106,7 @@ iframe
 [aria-disabled=true]
   { cursor: not-allowed }
 
-[aria-hidden="false"][hidden]:not(:focus) {
+[aria-hidden=false][hidden]:not(:focus) {
   display: inherit;
   position: absolute;
   clip: rect(0, 0, 0, 0)
