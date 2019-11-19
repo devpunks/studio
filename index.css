@@ -59,7 +59,6 @@ summary
 
 table
 {
-  width: 96%;
   table-layout:    fixed;
   border-collapse: collapse;
   outline: 0.4em double var(--color);
