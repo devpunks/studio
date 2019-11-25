@@ -6,3 +6,4 @@
 
 ## `head.html`
 
+  _(Possibly)_ place all common `<head>` elements inside `head.html`
