@@ -8,6 +8,7 @@ var
 
 // Passive event listener for touch event
 // https://developers.google.com/web/tools/lighthouse/audits/passive-event-listeners?utm_source=lighthouse&utm_medium=devtools
+// https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md
 
 document.addEventListener
   ('touchstart', function () {}, { passive: true })
