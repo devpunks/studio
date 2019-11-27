@@ -7,3 +7,8 @@
 ## `head.html`
 
   _(Possibly)_ place all common `<head>` elements inside `head.html`
+
+
+### Viewport Configuration
+
+  - MDN Viewport `<meta>` tag - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
