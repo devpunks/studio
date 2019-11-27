@@ -6,7 +6,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "orientation": "landscape",
-  "background_color": "#f00",
+  "background_color": "#000000",
   "description": "Devpunks studio",
 
   "related_applications": [{
