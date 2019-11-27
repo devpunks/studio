@@ -1,4 +1,4 @@
-# `/midi`
+# `midi`
 
 Midi resources
 
