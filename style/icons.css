@@ -17,8 +17,9 @@ a[href*=instagram]::before
 a[href*=github]::before
   { content: '🐙' }
 
-a[href*=facebook]::before {
-  content: 'F';
+a[href*=facebook]::before,
+a[href^=facetime]::before,
+a[href^=facetime-audio]::before {
   color: #fff;
   margin: 0 .3em;
   padding: 0 .3em;
