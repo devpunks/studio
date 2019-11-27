@@ -29,6 +29,7 @@ a[href*=facebook]::before {
  }
 a[href*=facebook]::before { content: 'F' }
 a[href^=facetime]::before { content: 'F🎥' }
+a[href^=facetime-audio]::before { content: 'F🔈' }
 
 a[href*=youtube]::before {
   content: '►';
