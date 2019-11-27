@@ -1,4 +1,7 @@
-/* URLI Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier */
+/*
+  URLI Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+  - Apple URL Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
+*/
 a[href^=mailto]::before
   { content: '📧' }
 
