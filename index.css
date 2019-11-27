@@ -113,8 +113,10 @@ iframe
 }
 
 /* PWA RELATED */
-html, body
-  { -webkit-user-select: none }
+html, body {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent
+}
 
 /* Pointer events
   - https://css-tricks.com/almanac/properties/p/pointer-events/
