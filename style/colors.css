@@ -5,7 +5,7 @@
   --lighter-color:    rgba(245,245,245,0.8);
   --darker-color:     rgba(200,200,200, 0.8);
   --darkest-color:    rgba(180,180,180, 0.7);
-  --a:                rgba(231,47,188,0.8);
+  --a:                rgba(231,47,188,0.8); /* #E72FBC */
   --a\:hover:         rgba(231,47,188,1.0);
   --shadow:           rgba(10, 10, 10, 0.9)
 }
