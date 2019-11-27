@@ -51,16 +51,3 @@ a[href*=facebook]::before { content: 'F' }
 a[href^=facetime]::before { content: 'F🎥' }
 a[href^=facetime-audio]::before { content: 'F🔈' }
 
-a[href*=youtube]::before {
-  content: '►';
-  color: #fff;
-  margin: 0 .3em;
-  padding: 0 .6em;
-  font-size: 0.7em;
-  font-weight: bold;
-  line-height: 1.7em;
-  background: #f00;
-  border-radius: .3em;
-  text-shadow: 0.1em 0.1em 0 rgb(10,10,10,0.8)
-}
-
