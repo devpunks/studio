@@ -4,7 +4,7 @@
   "scope": "/",
   "start_url": "/?from=homescreen",
   "display": "standalone",
-  "theme_color": "black",
+  "theme_color": "#000000",
   "orientation": "landscape",
   "background_color": "#f00",
   "description": "Devpunks studio",
