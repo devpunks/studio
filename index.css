@@ -112,8 +112,13 @@ iframe
   clip: rect(0, 0, 0, 0)
 }
 
+/* PWA RELATED */
+html, body
+  { -webkit-user-select: none }
+
 /* Pointer events
   - https://css-tricks.com/almanac/properties/p/pointer-events/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 */
 // html * { pointer-events: none }
+
