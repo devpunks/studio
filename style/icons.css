@@ -27,6 +27,8 @@ a[href*=facebook]::before {
   background: #3b5998;
   text-shadow: .1em .1em .1em rgb(10,10,10,0.4)
  }
+a[href*=facebook]::before { content: 'F' }
+a[href^=facetime]::before { content: 'F🎥' }
 
 a[href*=youtube]::before {
   content: '►';
