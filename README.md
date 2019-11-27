@@ -1,5 +1,9 @@
 # DEVPUNKS.STUDIO
 
+## Performance Benchmarking
+
+  - R.A.I.L. - https://developers.google.com/web/fundamentals/performance/rail
+
 ##`index.manifest`
 
   w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
