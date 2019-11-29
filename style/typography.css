@@ -156,7 +156,7 @@ body > main, body > aside, body > footer, [role=banner], [role=search]
   margin-bottom: 0.2em
 }
 
-body > *, body > header > p
+body > *
   { margin: var(--margin) }
 
 a {
