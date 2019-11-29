@@ -1,3 +1,3 @@
-# _Devpunks.studio_/videos
+# _Devpunks.studio_/video
 
 
