@@ -12,10 +12,10 @@ document.addEventListener
   ('touchstart', function () {}, { passive: true })
 
 
-worker.onmessage = function (e) {
-  result.textContent = e.data
-  console.log ('Message received from worker')
-}
+//worker.onmessage = function (e) {
+//  result.textContent = e.data
+//  console.log ('Message received from worker')
+//}
 
 first
 && first.addEventHandler ('change', function (e) {
