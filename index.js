@@ -17,10 +17,4 @@ document.addEventListener
 //  console.log ('Message received from worker')
 //}
 
-first
-&& first.addEventHandler ('change', function (e) {
-  'postMessage' in worker
-    && worker.postMessage ( [first.value, second.value] )
-
-  console.log ('Message posted to worker', e)
-})
+worker.postMessage ( [first.value, second.value] )
