@@ -1,7 +1,6 @@
 class {
-  get ratio () {
-  }
-
-  set ratio () {
-  }
+  get ratio ()
+    { }
+  set ratio ()
+    { }
 }
