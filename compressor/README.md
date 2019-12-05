@@ -2,6 +2,8 @@
 
 ## `ratio`
 
+  `2:1` _(mild)_ Drums
+
 
 ## References
 
