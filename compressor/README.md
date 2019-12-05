@@ -4,8 +4,18 @@
 
   In format of _signal:attenuation_ where `signal` has `attenuation` upon crossing `threshold`
 
-  `2:1` _(mild)_ Drums
+### _(mild)_ 
+  - `2:1` Drums
 
+### _(moderate)_ 
+  - `3:1` Bass / Mixbus
+  - `4:1` ...
+
+### _(medium)_ 
+  - ...
+
+### _(strong)_ 
+  `10:1` _(limiter)_ Drum Room
   `20:1` _(limiter)_ See Limiter
 
 
