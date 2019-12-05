@@ -14,8 +14,10 @@
   - `3:1` Bass / Mixbus
   - `4:1` ...
 
+
 ### _(medium)_ 
   - ...
+
 
 ### _(strong)_ 
   `10:1` _(limiter)_ Drum Room
