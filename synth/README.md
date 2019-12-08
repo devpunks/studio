@@ -7,9 +7,11 @@
   - Cursus Iteritas - https://www.youtube.com/watch?v=88Nr5cQDbqU
 
 ### waves
+
   - Saw
   - Square
   - Fourier
+
 
 ### Harmonics
 
