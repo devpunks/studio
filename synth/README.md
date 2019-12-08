@@ -3,7 +3,7 @@
 
 ## `oscilator`
 
-  multi vs. jsingle core - 
+  multi vs. single core - 
   - Cursus Iteritas - https://www.youtube.com/watch?v=88Nr5cQDbqU
 
 
