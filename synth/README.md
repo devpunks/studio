@@ -10,6 +10,14 @@
 ## `modulator`
 
 
+## `transformer`
+
+  - Orthogonal - https://en.wikipedia.org/wiki/Orthogonal_matrix
+  - Symmetric - https://en.wikipedia.org/wiki/Symmetric_matrix
+  - Involutive - https://en.wikipedia.org/wiki/Involution_(mathematics)
+  - Linear - https://en.wikipedia.org/wiki/Linear_operator
+
+
 ## Fourier
 
   - Joseph Fourier - https://en.wikipedia.org/wiki/Joseph_Fourier
