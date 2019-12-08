@@ -3,7 +3,7 @@
 
 ## `oscilator`
 
-  - Cursus Iteritas -https://www.youtube.com/watch?v=88Nr5cQDbqU
+  - Cursus Iteritas - https://www.youtube.com/watch?v=88Nr5cQDbqU
 
 
 ## `modulator`
