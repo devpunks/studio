@@ -10,6 +10,11 @@
 ## `modulator`
 
 
+## Fourier
+
+  - Fourier Transform - https://en.wikipedia.org/wiki/Fourier_transform#Definition
+
+
 ## References
 
   - Getting Started With Modular Synths - https://www.youtube.com/watch?v=jjmE6-86ymw
