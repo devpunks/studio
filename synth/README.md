@@ -5,6 +5,7 @@
 
   multi vs. single core - 
   - Cursus Iteritas - https://www.youtube.com/watch?v=88Nr5cQDbqU
+  - LFO _(Low Frequency Oscilation)_ - https://en.wikipedia.org/wiki/Low-frequency_oscillation
 
 ### waves
 
