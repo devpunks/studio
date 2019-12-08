@@ -1,5 +1,7 @@
 # `synth`
 
+  - Synthesizer - https://en.wikipedia.org/wiki/Synthesizer
+
 
 ## `oscilator`
 
