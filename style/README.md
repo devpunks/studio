@@ -6,4 +6,3 @@
 
   - 12 Principles of Animation
     - Squash & Stretch
-    - Anticipation
