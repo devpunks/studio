@@ -8,3 +8,4 @@
     - Squash & Stretch
     - Anticipation
     - Staging
+    - Straight Ahead vs. Pose to Pose (tweened)
