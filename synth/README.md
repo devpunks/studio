@@ -5,6 +5,9 @@
 ## ASDR
 
 
+C.V. _(Control voltage)_
+
+
 ## `oscilator`
 
   multi vs. single core - 
