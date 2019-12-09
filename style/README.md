@@ -4,7 +4,7 @@
 
 ## Animations
 
-  - 12 Principles of Animation
+  - 12 Principles of Animation - https://www.youtube.com/watch?v=uDqjIdI4bF4
     - Squash & Stretch
     - Anticipation
     - Staging
