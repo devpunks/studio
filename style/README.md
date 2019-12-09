@@ -11,3 +11,4 @@
     - Straight Ahead vs. Pose to Pose (tweened)
     - Follow Through & Overlapping Action (i.e. drag)
     - Slow in & slow out
+    - Secondary Action
