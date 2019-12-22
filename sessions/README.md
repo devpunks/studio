@@ -3,6 +3,7 @@
   Used for `audios` and `videos`
 
   - *name* _(string)_
+  - *producer* _(string)_
   - *start* _(datetime)_
   - *end*  _(datetime)_
   - *engineer* _(string)_
