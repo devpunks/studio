@@ -5,6 +5,7 @@
   - *end*  _(datetime)_
   - *engineer* _(string)_
   - *location* _(GPS coordinates)_
+  - *artist* _(string)_
 
 
 ## Types
