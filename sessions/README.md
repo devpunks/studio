@@ -1,5 +1,9 @@
 # `sessions`
 
+
+  - *start* _(datetime)_
+
+
 ## Types
 
 ### recorded
