@@ -6,6 +6,7 @@
   - *engineer* _(string)_
   - *location* _(GPS coordinates)_
   - *artist* _(string)_
+  - *tracks* _(collection)_
 
 
 ## Types
