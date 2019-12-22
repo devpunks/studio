@@ -1,5 +1,6 @@
 # `buses`
 
+  - `pan`
   - `solo`
   - `mute`
 
