@@ -1,5 +1,7 @@
 # `buses`
 
+  - `solo`
+
 
 ## Stereo
 
