@@ -1,3 +1,7 @@
 # `sessions`
 
 ## Types
+
+### recorded
+
+
