@@ -1,5 +1,7 @@
 # `sessions`
 
+  Used for `audios` and `videos`
+
   - *name* _(string)_
   - *start* _(datetime)_
   - *end*  _(datetime)_
