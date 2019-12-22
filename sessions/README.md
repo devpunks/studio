@@ -2,6 +2,7 @@
 
   - *start* _(datetime)_
   - *end*  _(datetime)_
+  - *name* _(string)_
 
 
 ## Types
