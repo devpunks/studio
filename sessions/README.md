@@ -4,6 +4,6 @@
 
 ### recorded
 
-  _Are these `records` resource?_
+  _Are these `records` resource? Perhaps may not need "practice"_
 
 ### practice
