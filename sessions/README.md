@@ -9,6 +9,7 @@
   - *location* _(GPS coordinates)_
   - *artist* _(string)_
   - *tracks* _(collection)_
+  - *takes* _(collection)_
 
 
 ## Types
