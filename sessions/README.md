@@ -1,6 +1,5 @@
 # `sessions`
 
-
   - *start* _(datetime)_
   - *end*  _(datetime)_
 
