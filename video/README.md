@@ -3,6 +3,7 @@
 
 ## Infra Red
 
+  - [Infra Red Remote _(B&H)_](https://www.bhphotovideo.com/c/product/1358267-REG/gefen_rmt_16irn_remote_for_gtb_gtv_ext.html)
 
 ## Switching
 
