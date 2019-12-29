@@ -2,8 +2,7 @@
 
   - [Is the camera department right for you?](https://www.youtube.com/watch?v=VVqU8-wTGPc)
   - How to clean a lens - https://www.youtube.com/watch?v=Iu6gq01yufI
-    - Chem/Kem wipes -amera Reportss://www.amazon.com/chem-wipes/s?k=chem+wipes
-
+    - Chem/Kem wipes - https://www.amazon.com/chem-wipes/s?k=chem+wipes
 
 ## Assistants
 
