@@ -1,5 +1,7 @@
 # `cameras`
 
+  [Is the camera department right for you?](https://www.youtube.com/watch?v=VVqU8-wTGPc)
+
 
 ## Assistants
 
