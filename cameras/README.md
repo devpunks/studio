@@ -16,6 +16,7 @@
 
   - [FIVE WAYS A 2ND AC CAN IMPRESS THEIR 1ST AC BEYOND BELIEF](https://www.theblackandblue.com/2012/06/06/2nd-ac-impress/)
   - Role of Second A.C. - https://www.youtube.com/watch?v=m-XL7kBime0
+  - PRO TIP: How to Set a Mark (for your actors) - https://www.youtube.com/watch?v=i9uynS5ZrW4
 
 
 ## Call Sheets
