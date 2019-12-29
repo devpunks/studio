@@ -1,6 +1,7 @@
 # `cameras`
 
   - [Is the camera department right for you?](https://www.youtube.com/watch?v=VVqU8-wTGPc)
+  - How to clean a lens - https://www.youtube.com/watch?v=Iu6gq01yufI
 
 
 ## Assistants
