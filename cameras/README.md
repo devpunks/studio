@@ -13,6 +13,7 @@
 ### First A.C.
 
   - Focus Puller
+  - [Focus goes soft](https://www.theblackandblue.com/2011/05/24/after-your-focus-goes-soft/)
 
 
 ### Second A.C.
