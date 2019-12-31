@@ -2,6 +2,8 @@
 
 Used for [`mixes`](../mixes)
 
+Are [`buses`](../buses) virtual `channels`?
+
 
 ## Pan
 
