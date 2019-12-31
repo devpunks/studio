@@ -1,4 +1,4 @@
-# `compressor`
+# `compressors`
 
 
 ## `ratio`
