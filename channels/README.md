@@ -1,6 +1,6 @@
 # `channels`
 
-Used for `mixes`
+Used for [`mixes`](../mixes)
 
 
 ## Pan
