@@ -1,5 +1,7 @@
 # `mixes`
 
+Has many [`channels`](../channels)
+
 
 ## References
 
