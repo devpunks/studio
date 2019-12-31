@@ -1,5 +1,7 @@
 # `buses`
 
+Are these virtual [`channels`](../channels) ?
+
   - `pan`
   - `fade`
   - `solo`

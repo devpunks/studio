@@ -1,6 +1,7 @@
 # `mixes`
 
 Has many [`channels`](../channels)
+Has many [`buses`](../buses)
 
 
 ## References
