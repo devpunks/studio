@@ -6,4 +6,5 @@ Has many [`buses`](../buses)
 
 ## References
 
+  - [Audio Mixing](https://en.wikipedia.org/wiki/Audio_mixing_(recorded_music))
   - [The Art of Mixing](https://www.youtube.com/watch?v=TEjOdqZFvhY)
