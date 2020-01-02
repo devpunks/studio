@@ -1,5 +1,6 @@
 # `compressors`
 
+  - Multi-band?
 
 ## `ratio`
 
