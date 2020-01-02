@@ -23,3 +23,4 @@
 ## References
 
   - https://en.wikipedia.org/wiki/Mastering_(audio)
+  - [Mastering: A Step-by-Step Tutorial]https://www.youtube.com/watch?v=IVDqJbHbLuI)
