@@ -11,6 +11,8 @@
 
  _Not past -6 to -3 dB_
 
+10:1 Compression
+
 
 ## References
 
