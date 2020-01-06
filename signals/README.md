@@ -22,4 +22,5 @@ In human engineering, signals are typically provided by a sensor, and often the 
 ## References
 
   - [Electric Current](https://en.wikipedia.org/wiki/Electric_current)
+  - [Transducer](https://en.wikipedia.org/wiki/Transducer)
 
