@@ -24,4 +24,6 @@ In human engineering, signals are typically provided by a sensor, and often the 
   - [Electric Current](https://en.wikipedia.org/wiki/Electric_current)
   - [Transducer](https://en.wikipedia.org/wiki/Transducer)
   - [Radio Waves](https://en.wikipedia.org/wiki/Radio_wave)
+  - [Hertz (_㎐,㎑,㎒,㎓,㎔_)](https://en.wikipedia.org/wiki/Hertz)
+    - [Human Hearing (_10 ㎐ - 20㎑_)](https://www.youtube.com/watch?v=a69cKxFema8)
 
