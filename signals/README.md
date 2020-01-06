@@ -10,6 +10,9 @@ In human engineering, signals are typically provided by a sensor, and often the 
     - [D.S.P. _(Digital Signal Processing)_](https://en.wikipedia.org/wiki/Digital_signal_processing)
 
 
+## [Noise](https://en.wikipedia.org/wiki/Noise_(electronics))
+
+
 ## Audio
 
 
