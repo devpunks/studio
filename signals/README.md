@@ -6,6 +6,7 @@ In human engineering, signals are typically provided by a sensor, and often the 
 
   - [Signal](https://en.wikipedia.org/wiki/Signal)
   - [Analog Signal](https://en.wikipedia.org/wiki/Analog_signal)
+  - [D.S.P. _(Digital Signal Processing)_](https://en.wikipedia.org/wiki/Digital_signal_processing)
 
 
 ## Audio
