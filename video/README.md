@@ -18,3 +18,4 @@
 
   - ShotDeck.com - https://shotdeck.com
   - [The Skin Tone Line](https://www.youtube.com/watch?v=ArjLBRxudQs)
+  - [White Balance and Skin Tone in Depth](https://www.youtube.com/watch?v=MCmuLbbqJXU)
