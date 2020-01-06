@@ -17,3 +17,4 @@
 ### References
 
   - ShotDeck.com - https://shotdeck.com
+  - [The Skin Tone Line](https://www.youtube.com/watch?v=ArjLBRxudQs)
