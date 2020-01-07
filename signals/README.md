@@ -4,6 +4,7 @@ According to the IEEE Transactions on Signal Processing, a signal can be audio, 
 
 In human engineering, signals are typically provided by a sensor, and often the original form of a signal is converted to another form of energy using a transducer. For example, a microphone converts an acoustic signal to a voltage waveform, and a speaker does the reverse.[1]
 
+  - [James Clerk Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell)
   - [Signal](https://en.wikipedia.org/wiki/Signal)
   - [Analog Signal](https://en.wikipedia.org/wiki/Analog_signal)
   - [Digital Signal](https://en.wikipedia.org/wiki/Digital_signal_(signal_processing))
