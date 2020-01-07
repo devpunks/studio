@@ -13,3 +13,4 @@ In signal processing, a filter is a device or process that removes some unwanted
 ## References
 
   - [Bandwidth](https://en.wikipedia.org/wiki/Bandwidth_(signal_processing))
+  - [Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
