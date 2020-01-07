@@ -6,3 +6,5 @@
 
 
 ## [Filters](https://en.wikipedia.org/wiki/Filter_(signal_processing))
+
+In signal processing, a filter is a device or process that removes some unwanted components or features from a signal.
