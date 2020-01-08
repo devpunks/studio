@@ -29,8 +29,6 @@ In human engineering, signals are typically provided by a sensor, and often the 
     - [Wavelengths](https://en.wikipedia.org/wiki/Wavelength)
     - [Radio Waves](https://en.wikipedia.org/wiki/Radio_wave)
   - [Hertz (_㎐,㎑,㎒,㎓,㎔_)](https://en.wikipedia.org/wiki/Hertz)
-    - [Earthquake (_0.2㎐ - 10㎐_)](https://www.src.com.au/earthquakes/seismology-101/what-is-an-earthquake/)
-    - [Human Hearing (_10㎐ - 20㎑_)](https://www.youtube.com/watch?v=a69cKxFema8)
   - [Spectrum](https://en.wikipedia.org/wiki/Spectrum)
     - [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
     - [Spectral Density](https://en.wikipedia.org/wiki/Spectral_density)
