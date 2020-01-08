@@ -24,6 +24,7 @@ In human engineering, signals are typically provided by a sensor, and often the 
     - [Primary Color](https://en.wikipedia.org/wiki/Primary_color)
     - [Secondary Color](https://en.wikipedia.org/wiki/Secondary_color)
     - [Tertiary Color](https://en.wikipedia.org/wiki/Tertiary)
+    - [Additive Color](https://en.wikipedia.org/wiki/Additive_color)
 
 
 ## References
