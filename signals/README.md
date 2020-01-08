@@ -19,6 +19,7 @@ In human engineering, signals are typically provided by a sensor, and often the 
 ## Video
 
   - [Color Space](https://en.wikipedia.org/wiki/Color_space)
+  - [Color](https://en.wikipedia.org/wiki/Color)
   - [Color Model](https://en.wikipedia.org/wiki/Color_model)
   - [Color Theory](https://en.wikipedia.org/wiki/Color_theory)
     - [Primary Color](https://en.wikipedia.org/wiki/Primary_color)
