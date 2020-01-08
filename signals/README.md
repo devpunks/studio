@@ -53,4 +53,5 @@ In human engineering, signals are typically provided by a sensor, and often the 
       - [Yellow _(510–530 ㎔)_](https://en.wikipedia.org/wiki/Yellow)
       - [Orange _(480–510 ㎔)_](https://en.wikipedia.org/wiki/Orange_(color))
       - [Red    _(385–480 ㎔)_](https://en.wikipedia.org/wiki/Red)
+    - [X-Ray _(30PHz - 30EHz (3×1016 Hz to 3×1019 Hz))_](https://en.wikipedia.org/wiki/X-ray)
 
