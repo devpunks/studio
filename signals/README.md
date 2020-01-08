@@ -36,4 +36,11 @@ In human engineering, signals are typically provided by a sensor, and often the 
     - [Human Hearing (_10㎐ - 20㎑_)](https://www.youtube.com/watch?v=a69cKxFema8)
     - [Visible Light Spectrum _(430㎔red - 750㎔ violet)_](https://en.wikipedia.org/wiki/Visible_spectrum)
       - The full range of frequencies extends beyond the visible portion, from less than 3B㎐ radio waves - 3 billion billion㎐ (3 x 1019) gamma rays.
+      - [Violet _(680–790 ㎔)_](https://en.wikipedia.org/wiki/Violet_(color))
+      - [Blue   _(620–680 ㎔)_](https://en.wikipedia.org/wiki/Blue)
+      - [Cyan   _(600–620 ㎔)_](https://en.wikipedia.org/wiki/Cyan)
+      - [Green  _(530–600 ㎔)_](https://en.wikipedia.org/wiki/Green)
+      - [Yellow _(510–530 ㎔)_](https://en.wikipedia.org/wiki/Yellow)
+      - [Orange _(480–510 ㎔)_](https://en.wikipedia.org/wiki/Orange_(color))
+      - [Red    _(385–480 ㎔)_](https://en.wikipedia.org/wiki/Red)
 
