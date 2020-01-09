@@ -42,7 +42,8 @@ In human engineering, signals are typically provided by a sensor, and often the 
   - [Spectrum](https://en.wikipedia.org/wiki/Spectrum)
     - [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
     - [Spectral Density](https://en.wikipedia.org/wiki/Spectral_density)
-    - [Earthquake (_0.2㎐ - 10㎐_)](https://www.src.com.au/earthquakes/seismology-101/what-is-an-earthquake/)
+    - [Infrasound (_0.1㎐ - 20㎐_](https://en.wikipedia.org/wiki/Infrasound)
+      - [Earthquake (_0.2㎐ - 10㎐_)](https://www.src.com.au/earthquakes/seismology-101/what-is-an-earthquake/)
     - [Human Hearing (_10㎐ - 20㎑_)](https://www.youtube.com/watch?v=a69cKxFema8)
     - [Visible Light Spectrum _(430㎔red - 750㎔ violet)_](https://en.wikipedia.org/wiki/Visible_spectrum)
       - The full range of frequencies extends beyond the visible portion, from less than 3B㎐ radio waves - 3 billion billion㎐ (3 x 1019) gamma rays. Visible light occupies only one-thousandth of a percent of the spectrum
