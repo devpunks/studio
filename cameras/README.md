@@ -8,6 +8,7 @@
 
   - Camera Assistant's Toolkit: A Walkthrough Guide - https://www.youtube.com/watch?v=5qWnBP4Pd68
     - https://www.theblackandblue.com/2011/12/15/camera-assistant-toolkit/
+  - [Tips to shoot handheld](https://www.theblackandblue.com/2011/04/19/shooting-handheld-tips/)
 
 
 ### First A.C.
