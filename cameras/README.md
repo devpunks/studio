@@ -20,9 +20,9 @@
 ### Second A.C.
 
   - [FIVE WAYS A 2ND AC CAN IMPRESS THEIR 1ST AC BEYOND BELIEF](https://www.theblackandblue.com/2012/06/06/2nd-ac-impress/)
-  - Role of Second A.C. - https://www.youtube.com/watch?v=m-XL7kBime0
-  - PRO TIP: How to Set a Mark (for your actors) - https://www.youtube.com/watch?v=i9uynS5ZrW4
-  - How to make a tag board - https://www.theblackandblue.com/2010/03/31/tookit-diy-how-to-build-a-tag-board-for-a-slate-clapperboard/
+  - [Role of Second A.C.](https://www.youtube.com/watch?v=m-XL7kBime0)
+  - [PRO TIP: How to Set a Mark (_for your actors_)](https://www.youtube.com/watch?v=i9uynS5ZrW4)
+  - [How to make a tag board](https://www.theblackandblue.com/2010/03/31/tookit-diy-how-to-build-a-tag-board-for-a-slate-clapperboard/)
 
 
 ## Call Sheets
