@@ -13,6 +13,9 @@ In signal processing, a filter is a device or process that removes some unwanted
 ## Equalizers _(eq)_
 
   - [Equalization](https://en.wikipedia.org/wiki/Equalization_(audio))
+  - [Bandwidth _"Q"_](https://en.wikipedia.org/wiki/Bandwidth_(signal_processing))
+  - **Additive** Boosting frequency Wider _"Q"_ = _"Better"_
+  - **Subtractive** Attenuating (_reducing_) frequency Narrower _"Q"_ = _"Better"_
 
 
 ## References
