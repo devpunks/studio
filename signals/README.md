@@ -38,6 +38,7 @@ In human engineering, signals are typically provided by a sensor, and often the 
     - [Waveform](https://www.youtube.com/watch?v=EpksdNGlCpk)j
     - [Wavelengths](https://en.wikipedia.org/wiki/Wavelength)
     - [Radio Waves](https://en.wikipedia.org/wiki/Radio_wave)
+    - [String Vibration](https://en.wikipedia.org/wiki/String_vibration)
   - [Hertz (_㎐,㎑,㎒,㎓,㎔_)](https://en.wikipedia.org/wiki/Hertz)
   - [Spectrum](https://en.wikipedia.org/wiki/Spectrum)
     - [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
