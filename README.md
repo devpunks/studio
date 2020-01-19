@@ -5,6 +5,7 @@
 
   - R.A.I.L. - https://developers.google.com/web/fundamentals/performance/rail
 
+
 ## `favico.ico`
 
   - https://stackoverflow.com/questions/48956465/favicon-standard-2019-svg-ico-png-and-dimensions
