@@ -8,6 +8,8 @@
 
 ## Pre_(production)_
 
+  - https://www.youtube.com/watch?v=7RuULRWjgek
+
 
 ## Roles
 
