@@ -25,3 +25,8 @@
 
   - MDN Viewport `<meta>` tag - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
   - Icons & Browser Colors - https://developers.google.com/web/fundamentals/design-and-ux/browser-customization
+
+
+## References
+
+  - [Quota Management API](./quota_management_api.pdf)
