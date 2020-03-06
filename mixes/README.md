@@ -2,6 +2,7 @@
 
 Has many [`channels`](../channels)
 Has many [`buses`](../buses)
+  - Subgroup
 
 
 ## References
