@@ -1,9 +1,6 @@
 # `mixes`
 
-## [Inputs _(I/O)_ & Preamps _(Mic Pre)_](https://www.youtube.com/watch?v=VuH3n2BW-4I)
-
-Has many [`channels`](../channels)
-Has many [`buses`](../buses)
+Has many [`channels`](../channels) Has many [`buses`](../buses)
   - Subgroup
   - [Cue Bus](https://www.youtube.com/watch?v=RUkZJIqMdxA)
 
