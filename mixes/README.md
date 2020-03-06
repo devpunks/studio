@@ -3,6 +3,7 @@
 Has many [`channels`](../channels)
 Has many [`buses`](../buses)
   - Subgroup
+  - [Cue Bus](https://www.youtube.com/watch?v=RUkZJIqMdxA)
 
 
 ## References
