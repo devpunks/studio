@@ -26,5 +26,6 @@ Has many [`buses`](../buses)
 
 ## References
 
+  - [Signal Flow of a live soud system](https://www.youtube.com/watch?v=Mu21CKdooYU)
   - [Audio Mixing](https://en.wikipedia.org/wiki/Audio_mixing_(recorded_music))
   - [The Art of Mixing](https://www.youtube.com/watch?v=TEjOdqZFvhY)
