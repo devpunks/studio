@@ -9,7 +9,7 @@ Has many [`buses`](../buses)
   - [Cue Bus](https://www.youtube.com/watch?v=RUkZJIqMdxA)
 
 
-## [Front of House _(FoH)_]()
+## [Front of House _(FoH)_](https://www.youtube.com/watch?v=qqj_aEx3tI4)
 
 
 ## [Inputs _(I/O)_ & Preamps _(Mic Pre)_](https://www.youtube.com/watch?v=VuH3n2BW-4I)
