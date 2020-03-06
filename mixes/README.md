@@ -1,7 +1,7 @@
 # `mixes`
 
 Has many [`channels`](../channels) Has many [`buses`](../buses)
-  - Subgroup
+  - Subgroups - [Subgroup Fundamentals](https://www.youtube.com/watch?v=vMp-82LXcaA)
   - [Cue Bus](https://www.youtube.com/watch?v=RUkZJIqMdxA)
 
 
