@@ -16,6 +16,7 @@ Has many [`buses`](../buses)
 
 ## Plots
 
+  - [Stage Plots, Input Lists & Tech Advance How-To for Bands](https://www.youtube.com/watch?v=0LhH3AUl5Rs)
   - [Stage Plot](https://www.youtube.com/watch?v=txOoZ-ycsCs)
 
 ## Polarity
