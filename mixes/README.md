@@ -27,6 +27,7 @@ Has many [`buses`](../buses)
 ## References
 
   - [Signal Flow of a live soud system](https://www.youtube.com/watch?v=Mu21CKdooYU)
+  - [Signal Flow of a Mixing Console](https://www.youtube.com/watch?v=Z7P-Lu5T_ng)
   - [Audio Mixing](https://en.wikipedia.org/wiki/Audio_mixing_(recorded_music)
   - [The Art of Mixing](https://www.youtube.com/watch?v=TEjOdqZFvhY)
   - [Troubleshoot & Eliminate AC Hum](https://www.youtube.com/watch?v=Mu21CKdooYU)
