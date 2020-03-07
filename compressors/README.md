@@ -1,6 +1,8 @@
 # `compressors`
   - Multi-band?
 
+[**_DO NOT COMPRESS GUITARS**_](https://www.youtube.com/watch?v=u24T4kgLjdk&feature=youtu.be&t=600)
+
 ## `ratio`
 
   In format of _signal:attenuation_ where `signal` has `attenuation` upon crossing `threshold`
