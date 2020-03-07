@@ -26,6 +26,7 @@ Has many [`buses`](../buses)
 ## Polarity
   - [Not So Mysterious: Using Polarity As A Tool For Optimizing Drum Sound](https://web.archive.org/web/20160216044545/https://www.prosoundweb.com/article/print/not_so_mysterious_using_polarity_as_another_tool_for_optimizing_drum_sound)
 
+
 ## References
 
   - [Signal Flow of a Live Soud System](https://www.youtube.com/watch?v=Mu21CKdooYU)
