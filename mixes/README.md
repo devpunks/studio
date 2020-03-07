@@ -7,6 +7,7 @@ Has many [`buses`](../buses)
 
   - Subgroups - [Subgroup Fundamentals](https://www.youtube.com/watch?v=vMp-82LXcaA)
   - [Cue Bus](https://www.youtube.com/watch?v=RUkZJIqMdxA)
+  - [Cue Bus Interface](https://help.uaudio.com/hc/en-us/articles/209063366-Setting-up-Cue-Mixes-in-Console-and-Your-DAW?mobile_site=true)
 
 
 ## [Front of House _(FoH)_](https://www.youtube.com/watch?v=qqj_aEx3tI4)
