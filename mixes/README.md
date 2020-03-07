@@ -13,6 +13,13 @@ Has many [`buses`](../buses)
 ## [Front of House _(FoH)_](https://www.youtube.com/watch?v=qqj_aEx3tI4)
 
 
+## Groups
+
+  1. Aux send groups. Useful for sending specific channels to a recording device or to hallway speakers or, more likely, to an effects unit for reverb on all vocalists.
+  2. Volume groups.  I place singers in a group and instruments, by type, in other groups.  Such grouping provides an easy way to pull back instruments or push vocals to meet the needs of the moment. Using such volume groups, the blend of the sounds within a group doesn’t change, only their overall volume. Drums are ideal for grouping, with their multiple microphones.
+  3. Mute groups. I love mute groups.  The music ends and the pastor walks out so you’ve got seconds before they start talking.  Instead of hunting around the board to mute the band’s channels, you can mute all of their channels at once.  This way, you avoid broadcasting the pop of the unplugged guitar or other such sounds.  A mute group mutes all of the channels assigned to the mute group.  Mute groups are different than the other groups in how they work but since I’m talking grouping, I thought I’d mention it.
+
+
 ## [Inputs _(I/O)_ & Preamps _(Mic Pre)_](https://www.youtube.com/watch?v=VuH3n2BW-4I)
 
 
