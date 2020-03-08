@@ -10,9 +10,6 @@ Has many [`buses`](../buses)
   - [Cue Bus Interface](https://help.uaudio.com/hc/en-us/articles/209063366-Setting-up-Cue-Mixes-in-Console-and-Your-DAW?mobile_site=true)
 
 
-## [Front of House _(FoH)_](https://www.youtube.com/watch?v=qqj_aEx3tI4)
-
-
 ## Groups
 
   1. Aux send groups. Useful for sending specific channels to a recording device or to hallway speakers or, more likely, to an effects unit for reverb on all vocalists.
