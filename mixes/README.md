@@ -48,3 +48,4 @@ Has many [`buses`](../buses)
 ## Spec_(ifications)_
 
   - List of items needed for an event.
+  - List of items needed for a session.
