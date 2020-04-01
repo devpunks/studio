@@ -6,4 +6,5 @@
 
 
 ## Lightning network
+
   - [New Lightning Network Authentication Method Could Replace Website Accounts](https://cointelegraph.com/news/new-lightning-network-authentication-method-could-replace-website-accounts)
