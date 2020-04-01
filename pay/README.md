@@ -11,6 +11,11 @@
   - [New Lightning Network Authentication Method Could Replace Website Accounts](https://cointelegraph.com/news/new-lightning-network-authentication-method-could-replace-website-accounts)
 
 
+### Aperture
+
+  - https://github.com/lightninglabs/aperture
+
+
 ### Loop
 
 Used for of/on chain pay(in/out)
