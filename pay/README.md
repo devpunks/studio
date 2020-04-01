@@ -12,4 +12,6 @@
 
 ### Loop
 
+Used for of/on chain pay(in/out)
+
   - https://lightning.engineering/loop/
