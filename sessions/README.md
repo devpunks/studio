@@ -17,6 +17,12 @@
 ## Types
 
 
+### PUNK _(Beginner)_
+
+
+### ROCKSTAR (Intermediate)
+
+
 ### recorded
 
   _Are these `records` resource? Perhaps may not need "rehearsal"_
