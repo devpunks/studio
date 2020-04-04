@@ -2,6 +2,8 @@
 
 Used to make calls into the studio.
 
+  - [ ] - Countdown _"Let them choose"_
+
 - [STAR with phone issues _(30min. in)_
 
     - _"Everything should be recorded"_
