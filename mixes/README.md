@@ -34,9 +34,3 @@ Has many [`buses`](../buses)
   - [Troubleshoot & Eliminate AC Hum](https://www.youtube.com/watch?v=Mu21CKdooYU)
   - [EQ, Reverb, Delay, De-Esser, & Tracking Vocals](https://www.youtube.com/watch?v=qKR16C9J18Q)
   - [IDENTIFYING SIGNAL FLOW DIFFERENTIATION BETWEEN VCA’S, DCA’S, AND SUBGROUPS](https://www.behindthemixer.com/identifying-signal-flow-differenciation-between-vcas-dcas-and-subgroups/)
-
-
-## Spec_(ifications)_
-
-  - List of items needed for an event.
-  - List of items needed for a session.
