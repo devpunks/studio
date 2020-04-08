@@ -8,6 +8,7 @@ Has many [`buses`](../buses)
   - [Cue Bus](https://www.youtube.com/watch?v=RUkZJIqMdxA)
   - [Cue Bus Interface](https://help.uaudio.com/hc/en-us/articles/209063366-Setting-up-Cue-Mixes-in-Console-and-Your-DAW?mobile_site=true)
 
+_Mix Harmony @ 3dB Lower_
 
 ## Groups
 
