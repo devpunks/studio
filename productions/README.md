@@ -11,6 +11,12 @@
   - https://www.youtube.com/watch?v=7RuULRWjgek
 
 
+### Spec_(ifications)_
+
+  - List of items needed for an event.
+  - List of items needed for a session.
+
+
 ## Roles
 
 
