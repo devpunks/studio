@@ -2,6 +2,9 @@
 
 Used to make calls into the studio.
 
+
+  - [ ] - Host
+  - [ ] - Callers
   - [ ] - Countdown _"Let them choose"_
 
 - [STAR with phone issues _(30min. in)_
