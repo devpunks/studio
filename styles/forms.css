@@ -146,7 +146,6 @@ input:focus, select:focus
     height: 2em;
     color: yellow;
     line-height: 2em;
-    border-top: 1em solid rgba(0,0,0,0.001);
     border-color:  rgba(0,0,0,1);
     animation: none !important;
     border-bottom: none;
