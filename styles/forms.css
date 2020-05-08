@@ -150,7 +150,6 @@ input:focus, select:focus
     animation: none !important;
     border-color:  rgba(0,0,0,1);
     border-top: 1em solid rgba(0,0,0,0.001);
-    border-bottom: none;
   }
 [role=search]
   [type=search]:placeholder-shown {
