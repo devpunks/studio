@@ -142,7 +142,6 @@ input:focus, select:focus
 }
 [role=search]
   [type=search] {
-    font-size: 1em;
     height: 2em;
     color: yellow;
     line-height: 2em;
