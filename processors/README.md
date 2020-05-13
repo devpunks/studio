@@ -1,5 +1,6 @@
 # `processors`
 
+  - [P.C.M. _(Pulse Code Modulation)_](https://en.wikipedia.org/wiki/Pulse-code_modulation)
   - [S.P. _(Signal Processing)_](https://en.wikipedia.org/wiki/Signal_processing)
   - [D.S.P. _(Digital Signal Processing)_](https://en.wikipedia.org/wiki/Digital_signal_processing)
   - [D.I.P. _(Digital Image Processing)_](https://en.wikipedia.org/wiki/Digital_image_processing)
