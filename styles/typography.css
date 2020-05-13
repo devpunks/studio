@@ -228,7 +228,6 @@ body del, body s {
 }
 blockquote::before
 {
-  background: red;
   display: block;
   width: 1em;
   padding: 0;
