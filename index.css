@@ -47,6 +47,10 @@ html
 html *, html ::before, html ::after, html *:before, html *:after
 /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { box-sizing: inherit }
+
+body, body > header, body > main, body > aside, body > footer
+  { max-width: var(--max-width) }
+
 html, body
   { width: 100% }
 
