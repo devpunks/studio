@@ -9,6 +9,7 @@
 
 ## [Sampling](https://en.wikipedia.org/wiki/Sampling_(signal_processing))
 
+  - [Nyquist Theorem](https://en.wikipedia.org/wiki/Nyquist_theorem)
 
 ## [Filters](https://en.wikipedia.org/wiki/Filter_(signal_processing))
 
