@@ -54,6 +54,11 @@ body, body > header, body > main, body > aside, body > footer
 html, body
   { width: 100% }
 
+body > header { margin-bottom: 1.612em }
+body > main   { }
+body > aside  { }
+body > footer { }
+
 template /* IE custom elements */
   { display: none }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
@@ -74,13 +79,6 @@ table
 abbr[title]
   { cursor: help }
 
-body, body > header, body > main, body > aside, body > footer
-  { max-width: var(--max-width) }
-
-body > header { margin-bottom: 1.612em }
-body > main   { }
-body > aside  { }
-body > footer { }
 
 /* media.css */
 canvas {
