@@ -12,6 +12,11 @@ In human engineering, signals are typically provided by a sensor, and often the 
 
 ## [Noise](https://en.wikipedia.org/wiki/Noise_(electronics))
 
+## False Signals
+
+  - [False Color](https://en.wikipedia.org/wiki/False_color)
+
+
 
 ## Audio
 
