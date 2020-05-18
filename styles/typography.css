@@ -141,7 +141,7 @@ body > footer { }
 
 /* LANDMARKS */
 
-body > main, body > aside, body > footer, [role=banner], [role=search]
+body > header, body > main, body > aside, body > footer, [role=banner], [role=search]
 { outline: 0.3em dashed currentColor }
 
 [role=search]
