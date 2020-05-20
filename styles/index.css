@@ -80,7 +80,7 @@ table
 {
   width: inherit;
   table-layout: fixed;
-  outline: 0.4em;
+  outline-width: 0.4em;
   outline-style: double;
   border-collapse: collapse;
   box-shadow: --box-shadow;
