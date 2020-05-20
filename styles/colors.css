@@ -57,9 +57,12 @@ dialog {
   background-color: var(--color)
 }
 
-table thead {
-  background: var(--color);
-  color: var(--background-color)
+table
+  { outline-color: var(--darkest-color) }
+table
+  thead {
+    background: var(--color);
+    color: var(--background-color)
 }
 
 table tr:nth-child(odd) {
