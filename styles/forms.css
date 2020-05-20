@@ -63,7 +63,6 @@ output
 
 fieldset {
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
-  text-align: center
 }
 legend {
 
