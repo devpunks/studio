@@ -83,7 +83,7 @@ table
   outline-width: 0.4em;
   outline-style: double;
   border-collapse: collapse;
-  box-shadow: --box-shadow;
+  box-shadow: var(--box-shadow)
 }
 
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
