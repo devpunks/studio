@@ -23,8 +23,30 @@ input
 input:not(type), [type=color], [type=date]
 [type=datetime-local], [type=email], [type=month], [type=number]
 [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week]
-{ /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-  background: yellow
+
+  <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+*/
 }
 
 [type=search] {
