@@ -80,9 +80,10 @@ table
 {
   width: inherit;
   table-layout: fixed;
+  outline: 0.4em;
+  outline-style: double;
   border-collapse: collapse;
-  outline: 0.4em double;
-  box-shadow: 10px 10px 20px red;
+  box-shadow: --box-shadow;
 }
 
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
