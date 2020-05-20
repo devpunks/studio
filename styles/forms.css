@@ -14,6 +14,12 @@ progress
 button, [type=submit], [type=button], [type=reset]
   { cursor: pointer }
 
+input
+{ /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
+  background: yellow;
+  border: 1em solid red;
+
+  /*
 input:not(type), [type=color], [type=date]
 [type=datetime-local], [type=email], [type=month], [type=number]
 [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week]
