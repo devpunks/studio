@@ -142,8 +142,6 @@ body > header, body > main, body > aside, body > footer, [role=banner], [role=se
 
 [role=banner] a[target=_top] {
   display: block;
-  background: currentColor url(index.png) no-repeat left;
-
   font-size: 3em;
   line-height: 2em;
   margin-bottom: 0.2em
