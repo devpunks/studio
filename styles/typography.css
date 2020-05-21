@@ -271,8 +271,6 @@ pre, code, kbd, samp {
   display: inline-block;
   font-family: var(--font-family-mono)
 }
-p pre, p code, p kbd, p samp
-  { display: inline-block; padding: 0 0.612em; }
 
 sub, sup {
 /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
