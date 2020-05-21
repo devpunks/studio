@@ -119,6 +119,12 @@ iframe
   { border: none }
 
 /* overflows */
+body
+  > * {
+    /* Use for horizontal scrolling and snapping. */
+    overflow: hidden
+  }
+
 hr { overflow: visible }
 svg {
   /* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
