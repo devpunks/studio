@@ -188,6 +188,5 @@ button:focus {
 }
 
 button, input, select {
-  overflow: visible;    /* Show the overflow in Edge */
-  text-transform: none; /* Remove the inheritance of text transform in Firefox */
+  text-transform: none /* Remove the inheritance of text transform in Firefox */
 }
