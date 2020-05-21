@@ -29,6 +29,48 @@ progress
 button, [type=submit], [type=button], [type=reset]
   { cursor: pointer }
 
+
+form {
+  background: pink
+}
+form:focus-within {
+  background-color: var(--darker-color)
+}
+form
+  fieldset:focus-within {
+    background-color: var(--darkest-color)
+  }
+
+
+fieldset {
+  min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
+  border: none;
+  display: flex;
+  /* flex-direction: row; */
+  background: green;
+  
+  /* var(--flex-direction) */
+}
+legend {
+
+  width: 100%; /* Correct the text wrapping in Edge and IE. */
+  max-width: 100%
+}
+
+label {
+background: purple;
+}
+label:before {/*
+      display: block;
+    text-align: center;
+    white-space: pre;
+    content: '\a';
+    */
+}
+
+output
+  { display: inline-block }
+
 input
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   background: yellow;
