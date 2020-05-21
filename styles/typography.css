@@ -156,7 +156,7 @@ body > header, body > main, body > aside, body > footer, [role=banner], [role=se
 }
 
 body > *
-  { margin: var(--margin) }
+  {margin: var(--margin);}
 
 a {
   margin:  .1em;
@@ -300,8 +300,10 @@ address {
   margin-bottom: 1.612em
 }
 
-table
-  { margin: var(--margin) }
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 table > caption { }
 table > thead { }
