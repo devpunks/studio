@@ -196,6 +196,49 @@ body del, body s {
   opacity: 0.5;
   text-decoration: line-through
 }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1, h2, h3, h4, h5, h6, header {
+  margin: var(--margin);
+
+  font-weight: bold;
+  text-shadow: 0.05em 0.05em 0.2em var(--shadow)
+}
+
+h1 {
+  font-size:   2em;
+  line-height: 1.12em
+}
+
+header
+  { font-size: 120% }
+b, strong
+  { font-weight: bolder }
+p
+  { margin: var(--p-margin) }
+
+/* quotes */
+q {
+  quotes: '“' '”' '‘' '’';
+  font-style: italic
+}
+q::before
+  { content: open-quote }
+q::after
+  { content: close-quote }
+
+blockquote, q {
+  font-size: 150%;
+  line-height: 1.612em
+}
+blockquote { 
+  opacity: 80%;
+  margin: 0 6em;
+  font-style: italic
+}
 blockquote::before
 {
   display: block;
