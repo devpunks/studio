@@ -127,44 +127,6 @@ select
   and https://github.com/twbs/bootstrap/issues/11266 */
  { -webkit-appearance: listbox }
 
-button, [type=button], [type=reset], [type=submit]
-{
-  font-size: 161%;
-  font-weight: bold;
-  padding: 0 1.612em;
-  line-height: 1.612em;
-
-  border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
-  border: 0.2em solid green;
-  -webkit-appearance: button;
-  appearance:         button;
-
-}
-::-webkit-file-upload-button {
-  font: inherit;
-  -webkit-appearance: button;
-  -moz-appearance:    button;
-  appearance:         button
-}
-::-moz-file-upload-button {
-  -webkit-appearance: button;
-  -moz-appearance:    button;
-  appearance:         button
-}
-button:focus {
-  /* transparent `button` background results in a loss of the default `button` focus styles */
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color
-}
-
-button, input, select {
-  overflow: visible;   /* Show the overflow in Edge */
-  text-transform: none /* Remove the inheritance of text transform in Firefox */
-}
-
-label
-  { display: inline-block }
-
 textarea {
   overflow: auto; /* Remove IE vertical scrollbar. */
   resize: vertical
