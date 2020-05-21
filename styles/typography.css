@@ -249,6 +249,11 @@ cite {
 }
 cite::before
   { content: ' — ' /* https://en.wikipedia.org/wiki/Dash */ }
+q 
+  + cite {
+    font-size: 70%;
+    font-weight: normal
+  }
 
 del::before, ins::before
   { font-family: var(--font-family-mono) }
