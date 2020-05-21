@@ -141,15 +141,21 @@ textarea {
 
 /* accessibility.css */
 /* WAI-ARIA guide - https://github.com/w3c/aria-practices */
+
+/* LANDMARKS */
+[role=banner] {}
+[role=search]
+  { text-align: right }
+
 [tabindex=-1]:focus
   { outline: 0 }
+
 [aria-controls]
   { cursor: pointer }
 [aria-busy=true]
   { cursor: progress }
 [aria-disabled=true]
   { cursor: not-allowed }
-
 [aria-hidden=false][hidden]:not(:focus) {
   display: inherit;
   position: absolute;
