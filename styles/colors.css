@@ -69,3 +69,7 @@ table
     color: var(--background-color);
     background-color: var(--color)
 }
+pre, code, kbd, samp {
+  color: var(--lightest-color);
+  background: var(--darkest-color)
+}
