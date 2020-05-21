@@ -48,7 +48,7 @@ fieldset {
   display: flex;
   /* flex-direction: row; */
   background: green;
-  
+
   /* var(--flex-direction) */
 }
 legend {
