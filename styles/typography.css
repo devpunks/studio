@@ -144,8 +144,8 @@ body > header, body > main, body > aside, body > footer, [role=banner], [role=se
   display: block;
   font-size: 3em;
   line-height: 2em;
-  margin-bottom: 0.2em
-  background-image: url(index.png) no-repeat left;
+  margin-bottom: 0.2em;
+  background-image: url(index.png) no-repeat left
 }
 
 body > *
