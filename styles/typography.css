@@ -282,8 +282,6 @@ sub
   { bottom: -0.25em }
 
 svg {
-/* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
-  overflow: hidden;
   vertical-align: middle
 }
 
