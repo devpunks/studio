@@ -125,34 +125,25 @@ body :not(a), *,
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { text-decoration: inherit }
 
-body {
-  margin: 0 auto;
+body { margin: 0 auto }
+
+body > header, body > main, body > aside, body > footer
+  { outline: 0.3em dashed }
+
+body > header {
+  display: block;
+  font-size: 2em;
+
+  line-height: 2em;
+  white-space: nowrap;
+  margin-bottom: 0.2em;
+  background-image: url(index.png) no-repeat left
 }
-body > header { white-space: nowrap }
 body > main   { }
 body > aside  { }
 body > footer { }
 
-
-/* LANDMARKS */
-
-body > header, body > main, body > aside, body > footer, [role=banner], [role=search]
-{ outline: 0.3em dashed }
-
-[role=search]
-  { text-align: right }
-
-[role=banner] a[target=_top] {
-  display: block;
-  font-size: 3em;
-  line-height: 2em;
-  margin-bottom: 0.2em;
-  background-image: url(index.png) no-repeat left
-}
-
-body > *
-  {margin: var(--margin);}
-
+/* hyperlinks */
 a {
   margin:  .1em;
   padding: .1em;
