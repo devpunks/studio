@@ -250,7 +250,7 @@ blockquote::before
 }
 cite {
   opacity: 75%;
-  font-size: 125%;
+  font-weight: bolder;
   white-space: nowrap
 }
 cite::before
