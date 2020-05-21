@@ -1,4 +1,19 @@
-/* Remove tapping delay */
+:root {
+  --flex-direction: column
+}
+
+/*
+  - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
+*/
+@media screen and (min-width: 786px) {
+  :root {
+    --flex-direction: row   
+  }
+}
+
+/* Remove tapping delay
+ *   https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
+ */
 a, area, button, input, label, select, summary, textarea, [tabindex] {
   -ms-touch-action: manipulation;
   touch-action:     manipulation
