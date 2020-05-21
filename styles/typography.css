@@ -268,7 +268,7 @@ small
   { font-size: 80% }
 
 pre, code, kbd, samp {
-  font-size:   var(--font-size);
+  font-size:   1.2em;
   font-family: var(--font-family-mono)
 }
 
