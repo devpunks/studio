@@ -167,35 +167,6 @@ a {
 a:hover
   { text-decoration: underline }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1, h2, h3, h4, h5, h6, header {
-  margin: var(--margin);
-
-  font-weight: bold;
-  text-shadow: 0.05em 0.05em 0.2em var(--shadow)
-}
-
-h1 {
-  font-size:   2em;
-  line-height: 1.12em
-}
-
-header
-  { font-size: 120% }
-b, strong
-  { font-weight: bolder }
-p
-  { margin: var(--p-margin) }
-cite
-  { font-size: 80% }
-cite::before
-  { content: '—' /* https://en.wikipedia.org/wiki/Dash */ }
-q
-  { font-style: italic }
-
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: .15em;
   overflow: visible;
