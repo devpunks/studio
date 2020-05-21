@@ -75,7 +75,6 @@ input
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   background: yellow;
   border: 0.1em solid red;
-  width: 100%;
   /*
 input:not(type), [type=color], [type=date]
 [type=datetime-local], [type=email], [type=month], [type=number]
