@@ -267,7 +267,8 @@ small
   { font-size: 80% }
 
 pre, code, kbd, samp {
-  display: block;
+  padding: 0 0.612em;
+  display: inline-block;
   font-family: var(--font-family-mono)
 }
 p pre, p code, p kbd, p samp
