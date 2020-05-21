@@ -128,7 +128,6 @@ select
 
 textarea {
   width: 100%;
-  overflow: auto; /* Remove IE vertical scrollbar. */
   resize: vertical
 }
 
