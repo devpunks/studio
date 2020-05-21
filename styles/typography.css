@@ -243,12 +243,17 @@ blockquote::before
 {
   opacity: 60%;
   display: block;
-  width: 1em;
-  padding: 0;
-  content: "\201C";
-  left: -20px;
-  top: -20px
+  content: '\201C';
+  font-size: 300%;
+  margin-bottom: -.4em
 }
+cite {
+  opacity: 75%;
+  font-size: 125%;
+  white-space: nowrap
+}
+cite::before
+  { content: ' — ' /* https://en.wikipedia.org/wiki/Dash */ }
 
 del::before, ins::before
   { font-family: var(--font-family-mono) }
