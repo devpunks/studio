@@ -125,7 +125,7 @@ body :not(a), *,
 body {
   margin: 0 auto;
 }
-
+body > header { white-space: nowrap }
 body > main   { }
 body > aside  { }
 body > footer { }
