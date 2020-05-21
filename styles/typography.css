@@ -233,14 +233,12 @@ q::before
 q::after
   { content: close-quote }
 
-blockquote, q {
-  font-size: 150%;
-  line-height: 1.612em
-}
 blockquote {
   opacity: 80%;
-  margin: 0 6em;
-  font-style: italic
+  margin: var(--margin);
+  font-size: 110%;
+  font-style: italic;
+  line-height: 1.612em
 }
 blockquote::before
 {
