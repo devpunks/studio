@@ -135,7 +135,7 @@ body > footer { }
 /* LANDMARKS */
 
 body > header, body > main, body > aside, body > footer, [role=banner], [role=search]
-{ outline: 0.3em dashed currentColor }
+{ outline: 0.3em dashed }
 
 [role=search]
   { text-align: right }
