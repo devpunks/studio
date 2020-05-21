@@ -161,7 +161,6 @@ a:hover
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: .15em;
-  overflow: visible;
   margin-top: 3.612em;
   margin-bottom: 3.612em;
   box-sizing: content-box
