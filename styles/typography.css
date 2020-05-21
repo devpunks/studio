@@ -116,10 +116,11 @@ html {
   font-feature-settings: normal
 }
 
-html * {
-  margin:  0 0 var(--margin-collapse-bugfix);
-  padding: var(--margin-collapse-bugfix) 0 0
-}
+body :not(a), *,
+::before, *:before,
+::after,  *:after
+  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
+  { text-decoration: inherit }
 
 body {
   margin:    0 auto;
