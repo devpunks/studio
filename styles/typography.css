@@ -241,6 +241,7 @@ blockquote {
 }
 blockquote::before
 {
+  opacity: 60%;
   display: block;
   width: 1em;
   padding: 0;
