@@ -234,8 +234,7 @@ blockquote {
   font-style: italic;
   line-height: 1.612em
 }
-blockquote::before
-{
+blockquote::before {
   opacity: 60%;
   display: block;
   content: '\201C';
