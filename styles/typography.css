@@ -322,7 +322,7 @@ legend {
   font-size: 2.4em;
   white-space: normal;
   margin-bottom: 0.8em;
-  line-height: inherit;
+  line-height: inherit
 }
 
 button, input, select, textarea {
