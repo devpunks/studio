@@ -116,6 +116,9 @@ html {
   font-feature-settings: normal
 }
 
+body > *
+  { margin: var(--margin) }
+
 body :not(a), *,
 ::before, *:before,
 ::after,  *:after
