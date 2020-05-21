@@ -221,6 +221,9 @@ p
   { margin: var(--p-margin) }
 
 /* quotes */
+q, blockquote {
+  font-size: 80%;
+}
 q {
   quotes: '“' '”' '‘' '’';
   font-style: italic
