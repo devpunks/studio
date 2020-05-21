@@ -76,6 +76,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 summary
   { display: list-item }
 
+/* CSS3 Lists
+ * https://drafts.csswg.org/css-lists-3/
+ */
+ul {}
+ol {}
+li {}
+dl {}
+dt {}
+dd {}
+
 table
 {
   width: inherit;
