@@ -122,7 +122,8 @@ iframe
 body
   > * {
     /* Use for horizontal scrolling and snapping. */
-    overflow: hidden
+    overflow-y: auto;
+    overflow-x: hidden
   }
 
 hr { overflow: visible }
