@@ -42,6 +42,19 @@ form
   }
 
 
+form#search {
+  display: flex;
+  flex-direction: column;
+  background: yellow;
+}
+form#search
+  input[type=search] {
+    flex: 1 33%;
+  }
+form#search
+  input[type=submit] {
+    flex: 1 33%;
+  }
 fieldset {
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
   border: none;
