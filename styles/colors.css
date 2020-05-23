@@ -2,8 +2,10 @@
  * CSS colors - https://www.w3.org/TR/2018/REC-css-color-3-20180619/
  * Native color chart - https://www.w3.org/TR/2018/REC-css-color-3-20180619/#svg-color
  * CSS UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
-   - ButtonFace
-   - ButtonText
+ * CSS4 System Colors - https://www.w3.org/TR/css-color-4/#css-system-colors
+
+   - ButtonFace - Face color for 3D display elements
+   - ButtonText - Text on push buttons
    - Canvas
    - GrayText
    - Highlight
