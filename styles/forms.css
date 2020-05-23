@@ -97,17 +97,6 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   border: none;
   border-bottom: 0.1em solid;
-  /*
-  <input type="button">
-<input type="checkbox">
-<input type="file">
-<input type="hidden">
-<input type="image">
-<input type="radio">
-<input type="range">
-<input type="reset">
-<input type="submit">
-*/
 }
 
 [type=search] {
