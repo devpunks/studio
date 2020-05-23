@@ -50,7 +50,6 @@ form
 
 
 form[name=search] {
-  font-size: 50%;
   display: flex;
   background: #000;
   flex-direction: var(--flex-direction)
