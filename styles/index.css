@@ -87,7 +87,8 @@ details#swatches {
 details#swatches *:not(em) {
   width: auto;
   display: block;
-  white-space: nowrap
+  white-space: nowrap;
+  margin: var(--margin)
 }
 summary
   { display: list-item }
