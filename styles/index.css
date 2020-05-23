@@ -178,7 +178,6 @@ textarea {
   padding: 0;
   width: 1px;
   height: 1px;
-  left: -10000px;
   overflow: hidden;
   position :absolute
 }
