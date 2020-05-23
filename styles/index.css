@@ -193,7 +193,9 @@ textarea {
 
 [href='#main']:focus
 {
-  width: 100vw;
+  top: 0;
+  left: 0;
+  width: auto;
   height: auto;
   display: block;
   position: sticky;
