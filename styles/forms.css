@@ -129,6 +129,9 @@ input:not(type), [type=color], [type=date]
 [type=search]::-webkit-search-decoration
  /* Remove the inner padding in Chrome and Safari on macOS. */
  { -webkit-appearance: none }
+  /* Remove 'x' icon from search */
+[type=search]::-webkit-search-cancel-button
+  { display: none; }
 
 select
   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
