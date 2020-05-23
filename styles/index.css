@@ -170,7 +170,6 @@ textarea {
 
 .hide { 
   /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
-  height: 1px;
   width: 1px;
   overflow: hidden;
   position: absolute;
