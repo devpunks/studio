@@ -80,10 +80,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   { display:block }
 
 details {}
-details#swatches {
-  display: flex;
-  flex-direction: column;
-}
+details#swatches {}
 details#swatches *:not(em) {
   width: auto;
   display: block;
