@@ -68,6 +68,7 @@ form#search
 fieldset {
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
   border: none;
+  /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
   display: flex;
   flex-direction: var(--flex-direction);
   background: green;
