@@ -124,6 +124,10 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   border: none;
   outline: 0.1em solid
 }
+input[list] {
+  /* combobox */
+}
+
 textarea {
   width: 100%;
   resize: vertical
