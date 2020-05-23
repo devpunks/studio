@@ -79,6 +79,16 @@ template /* IE custom elements */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 
+details {}
+details#swatches {
+  display: flex;
+  flex-direction: column;
+}
+details#swatches *:not(em) {
+  width: 100%;
+  display: block;
+  white-space: nowrap
+}
 summary
   { display: list-item }
 
