@@ -181,8 +181,8 @@ textarea {
   overflow: hidden;
   position: absolute
 }
- 
-.skip a:focus
+
+[href='#main']:focus
 {
   position:static;
   width:auto;
