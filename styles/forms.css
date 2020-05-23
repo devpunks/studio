@@ -177,6 +177,7 @@ button, [type=button], [type=submit], [type=reset]
   font-weight: bold;
   padding: 0 1.612em;
   outline: 0.1em solid;
+  margin: var(--margin);
   line-height: 1.612em;
 
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
