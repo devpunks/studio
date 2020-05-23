@@ -154,7 +154,7 @@ textarea {
 [role=main]        , main {}
 [role=contentinfo] , body > footer {}
 
-[tabindex=-1]:focus
+[tabindex='-1']:focus
   { outline: 0 }
 [aria-controls]
   { cursor: pointer }
