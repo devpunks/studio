@@ -208,5 +208,5 @@ button, input, select {
   text-transform: none /* Remove the inheritance of text transform in Firefox */
 }
 [required], [aria-required=true] {}
-:invalid, [aria-invalid=true] { color: ActiveText }
-:valid, [aria-invalid=false] {}
+input:invalid, [aria-invalid=true] { color: red }
+input:valid, [aria-invalid=false] { }
