@@ -101,8 +101,6 @@ input[type=date], input[type=month], input[type=week], input[type=datetime], inp
   <input type="button">
 <input type="checkbox">
 <input type="color">
-<input type="date">
-<input type="datetime-local">
 <input type="email">
 <input type="file">
 <input type="hidden">
