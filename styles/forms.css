@@ -87,7 +87,8 @@ output
 
 input
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-
+  border: none;
+  border-bottom: 0.1em solid;
   /*
 input:not(type), [type=color], [type=date]
 [type=datetime-local], [type=email], [type=month], [type=number]
