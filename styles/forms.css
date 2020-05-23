@@ -47,7 +47,8 @@ form[name=search] {
   font-size: 50%;
   display: flex;
   flex-direction: column;
-  background: yellow;
+  background: #000;
+  height: 20vh;
 }
 form#search
   input[type=search] {
