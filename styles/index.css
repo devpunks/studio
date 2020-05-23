@@ -75,8 +75,10 @@ body > footer { }
 
 template /* IE custom elements */
   { display: none }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
+
 summary
   { display: list-item }
 
