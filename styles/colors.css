@@ -62,7 +62,7 @@ a:visited
 
 a:hover
   { color: var(--a\:hover) }
-  
+
 a.logo, a.logo:link, a.logo:active, a.logo:visited {
   color: var(--color)
 }
