@@ -111,7 +111,7 @@ abbr[title]
 /* media.css */
 canvas {
   display: inline-block;
-  outline: 1px solid var(--color)
+  outline: 1px solid
 }
 
 audio, canvas, embed, iframe, img, object, picture, svg, video {
