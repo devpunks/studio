@@ -207,9 +207,8 @@ input:invalid, [aria-invalid=true] {
 input:valid, [aria-invalid=false] { }
 
 input:invalid:before {
-  position: absolute;
   content: '✖';
-  padding-left: 5px;
+  position: absolute;
 }
 
 input:valid:before {
