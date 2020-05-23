@@ -146,6 +146,10 @@ textarea {
   resize: vertical
 }
 
+select
+  /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+  { word-wrap: normal }
+
 progress
   { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
 
