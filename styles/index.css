@@ -184,9 +184,14 @@ textarea {
 
 [href='#main']:focus
 {
-  position:static;
-  width:auto;
-  height:auto;
+  width: 100vw;
+  height: auto;
+  display: block;
+  position: sticky;
+  top: 0; left: 0;
+}
+.skip:not(:focus):not(:active) {
+
 }
 
 
