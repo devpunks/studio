@@ -180,7 +180,6 @@ button, [type=button], [type=reset], [type=submit]
   line-height: 1.612em;
 
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
-  border: 0.2em solid green;
   -webkit-appearance: button;
   appearance:         button;
 
