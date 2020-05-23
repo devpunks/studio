@@ -144,6 +144,13 @@ a {
 a:hover
   { text-decoration: underline }
 
+a.logo {
+  font-size: 2em;
+
+  line-height: 2em;
+  white-space: nowrap;
+  margin-bottom: 0.2em
+}
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   height: .15em;
