@@ -130,14 +130,6 @@ body { margin: 0 auto }
 body > header, body > main, body > aside, body > footer
   {outline: 0.3em dashed;}
 
-body > header {
-  display: block;
-  font-size: 2em;
-
-  line-height: 2em;
-  white-space: nowrap;
-  margin-bottom: 0.2em
-}
 body > main   { }
 body > aside  { }
 body > footer { }
