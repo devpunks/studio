@@ -140,6 +140,11 @@ input:not(type), [type=color], [type=date]
   and https://github.com/twbs/bootstrap/issues/11266 */
  { -webkit-appearance: listbox }
 
+[type=color] {
+  padding: 0;
+  border: none;
+  outline: 0.1em solid
+}
 textarea {
   width: 100%;
   resize: vertical
