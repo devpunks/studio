@@ -97,7 +97,10 @@ table
   box-shadow: var(--box-shadow)
 }
 
-/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+/*
+ * cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+ * pointer-events - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
+ */
 abbr[title]
   { cursor: help }
 
