@@ -203,5 +203,6 @@ button:focus {
 button, input, select {
   text-transform: none /* Remove the inheritance of text transform in Firefox */
 }
-[required], [aria-required] {}
-:invalid, [aria-invalid] {}
+[required], [aria-required=true] {}
+:invalid, [aria-invalid=true] {}
+:valid, [aria-invalid=false] {}
