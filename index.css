@@ -1,1 +1,6 @@
-@import 'styles/index.css'
+@import 'styles/index.css';
+
+a.logo {
+  background: green;
+  display: block;
+}
