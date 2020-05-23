@@ -51,7 +51,7 @@ form#search {
 }
 form#search
   input[type=search] {
-    flex: 1 33%;
+    width: 80%;
   }
 form#search
   input[type=submit] {
