@@ -50,7 +50,6 @@ form
     background-color: var(--darkest-color)
   }
 
-
 form[name=search] {
   display: flex;
   flex-direction: var(--flex-direction)
