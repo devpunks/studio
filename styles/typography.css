@@ -128,7 +128,7 @@ body :not(a), *,
 body { margin: 0 auto }
 
 body > header, body > main, body > aside, body > footer
-  {outline: 0.3em dashed;}
+  {outline: 0.3em dashed }
 
 body > main   { }
 body > aside  { }
