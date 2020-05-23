@@ -190,21 +190,11 @@ textarea {
   clip-path: inset(50%);
   clip: rect(1px, 1px, 1px, 1px)
 }
-
-[href='#main']:focus
-{
-  top: 0;
-  left: 0;
-  width: auto;
-  height: auto;
+[href='#main']:focus {
+  all: inherit;
+  outline: dotted 0.1em;
   display: block;
-  margin: inherit;
-  pointer-events: auto
 }
-.skip:not(:focus):not(:active) {
-
-}
-
 
 /* PWA RELATED */
 html, body {
