@@ -117,6 +117,7 @@ input:not(type), [type=color], [type=date]
 <input type="week">
 */
 }
+[required], [aria-required] {}
 
 [type=search] {
   /* Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586. */
