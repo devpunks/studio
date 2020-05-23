@@ -172,7 +172,6 @@ dialog:not([open])
 
 button, [type=button], [type=submit], [type=reset]
 {
-  outline: 0.1em solid;
   font-size: 140%;
   font-weight: bold;
   padding: 0 1.612em;
