@@ -22,10 +22,18 @@
   
   <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role -->
   <form role=search name=search action=/>
-    <label for=search>Search</label><input id=search required title=Search type=search placeholder=🔎Search>
+    <label for=search class=hide>Search</label>
+    <input required
+      id=search type=search title=Search placeholder=🔎Search>
 
     <input title=Submit type=submit>
 
+    <a
+      rel=search
+      href=?
+      title=tags>
+      tags
+    </a>
     <a
       rel=tags
       href=tags
