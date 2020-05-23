@@ -168,9 +168,6 @@ dialog {
 dialog:not([open])
   { display: none }
 
-[hidden]
-  { display: none }
-
 button, [type=button], [type=submit], [type=reset]
 {
   opacity: 70%;
