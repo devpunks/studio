@@ -24,7 +24,7 @@ summary
   { cursor: pointer }
 progress
   { cursor: progress }
-[disabled]
+[disabled], [readonly], :read-only
   { cursor: not-allowed }
 button, [type=submit], [type=button], [type=reset]
   { cursor: pointer }
@@ -66,6 +66,7 @@ fieldset {
 
   /* var(--flex-direction) */
 }
+fieldset[disabled] {}
 legend {
 
   width: 100%; /* Correct the text wrapping in Edge and IE. */
