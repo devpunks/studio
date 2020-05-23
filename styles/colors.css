@@ -5,7 +5,7 @@
  * Grey - https://en.wikipedia.org/wiki/Shades_of_gray
  * Black   - https://en.wikipedia.org/wiki/Black
 */
- 
+
 :root {
   --background-color: rgba(10,10,10, 0.8);
   --color:            rgba(240,240,240, 0.8);
