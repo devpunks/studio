@@ -67,10 +67,8 @@ fieldset {
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
   border: none;
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: var(--flex-direction);
   background: green;
-
-  /* var(--flex-direction) */
 }
 fieldset[disabled] {}
 legend {
