@@ -98,10 +98,6 @@ input[type=date], input[type=month], input[type=week], input[type=datetime], inp
   border: none;
   border-bottom: 0.1em solid;
   /*
-input:not(type), [type=color], [type=date]
-[type=datetime-local], [type=email], [type=month], [type=number]
-[type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week]
-
   <input type="button">
 <input type="checkbox">
 <input type="color">
