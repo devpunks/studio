@@ -167,6 +167,16 @@ textarea {
   clip: rect(0, 0, 0, 0)
 }
 
+.hide { 
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  clip: rect(1px, 1px, 1px, 1px)
+}
+
+
 /* PWA RELATED */
 html, body {
   -webkit-user-select: none;
