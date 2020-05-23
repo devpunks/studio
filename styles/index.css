@@ -184,7 +184,11 @@ textarea {
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  position: absolute
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+  clip-path: inset(50%);
+  clip: rect(1px, 1px, 1px, 1px)
 }
 
 [href='#main']:focus
