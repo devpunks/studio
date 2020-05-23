@@ -170,7 +170,7 @@ dialog:not([open])
 [hidden]
   { display: none }
 
-button, [type=button], [type=reset], [type=submit]
+button, [type=button], [type=submit], [type=reset]
 {
   outline: 0.1em solid;
   font-size: 161%;
