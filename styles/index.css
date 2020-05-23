@@ -192,8 +192,8 @@ textarea {
 }
 [href='#main']:focus {
   all: inherit;
-  outline: dotted 0.1em;
   display: block;
+  outline: dotted 0.1em
 }
 
 /* PWA RELATED */
