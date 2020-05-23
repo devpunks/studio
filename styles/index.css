@@ -162,12 +162,7 @@ textarea {
   { cursor: progress }
 [aria-disabled=true]
   { cursor: not-allowed }
-[aria-hidden=false][hidden]:not(:focus) {
-  display: inherit;
-  position: absolute;
-  clip: rect(0, 0, 0, 0)
-}
-.hide { 
+[hidden], [aria-hidden=true] .hide,  { 
   /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
   padding: 0;
   width: 1px;
