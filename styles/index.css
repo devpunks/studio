@@ -149,9 +149,10 @@ textarea {
  */
 
 /* LANDMARKS */
-[role=banner] , body > header {}
-[role=search] , form[name=search] {}
-[role=main]   , main {}
+[role=banner]      , body > header {}
+[role=search]      , form[name=search] {}
+[role=main]        , main {}
+[role=contentinfo] , body > footer {}
 
 [tabindex=-1]:focus
   { outline: 0 }
