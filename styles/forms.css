@@ -124,7 +124,7 @@ input:not(type), [type=color], [type=date]
 [type=search] {
   /* Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586. */
   -webkit-appearance: none;
-  appearance: none;
+  appearance: none
 }
 [type='search']::-webkit-search-decoration
  /* Remove the inner padding in Chrome and Safari on macOS. */
