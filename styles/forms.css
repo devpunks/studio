@@ -203,6 +203,18 @@ button, input, select {
 input:invalid, [aria-invalid=true] { color: red }
 input:valid, [aria-invalid=false] { }
 
+input:invalid:before {
+  position: absolute;
+  content: '✖';
+  padding-left: 5px;
+}
+
+input:valid:before {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+}
+
 /*
 <input type="radio">
 <input type="checkbox">
