@@ -127,6 +127,7 @@ input:not(type), [type=color], [type=date]
   appearance: none
 }
  /* Remove the inner padding in Chrome and Safari on macOS. */
+[type=search]::-webkit-search-decoration
  { -webkit-appearance: none }
   /* Remove 'x' icon from search */
 [type=search]::-webkit-search-cancel-button
