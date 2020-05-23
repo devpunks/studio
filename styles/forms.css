@@ -31,7 +31,8 @@ button, [type=submit], [type=button], [type=reset]
 
 
 form {
-  background: pink
+  background: black;
+  outline: 10px solid;
 }
 form:focus-within {
   background-color: var(--darker-color)
