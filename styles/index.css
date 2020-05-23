@@ -166,7 +166,6 @@ textarea {
   position: absolute;
   clip: rect(0, 0, 0, 0)
 }
-
 .hide { 
   /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
   padding: 0;
