@@ -51,7 +51,6 @@ form
 
 form[name=search] {
   display: flex;
-  background: #000;
   flex-direction: var(--flex-direction)
 }
 form#search
