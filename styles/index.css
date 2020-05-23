@@ -170,28 +170,30 @@ textarea {
   { cursor: not-allowed }
 [hidden], [aria-hidden=true] .hide,  {
   /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
+  border: 0;
+  margin: 0;
   padding: 0;
   width: 1px;
-  height: 1px;
-  margin: -1px;
+  height: auto;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
   pointer-events: none;
   clip-path: inset(50%);
-  clip: rect(1px, 1px, 1px, 1px)
+  clip: rect(0, 0, 0, 0)
 }
 [href='#main'] { /* skip link */
+  bordr: 0;
+  margin: 0;
   padding: 0;
   width: 1px;
-  height: 1px;
-  margin: -1px;
+  height: auto;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
   pointer-events: none;
   clip-path: inset(50%);
-  clip: rect(1px, 1px, 1px, 1px)
+  clip: rect(0, 0, 0, 0)
 }
 [href='#main']:focus {
   all: inherit;
