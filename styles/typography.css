@@ -112,7 +112,7 @@ html {
   font-variant: normal;
   font-size-adjust: 0.5;
   word-break:  break-word;
-  unicode-range: U+0-10FFFF;
+  unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   font-feature-settings: normal
 }
 
