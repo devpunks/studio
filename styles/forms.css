@@ -32,8 +32,13 @@ progress
   { cursor: progress }
 /* readonly - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly */
 /* disabled - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled */
-[disabled], [readonly], :read-only
-  {/* cursor: not-allowed */}
+[disabled], [readonly], :read-only {/* cursor: not-allowed */
+
+}
+[disabled] {
+  opacity: 40%;
+  cursor: not-allowed
+}
 button, [type=submit], [type=button], [type=reset]
   { cursor: pointer }
 
