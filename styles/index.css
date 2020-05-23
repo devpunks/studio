@@ -171,6 +171,7 @@ textarea {
 .hide { 
   /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
   width: 1px;
+  height: 1px;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
