@@ -198,3 +198,14 @@ button, input, select {
 [required], [aria-required=true] {}
 input:invalid, [aria-invalid=true] { color: red }
 input:valid, [aria-invalid=false] { }
+
+/*
+<input type="radio">
+<input type="checkbox">
+<input type="range">
+<input type="file">
+
+<input type="button">
+<input type="reset">
+<input type="submit">
+*/
