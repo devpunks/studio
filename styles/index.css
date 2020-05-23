@@ -177,6 +177,7 @@ textarea {
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
+  clip-path: inset(50%);
   clip: rect(1px, 1px, 1px, 1px)
 }
 
