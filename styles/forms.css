@@ -187,6 +187,9 @@ button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover,
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
 {
   opacity: 100%;
+  /* transparent `button` background results in a loss of the default `button` focus styles */
+  outline: 0.2em currentColor;
+  outline: 0.2em auto -webkit-focus-ring-color
 }
 
 ::-webkit-file-upload-button {
