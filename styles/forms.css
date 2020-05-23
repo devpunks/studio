@@ -185,6 +185,11 @@ button, [type=button], [type=submit], [type=reset]
   appearance:         button;
 
 }
+button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover
+{
+  opacity: 100%;
+}
+
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
