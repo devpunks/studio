@@ -155,7 +155,6 @@ textarea {
 
 [tabindex=-1]:focus
   { outline: 0 }
-
 [aria-controls]
   { cursor: pointer }
 [aria-busy=true]
