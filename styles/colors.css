@@ -2,15 +2,15 @@
  * CSS colors - https://www.w3.org/TR/2018/REC-css-color-3-20180619/
  * Native color chart - https://www.w3.org/TR/2018/REC-css-color-3-20180619/#svg-color
  * CSS UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
-   - Canvas*
-   - Text*
-   - LinkText*
-   - VisitedText*
-   - Highlight
-   - HighlightText
-   - GrayText
    - ButtonFace
    - ButtonText
+   - Canvas
+   - GrayText
+   - Highlight
+   - HighlightText
+   - LinkText
+   - Text
+   - VisitedText
 
    Magenta - https://en.wikipedia.org/wiki/Shades_of_magenta
    Orchid  - https://en.wikipedia.org/wiki/Orchid_(color)
