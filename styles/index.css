@@ -82,7 +82,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 details {}
 details#swatches {}
 details#swatches *:not(em) {
-  width: auto;
+  width: 80%;
+  margin: auto;
   display: block;
   white-space: nowrap;
   margin: var(--margin)
