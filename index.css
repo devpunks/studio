@@ -1,5 +1,9 @@
 @import 'styles/index.css';
 
+:root{
+  --font-family: courier
+}
+
 a.logo {
   background: green;
   display: block;
