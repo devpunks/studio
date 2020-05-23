@@ -93,7 +93,7 @@ output
 
 input:not([type]), input[type=search], input[type=text], input[type=password],
 input[type=email], input[type=tel], input[type=url], input[type=number],
-input[type=date], input[type=month], input[type=week], input[type=datetime], input[type=datetime-local]
+input[type=date], input[type=time], input[type=datetime], input[type=month], input[type=week], input[type=datetime-local]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   border: none;
   border-bottom: 0.1em solid;
