@@ -74,6 +74,9 @@ fieldset {
   background: green;
 }
 fieldset[disabled] {}
+/* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
+fieldset input { width: 100% }
+
 legend {
 
   width: 100%; /* Correct the text wrapping in Edge and IE. */
