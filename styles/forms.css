@@ -37,8 +37,6 @@ button, [type=submit], [type=button], [type=reset]
 
 
 form {
-  background: black;
-  outline: 10px solid;
   display: flex;
   flex-direction: var(--flex-direction)
 }
