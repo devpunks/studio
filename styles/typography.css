@@ -136,8 +136,7 @@ body > header {
 
   line-height: 2em;
   white-space: nowrap;
-  margin-bottom: 0.2em;
-  background-image: url(index.png) no-repeat left
+  margin-bottom: 0.2em
 }
 body > main   { }
 body > aside  { }
