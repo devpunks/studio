@@ -718,8 +718,14 @@ p q r s t u v w x y z { | } ~ </pre>
         <label for=invalid>Invalid</label>
         <input id=invalid type=number value=Invalid>
 
-        <label for=text4 class=valid>Valid</label>
-        <input id=text4 class=is-valid type=text placeholder='Text Input'>
+        <label for=required:invalid><em>(Required)</em> Invalid</label>
+        <input required id=required:invalid type=number value=Invalid>
+
+        <label for=valid>Valid</label>
+        <input id=valid type=text value=Valid>
+
+        <label for=required:valid><em>(Required)</em> Valid</label>
+        <input required id=required:valid type=text value=Valid>
 
         <label for=file>File</label>
         <input id=file type=file placeholder='File Input'>
