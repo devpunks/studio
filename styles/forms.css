@@ -75,13 +75,6 @@ legend {
 label {
 background: purple;
 }
-label:before {/*
-      display: block;
-    text-align: center;
-    white-space: pre;
-    content: '\a';
-    */
-}
 
 output
   { display: inline-block }
