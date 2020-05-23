@@ -141,8 +141,11 @@ textarea {
 }
 
 
-/* accessibility.css */
-/* WAI-ARIA guide - https://github.com/w3c/aria-practices */
+/* accessibility.css
+ * 
+ * WAI-ARIA guide - https://github.com/w3c/aria-practices
+ * Focus Indicators - https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/
+ */
 
 /* LANDMARKS */
 [role=banner] {}
