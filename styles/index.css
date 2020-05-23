@@ -85,7 +85,7 @@ details#swatches {
   flex-direction: column;
 }
 details#swatches *:not(em) {
-  width: 100%;
+  width: auto;
   display: block;
   white-space: nowrap
 }
