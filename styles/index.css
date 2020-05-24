@@ -65,8 +65,10 @@ html *, html ::before, html ::after, html *:before, html *:after
 body, body > header, body > main, body > aside, body > footer
   { max-width: var(--max-width) }
 
-html, body
-  { width: 100% }
+html
+  { width: 100vw }
+body
+  {/* width: 92vw; */}
 
 body > header { margin-bottom: 1.612em }
 body > main   { }
