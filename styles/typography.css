@@ -307,6 +307,13 @@ table > tfoot { }
 table > tbody { }
 table td { }
 
+details {
+  margin: var(--margin);
+  text-align: var(--text-align)
+}
+summary
+  { margin-bottom: .612em }
+
 fieldset
   { }
 legend {
