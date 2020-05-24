@@ -78,6 +78,11 @@ label {
 output
   { display: inline-block }
 
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
 input:not([type]), input[type=search], input[type=text], input[type=password],
 input[type=email], input[type=tel], input[type=url], input[type=number],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
