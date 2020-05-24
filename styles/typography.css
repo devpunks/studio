@@ -164,7 +164,7 @@ ul, ol, dl {
   padding-left: unset;
   margin: 0 auto 1.612em;
 }
-ul ul, ol ol {
+ul ul, ol ol, dl dl {
   font-size: 90%;
   font-weight: normal
 }
