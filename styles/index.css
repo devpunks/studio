@@ -102,8 +102,7 @@ ul ul, ol ol
   { display: block }
 ul {}
 ol {}
-li *:first-child
-  { display: inline-block }
+li {}
 dl {}
 dt {}
 dd {}
