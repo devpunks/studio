@@ -168,6 +168,7 @@ ul ul, ol ol, dl dl {
   font-weight: normal
 }
 
+ul, ol, dt { font-weight: bolder }
 nav ol, nav ul
   { list-style: none }
 
