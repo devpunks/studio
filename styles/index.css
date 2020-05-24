@@ -114,6 +114,7 @@ table
  * cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
  * pointer-events - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
  */
+a { cursor: pointer }
 abbr[title]
   { cursor: help }
 
