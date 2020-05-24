@@ -156,6 +156,7 @@ dialog:not([open])
 button, [type=button], [type=submit], [type=reset]
 {
   opacity: 70%;
+  cursor: pointer;
   font-size: 140%;
   font-weight: bold;
   padding: 0 1.612em;
