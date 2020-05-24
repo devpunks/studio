@@ -124,7 +124,8 @@ textarea {
   width: 100%;
   border: none;
   padding: 0.612em;
-  resize: vertical
+  resize: vertical;
+  border-left: 0.1em solid
 }
 
 select
