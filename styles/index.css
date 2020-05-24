@@ -117,7 +117,15 @@ table
 a { cursor: pointer }
 abbr[title]
   { cursor: help }
-
+/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+summary
+  { cursor: pointer }
+progress
+  { cursor: progress }
+/* readonly - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly */
+/* disabled - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled */
+[readonly], :read-only
+  { /* cursor: not-allowed */ }
 
 /* media.css */
 canvas {
