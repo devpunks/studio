@@ -176,7 +176,7 @@ abbr[title] {
   text-decoration-skip-ink: none
 }
 
-body del, body s {
+del, s {
   opacity: 0.5;
   text-decoration: line-through
 }
