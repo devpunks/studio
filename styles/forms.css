@@ -79,7 +79,6 @@ output
   { display: inline-block }
 
 button, input, select, textarea {
-  font-family: inherit;
   font-size: 100%;
 }
 
