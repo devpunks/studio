@@ -86,8 +86,7 @@ details#swatches
 {  margin: 0 auto 2em }
 
 details#swatches *:not(em) {
-  width: 80%;
-  margin: auto;
+  width: 90%;
   display: block;
   white-space: nowrap;
 }
