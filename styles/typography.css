@@ -160,8 +160,14 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 }
 
 ul, ol {
-  margin: auto auto auto 2em;
-  list-style-position: inside
+  font-size: 110%;
+  font-weight: bolder;
+  padding-left: unset;
+  margin: 0 auto 1.612em;
+}
+ul ul, ol ol {
+  font-size: 90%;
+  font-weight: normal
 }
 
 nav ol, nav ul
