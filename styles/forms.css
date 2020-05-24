@@ -122,6 +122,7 @@ input[list] {
 
 textarea {
   width: 100%;
+  padding: 0.612em;
   resize: vertical
 }
 
