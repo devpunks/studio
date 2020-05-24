@@ -96,9 +96,14 @@ summary
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3/
  */
+ul, ol
+  { list-style-position: inside }
+ul ul, ol ol
+  { display: block }
 ul {}
 ol {}
-li {}
+li *:first-child
+  { display: inline-block }
 dl {}
 dt {}
 dd {}
