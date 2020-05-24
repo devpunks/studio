@@ -209,7 +209,7 @@ input:invalid:before, textarea:invalid:before {
   position: absolute
 }
 
-input:valid:before {
+input:valid:before, textarea:invalid:before {
   content: '✓';
   padding-left: 5px;
   position: absolute
