@@ -168,6 +168,8 @@ button, [type=button], [type=submit], [type=reset]
   -webkit-appearance: button;
   appearance:         button;
 }
+
+
 button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover,
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
 {
