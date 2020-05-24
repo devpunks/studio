@@ -203,7 +203,7 @@ input:invalid, textarea:invalid [aria-invalid=true] {
 }
 input:valid, [aria-invalid=false] { }
 
-input:invalid:before {
+input:invalid:before, textarea:invalid:before {
   content: '✖';
   position: absolute
 }
