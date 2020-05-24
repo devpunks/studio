@@ -120,7 +120,7 @@ abbr[title]
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 summary
   { cursor: pointer }
-progress
+meter, progress
   { cursor: progress }
 /* readonly - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly */
 /* disabled - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled */
