@@ -197,7 +197,7 @@ button, input, select {
   text-transform: none /* Remove the inheritance of text transform in Firefox */
 }
 [required], [aria-required=true] {}
-input:invalid, [aria-invalid=true] {
+input:invalid, textarea:invalid [aria-invalid=true] {
   color: red;
   cursor: not-allowed
 }
