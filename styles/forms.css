@@ -304,7 +304,7 @@ input:invalid, textarea:invalid, [aria-invalid=true] {
   color: red;
   cursor: not-allowed
 }
-input:valid, [aria-invalid=false] {background-color:green;}
+input:valid, [aria-invalid=false] {}
 
 input:invalid:before, textarea:invalid:before {
   content: '✖';
