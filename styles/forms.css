@@ -102,7 +102,7 @@ input, [type=search] {
  { -webkit-appearance: none }
 /* Remove 'x' icon from search */
 [type=search]::-webkit-search-cancel-button
-  { display: none; }
+  { display: none }
 
 [type=radio], [type=checkbox]
   { border: none }
