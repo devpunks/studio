@@ -121,6 +121,7 @@ input, [type=search] {
 }
 [type=radio], [type=checkbox] {
   margin: 0;
+  cursor: pointer;
   /* Set here so that Windows' High-Contrast Mode can override */
   color: currentColor;
   font-size:1.612em
