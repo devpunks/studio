@@ -124,9 +124,9 @@ input, [type=search] {
   cursor: pointer;
   /* Set here so that Windows' High-Contrast Mode can override */
   color: currentColor;
-  font-size:1.612em
-  /* position: relative; */
-  /* Adjusts the position of the checkboxes on the text baseline */
+  font-size:1.612em;
+  /* position: relative;;
+  /* Adjusts the position of the checkboxes on the text baseline */ */;
 }
 [type=radio], [type=checkbox] {
   width: 1.0em;
