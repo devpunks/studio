@@ -115,7 +115,7 @@ input, [type=search] {
   { display: none }
 
 
-
+/* checks, radios, & toggles */
 #radios label, #checks label, #toggles label {
   background: pink;
 }
