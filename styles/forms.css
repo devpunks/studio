@@ -163,6 +163,28 @@ input, [type=search] {
   { content: '✓' }
 [type=checkbox]:checked {}
 [type=checkbox]:checked:before {}
+/* .toggle */
+[type=checkbox].toggle {
+  width: 2em;
+  border-radius: 2em;
+  transition: all 0.4s;
+}
+[type=checkbox].toggle:before {
+  transform: unset;
+  content: ' ';
+  width: 0.812em;
+  height: 0.812em;
+  border-radius: 50%;
+  transition: all 0.4s;
+  background-color: red;
+  left: 20%;
+}
+[type=checkbox].toggle:checked {}
+[type=checkbox].toggle:checked:before {
+  left: 40%;
+  transform: unset;
+  transition: all 0.4s;
+}
 
 [type=date], [type=time], [type=datetime-local], [type=month]
 /* https://bugs.webkit.org/show_bug.cgi?id=139848
