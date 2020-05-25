@@ -131,8 +131,7 @@ input, [type=search] {
 [type=radio], [type=checkbox] {
   width: 1.0em;
   height: 1.0em;
-  border-radius: 0.5em;
-  border: 0.1em solid currentColor;
+  outline: none;
   /* Adjusts the position of the checkboxes on the text baseline */
   vertical-align: -2px;
   outline: none;
