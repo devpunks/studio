@@ -119,6 +119,7 @@ input, [type=search] {
 [type=color] {
   padding: 0;
   border: none;
+  cursor: context-menu;
   outline: 0.1em solid
 }
 input[list] {
