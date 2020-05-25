@@ -136,7 +136,8 @@ input, [type=search] {
   vertical-align: -2px;
   border: 0.1em solid GrayText;
 }
-[type=radio]:before {
+[type=radio]:before, [type=checkbox]:before {
+  content: ' ';
   width: 0.5em;
   height: 0.5em;
   font-size: 1.2em;
