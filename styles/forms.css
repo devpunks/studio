@@ -34,6 +34,8 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   cursor: default
 }
 
+form, fieldset /* children positioning */
+  { position: relative }
 form {
   display: flex;
   flex-direction: var(--flex-direction)
