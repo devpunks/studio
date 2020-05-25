@@ -204,6 +204,8 @@ input[list] {
   /* combobox */
 }
 
+input[type=file] {}
+
 textarea {
   width: 100%;
   border: none;
