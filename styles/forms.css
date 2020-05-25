@@ -18,6 +18,9 @@
   }
 }
 
+::placeholder
+  { opacity: 22% } /* 4.5:1 contrast ratio for ARIA */
+
 /* Remove tapping delay
  *   https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
  */
