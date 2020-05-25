@@ -222,7 +222,7 @@ textarea {
 
 select {
   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
-  width: 60%;
+  width: 100%;
   word-wrap: normal;
   font-size: 1.612em;
   background: yellow;
