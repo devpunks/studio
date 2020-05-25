@@ -185,6 +185,7 @@ input, [type=search] {
 [type=checkbox].toggle:checked {}
 [type=checkbox].toggle:checked:before {
   transition: all 0.4s;
+  transform: translate(1em)
 }
 
 [type=date], [type=time], [type=datetime-local], [type=month]
