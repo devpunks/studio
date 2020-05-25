@@ -174,7 +174,6 @@ input, [type=search], select {
   height: 1em;
   border-radius: 50%;
   transition: all 0.4s;
-  transform: translate(0);
   background-color: ButtonFace;
   border: 0.05em solid GrayText
 }
