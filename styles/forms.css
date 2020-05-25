@@ -173,7 +173,6 @@ input, [type=search] {
 [type=checkbox].toggle:checked
   { background-color: ButtonFace }
 [type=checkbox].toggle:before {
-  transform: unset;
   content: ' ';
   width: 0.812em;
   height: 0.812em;
