@@ -266,9 +266,8 @@ input:invalid:before, textarea:invalid:before {
 }
 
 input:valid:before, textarea:invalid:before {
-  content: '✓';
-  padding-left: 5px;
-  position: absolute
+  /* content: '✓'; */
+  outline: .02em solid orange;
 }
 
 /*
