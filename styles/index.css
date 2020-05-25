@@ -189,7 +189,7 @@ textarea {
   /* All high contrast styling rules */
 }
 @media screen and (-ms-high-contrast: black-on-white) {
-  div { background-image: url('image-bw.png'); }
+
 }
 @media screen and (-ms-high-contrast: white-on-black) {
   div { background-image: url('image-wb.png'); }
