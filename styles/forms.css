@@ -146,7 +146,7 @@ input, [type=search] {
 [type=radio]:checked:before,
 [type=checkbox]:checked:before {
   transition: all 0.3s ease-in;
-  transform: translate(16%, 16%) scale(1);
+  transform: translate(0) scale(1);
 }
 /* radio */
 [type=radio]
