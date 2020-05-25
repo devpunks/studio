@@ -184,8 +184,6 @@ input, [type=search] {
 }
 [type=checkbox].toggle:checked {}
 [type=checkbox].toggle:checked:before {
-  left: 40%;
-  transform: unset;
   transition: all 0.4s;
 }
 
