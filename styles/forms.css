@@ -229,6 +229,9 @@ select {
   line-height: 1.612em;
   cursor: context-menu;
 }
+label select
+  { width: auto }
+
 select::before {
   content: '▼';
   background: pink;
