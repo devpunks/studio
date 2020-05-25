@@ -139,7 +139,6 @@ input, [type=search] {
   content: ' ';
   width: 0.5em;
   height: 0.5em;
-  font-size: 1.2em;
   vertical-align: top;
   transition: all 0.3s ease-in;
   transform: translate(20%,20%) scale(0);
