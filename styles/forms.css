@@ -141,7 +141,7 @@ input, [type=search] {
   height: 0.8em;
   vertical-align: top;
   transition: all 0.3s ease-in;
-  transform: translate(20%,20%) scale(0);
+  transform: translate(0) scale(0);
 }
 [type=radio]:checked:before,
 [type=checkbox]:checked:before {
