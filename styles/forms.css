@@ -235,7 +235,6 @@ label select
 
 select::before {
   content: '▼';
-  background: pink;
 }
 
 
