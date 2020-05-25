@@ -237,7 +237,6 @@ select::before {
   content: '▼';
   background: pink;
   display: block;
-  font-size: 1em;
 }
 
 
