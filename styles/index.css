@@ -39,9 +39,8 @@
   display: inline-block;
   white-space: pre;
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
-  display: inline-block;
-  text-decoration: none;
-  vertical-align: baseline
+  /* outline: 0.2em dotted; */
+  /* position: absolute; */
 }
 
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
