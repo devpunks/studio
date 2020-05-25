@@ -114,8 +114,53 @@ input, [type=search] {
 [type=search]::-webkit-search-cancel-button
   { display: none }
 
-[type=radio], [type=checkbox]
-  { border: none }
+#radio label, #checkbox label {
+  background: pink;
+}
+[type=radio], [type=checkbox] {
+  margin: 0;
+  /* Set here so that Windows' High-Contrast Mode can override */
+  color: currentColor;
+  font-size:1.612em
+  /* position: relative; */
+  /* Adjusts the position of the checkboxes on the text baseline */
+}
+[type=radio]:before, [type=checkbox]:before {
+  vertical-align:middle;
+  border: 1px solid currentColor;
+  display:inline-block;
+  padding: 0.1em;
+  position: relative;
+  vertical-align: top;
+}
+[type=radio]:before, [type=checkbox]:before {
+  content: ' ';
+}
+[type=checkbox]:checked:before {
+  content: '✓';
+}
+[type=radio] {
+  width: 1.0em;
+  height: 1.0em;
+  border-radius: 0.5em;
+  border: 0.1em solid currentColor;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  outline: none;
+}
+[type=radio]:before {
+  width: 0.5em;
+  height: 0.5em;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in;
+  background-color: currentColor;
+  transform: translate(20%,20%) scale(0);
+}
+[type=radio]:checked:before {
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+  transform: translate(16%, 16%) scale(1);
+}
 
 [type=date], [type=time], [type=datetime-local], [type=month]
 /* https://bugs.webkit.org/show_bug.cgi?id=139848
