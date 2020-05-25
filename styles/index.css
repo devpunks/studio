@@ -88,11 +88,9 @@ details#swatches {
 }
 
 details#swatches *:not(em)
-  { background: red }
-details#swatches li {
-  justify-content: flex-end;
-  flex-direction: row-reverse;
-}
+  { }
+details#swatches li
+  { text-align: left }
 summary
   { display: list-item }
 
