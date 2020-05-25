@@ -220,6 +220,7 @@ select {
   font-size: 1.612em;
   background: yellow;
   line-height: 1.612em;
+  cursor: context-menu;
 }
 select::before {
   content: '▼';
