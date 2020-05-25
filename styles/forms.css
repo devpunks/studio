@@ -145,8 +145,8 @@ input, [type=search] {
   transition: all 0.3s ease-in;
   transform: translate(20%,20%) scale(0);
 }
-[type=radio]:checked:before {
-  border-radius: 50%;
+[type=radio]:checked:before,
+[type=checkbox]:checked:before {
   transition: all 0.3s ease-in;
   transform: translate(16%, 16%) scale(1);
 }
