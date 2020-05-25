@@ -133,7 +133,7 @@ input, [type=search] {
   height: 1.0em;
   /* Adjusts the position of the checkboxes on the text baseline */
   vertical-align: middle;
-  border: 0.1em solid GrayText;
+  border: 0.05em solid GrayText;
 }
 [type=radio]:before, [type=checkbox]:before {
   content: ' ';
