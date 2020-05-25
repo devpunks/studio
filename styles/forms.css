@@ -205,6 +205,7 @@ input[list] {
 }
 
 input[type=file] {}
+input[type=range] {}
 
 textarea {
   width: 100%;
