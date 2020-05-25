@@ -35,7 +35,8 @@
 }
 
 ::before, *:before, ::after, *:after
-{
+{ /* Pseudo classes - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes */
+  display: inline-block;
   white-space: pre;
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   display: inline-block;
