@@ -125,8 +125,11 @@ a { cursor: pointer }
 abbr[title]
   { cursor: help }
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
-summary
-  { cursor: pointer }
+details summary
+  { cursor: s-resize }
+details[open] summary
+  { cursor: n-resize }
+
 meter, progress
   { cursor: progress }
 /* readonly - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly */
