@@ -116,7 +116,7 @@ input, [type=search] {
 
 
 
-#radio label, #checkbox label {
+#radios label, #checks label, #toggles label {
   background: pink;
 }
 [type=radio], [type=checkbox] {
