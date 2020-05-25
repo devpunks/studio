@@ -291,7 +291,11 @@ input:invalid:before, textarea:invalid:before {
 
 input:valid:before, textarea:invalid:before {
   /* content: '✓'; */
-  outline: .02em solid orange;
+  /* outline: .02em solid orange; */
+}
+label input {
+    position: relative;
+    top: 1px;
 }
 
 /*
