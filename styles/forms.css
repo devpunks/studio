@@ -128,21 +128,7 @@ input, [type=search] {
   /* position: relative; */
   /* Adjusts the position of the checkboxes on the text baseline */
 }
-[type=radio]:before, [type=checkbox]:before {
-  vertical-align:middle;
-  border: 1px solid currentColor;
-  display:inline-block;
-  padding: 0.1em;
-  position: relative;
-  vertical-align: top;
-}
-[type=radio]:before, [type=checkbox]:before {
-  content: ' ';
-}
-[type=checkbox]:checked:before {
-  content: '✓';
-}
-[type=radio] {
+[type=radio], [type=checkbox] {
   width: 1.0em;
   height: 1.0em;
   border-radius: 0.5em;
