@@ -168,8 +168,7 @@
         <li><a href=#radio>Radio buttons</a></li>
         <li><a href=#textareas>Textareas</a></li>
         <li><a href=#html5>HTML5 inputs</a></li>
-        <li><a href=#action>Action buttons</a></li>
-        <li><a href=#menu>Menu buttons</a></li>
+        <li><a href=#buttons>Buttons</a></li>
       </ul>
     </li>
   </ul>
@@ -881,9 +880,18 @@ p q r s t u v w x y z { | } ~ </pre>
 
       <a href=#>Top</a>
 
-      <footer>
-        <fieldset id=action>
-          <legend>Action buttons</legend>
+      <footer id=buttons>
+        <fieldset>
+          <legend>Buttons</legend>
+
+          <button>&lt;button&gt;</button>
+          <button disabled>&lt;button disabled&gt;</button>
+          <button type=reset>&lt;button type=reset&gt;</button>
+          <button type=submit>&lt;button type=submit&gt;</button>
+        </fieldset>
+
+        <fieldset>
+          <legend>Input buttons</legend>
 
           <input type=submit value='<input type=submit>'>
           <input type=button value='<input type=button>'>
@@ -891,21 +899,6 @@ p q r s t u v w x y z { | } ~ </pre>
           <input type=submit value='<input disabled>' disabled>
         </fieldset>
       </footer>
-
-        <fieldset id=menu>
-          <legend>Menu Buttons</legend>
-
-          <menu>
-            <li>
-              <button>&lt;button&gt;</button>
-            <li>
-              <button disabled>&lt;button disabled&gt;</button>
-            <li>
-              <button type=reset>&lt;button type=reset&gt;</button>
-            <li>
-              <button type=submit>&lt;button type=submit&gt;</button>
-          </menu>
-        </fieldset>
 
       <a href=#>Top</a>
     </form>

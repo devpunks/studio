@@ -94,9 +94,6 @@ details#swatches li
 summary
   { display: list-item }
 
-menu
-  { list-style: none }
-
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3/
  */
