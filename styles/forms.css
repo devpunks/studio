@@ -107,7 +107,7 @@ input, [type=search], select {
    */
   text-align: var(--text-align);
   -webkit-appearance: none;
-  appearance: none;
+  appearance: none
 }
 /* Remove the inner padding in Chrome and Safari on macOS. */
 [type=search]::-webkit-search-decoration
