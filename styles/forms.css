@@ -105,6 +105,7 @@ input, [type=search], select {
    * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
    * appearance - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
    */
+  text-align: var(--text-align);
   -webkit-appearance: none;
   appearance: none;
 }
