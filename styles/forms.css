@@ -132,7 +132,7 @@ input, [type=search] {
   width: 1.0em;
   height: 1.0em;
   /* Adjusts the position of the checkboxes on the text baseline */
-  vertical-align: -2px;
+  vertical-align: middle;
   border: 0.1em solid GrayText;
 }
 [type=radio]:before, [type=checkbox]:before {
