@@ -93,7 +93,11 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 }
 
 input, [type=search] {
-  /* Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586. */
+  /*
+   * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
+   * appearance - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
+   */
+  
   -webkit-appearance: none;
   appearance: none
 }
