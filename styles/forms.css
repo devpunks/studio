@@ -117,9 +117,6 @@ input, [type=search], select {
 
 
 /* checks, radios, & toggles */
-#radios label, #checks label, #toggles label {
-  background: pink;
-}
 [type=radio], [type=checkbox] {
   margin: 0;
   cursor: pointer;
