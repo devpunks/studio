@@ -217,7 +217,6 @@ select {
   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
   width: 60%;
   word-wrap: normal;
-  background: yellow;
   font-size: 1.612em;
   line-height: 1.612em;
 }
