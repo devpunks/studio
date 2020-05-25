@@ -150,6 +150,18 @@ input, [type=search] {
   transition: all 0.3s ease-in;
   transform: translate(16%, 16%) scale(1);
 }
+[type=radio]
+  { border-radius: 0.5em }
+[type=radio]:before
+  { background-color: currentColor }
+[type=radio]:checked {}
+[type=radio]:checked:before
+  { border-radius: 50% }
+[type=checkbox] {}
+[type=checkbox]:before
+  { content: '✓' }
+[type=checkbox]:checked {}
+[type=checkbox]:checked:before {}
 
 [type=date], [type=time], [type=datetime-local], [type=month]
 /* https://bugs.webkit.org/show_bug.cgi?id=139848
