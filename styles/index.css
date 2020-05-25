@@ -83,12 +83,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 details {}
 details#swatches
-{  margin-bottom: 2em }
+  { margin-bottom: 2em }
 
-details#swatches *:not(em) {
-  width: 90%;
-  display: block;
-  white-space: nowrap;
+details#swatches *:not(em)
+  { background: red }
+details#swatches li {
+  display: flex;
+  text-align: left;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
 }
 summary
   { display: list-item }
