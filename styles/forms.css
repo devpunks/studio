@@ -143,7 +143,6 @@ input, [type=search] {
   font-size: 1.2em;
   vertical-align: top;
   transition: all 0.3s ease-in;
-  background-color: currentColor;
   transform: translate(20%,20%) scale(0);
 }
 [type=radio]:checked:before {
