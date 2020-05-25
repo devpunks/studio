@@ -78,7 +78,8 @@ legend {
 }
 
 label {
-  cursor: pointer
+  cursor: pointer;
+  display: inline-block
 }
 
 output
