@@ -174,8 +174,9 @@ ul, ol, dt
   { font-weight: bolder }
 nav ol, nav ul
   { list-style: none }
-
-main ol, main ul { }
+li, dd {
+  margin: unset;
+}
 
 abbr[title] {
   border-bottom: 0;
