@@ -205,7 +205,11 @@ input[list] {
 }
 
 input[type=file] {}
-input[type=range] {}
+input[type=range] {
+  height: 0.3em;
+  cursor: ew-resize;
+  background: currentColor;
+}
 
 textarea {
   width: 100%;
