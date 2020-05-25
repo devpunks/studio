@@ -239,6 +239,7 @@ select::before {
   font-size: 1em;
 }
 
+
 progress
   { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
 
