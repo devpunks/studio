@@ -167,7 +167,7 @@ input, [type=search] {
 [type=checkbox].toggle {
   width: 2em;
   border-radius: 2em;
-  transition: all 0.4s;
+  transition: all 0.3s;
   background-color: GrayText;
 }
 [type=checkbox].toggle:checked
