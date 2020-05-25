@@ -4,6 +4,7 @@
     - [Location Scouting](https://en.wikipedia.org/wiki/Location_scouting)
       - [Location Manager](https://en.wikipedia.org/wiki/Location_manager)
       - [Meet The Gaffer #182: Travel Talk - Scouting](https://www.youtube.com/watch?v=iBHLNfmPM_Q)
+  - [Behind the Scenes](https://youtu.be/6r3g3jdlFgw)
 
 
 ## Pre_(production)_
