@@ -314,8 +314,11 @@ details {
   margin: var(--margin);
   text-align: var(--text-align)
 }
-summary
-  { margin: var(--margin) }
+summary {
+  font-size: 120%;
+  font-weight: bolder;
+  margin: var(--margin)
+}
 
 fieldset
   { }
