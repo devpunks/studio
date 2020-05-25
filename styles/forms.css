@@ -175,8 +175,8 @@ input, [type=search], select {
   { background-color: ButtonFace }
 [type=checkbox].toggle:before {
   content: ' ';
-  width: 0.812em;
-  height: 0.812em;
+  width: 0.912em;
+  height: 0.912em;
   border-radius: 50%;
   transition: all 0.4s;
   transform: translate(0);
