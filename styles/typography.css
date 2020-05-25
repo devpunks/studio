@@ -315,7 +315,7 @@ details {
   text-align: var(--text-align)
 }
 summary
-  { margin-bottom: .612em }
+  { margin: var(--margin) }
 
 fieldset
   { }
