@@ -68,7 +68,6 @@ fieldset[disabled] {}
 fieldset input {}
 
 legend {
-
   width: 100%; /* Correct the text wrapping in Edge and IE. */
   max-width: 100%
 }
