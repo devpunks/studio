@@ -170,6 +170,8 @@ input, [type=search] {
   transition: all 0.4s;
   background-color: GrayText;
 }
+[type=checkbox].toggle:checked
+  { background-color: ButtonFace }
 [type=checkbox].toggle:before {
   transform: unset;
   content: ' ';
