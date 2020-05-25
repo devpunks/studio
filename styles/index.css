@@ -82,8 +82,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   { display:block }
 
 details {}
-details#swatches
-  { margin-bottom: 2em }
+details#swatches {
+  width: 80%;
+  margin-bottom: 2em
+}
 
 details#swatches *:not(em)
   { background: red }
