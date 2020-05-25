@@ -156,8 +156,8 @@ input, [type=search] {
   background-color: currentColor
 }
 [type=radio]:checked {}
-[type=radio]:checked:before
-  { border-radius: 50% }
+[type=radio]:checked:before {}
+/* checkbox */
 [type=checkbox] {}
 [type=checkbox]:before
   { content: '✓' }
