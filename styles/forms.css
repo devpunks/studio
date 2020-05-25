@@ -168,6 +168,7 @@ input, [type=search] {
   width: 2em;
   border-radius: 2em;
   transition: all 0.4s;
+  background-color: GrayText;
 }
 [type=checkbox].toggle:before {
   transform: unset;
