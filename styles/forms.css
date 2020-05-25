@@ -60,6 +60,7 @@ fieldset {
   border: none;
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
   display: flex;
+  margin: inherit;
   flex-direction: var(--flex-direction)
 }
 fieldset[disabled] {}
