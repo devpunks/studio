@@ -200,7 +200,12 @@ input[list] {
   /* combobox */
 }
 
-input[type=file] {}
+input[type=file] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
 input[type=range] {
   height: 0.3em;
   cursor: ew-resize;
