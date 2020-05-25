@@ -263,7 +263,6 @@ input:valid, [aria-invalid=false] {background-color:green;}
 
 input:invalid:before, textarea:invalid:before {
   content: '✖';
-  position: absolute
 }
 
 input:valid:before, textarea:invalid:before {
