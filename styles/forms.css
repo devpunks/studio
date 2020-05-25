@@ -151,8 +151,10 @@ input, [type=search] {
 /* radio */
 [type=radio]
   { border-radius: 0.5em }
-[type=radio]:before
-  { background-color: currentColor }
+[type=radio]:before {
+  border-radius: 50%;
+  background-color: currentColor
+}
 [type=radio]:checked {}
 [type=radio]:checked:before
   { border-radius: 50% }
