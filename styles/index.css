@@ -182,7 +182,10 @@ textarea {
  * WAI-ARIA guide - https://github.com/w3c/aria-practices
  * Focus Indicators - https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/
  * Aria Roles States and Properties - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques
- * MS High Contrast - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast
+ *
+ * MS High Contrast
+ *   - http://www.gwhitworth.com/blog/2017/04/how-to-use-ms-high-contrast/
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast
  */
 
 @media screen and (-ms-high-contrast: active)
