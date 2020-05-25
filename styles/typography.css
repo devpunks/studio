@@ -160,6 +160,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 }
 
 ul, ol, dl {
+  font-size: 120%;
   padding-left: unset;
   margin: 0 auto 1.612em
 }
