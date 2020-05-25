@@ -234,7 +234,6 @@ label select
   { width: auto }
 
 select::before {
-  content: '▼';
 }
 
 
