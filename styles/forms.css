@@ -142,7 +142,7 @@ input, [type=search], select {
   height: 0.8em;
   vertical-align: top;
   transition: all 0.3s ease-in;
-  transform: translate(0) scale(0);
+  transform: translate(0.05em, 0.05em) scale(0);
 }
 [type=radio]:checked:before,
 [type=checkbox]:checked:before {
