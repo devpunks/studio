@@ -148,6 +148,7 @@ input, [type=search] {
   transition: all 0.3s ease-in;
   transform: translate(16%, 16%) scale(1);
 }
+/* radio */
 [type=radio]
   { border-radius: 0.5em }
 [type=radio]:before
