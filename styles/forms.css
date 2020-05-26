@@ -270,6 +270,7 @@ label select
 
 /* Style meter & progress
  *   - https://codepen.io/matt-west/pen/bpzEy
+ *   - https://stackoverflow.com/questions/8094835/how-to-style-html5-meter-tag
  */
 meter, progress
   { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
