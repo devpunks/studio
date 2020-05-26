@@ -320,10 +320,6 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */ }
 :indeterminate
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
-
-[required], [aria-required=true]
-  { /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */ }
-
 :read-only {}
 input:read-only
   { cursor: not-allowed }
