@@ -128,6 +128,11 @@ input, select, textarea, button {
 [type=number]::-webkit-outer-spin-button
   { height: auto }
 
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button
+}
+
 /* checks, radios, & toggles */
 [type=radio], [type=checkbox] {
   margin: 0;
