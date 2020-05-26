@@ -335,7 +335,7 @@ input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
   color: red;
   cursor: not-allowed
 }
-:valid, :in-range, [aria-invalid=false] {}
+input:valid, input:in-range, [aria-invalid=false] {}
 input:invalid:before, textarea:invalid:before {
   content: '✖';
 }
