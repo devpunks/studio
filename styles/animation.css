@@ -8,3 +8,18 @@
 @media (prefers-reduced-motion: reduce) {
 
 }
+
+pulse {
+  border: 2px solid red;
+  animation: 0.4s linear infinite alternate border-pulse;
+}
+
+@keyframes border-pulse {
+  from {
+    border: 2px solid red;
+  }
+
+  to {
+    border: 6px solid red;
+  }
+}
