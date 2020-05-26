@@ -27,6 +27,7 @@
   --drop-shadow: drop-shadow( var(--shadow) );
 }
 
+:blank, :empty { background: red }
 @media screen and (min-width: 1000px) {
   :root {
     --max-width: 1000px
