@@ -27,7 +27,10 @@
   --drop-shadow: drop-shadow( var(--shadow) );
 }
 
-:blank, :empty { background: red }
+:blank, :empty
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:empty */ }
+
+
 @media screen and (min-width: 1000px) {
   :root {
     --max-width: 1000px
