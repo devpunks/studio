@@ -238,6 +238,7 @@ input[type=file] {
   cursor: context-menu;
   outline: 0.1em solid
 }
+[type=color]::before {}
 
 /* Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
 input[type=range] {
