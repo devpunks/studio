@@ -314,6 +314,8 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
 }
 
 
+:default
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
 :optional
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */ }
 [required], [aria-required=true]
