@@ -19,6 +19,8 @@
 
   --text-align: center;
 
+  --margin: 0.67em auto;
+
   --viewport:
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
     env(safe-area-inset-top, 0)
