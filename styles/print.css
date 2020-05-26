@@ -10,4 +10,12 @@
   a[href^='#']::after,
   a[href^='javascript:']::after
     { content: '' }
+
+  /* Page Breaks
+   *   - https://css-tricks.com/almanac/properties/p/page-break/
+   *
+  */
+  pre, blockquote
+    { page-break-inside: avoid }
+
 }
