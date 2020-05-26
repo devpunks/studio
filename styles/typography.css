@@ -23,12 +23,10 @@
 
   --viewport:
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
-    env(safe-area-inset-top, 0)
-    env(safe-area-inset-right, 0)
-    env(safe-area-inset-bottom, 0)
-    env(safe-area-inset-left, 0);
-
-  --margin: 0.67em auto;
+    env(safe-area-inset-top, 0.612em)
+    env(safe-area-inset-right, auto)
+    env(safe-area-inset-bottom, 0.612em)
+    env(safe-area-inset-left, auto);
 
   --word-spacing: 0.2em;
 
