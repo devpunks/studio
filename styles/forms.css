@@ -333,7 +333,6 @@ input:valid, [aria-invalid=false] {}
 input:invalid:before, textarea:invalid:before {
   content: '✖';
 }
-
 input:valid:before, textarea:invalid:before {}
 label input {
     position: relative;
