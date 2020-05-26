@@ -26,7 +26,7 @@
 
   --line-height: 1.612em;
 
-  --text-size-adjust: 100%;
+  --text-size-adjust: 100%; /* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
 
   --letter-spacing: 0.1em;
 
