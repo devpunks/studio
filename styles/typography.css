@@ -275,12 +275,6 @@ ins::before
 small
   { font-size: 80% }
 
-pre, code, kbd, samp {
-  padding: 0 0.612em;
-  display: inline-block;
-  font-family: var(--font-family-mono)
-}
-
 sub, sup {
 /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
   font-size: 75%;
