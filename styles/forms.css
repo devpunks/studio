@@ -91,6 +91,9 @@ button, input, select, textarea {
   font-size: 100%;
   font-family: inherit
 }
+button, input, select {
+  text-transform: none /* Remove the inheritance of text transform in Firefox */
+}
 
 select,
 input:not([type]), input[type=search], input[type=text], input[type=password],
