@@ -65,10 +65,8 @@ body, body > header, body > main, body > aside, body > footer
 
 html
   { width: 100vw }
-body
-  {/* width: 92vw; */}
 
-body > header { margin-bottom: 1.612em }
+body > header { }
 body > main   { }
 body > aside  { }
 body > footer { }
