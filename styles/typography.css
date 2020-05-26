@@ -247,6 +247,7 @@ blockquote::before {
   opacity: 60%;
   display: block;
   font-size: 300%;
+  content: '\201C';
   margin-bottom: -.4em
 }
 cite {
