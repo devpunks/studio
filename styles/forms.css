@@ -335,7 +335,7 @@ input:read-only
   color: red;
   cursor: not-allowed
 }
-input:valid, input:in-range, [aria-invalid=false] {}
+:valid, input:in-range, [aria-invalid=false] {}
 input:invalid:before, textarea:invalid:before {
   content: '✖';
 }
