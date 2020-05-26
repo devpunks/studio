@@ -125,8 +125,8 @@ html {
   font-feature-settings: normal
 }
 
-body > *
-  { margin: var(--margin) }
+body
+  { margin: 0 auto }
 
 body :not(a), *,
 ::before, *:before,
