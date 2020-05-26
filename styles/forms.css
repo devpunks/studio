@@ -319,7 +319,9 @@ button, input, select {
 *:optional
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */ }
 
-[required], [aria-required=true] {}
+[required], [aria-required=true]
+  { /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */ }
+
 input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
   color: red;
   cursor: not-allowed
