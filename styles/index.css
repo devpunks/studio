@@ -129,7 +129,7 @@ a[rel=search]
 
 abbr[title]
   { cursor: help }
-/* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+
 details summary
   { cursor: s-resize }
 details[open] summary
