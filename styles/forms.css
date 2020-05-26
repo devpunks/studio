@@ -112,6 +112,11 @@ input, select, textarea, button {
   -webkit-appearance: none;
   appearance: none
 }
+
+[type=search] {
+  outline-offset: -2px;
+  -webkit-appearance: textfield
+}
 /* Remove the inner padding in Chrome and Safari on macOS. */
 [type=search]::-webkit-search-decoration
  { -webkit-appearance: none }
