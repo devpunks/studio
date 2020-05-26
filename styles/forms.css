@@ -331,7 +331,7 @@ input:read-only
 /* Styling validation using content
  *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
 */
-:invalid, :invalid, input:out-of-range, [aria-invalid=true] {
+:invalid, :invalid, :out-of-range, [aria-invalid=true] {
   color: red;
   cursor: not-allowed
 }
