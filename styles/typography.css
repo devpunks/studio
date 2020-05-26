@@ -217,10 +217,16 @@ b, strong
 p
   { margin: var(--p-margin) }
 
-/* quotes */
-q, blockquote {
-  font-size: 80%;
+pre, code, kbd, samp {
+  padding: 0 0.612em;
+  display: inline-block;
+  font-family: var(--font-family-mono)
 }
+
+
+/* quotes */
+q, blockquote
+  { font-size: 80% }
 q {
   quotes: '“' '”' '‘' '’';
   font-style: italic
