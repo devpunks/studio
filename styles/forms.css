@@ -217,6 +217,7 @@ input[type=range] {
 textarea {
   width: 100%;
   border: none;
+  overflow: auto;
   resize: vertical;
   padding: 0.612em;
   border-left: 0.1em solid;
