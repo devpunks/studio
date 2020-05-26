@@ -247,6 +247,18 @@ textarea {
   display: block;
   outline: dotted 0.1em
 }
+a[href='#'] {
+  opacity: 0.3;
+  padding: 1em;
+  display: block;
+  margin: 1em auto 2em;
+}
+a[href='#']:hover {
+  opacity: 1
+}
+a[href='#']:before {
+  content: '⇪'
+}
 
 /* PWA RELATED */
 html, body {
