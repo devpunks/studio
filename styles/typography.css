@@ -36,6 +36,7 @@
   --text-size-adjust: 100%; /* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
 
   /* kerning "tracking"
+      - https://practicaltypography.com/letterspacing.html
       - https://graphicdesign.stackexchange.com/questions/2606/difference-between-kerning-vs-letter-spacing
    */
   --letter-spacing: 0.1em;
