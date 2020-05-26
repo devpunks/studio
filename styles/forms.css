@@ -147,10 +147,6 @@ input, select, textarea, button {
   vertical-align: middle;
   border: 0.05em solid GrayText;
 }
-:default
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
-:indeterminate
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
 
 [type=radio]:before, [type=checkbox]:before {
   content: ' ';
