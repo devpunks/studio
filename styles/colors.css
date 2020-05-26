@@ -46,7 +46,7 @@
  */
 ::-moz-selection {
   color: var(--background-color);
-  background-color: var(--color)
+  background-color: currentColor
 }
 
 ::selection {
