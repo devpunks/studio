@@ -238,7 +238,6 @@ q::after
 
 blockquote {
   opacity: 80%;
-  margin: var(--margin);
   font-size: 110%;
   font-style: italic;
   line-height: 1.612em
