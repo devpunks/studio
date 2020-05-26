@@ -322,6 +322,7 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
   { /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */ }
 
 :read-only {}
+:read-write {}
 
 /* Styling validation using content
  *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
