@@ -9,14 +9,10 @@
 
 
 /*
-  - normalize.css
-    https://www.reddit.com/r/webdev/comments/8q269x/is_css_reset_necessary_still_in_2018/
- 
-  - sanitize.css
-    https://github.com/csstools/sanitize.css/blob/master/sanitize.css
-*/
-/*
   @media resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
+  @viewport
+    - screen - https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
+    - concepts - 
 */
 :root {
   --max-width: 100vw;
