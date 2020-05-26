@@ -237,6 +237,7 @@ input[type=file] {
   opacity: 0;
 }
 
+/* Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
 input[type=range] {
   height: 0.3em;
   cursor: ew-resize;
