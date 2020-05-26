@@ -177,6 +177,10 @@ input, select, textarea, button {
 [type=checkbox]:checked {}
 [type=checkbox]:checked:before {}
 
+/* "pressed" button */
+[aria-pressed=true]  {}
+[aria-pressed=false] {}
+
 /* .toggle
  *   - https://inclusive-components.design/toggle-button/
  */
