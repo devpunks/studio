@@ -86,11 +86,6 @@ legend {
   max-width: 100%
 }
 
-label {
-  cursor: pointer;
-  display: inline-block
-}
-
 output
   { display: inline-block }
 
