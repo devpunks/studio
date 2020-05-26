@@ -149,6 +149,8 @@ input, select, textarea, button {
 }
 :default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
+:indeterminate
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
 
 [type=radio]:before, [type=checkbox]:before {
   content: ' ';
