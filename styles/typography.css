@@ -277,7 +277,7 @@ cite {
 }
 cite::before
   { content: ' — ' /* https://en.wikipedia.org/wiki/Dash */ }
-q 
+q
   + cite {
     font-size: 70%;
     font-weight: normal
