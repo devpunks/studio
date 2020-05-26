@@ -339,7 +339,7 @@ input:valid, input:in-range, [aria-invalid=false] {}
 input:invalid:before, textarea:invalid:before {
   content: '✖';
 }
-input:valid:before, textarea:invalid:before {}
+input:valid:before, textarea:valid:before {}
 label input {
     position: relative;
     top: 1px;
