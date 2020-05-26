@@ -336,7 +336,8 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
 :indeterminate
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
 :read-only {}
-input:read-only
+input[type=text]:read-only,
+input:not([type]):read-only
   { cursor: not-allowed }
 :read-write {}
 
