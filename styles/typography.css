@@ -139,6 +139,10 @@ body { margin: 0 auto }
 body > header, body > main, body > aside, body > footer
   { outline: 0.3em dashed }
 
+body > header, body > footer
+  { margin: var(--viewport) }
+
+body > header { }
 body > main   { }
 body > aside  { }
 body > footer { }
