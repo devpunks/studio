@@ -15,7 +15,7 @@ input:invalid {
 
 @keyframes border-pulse {
   from {
-    border: 2px solid red;
+    border-color: currentColor
   }
 
   to {
