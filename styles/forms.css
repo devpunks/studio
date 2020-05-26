@@ -274,6 +274,7 @@ label select
 meter, progress
   { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
 meter {}
+progress {}
 
 
 dialog {
