@@ -176,7 +176,9 @@ input, select, textarea, button {
   { content: '✓' }
 [type=checkbox]:checked {}
 [type=checkbox]:checked:before {}
-/* .toggle */
+/* .toggle
+ *   - https://inclusive-components.design/toggle-button/
+ */
 [type=checkbox].toggle {
   width: 2em;
   border-radius: 2em;
