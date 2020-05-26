@@ -322,6 +322,9 @@ button, input, select {
 [required], [aria-required=true]
   { /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */ }
 
+/* Styling validation using content
+ *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
+*/
 input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
   color: red;
   cursor: not-allowed
