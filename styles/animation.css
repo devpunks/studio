@@ -19,6 +19,6 @@ input:invalid {
   }
 
   to {
-    border: 6px solid red;
+    border-color: transparent
   }
 }
