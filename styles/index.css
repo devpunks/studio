@@ -122,7 +122,11 @@ table
  * cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
  * pointer-events - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
  */
-a { cursor: pointer }
+a
+  { cursor: pointer }
+a[rel=search]
+  { cursor: help }
+
 abbr[title]
   { cursor: help }
 /* cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
