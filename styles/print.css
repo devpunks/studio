@@ -22,6 +22,7 @@
     columns: var(--columns)
   }
   p {
+    widows:  var(--widows);
     orphans: var(--orphans)
   }
   a[href]::after
