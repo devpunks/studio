@@ -30,7 +30,7 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
   touch-action:     manipulation
 }
 
-[disabled] {
+[disabled], :disabled {
   opacity: 40%;
   cursor: default
 }
