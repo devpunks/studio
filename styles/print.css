@@ -5,6 +5,15 @@
 :root {}
 
 @media print {
+  *, *::before, *::after {
+    /* Black prints faster */
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    background: #fff !important
+  }
+
+@media print {
   a[href]::after
     { content: ' (' attr(href) ')' }
 
