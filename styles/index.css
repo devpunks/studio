@@ -12,7 +12,9 @@
   @media resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
   @viewport
     - screen - https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
-    - concepts - 
+    - concepts - https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts
+    - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
+
 */
 :root {
   --max-width: 100vw;
