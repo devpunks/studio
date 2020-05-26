@@ -9,8 +9,7 @@
 
 }
 
-pulse {
-  border: 2px solid red;
+input:invalid {
   animation: 0.4s linear infinite alternate border-pulse;
 }
 
