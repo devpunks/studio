@@ -2,7 +2,9 @@
    Print styles.
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-:root {}
+:root {
+  --columns: 1; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
+}
 
 @media print {
   *, *::before, *::after {
