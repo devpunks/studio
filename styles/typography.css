@@ -19,7 +19,7 @@
 
   --text-align: center;
 
-  --viewport-margin:
+  --viewport:
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
     env(safe-area-inset-top, 0)
     env(safe-area-inset-right, 0)
