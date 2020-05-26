@@ -336,6 +336,8 @@ input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
   cursor: not-allowed
 }
 :user-invalid {}
+:user-valid {}
+
 input:valid, input:in-range, [aria-invalid=false] {}
 input:invalid:before, textarea:invalid:before {
   content: '✖';
