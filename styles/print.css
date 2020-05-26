@@ -33,10 +33,25 @@
   a[href^='javascript:']::after
     { content: '' }
 
-  /* Page Breaks
-   *   - https://css-tricks.com/almanac/properties/p/page-break/
-   *
-  */
-  pre, blockquote
+  /* Page Breaks - https://css-tricks.com/almanac/properties/p/page-break/ */
+  pre, blockquote {
+    page-break-inside: avoid;
+    border: 1px solid #999
+  }
+
+  /* https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables */
+  thead
+    { display: table-header-group }
+
+  tr, img
     { page-break-inside: avoid }
+
+  p, h2, h3, h4, h5, h6 {
+    widows: 3;
+    orphans: 3;
+  }
+
+  h2, h3, h4, h5, h6
+    { page-break-after: avoid }
+}
 }
