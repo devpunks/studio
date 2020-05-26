@@ -132,6 +132,7 @@ abbr[title]
 
 details summary
   { cursor: s-resize }
+
 details[open] summary
   { cursor: n-resize }
 
