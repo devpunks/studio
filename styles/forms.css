@@ -147,7 +147,7 @@ input, select, textarea, button {
   vertical-align: middle;
   border: 0.05em solid GrayText;
 }
-[type=radio]:indeterminate, [type=checkbox]:indeterminate
+[type=radio]:indeterminate, [type=checkbox]:indeterminate, progress:indeterminate
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
 [type=radio]:default, [type=checkbox]:default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
