@@ -251,6 +251,7 @@ a[href='#'] {
   opacity: 0.3;
   padding: 1em;
   display: block;
+  width: fit-content;
   margin: 1em auto 2em;
 }
 a[href='#']:hover {
