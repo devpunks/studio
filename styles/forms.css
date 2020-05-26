@@ -19,6 +19,7 @@
   }
 }
 
+/* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
 ::placeholder {
   opacity: 22%;
   color: currentColor
