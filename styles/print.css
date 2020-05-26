@@ -16,6 +16,9 @@
   }
 
 @media print {
+  body * {
+    columns: var(--columns)
+  }
   a[href]::after
     { content: ' (' attr(href) ')' }
 
