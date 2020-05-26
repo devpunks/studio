@@ -221,12 +221,6 @@ input, select, textarea, button {
   and https://github.com/twbs/bootstrap/issues/11266 */
  { -webkit-appearance: listbox }
 
-[type=color] {
-  padding: 0;
-  border: none;
-  cursor: context-menu;
-  outline: 0.1em solid
-}
 input[list] {
   /* combobox */
 }
