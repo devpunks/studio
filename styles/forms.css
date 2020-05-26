@@ -317,7 +317,7 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
 button, input, select {
   text-transform: none /* Remove the inheritance of text transform in Firefox */
 }
-*:optional
+:optional
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */ }
 
 [required], [aria-required=true]
