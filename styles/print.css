@@ -20,6 +20,9 @@
   body * {
     columns: var(--columns)
   }
+  p {
+    orphans: var(--orphans)
+  }
   a[href]::after
     { content: ' (' attr(href) ')' }
 
