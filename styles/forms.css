@@ -320,7 +320,6 @@ button, input, select {
 
 :optional
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */ }
-
 [required], [aria-required=true]
   { /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */ }
 
