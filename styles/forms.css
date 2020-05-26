@@ -147,8 +147,6 @@ input, select, textarea, button {
   vertical-align: middle;
   border: 0.05em solid GrayText;
 }
-:indeterminate
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
 :default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
 
