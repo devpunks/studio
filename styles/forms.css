@@ -139,8 +139,6 @@ input, select, textarea, button {
   cursor: pointer;
   /* Set here so that Windows' High-Contrast Mode can override */
   color: currentColor;
-}
-[type=radio], [type=checkbox] {
   width: 1.0em;
   height: 1.0em;
   /* Adjusts the position of the checkboxes on the text baseline */
