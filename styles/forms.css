@@ -48,9 +48,8 @@ form {
   display: flex;
   flex-direction: var(--flex-direction)
 }
-form:focus-within {
-  background-color: var(--darker-color)
-}
+form:focus-within {}
+
 form
   fieldset:focus-within {
     background-color: var(--darkest-color)
