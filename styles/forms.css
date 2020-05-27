@@ -275,6 +275,8 @@ select {
   border-radius: none;
   line-height: 1.612em;
   cursor: context-menu;
+  text-align-last: var(--text-align);
+  text-align: var(--text-align);
 }
 label select
   { width: auto }
