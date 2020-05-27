@@ -104,6 +104,8 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   margin-bottom: 1.612em;
   border-bottom: 0.1em solid
 }
+input:focus, select:focus
+  { opacity: 100% }
 
 input, select, textarea, button {
   /*
