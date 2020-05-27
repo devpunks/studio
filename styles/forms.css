@@ -51,9 +51,7 @@ form {
 form:focus-within {}
 
 form
-  fieldset:focus-within {
-    background-color: var(--darkest-color)
-  }
+  fieldset:focus-within {}
 
 form[name=search] {
   display: flex;
