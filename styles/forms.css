@@ -272,6 +272,7 @@ select {
   word-wrap: normal;
   font-size: 1.612em;
   background: Canvas;
+  border-radius: none;
   line-height: 1.612em;
   cursor: context-menu;
 }
