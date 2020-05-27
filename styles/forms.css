@@ -84,6 +84,8 @@ fieldset {
 fieldset[disabled] {}
 /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
 fieldset input {}
+fieldset li
+  { list-style: none }
 
 legend {
   width: 100%; /* Correct the text wrapping in Edge and IE. */
