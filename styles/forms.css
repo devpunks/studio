@@ -340,7 +340,11 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
   appearance:         button
 }
 
-
+:enabled {}
+input:disabled, select:disabled {
+  opacity: 30%;
+  cursor: not-allowed;
+}
 :default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
 :optional
