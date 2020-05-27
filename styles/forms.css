@@ -101,7 +101,8 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   width: 100%;
   opacity: 80%;
   border: none;
-  margin-bottom: 1.612em;
+  font-size: 120%;
+  line-height: 200%;
   border-bottom: 0.1em solid
 }
 input:focus, select:focus
