@@ -30,7 +30,7 @@
     env(safe-area-inset-bottom, 0.612em)
     env(safe-area-inset-left, auto);
 
-  --word-spacing: 0.2em;
+  --word-spacing: -0.1em;
 
   --line-height: 1.612em;
 
