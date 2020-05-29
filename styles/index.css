@@ -69,7 +69,7 @@ body, body > header, body > main, body > aside, body > footer
   { max-width: var(--max-width) }
 
 html
-  { width: 100vw }
+  { width: auto }
 
 body > header { }
 body > main   { }
