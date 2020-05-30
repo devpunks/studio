@@ -178,7 +178,7 @@ input, select, textarea, button {
 /* checkbox */
 [type=checkbox] {}
 [type=checkbox]:before
-  { content: '✓' }
+  { content: '' }
 [type=checkbox]:checked {}
 [type=checkbox]:checked:before {}
 
@@ -375,7 +375,7 @@ input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
 
 input:valid, input:in-range, [aria-invalid=false] {}
 input:invalid:before, textarea:invalid:before {
-  content: '✖';
+  content: '';
 }
 input:valid:before, textarea:valid:before {}
 label input {

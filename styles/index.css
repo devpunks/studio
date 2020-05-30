@@ -259,7 +259,7 @@ a[href='#']:hover {
   opacity: 1
 }
 a[href='#']:before {
-  content: '⇪'
+  content: '^'
 }
 
 /* PWA RELATED */
