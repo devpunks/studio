@@ -2,6 +2,7 @@
 
   - Timing Metronomes
     - https://www.youtube.com/watch?v=PMVTqEvhdxg
+    - https://en.wikipedia.org/wiki/Time_signature
 
   - Click track
     - https://en.wikipedia.org/wiki/Click_track
