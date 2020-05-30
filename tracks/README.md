@@ -6,3 +6,4 @@
   - Click track
     - https://en.wikipedia.org/wiki/Click_track
 
+    Optional Marker down beat. _(for switching time signatures)_
