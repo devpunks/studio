@@ -181,6 +181,46 @@ textarea {
   overflow: auto /* Remove IE vertical scrollbar. */
 }
 
+[href='#main'] { /* skip link */
+  bordr: 0;
+  margin: 0;
+  padding: 0;
+  width: 1px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+  clip-path: inset(50%);
+  clip: rect(0, 0, 0, 0)
+}
+[href='#main']:focus {
+  all: inherit;
+  display: block;
+  outline: dotted 0.1em
+}
+a[href='#'] {
+  opacity: 0.3;
+  padding: 1em;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 2em;
+  text-decoration: none;
+}
+a[href='#']:hover {
+  opacity: 1
+}
+a[href='#']:before {
+  content: '^'
+}
+
+/* PWA RELATED */
+html, body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent
+}
+
 
 /* accessibility.css
  * 
