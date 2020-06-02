@@ -59,11 +59,11 @@ form
   border-bottom: 4px solid red;
   flex-direction: var(--flex-direction)
 }
-form#search
-  input[type=search] {
-    width: 80%;
-  }
-form#search
+
+[role=search] input[type=search]
+  { width: 100% }
+
+[role=search]
   input[type=submit] {
     flex: 1 33%;
   }
