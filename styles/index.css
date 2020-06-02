@@ -74,8 +74,27 @@ body > aside,
 body > footer
   { max-width: var(--max-width) }
 
-html
-  { width: auto }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body > *
+  { z-index: 0 }
+body > header {
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  flex-basis: 10vh
+}
+body > main   { flex: 1 }
+body > aside  { }
+body > footer {
+  bottom: 0;
+  z-index: 1;
+  flex-basis: 5vh;
+  position: sticky
+}
 
 body > header { }
 body > main   { }
