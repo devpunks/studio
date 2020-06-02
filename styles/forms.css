@@ -55,6 +55,8 @@ form
 
 [role=search] {
   display: flex;
+  background: green;
+  border-bottom: 4px solid red;
   flex-direction: var(--flex-direction)
 }
 form#search
