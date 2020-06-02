@@ -147,7 +147,10 @@ body > * {
 body > header, body > footer
   { margin: 0 }
 
-body > header, body > main, body > aside, body > footer
+body > header,
+body > main,
+body > aside,
+body > footer
   { outline: 0.3em dashed }
 
 body > header { }
