@@ -15,11 +15,9 @@
 <header role=banner>
   <a class=logo title=Devpunks.studio target=_top href=/>Devpunks<small>.studio</small></a>
 
-  <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role -->
-  <form role=search name=search title=Search action=?>
-    <label for=🔎search class=hide>Search</label>
-    <input required id=🔎search results=5
-      name=🔎search type=search title=🔎Search placeholder=🔎Search>
+  <details open role=search>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role -->
+    <summary>Search</summary>
 
     <input title=🔎Search value=Search type=submit>
 
