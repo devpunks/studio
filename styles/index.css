@@ -224,6 +224,9 @@ html, body {
   -webkit-tap-highlight-color: transparent
 }
 
+a
+  { -webkit-touch-callout: default }
+
 
 /* accessibility.css
  * 
