@@ -53,7 +53,7 @@ form:focus-within {}
 form
   fieldset:focus-within {}
 
-form[name=search] {
+[role=search] {
   display: flex;
   flex-direction: var(--flex-direction)
 }
