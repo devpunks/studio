@@ -97,7 +97,13 @@ body > footer {
 }
 
 body > aside  { }
-body > footer { }
+body > footer {
+  bottom: 0;
+  z-index: 1;
+  flex-basis: 5vh;
+  position: sticky;
+}
+
 
 template /* IE custom elements */
   { display: none }
