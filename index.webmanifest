@@ -1,6 +1,4 @@
 {
-  "name": "devpunks.studio",
-  "short_name": "devpunks.studio",
   "scope": "/",
   "start_url": "/?from=homescreen",
   "display": "standalone",
