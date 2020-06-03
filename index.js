@@ -1,5 +1,7 @@
 // INSTALL PWA Personal Web App - https://web.dev/customize-install/
 // Quota Management - https://developer.mozilla.org/en-US/docs/Web/API/StorageQuota
+// Navigator.connection - https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection
+// NetworkInformation - https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation
 
 var
   first  = document.querySelector ('#first')
