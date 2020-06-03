@@ -7,6 +7,7 @@
 // Push API - https://developer.mozilla.org/en-US/docs/Web/API/Push_API
 // Clipboard API - https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
 // sendBeacon - https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon
+
 var
   first  = document.querySelector ('#first')
 , second = document.querySelector ('#second')
