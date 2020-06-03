@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "devpunks.studio",
   "orientation": "landscape",
-  "background_color": "#000000",
+  "short_name": "devpunks.studio",
   "description": "Devpunks studio",
 
   "related_applications": [{
