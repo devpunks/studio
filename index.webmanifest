@@ -1,6 +1,5 @@
 {
   "scope": "/",
-  "start_url": "/?from=homescreen",
   "display": "standalone",
   "theme_color": "#000000",
   "orientation": "landscape",
