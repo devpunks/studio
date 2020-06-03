@@ -46,10 +46,10 @@
 
   --font-family:
     system-ui,
-    -apple-system,       /* macOS 10.11-10.12 */
-    'segoe ui',          /* Windows 6+ */
-    roboto,              /* Android 4+ */
-    ubuntu,              /* Ubuntu 10.10+ */
+    -apple-system,            /* macOS 10.11-10.12 */
+    'segoe ui', Segoe,        /* Windows 6+ */
+    'RobotoRegular', roboto,  /* Android 4+ */
+    ubuntu,                   /* Ubuntu 10.10+ */
     cantarell,           /* Gnome 3+ */
     'noto sans',         /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
     sans-serif,          /* fallback */
