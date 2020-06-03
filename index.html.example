@@ -65,3 +65,10 @@
 <!-- Masthead content -->
 </header>
 
+<main id=main>
+<!-- Main content -->
+</main>
+
+<footer role=contentinfo>
+<!-- Footer content -->
+</footer>
