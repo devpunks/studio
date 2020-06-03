@@ -3,7 +3,8 @@
 // Navigator.connection - https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection
 // NetworkInformation - https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation
 // MediaCapabilities API - https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API
-
+// Notifications API - https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API
+// Push API - https://developer.mozilla.org/en-US/docs/Web/API/Push_API
 var
   first  = document.querySelector ('#first')
 , second = document.querySelector ('#second')
