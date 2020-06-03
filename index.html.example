@@ -65,6 +65,10 @@
 <!-- Masthead content -->
 </header>
 
+<nav>
+<!-- Navigation menu -->
+</nav>
+
 <h1><!-- Main heading --></h1>
 
 <main id=main>
