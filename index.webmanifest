@@ -16,8 +16,9 @@
   "categories" :
     [ "education", "entertainment", "music", "photo", "productivity", "social" ],
 
-  "screenshots": [
-    { "src": "screenshots/index.jpg", "sizes": "1280x920", "type": "image/jpeg" }
+  "icons": [
+    { "src": "/icons/index.192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/index.512x512.png", "sizes": "512x512", "type": "image/png" }
   ],
 
   "serviceworker": {
