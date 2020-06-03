@@ -21,10 +21,9 @@
     { "src": "/icons/index.512x512.png", "sizes": "512x512", "type": "image/png" }
   ],
 
-  "serviceworker": {
-    "src": "./worker.js",
-    "scope": "/",
-    "type": "",
-    "update_via_cache": "none"
-  }
+  "screenshots":
+    [ { "src": "screenshots/index.jpg", "sizes": "1280x920", "type": "image/jpeg" } ],
+
+  "serviceworker":
+    { "src": "./worker.js", "scope": "/", "type": "", "update_via_cache": "none" }
 }
