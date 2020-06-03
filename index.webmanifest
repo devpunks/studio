@@ -7,10 +7,8 @@
   "description": "Devpunks studio",
   "start_url": "/?from=homescreen",
 
-  "related_applications": [{
-    "platform": "play",
-    "url": "https://play.google.com/store/apps/details?id=devpunks.studio"
-  }],
+  "theme_color": "#555555",
+  "background_color": "#555555",
 
   "categories" : [
     "education", "entertainment", "music", "photo", "productivity", "social", "utilities"
