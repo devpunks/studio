@@ -5,6 +5,7 @@
   "orientation": "landscape",
   "short_name": "devpunks.studio",
   "description": "Devpunks studio",
+  "start_url": "/?from=homescreen",
 
   "related_applications": [{
     "platform": "play",
