@@ -1,3 +1,6 @@
+// INSTALL PWA Personal Web App
+// https://web.dev/customize-install/
+
 var
   first  = document.querySelector ('#first')
 , second = document.querySelector ('#second')
