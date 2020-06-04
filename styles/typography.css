@@ -24,7 +24,6 @@
   --margin: 0.67em auto;
 
   --viewport:
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
 /* https://julian.is/article/iphone-x-notch/ */
     env(safe-area-inset-top, 0.612em)
     env(safe-area-inset-right, auto)
