@@ -286,10 +286,11 @@ a
   { /* Rules for users using white-on-black */ }
 
 /* LANDMARKS */
-[role=banner]      , body > header {}
-[role=search]      , form[name=search] {}
-[role=main]        , main {}
-[role=contentinfo] , body > footer {}
+[role=banner] {}
+[role=search] {}
+[role=main]   {}
+[role=contentinfo] {}
+[role=form] {}
 
 
 [tabindex='-1']:focus
