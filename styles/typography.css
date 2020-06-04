@@ -17,6 +17,8 @@
 
   --font-size: 3vw; /* --font-size: 2.8vw; */
 
+  --column-count: 1;
+
   --text-align: center;
 
   --margin: 0.67em auto;
