@@ -61,9 +61,14 @@ form
   border-bottom: 0.1em solid;
 }
 
-[role=search] input[type=search]
-  { width: 100% }
-
+[role=search]
+  input[type=search] {
+    margin: 0;
+    padding: 0 1em;
+    line-height: 3em;
+    flex: 1 50%;
+    text-align: left;
+}
 [role=search]
   input[type=submit] {
     flex: 1 33%;
