@@ -19,7 +19,11 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role -->
     <summary>Search</summary>
 
-    <form name=search title=Search action=?>
+    <form role=search name=search title=Search action=?>
+    
+      <label for=🔎search>Search</label>
+      <input required id=🔎search results=5 list=🔎searches
+        name=🔎search type=search title=🔎Search placeholder='I am Looking for…?'>
 
       <input required id=🔎search results=5
         name=🔎search type=search title=🔎Search placeholder=🔎Search>
