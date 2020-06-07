@@ -140,6 +140,7 @@ input, select, textarea, button {
 }
 
 [type=search] {
+  background: none;
   outline-offset: -2px;
   -webkit-appearance: textfield
 }
