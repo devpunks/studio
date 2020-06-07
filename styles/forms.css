@@ -58,8 +58,7 @@ form
   flex-wrap: wrap;
   flex-direction: row;
   background: green;
-  border-bottom: 4px solid red;
-  flex-direction: var(--flex-direction)
+  border-bottom: 0.1em solid;
 }
 
 [role=search] input[type=search]
