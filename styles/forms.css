@@ -71,7 +71,15 @@ form
 }
 [role=search]
   input[type=submit] {
-    flex: 1 33%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+[role=search]
+  footer {
+    flex:1 100%;
+    background:pink;
+    text-align: right;
 }
 
 fieldset {
