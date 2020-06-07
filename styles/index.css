@@ -85,7 +85,7 @@ body > header {
   top: 0;
   z-index: 1;
   position: sticky;
-  flex-basis: 10vh
+  background: Canvas;
 }
 body > main   { flex: 1 }
 body > aside  { }
