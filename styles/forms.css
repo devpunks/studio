@@ -156,7 +156,7 @@ input:focus, select:focus
   [type=search]:placeholder-shown {
     /* margin-top: -2em; */
     /* border-top: 1em solid red; */
-    line-height: 1em;
+    background-color: rgba(0,0,0,1);
   }
 
 [role=search]
