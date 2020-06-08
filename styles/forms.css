@@ -143,9 +143,7 @@ input:focus, select:focus
 [role=search]
   [type=search] {
     font-size: 1em;
-    height: 1em;
-    padding: 0;
-    background: rgba(0,0,0,0.5);
+    height: 2em;
     color: yellow;
     border-top: 1em solid;
     border-bottom: none;
