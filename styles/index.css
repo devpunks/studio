@@ -85,7 +85,7 @@ body > header {
   top: 0;
   z-index: 1;
   position: sticky;
-  background: Canvas;
+  background: Canvas
 }
 body > nav summary *
   { display: inline-block }
