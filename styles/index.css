@@ -167,7 +167,7 @@ meter, progress
 /* media.css */
 canvas {
   outline: 1px solid;
-  display: inline-block
+  background: Canvas;
 }
 
 audio, canvas, embed, iframe, img, object, picture, svg, video {
