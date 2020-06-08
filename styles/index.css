@@ -87,6 +87,8 @@ body > header {
   position: sticky;
   background: Canvas;
 }
+body > nav summary *
+  { display: inline-block }
 body > main   { flex: 1 }
 body > aside  { }
 body > footer {
