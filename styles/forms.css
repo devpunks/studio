@@ -53,35 +53,6 @@ form:focus-within {}
 form
   fieldset:focus-within {}
 
-[role=search] {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background: green;
-  border-bottom: 0.1em solid;
-}
-
-[role=search]
-  input[type=search] {
-    margin: 0;
-    padding: 0 1em;
-    line-height: 3em;
-    flex: 1 50%;
-    text-align: left;
-}
-[role=search]
-  input[type=submit] {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-[role=search]
-  footer {
-    flex:1 100%;
-    background:pink;
-    text-align: right;
-}
-
 fieldset {
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
   border: none;
@@ -110,6 +81,19 @@ button, input, select, textarea {
   text-transform: none /* Remove the inheritance of text transform in Firefox */
 }
 
+input, select, textarea, button {
+  /*
+   * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
+   * appearance
+   *   - https://developer.mozilla.org/en-US/docs/Web/CSS/appearance
+   *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
+   */
+  margin-bottom: 1.612em;
+  text-align: var(--text-align);
+  -webkit-appearance: none;
+  appearance: none
+}
+
 select,
 input:not([type]), input[type=search], input[type=text], input[type=password],
 input[type=email], input[type=tel], input[type=url], input[type=number],
@@ -126,29 +110,65 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 input:focus, select:focus
   { opacity: 100% }
 
-input, select, textarea, button {
-  /*
-   * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
-   * appearance
-   *   - https://developer.mozilla.org/en-US/docs/Web/CSS/appearance
-   *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
-   */
-  margin-bottom: 1.612em;
-  text-align: var(--text-align);
-  -webkit-appearance: none;
-  appearance: none
-}
-
 [type=search] {
-  background: none;
-  outline-offset: -2px;
-  -webkit-appearance: textfield
+    margin: 0;
+    flex: 1 50%;
+    padding: 0 1em;
+    background: none;
+    text-align: left;
+    outline-offset: -2px;
+    -webkit-appearance: textfield
 }
 /* Remove the inner padding in Chrome and Safari on macOS. */
 [type=search]::-webkit-search-decoration
  { -webkit-appearance: none }
 /* Remove 'x' icon from search */
 [type=search]::-webkit-search-cancel-button { }
+[role=search] {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: green;
+  border-bottom: 0.1em solid;
+}
+[role=search] label {
+  background: pink;
+  flex: 1 100%;
+  font-size: 1em;
+  text-align: left;
+  height: 1em;
+  line-height: 1em;
+  /* vertical-align: bottom; */
+}
+[role=search]
+  [type=search] {
+    font-size: 1em;
+    height: 1em;
+    padding: 0;
+    background: rgba(0,0,0,0.5);
+    color: yellow;
+    border-top: 1em solid;
+    border-bottom: none;
+  }
+[role=search]
+  [type=search]:placeholder-shown {
+    /* margin-top: -2em; */
+    /* border-top: 1em solid red; */
+    line-height: 1em;
+  }
+
+[role=search]
+  input[type=submit] {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+[role=search]
+  footer {
+    flex:1 100%;
+    background:pink;
+    text-align: right;
+}
 
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button
