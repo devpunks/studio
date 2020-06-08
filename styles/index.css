@@ -114,8 +114,12 @@ details#swatches *:not(em)
   { }
 details#swatches li
   { text-align: left }
-summary
-  { display: list-item }
+summary {
+  opacity: 0.75;
+  display: list-item;
+}
+details:hover summary, details:focus-within summary
+  { opacity: 1.0 }
 
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3/
