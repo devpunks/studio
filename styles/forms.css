@@ -165,6 +165,10 @@ input:focus, select:focus
     padding: 0;
     border: none;
 }
+[role=search] input[type=submit] {
+   height: 2em;
+   font-size: 1em;
+}
 [role=search]
   footer {
     flex:1 100%;
