@@ -115,6 +115,7 @@ details#swatches li
 summary {
   opacity: 0.75;
   display: list-item;
+  list-style-type: '\1F44D'
 }
 details:hover summary, details:focus-within summary
   { opacity: 1.0 }
