@@ -248,7 +248,7 @@ input:focus, select:focus
   height: 1em;
   border-radius: 50%;
   transition: all 0.4s;
-  background-color: ButtonFace;
+  background: ButtonFace;
   border: 0.05em solid GrayText;
   transform: translate(-0.5em, -0.05em)
 }
