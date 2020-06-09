@@ -411,7 +411,7 @@ input:not([type]):read-only
 :user-invalid {}
 
 input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
-  color: red;
+  color: ActiveText;
   cursor: not-allowed
 }
 
