@@ -213,7 +213,7 @@ input:focus, select:focus
   { border-radius: 0.5em }
 [type=radio]:before {
   border-radius: 50%;
-  background-color: currentColor
+  background: currentColor
 }
 [type=radio]:checked {}
 [type=radio]:checked:before {}
