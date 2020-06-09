@@ -363,8 +363,8 @@ legend {
   color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
   font-size: 2.4em;
   white-space: normal;
-  margin-bottom: 0.8em;
-  line-height: inherit
+  margin-bottom: 0.618em;
+  line-height: inherit;
 }
 
 button, input, select, textarea {
