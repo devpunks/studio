@@ -238,7 +238,7 @@ input:focus, select:focus
   width: 2em;
   border-radius: 2em;
   transition: all 0.3s;
-  background-color: GrayText;
+  background: GrayText;
 }
 [type=checkbox].toggle:checked
   { background-color: ButtonFace }
