@@ -110,8 +110,6 @@ details#swatches {
   margin-bottom: 2em
 }
 
-details#swatches *:not(em)
-  { }
 details#swatches li
   { text-align: left }
 summary {
