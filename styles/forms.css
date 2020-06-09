@@ -185,6 +185,8 @@ input:focus, select:focus
 /* checks, radios, & toggles */
 [type=radio], [type=checkbox] {
   margin: 0;
+  width: 1.0em;
+  height: 1.0em;
   cursor: pointer;
   /* Set here so that Windows' High-Contrast Mode can override */
   color: currentColor;
