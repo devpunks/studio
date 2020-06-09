@@ -241,7 +241,7 @@ input:focus, select:focus
   background: GrayText;
 }
 [type=checkbox].toggle:checked
-  { background-color: ButtonFace }
+  { background: ButtonFace }
 [type=checkbox].toggle:before {
   content: ' ';
   width: 1em;
