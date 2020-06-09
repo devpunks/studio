@@ -104,6 +104,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   border: none;
   font-size: 120%;
   line-height: 200%;
+  margin: var(--margin);
   border-bottom: 0.1em solid;
   -webkit-user-select: text /* enable text editing */
 }
