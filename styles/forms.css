@@ -278,6 +278,7 @@ input[type=file] {
 [type=color] {
   padding: 0;
   border: none;
+  background: Canvas;
   cursor: context-menu;
   outline: 0.1em solid
 }
