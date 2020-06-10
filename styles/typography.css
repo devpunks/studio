@@ -365,7 +365,6 @@ th {
   position: sticky;
   white-space: nowrap;
 }
-
 th:empty
   { border: none }
 th[scope=row]
