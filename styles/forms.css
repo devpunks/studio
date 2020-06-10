@@ -68,6 +68,13 @@ legend {
   max-width: 100%
 }
 
+label {
+  cursor: pointer;
+  font-weight: bolder;
+  display: inline-block;
+  font-size:  var(--larger)
+}
+
 output
   { display: inline-block }
 
