@@ -160,11 +160,8 @@ body > aside
   { font-size: var(--smaller) }
 body > footer { }
 
-body :not(a), *,
-::before, *:before,
-::after,  *:after
-  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
-  { text-decoration: inherit }
+nav
+  { font-size: var(--larger) }
 
 /* hyperlinks */
 a {
