@@ -336,7 +336,9 @@ address {
   margin-bottom: 1.612em
 }
 
-
+/* Table styling
+ *   - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
+ */
 table {
   position: relative;
   height: 100vh;
