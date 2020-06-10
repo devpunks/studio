@@ -79,10 +79,11 @@ output
   { display: inline-block }
 
 button, input, select, textarea {
-  font:           inherit;
-  line-height:    inherit;
-  font-family:    inherit;
-  letter-spacing: inherit
+  font: inherit;
+  overflow: visible; /* Show the overflow in IE / Edge */
+  line-height: inherit;
+  font-family: inherit;
+  letter-spacing: inherit;
   text-align: var(--text-align);
   /* Remove the inheritance of text transform in Firefox */
   text-transform: none;
