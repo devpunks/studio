@@ -23,7 +23,7 @@
 
 /* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
 ::placeholder {
-  opacity: 22%;
+  opacity: 61.8%;
   color: currentColor
 } /* 4.5:1 contrast ratio for ARIA */
 label {
