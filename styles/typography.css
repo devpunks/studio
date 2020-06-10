@@ -369,7 +369,7 @@ details {
   text-align: var(--text-align)
 }
 summary {
-  font-size: 120%;
+  text-align: start;
   font-weight: bolder;
   margin: var(--margin)
 }
