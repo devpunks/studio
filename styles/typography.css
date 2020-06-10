@@ -367,8 +367,21 @@ th[scope=row]:after {
 tr { position: relative }
 tr:before
   { content: '' }
-tbody tr
-  { counter-increment: table }
+td { }
+td:first-of-type {
+  border-left: 0.0618em solid;
+}
+thead th
+  { border-bottom: 0.0618em solid }
+tbody{
+  position: relative;
+}
+table * {
+    display: block;
+}
+tbody tr {
+  counter-increment: table
+}
 tbody tr:before {
   content: counter(table);
   backkground: purple;
