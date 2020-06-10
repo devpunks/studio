@@ -371,7 +371,7 @@ details {
 summary {
   text-align: start;
   font-weight: bolder;
-  margin: var(--margin)
+  font-size: var(--largest)
 }
 nav details, nav summary
   { margin: unset }
