@@ -150,7 +150,8 @@ body > footer
 
 body > header { }
 body > main   { }
-body > aside  { }
+body > aside
+  { font-size: var(--smaller) }
 body > footer { }
 
 body :not(a), *,
