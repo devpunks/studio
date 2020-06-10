@@ -357,14 +357,3 @@ legend {
   margin-bottom: 0.618em;
   line-height: inherit;
 }
-
-button, input, select, textarea {
-  font:           inherit;
-  line-height:    inherit;
-  font-family:    inherit;
-  letter-spacing: inherit
-}
-
-button {
-  text-transform: none     /* Remove the inheritance of text transform in Edge, Firefox, and IE. */
-}
