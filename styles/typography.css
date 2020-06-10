@@ -93,7 +93,6 @@
 
 @media screen and (min-width: 1200px) {
   :root {
-
     --column-count: 1;
 
     --text-align: left;
