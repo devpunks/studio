@@ -236,7 +236,8 @@ input:focus, select:focus
 [aria-pressed=true]  {}
 [aria-pressed=false] {}
 
-/* .toggle
+/* [role=switch]
+ *   - https://github.com/whatwg/html/issues/5625
  *   - https://inclusive-components.design/toggle-button/
  */
 [type=checkbox].toggle {
