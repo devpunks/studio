@@ -105,10 +105,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   { display:block }
 
 details {}
-details#swatches {
-  width: 80%;
-  margin-bottom: 2em
-}
 
 details#swatches li
   { text-align: left }
