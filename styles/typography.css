@@ -87,8 +87,7 @@
   :root {
     --font-size: 2vw;
     --text-align: left;
-
-    --margin: .67em 6vw
+    --margin: .67em 2vw;
   }
 }
 
