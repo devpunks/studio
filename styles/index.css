@@ -96,6 +96,7 @@ body > footer {
   z-index: 1;
   position: sticky;
   background: Canvas;
+  display: none;
 }
 
 template /* IE custom elements */
