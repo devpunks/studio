@@ -336,6 +336,7 @@ table {
   height: 100vh;
   display: block;
   margin-left: auto;
+  overflow-y: scroll;
   margin-right: auto;
   counter-reset: table
 }
