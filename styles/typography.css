@@ -210,8 +210,10 @@ ul, ol, dt
   { font-weight: bolder }
 nav ol, nav ul
   { list-style: none }
-li, dd, dl
-  { margin: var(--margin) }
+li, dd {
+  margin: inherit;
+  margin-left: 1.618em;
+}
 
 abbr[title] {
   border-bottom: 0;
