@@ -203,8 +203,8 @@ ul, ol, dt
   { font-weight: bolder }
 nav ol, nav ul
   { list-style: none }
-li, dd {
-  margin: unset;
+li, dd, dl {
+  margin: var(--margin);
 }
 
 abbr[title] {
