@@ -26,10 +26,6 @@
   opacity: 61.8%;
   color: currentColor
 } /* 4.5:1 contrast ratio for ARIA */
-label {
-  cursor: pointer;
-  display: inline-block
-}
 
 /* Remove tapping delay
  *   https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
