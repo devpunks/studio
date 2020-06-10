@@ -169,6 +169,7 @@ body > footer { }
 nav
   { font-size: var(--larger) }
 
+
 /* hyperlinks */
 a {
   margin:  .1em;
