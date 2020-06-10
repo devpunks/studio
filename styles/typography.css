@@ -253,6 +253,7 @@ pre, code, kbd, samp {
 /* quotes */
 q {
   quotes: '“' '”' '‘' '’';
+  font-size: var(--smaller);
   font-style: italic
 }
 q::before
