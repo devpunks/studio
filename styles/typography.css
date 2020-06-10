@@ -80,9 +80,6 @@
   --margin-collapse-bugfix: 0.02px
 }
 
-@media screen and (calc(0.75rem + 1vmax)) {
-  background: red;
-}
 /*
   - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
 */
