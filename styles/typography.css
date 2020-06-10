@@ -354,6 +354,15 @@ table > thead th {
 table > tfoot { }
 table > tbody { }
 table td { }
+table tr { }
+table tr:before
+  { content: '' }
+tbody tr
+  { counter-increment: table }
+tbody tr:before {
+  content: counter(table);
+  backkground: purple;
+}
 
 details {
   margin: var(--margin);
