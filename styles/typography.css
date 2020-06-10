@@ -383,7 +383,6 @@ tbody tr {
   counter-increment: table
 }
 tbody tr:before {
-  content: counter(table);
   backkground: purple;
 }
 
