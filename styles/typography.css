@@ -368,10 +368,7 @@ th {
 th:empty
   { border: none }
 th[scope=row]
-  { position: sticky;
-  top: 0;
-  color: red;
-  font-size: var(--smaller) }
+  { font-size: var(--smaller) }
 th[scope=row]:after {
   content: counter(table);
   white-space: nowrap
