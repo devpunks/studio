@@ -385,6 +385,11 @@ tbody tr {
 tbody tr:before {
   backkground: purple;
 }
+tfoot th
+  { border-top: 0.0618em solid }
+th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
+  { background: rgba(0,0,0,0.1618) }
+
 
 details {
   margin: var(--margin);
