@@ -108,7 +108,7 @@ details {}
 summary {
   opacity: 0.75;
   display: list-item;
-  list-style-type: '\1F44D'
+  list-style-type: '📁'
 }
 details:hover summary, details:focus-within summary
   { opacity: 1.0 }
