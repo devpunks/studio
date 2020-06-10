@@ -109,7 +109,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   margin-bottom: 1.618em;
   font-size:  var(--larger);
   border-bottom: 0.1em solid;
-  -webkit-user-select: text /* enable text editing */
+  -webkit-user-select: text /* enable text editing */;
 }
 input:focus, select:focus
   { opacity: 100% }
