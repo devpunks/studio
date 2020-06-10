@@ -239,6 +239,7 @@ input:focus, select:focus
 /* [role=switch]
  *   - https://github.com/whatwg/html/issues/5625
  *   - https://inclusive-components.design/toggle-button/
+ *   - https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/
  */
 [type=checkbox].toggle {
   width: 2em;
