@@ -344,6 +344,8 @@ summary {
   font-weight: bolder;
   margin: var(--margin)
 }
+nav details, nav summary
+  { margin: unset }
 
 fieldset
   { }
