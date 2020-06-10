@@ -348,9 +348,10 @@ caption {
   font-size: var(--larger);
   line-height: var(--largest);
 }
-table > thead {
-  padding: 1em;
-  background: red;
+th {
+  opacity: 0.618;
+  padding: 0.618em;
+  white-space: nowrap
 }
 table > thead th {
   padding: 1em 0;
