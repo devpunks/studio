@@ -189,8 +189,6 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   box-sizing: content-box
 }
 
-nav
-  { font-size: var(--larger) }
 ul, ol, dl {
   padding-left: unset;
   margin: 0 auto 1.612em;
