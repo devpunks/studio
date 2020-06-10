@@ -110,6 +110,8 @@ summary {
   display: list-item;
   list-style-type: '📁'
 }
+details[open] summary
+  { list-style-type: '📂' }
 details:hover summary, details:focus-within summary
   { opacity: 1.0 }
 
