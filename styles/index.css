@@ -134,6 +134,7 @@ dd {}
 table
 {
   width: inherit;
+  max-width: 90%;
   table-layout: fixed;
   outline-width: 0.4em;
   outline-style: double;
