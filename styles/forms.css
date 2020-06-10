@@ -92,8 +92,6 @@ button, input, select, textarea {
    *   - https://developer.mozilla.org/en-US/docs/Web/CSS/appearance
    *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
    */
-  margin-bottom: 1.612em;
-  text-align: var(--text-align);
   -webkit-appearance: none;
   appearance: none
 }
