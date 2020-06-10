@@ -108,6 +108,7 @@ details {}
 
 details#swatches li
   { text-align: left }
+
 summary {
   opacity: 0.75;
   display: list-item;
