@@ -392,9 +392,6 @@ table * {
 tbody tr {
   counter-increment: table
 }
-tbody tr:before {
-  backkground: purple;
-}
 tfoot th
   { border-top: 0.0618em solid }
 th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
