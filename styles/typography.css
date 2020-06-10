@@ -364,11 +364,8 @@ th[scope=row]:after {
   content: counter(table);
   white-space: nowrap
 }
-table > tfoot { }
-table > tbody { }
-table td { }
-table tr { }
-table tr:before
+tr { position: relative }
+tr:before
   { content: '' }
 tbody tr
   { counter-increment: table }
