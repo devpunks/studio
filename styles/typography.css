@@ -90,7 +90,7 @@
 @media screen and (min-width: 768px) {
   :root {
     --font-size: 2vw;
-    --text-align: left;
+    --text-align: start;
     --margin: .67em 2vw;
   }
 }
