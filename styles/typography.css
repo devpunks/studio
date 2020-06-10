@@ -237,7 +237,7 @@ h1 {
 }
 
 header
-  { font-size: 120% }
+  { font-size: var(--larger) }
 b, strong
   { font-weight: bolder }
 p
