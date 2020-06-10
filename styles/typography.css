@@ -203,8 +203,8 @@ ul, ol, dl {
 }
 ul ul, ol ol, dl dl {
   opacity: 80%;
-  font-size: 90%;
-  font-weight: normal
+  font-weight: normal;
+  font-size: var(--smaller)
 }
 ul, ol, dt
   { font-weight: bolder }
