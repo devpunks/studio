@@ -340,8 +340,8 @@ table {
   margin-right: auto;
   counter-reset: table
 }
-
-table > caption {
+caption {
+  top: 0;
   padding: 1em 0;
   font-weight: bold;
   font-size: var(--larger);
