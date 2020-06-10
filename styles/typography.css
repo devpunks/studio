@@ -357,7 +357,7 @@ caption {
   line-height: var(--largest);
 }
 th {
-  opacity: 0.618;
+/*   opacity: 0.618; */
   padding: 0.618em;
   white-space: nowrap
 }
