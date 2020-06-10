@@ -359,7 +359,10 @@ caption {
 th {
 /*   opacity: 0.618; */
   padding: 0.618em;
-  white-space: nowrap
+  white-space: nowrap;
+  position: sticky;
+  top: 5.118em;
+  color: red;
 }
 th:empty
   { border: none }
