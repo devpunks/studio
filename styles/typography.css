@@ -107,7 +107,9 @@
 ::selection
   { text-shadow: none }
 
-* { /* https://css-tricks.com/what-you-should-know-about-collapsing-margins/ */
+* {
+  margin: auto;
+  /* https://css-tricks.com/what-you-should-know-about-collapsing-margins/ */
   padding-top:   var(--margin-collapse-bugfix);
   margin-bottom: var(--margin-collapse-bugfix)
 }
