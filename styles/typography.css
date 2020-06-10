@@ -358,6 +358,7 @@ caption {
 }
 th {
 /*   opacity: 0.618; */
+  top: 5.118em;
   padding: 0.618em;
   white-space: nowrap;
   position: sticky;
