@@ -137,7 +137,7 @@ table
   outline-width: 0.4em;
   outline-style: double;
   border-collapse: collapse;
-  box-shadow: var(--box-shadow)
+  box-shadow: var(--box-shadow);
 }
 
 /*
