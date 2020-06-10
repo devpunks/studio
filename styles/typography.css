@@ -376,7 +376,8 @@ th[scope=row]:after {
 tr { position: relative }
 tr:before
   { content: '' }
-td { }
+td
+  { z-index: -1 }
 td:first-of-type {
   border-left: 0.0618em solid;
 }
