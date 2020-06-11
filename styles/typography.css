@@ -220,6 +220,8 @@ li, dd {
   margin: inherit;
   margin-left: 1.618em;
 }
+dd
+  { margin-bottom: 1.618em }
 
 abbr[title] {
   border-bottom: 0;
