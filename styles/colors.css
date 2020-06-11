@@ -59,6 +59,17 @@
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
   { background-color: var(--background-color) }
 
+/* Dark / Light Mode
+ *   Apple - https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/
+ *
+ * prefers-color-scheme
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+ */
+
+@media prefers-color-scheme(mode: light) { }
+@media prefers-color-scheme(mode: dark)  { }
+
+
 html {
   color:            var(--color);
   background-color: var(--background-color)
