@@ -105,7 +105,7 @@ template /* IE custom elements */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 
-details {}
+details { width: 100% }
 summary {
   opacity: 0.75;
   display: list-item;
