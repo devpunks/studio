@@ -118,6 +118,7 @@ details:hover summary, details:focus-within summary
 
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3/
+ * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 ul, ol
   { list-style-position: inside }
