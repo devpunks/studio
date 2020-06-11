@@ -153,7 +153,6 @@ input:focus, select:focus
   }
 [role=search]
   [type=search]:placeholder-shown {
-    /* border-top: 1em solid red; */
     background-color: rgba(0,0,0,1);
   }
 
