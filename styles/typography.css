@@ -209,6 +209,7 @@ ul, ol, dl {
 }
 ul ul, ol ol, dl dl {
   opacity: 80%;
+  margin-top: 0;
   font-weight: normal;
   font-size: var(--smaller)
 }
