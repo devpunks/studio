@@ -218,11 +218,10 @@ ul, ol, dt
 nav ol, nav ul
   { list-style: none }
 li, dd {
-  margin: var(--font-size);
-  margin-left: 1.618em;
+  margin: var(--font-size) 0 var(--font-size) 1.618em;
 }
 dd
-  { margin-bottom: 1.618em }
+  {  }
 
 abbr[title] {
   border-bottom: 0;
