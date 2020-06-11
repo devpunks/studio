@@ -63,7 +63,7 @@ html {
   width: auto;
   box-sizing: border-box
 }
-html *, html ::before, html ::after, html *:before, html *:after
+*, ::before, ::after, *:before, *:after
 /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { box-sizing: inherit }
 
