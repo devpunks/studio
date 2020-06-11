@@ -204,7 +204,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 ul, ol, dl {
   text-align: start;
   padding-left: unset;
-  margin: var(--font-size);
+  margin: var(--font-size) var(--font-size) 2.618em;
   font-size: var(--larger);
 }
 ul ul, ol ol, dl dl {
