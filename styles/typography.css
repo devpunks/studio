@@ -261,6 +261,14 @@ pre, code, kbd, samp {
   display: inline-block;
   font-family: var(--font-family-mono)
 }
+pre {
+  width: 100%;
+  font-size: var(--largest);
+  overflow: scroll;
+  background: rgba(0,0,0,0.2);
+  padding: 1em;
+  display: block;
+}
 
 
 /* quotes */
