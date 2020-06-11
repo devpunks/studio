@@ -28,6 +28,7 @@
 } /* 4.5:1 contrast ratio for ARIA */
 
 /* Remove tapping delay
+ *   https://css-tricks.com/almanac/properties/t/touch-action/
  *   https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
  */
 a, area, button, input, label, select, summary, textarea, [tabindex] {
