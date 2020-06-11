@@ -218,7 +218,7 @@ ul, ol, dt
 nav ol, nav ul
   { list-style: none }
 li, dd {
-  margin: inherit;
+  margin: var(--font-size);
   margin-left: 1.618em;
 }
 dd
