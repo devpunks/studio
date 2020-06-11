@@ -205,6 +205,7 @@ ul, ol, dl {
   text-align: start;
   padding-left: unset;
   margin: var(--font-size);
+  font-size: var(--larger);
 }
 ul ul, ol ol, dl dl {
   opacity: 80%;
