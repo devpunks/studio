@@ -269,6 +269,7 @@ pre {
   display: block;
   display: flex;
   overflow: auto;
+  border-radius: 0.5em;
   font-size: var(--largest);
   background: rgba(0,0,0,0.2);
 }
