@@ -245,6 +245,14 @@ html, body {
   -webkit-touch-callout:       none;
   -webkit-tap-highlight-color: transparent
 }
+pre, p {
+  -webkit-user-select:         text;  /* Chrome all / Safari all */
+  -moz-user-select:            text;  /* Firefox all */
+  -ms-user-select:             text;  /* IE 10+ */
+  user-select:                 text;  /* Likely future */
+  -webkit-touch-callout:       text;
+  /* -webkit-tap-highlight-color: transparent */
+}
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
 body >footer
   { -webkit-transform: translatez(0) }
