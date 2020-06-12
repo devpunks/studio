@@ -34,8 +34,13 @@
   }
 }
 
-::before, *:before, ::after, *:after
-{
+/*
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * - https://stackoverflow.com/a/16982510/7133471
+ * - https://twitter.com/miketaylr/status/12228805301
+ * - https://css-tricks.com/almanac/selectors/s/selection/
+ */
+::before, *:before, ::after, *:after {
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   white-space: pre;
   display: inline-block
