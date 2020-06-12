@@ -416,6 +416,7 @@ details {
   text-align: var(--text-align)
 }
 summary {
+  text-align: start;
   font-weight: bolder;
   font-size: var(--largest)
 }
