@@ -267,6 +267,7 @@ pre {
   margin: 1em;
   padding: 1em;
   display: block;
+  display: flex;
   overflow: auto;
   font-size: var(--largest);
   background: rgba(0,0,0,0.2);
