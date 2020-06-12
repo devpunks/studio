@@ -49,6 +49,8 @@
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
   { background-color: var(--background-color) }
 ::selection {
+  color: HighlightText;
+  background: Highlight;
 }
 ::-moz-selection {
 }
