@@ -154,6 +154,20 @@ table
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
 }
+pre, code, kbd, samp {
+  overflow: auto;
+  border-radius: 0.5em;
+}
+pre {
+  opacity: 0.618;
+  display: block;
+  display: flex;
+}
+code {}
+pre code {
+  border-radius: 0;
+  border-left: 0.02em solid;
+}
 
 /*
  * cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
