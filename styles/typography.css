@@ -84,6 +84,11 @@
   --margin-collapse-bugfix: 0.02px
 }
 
+::-moz-selection /* set separately */
+  { text-shadow: none }
+::selection
+  { text-shadow: none }
+
 /*
   - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
 */
