@@ -107,11 +107,6 @@
   }
 }
 
-::-moz-selection /* set separately */
-  { text-shadow: none }
-::selection
-  { text-shadow: none }
-
 * {
   margin: auto;
   /* https://css-tricks.com/what-you-should-know-about-collapsing-margins/ */
