@@ -259,6 +259,7 @@ p
   { margin: var(--p-margin) }
 
 pre, code, kbd, samp {
+  text-align: start;
   padding: 0 0.612em;
   display: inline-block;
   font-family: var(--font-family-mono)
