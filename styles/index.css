@@ -45,9 +45,13 @@
   white-space: pre;
   display: inline-block
 }
-
-
-
+::backdrop
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
+  { background-color: var(--background-color) }
+::selection {
+}
+::-moz-selection {
+}
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
   padding:      0;
   border-style: none
