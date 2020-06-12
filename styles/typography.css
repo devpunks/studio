@@ -415,10 +415,6 @@ details {
   margin: var(--margin);
   text-align: var(--text-align)
 }
-details details {
-  max-width: 95%;
-  margin: 0 0 0 5%;
-}
 summary {
   font-weight: bolder;
   font-size: var(--largest)
