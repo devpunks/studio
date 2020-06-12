@@ -261,6 +261,7 @@ pre, code, kbd, samp {
   text-align: start;
   padding: 0 0.612em;
   display: inline-block;
+  background: rgba(0,0,0,0.1);
   font-family: var(--font-family-mono)
 }
 pre {
