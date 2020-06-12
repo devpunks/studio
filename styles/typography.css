@@ -419,7 +419,9 @@ summary {
   text-align: start;
   font-weight: bolder;
   font-size: var(--largest);
-  margin-left: -5%; /* compensate for <details> padding */
+  padding-bottom: 0.618em;
+  padding-left: 1.618em;
+  margin-left: -1.618em; /* compensate for <details> padding */
 }
 nav details, nav summary
   { margin: unset }
