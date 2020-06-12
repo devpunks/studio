@@ -264,7 +264,7 @@ pre, code, kbd, samp {
   font-family: var(--font-family-mono)
 }
 pre {
-  width: 100%;
+  margin: 1em;
   padding: 1em;
   display: block;
   overflow: auto;
