@@ -156,7 +156,7 @@ table
 }
 pre, code, kbd, samp {
   overflow: auto;
-  border-radius: 0.5em;
+  border-radius: 0.618em;
 }
 pre {
   opacity: 0.618;
@@ -165,7 +165,9 @@ pre {
 }
 code {}
 pre code {
-  border-radius: 0;
+  width: 100%;
+  display: inherit;
+  border-radius: 0.218em;
   border-left: 0.02em solid;
 }
 
