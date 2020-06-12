@@ -220,8 +220,8 @@ nav ol, nav ul
 li, dd {
   margin: var(--font-size) 0 var(--font-size) 1.618em;
 }
-dd
-  {  }
+dt { margin-top: 1.618em }
+dd { }
 
 abbr[title] {
   border-bottom: 0;
