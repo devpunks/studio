@@ -266,9 +266,6 @@ pre, code, kbd, samp {
 }
 pre {
   width: 100%;
-  font-size: var(--largest);
-  overflow: auto;
-  background: rgba(0,0,0,0.2);
   padding: 1em;
   display: block;
 }
