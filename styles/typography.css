@@ -411,7 +411,7 @@ th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
 
 
 details {
-  padding: 0 0 0 5%;
+  padding: 0 0 0 1.618em;
   margin: var(--margin);
   text-align: var(--text-align)
 }
