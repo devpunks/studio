@@ -216,13 +216,6 @@ iframe {
   background: Canvas
 }
 
-/* overflows */
-body
-  > * {
-    /* Use for horizontal scrolling and snapping. */
-    overflow-y: auto;
-    overflow-x: hidden
-  }
 
 hr { overflow: visible }
 svg {
