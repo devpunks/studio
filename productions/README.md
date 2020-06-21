@@ -7,6 +7,8 @@
   - [Behind the Scenes](https://youtu.be/6r3g3jdlFgw)
   - Call Sheets
       - https://www.youtube.com/watch?v=W2BvzEWiHVc)
+      - https://en.wikipedia.org/wiki/Daily_call_sheet
+  - [Shot List]()
 
 
 ## Pre_(production)_
