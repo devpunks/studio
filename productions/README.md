@@ -29,6 +29,7 @@
 
 
 ### Assistants
+  - [Assistant Director](https://en.wikipedia.org/wiki/Assistant_director)
 
 
 ###  - [Production Assistant's Handbook](./PAPH.pdf)
