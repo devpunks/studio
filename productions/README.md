@@ -8,7 +8,7 @@
   - Call Sheets
       - https://www.youtube.com/watch?v=W2BvzEWiHVc)
       - https://en.wikipedia.org/wiki/Daily_call_sheet
-  - [Shot List]()
+  - [Shot List](https://www.techsmith.com/blog/shot-list/)
 
 
 ## Pre_(production)_
