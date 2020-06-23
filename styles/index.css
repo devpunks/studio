@@ -264,7 +264,7 @@ html, body {
   -ms-user-select:             none;  /* IE 10+ */
   user-select:                 none;  /* Likely future */
   -webkit-touch-callout:       none;
-  /* -webkit-tap-highlight-color: transparent; */
+  -webkit-tap-highlight-color: transparent
 }
 pre, p {
   -webkit-user-select:         text;  /* Chrome all / Safari all */
