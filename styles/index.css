@@ -126,9 +126,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 details { width: 100% }
 summary {
   opacity: 0.75;
-  display: list-item;
-  list-style-type: '📁'
+  list-style: none;
+  list-style-type: '📁';
 }
+summary::-webkit-details-marker
+ { display: none }
 details[open] summary
   { list-style-type: '📂' }
 details:hover summary, details:focus-within summary
