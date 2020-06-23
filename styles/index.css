@@ -130,6 +130,8 @@ summary {
 }
 summary::-webkit-details-marker
  { display: none }
+details:hover summary, details:focus-within summary
+  { opacity: 1.0 }
 summary::before {
   width: 1em;
   margin: 0 0.218em;
