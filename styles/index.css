@@ -131,8 +131,16 @@ summary {
 }
 summary::-webkit-details-marker
  { display: none }
-details[open] summary
-  { list-style-type: '📂' }
+summary::before {
+  width: 1em;
+  margin: 0 0.218em;
+  vertical-align: top;
+}
+details summary::before
+  { content: '📁' }
+details[open] summary::before
+  { content: '📂' }
+
 details:hover summary, details:focus-within summary
   { opacity: 1.0 }
 
