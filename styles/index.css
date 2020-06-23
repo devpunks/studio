@@ -135,7 +135,7 @@ details:hover summary, details:focus-within summary
 summary::before {
   width: 1em;
   margin: 0 0.218em;
-  vertical-align: top;
+  vertical-align: middle;
 }
 details summary::before
   { content: '📁' }
