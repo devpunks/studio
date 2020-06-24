@@ -132,15 +132,32 @@ summary::-webkit-details-marker
  { display: none }
 details:hover summary, details:focus-within summary
   { opacity: 1.0 }
-summary::before {
+summary::before,
+summary::after {
+  background: red;
   width: 1em;
+  height: 1em;
+  font-size: 1em;
+  line-height: 1em;
   margin: 0 0.218em;
-  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle
 }
 details summary::before
+  { content: '>' }
+details[open] summary::before,
+details[open] summary::after
+  { content: 'v' }
+details summary::after
+  { content: '<' }
+nav details summary::before
   { content: '📁' }
-details[open] summary::before
+nav details[open] summary::before
   { content: '📂' }
+nav details summary::after,
+nav details[open] summary::after
+  { content: none }
 
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3/
