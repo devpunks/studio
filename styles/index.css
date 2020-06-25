@@ -155,8 +155,8 @@ nav details > summary::before
   { content: '📁' }
 nav details[open] > summary::before
   { content: '📂' }
-nav details summary::after,
-nav details[open] summary::after
+nav details > summary::after,
+nav details[open] > summary::after
   { content: none }
 
 /* CSS3 Lists
