@@ -146,8 +146,8 @@ summary::after {
 }
 details summary::before
   { content: '>' }
-details[open] summary::before,
-details[open] summary::after
+details[open] > summary::before,
+details[open] > summary::after
   { content: 'v' }
 details summary::after
   { content: '<' }
