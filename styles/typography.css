@@ -21,7 +21,9 @@
     env(safe-area-inset-bottom, 0.612em)
     env(safe-area-inset-left, auto);
 
-  --largest: 161.8%;
+  --tab-size: 4;
+
+  --larger: 120%;
 
   --smaller: 80%;
 
