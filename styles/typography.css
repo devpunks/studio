@@ -39,16 +39,6 @@
 
   --margin: 0.67em auto;
 
-  --viewport:
-    /* https://julian.is/article/iphone-x-notch/ */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
-    env(safe-area-inset-top, 0.612em)
-    env(safe-area-inset-right, auto)
-    env(safe-area-inset-bottom, 0.612em)
-    env(safe-area-inset-left, auto);
-
-  --word-spacing: -0.1em;
-
   --line-height: 1.612em;
 
   --text-size-adjust: 100%; /* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
