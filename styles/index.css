@@ -130,7 +130,7 @@ summary {
 }
 summary::-webkit-details-marker
  { display: none }
-details:hover summary, details:focus-within summary
+details:hover > summary, details:focus-within > summary
   { opacity: 1.0 }
 summary::before,
 summary::after {
