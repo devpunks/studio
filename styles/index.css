@@ -151,7 +151,7 @@ details[open] > summary::after
   { content: 'v' }
 details > summary::after
   { content: '<' }
-nav details summary::before
+nav details > summary::before
   { content: '📁' }
 nav details[open] summary::before
   { content: '📂' }
