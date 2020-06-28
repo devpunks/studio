@@ -344,65 +344,15 @@ address {
 }
 
 /* Table styling
- *   - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
  */
-table {
-  position: relative;
-  height: 100vh;
-  display: block;
-  margin-left: auto;
-  overflow-y: scroll;
-  margin-right: auto;
-  counter-reset: table
-}
+table {}
 caption {
-  top: 0;
-  z-index: 1;
   padding: 1em 0;
-  position: sticky;
   font-weight: bold;
   background: Canvas;
   font-size: var(--larger);
   line-height: var(--largest);
 }
-th {
-/*   opacity: 0.618; */
-  top: 5.118em;
-  padding: 0.618em;
-  position: sticky;
-  white-space: nowrap;
-}
-th:empty
-  { border: none }
-th[scope=row]
-  { font-size: var(--smaller) }
-th[scope=row]:after {
-  content: counter(table);
-  white-space: nowrap
-}
-tr { position: relative }
-tr:before
-  { content: '' }
-td
-  { z-index: -1 }
-td:first-of-type {
-  border-left: 0.0618em solid;
-}
-thead th
-  { border-bottom: 0.0618em solid }
-tbody{
-  position: relative;
-}
-table * {
-    display: block;
-}
-tbody tr {
-  counter-increment: table
-}
-tfoot th
-  { border-top: 0.0618em solid }
-th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
-  { background: rgba(0,0,0,0.1618); background: yellow }
 
 
 details {
