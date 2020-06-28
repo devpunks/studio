@@ -11,6 +11,7 @@ Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
 Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
 Notation
+  - https://en.wikipedia.org/wiki/Pitch_(music)#Labeling_pitches
   - Helmholtz - https://en.wikipedia.org/wiki/Helmholtz_pitch_notation
 
 Register - https://en.wikipedia.org/wiki/Register_(music)
