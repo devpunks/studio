@@ -197,43 +197,68 @@ nav details[open] > summary::after
 /* Table styling
  *   - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
  */
-ul, ol
-  { list-style-position: inside }
-ul ul, ol ol
-  { display: block }
-ul {}
-ol {}
-li {}
-dl {}
-dt {}
-dd {}
-
-table
-{
+table {
+  height: 100vh;
+  display: block;
   width: inherit;
   max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow-y: scroll;
   table-layout: fixed;
+  counter-reset: table;
   outline-width: 0.4em;
   outline-style: double;
   border-collapse: collapse;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow)
 }
-pre, code, kbd, samp {
-  overflow: auto;
-  border-radius: 0.618em;
+caption {
+  top: 0;
+  z-index: 1;
+  position: sticky
 }
-pre {
-  opacity: 0.618;
-  display: block;
-  display: flex;
+th {
+  /*   opacity: 0.618; */
+  top: 5.118em;
+  position: sticky
 }
-code {}
-pre code {
-  width: 100%;
-  display: inherit;
-  border-radius: 0.218em;
-  border-left: 0.02em solid;
+th {
+  padding: 0.618em;
+  white-space: nowrap;
 }
+th:empty
+  { border: none }
+th[scope=row]
+  { font-size: var(--smaller) }
+th[scope=row]:after {
+  content: counter(table);
+  white-space: nowrap
+}
+tr { position: relative }
+tr:before
+  { content: '' }
+td
+  { z-index: -1 }
+td:first-of-type {
+  border-left: 0.0618em solid;
+}
+thead th
+  { border-bottom: 0.0618em solid }
+tbody{
+  position: relative;
+}
+table * {
+    display: block;
+}
+tbody tr {
+  counter-increment: table
+}
+tfoot th
+  { border-top: 0.0618em solid }
+th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
+  { background: rgba(0,0,0,0.1618); background: yellow }
+
 
 /*
  * cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
