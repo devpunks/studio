@@ -8,6 +8,6 @@ Interval - https://en.wikipedia.org/wiki/Interval_(music)
 
 Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
-Register - 
+Register - https://en.wikipedia.org/wiki/Register_(music)
 
 Root - https://en.wikipedia.org/wiki/Root_(chord)
