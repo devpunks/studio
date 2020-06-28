@@ -2,6 +2,7 @@
 
 Music Engine
 
+Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 Note - 
 
 Interval - https://en.wikipedia.org/wiki/Interval_(music)
