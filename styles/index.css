@@ -194,9 +194,8 @@ nav details > summary::after,
 nav details[open] > summary::after
   { content: none }
 
-/* CSS3 Lists
- * https://drafts.csswg.org/css-lists-3/
- * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
+/* Table styling
+ *   - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
  */
 ul, ol
   { list-style-position: inside }
