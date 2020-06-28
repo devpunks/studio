@@ -4,7 +4,7 @@ Music Engine
 
 Note - 
 
-Interval - 
+Interval - https://en.wikipedia.org/wiki/Interval_(music)
 
 Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
