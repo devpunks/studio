@@ -12,5 +12,6 @@ Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 Register - https://en.wikipedia.org/wiki/Register_(music)
 
 Temperament - https://en.wikipedia.org/wiki/Musical_temperament
+  - Equal - https://en.wikipedia.org/wiki/Equal_temperament
 
 Root - https://en.wikipedia.org/wiki/Root_(chord)
