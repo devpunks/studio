@@ -122,6 +122,41 @@ template /* IE custom elements */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 
+mark {}
+data, var
+  { outline 0.01681em dotted currrentColor }
+pre, code, kbd, samp {
+  overflow: auto;
+  border-radius: 0.618em;
+}
+pre {
+  opacity: 0.618;
+  display: block;
+  display: flex;
+}
+code {}
+pre code {
+  width: 100%;
+  display: inherit;
+  border-radius: 0.218em;
+  border-left: 0.02em solid;
+}
+
+/* CSS3 Lists
+ * https://drafts.csswg.org/css-lists-3/
+ * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
+ */
+ul, ol
+  { list-style-position: inside }
+ul ul, ol ol
+  { display: block }
+ul {}
+ol {}
+li {}
+dl {}
+dt {}
+dd {}
+
 /* http://html5doctor.com/the-details-and-summary-elements/ */
 details { width: 100% }
 summary {
