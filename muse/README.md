@@ -26,4 +26,5 @@ Root - https://en.wikipedia.org/wiki/Root_(chord)
 
 Scales
   - Ionian - https://en.wikipedia.org/wiki/Ionian_mode
+  - Lydian - https://en.wikipedia.org/wiki/Lydian_mode
   - Diatonic - https://en.wikipedia.org/wiki/Diatonic_scale
