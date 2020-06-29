@@ -17,4 +17,5 @@ document.addEventListener
 //  console.log ('Message received from worker')
 //}
 
-worker.postMessage ( [first.value, second.value] )
+//worker.postMessage ( [first.value, second.value] )
+console.log ('loading index.js')
