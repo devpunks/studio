@@ -62,7 +62,7 @@ Temperament - https://en.wikipedia.org/wiki/Musical_temperament
   - Equal - https://en.wikipedia.org/wiki/Equal_temperament
   - Mathematics - https://en.wikipedia.org/wiki/Equal_temperament#Mathematics
 
-Chords
+[Chords](https://en.wikipedia.org/wiki/Chord_(music))
   Root - https://en.wikipedia.org/wiki/Root_(chord)
   Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
     - Double Stop - https://en.wikipedia.org/wiki/Double_stop
