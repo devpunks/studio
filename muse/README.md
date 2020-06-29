@@ -35,6 +35,32 @@ Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
 Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
 Tuning - https://en.wikipedia.org/wiki/Musical_tuning
 
+[Chords](https://en.wikipedia.org/wiki/Chord_(music))
+  Root - https://en.wikipedia.org/wiki/Root_(chord)
+  Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
+    - Double Stop - https://en.wikipedia.org/wiki/Double_stop
+    - Power Chord - https://en.wikipedia.org/wiki/Power_chord
+  Triad - https://en.wikipedia.org/wiki/Triad_(music)
+  Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
+
+Scales _(84 Total transpositions)_
+  [Chromatic](https://en.wikipedia.org/wiki/Chromatic_scale), [Ionian](https://en.wikipedia.org/wiki/Ionian_mode), [Lydian](https://en.wikipedia.org/wiki/Lydian_mode), [Aeolian](https://en.wikipedia.org/wiki/Aeolian_mode), [Locrian](https://en.wikipedia.org/wiki/Locrian_mode), [Diatonic](https://en.wikipedia.org/wiki/Diatonic_scale), [Mixolydian](https://en.wikipedia.org/wiki/Mixolydian_mode)
+
+  - Major Scale - https://en.wikipedia.org/wiki/Major_scale
+  - Minor Scale - https://en.wikipedia.org/wiki/Minor_scale
+  - Do, Re, Me - https://en.wikipedia.org/wiki/Solfege
+  - Degree - https://en.wikipedia.org/wiki/Degree_(music)
+    - [1st – Tonic (key note)](https://en.wikipedia.org/wiki/Tonic_(music))
+    - [2nd – Supertonic](https://en.wikipedia.org/wiki/Supertonic)
+    - [3rd – Mediant](https://en.wikipedia.org/wiki/Mediant)
+    - [4th – Subdominant](https://en.wikipedia.org/wiki/Subdominant)
+    - [5th – Dominant](https://en.wikipedia.org/wiki/Dominant_(music))
+    - [6th – Submediant](https://en.wikipedia.org/wiki/Submediant)
+    - [7th – Leading tone](https://en.wikipedia.org/wiki/Leading-tone)
+    - [8th – Tonic _(Octave)_](https://en.wikipedia.org/wiki/Tonic_(music))
+
+Modes - https://en.wikipedia.org/wiki/Mode_(music)
+
 Phrase - https://en.wikipedia.org/wiki/Phrase_(music)
 Part - https://en.wikipedia.org/wiki/Part_(music)
 Section - https://en.wikipedia.org/wiki/Section_(music)
