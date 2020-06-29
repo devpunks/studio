@@ -23,3 +23,6 @@ Temperament - https://en.wikipedia.org/wiki/Musical_temperament
   - Mathematics - https://en.wikipedia.org/wiki/Equal_temperament#Mathematics
 
 Root - https://en.wikipedia.org/wiki/Root_(chord)
+
+Scales
+  - Diatonic - https://en.wikipedia.org/wiki/Diatonic_scale
