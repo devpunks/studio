@@ -7,6 +7,7 @@ Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_sign
   - Metre - https://en.wikipedia.org/wiki/Metre_(music)
   - Duration - https://en.wikipedia.org/wiki/Duration_(music)
   - Tuplet - https://en.wikipedia.org/wiki/Tuplet
+    - Triplet, Quadruplet, Quintuplet
 
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
