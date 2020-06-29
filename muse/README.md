@@ -6,6 +6,8 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
 Note - 
 
+Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
+
 Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
 Semitone - https://en.wikipedia.org/wiki/Semitone
 
