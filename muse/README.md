@@ -16,6 +16,13 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
 Note - 
 
+Phrase - https://en.wikipedia.org/wiki/Phrase_(music)
+Part - https://en.wikipedia.org/wiki/Part_(music)
+Section - https://en.wikipedia.org/wiki/Section_(music)
+Motif - https://en.wikipedia.org/wiki/Motif_(music)
+Types of sections include the introduction or intro, exposition, development, recapitulation, verse, chorus or refrain, conclusion, coda or outro, fadeout, bridge or interlude.
+Composition - https://en.wikipedia.org/wiki/Musical_composition
+
 Set Theory - https://en.wikipedia.org/wiki/Set_theory_(music)
 Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
 Inversion - https://en.wikipedia.org/wiki/Inversion_(music)
