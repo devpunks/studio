@@ -3,8 +3,6 @@
 Music Engine
 
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
-  - Degree - https://en.wikipedia.org/wiki/Degree_(music)
-  - Do, Re, Me - https://en.wikipedia.org/wiki/Solfege
 
 Note - 
 
