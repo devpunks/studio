@@ -21,6 +21,7 @@ Note -
 
 Set Theory - https://en.wikipedia.org/wiki/Set_theory_(music)
 Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
+Inversion - https://en.wikipedia.org/wiki/Inversion_(music)
 
 Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
 Semitone - https://en.wikipedia.org/wiki/Semitone
