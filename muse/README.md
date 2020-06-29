@@ -21,6 +21,7 @@ Semitone - https://en.wikipedia.org/wiki/Semitone
 Interval - https://en.wikipedia.org/wiki/Interval_(music)
 
 Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
+Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
 Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
 [Notation _(Musical Symbols_](https://en.wikipedia.org/wiki/List_of_musical_symbols)
