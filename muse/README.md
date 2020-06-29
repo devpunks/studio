@@ -5,6 +5,8 @@ Music Engine
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 Note - 
 
+Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
+
 Interval - https://en.wikipedia.org/wiki/Interval_(music)
 
 Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
