@@ -19,6 +19,16 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 Note - 
   - A440 - https://en.wikipedia.org/wiki/A440_(pitch_standard)
 
+Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
+Semitone - https://en.wikipedia.org/wiki/Semitone
+Cent - https://en.wikipedia.org/wiki/Cent_(music)
+
+Interval - https://en.wikipedia.org/wiki/Interval_(music)
+  - Ratio - https://en.wikipedia.org/wiki/Interval_ratio
+
+Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
+Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
+
 Phrase - https://en.wikipedia.org/wiki/Phrase_(music)
 Part - https://en.wikipedia.org/wiki/Part_(music)
 Section - https://en.wikipedia.org/wiki/Section_(music)
