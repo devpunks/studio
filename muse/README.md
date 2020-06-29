@@ -34,6 +34,7 @@ Chords
   Root - https://en.wikipedia.org/wiki/Root_(chord)
   Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
     - Double Stop - https://en.wikipedia.org/wiki/Double_stop
+    - Power Chord - https://en.wikipedia.org/wiki/Power_chord
   Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
 
 
