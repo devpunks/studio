@@ -18,6 +18,7 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
 Note - 
   - A440 - https://en.wikipedia.org/wiki/A440_(pitch_standard)
+  - Middle C - https://en.wikipedia.org/wiki/C_(musical_note)#Middle_C
 
 Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
 Semitone - https://en.wikipedia.org/wiki/Semitone
