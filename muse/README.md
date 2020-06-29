@@ -28,5 +28,6 @@ Scales
   - Ionian - https://en.wikipedia.org/wiki/Ionian_mode
   - Lydian - https://en.wikipedia.org/wiki/Lydian_mode
   - Aeolian - https://en.wikipedia.org/wiki/Aeolian_mode
+  - Locrian - https://en.wikipedia.org/wiki/Locrian_mode
   - Diatonic - https://en.wikipedia.org/wiki/Diatonic_scale
   - Mixolydian - https://en.wikipedia.org/wiki/Mixolydian_mode
