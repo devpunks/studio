@@ -10,6 +10,7 @@ Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_sign
     - Triplet, Quadruplet, Quintuplet
 
 Fundamental Frequency - https://en.wikipedia.org/wiki/Fundamental_frequency
+  - Octave - https://en.wikipedia.org/wiki/Octave
   - Piano Keys - https://en.wikipedia.org/wiki/Piano_key_frequencies
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
   - Relative Pitch - https://en.wikipedia.org/wiki/Relative_pitch
