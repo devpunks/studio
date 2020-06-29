@@ -12,6 +12,8 @@ Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_sign
 Section - https://en.wikipedia.org/wiki/Section_(music)
 Types of sections include the introduction or intro, exposition, development, recapitulation, verse, chorus or refrain, conclusion, coda or outro, fadeout, bridge or interlude.
 
+Fundamental Frequency - https://en.wikipedia.org/wiki/Fundamental_frequency
+  - Piano Keys - https://en.wikipedia.org/wiki/Piano_key_frequencies
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
   - Pitch Space - https://en.wikipedia.org/wiki/Pitch_space
 
