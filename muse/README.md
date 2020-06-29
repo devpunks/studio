@@ -32,6 +32,7 @@ Temperament - https://en.wikipedia.org/wiki/Musical_temperament
 
 Chords
   Root - https://en.wikipedia.org/wiki/Root_(chord)
+  Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
   Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
 
 
