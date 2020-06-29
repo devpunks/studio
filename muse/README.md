@@ -17,7 +17,7 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
   - Pitch Detection Algorithm - https://en.wikipedia.org/wiki/Pitch_detection_algorithm
   - Pitch Space - https://en.wikipedia.org/wiki/Pitch_space
 
-Note - 
+[Note](https://en.wikipedia.org/wiki/Musical_note)
   - A440 - https://en.wikipedia.org/wiki/A440_(pitch_standard)
   - Middle C - https://en.wikipedia.org/wiki/C_(musical_note)#Middle_C
 
