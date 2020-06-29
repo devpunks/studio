@@ -14,6 +14,7 @@ Types of sections include the introduction or intro, exposition, development, re
 
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
+Fundamental Frequency - https://en.wikipedia.org/wiki/Fundamental_frequency
 Note - 
 
 Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
