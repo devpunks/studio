@@ -6,6 +6,7 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 Note - 
 
 Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
+Semitone - https://en.wikipedia.org/wiki/Semitone
 
 Interval - https://en.wikipedia.org/wiki/Interval_(music)
 
