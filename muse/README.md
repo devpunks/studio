@@ -35,6 +35,7 @@ Chords
   Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
     - Double Stop - https://en.wikipedia.org/wiki/Double_stop
     - Power Chord - https://en.wikipedia.org/wiki/Power_chord
+  Triad - https://en.wikipedia.org/wiki/Triad_(music)
   Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
 
 
