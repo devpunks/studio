@@ -9,6 +9,8 @@ Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_sign
   - Tuplet - https://en.wikipedia.org/wiki/Tuplet
     - Triplet, Quadruplet, Quintuplet
 
+Section - https://en.wikipedia.org/wiki/Section_(music)
+
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
 Note - 
