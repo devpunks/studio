@@ -19,6 +19,7 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
 Note - 
 
+Set Theory - https://en.wikipedia.org/wiki/Set_theory_(music)
 Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
 
 Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
