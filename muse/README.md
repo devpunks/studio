@@ -31,7 +31,8 @@ Root - https://en.wikipedia.org/wiki/Root_(chord)
 Scales _(84 Total transpositions)_
   [Ionian](https://en.wikipedia.org/wiki/Ionian_mode), [Lydian](https://en.wikipedia.org/wiki/Lydian_mode), [Aeolian](https://en.wikipedia.org/wiki/Aeolian_mode), [Locrian](https://en.wikipedia.org/wiki/Locrian_mode), [Diatonic](https://en.wikipedia.org/wiki/Diatonic_scale), [Mixolydian](https://en.wikipedia.org/wiki/Mixolydian_mode)
 
-  - Major Scales  https://en.wikipedia.org/wiki/Major_scale
+  - Major Scale - https://en.wikipedia.org/wiki/Major_scale
+  - Minor Scale - https://en.wikipedia.org/wiki/Minor_scale
   - Do, Re, Me - https://en.wikipedia.org/wiki/Solfege
   - Degree - https://en.wikipedia.org/wiki/Degree_(music)
     - [1st – Tonic (key note)](https://en.wikipedia.org/wiki/Tonic_(music))
