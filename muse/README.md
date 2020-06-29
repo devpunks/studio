@@ -5,6 +5,7 @@ Music Engine
 Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_signatures
   - Tempo - https://en.wikipedia.org/wiki/Tempo
   - Metre - https://en.wikipedia.org/wiki/Metre_(music)
+  - Duration - https://en.wikipedia.org/wiki/Duration_(music)
 
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
