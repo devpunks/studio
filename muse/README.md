@@ -17,7 +17,6 @@ Fundamental Frequency - https://en.wikipedia.org/wiki/Fundamental_frequency
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
   - Pitch Space - https://en.wikipedia.org/wiki/Pitch_space
 
-Fundamental Frequency - https://en.wikipedia.org/wiki/Fundamental_frequency
 Note - 
 
 Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
