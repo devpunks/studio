@@ -3,6 +3,8 @@
 Music Engine
 
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
+  - Do, Re, Me - https://en.wikipedia.org/wiki/Solfege
+
 Note - 
 
 Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
