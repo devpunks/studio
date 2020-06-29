@@ -80,3 +80,5 @@ Scales _(84 Total transpositions)_
     - [8th – Tonic _(Octave)_](https://en.wikipedia.org/wiki/Tonic_(music))
 
 Modes - https://en.wikipedia.org/wiki/Mode_(music)
+
+![Pitch Ranges](https://upload.wikimedia.org/wikipedia/en/timeline/cb6a744603d77f16f62b47dd660569ca.png)
