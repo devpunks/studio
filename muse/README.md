@@ -42,6 +42,7 @@ Harmony - https://en.wikipedia.org/wiki/Harmony
   Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
     - Double Stop - https://en.wikipedia.org/wiki/Double_stop
     - Power Chord - https://en.wikipedia.org/wiki/Power_chord
+      - https://www.youtube.com/watch?v=dbhF2wnnT7M
   Triad - https://en.wikipedia.org/wiki/Triad_(music)
   Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
   Major - https://en.wikipedia.org/wiki/Major_chord
