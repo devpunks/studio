@@ -14,6 +14,7 @@ Notation
   - https://en.wikipedia.org/wiki/Pitch_(music)#Labeling_pitches
   - Helmholtz - https://en.wikipedia.org/wiki/Helmholtz_pitch_notation
   - ABC Notation - https://en.wikipedia.org/wiki/ABC_notation
+  - Tab(lature)s - https://en.wikipedia.org/wiki/Tablature
 
 Register - https://en.wikipedia.org/wiki/Register_(music)
 
