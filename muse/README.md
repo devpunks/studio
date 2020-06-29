@@ -28,7 +28,10 @@ Temperament - https://en.wikipedia.org/wiki/Musical_temperament
   - Equal - https://en.wikipedia.org/wiki/Equal_temperament
   - Mathematics - https://en.wikipedia.org/wiki/Equal_temperament#Mathematics
 
-Root - https://en.wikipedia.org/wiki/Root_(chord)
+Chords
+  Root - https://en.wikipedia.org/wiki/Root_(chord)
+  Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
+
 
 Scales _(84 Total transpositions)_
   [Ionian](https://en.wikipedia.org/wiki/Ionian_mode), [Lydian](https://en.wikipedia.org/wiki/Lydian_mode), [Aeolian](https://en.wikipedia.org/wiki/Aeolian_mode), [Locrian](https://en.wikipedia.org/wiki/Locrian_mode), [Diatonic](https://en.wikipedia.org/wiki/Diatonic_scale), [Mixolydian](https://en.wikipedia.org/wiki/Mixolydian_mode)
