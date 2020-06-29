@@ -31,5 +31,13 @@ Root - https://en.wikipedia.org/wiki/Root_(chord)
 Scales _(84 Total transpositions)_
   [Ionian](https://en.wikipedia.org/wiki/Ionian_mode), [Lydian](https://en.wikipedia.org/wiki/Lydian_mode), [Aeolian](https://en.wikipedia.org/wiki/Aeolian_mode), [Locrian](https://en.wikipedia.org/wiki/Locrian_mode), [Diatonic](https://en.wikipedia.org/wiki/Diatonic_scale), [Mixolydian](https://en.wikipedia.org/wiki/Mixolydian_mode)
 
-  - Degree - https://en.wikipedia.org/wiki/Degree_(music)
   - Do, Re, Me - https://en.wikipedia.org/wiki/Solfege
+  - Degree - https://en.wikipedia.org/wiki/Degree_(music)
+    - [1st – Tonic (key note)](https://en.wikipedia.org/wiki/Tonic_(music))
+    - [2nd – Supertonic](https://en.wikipedia.org/wiki/Supertonic)
+    - [3rd – Mediant](https://en.wikipedia.org/wiki/Mediant)
+    - [4th – Subdominant](https://en.wikipedia.org/wiki/Subdominant)
+    - [5th – Dominant](https://en.wikipedia.org/wiki/Dominant_(music))
+    - [6th – Submediant](https://en.wikipedia.org/wiki/Submediant)
+    - [7th – Leading tone](https://en.wikipedia.org/wiki/Leading-tone)
+    - [8th – Tonic _(Octave)_](https://en.wikipedia.org/wiki/Tonic_(music))
