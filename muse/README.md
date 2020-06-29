@@ -45,7 +45,7 @@ Harmony - https://en.wikipedia.org/wiki/Harmony
   Triad - https://en.wikipedia.org/wiki/Triad_(music)
   Tetrachord - https://en.wikipedia.org/wiki/Tetrachord
 
-Scales _(84 Total transpositions)_
+[Scales _(84 Total transpositions)_](https://en.wikipedia.org/wiki/Scale_(music))
   [Chromatic](https://en.wikipedia.org/wiki/Chromatic_scale), [Ionian](https://en.wikipedia.org/wiki/Ionian_mode), [Lydian](https://en.wikipedia.org/wiki/Lydian_mode), [Aeolian](https://en.wikipedia.org/wiki/Aeolian_mode), [Locrian](https://en.wikipedia.org/wiki/Locrian_mode), [Diatonic](https://en.wikipedia.org/wiki/Diatonic_scale), [Mixolydian](https://en.wikipedia.org/wiki/Mixolydian_mode)
 
   - Major Scale - https://en.wikipedia.org/wiki/Major_scale
