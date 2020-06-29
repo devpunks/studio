@@ -17,6 +17,7 @@ Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
   - Pitch Space - https://en.wikipedia.org/wiki/Pitch_space
 
 Note - 
+  - A440 - https://en.wikipedia.org/wiki/A440_(pitch_standard)
 
 Phrase - https://en.wikipedia.org/wiki/Phrase_(music)
 Part - https://en.wikipedia.org/wiki/Part_(music)
