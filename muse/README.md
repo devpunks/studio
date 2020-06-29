@@ -27,7 +27,8 @@ Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
 Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
 Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
-[Notation _(Musical Symbols_](https://en.wikipedia.org/wiki/List_of_musical_symbols)
+[Notation](https://en.wikipedia.org/wiki/Musical_notation)
+  - [_(Musical Symbols_](https://en.wikipedia.org/wiki/List_of_musical_symbols)
   - https://en.wikipedia.org/wiki/Pitch_(music)#Labeling_pitches
   - Helmholtz - https://en.wikipedia.org/wiki/Helmholtz_pitch_notation
   - ABC Notation - https://en.wikipedia.org/wiki/ABC_notation
