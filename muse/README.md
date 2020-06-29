@@ -33,6 +33,7 @@ Interval - https://en.wikipedia.org/wiki/Interval_(music)
 
 Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
 Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
+Tuning - https://en.wikipedia.org/wiki/Musical_tuning
 
 Phrase - https://en.wikipedia.org/wiki/Phrase_(music)
 Part - https://en.wikipedia.org/wiki/Part_(music)
