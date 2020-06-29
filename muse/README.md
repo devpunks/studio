@@ -9,6 +9,7 @@ Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_sign
   - Tuplet - https://en.wikipedia.org/wiki/Tuplet
     - Triplet, Quadruplet, Quintuplet
 
+Phrase - https://en.wikipedia.org/wiki/Phrase_(music)
 Part - https://en.wikipedia.org/wiki/Part_(music)
 Section - https://en.wikipedia.org/wiki/Section_(music)
 Types of sections include the introduction or intro, exposition, development, recapitulation, verse, chorus or refrain, conclusion, coda or outro, fadeout, bridge or interlude.
