@@ -35,6 +35,7 @@ Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
 Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
 Tuning - https://en.wikipedia.org/wiki/Musical_tuning
 
+Harmony - https://en.wikipedia.org/wiki/Harmony
 [Chords](https://en.wikipedia.org/wiki/Chord_(music))
   Root - https://en.wikipedia.org/wiki/Root_(chord)
   Dyad - https://en.wikipedia.org/wiki/Dyad_(music)
