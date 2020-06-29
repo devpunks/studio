@@ -29,6 +29,7 @@ Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
 [Notation](https://en.wikipedia.org/wiki/Musical_notation)
   - [Musical Symbols](https://en.wikipedia.org/wiki/List_of_musical_symbols)
+  - Scientific Pitch - https://en.wikipedia.org/wiki/Scientific_pitch_notation
   - https://en.wikipedia.org/wiki/Pitch_(music)#Labeling_pitches
   - Helmholtz - https://en.wikipedia.org/wiki/Helmholtz_pitch_notation
   - ABC Notation - https://en.wikipedia.org/wiki/ABC_notation
