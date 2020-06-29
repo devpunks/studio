@@ -40,14 +40,6 @@ Set Theory - https://en.wikipedia.org/wiki/Set_theory_(music)
 Transposition - https://en.wikipedia.org/wiki/Transposition_(music)
 Inversion - https://en.wikipedia.org/wiki/Inversion_(music)
 
-Whole Tone - https://en.wikipedia.org/wiki/Whole_tone
-Semitone - https://en.wikipedia.org/wiki/Semitone
-
-Interval - https://en.wikipedia.org/wiki/Interval_(music)
-  - Ratio - https://en.wikipedia.org/wiki/Interval_ratio
-
-Intonation - https://en.wikipedia.org/wiki/Intonation_(music)
-Articulation - https://en.wikipedia.org/wiki/Articulation_(music)
 Instrumentation - https://en.wikipedia.org/wiki/Instrumentation_(music)
 
 [Notation](https://en.wikipedia.org/wiki/Musical_notation)
