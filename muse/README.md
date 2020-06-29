@@ -2,6 +2,8 @@
 
 Music Engine
 
+Time Signature - https://en.wikipedia.org/wiki/List_of_musical_symbols#Time_signatures
+
 Pitch - https://en.wikipedia.org/wiki/Pitch_(music)
 
 Note - 
