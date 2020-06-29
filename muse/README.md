@@ -25,4 +25,5 @@ Temperament - https://en.wikipedia.org/wiki/Musical_temperament
 Root - https://en.wikipedia.org/wiki/Root_(chord)
 
 Scales
+  - Ionian - https://en.wikipedia.org/wiki/Ionian_mode
   - Diatonic - https://en.wikipedia.org/wiki/Diatonic_scale
