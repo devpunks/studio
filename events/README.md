@@ -10,7 +10,8 @@
 
 ## Plots
 
-  - _"Technical Rider"_
+  - [Riders](https://en.wikipedia.org/wiki/Rider_(theater))
+    - _"Technical Rider"_
   - [Stage Plots, Input Lists & Tech Advance How-To for Bands](https://www.youtube.com/watch?v=0LhH3AUl5Rs)
   - [Stage Plot & Input List Documents](https://www.youtube.com/watch?v=txOoZ-ycsCs)
 
