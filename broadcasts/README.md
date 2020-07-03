@@ -2,6 +2,8 @@
 
 Has many _**Streams**_.
 
+Live Stream tips _(OBS Setup)_ - https://www.youtube.com/watch?v=R35IgX30xlc
+
 
 ## References
 
