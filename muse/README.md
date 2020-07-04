@@ -63,6 +63,7 @@ Harmony - https://en.wikipedia.org/wiki/Harmony
     - [6th – Submediant](https://en.wikipedia.org/wiki/Submediant)
     - [7th – Leading tone](https://en.wikipedia.org/wiki/Leading-tone)
     - [8th – Tonic _(Octave)_](https://en.wikipedia.org/wiki/Tonic_(music))
+  - Scott's Bass Lessons - https://www.youtube.com/watch?v=QEN3W1Q21-k
 
 Modes - https://en.wikipedia.org/wiki/Mode_(music)
 
