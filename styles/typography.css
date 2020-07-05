@@ -211,15 +211,16 @@ ul ul, ol ol, dl dl {
   font-weight: normal;
   font-size: var(--smaller)
 }
-ul, ol, dt
-  { font-weight: bolder }
 nav ol, nav ul
   { list-style: none }
 li, dd {
   margin: var(--font-size) 0 var(--font-size) 1.618em;
 }
-dt { margin-top: 1.618em }
-dd { }
+dt {
+  font-weight: bolder;
+  margin-top: 1.618em
+}
+dd, li li { font-size: var(--smaller) }
 
 abbr[title] {
   border-bottom: 0;
@@ -239,7 +240,6 @@ del, s {
 h1, h2, h3, h4, h5, h6, header {
   font-weight: bold;
   margin: var(--margin);
-
   text-shadow: 0.05em 0.05em 0.2em var(--shadow)
 }
 h1 {
@@ -248,7 +248,7 @@ h1 {
 }
 
 header {
-  font-size: var(--largest);
+  font-size: var(--larger);
   text-transform: uppercase
 }
 header *
