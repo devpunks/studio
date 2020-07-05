@@ -211,8 +211,11 @@ ul ul, ol ol, dl dl {
   font-weight: normal;
   font-size: var(--smaller)
 }
-nav ol, nav ul
-  { list-style: none }
+nav ol, nav ul {
+  font-size: 1em;
+  list-style: none;
+  margin-bottom: 0;
+}
 li, dd {
   margin: var(--font-size) 0 var(--font-size) 1.618em;
 }
