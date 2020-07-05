@@ -169,7 +169,6 @@ details:hover > summary, details:focus-within > summary
   { opacity: 1.0 }
 summary::before,
 summary::after {
-  background: red;
   width: 1em;
   height: 1em;
   font-size: 1em;
