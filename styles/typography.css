@@ -372,7 +372,7 @@ details {
 summary {
   text-align: start;
   font-weight: bolder;
-  font-size: var(--largest);
+  font-size: var(--larger);
   padding-bottom: 0.618em;
   padding-left: 1.618em;
   margin-left: -1.618em; /* compensate for <details> padding */
