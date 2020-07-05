@@ -165,7 +165,7 @@ body > aside
 body > footer { }
 
 nav
-  { font-size: var(--larger) }
+  { margin-bottom: 1.618em }
 
 
 /* hyperlinks */
