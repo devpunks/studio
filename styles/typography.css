@@ -373,6 +373,8 @@ details {
   margin: var(--margin);
   text-align: var(--text-align)
 }
+body > header details
+  { padding-left: 0 }
 summary {
   text-align: start;
   font-weight: bolder;
