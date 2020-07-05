@@ -228,8 +228,12 @@ dt {
   margin-top: 1.618em
 }
 dd, li li { font-size: var(--smaller) }
-
-nav dd, nav li li { font-size: 1em }
+dt + dd, li li:first-of-type
+  { margin-top: 1em }
+nav dd, nav li li
+  { font-size: 1em }
+nav dt + dd, nav li li:first-of-type
+  { margin-top: 0 }
 abbr[title] {
   border-bottom: 0;
   text-decoration-skip-ink: none;
