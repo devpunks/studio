@@ -217,9 +217,8 @@ nav ol, nav ul {
   margin-bottom: 0;
   margin-left: 1.618em;
 }
-li, dd {
-  margin: 0 0 var(--font-size) 0;
-}
+li, dd
+  { margin: 0 0 1em 1em }
 nav li, nav li {
   margin: 0;
   padding-bottom: 0
