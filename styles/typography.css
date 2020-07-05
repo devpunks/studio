@@ -240,7 +240,6 @@ h1, h2, h3, h4, h5, h6, header {
   font-weight: bold;
   margin: var(--margin);
 
-  text-transform: uppercase;
   text-shadow: 0.05em 0.05em 0.2em var(--shadow)
 }
 
