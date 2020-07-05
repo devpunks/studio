@@ -369,6 +369,9 @@ summary {
   padding-left: 1.618em;
   margin-left: -1.618em; /* compensate for <details> padding */
 }
+details > dl, details > dd,
+details > ol li, details > ul li
+  { margin-left: 0 }
 nav details, nav summary
   { margin: unset }
 
