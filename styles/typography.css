@@ -217,7 +217,11 @@ nav ol, nav ul {
   margin-bottom: 0;
 }
 li, dd {
-  margin: var(--font-size) 0 var(--font-size) 1.618em;
+  margin: 0 0 var(--font-size) 0;
+}
+nav li, nav li {
+  margin: 0;
+  padding-bottom: 0
 }
 dt {
   font-weight: bolder;
