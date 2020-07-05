@@ -18,6 +18,11 @@
   }
 
 @media print {
+  html {
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/color-adjust */
+    color-adjust: economy;
+    -webkit-print-color-adjust: economy;
+  }
   body * {
     columns: var(--columns)
   }
