@@ -374,8 +374,7 @@ summary {
   font-weight: bolder;
   font-size: var(--larger);
   padding-bottom: 0.618em;
-  padding-left: 1.618em;
-  margin-left: -1.618em; /* compensate for <details> padding */
+  margin-left: -1.618em /* compensate for <details> padding */;
 }
 details > dl, details > dd,
 details > ol li, details > ul li
