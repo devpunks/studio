@@ -229,6 +229,7 @@ dt {
 }
 dd, li li { font-size: var(--smaller) }
 
+nav dd, nav li li { font-size: 1em }
 abbr[title] {
   border-bottom: 0;
   text-decoration-skip-ink: none;
