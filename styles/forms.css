@@ -403,6 +403,7 @@ input:disabled:focus, select:disabled:focus, button:disabled:focus
  {
   opacity: 30%;
   cursor: not-allowed;
+  text-decoration: line-through;
 }
 :default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
