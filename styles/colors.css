@@ -39,6 +39,28 @@
   --a\:hover:         rgba(231,47,188,1.0)
 }
 
+/* Changing color schemes (Dark / Light Mode)
+ *   Apple     - https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/
+ *   Android   - https://www.theverge.com/2019/5/7/18530599/google-android-q-features-hands-on-dark-mode-gestures-accessibility-io-2019
+ *   Microsoft - https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/
+ *
+ * prefers-color-scheme
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+ *   - https://css-tricks.com/dark-modes-with-css/
+ */
+@media screen and (prefers-color-scheme: light) { }
+@media screen and (prefers-color-scheme: dark)  { }
+
+/* prefers-contrast (-ms-high-contrast)
+     - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
+
+*/
+@media screen and (prefers-contrast: high) { }
+@media screen and (prefers-contrast: low)  { }
+@media screen and (-ms-high-contrast: active) { }
+@media screen and (-ms-high-contrast: black-on-white) { }
+@media screen and (-ms-high-contrast: white-on-black) { }
+
 /* ----------------------------------------------------- */
 
 /*
