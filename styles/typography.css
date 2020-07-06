@@ -261,7 +261,11 @@ abbr[title] {
 
 del, s {
   opacity: 0.5;
-  text-decoration: line-through
+  text-decoration: line-through;
+  text-decoration-style: wavy
+}
+del {
+  text-decoration-color: ActiveText
 }
 
 /**
