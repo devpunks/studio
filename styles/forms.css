@@ -356,7 +356,7 @@ dialog {
 dialog:not([open])
   { display: none }
 
-button, [type=button], [type=submit], [type=reset]
+button, [type=button], [type=submit], [type=reset], [role=button]
 {
   opacity: 70%;
   cursor: pointer;
