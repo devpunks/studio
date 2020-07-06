@@ -34,7 +34,7 @@
 
   --font-size: 4vw;
 
-  --column-count: 1;
+  --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
 
   --text-align: center;
 
