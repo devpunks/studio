@@ -399,6 +399,7 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 :enabled {}
 input:disabled, select:disabled, button:disabled {
   opacity: 30%;
+  text-decoration: line-through;
   cursor: not-allowed;
 }
 :default
