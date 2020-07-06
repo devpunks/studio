@@ -313,7 +313,6 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   box-sizing: content-box
 }
 
-hr { overflow: visible }
 svg {
   /* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
   overflow: hidden
