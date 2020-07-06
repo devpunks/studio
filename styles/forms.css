@@ -368,6 +368,8 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   line-height: 1.612em;
 
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
+  border: 0.0168em solid currentColor;
+  box-shadow: .08em .08em 0 currentColor;
   -webkit-appearance: button;
   appearance:         button
 }
