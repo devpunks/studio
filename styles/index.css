@@ -217,7 +217,8 @@ table {
 caption {
   top: 0;
   z-index: 1;
-  position: sticky
+  position: sticky;
+  caption-side: top
 }
 th {
   /*   opacity: 0.618; */
