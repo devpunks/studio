@@ -21,7 +21,7 @@ a[href^=tel]::before
 a[href^=sms]::before
   { content: '💬' }
 
-a[href*=maps.apple.com]::before
+a[href*='maps.apple.com']::before
   { content: '🌎' }
 
 a[href*=twitter]::before
