@@ -3,13 +3,19 @@
   - URL Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
-a[href*='phobos.apple.com']:before,
-a[href*='maps.apple.com']:before,
-a[href^=mailto]:before,
-a[href^=tel]:before,
-a[href^=sms]:before {
-  width: 1.618em;
-  display: inline-block
+a[rel=tag]::before,
+a[href*='phobos.apple.com']::before,
+a[href*='maps.apple.com']::before,
+a[href^=mailto]::before,
+a[href^=tel]::before,
+a[href^=sms]::before
+  { width: 1.618em }
+
+a[rel=tag]::before {
+  padding: 0;
+  content: '#';
+  width: .618em;
+  font-size: 1.28em
 }
 
 a[href^=mailto]::before
