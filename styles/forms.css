@@ -374,8 +374,6 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   appearance:         button;
   border: 0.0168em solid currentColor;
   box-shadow: .08em .08em 0 currentColor;
-  -webkit-appearance: button;
-  appearance:         button
 }
 
 
