@@ -50,7 +50,7 @@
   { background-color: currentColor }
 ::-moz-selection {
   color: HighlightText;
-  background: Highlight;
+  background: Highlight
 }
 ::-moz-selection {
   color: HighlightText;
