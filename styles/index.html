@@ -1008,6 +1008,13 @@ class Shape {
 
       <footer id=buttons>
         <fieldset>
+          <legend>ARIA Button Role</legend>
+
+          <span role=button tabindex=0 aria-pressed=false>&lt;[role=button]&gt;</span>
+          <span role=button aria-enabled=false tabindex=0 aria-pressed=false>&lt;[role=button disabled]&gt;</span>
+        </fieldset>
+
+        <fieldset>
           <legend>Input buttons</legend>
 
           <input type=button title=Button value='<input type=button>'>
