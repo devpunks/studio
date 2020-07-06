@@ -129,6 +129,7 @@ data, var
 pre, code, kbd, samp {
   overflow: auto;
   border-radius: 0.618em;
+  -ms-overflow-style: scrollbar;
 }
 pre {
   opacity: 0.618;
