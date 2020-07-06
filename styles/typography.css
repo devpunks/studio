@@ -288,6 +288,14 @@ header {
 }
 header *
   { text-transform: initial }
+em {
+  /* text-emphasis-style, text-emphasis-color */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
+  text-emphasis: 'x';
+  -webkit-text-emphasis: 'x';
+  text-emphasis: filled currentColor;
+  -webkit-text-emphasis: filled currentColor;
+}
 b, strong
   { font-weight: bolder }
 p
