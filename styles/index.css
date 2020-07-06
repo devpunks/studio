@@ -52,9 +52,9 @@
   color: HighlightText;
   background: Highlight
 }
-::-moz-selection {
+::selection {
   color: HighlightText;
-  background: Highlight;
+  background: Highlight
 }
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
   padding:      0;
