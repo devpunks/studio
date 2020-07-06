@@ -136,7 +136,7 @@ pre {
   display: block;
   display: flex;
 }
-code {}
+code { }
 pre code {
   width: 100%;
   display: inherit;
