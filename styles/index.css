@@ -304,6 +304,14 @@ iframe {
   background: Canvas
 }
 
+hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
+  border: 0;
+  height: .15em;
+  opacity: 0.25;
+  max-width: 80vw;
+  overflow: visible;
+  box-sizing: content-box
+}
 
 hr { overflow: visible }
 svg {
