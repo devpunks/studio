@@ -198,6 +198,12 @@ a:hover {
   -webkit-text-decoration-color: ActiveText;
   text-decoration-color: ActiveText;
 }
+a::before {
+  padding: 0 .3em;
+  margin: 0 0.168em;
+  display: inline-block;
+  text-decoration: none;
+}
 
 a.logo {
   font-size: 2em;
