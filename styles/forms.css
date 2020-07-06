@@ -399,9 +399,9 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 }
 
 :enabled {}
-input:disabled, select:disabled, button:disabled,
-input:disabled:hover, select:disabled:hover, button:disabled:hover,
-input:disabled:focus, select:disabled:focus, button:disabled:focus
+input:disabled, select:disabled, button:disabled, [aria-enabled=false],
+input:disabled:hover, select:disabled:hover, button:disabled:hover, [aria-enabled=false]:hover,
+input:disabled:focus, select:disabled:focus, button:disabled:focus, [aria-enabled=false]:focus
  {
   opacity: 30%;
   cursor: not-allowed;
