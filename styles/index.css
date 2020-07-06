@@ -9,7 +9,11 @@
 
 
 /*
-  @media resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
+
+  !important INSPIRATION - https://github.com/twbs/bootstrap/issues/22815
+
+  @media
+    - resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
   @viewport
     - screen - https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
     - concepts - https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts
