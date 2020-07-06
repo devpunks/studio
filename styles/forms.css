@@ -397,7 +397,10 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 }
 
 :enabled {}
-input:disabled, select:disabled, button:disabled {
+input:disabled, select:disabled, button:disabled,
+input:disabled:hover, select:disabled:hover, button:disabled:hover,
+input:disabled:focus, select:disabled:focus, button:disabled:focus
+ {
   opacity: 30%;
   text-decoration: line-through;
   cursor: not-allowed;
