@@ -375,10 +375,10 @@ button, [type=button], [type=submit], [type=reset], [role=button]
 }
 
 
-button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover,
-button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus
-{
-  opacity: 100%;
+button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover, [role=button]:hover,
+button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
+  { opacity: 100% }
+button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus {
   /* transparent `button` background results in a loss of the default `button` focus styles */
   outline: 0.2em currentColor;
   outline: 0.2em auto -webkit-focus-ring-color
