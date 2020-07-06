@@ -69,14 +69,15 @@
     'Noto Color Emoji';  /* Linux emoji */
 
   --font-family-mono:
-    menlo,               /* macOS 10.10+ */
-    consolas,            /* Windows 6+ */
-    'Roboto Mono',       /* Android 4+ */
-    'Ubuntu Monospace',  /* Ubuntu 10.10+ */
-    'Noto Mono',         /* KDE Plasma 5+ */
-    'Oxygen Mono',       /* KDE Plasma 4+ */
-    'Liberation Mono',   /* Linux/OpenOffice fallback */
-    monospace;           /* fallback */
+    menlo, sfmono-regular,
+    menlo, monaco, consolas, /* macOS 10.10+ */
+    consolas,                /* Windows 6+ */
+    'Roboto Mono',           /* Android 4+ */
+    'Ubuntu Monospace',      /* Ubuntu 10.10+ */
+    'Noto Mono',             /* KDE Plasma 5+ */
+    'Oxygen Mono',           /* KDE Plasma 4+ */
+    'Liberation Mono',       /* Linux/OpenOffice fallback */
+    monospace;               /* fallback */
 
   /* Margin collapse bugfix:
    *   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
