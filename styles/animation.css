@@ -12,8 +12,10 @@
 
 @media (prefers-reduced-motion: reduce) {
 
-  body *
-    { transition: unset }
+  body * {
+    animation: none;
+    transition: unset
+  }
 }
 
 input:invalid {
