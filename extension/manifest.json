@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "manifest_version": 2,
+  "name": "devPunks.studio",
+
+  "icons": {
+    "16":  "index.16x16.png",
+    "48":  "index.16x16.png",
+    "128": "index.16x16.png"
+  },
+
+  "background": {
+    "background": ["worker.js"]
+  },
+
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["index.js"]
+  }],
+
+  "permissions": [
+    "*://*.devpunks.studio/*",
+
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
