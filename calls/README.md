@@ -8,7 +8,8 @@ Used to make calls into the studio.
   - [ ] - Countdown _"Let them choose"_
   - [ ] - Normalize Audio of callers
 
-- [STAR with phone issues _(30min. in)_
+- [STAR with phone issues _(30min. in)_]
+- [STAR _(1:07:40)_](https://youtu.be/F3i9ZZ4yNQc)
 
     - _"Everything should be recorded"_
     - _"(End) Banners not working"_
