@@ -28,6 +28,7 @@
   - [MDN `FileReader`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
     - [`.readAsDataURL()`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL)
     - [`.readAsBinaryString()`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsBinaryString)
+    - [`.readAsArrayBuffer()`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer)
   - [MDN `FileList`](https://developer.mozilla.org/en-US/docs/Web/API/FileList)
   - FileSystem API
 
