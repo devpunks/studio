@@ -1,4 +1,5 @@
 import { createReadStream as read } from 'fs'
+import AWS from 'aws-sdk'
 
 let
   encoding = 'base64' // 'binary'
