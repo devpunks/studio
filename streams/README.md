@@ -1,5 +1,7 @@
 # `streams`
 
+  - Endianness - https://developer.mozilla.org/en-US/docs/Glossary/Endianness
+
 
 ## Platforms
 
