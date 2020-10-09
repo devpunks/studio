@@ -7,4 +7,10 @@ let
     ( process.cwd() +'/storage/index.jpg', encoding )
 
 
-frame.pipe(process.stdout)
+//frame.pipe(process.stdout)
+
+
+//AWS.config.loadFromPath('./s3_config.json');
+var bucket = new AWS.S3( { params: {Bucket: 'porchpod'} } )
+
+console.log (bucket)
