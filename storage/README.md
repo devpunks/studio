@@ -38,4 +38,5 @@
 ## Archive
 
   - [AWS S3]()
+    - [Developer Guide](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide)
     - [`aws-sdk-js`](https://github.com/aws/aws-sdk-js)
