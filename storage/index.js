@@ -1,7 +1,7 @@
 import { readFileSync as read } from 'fs'
 
 let
-  frame = fs.readFileSync
+  frame = read
     ( process.cwd() +'/storage/index.jpg' )
 
 console.log (frame)
