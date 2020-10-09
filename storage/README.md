@@ -3,7 +3,7 @@
   - [Node `fs` _(file system)_](https://nodejs.org/api/fs.html#fs_class_fs_dir)
 
 
-## Platform Storage
+## Platform
 
   - [MDN `localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
   - [MDN IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
