@@ -12,6 +12,7 @@
 ## Platform
 
   - [MDN `createObjectURL ()`](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
+    - [Displaying image](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images)
   - [MDN `revokeObjectURL ()`](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL)
   - [MDN `localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
   - [MDN IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
