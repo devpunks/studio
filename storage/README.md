@@ -3,11 +3,7 @@
 
 ## Server Storage
 
-  - Web USB
-  - FileSystem API
-
-
-## Local Storage
+## Client Storage
 
   - [MDN `localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
   - [MDN IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
