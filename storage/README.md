@@ -14,6 +14,6 @@
   - FileSystem API
 
 
-## Remote Storage
+## Cloud Storage
 
   - [AWS S3]()
