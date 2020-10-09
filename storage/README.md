@@ -27,6 +27,7 @@
   - [MDN `Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
   - [MDN `FileReader`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
     - [`.readAsDataURL()`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL)
+    - [`.readAsBinaryString()`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsBinaryString)
   - [MDN `FileList`](https://developer.mozilla.org/en-US/docs/Web/API/FileList)
   - FileSystem API
 
