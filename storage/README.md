@@ -1,7 +1,6 @@
 # `storage`
 
-
-## Server Storage
+  - [Node `fs` _(file system)_](https://nodejs.org/api/fs.html#fs_class_fs_dir)
 
 
 ## Platform Storage
