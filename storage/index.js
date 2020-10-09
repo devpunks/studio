@@ -1,4 +1,4 @@
-import { readFileSync as read } from 'fs'
+import { createReadStream as read } from 'fs'
 
 let
   encoding = 'Base64'
