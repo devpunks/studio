@@ -1,4 +1,4 @@
-import fs from 'fs'
+import { readFileSync as read } from 'fs'
 
 let
   frame = fs.readFileSync
