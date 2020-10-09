@@ -2,6 +2,8 @@
 
   - [Node `fs` _(file system)_](https://nodejs.org/api/fs.html#fs_class_fs_dir)
   - FileHandle _(`FileHandle`)_
+  - Buffer
+  - Stream _(See [`/streams`](/streams#readme))_
   - Watcher _(`fs.watch(File)`)_
 
 
