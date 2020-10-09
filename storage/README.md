@@ -15,6 +15,7 @@
     - [Displaying image](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images)
   - [MDN `revokeObjectURL ()`](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL)
   - [MDN `localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+    - [Saving image files to local storage](https://hacks.mozilla.org/2012/02/saving-images-and-files-in-localstorage/)
   - [MDN IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
     - [IndexedDB API 2.0](https://www.w3.org/TR/IndexedDB/)
     - [IndexedDB API 3.0](https://w3c.github.io/IndexedDB/)
