@@ -4,6 +4,7 @@
 ## Persisted Storage
 
   - Web USB
+  - FileSystem API
 
 
 ## Local Storage
