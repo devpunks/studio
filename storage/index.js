@@ -1,7 +1,8 @@
 import { readFileSync as read } from 'fs'
 
 let
-  frame = read
-    ( process.cwd() +'/storage/index.jpg' )
+  encoding = 'Base64'
+, frame = read
+    ( process.cwd() +'/storage/index.jpg', encoding )
 
 console.log (frame)
