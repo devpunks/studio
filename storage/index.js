@@ -1,3 +1,4 @@
 import fs from 'fs'
 
-console.log (fs)
+let frame = fs.readFileSync(__dirname +'index.jpg')
+console.log (__dirname + 'done')
