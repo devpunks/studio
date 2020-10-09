@@ -1,7 +1,9 @@
 # `storage`
 
   - [Node `fs` _(file system)_](https://nodejs.org/api/fs.html#fs_class_fs_dir)
+  - Stats _(Directory level)_
   - FileHandle _(`FileHandle`)_
+    - Stats _(Directory level)_
   - Buffer
   - Stream _(See [`/streams`](/streams#readme))_
   - Watcher _(`fs.watch(File)`)_
