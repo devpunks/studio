@@ -1,6 +1,8 @@
 # `storage`
 
   - [Node `fs` _(file system)_](https://nodejs.org/api/fs.html#fs_class_fs_dir)
+  - FileHandle _(`FileHandle`)_
+  - Watcher _(`fs.watch(File)`)_
 
 
 ## Platform
