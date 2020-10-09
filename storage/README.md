@@ -38,3 +38,4 @@
 ## Archive
 
   - [AWS S3]()
+    - [`aws-sdk-js`](https://github.com/aws/aws-sdk-js)
