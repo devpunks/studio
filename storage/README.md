@@ -1,7 +1,7 @@
 # `storage`
 
 
-## Persisted Storage
+## Server Storage
 
   - Web USB
   - FileSystem API
