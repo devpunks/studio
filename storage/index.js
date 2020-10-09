@@ -1,7 +1,7 @@
 import { createReadStream as read } from 'fs'
 
 let
-  encoding = 'Base64' // 'binary'
+  encoding = 'base64' // 'binary'
 , frame = read
     ( process.cwd() +'/storage/index.jpg', encoding )
 
