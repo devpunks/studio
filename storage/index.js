@@ -1,3 +1,3 @@
 import fs from 'fs'
 
-console.log ('index.js')
+console.log (fs)
