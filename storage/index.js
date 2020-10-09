@@ -13,4 +13,12 @@ let
 //AWS.config.loadFromPath('./s3_config.json');
 var bucket = new AWS.S3( { params: {Bucket: 'porchpod'} } )
 
-console.log (bucket)
+
+var s3 = new AWS.S3({
+    accessKeyId: 'AKIA5QFW6ZCP2CJA6M42',
+    secretAccessKey:'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',
+});
+
+s3.listBuckets(function(err, data) {
+    console.log(data);
+});
