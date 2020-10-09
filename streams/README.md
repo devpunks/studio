@@ -9,6 +9,7 @@ Platform information attributed to a `stream`.
 ## References
 
   - [Streams API _(MDN)_](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
+    - [Transform Streams](https://streams.spec.whatwg.org/#ts-model)
   - [MDN `ReadableStream`](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream)
   - [Streams Living Standard _(WHATWG)_](https://streams.spec.whatwg.org/)
   - [Node Streams](https://nodejs.org/api/stream.html)
