@@ -10,7 +10,7 @@
     - [IndexedDB API 2.0](https://www.w3.org/TR/IndexedDB/)
     - [IndexedDB API 3.0](https://w3c.github.io/IndexedDB/)
 
-## External Storage
+## External
   - _Look up `EXTERNAL_STORAGE` shell variable_.
   - Web USB
   - FileSystem API
