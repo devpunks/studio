@@ -14,3 +14,4 @@ Platform information attributed to a `stream`.
   - [Node Streams](https://nodejs.org/api/stream.html)
     - https://nodesource.com/blog/understanding-streams-in-nodejs
     - https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/amp/
+  - [`Tee` _(Stream Splitting)_](https://en.m.wikipedia.org/wiki/Tee_(command))
