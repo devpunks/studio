@@ -39,4 +39,5 @@
 
   - [AWS S3]()
     - [Developer Guide](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide)
+    [ [API Reference](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/)
     - [`aws-sdk-js`](https://github.com/aws/aws-sdk-js)
