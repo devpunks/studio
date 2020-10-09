@@ -12,3 +12,4 @@ Platform information attributed to a `stream`.
   - [Streams API _(MDN)_](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
   - [Streams Living Standard _(WHATWG)_](https://streams.spec.whatwg.org/)
   - [Node Streams](https://nodejs.org/api/stream.html)
+    - https://nodesource.com/blog/understanding-streams-in-nodejs
