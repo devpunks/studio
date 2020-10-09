@@ -1,4 +1,7 @@
 {
   "name": "storage",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.771.0"
+  }
 }
