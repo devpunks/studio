@@ -3,6 +3,8 @@
 
 ## Persisted Storage
 
+  - Web USB
+
 
 ## Local Storage
 
