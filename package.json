@@ -1,0 +1,25 @@
+{
+  "name": "devpunks.studio",
+  "version": "0.0.1",
+  "description": "devPunks.studio",
+  "main": "index.es",
+  "scripts": {
+    "test": "snuggsi test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpunks/studio.git"
+  },
+  "keywords": [
+    "science",
+    "technology",
+    "engineering",
+    "music"
+  ],
+  "author": "devPunks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devpunks/studio/issues"
+  },
+  "homepage": "https://github.com/devpunks/studio#readme"
+}
