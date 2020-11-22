@@ -1,5 +1,9 @@
 # DEVPUNKS.STUDIO
 
+## Marketing
+
+  - [No Updates!](https://youtu.be/S_TOlvv1oS8?t=5157)
+
 
 ## Performance Benchmarking
 
