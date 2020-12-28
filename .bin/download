@@ -26,7 +26,6 @@ echo Downloading from YouTube ➡️  $1
 echo
 
 youtube-dl \
-  --simulate \
   --get-id \
   --get-title \
   --get-description \
