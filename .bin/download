@@ -17,6 +17,7 @@ echo CONFIGURATION $CONFIGURATION
 source $BIN/.arguments
 
 
+echo
 echo Downloading from YouTube ➡️  $1
 # youtube-dl \
 #   $OPTIONS \
