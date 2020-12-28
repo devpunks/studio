@@ -14,7 +14,7 @@
     [{ "platform": "play", "url": "https://play.google.com/store/apps/details?id=devpunks.studio" }],
 
   "categories" :
-    [ "education", "entertainment", "music", "photo", "productivity", "social" ],
+    [ "science", "technology", "engineering", "music", "studio", "education", "entertainment", "photo", "audio", "video" ],
 
   "icons": [
     { "src": "/icons/index.192x192.png", "sizes": "192x192", "type": "image/png" },
