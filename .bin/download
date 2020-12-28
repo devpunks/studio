@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -u
+
+declare -rx URL=$1
+declare -rx BIN=".bin"
+declare -rx CONFIGURATION="download.conf"
+declare -rx OPTIONS="--default-search '' --config-location '${BIN}/${CONFIGURATION}'"
+
+echo Bin $BIN
+echo URL $1
+echo CONFIGURATION $CONFIGURATION
+echo OPIONS $OPTIONS
+
+source $BIN/.arguments
+
+
+echo Downloading from YouTube ➡️  $1
+# youtube-dl \
+#   $OPTIONS \
+#$URL
