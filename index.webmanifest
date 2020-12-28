@@ -1,10 +1,10 @@
 {
   "scope": "/",
   "display": "standalone",
-  "name": "devpunks.studio",
+  "name": "devPunks.studio",
   "orientation": "landscape",
   "short_name": "devpunks.studio",
-  "description": "Devpunks studio",
+  "description": "devPunks Studio",
   "start_url": "/?from=homescreen",
 
   "theme_color": "#555555",
