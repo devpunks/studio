@@ -4,7 +4,7 @@ set -u
 
 declare -rx URL=$1
 declare -rx BIN=".bin"
-declare -rx CONFIGURATION="--config-location 'download.conf'"
+declare -rx CONFIGURATION="--config-location ${BIN}/download.conf"
 
 # Auth
 # https://github.com/ytdl-org/youtube-dl/blob/master/README.md#authentication-with-netrc-file
