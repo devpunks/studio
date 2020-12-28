@@ -7,7 +7,7 @@
   "description": "devPunks Studio",
   "start_url": "/?from=homescreen",
 
-  "theme_color": "#555555",
+  "theme_color": "#ff00ff",
   "background_color": "#555555",
 
   "related_applications":
