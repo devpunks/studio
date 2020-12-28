@@ -5,6 +5,10 @@ set -u
 declare -rx URL=$1
 declare -rx BIN=".bin"
 declare -rx CONFIGURATION="--config-location 'download.conf'"
+
+# Auth
+# https://github.com/ytdl-org/youtube-dl/blob/master/README.md#authentication-with-netrc-file
+
 declare -rx USERNAME="--username USERNAME"
 declare -rx PASSWORD="--username USERNAME"
 declare -rx AUTHENTICATION="${USERNAME} ${PASSWORD}"
