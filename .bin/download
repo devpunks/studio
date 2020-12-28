@@ -30,6 +30,7 @@ youtube-dl \
   --get-thumbnail \
   --get-duration \
   --get-format \
+  --get-url \
 $URL
 
 # --get-url \
