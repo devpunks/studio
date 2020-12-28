@@ -34,6 +34,8 @@ youtube-dl \
   --get-duration \
   --get-format \
   --get-url \
+  --output \
+  -- \
 $URL
 
 # --list-subs \
