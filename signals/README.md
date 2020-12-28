@@ -12,6 +12,21 @@ In human engineering, signals are typically provided by a sensor, and often the 
 
 ## [Noise](https://en.wikipedia.org/wiki/Noise_(electronics))
 
+## [Signal to Noise Ratio](https://en.wikipedia.org/wiki/Signal-to-noise_ratio)
+
+Above 100 is ideal
+
+    - https://magroove.com/blog/en-us/snr/
+    - https://www.lifewire.com/signal-to-noise-ratio-3134701
+
+
+## Impedance
+
+  600Ω Ohm standard
+
+  - https://www.soundonsound.com/techniques/understanding-impedance
+
+
 ## False Signals
 
   - [False Color](https://en.wikipedia.org/wiki/False_color)
