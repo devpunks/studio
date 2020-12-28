@@ -13,7 +13,6 @@ declare -rx AUTHENTICATION="${USERNAME} ${PASSWORD}"
 echo Bin $BIN
 echo URL $URL
 echo CONFIGURATION $CONFIGURATION
-echo OPIONS $OPTIONS
 
 source $BIN/.arguments
 
