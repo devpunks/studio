@@ -10,8 +10,8 @@ declare -rx CONFIGURATION="--config-location 'download.conf'"
 # https://github.com/ytdl-org/youtube-dl/blob/master/README.md#authentication-with-netrc-file
 
 declare -rx USERNAME="--username USERNAME"
-declare -rx PASSWORD="--username USERNAME"
-declare -rx AUTHENTICATION="${USERNAME} ${PASSWORD}"
+declare -rx PASSWORD="--password PASSWORD"
+declare -rx AUTHENTICATION="--netrc ${USERNAME} ${PASSWORD}"
 
 
 echo Bin $BIN
