@@ -25,4 +25,4 @@ echo
 echo Downloading from YouTube ➡️  $1
 echo
 
-youtube-dl $CONFIGURATION -- $URL
+youtube-dl $CONFIGURATION - $URL
