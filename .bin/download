@@ -38,5 +38,6 @@ youtube-dl \
   -- \
 $URL
 
+# --simulate \
 # --list-subs \
 # --list-formats \
