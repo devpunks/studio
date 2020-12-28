@@ -33,6 +33,5 @@ youtube-dl \
   --get-url \
 $URL
 
-# --get-url \
 # --list-subs \
 # --list-formats \
