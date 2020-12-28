@@ -26,18 +26,5 @@ echo Downloading from YouTube ➡️  $1
 echo
 
 youtube-dl \
-  --get-id \
-  --get-title \
-  --get-description \
-  --get-filename \
-  --get-thumbnail \
-  --get-duration \
-  --get-format \
-  --get-url \
-  --output \
-  -- \
-$URL
-
-# --simulate \
-# --list-subs \
-# --list-formats \
+  $CONFIGURATION \
+-- $URL
