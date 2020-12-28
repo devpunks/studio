@@ -19,6 +19,19 @@ source $BIN/.arguments
 
 echo
 echo Downloading from YouTube ➡️  $1
-# youtube-dl \
-#   $OPTIONS \
-#$URL
+echo
+
+youtube-dl \
+  --simulate \
+  --get-id \
+  --get-title \
+  --get-description \
+  --get-filename \
+  --get-thumbnail \
+  --get-duration \
+  --get-format \
+$URL
+
+# --get-url \
+# --list-subs \
+# --list-formats \
