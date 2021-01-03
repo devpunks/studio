@@ -1,4 +1,4 @@
-# `calls`
+# `Calls`
 
 Used to make calls into the studio.
 
