@@ -15,3 +15,12 @@ https://en.wikipedia.org/wiki/Telephone_call
     - _"Everything should be recorded"_
     - _"(End) Banners not working"_
 
+
+## `Operator`
+
+
+## `Host`
+
+
+## `Callers` _(`Member` or `Visitor`)
+
