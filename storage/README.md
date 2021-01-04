@@ -25,6 +25,7 @@
 ## External
   - _Look up `EXTERNAL_STORAGE` shell variable_.
   - Web USB
+    - https://www.tripplite.com/products/usb-connectivity-types-standards
   - [MDN `File`](https://developer.mozilla.org/en-US/docs/Web/API/File)
   - [MDN `Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
   - [MDN `FileReader`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
