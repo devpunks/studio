@@ -1,1 +1,1 @@
-alert('Extension')
+alert('devpunks.studio Extension')
