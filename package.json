@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/devpunks/studio#readme",
   "dependencies": {
+    "aws-sdk": "*",
     "selenium-webdriver": "^4.0.0-alpha.8"
   }
 }
