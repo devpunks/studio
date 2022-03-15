@@ -22,10 +22,13 @@
     "engineering",
     "music"
   ],
-  "author": "devPunks",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devpunks/studio/issues"
+  "main": "index.es",
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
   },
   "homepage": "https://github.com/devpunks/studio#readme",
   "dependencies": {
