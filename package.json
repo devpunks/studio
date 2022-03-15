@@ -51,7 +51,6 @@
     "music"
   ],
   "dependencies": {
-    "aws-sdk": "*",
-    "selenium-webdriver": "^4.0.0-alpha.8"
+    "aws-sdk": "*"
   }
 }
