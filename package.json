@@ -5,6 +5,7 @@
   "author": [ "@snuggs" ],
   "name": "devpunks.studio",
   "description": "devPunks.studio",
+  "man": ".man/studio.1",
   "homepage": "https://github.com/devpunks/studio#readme",
   "repository": {
     "type": "git",
@@ -35,9 +36,6 @@
     "bin": "bin",
     "audio": "audio"
   },
-  "bin": {
-    "run": "bin/run"
-  },
   "scripts": {
     "test": "snuggsi test",
     "start": "snuggsi serve",
@@ -52,5 +50,16 @@
   ],
   "dependencies": {
     "aws-sdk": "*"
-  }
+  },
+  "funding": [
+    "http://github.com/devpunks/studio#donate"
+    {
+      "type" : "individual",
+      "url" : "http://github.com/devpunks/studio#donate"
+    },
+    {
+      "type" : "patreon",
+      "url" : "http://github.com/devpunks/studio#donate"
+    }
+  ]
 }
