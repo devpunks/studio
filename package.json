@@ -30,7 +30,26 @@
       }
     }
   },
-  "homepage": "https://github.com/devpunks/studio#readme",
+  "module": "./index.es",
+  "directories": {
+    "bin": "bin",
+    "audio": "audio"
+  },
+  "bin": {
+    "run": "bin/run"
+  },
+  "scripts": {
+    "test": "snuggsi test",
+    "start": "snuggsi serve",
+    "package": "snuggsi package",
+    "postinstall": "#snuggsi publish"
+  },
+  "keywords": [
+    "science",
+    "technology",
+    "engineering",
+    "music"
+  ],
   "dependencies": {
     "aws-sdk": "*",
     "selenium-webdriver": "^4.0.0-alpha.8"
