@@ -32,6 +32,7 @@
       }
     }
   },
+  "type": "module",
   "module": "./index.es",
   "directories": {
     "bin": ".bin",
