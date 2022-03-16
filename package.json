@@ -5,7 +5,6 @@
   "author": [ "@snuggs" ],
   "name": "devpunks.studio",
   "description": "devPunks.studio",
-  "man": ".man/studio.1",
   "homepage": "https://github.com/devpunks/studio#readme",
   "repository": {
     "type": "git",
