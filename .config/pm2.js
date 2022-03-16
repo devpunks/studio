@@ -2,7 +2,7 @@ export default {
   apps: [
     {
       name: 'Studio',
-      script: 'node .',
+      script: 'node ..',
       watch:
         [ '.' ],
       ignore_watch:
