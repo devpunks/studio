@@ -42,6 +42,7 @@
   "scripts": {
     "test": "snuggsi test",
     "start": "snuggsi serve",
+    "dev": "pm2-dev .config/pm2.js",
     "package": "snuggsi package",
     "postinstall": "#snuggsi publish"
   },
