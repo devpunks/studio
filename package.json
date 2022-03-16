@@ -32,7 +32,8 @@
   },
   "module": "./index.es",
   "directories": {
-    "bin": "bin",
+    "bin": ".bin",
+    "man": ".man",
     "audio": "audio"
   },
   "scripts": {
