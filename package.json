@@ -45,7 +45,8 @@
     "postinstall": "#snuggsi publish"
   },
   "dependencies": {
-    "aws-sdk": "*"
+    "aws-sdk": "*",
+    "pm2": "^5.2.0"
   },
   "funding": [
     "http://github.com/devpunks/studio#donate"
