@@ -44,12 +44,6 @@
     "package": "snuggsi package",
     "postinstall": "#snuggsi publish"
   },
-  "keywords": [
-    "science",
-    "technology",
-    "engineering",
-    "music"
-  ],
   "dependencies": {
     "aws-sdk": "*"
   },
