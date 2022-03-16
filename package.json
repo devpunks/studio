@@ -49,14 +49,14 @@
     "pm2": "^5.2.0"
   },
   "funding": [
-    "http://github.com/devpunks/studio#donate"
+    "http://github.com/devpunks/studio#donate",
     {
-      "type" : "individual",
-      "url" : "http://github.com/devpunks/studio#donate"
+      "type": "individual",
+      "url": "http://github.com/devpunks/studio#donate"
     },
     {
-      "type" : "patreon",
-      "url" : "http://github.com/devpunks/studio#donate"
+      "type": "patreon",
+      "url": "http://github.com/devpunks/studio#donate"
     }
   ]
 }
