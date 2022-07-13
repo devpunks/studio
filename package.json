@@ -59,11 +59,14 @@
     "man": ".man",
     "audio": "audio"
   },
-  "bundleDependencies": true,
   "devDependencies": {
     "pm2": "^5.2.0"
   },
+  "dependencies": {
+    "snuggsi": "../snuggsi"
+  },
   "peerDependencies": { },
+  "bundleDependencies": true,
   "scripts": {
     "test": "snuggsi test",
     "start": "snuggsi serve",
@@ -71,16 +74,5 @@
     "package": "snuggsi package",
     "install": "",
     "postinstall": "#snuggsi publish"
-  },
-  "funding": [
-    "http://github.com/devpunks/studio#donate",
-    {
-      "type": "individual",
-      "url": "http://github.com/devpunks/studio#donate"
-    },
-    {
-      "type": "patreon",
-      "url": "http://github.com/devpunks/studio#donate"
-    }
-  ]
+  }
 }
