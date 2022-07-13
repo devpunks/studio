@@ -6,7 +6,7 @@ console.log(METHODS)
 export default class { }
 
 // Require express and create an instance of it
-var app = express();
+const app = express();
 
 // on the request to root (localhost:3000/)
 app.get('/', function (req, res) {
