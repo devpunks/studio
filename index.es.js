@@ -1,4 +1,4 @@
-import http from "http"
+import { METHODS } from "http"
 
 console.log(http)
 
