@@ -2,9 +2,7 @@
   "license": "MIT",
   "private": "false",
   "version": "0.3.2",
-  "author": [
-    "@snuggs"
-  ],
+  "author": "devPunks",
   "name": "devpunks.studio",
   "description": "devPunks.studio",
   "homepage": "https://github.com/devpunks/studio#readme",
