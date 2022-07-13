@@ -5,6 +5,7 @@
   "author": "devPunks",
   "name": "devpunks.studio",
   "description": "devPunks.studio",
+  "main": "index.es",
   "homepage": "https://github.com/devpunks/studio#readme",
   "repository": {
     "type": "git",
