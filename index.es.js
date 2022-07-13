@@ -10,7 +10,7 @@ const app = express();
 
 // on the request to root (localhost:3000/)
 app.get('/', function (req, res) {
-    res.send('<b>My</b> first express http server');
+	res.send('<b>My</b> first express http server');
 });
 
 // On localhost:3000/welcome
