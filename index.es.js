@@ -1,5 +1,5 @@
 import { METHODS } from "http"
 
-console.log(http)
+console.log(METHODS)
 
 export default class { }
