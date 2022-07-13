@@ -1,11 +1,15 @@
 {
+  "private": true,
+  "type": "module",
   "license": "MIT",
-  "private": "false",
   "version": "0.3.2",
+  "main": "index.es",
+  "browser": "index.js",
+  "module": "./index.es",
   "author": "devPunks",
   "name": "devpunks.studio",
   "description": "devPunks.studio",
-  "main": "index.es",
+  "contributors": [],
   "homepage": "https://github.com/devpunks/studio#readme",
   "repository": {
     "type": "git",
@@ -14,8 +18,18 @@
   "bugs": {
     "url": "https://github.com/devpunks/studio/issues"
   },
+  "os": [
+    "linux",
+    "darwin",
+    "!win32",
+  ]
+  "cpu": [
+    "x64",
+    "!arm64",
+  ]
   "engines": {
-    "node": ">=16.14 <17"
+    "npm": "8.x",
+    "node": "16.x"
   },
   "keywords": [
     "science",
@@ -23,7 +37,12 @@
     "engineering",
     "music"
   ],
-  "main": "index.es",
+  "workspaces": [
+    "./audio/*"
+  ],
+  "bin": {
+    "run": "./bin/run"
+  },
   "exports": {
     ".": {
       "browser": {
@@ -31,23 +50,27 @@
       }
     }
   },
-  "type": "module",
-  "module": "./index.es",
+  "config": {
+    "PORT": "8080"
+  },
+  "files": [],
   "directories": {
     "bin": ".bin",
     "man": ".man",
     "audio": "audio"
   },
+  "bundleDependencies": true,
+  "devDependencies": {
+    "pm2": "^5.2.0"
+  },
+  "peerDependencies": { },
   "scripts": {
     "test": "snuggsi test",
     "start": "snuggsi serve",
     "dev": "pm2-dev .config/pm2.js",
     "package": "snuggsi package",
+    "install": "",
     "postinstall": "#snuggsi publish"
-  },
-  "dependencies": {
-    "aws-sdk": "*",
-    "pm2": "^5.2.0"
   },
   "funding": [
     "http://github.com/devpunks/studio#donate",
