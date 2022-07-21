@@ -16,8 +16,5 @@ const app = (new Resource)
   .get('/welcome', function (req, res) {
     res.send('<h1>Hello</h1> welcome to my http server made with express') })
   .use(function(req, res, next) {
-    res.status(404).send("That route doesn't exist"); });
-app.listen(PORT, function () {
-	console.log(`Example app listening on port ${PORT}`);
-});
+    res.status(404).send("That route doesn't exist") })
 
