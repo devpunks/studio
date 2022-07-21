@@ -3,8 +3,6 @@ import { Router, default as express } from 'express'
 
 console.log(METHODS)
 
-const PORT = process.env.PORT || 3000
-
 export default class Resource extends Router{
   constructor() {
     console.warn(this)
