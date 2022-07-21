@@ -5,7 +5,7 @@ console.log(METHODS)
 
 const PORT = process.env.PORT || 3000
 
-export default class extends Router{
+export default class Resource extends Router{
   constructor() {
     console.warn(this)
   }
