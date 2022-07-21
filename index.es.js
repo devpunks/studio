@@ -18,3 +18,14 @@ const app = (new Resource)
   .use(function(req, res, next) {
     res.status(404).send("That route doesn't exist") })
 
+
+class Server extends express() {
+  constructor() {
+    super()
+    console.warn('WTF AM I ', this)
+  }
+}
+
+(new Server)
+  .listen ( process.env.PORT || 3000,
+    function () { console.log(`Example app listening on port ${PORT}`) })
