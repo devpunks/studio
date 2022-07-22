@@ -3,6 +3,7 @@ import http from "http"
 import { Router, default as express, json } from 'express'
 
 console.log(METHODS)
+console.log(http)
 
 export default class Resource extends Router{
   constructor() {
