@@ -73,7 +73,8 @@
     "start": "snuggsi serve",
     "dev": "pm2-dev .config/pm2.js",
     "package": "snuggsi package",
-    "install": "",
-    "postinstall": "#snuggsi publish"
+    "preinstall": "echo  pre-Installing devPunks.studio",
+    "install": "echo  Installing devPunks.studio",
+    "postinstall": "echo  post-Installing devPunks.studio"
   }
 }
