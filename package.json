@@ -60,7 +60,7 @@
     "audio": "audio"
   },
   "devDependencies": {
-    "pm2": "^5.2.0"
+    "pm2": "5.x"
   },
   "dependencies": {
     "express": "^4.18.1",
