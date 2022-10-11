@@ -63,7 +63,7 @@
     "pm2": "5.x"
   },
   "dependencies": {
-    "express": "4.x",
+    "express": "~4.18",
     "snuggsi": "../snuggsi"
   },
   "peerDependencies": { },
