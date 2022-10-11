@@ -67,7 +67,7 @@
     "snuggsi": "../snuggsi"
   },
   "peerDependencies": { },
-  "bundleDependencies": true,
+  "bundleDependencies": "true",
   "scripts": {
     "test": "snuggsi test",
     "start": "snuggsi serve",
