@@ -64,6 +64,8 @@
 
 <header role=banner>
   <!-- Masthead content -->
+  <a id=logo>devPunks</a>
+  <em>A pretty good splash page template!</em>
 </header>
 
 <nav>
