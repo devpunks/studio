@@ -104,5 +104,20 @@
 </aside>
 
 <footer role=contentinfo>
-  <!-- Footer content -->
+  <nav class=screen>
+    <header>Menu</header>
+
+    <li class=invisible><a title=Home href=#>Home</a>
+    <li><a title=About href=#>About</a>
+    <li><a title=Contact href=#>Contact</a>
+  </nav>
+
+  <section id=legal><!-- 🤮 https://www.justice.gov/legalpolicies#block-follow-site -->
+    <header>Legal Disclaimers</header>
+    <a rel=legal href=#>Privacy Policy</a>
+    <a rel=legal href=#>Terms of Service</a>
+    <em>
+      &copy; <strong>DEVPUNKS <abbr title='Limited Liability Company'>L.L.C.</abbr>
+      </strong> Copyright 2022 - All rights reserved
+    </em>
 </footer>
