@@ -97,7 +97,7 @@
     <input name=email type=email placeholder='Email' required >
     <input name=password type=password placeholder=Password required >
 
-    <output name=status for='email password' hidden >
+    <output name=status hidden >
       Status will be displayed here.
     </output>
 
