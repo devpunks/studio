@@ -93,9 +93,9 @@
 <aside>
   <header><em>Signup</em> or <em>Signin</em></header>
 
-  <form>
-    <input type=email placeholder='Email' required >
-    <input type=password placeholder=Password required >
+  <form action=#>
+    <input name=email type=email placeholder='Email' required >
+    <input name=password type=password placeholder=Password required >
 
     <output name=status for='email password' hidden >
       Status will be displayed here.
