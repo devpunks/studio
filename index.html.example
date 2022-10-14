@@ -88,6 +88,21 @@
   <p>The quick brown fox jumped over the lazy dog.
 </main>
 
+<aside>
+  <header><em>Signup</em> or <em>Signin</em></header>
+
+  <form>
+    <input type=email placeholder='Email' required >
+    <input type=password placeholder=Password required >
+
+    <output name=status for='email password' hidden >
+      Status will be displayed here.
+    </output>
+
+    <button type=submit>Signin</button>
+  </form>
+</aside>
+
 <footer role=contentinfo>
   <!-- Footer content -->
 </footer>
