@@ -109,9 +109,11 @@
   <nav class=screen>
     <header>Menu</header>
 
-    <li class=invisible><a title=Home href=#>Home</a>
-    <li><a title=About href=#>About</a>
-    <li><a title=Contact href=#>Contact</a>
+    <ul>
+      <li class=invisible><a title=Home href=#>Home</a>
+      <li><a title=About href=#>About</a>
+      <li><a title=Contact href=#>Contact</a>
+    </ul>
   </nav>
 
   <section id=legal><!-- 🤮 https://www.justice.gov/legalpolicies#block-follow-site -->
