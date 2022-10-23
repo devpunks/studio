@@ -1,0 +1,121 @@
+<!doctype html>
+
+<title>devPunks - A pretty good splash page template!</title>
+
+<meta charset=utf-8 ><!-- Must appear first! https://code.google.com/archive/p/doctype-mirror/wikis/ArticleUtf7.wiki -->
+<!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
+<meta name=viewport content=width=device-width,initial-scale=1.0,maximum-scale=2.0,minimum-scale=0.86 >
+
+
+<link rel=canonical href=/ >
+<link rel='preload stylesheet' as=style href=index.css />
+<style>
+body > header em {
+  display: block; font-size: 80%
+}
+nav {
+  cursor: pointer;
+  color:hsl(197deg 100% 50%)
+}
+
+form input:hover::before {
+  font-size: .7em;
+  content: 'Error [' attr(data-error) ']';
+}
+
+body > footer { display: block }
+</style>
+<!--
+  PWA Checklist - https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md
+
+  P.W.A. Guidelines for iOS
+  - https://dev.to/oskarlarsson/designing-native-like-progressive-web-apps-for-ios-510o
+  - https://medium.com/appscope/designing-native-like-progressive-web-apps-for-ios-1b3cdda1d0e8
+  - Splash screen generator - https://appsco.pe/developer/splash-screens
+-->
+
+<!-- CSS page transitions allows :hover and :active to work
+  - https://dev.webonomic.nl/fixing-the-iphone-css-hover-problem-on-ios
+  - https://stackoverflow.com/questions/8330559/hover-effects-using-css3-touch-events
+  - https://www.beacontechnologies.com/blog/2015/05/simple-little-tricks-for-web-transition-touch-events-on-mobile-devices/
+-->
+<body role=application tabIndex=0 >
+
+<!-- Skip Nav Links - https://a11yproject.com/posts/skip-nav-links/ -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Skip_links -->
+<a title=Skip href=#main>Skip to main content</a>
+
+<header role=banner><!-- Masthead content -->
+  <a id=logo>devPunks</a>
+  <em>A pretty good splash page template!</em>
+</header>
+
+<nav hidden class=print>
+  <header>Menu</header>
+
+  <ul>
+    <li class=invisible><a title=Home href=#>Home</a>
+    <li><a title=About href=#>About</a>
+    <li><a title=Contact href=#>Contact</a>
+  </ul>
+</nav>
+
+<h1>Welcome to Splash Page</h1>
+
+<main>
+  <header>A sub header</header>
+
+  <picture>
+    <source media='(min-width: 1000px)' srcset='hero@1000.png 1x' />
+    <source media='(min-width: 500px)'  srcset='hero@500.png 1x'  />
+
+    <img alt='Hero image' width=0 height=0 src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII= />
+  </picture>
+
+  <p>The quick brown fox jumped over the lazy dog.
+</main>
+
+<aside>
+  <form action=#>
+    <fieldset>
+      <legend><em>Signup</em> or <em>Signin</em></legend>
+      
+      <label>Email
+        <input required  name=email placeholder=Email type=email title='Email Address' />
+        <em>This is a message for the previous input.</em>
+      </label>
+      <label>Password
+        <input required name=password placeholder=Password type=password title='Secure Password' />
+        <em>This is a message for the previous input.</em>
+      </label>
+    </fieldset>
+
+    <output name=status />
+      Status will be displayed here.
+    </output>
+
+    <button type=submit>Signin</button>
+  </form>
+</aside>
+
+<footer hidden role=contentinfo>
+  <nav class=screen>
+    <header>Menu</header>
+
+    <ul>
+      <li class=invisible><a title=Home href=#>Home</a>
+      <li><a title=About href=#>About</a>
+      <li><a title=Contact href=#>Contact</a>
+    </ul>
+  </nav>
+
+  <section id=legal><!-- 🤮 https://www.justice.gov/legalpolicies#block-follow-site -->
+    <header>Legal Disclaimers</header>
+    <a rel=legal href=#>Privacy Policy</a>
+    <a rel=legal href=#>Terms of Service</a>
+    <em>
+      &copy; <strong>DEVPUNKS <abbr title='Limited Liability Company'>L.L.C.</abbr>
+      </strong> Copyright 2022 - All rights reserved
+    </em>
+  </section>
+</footer>
