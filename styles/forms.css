@@ -111,6 +111,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   width: 100%;
   opacity: 80%;
   border: none;
+  padding: 0 1em;
   line-height: 200%;
   margin-bottom: 1.618em;
   font-size:  var(--larger);
