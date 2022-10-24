@@ -77,6 +77,10 @@ label {
   font-size:  var(--larger)
 }
 
+:placeholder-shown {
+  text-overflow: ellipsis;
+}
+
 output
   { display: inline-block }
 
