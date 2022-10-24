@@ -336,6 +336,17 @@ select, label select {
   line-height: 1.612em;
   cursor: context-menu;
   text-align: var(--text-align);
+  text-align-last: var(--text-align);
+  text-overflow: ellipsis;
+}
+select, label select {
+  line-height: 200%;
+  font-size: inherit;
+  font-weight: normal;
+}
+select[multiple] {
+  padding: 0;
+  overflow: scroll;
 }
 label select
   { width: auto }
