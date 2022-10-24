@@ -956,8 +956,21 @@ class Shape {
           </select>
         </label>
 
-        <label><em>(Disabled)</em> Select
-          <select disabled title='(Disabled) Select Option'>
+        <label for=select:multi>Multi-Select</label>
+        <select multiple id=select:multi size=3 title='Select Multiple Options'>
+          <option selected>Option One (selected)
+          <option>Option Two
+          <option disabled>Option Three (disabled)
+
+          <optgroup label='Option Group'>
+            <option>Option Four
+            <option>Option Five
+          </optgroup>
+        </select>
+
+        <label>Select <em>(Nested in <code>&lt;label&gt;</code>)</em>
+          <select title='Select Option'>
+            <option hidden disabled selected value>- select an option -
             <option>Option One
           </select>
         </label>
