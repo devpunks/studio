@@ -924,8 +924,24 @@ class Shape {
           </optgroup>
         </select>
 
-        <label>Select <em>(Nested in <code>&lt;label&gt;</code>)</em>
-          <select title='Select Option'>
+        <label for=select:required>Select <em>(Required)</em></label>
+        <select required id=select:required title='Select Option'>
+          <option hidden disabled selected value=' '>- select an option -
+          <option>Option One
+          <option>Option Two
+          <option disabled>Option Three (disabled)
+        </select>
+
+        <label for=select:selected>Select <em>(Selected)</em></label>
+        <select id=select:selected title='Select Option'>
+          <option disabled value>- select an option -
+          <option selected>Option One (selected)
+          <option>Option Two
+          <option disabled>Option Three (disabled)
+        </select>
+
+        <label>Select <em>(Disabled)</em>
+          <select disabled title='Select Option (Disabled)'>
             <option>Option One
             <option>Option Two
             <option>Option Three
