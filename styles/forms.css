@@ -429,9 +429,8 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 /* input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes */
 
 :enabled {}
-input:disabled, select:disabled, button:disabled, [aria-enabled=false],
-input:disabled:hover, select:disabled:hover, button:disabled:hover, [aria-enabled=false]:hover,
-input:disabled:focus, select:disabled:focus, button:disabled:focus, [aria-enabled=false]:focus
+input:disabled, select:disabled, option:disabled, button:disabled, [aria-enabled=false],
+input:disabled:hover, select:disabled:hover, option:disabled:hover, button:disabled:hover, [aria-enabled=false]:hover
  {
   opacity: 30%;
   cursor: not-allowed;
