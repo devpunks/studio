@@ -45,6 +45,31 @@
  * - https://twitter.com/miketaylr/status/12228805301
  * - https://css-tricks.com/almanac/selectors/s/selection/
  */
+
+::-webkit-scrollbar {
+  background: green;
+  color: red;
+}
+::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
+  background: var(--primary-color, ButtonFace);
+}
+::-webkit-scrollbar-track-piece:hover,
+::-webkit-scrollbar-corner:hover {
+  background: var(--primary-color, ButtonText);
+}
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 0.2em;
+  outline: 1px solid ButtonText;
+  background: var(--primary-color, ButtonFace);
+  box-shadow: 0.0618em 0.0618em 0.1em;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color, ButtonText);
+}
+::-webkit-scrollbar-track:hover {
+  background: blue;
+}
 ::before, *:before, ::after, *:after {
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   white-space: pre;
