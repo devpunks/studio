@@ -425,6 +425,9 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
   appearance:         button
 }
 
+
+/* input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes */
+
 :enabled {}
 input:disabled, select:disabled, button:disabled, [aria-enabled=false],
 input:disabled:hover, select:disabled:hover, button:disabled:hover, [aria-enabled=false]:hover,
