@@ -913,28 +913,67 @@ class Shape {
         <legend>Select menus</legend>
         <label for=select>Select</label>
         <select id=select title='Select Option'>
+          <option hidden disabled value=' '>- select an option -
           <option>Option One
           <option>Option Two
-          <option>Option Three
+          <option disabled>Option Three (disabled)
 
           <optgroup label='Option Group'>
             <option>Option Four
             <option>Option Five
-            <option>Option Six
+          </optgroup>
+        </select>
+
+        <label for=select:required>Select <em>(Required)</em></label>
+        <select required id=select:required title='Select Option'>
+          <option hidden disabled selected value=' '>- select an option -
+          <option>Option One
+          <option>Option Two
+          <option disabled>Option Three (disabled)
+        </select>
+
+        <label for=select:selected>Select <em>(Selected)</em></label>
+        <select id=select:selected title='Select Option'>
+          <option disabled value>- select an option -
+          <option selected>Option One (selected)
+          <option>Option Two
+          <option disabled>Option Three (disabled)
+        </select>
+
+        <label>Select <em>(Disabled)</em>
+          <select disabled title='Select Option (Disabled)'>
+            <option>Option One
+            <option selected>Option Two (Selected)
+          </select>
+        </label>
+
+        <label>Select <em>(With long text)</em>
+          <select width=2 title='Select Option (Disabled)'>
+            <option>Option One
+            <option selected>
+              The quick brown fox jumped over the lazy dog.
+              The quick brown fox jumped over the lazy dog.
+          </select>
+        </label>
+
+        <label for=select:multi>Multi-Select</label>
+        <select multiple id=select:multi size=3 title='Select Multiple Options'>
+          <option selected>Option One (selected)
+          <option>Option Two
+          <option disabled>Option Three (disabled)
+
+          <optgroup label='Option Group'>
+            <option>Option Four
+            <option>Option Five
           </optgroup>
         </select>
 
         <label>Select <em>(Nested in <code>&lt;label&gt;</code>)</em>
           <select title='Select Option'>
+            <option hidden disabled selected value>- select an option -
             <option>Option One
             <option>Option Two
-            <option>Option Three
-          </select>
-        </label>
-
-        <label><em>(Disabled)</em> Select
-          <select disabled title='(Disabled) Select Option'>
-            <option>Option One
+            <option disabled>Option Three (disabled)
           </select>
         </label>
       </fieldset>
