@@ -109,7 +109,6 @@ input[type=email], input[type=tel], input[type=url], input[type=number], input[t
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   width: 100%;
-  padding: 0 1em;
   opacity: 80%;
   border: none;
   line-height: 200%;
