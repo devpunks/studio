@@ -43,6 +43,7 @@ form, fieldset /* children positioning */
   { position: relative }
 form {
   display: flex;
+  max-width: var(--max-width);
   flex-direction: var(--flex-direction)
 }
 form:focus-within {}
