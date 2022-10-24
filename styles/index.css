@@ -93,9 +93,52 @@
 :-moz-focusring
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText }
-:blank, :empty
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:empty */ }
 
+iframe {
+  border: none;
+  background: Canvas
+}
+hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
+  border: 0;
+  height: .15em;
+  opacity: 0.25;
+  max-width: 80vw;
+  overflow: visible;
+  box-sizing: content-box
+}
+
+[href='#main'] { /* skip link */
+  bordr: 0;
+  margin: 0;
+  padding: 0;
+  width: 1px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+  clip-path: inset(50%);
+  clip: rect(0, 0, 0, 0)
+}
+[href='#main']:focus {
+  all: inherit;
+  display: block;
+  outline: dotted 0.1em
+}
+a[href='#'] {
+  opacity: 0.3;
+  padding: 1em;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 2em;
+  text-decoration: none;
+}
+a[href='#']:hover {
+  opacity: 1
+}
+a[href='#']:before {
+  content: '^'
+}
 
 /*
   LAYOUT
