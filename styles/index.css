@@ -359,68 +359,21 @@ meter, progress
 
 
 /* media.css */
+svg {
+  /* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
+  overflow: hidden
+}
 canvas {
-  outline: 1px solid;
+  outline: 1px solid rgba(0,0,0,0.5);
   background: Canvas;
 }
-
 audio, canvas, embed, iframe, img, object, picture, svg, video {
   height: auto;
   display: block;
   max-width: 100%;
   vertical-align: middle;
-  margin: 0 auto 1.612em
-}
-
-iframe {
-  border: none;
-  background: Canvas
-}
-
-hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
-  border: 0;
-  height: .15em;
-  opacity: 0.25;
-  max-width: 80vw;
-  overflow: visible;
-  box-sizing: content-box
-}
-
-svg {
-  /* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
-  overflow: hidden
-}
-[href='#main'] { /* skip link */
-  bordr: 0;
-  margin: 0;
-  padding: 0;
-  width: 1px;
-  height: auto;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  pointer-events: none;
-  clip-path: inset(50%);
-  clip: rect(0, 0, 0, 0)
-}
-[href='#main']:focus {
-  all: inherit;
-  display: block;
-  outline: dotted 0.1em
-}
-a[href='#'] {
-  opacity: 0.3;
-  padding: 1em;
-  display: block;
-  width: fit-content;
-  margin: 0 auto 2em;
-  text-decoration: none;
-}
-a[href='#']:hover {
-  opacity: 1
-}
-a[href='#']:before {
-  content: '^'
+  border-radius: 0.618em;
+  margin: 0 auto 1.612em;
 }
 
 /* PWA RELATED */
