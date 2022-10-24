@@ -435,19 +435,23 @@ input:not([type]):read-only
 /* Styling validation using content
  *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
 */
-:user-valid {}
-:user-invalid {}
+:user-valid { /* https://caniuse.com/mdn-css_selectors_user-valid */ }
+:user-invalid { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
 
-input:invalid, textarea:invalid, input:out-of-range, [aria-invalid=true] {
+input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown), input:out-of-range:not(:placeholder-shown), select:invalid:not(:placeholder-shown), [aria-invalid=true]:not(:placeholder-shown) {
   color: ActiveText;
   cursor: not-allowed
 }
 
-input:valid, input:in-range, [aria-invalid=false] {}
-input:invalid:before, textarea:invalid:before {
-  content: '';
+input:valid::before, input:in-range::before,
+select:valid::before, textarea:invalid::before,, [aria-invalid=false]::before {
+  content: ' ';
 }
-input:valid:before, textarea:valid:before {}
+input:invalid::before, input:out-of-in-range::before,
+select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
+  content: "✖";
+}
+
 label input {
     position: relative;
     top: 1px;
