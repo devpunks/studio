@@ -86,10 +86,8 @@
   background-color:  rgba(0,0,0,0.0618);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-color, ButtonText);
-}
-::-webkit-scrollbar-track:hover {
-  background: blue;
+  outline-color: rgba(0,0,0,0.618);
+  background-color:  rgba(255,255,255,0.618);
 }
 ::before, *:before, ::after, *:after {
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
