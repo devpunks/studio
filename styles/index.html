@@ -738,6 +738,43 @@ class Shape {
         <figcaption>Here is a caption for this image.</figcaption>
       </figure>
 
+      <header><code>&lt;figure&gt;</code> element, with <code>&lt;picture&gt;</code></header>
+      <figure>
+        <picture>
+          <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
+        </picture>
+
+        <figcaption>This is a &lt;picture&gt; wrapped in a &lt;figure&gt;.</figcaption>
+      </figure>
+
+      <header>
+        Wrapped in a <code>&lt;picture&gt;</code> element,
+        with <code>&lt;source&gt;</code>
+        &amp; default <code>&lt;img&gt;</code>
+      </header>
+      <picture>
+        <source title='550 Kitty'
+          sizes=''
+          type='image/jpeg'
+          media='(min-width: 550px)'
+          srcset='http://placekitten.com/550/550 1x,' />
+        <source title='500 Kitty'
+          sizes=''
+          type='image/jpeg'
+          media='(min-width: 500px)'
+          srcset='http://placekitten.com/500/500 1x,' />
+        <source title='450 Kitty'
+          sizes=''
+          type='image/jpeg'
+          media='(min-width: 450px)'
+          srcset='http://placekitten.com/450/450 1x,' />
+
+        <img alt='Kitten placeholder image'
+          src='http://placekitten.com/420/420'
+          sizes=''
+          srcset='http://placekitten.com/420/420 1x,' />
+      </picture>
+
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
 
