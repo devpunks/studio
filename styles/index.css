@@ -388,23 +388,6 @@ meter, progress
 meter {}
 progress {}
 
-/* media.css */
-svg {
-  /* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
-  overflow: hidden
-}
-canvas {
-  outline: 1px solid rgba(0,0,0,0.5);
-  background: Canvas;
-}
-audio, canvas, embed, iframe, img, object, picture, svg, video {
-  height: auto;
-  display: block;
-  max-width: 100%;
-  vertical-align: middle;
-  border-radius: 0.618em;
-  margin: 0 auto 1.612em;
-}
 
 /* PWA RELATED */
 html, body {
