@@ -185,6 +185,24 @@ input:focus, select:focus
 [type=number]::-webkit-outer-spin-button
   { height: auto }
 
+/*
+ * - http://danielstern.ca/range.css
+ * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
+*/
+input[type=range] {
+  border: none;
+  height: 0.618em;
+  padding: 0.618em;
+  cursor: ew-resize;
+  box-shadow: inset 0 0 0.0618em;
+  border-radius: 0.618em;
+}
+[type=range]::-webkit-slider-thumb {
+//  -webkit-appearance: none;
+//  appearance: none;
+}
+[type=range]::-ms-track {}
+
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button
