@@ -52,8 +52,20 @@
 
 /* scrollbars */
 ::-webkit-scrollbar {
-  background: green;
-  color: red;
+  /* entire scrollbar region */
+  width: 1em;
+  background-color: transparent;
+}
+::-webkit-scrollbar:hover {
+ background-color:  rgba(0,0,0,0.0618);
+}
+::-webkit-scrollbar-track {
+  /* entire track region */
+  background-color: transparent;
+};
+}
+::-webkit-scrollbar-track:hover {
+  background-color:  rgba(255,0,0,1);
 }
 ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
   background: var(--primary-color, ButtonFace);
