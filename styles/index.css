@@ -76,11 +76,14 @@
  background-color:  rgba(255,255,255,0.618);
 }
 ::-webkit-scrollbar-thumb {
-  cursor: pointer;
-  border-radius: 0.2em;
-  outline: 1px solid ButtonText;
-  background: var(--primary-color, ButtonFace);
-  box-shadow: 0.0618em 0.0618em 0.1em;
+  /* scrollbar thumb */
+  height: 50vh; /* test scrollbar height */
+
+  border-radius: 0.618em;
+  outline-offset: -0.2em;
+  outline: 0.0618em solid;
+  outline-color: rgba(0,0,0,0.0618);
+  background-color:  rgba(0,0,0,0.0618);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color, ButtonText);
