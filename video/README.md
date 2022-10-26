@@ -1,6 +1,7 @@
 # `video`
 
   - [Video](https://en.wikipedia.org/wiki/Video)
+  - [Video Codecs](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
 
 
 ## Infra Red
