@@ -303,6 +303,7 @@ table {
   counter-reset: table;
   outline-width: 0.4em;
   outline-style: double;
+  border-radius: 0.618em;
   border-collapse: collapse;
   box-shadow: var(--box-shadow)
 }
