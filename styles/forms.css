@@ -116,7 +116,6 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   font-size: var(--larger);
   background: transparent;
   border-bottom: 0.1em solid;
-  background-color: ButtonFace;
   -webkit-user-select: text /* enable text editing */;
 }
 input:focus, select:focus
