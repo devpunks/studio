@@ -29,7 +29,6 @@
     background: #fff !important
   }
 
-@media print {
   html {
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/color-adjust */
     color-adjust: economy;
