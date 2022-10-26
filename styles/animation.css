@@ -1,14 +1,8 @@
 /* animation.css
  *
- * https://css-tricks.com/almanac/properties/a/animation/
- * https://css-tricks.com/almanac/properties/t/transition/
- * https://css-tricks.com/making-css-animations-feel-natural/
- * https://www.smashingmagazine.com/2012/02/mission-transition/
- * https://css-tricks.com/using-multi-step-animations-transitions/
- * transition - https://developer.mozilla.org/en-US/docs/Web/CSS/transition
- * prefers-reduced-motion - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
- * https://openclassrooms.com/en/courses/5625816-create-modern-css-animations/5819321-use-timing-functions-to-create-more-natural-animations
- */
+ * Performance
+ *  - https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#animating_on_the_gpu
+ *  - https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance
 
 @media (prefers-reduced-motion: reduce) {
 
