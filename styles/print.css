@@ -66,7 +66,7 @@
 
   pre, blockquote {
     page-break-inside: avoid;
-    border: 1px solid #999
+    break-inside: avoid;
   }
 
   /* https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables */
