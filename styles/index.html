@@ -780,7 +780,12 @@ class Shape {
 
     <article id=audio>
       <header>Audio</header>
-      <audio controls=''>audio</audio>
+      <audio controls autopictureinpicture
+        preload='metadata' crossorigin='use-credentials' src='http://foo.com/bar.mp4'>
+        <source type='video/mpeg4' src='http://foo.com/bar.mp4'>
+        ⚠️ Unsupported Audio.
+        <a title='download audio' href=#>click to download</a>
+      </audio>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
