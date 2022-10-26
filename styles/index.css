@@ -68,7 +68,8 @@
   background-color:  rgba(255,0,0,1);
 }
 ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
-  background: var(--primary-color, ButtonFace);
+  /* track pieces */
+  background: transparent;
 }
 ::-webkit-scrollbar-track-piece:hover,
 ::-webkit-scrollbar-corner:hover {
