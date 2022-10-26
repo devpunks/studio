@@ -38,9 +38,20 @@
   body * {
     columns: var(--columns)
   }
-  p {
+
+  p, h2, h3, h4, h5, h6 {
     widows:  var(--widows);
-    orphans: var(--orphans)
+    orphans: var(--orphans);
+  }
+  h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    break-after: avoid;
+    break-inside: avoid;
+  }
+  p {
+  column-count: 3;
+  column-rule-style: solid;
   }
   a[href]::after
     { content: ' (' attr(href) ')' }
