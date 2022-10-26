@@ -98,7 +98,7 @@ button, input, select, textarea {
    *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
    */
   -webkit-appearance: none;
-  appearance: none
+  appearance: none;
 }
 
 select,
