@@ -64,7 +64,6 @@
   a[href^='javascript:']::after
     { content: '' }
 
-  /* Page Breaks - https://css-tricks.com/almanac/properties/p/page-break/ */
   pre, blockquote {
     page-break-inside: avoid;
     border: 1px solid #999
