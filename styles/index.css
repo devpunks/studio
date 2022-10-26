@@ -1,6 +1,6 @@
 @import 'forms.css';
-/* @import 'colors.css' screen; */
-/* @import 'images.css'; */
+@import 'icons.css';
+@import 'multimedia.css';
 @import 'typography.css';
 @import 'print.css' print;
 @import 'speech.css' speech;
