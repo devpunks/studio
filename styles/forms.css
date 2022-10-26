@@ -155,7 +155,6 @@ input:focus, select:focus
   [type=search] {
     height: 2em;
     font-size: 1em;
-    color: yellow;
     line-height: 2em;
     border-bottom: none;
     animation: none !important;
