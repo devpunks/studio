@@ -1,6 +1,10 @@
 /* ==========================================================================
    Print styles.
    https://www.phpied.com/delay-loading-your-print-css/
+   https://developer.mozilla.org/en-US/docs/Web/CSS/Paged_Media
+   Page Breaks - https://css-tricks.com/almanac/properties/p/page-break/
+   https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables */
+
    ========================================================================== */
 :root {
   --columns: 1; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
