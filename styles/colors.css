@@ -114,6 +114,9 @@ a.logo, a.logo:link, a.logo:active, a.logo:visited {
   color: var(--color)
 }
 
+p {
+  color: var(--color);
+}
 legend
   { color: inherit; /* IE */ }
 
