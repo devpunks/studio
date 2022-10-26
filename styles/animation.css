@@ -16,6 +16,8 @@
  *
 */
 
+@media (prefers-reduced-motion: reduce) {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion */
   body * {
     animation: none;
     transition: unset
