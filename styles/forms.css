@@ -22,10 +22,7 @@
 }
 
 /* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
-::placeholder {
-  opacity: 61.8%;
-  color: currentColor
-} /* 4.5:1 contrast ratio for ARIA */
+::placeholder {} /* 4.5:1 contrast ratio for ARIA */
 
 /* Remove tapping delay
  *   https://css-tricks.com/almanac/properties/t/touch-action/
