@@ -214,8 +214,6 @@ input[type=range] {
   width: 1.0em;
   height: 1.0em;
   cursor: pointer;
-  /* Set here so that Windows' High-Contrast Mode can override */
-  color: currentColor;
   /* Adjusts the position of the checkboxes on the text baseline */
   vertical-align: middle;
   border: 0.05em solid GrayText;
