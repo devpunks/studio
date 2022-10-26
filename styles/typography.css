@@ -326,7 +326,10 @@ pre {
   margin: 1em;
   padding: 1em;
 }
-
+figcaption {
+  font-size: 86%;
+  font-style: italic;
+}
 
 /* quotes */
 q {
