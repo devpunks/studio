@@ -158,12 +158,10 @@ input:focus, select:focus
     line-height: 2em;
     border-bottom: none;
     animation: none !important;
-    border-color:  rgba(0,0,0,1);
     border-top: 1em solid rgba(0,0,0,0.001);
   }
 [role=search]
   [type=search]:placeholder-shown {
-    background-color: rgba(0,0,0,1);
   }
 
 [role=search]
