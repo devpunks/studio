@@ -7,9 +7,17 @@
 
    ========================================================================== */
 :root {
-  --columns: 1; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
-  --orphans: 3; /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
-  --widows:  3; /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
+  --columns: 1 auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
+  --orphans: 3;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
+  --widows:  3;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
+}
+
+@page { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page*/
+  margin: 10%;
+  size: A4 portrait;
+}
+@page :first {
+  margin:20% 30%;
 }
 
 @media print {
