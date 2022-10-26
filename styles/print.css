@@ -34,6 +34,7 @@
     color-adjust: economy; /* Firefox < 97.0 (2022/02) */
     -webkit-print-color-adjust: economy;
   }
+  body { /* Chrome and Safari do not print backgrounds of the <body> element. */ }
   body * {
     columns: var(--columns)
   }
