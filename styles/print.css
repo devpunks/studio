@@ -1,11 +1,23 @@
 /* ==========================================================================
    Print styles.
    https://www.phpied.com/delay-loading-your-print-css/
+   https://developer.mozilla.org/en-US/docs/Web/CSS/Paged_Media
+   Page Breaks - https://css-tricks.com/almanac/properties/p/page-break/
+   https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables */
+
    ========================================================================== */
 :root {
-  --columns: 1; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
-  --orphans: 3; /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
-  --widows:  3; /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
+  --columns: 1 auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
+  --orphans: 3;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
+  --widows:  3;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
+}
+
+@page { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page*/
+  margin: 10%;
+  size: A4 portrait;
+}
+@page :first {
+  margin:20% 30%;
 }
 
 @media print {
@@ -17,19 +29,31 @@
     background: #fff !important
   }
 
-@media print {
   html {
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/color-adjust */
-    color-adjust: economy;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/print-color-adjust */
+    color-adjust: economy; /* Firefox < 97.0 (2022/02) */
     -webkit-print-color-adjust: economy;
   }
+  body { /* Chrome and Safari do not print backgrounds of the <body> element. */ }
   body * {
     columns: var(--columns)
   }
-  p {
+
+  p, h2, h3, h4, h5, h6 {
     widows:  var(--widows);
-    orphans: var(--orphans)
+    orphans: var(--orphans);
   }
+  h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    break-after: avoid;
+    break-inside: avoid;
+  }
+  p {
+  column-count: 3;
+  column-rule-style: solid;
+  }
+
   a[href]::after
     { content: ' (' attr(href) ')' }
 
@@ -40,25 +64,15 @@
   a[href^='javascript:']::after
     { content: '' }
 
-  /* Page Breaks - https://css-tricks.com/almanac/properties/p/page-break/ */
   pre, blockquote {
     page-break-inside: avoid;
-    border: 1px solid #999
+    break-inside: avoid;
   }
-
-  /* https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables */
   thead
     { display: table-header-group }
 
-  tr, img
-    { page-break-inside: avoid }
-
-  p, h2, h3, h4, h5, h6 {
-    widows: 3;
-    orphans: 3;
+  tr, img {
+    page-break-inside: avoid;
+    break-inside: avoid;
   }
-
-  h2, h3, h4, h5, h6
-    { page-break-after: avoid }
-}
 }

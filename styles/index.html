@@ -15,7 +15,14 @@
 
 <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Banner_role -->
 <header role=banner>
-  <a class=logo title=Devpunks.studio target=_top href=/>devPunks<small>.studio</small></a>
+  <a class=logo title=devPunks.studio target=_top href=/>
+    devPunks<small>.studio</small>
+    <img role=img alt='devPunks.studio'
+      src=''
+      sizes=''
+      srcset=''
+    />
+  </a>
 
   <details open>
     <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role -->
@@ -712,40 +719,85 @@ class Shape {
       <header>Images</header>
 
       <header><code>&lt;img&gt;</code> element</header>
-      <img alt='Kitten placeholder image' src=http://placekitten.com/420/420>
+      <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' >
 
-      <header><code>&lt;img&gt;</code> <em>(with <code>srcset</code>)</em> element</header>
-      <img alt='Kitten placeholder image' src=http://placekitten.com/420/420>
+      <header><code>&lt;img&gt;</code> element <em>(with <code>srcset</code>)</em></header>
+      <img alt='Kitten placeholder image'
+        src='http://placekitten.com/420/420'
+        srcset='http://placekitten.com/420/420 1x,' />
 
-      <header>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></header>
-      <figure><img alt='Kitten placeholder image' src=http://placekitten.com/420/420></figure>
-
-      <header>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></header>
+      <header>Wrapped in a <code>&lt;figure&gt;</code> element</header>
       <figure>
-        <img alt='Image alt text' src=http://placekitten.com/420/420>
+        <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
+      </figure>
+
+      <header>Wrapped in a <code>&lt;figure&gt;</code> element, with <code>&lt;figcaption&gt;</code></header>
+      <figure>
+        <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
 
         <figcaption>Here is a caption for this image.</figcaption>
       </figure>
+
+      <header><code>&lt;figure&gt;</code> element, with <code>&lt;picture&gt;</code></header>
+      <figure>
+        <picture>
+          <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
+        </picture>
+
+        <figcaption>This is a &lt;picture&gt; wrapped in a &lt;figure&gt;.</figcaption>
+      </figure>
+
+      <header>
+        Wrapped in a <code>&lt;picture&gt;</code> element,
+        with <code>&lt;source&gt;</code>
+        &amp; default <code>&lt;img&gt;</code>
+      </header>
+      <picture>
+        <source title='550 Kitty'
+          sizes=''
+          type='image/jpeg'
+          media='(min-width: 550px)'
+          srcset='http://placekitten.com/550/550 1x,' />
+        <source title='500 Kitty'
+          sizes=''
+          type='image/jpeg'
+          media='(min-width: 500px)'
+          srcset='http://placekitten.com/500/500 1x,' />
+        <source title='450 Kitty'
+          sizes=''
+          type='image/jpeg'
+          media='(min-width: 450px)'
+          srcset='http://placekitten.com/450/450 1x,' />
+
+        <img alt='Kitten placeholder image'
+          src='http://placekitten.com/420/420'
+          sizes=''
+          srcset='http://placekitten.com/420/420 1x,' />
+      </picture>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
 
     <article id=audio>
       <header>Audio</header>
-      <audio controls=''>audio</audio>
+      <audio controls autopictureinpicture
+        preload='metadata' crossorigin='use-credentials' src='http://foo.com/bar.mp4'>
+        <source type='video/mpeg4' src='http://foo.com/bar.mp4'>
+        ⚠️ Unsupported Audio.
+        <a title='download audio' href=#>click to download</a>
+      </audio>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
 
     <article id=video>
       <header>Video</header>
-      <video controls
-      src=https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
-      poster=https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217
-      width=620>
-        Sorry, your browser doesn't support embedded videos, but don't worry, you can
-        <a href="https://archive.org/details/BigBuckBunny_124">download</a>
-      and watch with your favorite video player!
+      <video controls autopictureinpicture preload='metadata' crossorigin='use-credentials'
+      src='https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
+      poster='https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217'
+      width=620'>
+        ⚠️ Unsupported Audio.
+        <a title='download video' href=#>click to download</a>
       </video>
 
       <footer><a title='Top of page' href=#>Top</a></footer>

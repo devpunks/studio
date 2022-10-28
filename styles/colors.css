@@ -89,7 +89,9 @@ html {
   color:            var(--color);
   background-color: var(--background-color)
 }
-
+body * {
+  column-rule-color: var(--color);
+}
 body > aside {
   color: var(--background-color);
   background-color: var(--color)
@@ -112,6 +114,9 @@ a.logo, a.logo:link, a.logo:active, a.logo:visited {
   color: var(--color)
 }
 
+p {
+  color: var(--color);
+}
 legend
   { color: inherit; /* IE */ }
 

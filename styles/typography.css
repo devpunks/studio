@@ -1,5 +1,7 @@
 /*
-  - W3C - CSS Fonts https://www.w3.org/TR/css-fonts-4
+  - W3C:
+    - CSS Fonts https://www.w3.org/TR/css-fonts-4
+    - https://w3c.github.io/csswg-drafts/css-fonts/
   - https://zellwk.com/blog/why-vertical-rhythms
   - https://trentwalton.com/2012/06/19/fluid-type/
   - https://varvy.com/mobile/legible-font-size.html
@@ -109,6 +111,11 @@
   }
 }
 
+@font-face { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+//  font-family: '';
+//  src: url('.ttf');
+}
+
 * {
   margin: auto;
   /* https://css-tricks.com/what-you-should-know-about-collapsing-margins/ */
@@ -134,8 +141,9 @@ html {
   font-stretch: normal;
   font-variant: normal;
   font-size-adjust: 0.5;
-  unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   font-feature-settings: normal;
+  unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
+  font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
 }
 
 ::before, ::after
@@ -318,7 +326,10 @@ pre {
   margin: 1em;
   padding: 1em;
 }
-
+figcaption {
+  font-size: 86%;
+  font-style: italic;
+}
 
 /* quotes */
 q {
@@ -330,8 +341,7 @@ q::before
   { content: open-quote }
 q::after
   { content: close-quote }
-
-blockquote {
+blockquote { /* https://isotropic.co/the-best-css-styling-for-blockquotes/ */
   opacity: 80%;
   font-style: italic;
   line-height: 1.618em;

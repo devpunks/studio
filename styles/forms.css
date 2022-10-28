@@ -22,10 +22,7 @@
 }
 
 /* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
-::placeholder {
-  opacity: 61.8%;
-  color: currentColor
-} /* 4.5:1 contrast ratio for ARIA */
+::placeholder {} /* 4.5:1 contrast ratio for ARIA */
 
 /* Remove tapping delay
  *   https://css-tricks.com/almanac/properties/t/touch-action/
@@ -44,7 +41,8 @@ form, fieldset /* children positioning */
 form {
   display: flex;
   max-width: var(--max-width);
-  flex-direction: var(--flex-direction)
+  flex-direction: var(--flex-direction);
+  caret-color: currentcolor; /* https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color */
 }
 form:focus-within {}
 
@@ -100,7 +98,7 @@ button, input, select, textarea {
    *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#appearance_controlling_OS-level_styling
    */
   -webkit-appearance: none;
-  appearance: none
+  appearance: none;
 }
 
 select,
@@ -115,9 +113,9 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   line-height: 200%;
   whitespace: no-wrap;
   margin-bottom: 1.618em;
-  font-size:  var(--larger);
+  font-size: var(--larger);
+  background: transparent;
   border-bottom: 0.1em solid;
-  background-color: ButtonFace;
   -webkit-user-select: text /* enable text editing */;
 }
 input:focus, select:focus
@@ -157,16 +155,13 @@ input:focus, select:focus
   [type=search] {
     height: 2em;
     font-size: 1em;
-    color: yellow;
     line-height: 2em;
     border-bottom: none;
     animation: none !important;
-    border-color:  rgba(0,0,0,1);
     border-top: 1em solid rgba(0,0,0,0.001);
   }
 [role=search]
   [type=search]:placeholder-shown {
-    background-color: rgba(0,0,0,1);
   }
 
 [role=search]
@@ -190,6 +185,24 @@ input:focus, select:focus
 [type=number]::-webkit-outer-spin-button
   { height: auto }
 
+/*
+ * - http://danielstern.ca/range.css
+ * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
+*/
+input[type=range] {
+  border: none;
+  height: 0.618em;
+  padding: 0.618em;
+  cursor: ew-resize;
+  box-shadow: inset 0 0 0.0618em;
+  border-radius: 0.618em;
+}
+[type=range]::-webkit-slider-thumb {
+//  -webkit-appearance: none;
+//  appearance: none;
+}
+[type=range]::-ms-track {}
+
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button
@@ -201,8 +214,6 @@ input:focus, select:focus
   width: 1.0em;
   height: 1.0em;
   cursor: pointer;
-  /* Set here so that Windows' High-Contrast Mode can override */
-  color: currentColor;
   /* Adjusts the position of the checkboxes on the text baseline */
   vertical-align: middle;
   border: 0.05em solid GrayText;
@@ -226,7 +237,6 @@ input:focus, select:focus
   { border-radius: 0.5em }
 [type=radio]:before {
   border-radius: 50%;
-  background: currentColor
 }
 [type=radio]:checked {}
 [type=radio]:checked:before {}
@@ -298,24 +308,6 @@ input[type=file] {
   outline: 0.1em solid
 }
 [type=color]::before {}
-
-/* Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
-input[type=range] {
-  height: 0.3em;
-  cursor: ew-resize;
-  background: currentColor;
-}
-
-/* Style meter & progress
- *   - https://codepen.io/matt-west/pen/bpzEy
- *   - https://css-tricks.com/html5-meter-element/
- *   - https://stackoverflow.com/questions/8094835/how-to-style-html5-meter-tag
- */
-meter, progress
-  { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
-meter {}
-progress {}
-
 
 textarea {
   width: 100%;

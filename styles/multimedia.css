@@ -1,0 +1,46 @@
+/*
+ * multimedia.css
+ *
+ * MDN - https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia
+ * Media type & format guide - https://developer.mozilla.org/en-US/docs/Web/Media/Formats
+ * <img> - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+ * <picture> element - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+ * Responsive Images
+ *  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+ *  - https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
+ * Web Performance - https://developer.mozilla.org/en-US/docs/Web/Performance
+ * Lazy Loading - https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
+ * 
+*/
+
+[loading=lazy] {}
+[loading=eager] {}
+
+iframe {}
+img {
+  object-fit: contain;   /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
+  object-position: auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
+}
+svg {
+  /* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
+  overflow: hidden;
+}
+picture {}
+figure {}
+canvas {
+  background: Canvas;
+}
+iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
+  width: 90%;
+  display: block;
+  margin: 0 auto 1.612em;
+  vertical-align: middle;
+}
+picture img, figure img, canvas, audio, video {
+  border-radius: 0.618em;
+  box-shadow: 0 0 0.218em;
+}
+figure img, picture img, figure picture {
+  margin: 0;
+  width: 100%;
+}

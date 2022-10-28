@@ -1,15 +1,19 @@
-@import 'icons.css';
 @import 'forms.css';
-/* @import 'colors.css' screen; */
-/* @import 'images.css'; */
+@import 'icons.css';
+@import 'multimedia.css';
 @import 'typography.css';
 @import 'print.css' print;
 @import 'speech.css' speech;
+/* @import 'colors.css' screen; */
+@import 'layout.css' screen;
 @import 'animation.css' screen;
 
 /*
   Incomplete list of Mistakes in the Design of CSS
     - https://wiki.csswg.org/ideas/mistakes
+
+  Web Performance - https://developer.mozilla.org/en-US/docs/Web/Performance
+    - CSS Performance - https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS
 
   !important INSPIRATION - https://github.com/twbs/bootstrap/issues/22815
 
@@ -46,29 +50,44 @@
  * - https://css-tricks.com/almanac/selectors/s/selection/
  */
 
+/* scrollbars */
 ::-webkit-scrollbar {
-  background: green;
-  color: red;
+  /* entire scrollbar region */
+  width: 1em;
+  background-color: transparent;
+}
+::-webkit-scrollbar:hover {
+ background-color:  rgba(0,0,0,0.0618);
+}
+::-webkit-scrollbar-track {
+  /* entire track region */
+  background-color: transparent;
+};
+}
+::-webkit-scrollbar-track:hover {
+  background-color:  rgba(255,0,0,1);
 }
 ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
-  background: var(--primary-color, ButtonFace);
+  /* track pieces */
+  background: transparent;
 }
 ::-webkit-scrollbar-track-piece:hover,
 ::-webkit-scrollbar-corner:hover {
-  background: var(--primary-color, ButtonText);
+ background-color:  rgba(255,255,255,0.618);
 }
 ::-webkit-scrollbar-thumb {
-  cursor: pointer;
-  border-radius: 0.2em;
-  outline: 1px solid ButtonText;
-  background: var(--primary-color, ButtonFace);
-  box-shadow: 0.0618em 0.0618em 0.1em;
+  /* scrollbar thumb */
+  height: 50vh; /* test scrollbar height */
+
+  border-radius: 0.618em;
+  outline-offset: -0.2em;
+  outline: 0.0618em solid;
+  outline-color: rgba(0,0,0,0.0618);
+  background-color:  rgba(0,0,0,0.0618);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-color, ButtonText);
-}
-::-webkit-scrollbar-track:hover {
-  background: blue;
+  outline-color: rgba(0,0,0,0.618);
+  background-color:  rgba(255,255,255,0.618);
 }
 ::before, *:before, ::after, *:after {
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
@@ -148,7 +167,7 @@ html {
   width: auto;
   box-sizing: border-box
 }
-*, ::before, ::after, *:before, *:after
+*, ::before, ::after
 /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { box-sizing: inherit }
 
@@ -284,6 +303,7 @@ table {
   counter-reset: table;
   outline-width: 0.4em;
   outline-style: double;
+  border-radius: 0.618em;
   border-collapse: collapse;
   box-shadow: var(--box-shadow)
 }
@@ -357,24 +377,17 @@ details[open] summary
 meter, progress
   { cursor: progress }
 
+/* indicators */
+/* Style meter & progress
+ *   - https://codepen.io/matt-west/pen/bpzEy
+ *   - https://css-tricks.com/html5-meter-element/
+ *   - https://stackoverflow.com/questions/8094835/how-to-style-html5-meter-tag
+ */
+meter, progress
+  { vertical-align: baseline /* Correct vertical alignment in Chrome, Firefox, & Opera. */  }
+meter {}
+progress {}
 
-/* media.css */
-svg {
-  /* SVG overflow bug in IE10/11. See https://github.com/twbs/bootstrap/issues/26878 */
-  overflow: hidden
-}
-canvas {
-  outline: 1px solid rgba(0,0,0,0.5);
-  background: Canvas;
-}
-audio, canvas, embed, iframe, img, object, picture, svg, video {
-  height: auto;
-  display: block;
-  max-width: 100%;
-  vertical-align: middle;
-  border-radius: 0.618em;
-  margin: 0 auto 1.612em;
-}
 
 /* PWA RELATED */
 html, body {

@@ -67,3 +67,15 @@ a[href^=facetime-audio]::before { content: 'F🔈' }
 a[href*='phobos.apple.com']::before /* iTunes */
   { content: '🎵' }
 
+figcaption::before {
+  display: inline-block;
+  width: 1em;
+  content: '⇧';
+  font-size: 1.618em;
+}
+figcaption {
+  opacity: 0.4;
+}
+figure:hover figcaption {
+  opacity: 0.618;
+}
