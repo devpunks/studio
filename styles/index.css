@@ -153,56 +153,6 @@ a[href='#']:before {
   content: '^'
 }
 
-/*
-  LAYOUT
-  boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/
-*/
-html {
-  width: auto;
-  box-sizing: border-box
-}
-*, ::before, ::after
-/* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
-  { box-sizing: inherit }
-
-body,
-body > header,
-body > main,
-body > aside,
-body > footer
-  { max-width: var(--max-width) }
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-body
-  > * {
-    z-index: 0;
-    /* Use for horizontal scrolling and snapping. */
-    overflow-y: auto;
-    overflow-x: hidden
-  }
-body > header {
-  top: 0;
-  z-index: 1;
-  position: -webkit-sticky;
-  position: sticky;
-  background: Canvas
-}
-body > nav summary *
-  { display: inline-block }
-body > main   { flex: 1 }
-body > aside  { }
-body > footer {
-  bottom: 0;
-  z-index: 1;
-  position: sticky;
-  background: Canvas;
-  display: none;
-}
-
 template /* IE custom elements */
   { display: none }
 
