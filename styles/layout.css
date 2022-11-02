@@ -1,14 +1,49 @@
-/* CSS Layouts
- *
- * Generic Layouts:
- *   - Containment - https://w3c.github.io/csswg-drafts/css-contain/
- *   - Columns - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts
- *
- * Flexbox:
- *   - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
- *   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
- *
- * CSS Grid:
- *   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
- *   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+/*
+  @viewport
+    - screen - https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
+    - concepts - https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts
+    - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
+    - Designing websites for iPhone X - https://webkit.org/blog/7929/designing-websites-for-iphone-x/
+    - Adaptivity and Layout - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/
+
+  Generic Layouts:
+    - Containment - https://w3c.github.io/csswg-drafts/css-contain/
+    - Columns - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts
+
+  Flexbox:
+    - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+  CSS Grid:
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
+*, ::before, ::after
+/* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
+  { box-sizing: inherit }
+/* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html { box-sizing: border-box }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body
+  > * { /* all immediate children of <body> */
+    z-index: 0;
+    /* Use for horizontal scrolling and snapping. */
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: var(--max-width);
+  }
+body > header { top: 0 }
+body > main   { flex: 1 }
+body > aside  { }
+body > footer { bottom: 0 }
+body > header,
+body > footer {
+  z-index: 1;
+  position: sticky;
+  /* default background to prevent bleeding of scrolled content */
+  background: Canvas;
+}
