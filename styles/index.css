@@ -8,8 +8,8 @@
 @import 'layout.css' all;
 @import 'print.css' print;
 @import 'speech.css' speech;
-@import 'layout.css' screen;
-@import 'animation.css' screen;
+@import 'animation.css' not print;
+
 
 /*
   Incomplete list of Mistakes in the Design of CSS
@@ -32,6 +32,7 @@
   --text-shadow: var(--shadow);
   --drop-shadow: drop-shadow( var(--shadow) );
 }
+
 
 
 @media screen and (min-width: 1000px) {
