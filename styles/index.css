@@ -1,10 +1,12 @@
-@import 'forms.css';
-@import 'icons.css';
-@import 'multimedia.css';
-@import 'typography.css';
+@charset 'utf-8'; /* https://en.wikipedia.org/wiki/UTF-8 */
+
+@import 'typography.css' layer(typography);
+@import 'forms.css' all;
+@import 'icons.css' all;
+/* @import 'colors.css' screen; */
+@import 'multimedia.css' all; /* should this just be screen? */
 @import 'print.css' print;
 @import 'speech.css' speech;
-/* @import 'colors.css' screen; */
 @import 'layout.css' screen;
 @import 'animation.css' screen;
 
