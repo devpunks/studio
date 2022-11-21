@@ -1,5 +1,7 @@
 # `streams`
 
+  - Transferable Objects - https://developer.mozilla.org/en-US/docs/Glossary/Transferable_objects
+  - The structured clone algorithm - https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm
   - Endianness - https://developer.mozilla.org/en-US/docs/Glossary/Endianness
 
 
