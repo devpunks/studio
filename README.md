@@ -10,7 +10,7 @@
   - R.A.I.L. - https://developers.google.com/web/fundamentals/performance/rail
 
 
-## `index.manifest`
+## [Web Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
 
   w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
 
