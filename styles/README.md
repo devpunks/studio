@@ -7,6 +7,7 @@ See [Style Guide _(index.html)_](index.html) For an example of all styled HTML e
     - https://www.igvita.com/2014/01/31/optimizing-web-font-rendering-performance/#font-load-events
   - CSS `@import` - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
   - CSS `@layer`  - https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
+  - CSS Custom Properties _(Variables)_- https://developer.mozilla.org/en-US/docs/Web/CSS/--*
 
 ## [Using `@media` Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
