@@ -40,6 +40,8 @@
   --a\:hover:         rgba(231,47,188,1.0)
 }
 
+@media (color) { }
+
 /* Changing color schemes (Dark / Light Mode)
  *   Apple     - https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/
  *   Android   - https://www.theverge.com/2019/5/7/18530599/google-android-q-features-hands-on-dark-mode-gestures-accessibility-io-2019
