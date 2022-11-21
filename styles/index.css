@@ -3,7 +3,7 @@
 @import 'typography.css' layer(typography);
 @import 'forms.css' all;
 @import 'icons.css' all;
-/* @import 'colors.css' screen; */
+/* @import 'colors.css' color; */
 @import 'multimedia.css' all; /* should this just be screen? */
 @import 'print.css' print;
 @import 'speech.css' speech;
