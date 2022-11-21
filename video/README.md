@@ -5,7 +5,14 @@
     - [Image Types](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)
     - [Poster Frames](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Support_issues)
   - [Video](https://en.wikipedia.org/wiki/Video)
-  - [Video Codecs](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
+    - [Video Codecs](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
+    - [Creating a Cross Browser Video Player](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/cross_browser_video_player)
+  - [C.C. _(Closed Captioning)_](https://en.wikipedia.org/wiki/Closed_captioning)
+    - [Adding Captions to Video](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
+    - [Web_VTT API](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API)
+  - [Media Type and Format API](https://developer.mozilla.org/en-US/docs/Web/Media/Formats)
+  - [Media Capabilities API](https://developer.mozilla.org/en-US/docs/Web/API/MediaCapabilities)
+  - [Media Container Formats](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Containers)
 
 
 ## Infra Red
