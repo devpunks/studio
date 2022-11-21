@@ -5,6 +5,7 @@ See [Style Guide _(index.html)_](index.html) For an example of all styled HTML e
   - Popular screen resolutions - https://mediag.com/blog/popular-screen-resolutions-designing-for-all/
   - Web Fonts
     - https://www.igvita.com/2014/01/31/optimizing-web-font-rendering-performance/#font-load-events
+  - [CSSOM _(Cascading Style Sheets Object Model)_](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model)
   - Constructable stylesheets
     - https://web.dev/constructable-stylesheets/
     - https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet
