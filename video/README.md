@@ -1,5 +1,9 @@
 # `video`
 
+  - [`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+  - [Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+    - [Image Types](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)
+    - [Poster Frames](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Support_issues)
   - [Video](https://en.wikipedia.org/wiki/Video)
   - [Video Codecs](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
 
