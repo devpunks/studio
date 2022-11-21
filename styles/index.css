@@ -310,6 +310,10 @@ th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
  *   - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
  *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer
  */
+@media (pointer: fine) { /* mouse */ }
+
+@media (pointer: coarse) { /* finger */ }
+
 a
   { cursor: pointer }
 a[rel=search]
