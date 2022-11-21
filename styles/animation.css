@@ -13,11 +13,14 @@
  *  - https://css-tricks.com/using-multi-step-animations-transitions/
  *  - transition - https://developer.mozilla.org/en-US/docs/Web/CSS/transition
  *  - https://openclassrooms.com/en/courses/5625816-create-modern-css-animations/5819321-use-timing-functions-to-create-more-natural-animations
- *
+
+ * Media Queries
+ *   - Media Queries 5 specification
+ *   - https://davidwalsh.name/animate-media-queries
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
 */
 
 @media (prefers-reduced-motion: reduce) {
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion */
   body * {
     animation: none;
     transition: unset
