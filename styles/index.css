@@ -306,7 +306,9 @@ th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
 
 
 /*
- * cursors - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+ * cursors
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer
  */
 a
   { cursor: pointer }
