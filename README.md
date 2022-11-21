@@ -12,7 +12,9 @@
 
 ## [Web Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
 
-  w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
+See [`index.webmanifest`](index.webmanifest)
+
+w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
 
 
 ## `worker.js`
