@@ -5,6 +5,7 @@
 @import 'icons.css' all;
 /* @import 'colors.css' color; */
 @import 'multimedia.css' all; /* should this just be screen? */
+@import 'layout.css' all;
 @import 'print.css' print;
 @import 'speech.css' speech;
 @import 'layout.css' screen;
