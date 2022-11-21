@@ -14,6 +14,8 @@ See [Style Guide _(index.html)_](index.html) For an example of all styled HTML e
   - `orientation` - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation
   - `display-mode` - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode
   - Media Features - https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features
+  - Media Queries Level 4 Specification - https://w3c.github.io/csswg-drafts/mediaqueries-4
+  - Media Queries Level 5 Specification - https://w3c.github.io/csswg-drafts/mediaqueries-5
 
 ## Animations
 
