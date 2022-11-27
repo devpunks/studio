@@ -27,8 +27,8 @@
     "!arm64"
   ],
   "engines": {
-    "npm": "8.x",
-    "node": "16.x"
+    "npm": "9.x",
+    "node": "18.x"
   },
   "keywords": [
     "science",
