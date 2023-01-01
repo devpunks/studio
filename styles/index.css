@@ -224,7 +224,7 @@ dd {}
 details { width: 100% }
 summary {
   opacity: 0.75;
-  list-style: none
+  list-style: none;
 }
 summary::-webkit-details-marker
  { display: none }
