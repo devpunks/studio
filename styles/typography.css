@@ -177,8 +177,12 @@ body > aside {
 }
 body > footer { }
 
-nav
-  { margin-bottom: 1.618em }
+nav {
+  margin-bottom: 1.618em;
+}
+body > nav > details > summary {
+  text-align: var(--text-align)
+}
 body > nav {
   padding-bottom: 1.168em;
   background: rgba(168,168,168, 0.4);
