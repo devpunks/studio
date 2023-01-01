@@ -335,7 +335,6 @@ select, label select {
 select, label select {
   border: none;
   line-height: 200%;
-  font-size: inherit;
   font-weight: normal;
 }
 select[multiple] {
