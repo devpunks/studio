@@ -325,8 +325,6 @@ textarea {
 select, label select {
   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
   word-wrap: normal;
-  font-size: 1.612em;
-  line-height: 1.612em;
   cursor: context-menu;
   text-align: var(--text-align);
   text-align-last: var(--text-align);
