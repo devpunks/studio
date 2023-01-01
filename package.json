@@ -37,7 +37,7 @@
     "music"
   ],
   "workspaces": [
-    "./audio/*"
+    "audio"
   ],
   "bin": {
     "run": "./bin/run"
