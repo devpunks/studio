@@ -330,7 +330,7 @@ select, label select {
   text-overflow: ellipsis;
   text-align: var(--text-align);
   text-align-last: var(--text-align);
-  text-overflow: ellipsis;
+  outline: 0.01em solid rgb(0,0,0,0.5);
 }
 select, label select {
   line-height: 200%;
