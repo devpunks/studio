@@ -2,7 +2,7 @@
 
 @import 'typography.css' layer(typography);
 @import 'forms.css' all;
-@import 'icons.css' all;
+@import 'icons.css' not speech;
 /* @import 'colors.css' color; */
 @import 'multimedia.css' all; /* should this just be screen? */
 @import 'layout.css' all;
