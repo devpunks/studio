@@ -448,8 +448,11 @@ input:not([type]):read-only
   { cursor: not-allowed }
 :read-write {}
 
-[required], [aria-required=true]
-  { /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */ }
+[required], [aria-required=true] {
+  /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */
+
+  opacity: 1.0;
+}
 
 /* Styling validation using content
  *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
