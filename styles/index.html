@@ -14,6 +14,33 @@
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Skip_links -->
 <a title=Skip href=#main>Skip to main content</a>
 
+
+<section id=stacked>
+    <span>Red</span>
+    <span>Green Acres</span>
+    <span>Blue Skies, Barfie Burgers, Girls</span>
+</section>
+
+<style>
+#stacked {
+    display: grid;
+    background: blue;
+    width: 50%;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+#stacked > * {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    outline: 3px dashed;
+    text-align: center;
+    background: white;
+    opacity: .5;
+}
+</style>
+
+
 <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Banner_role -->
 <header role=banner>
   <a class=logo title=devPunks.studio target=_top href=/>
