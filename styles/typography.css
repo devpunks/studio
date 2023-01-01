@@ -184,7 +184,8 @@ body > nav > details > summary {
   text-align: var(--text-align)
 }
 body > nav {
-  padding-bottom: 1.168em;
+  padding: 0;
+  width: 100%;
   background: rgba(168,168,168, 0.4);
 }
 body > nav a {
