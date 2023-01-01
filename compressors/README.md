@@ -21,7 +21,7 @@
   - ...
 
 
-### _(strong)_ 
+### _(strong)_
   `10:1` _(limiter)_ Drum Room
   `20:1` _(limiter)_ See Limiter
 
