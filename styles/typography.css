@@ -19,6 +19,8 @@
 
 :root {
 
+  /* https://julian.is/article/iphone-x-notch/ */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
   --viewport:
     /* https://julian.is/article/iphone-x-notch/ */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
