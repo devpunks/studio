@@ -411,7 +411,6 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
-  -moz-appearance:    button;
   appearance:         button
 }
 ::-moz-file-upload-button {
