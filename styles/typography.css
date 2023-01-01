@@ -188,6 +188,9 @@ body > nav {
   width: 100%;
   background: rgba(168,168,168, 0.4);
 }
+body > nav details[open] {
+  padding-bottom: 1.168em;
+}
 body > nav a {
   margin-left: 0;
   display: inline-block;
