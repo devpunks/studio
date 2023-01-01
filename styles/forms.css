@@ -121,8 +121,8 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   border-bottom: 0.1em solid;
   -webkit-user-select: text /* enable text editing */;
 }
-input:focus, select:focus
-  { opacity: 100% }
+input:focus, select:focus, textarea
+  { opacity: 1.0 }
 
 [type=search] {
     margin: 0;
