@@ -132,7 +132,6 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   background: canvas;
   position: absolute;
   white-space: nowrap;
-  pointer-events: none;
   clip-path: inset(50%);
   clip: rect(0, 0, 0, 0)
 }
