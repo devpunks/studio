@@ -226,7 +226,7 @@ a:hover {
   -webkit-text-decoration-color: ActiveText;
   text-decoration-color: ActiveText;
 }
-a::before {
+a::before, a::after {
   padding: 0 .3em;
   margin: 0 0.168em;
   display: inline-block;
