@@ -129,6 +129,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   z-index: 1000;
   margin: 1.168em;
   overflow: hidden;
+  background: canvas;
   position: absolute;
   white-space: nowrap;
   pointer-events: none;
