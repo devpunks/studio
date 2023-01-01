@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/devpunks/studio/issues"
   },
+  "cpu": [
+    "x64",
+    "!arm64"
+  ],
   "os": [
     "linux",
     "darwin",
