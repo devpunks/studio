@@ -248,11 +248,10 @@ details[open] > summary::after
   { content: 'v' }
 details > summary::after
   { content: '<' }
-nav details > summary::before
-  { content: '📁' }
-nav details[open] > summary::before
-  { content: '📂' }
-nav details > summary::after,
+nav details summary::before,
+nav details > summary::after
+  { content: none }
+nav details[open] > summary::before,
 nav details[open] > summary::after
   { content: none }
 
