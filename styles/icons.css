@@ -11,6 +11,15 @@ a[href^=tel]::before,
 a[href^=sms]::before
   { width: 1.618em }
 
+
+a[rel=license]::before
+  { content: '📝' }
+a[rel=prev]::before
+  { content: '⇦' }
+a[rel=next]::after
+  { content: '⇨' }
+a[rel=search]::before
+  { content: '🔍' }
 a[rel=tag]::before {
   padding: 0;
   content: '#';
