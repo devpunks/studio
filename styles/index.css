@@ -133,7 +133,8 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   position: absolute;
   white-space: nowrap;
   clip-path: inset(50%);
-  clip: rect(0, 0, 0, 0)
+  clip: rect(0, 0, 0, 0);
+  padding: 0.1618em 1.1618em;
 }
 [href='#main']:focus {
   all: inherit;
