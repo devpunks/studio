@@ -69,6 +69,7 @@ legend {
 }
 
 label {
+  width: 100%;
   cursor: pointer;
   font-weight: bolder;
   display: inline-block;
