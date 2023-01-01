@@ -180,7 +180,15 @@ body > footer { }
 
 nav
   { margin-bottom: 1.618em }
-
+body > nav {
+  padding-bottom: 1.168em;
+  background: rgba(168,168,168, 0.4);
+}
+body > nav a {
+  margin-left: 0;
+  display: inline-block;
+  padding: 0 1.168em 0 0.168em;
+}
 
 /* hyperlinks */
 a {
