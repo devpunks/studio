@@ -316,6 +316,7 @@ h1 {
   font-size:   2em;
   line-height: 2em;
 }
+body > h1 { padding-left: 0; }
 
 header {
   font-size: var(--larger);
