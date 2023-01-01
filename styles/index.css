@@ -163,7 +163,28 @@ template /* IE custom elements */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 
-mark {}
+mark {
+  padding: .618em;
+  background: mark;
+  border-radius: 0.618em;
+}
+mark::before,
+mark::after {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+mark::before {
+  content: '[highlight start]'
+}
+
+mark::after {
+  content: '[highlight end]''
+}
 data, var
   { outline 0.01681em dotted currrentColor }
 pre, code, kbd, samp {
