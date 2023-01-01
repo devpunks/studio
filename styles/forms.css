@@ -333,6 +333,7 @@ select, label select {
   outline: 0.01em solid rgb(0,0,0,0.5);
 }
 select, label select {
+  border: none;
   line-height: 200%;
   font-size: inherit;
   font-weight: normal;
