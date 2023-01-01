@@ -415,7 +415,6 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 }
 ::-moz-file-upload-button {
   -webkit-appearance: button;
-  -moz-appearance:    button;
   appearance:         button
 }
 
