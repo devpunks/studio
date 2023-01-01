@@ -23,7 +23,7 @@
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
   --viewport:
     env( safe-area-inset-top, 0.612em )
-    env( safe-area-inset-right, auto )
+    auto
     env( safe-area-inset-bottom, 0.612em )
     env( safe-area-inset-left, auto );
 
