@@ -218,7 +218,6 @@ a {
   /* Instead use this non-standard one: */
   word-break: break-word;
 
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
   -ms-hyphens: auto;
   -moz-hyphens: auto;
