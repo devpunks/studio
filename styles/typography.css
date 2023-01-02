@@ -225,8 +225,7 @@ a {
   hyphens: auto;
 }
 a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: ActiveText;
+  text-decoration-style: solid;
   text-decoration-color: ActiveText;
 }
 a::before, a::after {
