@@ -219,8 +219,8 @@ a {
   word-break: break-word;
 
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
+  /* https://css-tricks.com/almanac/properties/w/word-break/ */
   -webkit-hyphens: auto;
   hyphens: auto;
 }
