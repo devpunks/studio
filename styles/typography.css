@@ -202,7 +202,12 @@ a {
   margin:  .1em;
   padding: .1em;
   display: inline-block;
-  text-decoration: none;
+  text-underline-offset: 0;
+  text-decoration-style: auto;
+  text-decoration-color: transparent;
+  text-decoration-thickness: .168em;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
 
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   /* These are technically the same, but use both */
