@@ -224,7 +224,6 @@ a {
   -webkit-hyphens: auto;
   hyphens: auto;
 }
-
 a:hover {
   text-decoration: underline;
   -webkit-text-decoration-color: ActiveText;
