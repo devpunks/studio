@@ -434,11 +434,10 @@ blockquote::before {
   margin-top: 0.01618em;
 }
 blockquote:after {
-  content: "\2013 \2003" attr(cite);
-  display: block;
-  text-align: right;
-  font-size: 0.875em;
-  color: #e74c3c;
+  opacity: 40%;
+  position: relative;
+  content: '⤷\2002' attr(cite);
+  transform: translateY(-1.618rem);
 }
 
 
