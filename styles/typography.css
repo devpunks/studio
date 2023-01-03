@@ -419,6 +419,10 @@ blockquote::before {
   height: 0.618em;
   font-size: 420%;
   text-align: left;
+  position: absolute;
+  content: open-quote;
+  margin-top: -0.418em;
+  line-height: 1.218em;
 }
 cite {
   opacity: 75%;
