@@ -414,6 +414,9 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote::before {
+  line-height: 1.218em;
+  position: absolute;
+  margin-top: -0.418em;
   opacity: 60%;
   display: block;
   background: red;
