@@ -383,6 +383,9 @@ progress {}
 
 
 /* PWA RELATED */
+/* https://caniuse.com/user-select-none */
+/* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
+/* https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/DragAndDrop.html#//apple_ref/doc/uid/30001233-178644 */
 html, body {
   -webkit-user-select:         none;  /* Chrome all / Safari all */
   -moz-user-select:            none;  /* Firefox all */
