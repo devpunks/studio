@@ -405,7 +405,7 @@ body > footer
   { -webkit-transform: translatez(0) }
 body > main
   { -webkit-overflow-scrolling: touch }
-body >aside
+body > aside
   { -webkit-transform: translatez(0) }
 body >footer
   { -webkit-transform: translatez(0) }
