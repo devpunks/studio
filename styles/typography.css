@@ -398,7 +398,11 @@ q::before
   { content: open-quote }
 q::after
   { content: close-quote }
-blockquote { /* https://isotropic.co/the-best-css-styling-for-blockquotes/ */
+/*
+  - http://webtypography.net/2.3.3
+  - https://isotropic.co/the-best-css-styling-for-blockquotes/
+*/
+blockquote {
   opacity: 80%;
   font-style: italic;
   line-height: 1.618em;
