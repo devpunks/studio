@@ -171,8 +171,10 @@ html {
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { text-decoration: inherit }
 
-body
-  { margin: 0 auto }
+body {
+  margin: 0 auto;
+  text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering/ */
+}
 
 body > * {
   margin: var(--margin);
