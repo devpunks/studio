@@ -265,21 +265,6 @@ a {
   text-decoration-thickness: .168em;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
-
-  /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  -ms-word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
-  /* https://css-tricks.com/almanac/properties/w/word-break/ */
-  -webkit-hyphens: auto;
-  hyphens: auto;
 }
 a:hover {
   text-decoration-style: solid;
