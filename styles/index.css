@@ -121,6 +121,10 @@ html {}
 html:focus-within {
   scroll-behavior: smooth;
 }
+/* SCROLL SNAPPING
+  - https://drafts.csswg.org/css-scroll-snap-1/
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
+*/
 body {
 }
 iframe {
