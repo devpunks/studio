@@ -431,9 +431,7 @@ blockquote::before {
   height: 2.1618rem;
   position: absolute;
   content: open-quote;
-  line-height: 1em;
-  transform: translate(-50%, -50%);
-  font-family: 'PT Sans';
+  margin-top: 0.01618em;
 }
 blockquote:after {
   content: "\2013 \2003" attr(cite);
