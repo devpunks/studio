@@ -133,7 +133,6 @@
   src:
     local('chalk') tech(color-COLRv1),
     local('chalk-bold') format('truetype'),
-    url('chalk.ttf') format('truetype');
 */
 }
 
