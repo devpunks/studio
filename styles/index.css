@@ -115,6 +115,9 @@ html {}
 html:focus-within {
   scroll-behavior: smooth;
 }
+body {
+  min-height: 100vh;
+}
 iframe {
   border: none;
   background: Canvas
