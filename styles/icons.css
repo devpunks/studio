@@ -23,6 +23,8 @@ a[rel=prev]::before
   { content: '⇦' }
 a[rel=next]::after
   { content: '⇨' }
+a[rel=pingback]::before
+  { content: '⥹' }
 a[rel=search]::before
   { content: '🔍' }
 a[rel=tag]::before {
