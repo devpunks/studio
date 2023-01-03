@@ -119,6 +119,7 @@ html, body {
 }
 html {}
 html:focus-within {
+  /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */
   scroll-behavior: smooth;
 }
 /* SCROLL SNAPPING
