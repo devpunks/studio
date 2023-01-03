@@ -120,6 +120,7 @@
   { text-shadow: none }
 
 @font-face { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+  font-weight: 300;
   font-family: chalk;
   font-style: normal;
   font-weight: 300;
