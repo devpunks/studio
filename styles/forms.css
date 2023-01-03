@@ -259,11 +259,13 @@ appearance: revert;
 [aria-pressed=true]  {}
 [aria-pressed=false] {}
 
-/* [role=switch]
- *   - https://github.com/whatwg/html/issues/5625
- *   - https://inclusive-components.design/toggle-button/
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role
- *   - https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/
+
+/* CSS TOGGLES [role=switch]
+  - PROPOSAL - https://github.com/w3c/csswg-drafts/issues/6991
+  - https://github.com/whatwg/html/issues/5625
+  - https://inclusive-components.design/toggle-button/
+  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role
+  - https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/
  */
 [type=checkbox].toggle {
   width: 2em;
