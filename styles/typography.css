@@ -316,6 +316,7 @@ nav dt + dd, nav li li:first-of-type
   { margin-top: 0 }
 
 abbr {
+  /* http://webtypography.net/3.2.2 */
   font-style: normal;
   font-variant-caps: all-small-caps;
   font-variant-numeric: oldstyle-nums;
