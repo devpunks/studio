@@ -281,6 +281,7 @@ nav li details[open] > summary::before
  *   - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
  */
 table {
+  /* TODO: FIX HEIGHT FROM 100vh */
   height: 100vh;
   display: block;
   width: inherit;
