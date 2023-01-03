@@ -71,7 +71,9 @@
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
   /* https://css-tricks.com/snippets/css/system-font-stack/ */
-  /* https://devhints.io/css-system-font-stack */--font-family:var(--system-ui);--font-family: chalk;
+  /* https://devhints.io/css-system-font-stack */
+  --font-family: var(--system-ui);
+  --font-family: chalk;
 
   --font-family-serif:
     ui-serif;
