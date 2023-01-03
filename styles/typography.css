@@ -58,19 +58,28 @@
 
   --p-margin: 0 1.4em 1.618em;
 
-  --font-family:
-    system-ui,
-    -apple-system,            /* macOS 10.11-10.12 */
-    'segoe ui', Segoe,        /* Windows 6+ */
-    'RobotoRegular', roboto,  /* Android 4+ */
-    ubuntu,                   /* Ubuntu 10.10+ */
-    cantarell,           /* Gnome 3+ */
-    'noto sans',         /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
-    sans-serif,          /* fallback */
-    'Apple Color Emoji', /* macOS emoji */
-    'Segoe UI Emoji',    /* Windows emoji */
-    'Segoe UI Symbol',   /* Windows emoji */
-    'Noto Color Emoji';  /* Linux emoji */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
+  /* https://css-tricks.com/snippets/css/system-font-stack/ */
+  /* https://devhints.io/css-system-font-stack */--font-family:var(--system-ui);--font-family: chalk;
+
+  --font-family-serif:
+    ui-serif;
+
+  --system-ui:
+    system-ui,   /* https://caniuse.com/font-family-system-ui */-apple-system,           /* macOS 10.11-10.12 */
+    BlinkMacSystemFont,      /* macOSX, Chrome */
+    'segoe ui', segoe,       /* Windows 6+ */
+    'RobotoRegular', roboto, /* Android 4+ */
+    helvetica, arial,        /* Windows, macOSX, Linux defaults */
+    ubuntu,                  /* Ubuntu 10.10+ */
+    cantarell,               /* Gnome 3+ */
+    'noto sans', oxygen,     /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
+    ui-sans-serif, sans-serif, /* fallback */
+    'Apple Color Emoji',     /* macOS emoji */
+    'Segoe UI Emoji',        /* Windows emoji */
+    'Segoe UI Symbol',       /* Windows emoji */
+    'Noto Color Emoji',      /* Linux emoji */
+    emoji;                   /* 🤷 */
 
   --font-family-mono:
     menlo, sfmono-regular,
