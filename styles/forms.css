@@ -335,7 +335,7 @@ select, label select {
   text-overflow: ellipsis;
   text-align: var(--text-align);
   text-align-last: var(--text-align);
-  outline: 0.01em solid rgb(0,0,0,0.5);
+  outline: 0.01em solid;
 }
 select, label select {
   border: none;
