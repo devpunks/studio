@@ -381,8 +381,11 @@ em {
 }
 b, strong
   { font-weight: bolder }
-p
-  { margin: var(--p-margin) }
+p {
+  /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why/ */
+  font-size: 81%;  /* 16x0.81=13 */
+  margin: var(--p-margin);
+}
 
 pre, code, kbd, samp {
   top: 0.318em;
