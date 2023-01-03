@@ -448,7 +448,7 @@ blockquote:after {
 cite {
   opacity: 75%;
   font-weight: bolder;
-  white-space: nowrap
+  white-space: nowrap;
 }
 cite::before{
   color: black;
