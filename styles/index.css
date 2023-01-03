@@ -235,6 +235,9 @@ pre code {
  * https://drafts.csswg.org/css-lists-3/
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
+ul[role=list] {
+  list-style: none; /* https://piccalil.li/blog/a-modern-css-reset/ */
+}
 ul, ol
   { list-style-position: inside }
 ul ul, ol ol
