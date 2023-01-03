@@ -394,7 +394,10 @@ figcaption {
 
 /* quotes */
 q {
-  quotes: '“' '”' '‘' '’';
+  display: inline;
+  font-style: italic;
+  line-height: 1.618em;
+  margin: var(--p-margin);
   font-size: var(--smaller);
   font-style: italic
 }
