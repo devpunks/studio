@@ -450,6 +450,9 @@ cite::before{
   color: black;
   content: ' -\2002' /* https://en.wikipedia.org/wiki/Dash */
 }
+blockquote cite {
+  font-size: 1.618em;
+}
 q + cite {
   font-size: 70%;
   font-weight: normal
