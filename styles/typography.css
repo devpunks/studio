@@ -411,6 +411,7 @@ blockquote {
   margin-left: var(--line-height);
   margin-top: var(--line-height);
   font-size: var(--larger);
+  quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote::before {
   opacity: 60%;
