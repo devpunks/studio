@@ -417,7 +417,7 @@ blockquote {
   font-style: italic;
   border: 0.01618em solid;
   margin: var(--p-margin);
-  quotes: "\201C""\201D""\2018""\2019";
+  font-size: var(--larger);
   margin-top: var(--line-height);
 }
 blockquote:before {
