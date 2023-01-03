@@ -407,7 +407,6 @@ blockquote {
   background: blue;
   opacity: 80%;
   font-style: italic;
-  line-height: 1.618em;
   margin: var(--margin);
   font-size: var(--larger);
 }
