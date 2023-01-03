@@ -126,6 +126,7 @@ html:focus-within {
   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
 */
 body {
+  scroll-snap-type: y mandatory;
 }
 iframe {
   border: none;
