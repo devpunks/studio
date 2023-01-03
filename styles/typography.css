@@ -84,8 +84,7 @@
   --font-family-mono:
     menlo, sfmono-regular,
     menlo, monaco, consolas, /* macOS 10.10+ */
-    consolas,                /* Windows 6+ */
-    'Roboto Mono',           /* Android 4+ */
+    consolas,                /* Windows 6+ */'Roboto Mono',           /* Android 4+ */
     'Ubuntu Monospace',      /* Ubuntu 10.10+ */
     'Noto Mono',             /* KDE Plasma 5+ */
     'Oxygen Mono',           /* KDE Plasma 4+ */
