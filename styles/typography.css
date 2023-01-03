@@ -442,6 +442,18 @@ blockquote:before {
   transform: translate(-50%, -50%);
   font-family: 'PT Sans';
 }
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: #e74c3c;
+}
+
+
+
+
+
 cite {
   opacity: 75%;
   font-weight: bolder;
