@@ -220,7 +220,6 @@ pre, code, kbd, samp {
 pre {
   opacity: 0.618;
   display: block;
-  display: flex;
 }
 code { }
 pre code {
