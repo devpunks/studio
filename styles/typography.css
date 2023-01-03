@@ -401,6 +401,7 @@ q {
   font-size: var(--smaller);
   quotes: "\201C""\201D""\2018""\2019";
 }
+q q { margin: 0; }
 q::before
   { content: open-quote }
 q::after
