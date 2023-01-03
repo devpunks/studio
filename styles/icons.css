@@ -14,8 +14,11 @@ a[href^=sms]::before
 
 a[rel=external]::before
   { content: '🌐' }
-a[rel=help]::after
-  { content: '❓' }
+a[rel=help]::after {
+  margin: 0;
+  padding: 0;
+  content: '❓';
+}
 address a[rel=help]::after
   { content: '' }
 a[rel=license]::before
