@@ -397,7 +397,7 @@ pre, p, q, cite, blockquote, address {
   -webkit-tap-highlight-color: transparent
 }
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body >footer
+body > footer
   { -webkit-transform: translatez(0) }
 body > main
   { -webkit-overflow-scrolling: touch }
