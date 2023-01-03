@@ -396,6 +396,7 @@ pre {
 pre code {
   margin-bottom: var(--line-height);
 }
+
 figcaption {
   font-size: 86%;
   font-style: italic;
