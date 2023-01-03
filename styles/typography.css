@@ -438,8 +438,9 @@ blockquote:before {
   background: red;
   position: absolute;
   content: open-quote;
-  margin-top: -0.418em;
-  line-height: 1.218em;
+  line-height: 1em;
+  transform: translate(-50%, -50%);
+  font-family: 'PT Sans';
 }
 cite {
   opacity: 75%;
