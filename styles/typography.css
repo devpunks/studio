@@ -50,7 +50,7 @@
 
   --line-height: 1.618em; /* https://en.wikipedia.org/wiki/Golden_ratio */
 
-  --word-spacing: -0.1681em;
+  --word-spacing: -0.1681em; /* http://webtypography.net/2.1.1 */
 
   --text-size-adjust: 100%; /* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
 
