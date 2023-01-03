@@ -261,7 +261,7 @@ input[type=range] {
 [aria-pressed=false] {}
 
 
-/* CSS TOGGLES [role=switch]
+/* CSS TOGGLES [role=switch] https://tabatkins.github.io/css-toggle/
   - *** https://blog.logrocket.com/advanced-guide-css-toggle-pseudo-class/
   - https://www.lambdatest.com/blog/top-20-css-toggle-switches-with-examples/
   - PROPOSAL - https://github.com/w3c/csswg-drafts/issues/6991
