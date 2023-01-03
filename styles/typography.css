@@ -424,7 +424,7 @@ blockquote::before {
   font-size: 420%;
   height: 0.618em;
   content: open-quote;
-  margin-bottom: -.4em
+  text-align: left;
 }
 cite {
   opacity: 75%;
