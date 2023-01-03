@@ -54,6 +54,7 @@
   --word-spacing: -0.1681em; /* http://webtypography.net/2.1.1 */
 
   /*
+   - CHROME AUTO-RESIZING - https://docs.google.com/document/d/1PPcEwAhXJJ1TQShor29KWB17KJJq7UJOM34oHwYP3Zg/edit
    - https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/AdjustingtheTextSize/AdjustingtheTextSize.html#//apple_ref/doc/uid/TP40006510-SW16
    - Prevent adjustments of font size after orientation changes in iOS and mobile firefox.
    - https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
