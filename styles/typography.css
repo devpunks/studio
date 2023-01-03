@@ -44,9 +44,7 @@
 
   --margin: 0.67em auto;
 
-  --line-height: 1.618em;
-
-  --letter-spacing: 0.0681em; /* https://css-tricks.com/almanac/properties/l/letter-spacing/ */
+  --line-height: 1.618em; /* https://en.wikipedia.org/wiki/Golden_ratio */
 
   --word-spacing: -0.1681em;
 
