@@ -457,7 +457,7 @@ svg {
 address {
   font-style: normal;
   line-height: inherit;
-  margin-bottom: 1.618em
+  margin: var(--p-margin);
 }
 
 /* Table styling
