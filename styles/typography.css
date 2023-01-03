@@ -177,6 +177,29 @@ html {
   font-variant-numeric: slashed-zero; /* https://css-tricks.com/almanac/properties/f/font-variant-numeric/ */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
+
+
+  /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+  /* https://css-tricks.com/almanac/properties/w/word-break/ */
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars */
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  /* https://css-tricks.com/almanac/properties/h/hyphenate/ */
+  -webkit-hyphenate-limit-chars: 10 3 4;  /* not yet supported */ 
+  -moz-hyphenate-limit-chars: 10 3 4;     /* not yet supported */ 
+  hyphenate-limit-chars: 10 3 4;
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 ::before, ::after
