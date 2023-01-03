@@ -462,7 +462,9 @@ p cite {
 }
 q + cite {
   font-size: 70%;
-  font-weight: normal
+  position: relative;
+  font-weight: normal;
+  display: inline-block;
 }
 
 del::before, ins::before
