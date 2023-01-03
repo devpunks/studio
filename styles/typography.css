@@ -445,13 +445,14 @@ cite {
   font-weight: bolder;
   white-space: nowrap
 }
-cite::before
-  { content: ' — ' /* https://en.wikipedia.org/wiki/Dash */ }
-q
-  + cite {
-    font-size: 70%;
-    font-weight: normal
-  }
+cite::before{
+  color: black;
+  content: ' -\2002' /* https://en.wikipedia.org/wiki/Dash */
+}
+q + cite {
+  font-size: 70%;
+  font-weight: normal
+}
 
 del::before, ins::before
   { font-family: var(--font-family-mono) }
