@@ -356,9 +356,10 @@ h1, h2, h3, h4, h5, h6, header {
 }
 h1 {
   /* TODO: calc () */
-  font-size:   2em;
-  line-height: 2em;
+  font-size: 2em;
+  line-height: 1.618em;
 }
+
 body > h1 { padding-left: 0; }
 
 header {
