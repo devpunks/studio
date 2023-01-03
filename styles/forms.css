@@ -478,4 +478,5 @@ select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
 
 label input {
   top: 1px;
+  position: relative;
 }
