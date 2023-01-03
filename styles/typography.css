@@ -162,6 +162,7 @@ html {
   font-variant: normal;
   font-size-adjust: 0.5;
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
+  font-feature-settings: normal;
 }
 
 ::before, ::after
