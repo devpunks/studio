@@ -114,6 +114,7 @@
   font-style: normal;
   font-weight: 300;
   src: url(chalk.ttf);
+  font-stretch: 1% 500%; /* Required by Chrome */
 /*
   src:
     local('chalk') tech(color-COLRv1),
@@ -148,7 +149,6 @@
 
 html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
-
   font-size:      var(--font-size);
   text-align:     var(--text-align);
   font-family:    var(--font-family);
