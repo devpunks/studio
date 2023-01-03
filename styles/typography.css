@@ -366,7 +366,6 @@ header {
   /* http://webtypography.net/3.2.2 */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
   font-variant-caps: small-caps;
-//  text-transform: uppercase;
 }
 header *
   { text-transform: initial }
