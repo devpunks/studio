@@ -53,6 +53,7 @@
     break-after: avoid;
     break-inside: avoid;
   }
+
   p {
   column-count: 3;
   column-rule-style: solid;
