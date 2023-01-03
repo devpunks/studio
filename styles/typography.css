@@ -419,6 +419,7 @@ blockquote::before {
   margin-top: -0.418em;
   opacity: 60%;
   display: block;
+  width: 0.618em;
   background: red;
   font-size: 300%;
   content: open-quote;
