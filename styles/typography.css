@@ -104,6 +104,19 @@
 ::selection
   { text-shadow: none }
 
+@font-face { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+  font-family: chalk;
+  font-style: normal;
+  font-weight: 300;
+  src: url(chalk.ttf);
+/*
+  src:
+    local('chalk') tech(color-COLRv1),
+    local('chalk-bold') format('truetype'),
+    url('chalk.ttf') format('truetype');
+*/
+}
+
 /*
   - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
 */
