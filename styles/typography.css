@@ -206,7 +206,7 @@ body > header { }
 body > main   { }
 body > aside {
   font-size: 90%;
-  line-height: 1.45em; /* 90% of 1.618em */ 
+  line-height: 1.45em; /* 90% of 1.618em */
   background: rgba(168,168,168, 0.168);
 }
 body > footer { }
