@@ -473,7 +473,7 @@ select:valid::before, textarea:invalid::before,, [aria-invalid=false]::before {
 }
 input:invalid::before, input:out-of-in-range::before,
 select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
-  content: "✖";
+  content: '✖';
 }
 
 label input {
