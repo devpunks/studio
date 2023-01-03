@@ -386,8 +386,8 @@ pre, code, kbd, samp {
   position: relative;
   padding: 0 0.618em;
   display: inline-block;
-  background: rgba(0,0,0,0.1);
-  font-family: var(--font-family-mono)
+  background: rgba(0,0,0,0.01);
+  font-family: var(--font-family-mono);
 }
 pre {
   margin: 1em;
