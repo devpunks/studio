@@ -1,0 +1,63 @@
+/* accessibility.css
+ * 
+ * ARIA Roles - https://www.w3.org/WAI/PF/aria/roles
+ * WAI-ARIA guide - https://github.com/w3c/aria-practices
+ * User Agent implementation guide - https://www.w3.org/WAI/PF/aria-implementation/#def_accessibility_api
+ * Focus Indicators - https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/
+ * Aria Roles States and Properties - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques
+ *
+ * Tools
+ *   - Accessibility Inspector - https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector
+ *   - Keyboard - https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard
+ *   - Handling Accessibility Problems
+ *     - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility
+ *
+ * MS High Contrast
+ *   - http://www.gwhitworth.com/blog/2017/04/how-to-use-ms-high-contrast/
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast
+ */
+
+@media screen and (-ms-high-contrast: active)
+  { /* All high contrast styling rules */ }
+@media screen and (-ms-high-contrast: black-on-white)
+  { /* Rules for users using black-on-white */ }
+@media screen and (-ms-high-contrast: white-on-black)
+  { /* Rules for users using white-on-black */ }
+
+/* LANDMARKS */
+[role=banner] {}
+[role=search] {}
+[role=main]   {}
+[role=form]   {}
+[role=contentinfo] {}
+[role=application] {}
+
+
+[tabindex='-1']:focus
+  { outline: 0 }
+[aria-controls]
+  { cursor: pointer }
+[aria-busy=true]
+  { cursor: progress }
+[aria-disabled=true]
+  { cursor: not-allowed }
+[hidden], [aria-hidden=true], .hidden  {
+  /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 1px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+  clip-path: inset(50%);
+  clip: rect(0, 0, 0, 0)
+}
+
+
+/* Pointer events - USE TO DISABLE RIGHT CLICK!
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
+*/
+// html * { pointer-events: none }
