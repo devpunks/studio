@@ -111,6 +111,10 @@
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText }
 
+html, body {
+  min-width:  100vw;
+  min-height: 100vh;
+}
 html {}
 html:focus-within {
   scroll-behavior: smooth;
