@@ -390,8 +390,11 @@ pre, code, kbd, samp {
   font-family: var(--font-family-mono);
 }
 pre {
-  margin: 1em;
-  padding: 1em;
+  text-align: left;
+  margin: var(--p-margin);
+}
+pre code {
+  margin-bottom: var(--line-height);
 }
 figcaption {
   font-size: 86%;
