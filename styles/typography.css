@@ -415,6 +415,7 @@ blockquote::before {
 */
 
 blockquote {
+  /* http://webtypography.net/2.3.3 */
   opacity: 85%;
   font-style: italic;
   margin: var(--margin);
