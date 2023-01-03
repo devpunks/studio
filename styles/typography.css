@@ -172,7 +172,7 @@ html {
   font-variant-emoji: emoji; /* Firefox - https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-variant-numeric: slashed-zero; /* https://css-tricks.com/almanac/properties/f/font-variant-numeric/ */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
-  font-feature-settings: normal;
+  font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
 }
 
 ::before, ::after
