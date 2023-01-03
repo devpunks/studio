@@ -462,8 +462,9 @@ input:not([type]):read-only
 :user-invalid { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
 
 input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown), input:out-of-range:not(:placeholder-shown), select:invalid:not(:placeholder-shown), [aria-invalid=true]:not(:placeholder-shown) {
-  color: ActiveText;
-  cursor: not-allowed
+  accent-color: ActiveText;
+  color:        ActiveText;
+  cursor:       not-allowed;
 }
 
 input:valid::before, input:in-range::before,
