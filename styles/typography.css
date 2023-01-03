@@ -314,6 +314,12 @@ nav dd, nav li li
   { font-size: 1em }
 nav dt + dd, nav li li:first-of-type
   { margin-top: 0 }
+
+abbr {
+  font-style: normal;
+  font-variant-caps: all-small-caps;
+  font-variant-numeric: oldstyle-nums;
+}
 abbr[title] {
   border-bottom: 0;
   text-decoration-skip-ink: none;
