@@ -157,7 +157,6 @@ html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   font-size:      var(--font-size);
   text-align:     var(--text-align);
-  font-family:    var(--font-family);
   line-height:    var(--line-height);
   word-spacing:   var(--word-spacing);
   letter-spacing: var(--letter-spacing);
