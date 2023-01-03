@@ -89,7 +89,8 @@
     'Noto Mono',             /* KDE Plasma 5+ */
     'Oxygen Mono',           /* KDE Plasma 4+ */
     'Liberation Mono',       /* Linux/OpenOffice fallback */
-    monospace;               /* fallback */
+    Courier,                 /* typewriter */
+    ui-monospace, monospace; /* fallback */
 
   /* Margin collapse bugfix:
    *   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
