@@ -1,11 +1,10 @@
-/*
- * CSS Colors Adjust - https://www.w3.org/TR/css-color-adjust-1
- * CSS colors - https://www.w3.org/TR/2018/REC-css-color-3-20180619/
- * <color> Values https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
- * Native color chart - https://www.w3.org/TR/2018/REC-css-color-3-20180619/#svg-color
- * CSS UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
- * CSS4 System Colors - https://www.w3.org/TR/css-color-4/#css-system-colors
- * forced-colors  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
+/* colors.css
+
+  - CSS System Colors
+    - https://www.w3.org/TR/css-color-3/#css-system
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#System_Colors
+    - * CSS4 UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
+    - * CSS4 System Colors - https://www.w3.org/TR/css-color-4/#css-system-colors
 
    - ActiveText - Text in active links
    - ButtonFace - The face background color for push buttons.
