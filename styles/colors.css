@@ -19,14 +19,29 @@
    - LinkText - Text in non-active, non-visited links.
    - VisitedText - Text in visited links.
 
-   Black     - https://en.wikipedia.org/wiki/Black
-   Gainsboro - https://en.wikipedia.org/wiki/Shades_of_gray#Gainsboro
-   Grey      - https://en.wikipedia.org/wiki/Shades_of_gray
-   Magenta   - https://en.wikipedia.org/wiki/Shades_of_magenta
 
-  * mix-blend-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
-  *   - ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=970285
-  */
+  - CSS <color> Values
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+
+  - CSS Native Colors
+    - https://www.w3.org/TR/css-color-3/#svg-color
+
+    Black     - https://en.wikipedia.org/wiki/Black
+    Gainsboro - https://en.wikipedia.org/wiki/Shades_of_gray#Gainsboro
+    Grey      - https://en.wikipedia.org/wiki/Shades_of_gray
+    Magenta   - https://en.wikipedia.org/wiki/Shades_of_magenta
+
+
+  - CSS COLRv1
+    - https://css-tricks.com/colrv1-and-css-font-palette-web-typography/
+
+  - CSS Colors Adjust - https://www.w3.org/TR/css-color-adjust-1
+  - forced-colors  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
+  - mix-blend-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+    - ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=970285
+
+*/
 
 :root {
   --background-color: rgba(10,10,10, 0.8);
