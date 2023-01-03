@@ -123,7 +123,6 @@
   font-family: chalk;
   font-style: normal;
   font-weight: 300;
-  src: url(chalk.ttf);
   font-stretch: 1% 500%; /* Required by Chrome */
 /*
   src:
