@@ -211,8 +211,8 @@ input[type=range] {
   -webkit-appearance: button
 }
 
-/* checks, radios, & toggles */
-[type=radio], [type=checkbox] {
+/* checksboxes & radios */
+[type=checkbox], [type=radio] {
   margin: 0;
   width: 1.0em;
   height: 1.0em;
