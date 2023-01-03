@@ -39,6 +39,7 @@
     columns: var(--columns)
   }
 
+  /* Page breaking - http://webtypography.net/2.4.8*/
   p, h2, h3, h4, h5, h6 {
     widows:  var(--widows);
     orphans: var(--orphans);
