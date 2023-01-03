@@ -406,7 +406,7 @@ q::before
   { content: open-quote }
 q::after
   { content: close-quote }
-
+p q { margin: 0 }
 
 /*
   - http://webtypography.net/2.3.3
