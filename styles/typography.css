@@ -382,7 +382,8 @@ p
   { margin: var(--p-margin) }
 
 pre, code, kbd, samp {
-  text-align: start;
+  top: 0.618em;
+  position: relative;
   padding: 0 0.618em;
   display: inline-block;
   background: rgba(0,0,0,0.1);
