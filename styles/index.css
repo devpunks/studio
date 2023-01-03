@@ -1,5 +1,6 @@
 @charset 'utf-8'; /* https://en.wikipedia.org/wiki/UTF-8 */
 
+@import 'accessibility.css' not print;
 @import 'typography.css' layer(typography);
 @import 'forms.css' all;
 @import 'icons.css' not speech;
