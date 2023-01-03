@@ -408,6 +408,8 @@ blockquote {
   opacity: 80%;
   font-style: italic;
   margin: var(--margin);
+  margin-left: var(--line-height);
+  margin-top: var(--line-height);
   font-size: var(--larger);
 }
 blockquote::before {
