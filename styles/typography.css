@@ -46,7 +46,9 @@
 
   --line-height: 1.618em;
 
-  --word-spacing: -0.01681em;
+  --letter-spacing: 0.0681em; /* https://css-tricks.com/almanac/properties/l/letter-spacing/ */
+
+  --word-spacing: -0.1681em;
 
   --text-size-adjust: 100%; /* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
 
