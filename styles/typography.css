@@ -421,10 +421,11 @@ blockquote {
   margin-top: var(--line-height);
   quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:before {
-  top: 0em;
-  left: 50%;
-  opacity: 60%;
+blockquote::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 30%;
   font-size: 7em;
   height: 1.618rem;
   width: 1.618rem;
