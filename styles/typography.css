@@ -156,7 +156,8 @@ html {
   /* Prevent adjustments of font size after orientation changes in iOS and mobile firefox.
    * https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust */
   -webkit-text-size-adjust: var(--text-size-adjust);
-          text-size-adjust: var(--text-size-adjust);
+  -moz-text-size-adjust: var(--text-size-adjust);
+  text-size-adjust: var(--text-size-adjust);
 
   font-stretch: normal;
   font-variant: normal;
