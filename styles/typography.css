@@ -408,6 +408,12 @@ q::after
   - https://isotropic.co/the-best-css-styling-for-blockquotes/
   - https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 */
+/*
+blockquote::before {
+
+}
+*/
+
 blockquote {
   opacity: 85%;
   font-style: italic;
