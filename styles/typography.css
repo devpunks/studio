@@ -428,7 +428,9 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: var(--line-height);
 }
-blockquote::before {
+blockquote:before {
+  top: 0em;
+  left: 50%;
   opacity: 60%;
   width: 0.618em;
   display: block;
