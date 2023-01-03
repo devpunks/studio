@@ -122,6 +122,7 @@
 @font-face { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
   font-weight: 300;
   font-style: normal;
+  font-family: chalk;
   font-stretch: 1% 500%; /* Required by Chrome */
   /* https://apple.stackexchange.com/questions/79875/how-can-i-get-the-postscript-name-of-a-ttf-font-installed-in-os-x */
   src:
