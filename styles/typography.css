@@ -427,9 +427,8 @@ blockquote::before {
   width: 100%;
   opacity: 30%;
   font-size: 7em;
-  height: 1.618rem;
-  width: 1.618rem;
-  background: red;
+  line-height: 1em;
+  height: 2.1618rem;
   position: absolute;
   content: open-quote;
   line-height: 1em;
