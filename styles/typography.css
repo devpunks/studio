@@ -56,7 +56,7 @@
    */
   --letter-spacing: -0.05em;
 
-  --p-margin: 0 1.4em 1.618em;
+  --p-margin: 0 1.4em var(--line-height); /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag/ */
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
   /* https://css-tricks.com/snippets/css/system-font-stack/ */
