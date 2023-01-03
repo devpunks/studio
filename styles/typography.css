@@ -161,8 +161,6 @@ html {
   font-stretch: normal;
   font-variant: normal;
   font-size-adjust: 0.5;
-  font-feature-settings: normal;
-  unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
 }
 
