@@ -457,6 +457,9 @@ cite::before{
 blockquote cite {
   font-size: 1.618em;
 }
+p cite {
+  margin: 0;
+}
 q + cite {
   font-size: 70%;
   font-weight: normal
