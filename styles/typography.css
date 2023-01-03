@@ -124,7 +124,8 @@
   font-style: normal;
   font-weight: 300;
   font-stretch: 1% 500%; /* Required by Chrome */
-  src: /* https://apple.stackexchange.com/questions/79875/how-can-i-get-the-postscript-name-of-a-ttf-font-installed-in-os-x */
+  src:
+/* https://apple.stackexchange.com/questions/79875/how-can-i-get-the-postscript-name-of-a-ttf-font-installed-in-os-x */
     local('DBJ CHALK IT UP') /* Full Name */
   , local('DJBCHALKITUP')    /* Postscript Name */
   , url(chalk.ttf);          /* fallback file location */
