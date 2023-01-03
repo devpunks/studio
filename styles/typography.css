@@ -162,10 +162,7 @@ html {
   letter-spacing: var(--letter-spacing);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
   -moz-tab-size:  var(--tab-size);
-       tab-size:  var(--tab-size);
-  /* Prevent adjustments of font size after orientation changes in iOS and mobile firefox.
-   * https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
-   * https://caniuse.com/text-size-adjust */
+  tab-size:  var(--tab-size);
   -webkit-text-size-adjust: var(--text-size-adjust);
   -moz-text-size-adjust: var(--text-size-adjust);
   text-size-adjust: var(--text-size-adjust);
