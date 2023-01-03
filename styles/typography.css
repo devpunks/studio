@@ -124,6 +124,10 @@
   font-style: normal;
   font-weight: 300;
   font-stretch: 1% 500%; /* Required by Chrome */
+  src:
+    local('DBJ CHALK IT UP') /* Full Name */
+  , local('DJBCHALKITUP')    /* Postscript Name */
+  , url(chalk.ttf);          /* fallback file location */
 /*
   src:
     local('chalk') tech(color-COLRv1),
