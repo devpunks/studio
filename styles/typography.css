@@ -399,7 +399,7 @@ q {
   line-height: 1.618em;
   margin: var(--p-margin);
   font-size: var(--smaller);
-  font-style: italic
+  quotes: "\201C""\201D""\2018""\2019";
 }
 q::before
   { content: open-quote }
