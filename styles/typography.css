@@ -382,7 +382,7 @@ p
   { margin: var(--p-margin) }
 
 pre, code, kbd, samp {
-  top: 0.618em;
+  top: 0.318em;
   position: relative;
   padding: 0 0.618em;
   display: inline-block;
