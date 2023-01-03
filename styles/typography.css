@@ -404,7 +404,7 @@ q::after
   - https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 */
 blockquote {
-  opacity: 80%;
+  opacity: 85%;
   font-style: italic;
   margin: var(--margin);
   margin-left: var(--line-height);
