@@ -407,8 +407,6 @@ blockquote {
   opacity: 85%;
   font-style: italic;
   margin: var(--margin);
-  margin-left: var(--line-height);
-  margin-top: var(--line-height);
   font-size: var(--larger);
   quotes: "\201C""\201D""\2018""\2019";
 }
