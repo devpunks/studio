@@ -414,7 +414,6 @@ blockquote {
 }
 blockquote::before {
   opacity: 60%;
-  display: block;
   width: 0.618em;
   font-size: 420%;
   height: 0.618em;
