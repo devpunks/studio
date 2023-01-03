@@ -11,7 +11,12 @@ a[href^=tel]::before,
 a[href^=sms]::before
   { width: 1.618em }
 
-
+a[rel=external]::before
+  { content: '🌐' }
+a[rel=help]::after
+  { content: '❓' }
+address a[rel=help]::after
+  { content: '' }
 a[rel=license]::before
   { content: '📝' }
 a[rel=prev]::before
