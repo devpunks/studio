@@ -14,6 +14,8 @@ a[href^=tel]::before,
 a[href^=sms]::before
   { width: 1.618em }
 
+a[rel=author]::before
+  { content: '🖊️' }
 a[rel=external]::before
   { content: '🌐' }
 a[rel=help]::after {
