@@ -96,7 +96,7 @@
   { background-color: currentColor }
 ::-moz-selection {
   color: HighlightText;
-  background: Highlight
+  background: Highlight;
 }
 ::selection {
   color: HighlightText;
