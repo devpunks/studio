@@ -110,8 +110,8 @@
   { outline: 1px dotted ButtonText }
 
 html, body {
-  min-width:  100vw;
   min-height: 100vh;
+  min-width:  var(--max-width);
   /* mobile viewport bug fix */
   min-height: -webkit-fill-available; /* https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/ */
 }
