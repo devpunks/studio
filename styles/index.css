@@ -178,9 +178,6 @@ a[href='#'] {
 a[href='#']:hover {
   opacity: 1
 }
-a[href='#']:before {
-  content: '⇭'
-}
 
 template /* IE custom elements */
   { display: none }
