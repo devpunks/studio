@@ -14,7 +14,8 @@ a[href^=mailto]::before,
 a[href^=tel]::before,
 a[href^=sms]::before
   { width: 1.618em }
-
+a[rel=alternate][hreflang]::before
+  { content:  attr(target) attr(hreflang) }
 a[rel=author]::before
   { content: '🖊️' }
 a[rel=bookmark]::before
