@@ -319,7 +319,7 @@ nav ol, nav ul {
   margin-bottom: 0;
   margin-left: 1.618em;
 }
-body > nav > details > ul {
+nav > details > ul {
   margin-top: 0;
   text-align: var(--text-align);
 }
