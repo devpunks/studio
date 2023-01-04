@@ -128,6 +128,10 @@ html:focus-within {
 body {
   scroll-snap-type: y mandatory;
 }
+body > nav {
+  position: sticky;
+  top: 0;
+}
 body > main {
   scroll-snap-align: start;
 }
