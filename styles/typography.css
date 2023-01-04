@@ -249,7 +249,7 @@ body > nav > details > summary {
 body > nav {
   padding: 0;
   width: 100%;
-  background: rgba(240,240,240, 1);
+  background: canvas;
 }
 body > nav details[open] {
   padding-bottom: 1.168em;
