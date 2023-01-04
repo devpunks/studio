@@ -132,6 +132,8 @@ body > nav {
   top: 0;
   z-index: 100;
   position: sticky;
+  background: canvas;
+  box-shadow: var(--shadow);
 }
 body > main {
   scroll-snap-align: start;
