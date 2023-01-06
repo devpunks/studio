@@ -61,7 +61,7 @@
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap;
+  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
   pointer-events: none;
   clip-path: inset(50%);
 }
