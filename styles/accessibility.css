@@ -58,7 +58,7 @@
 */
 [hidden], [aria-hidden=true]  {
   width: 1px;
-  height: auto;
+  height: 1px;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
