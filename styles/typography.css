@@ -543,6 +543,13 @@ details {
 }
 body > header details
   { padding-left: 0 }
+
+body > nav > details > summary {
+  margin: 0 1em;
+  text-align: var(--text-align);
+}
+
+/* summary */
 summary {
   text-align: start;
   font-weight: bolder;
