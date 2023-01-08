@@ -575,7 +575,6 @@ fieldset
 legend {
   padding: 0;
   color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
-  font-size: var(--larger);
   font-weight: bold;
   white-space: normal;
   margin-bottom: 0.618em;
