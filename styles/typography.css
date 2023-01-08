@@ -568,6 +568,8 @@ nav details, nav summary {
 }
 nav summary
   { white-space: nowrap }
+
+
 fieldset
   { }
 legend {
