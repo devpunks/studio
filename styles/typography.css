@@ -514,9 +514,8 @@ sup
 sub
   { bottom: -0.25em }
 
-svg {
-  vertical-align: middle
-}
+svg
+ { vertical-align: middle }
 
 address {
   font-style: normal;
