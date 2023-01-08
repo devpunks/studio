@@ -576,6 +576,7 @@ legend {
   padding: 0;
   color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
   font-weight: bold;
+  font-size: var(--larger);
   white-space: normal;
   margin-bottom: 0.618em;
   line-height: inherit;
