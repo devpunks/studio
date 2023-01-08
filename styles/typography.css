@@ -503,8 +503,7 @@ ins::before
 small
   { font-size: 80% }
 
-sub, sup {
-/* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
   font-size: 75%;
   line-height: 0;
   position: relative;
