@@ -578,6 +578,5 @@ legend {
   font-weight: bold;
   font-size: var(--larger);
   white-space: normal;
-  margin-bottom: 0.618em;
   line-height: inherit;
 }
