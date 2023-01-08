@@ -242,10 +242,6 @@ body > footer { }
 nav {
   margin-bottom: 1.618em;
 }
-body > nav > details > summary {
-  margin: 0 1em;
-  text-align: var(--text-align);
-}
 body > nav {
   padding: 0;
   width: 100%;
