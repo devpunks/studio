@@ -13,7 +13,6 @@
 /*
 @import 'speech.css' speech not print layer(speech);
 @import 'icons.css' not speech layer(icons);
-@import 'print.css' print layer(print);
 @import 'multimedia.css' screen layer(multimedia);
 @import 'animation.css' not print;
 */
