@@ -402,7 +402,7 @@ pre, p, q, cite, blockquote, address {
   -webkit-touch-callout:       inherit; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
   -webkit-user-select:         text;    /* Webkit (Chrome all / Safari all) */
-  user-select:                 text;    /* https://caniuse.com/user-select-none */
+          user-select:         text;    /* https://caniuse.com/user-select-none */
 }
 body > main
   { -webkit-overflow-scrolling: touch }
