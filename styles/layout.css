@@ -39,14 +39,13 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-body
-  > * { /* all immediate children of <body> */
-    z-index: 0;
-    /* Use for horizontal scrolling and snapping. */
-    overflow-y: auto;
-    overflow-x: hidden;
-    max-width: var(--max-width);
-  }
+body > * { /* all immediate children of <body> */
+  z-index: 0;
+  /* Use for horizontal scrolling and snapping. */
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-width: var(--max-width);
+}
 body > header { top: 0 }
 body > main   { flex: 1 }
 body > aside  { }
