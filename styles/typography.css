@@ -273,7 +273,6 @@ a::before, a::after {
 
 a.logo {
   font-size: 2em;
-
   line-height: 2em;
   white-space: nowrap;
   margin-bottom: 0.2em
