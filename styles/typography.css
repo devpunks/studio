@@ -258,7 +258,7 @@ a {
   text-decoration-thickness: .168em;
   text-decoration-color: transparent;
   -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 a:hover {
   text-decoration-style: solid;
