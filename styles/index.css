@@ -44,6 +44,14 @@
   --drop-shadow: drop-shadow( var(--shadow) );
 }
 
+/*
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/any-pointer
+  - https://patrickhlauke.github.io/touch/pointer-hover-any-pointer-any-hover/results/
+  - https://css-tricks.com/interaction-media-features-and-their-potential-for-incorrect-assumptions/
+*/
+@media screen and (pointer: coarse) {
+  /* mobile */
+}
 @media screen and (min-width: 1000px)
   /* TODO: FIX THIS HARDCODED MAGIC NUMBER */
   { :root { --max-width: 1000px } }
