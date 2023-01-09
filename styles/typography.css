@@ -365,7 +365,8 @@ h1 {
   line-height: 1.618em;
 }
 
-body > h1 { padding-left: 0; }
+body > h1
+  { padding-left: 0 }
 
 header {
   font-size: var(--larger);
