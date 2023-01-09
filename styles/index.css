@@ -131,7 +131,11 @@ template /* IE custom elements */
   { display: none }
 
 body [hidden]
-  { display: none } /* https://meowni.ca/hidden.is.a.lie.html */
+/*
+  -   https://meowni.ca/hidden.is.a.lie.html
+  - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+*/
+  { display: none }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
