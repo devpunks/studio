@@ -233,16 +233,9 @@ mark::after
   { content: '[highlight end]' }
 data, var
   { outline 0.01681em dotted currrentColor }
-pre, code, kbd, samp {
-  overflow: auto;
-  border-radius: 0.618em;
-  -ms-overflow-style: scrollbar;
-}
-pre {
-  opacity: 0.618;
-  display: block;
-}
-code { }
+
+pre, code, kbd, samp
+  { border-radius: 0.618em }
 pre code {
   width: 100%;
   display: inherit;
