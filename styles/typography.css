@@ -242,7 +242,6 @@ nav {
   margin-bottom: 1.618em;
 }
 body > nav {
-  padding: 0;
   width: 100%;
   background: canvas;
 }
