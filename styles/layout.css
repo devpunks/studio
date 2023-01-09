@@ -36,7 +36,6 @@ html, body {
 html { box-sizing: border-box }
 body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 body > * { /* all immediate children of <body> */
