@@ -14,6 +14,8 @@
 @import 'forms.css' layer(forms) all, not print;
 @import 'multimedia.css' layer(multimedia) screen;
 @import 'animation.css' layer(animation) not print;
+@import 'speech.css' layer(speech) speech not print;
+@import 'accessibility.css' layer(accessibility) not print;
 /* @import 'color.css' layer(color) color; */
 
 /*
