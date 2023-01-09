@@ -128,6 +128,7 @@ body
   { scroll-snap-type: y mandatory }
 body > nav {
   top: 0;
+  z-index: 1;
   position: sticky;
   background: canvas;
   box-shadow: var(--shadow);
@@ -178,9 +179,8 @@ a[href='#'] {
   margin: 0 auto 2em;
   text-decoration: none;
 }
-a[href='#']:hover {
-  opacity: 1
-}
+a[href='#']:hover
+  { opacity: 1 }
 
 template /* IE custom elements */
   { display: none }
