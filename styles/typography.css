@@ -163,6 +163,9 @@
 
 html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
+  -moz-tab-size:  var(--tab-size);
+  tab-size:       var(--tab-size);
   font-size:      var(--font-size);
   font-family:    var(--font-family);
   text-align:     var(--text-align);
