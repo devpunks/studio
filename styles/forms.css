@@ -325,7 +325,6 @@ input[type=file] {
 
 textarea {
   width: 100%;
-  border: none;
   overflow: auto; /* Remove IE vertical scrollbar. */
   resize: vertical;
   padding: 0.612em;
