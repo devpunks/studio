@@ -340,7 +340,7 @@ select, label select {
   text-overflow: ellipsis;
   text-align: var(--text-align);
   text-align-last: var(--text-align);
-  outline: 0.01em solid;
+  outline: 0.01em solid currentColor;
 }
 select, label select {
   border: none;
