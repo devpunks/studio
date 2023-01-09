@@ -1,0 +1,164 @@
+/* color.css
+
+  - CSS System Colors
+    - https://www.w3.org/TR/css-color-3/#css-system
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#System_Colors
+    - * CSS4 UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
+    - * CSS4 System Colors - https://www.w3.org/TR/css-color-4/#css-system-colors
+
+   - ActiveText - Text in active links
+   - ButtonFace - The face background color for push buttons.
+   - ButtonText - Text on push buttons.
+   - Canvas - Background of application content or documents
+   - CanvasText - Text in application content or documents.
+   - Field - Background of input fields.
+   - FieldText - Text in input fields.
+   - GrayText - Grayed (disabled) text (#000 if not supported by OS)
+   - Highlight - Background of item(s) selected in a control.
+   - HighlightText - Text of item(s) selected in a control
+   - LinkText - Text in non-active, non-visited links.
+   - VisitedText - Text in visited links.
+
+
+  - CSS <color> Values
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+
+  - CSS Native Colors
+    - https://www.w3.org/TR/css-color-3/#svg-color
+
+    Black     - https://en.wikipedia.org/wiki/Black
+    Gainsboro - https://en.wikipedia.org/wiki/Shades_of_gray#Gainsboro
+    Grey      - https://en.wikipedia.org/wiki/Shades_of_gray
+    Magenta   - https://en.wikipedia.org/wiki/Shades_of_magenta
+
+
+  - CSS COLRv1
+    - https://css-tricks.com/colrv1-and-css-font-palette-web-typography/
+
+  - CSS Colors Adjust - https://www.w3.org/TR/css-color-adjust-1
+  - forced-colors  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
+  - mix-blend-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+    - ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=970285
+
+*/
+
+:root {
+  --background-color: rgba(10,10,10, 0.8);
+  --color:            rgba(240,240,240, 0.8);
+  --lightest-color:   rgba(255,255,255,0.9);
+  --lighter-color:    rgba(245,245,245,0.8);
+  --darker-color:     rgba(200,200,200, 0.8);
+  --darkest-color:    rgba(180,180,180, 0.7);
+  --a:                rgba(231,47,188,0.8);
+  --a\:hover:         rgba(231,47,188,1.0);
+  --accent-color:     var(--lighter-color, auto); /* https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color */)
+}
+
+@media (color) { }
+
+/* Changing color schemes (Dark / Light Mode)
+ *   Apple     - https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/
+ *   Android   - https://www.theverge.com/2019/5/7/18530599/google-android-q-features-hands-on-dark-mode-gestures-accessibility-io-2019
+ *   Microsoft - https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/
+ *
+ * prefers-color-scheme
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+ *   - https://css-tricks.com/dark-modes-with-css/
+ */
+@media screen and (prefers-color-scheme: light) { }
+@media screen and (prefers-color-scheme: dark)  { }
+
+/* prefers-contrast (-ms-high-contrast)
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
+*/
+@media screen and (prefers-contrast: high) { }
+@media screen and (prefers-contrast: low)  { }
+@media screen and (-ms-high-contrast: active) { }
+@media screen and (-ms-high-contrast: black-on-white) { }
+@media screen and (-ms-high-contrast: white-on-black) { }
+
+/* ----------------------------------------------------- */
+
+/*
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * - https://stackoverflow.com/a/16982510/7133471
+ * - https://twitter.com/miketaylr/status/12228805301
+ * - https://css-tricks.com/almanac/selectors/s/selection/
+ */
+::-moz-selection {
+  color: var(--background-color);
+  background-color: currentColor
+}
+
+::selection {
+  color: var(--background-color);
+  background-color: currentColor
+}
+
+::backdrop
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
+  { background-color: var(--background-color) }
+
+
+html {
+  color:            var(--color);
+  background-color: var(--background-color)
+}
+body * {
+  column-rule-color: var(--color);
+}
+body > aside {
+  color: var(--background-color);
+  background-color: var(--color)
+}
+
+hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
+  color:            var(--color);
+  background-color: currentColor
+}
+
+a:link,
+a:active,
+a:visited
+  { color: var(--a) }
+
+a:hover
+  { color: var(--a\:hover) }
+
+a.logo, a.logo:link, a.logo:active, a.logo:visited {
+  color: var(--color)
+}
+
+p {
+  color: var(--color);
+}
+legend
+  { color: inherit; /* IE */ }
+
+dialog {
+  color: var(--background-color);
+  background-color: var(--color)
+}
+
+table
+  { outline-color: var(--darkest-color) }
+table
+  thead {
+    background: var(--color);
+    color: var(--background-color)
+}
+table
+  tr:nth-child(odd) {
+    color: var(--background-color);
+    background-color: var(--color)
+}
+
+pre, code, kbd, samp {
+  color: var(--lightest-color);
+  background: var(--darkest-color)
+}
+
+progress, [type=checkbox], [type=radio], [type=range] {
+  accent-color: var(--accent-color);
+}
