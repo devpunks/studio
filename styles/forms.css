@@ -110,8 +110,6 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   width: 100%;
   opacity: .7;
-  border: none;
-  padding: 0 1em;
   line-height: 200%;
   white-space: nowrap;
   margin-bottom: 1.618em;
