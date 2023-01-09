@@ -368,7 +368,7 @@ body * > h1
   { font-size: 2em; /* Override container H1s - Full discussion here */ }
 
 header {
-  font-size: var(--larger);
+  font-size: var(--largest);
   /* http://webtypography.net/3.2.1 */
   /* http://webtypography.net/3.2.2 */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
