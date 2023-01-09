@@ -238,8 +238,9 @@ pre, code, kbd, samp
   { border-radius: 0.618em }
 pre code {
   display: inherit;
-  border-radius: 0.218em;
-  border-left: 0.02em solid;
+  border-radius: unset;
+  border: solid currentColor;
+  border-width: 0 0 0 0.02em;
 }
 
 /* CSS3 Lists
