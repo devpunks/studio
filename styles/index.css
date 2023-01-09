@@ -6,6 +6,8 @@
 
 @import 'accessibility.css' not print layer(accessibility);
 @import 'typography.css' layer(typography);
+@import 'layout.css' all layer(layout);
+@import 'print.css' print layer(print);
 @import 'forms.css' all layer(forms);
 @import 'icons.css' not speech;
 /* @import 'colors.css' color; */
