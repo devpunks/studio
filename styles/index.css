@@ -179,12 +179,6 @@ a[href='#'] {
 a[href='#']:hover
   { opacity: 1 }
 
-template /* IE custom elements */
-  { display: none }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
-  { display:block }
-
 mark {
   padding: .618em;
   background: mark;
