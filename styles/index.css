@@ -149,10 +149,7 @@ body > nav { }
 body > main
   { scroll-snap-align: start }
 
-template /* IE custom elements */
-  { display: none }
-
-body [hidden]
+body [hidden], template /* IE custom elements */
 /*
   -   https://meowni.ca/hidden.is.a.lie.html
   - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
