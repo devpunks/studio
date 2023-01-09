@@ -24,6 +24,10 @@
 @media screen and (-ms-high-contrast: white-on-black)
   { /* Rules for users using white-on-black */ }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors */
+@media screen and (forced-colors: active) { }
+
+
 /* LANDMARKS */
 [role=banner] {}
 [role=search] {}
