@@ -45,8 +45,6 @@ html { box-sizing: border-box }
 body { }
 body > * { /* all immediate children of <body> */
   /* Use for horizontal scrolling and snapping. */
-  overflow-y: auto;
-  overflow-x: hidden;
   max-width: var(--max-width);
 }
 body > header { }
