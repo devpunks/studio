@@ -402,7 +402,8 @@ pre {
   margin: var(--p-margin);
 }
 pre code {
-  margin-bottom: var(--line-height);
+  margin: var(--line-height);
+  font-size:  var(--smaller);
 }
 
 figcaption {
