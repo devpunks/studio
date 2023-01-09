@@ -245,7 +245,7 @@ summary {
   list-style: none;
 }
 summary::-webkit-details-marker
- { display: none }
+  { display: none }
 details:hover > summary, details:focus-within > summary
   { opacity: 1.0 }
 summary::before,
