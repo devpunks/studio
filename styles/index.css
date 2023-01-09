@@ -6,7 +6,10 @@
 */
 
 @import 'accessibility.css' not print layer(accessibility);
-@import 'typography.css' layer(typography);
+@import 'speech.css' speech not print layer(speech);
+@import 'typography.css' all layer(typography);
+@import 'forms.css' all not print layer(forms);
+@import 'icons.css' not speech layer(icons);
 @import 'layout.css' all layer(layout);
 @import 'print.css' print layer(print);
 @import 'forms.css' all layer(forms);
