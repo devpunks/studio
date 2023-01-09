@@ -315,7 +315,6 @@ caption {
   caption-side: top
 }
 th {
-  /*   opacity: 0.618; */
   top: 5.118em;
   position: sticky;
   text-align: inherit;
