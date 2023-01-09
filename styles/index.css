@@ -7,6 +7,9 @@
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
   - *** https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/
 */
+@layer
+  speech, accessibility, forms, typography, color, icons, multimedia, layout, print, animation;
+
 @import 'print.css' layer(print) print;
 @import 'layout.css' layer(layout) all;
 @import 'icons.css' layer(icons) not speech;
