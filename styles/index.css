@@ -424,9 +424,6 @@ pre, p, q, cite, blockquote, address {
   -webkit-user-select:         text;    /* Webkit (Chrome all / Safari all) */
   user-select:                 text;    /* https://caniuse.com/user-select-none */
 }
-/* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body > footer
-  { -webkit-transform: translatez(0) }
 body > main
   { -webkit-overflow-scrolling: touch }
 body > aside
