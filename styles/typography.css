@@ -398,7 +398,8 @@ pre, code, kbd, samp {
   background:  ButtonFace;
 }
 pre {
-  text-align: left;
+  overflow: auto;
+  text-align: initial;
   margin: var(--p-margin);
 }
 pre code {
