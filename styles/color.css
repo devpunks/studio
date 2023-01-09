@@ -55,6 +55,7 @@
   --accent-color:     var(--lighter-color, auto); /* https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color */)
 }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/color */
 @media (color) { }
 
 /* Changing color schemes (Dark / Light Mode)
