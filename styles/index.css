@@ -12,8 +12,6 @@
 @import 'icons.css' not speech layer(icons);
 @import 'layout.css' all layer(layout);
 @import 'print.css' print layer(print);
-@import 'forms.css' all layer(forms);
-@import 'icons.css' not speech;
 /* @import 'colors.css' color; */
 @import 'multimedia.css' all; /* should this just be screen? */
 @import 'speech.css' speech;
