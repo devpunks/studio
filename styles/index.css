@@ -310,7 +310,7 @@ nav li details[open] > summary::before
 /* Table styling
   - counter styling & fallback
     - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
-  - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
+    - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
 */
 table {
   /* TODO: FIX HEIGHT FROM 100vh */
