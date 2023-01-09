@@ -128,14 +128,12 @@ body
   { scroll-snap-type: y mandatory }
 body > nav {
   top: 0;
-  z-index: 1;
   position: sticky;
   background: canvas;
   box-shadow: var(--shadow);
 }
-body > main {
-  scroll-snap-align: start;
-}
+body > main
+  { scroll-snap-align: start }
 
 iframe {
   border: none;
