@@ -4,7 +4,6 @@
   - https://caniuse.com/css-cascade-layers
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
 */
-
 @import 'typography.css' layer(typography);
 /*
 @import 'accessibility.css' not print layer(accessibility);
