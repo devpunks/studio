@@ -8,6 +8,11 @@
   - *** https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/
 */
 @import 'print.css' layer(print) print;
+@import 'layout.css' layer(layout) all;
+@import 'icons.css' layer(icons) not speech;
+@import 'typography.css' layer(typography) all;
+@import 'forms.css' layer(forms) all, not print;
+@import 'multimedia.css' layer(multimedia) screen;
 @import 'animation.css' layer(animation) not print;
 /* @import 'color.css' layer(color) color; */
 
