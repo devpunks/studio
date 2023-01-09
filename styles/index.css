@@ -2,6 +2,7 @@
 
 /* @import layers
   - https://caniuse.com/css-cascade-layers
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
 */
 
 @import 'accessibility.css' not print layer(accessibility);
