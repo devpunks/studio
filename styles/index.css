@@ -7,6 +7,7 @@
 */
 @import 'accessibility.css' layer(accessibility) not print;
 @import 'speech.css' layer(speech) speech not print;
+@import 'multimedia.css' layer(multimedia) screen;
 @import 'forms.css' layer(forms) all, not print;
 @import 'typography.css' layer(typography) all;
 @import 'icons.css' layer(icons) not speech;
