@@ -291,8 +291,8 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 ul, ol, dl {
   text-align: start;
   padding-left: unset;
-  font-size: var(--larger);
   margin: 1em 1em 2.618em;
+  font-size: var(--larger);
 }
 ul ul, ol ol, dl dl {
   opacity: 80%;
