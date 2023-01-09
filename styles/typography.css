@@ -197,8 +197,8 @@ html {
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
   /* https://css-tricks.com/almanac/properties/h/hyphenate/ */
   -webkit-hyphenate-limit-chars: 10 3 4;  /* not yet supported */ 
-  -moz-hyphenate-limit-chars: 10 3 4;     /* not yet supported */ 
-  hyphenate-limit-chars: 10 3 4;
+     -moz-hyphenate-limit-chars: 10 3 4;  /* not yet supported */ 
+          hyphenate-limit-chars: 10 3 4;
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
   -webkit-hyphens: auto;
