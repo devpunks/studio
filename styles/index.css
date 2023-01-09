@@ -343,7 +343,8 @@ th[scope=row]:after {
   white-space: nowrap;
   content: counter(table);
 }
-tr { position: relative }
+tr
+  { position: relative }
 tr:before
   { content: '' }
 td
