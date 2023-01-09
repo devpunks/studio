@@ -5,8 +5,7 @@
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 */
-@import 'typography.css' layer(typography);
-@import 'layout.css' layer(layout);
+@import 'accessibility.css' layer(accessibility) not print;
 /*
 @import 'accessibility.css' not print layer(accessibility);
 @import 'speech.css' speech not print layer(speech);
