@@ -131,6 +131,9 @@ body > main
 template /* IE custom elements */
   { display: none }
 
+body [hidden]
+  { display: none } /* https://meowni.ca/hidden.is.a.lie.html */
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section
   { display:block }
 
