@@ -120,7 +120,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   border-left:   0.1em solid;
   border-bottom: 0.1em solid;
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
-  user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
+          user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
 input:focus, select:focus, textarea:focus
   { opacity: 1.0 }
