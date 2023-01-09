@@ -115,9 +115,10 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   color: currentColor;
   white-space: nowrap;
   font-size: var(--larger);
-  background: transparent;
-  border-left:   0.1em solid;
-  border-bottom: 0.1em solid;
+  border: solid currentColor;
+  border-width: 0 0 0.1em 0.1em;
+  padding: 0 var(--line-height);
+  margin-bottom: var(--line-height);
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
           user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
