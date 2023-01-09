@@ -393,10 +393,8 @@ p {
 }
 
 pre, code, kbd, samp {
-  padding: 0 0.618em;
-  display: inline-block;
-  background: rgba(0,0,0,0.01);
-  font-family: var(--font-family-mono);
+  padding: 0 0.1618em;
+  background:  ButtonFace;
 }
 pre {
   text-align: left;
