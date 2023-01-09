@@ -414,6 +414,9 @@ html, body {
   -webkit-user-select:         none; /* Webkit (Chrome all / Safari all) */
   user-select:                 none; /* https://caniuse.com/user-select-none */
 }
+/* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
+body > footer
+  { -webkit-transform: translatez(0) }
 pre, p, q, cite, blockquote, address {
   -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
   -webkit-touch-callout:       inherit; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
