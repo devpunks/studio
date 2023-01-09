@@ -256,6 +256,7 @@ a {
   text-underline-offset: 0;
   text-decoration-style: auto;
   text-decoration-thickness: .168em;
+  text-decoration-color: transparent;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
