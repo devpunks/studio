@@ -7,7 +7,7 @@
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
   - *** https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/
 */
-@layer
+@layer /* explicit layer ordering */
   speech, accessibility, forms, typography, color, icons, multimedia, layout, print, animation;
 
 @import 'print.css' layer(print) print;
