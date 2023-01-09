@@ -117,10 +117,9 @@ html, body {
   min-height: -webkit-fill-available; /* https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/ */
 }
 html {}
-html:focus-within {
-  /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */
-  scroll-behavior: smooth;
-}
+html:focus-within
+  { scroll-behavior: smooth /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */ }
+
 /* SCROLL SNAPPING
   - https://drafts.csswg.org/css-scroll-snap-1/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
