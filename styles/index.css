@@ -38,6 +38,7 @@
 
   /* Shadows
     - https://css-tricks.com/breaking-css-box-shadow-vs-drop-shadow/
+    - https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow
   */
   --shadow:
     0.05em 0.05em 0.2em currentColor;
