@@ -134,6 +134,9 @@ body [hidden]
 /*
   -   https://meowni.ca/hidden.is.a.lie.html
   - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+    - until-found
+      - https://css-tricks.com/newsletter/295-hidden-until-found/
+      - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
 */
   { display: none }
 
