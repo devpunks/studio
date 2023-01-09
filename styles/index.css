@@ -31,7 +31,8 @@
     - resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
 */
 :root {
-  --max-width: 100%;
+  --max-width: 100%; /* https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm* */
+  
   --shadow:
     0.05em 0.05em 0.2em
   rgba(10, 10, 10, 0.9);
