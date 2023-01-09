@@ -327,6 +327,7 @@ caption {
 th {
   /*   opacity: 0.618; */
   top: 5.118em;
+  position: sticky;
   text-align: inherit;
   text-align: -webkit-match-parent;
   position: sticky
