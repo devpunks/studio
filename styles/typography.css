@@ -167,7 +167,6 @@ html {
   -moz-tab-size:  var(--tab-size);
   tab-size:       var(--tab-size);
   font-size:      var(--font-size);
-  font-family:    var(--font-family);
   text-align:     var(--text-align);
   line-height:    var(--line-height);
   word-spacing:   var(--word-spacing);
