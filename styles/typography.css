@@ -215,7 +215,7 @@ body {
 
 body > * {
   margin: var(--margin);
-  margin: var(--viewport)
+  margin: var(--viewport);
 }
 
 body > header,
