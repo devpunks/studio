@@ -49,9 +49,14 @@
   - https://patrickhlauke.github.io/touch/pointer-hover-any-pointer-any-hover/results/
   - https://css-tricks.com/interaction-media-features-and-their-potential-for-incorrect-assumptions/
 */
-@media screen and (pointer: coarse) {
-  /* mobile */
-}
+/*
+ * cursors
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+ *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer
+ */
+@media (pointer: fine)   { /* mouse */ }
+@media (pointer: coarse) { /* finger */ }
+
 @media screen and (min-width: 1000px)
   /* TODO: FIX THIS HARDCODED MAGIC NUMBER */
   { :root { --max-width: 1000px } }
