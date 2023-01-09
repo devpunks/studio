@@ -114,7 +114,6 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   background: Canvas;
   color: currentColor;
   white-space: nowrap;
-  margin-bottom: 1.618em;
   font-size: var(--larger);
   background: transparent;
   border-left:   0.1em solid;
