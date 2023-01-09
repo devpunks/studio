@@ -3,6 +3,7 @@
 /* @import layers
   - https://caniuse.com/css-cascade-layers
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 */
 @import 'typography.css' layer(typography);
 /*
