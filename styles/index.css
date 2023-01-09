@@ -8,7 +8,7 @@
   - *** https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/
 */
 @layer /* explicit layer ordering */
-  speech, accessibility, forms, typography, color, icons, multimedia, layout, print, animation;
+  speech, accessibility, typography, forms, color, icons, multimedia, layout, print, animation;
 
 @import 'print.css' layer(print) print;
 @import 'layout.css' layer(layout) all;
