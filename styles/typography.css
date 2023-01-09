@@ -186,9 +186,8 @@ html {
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   /* https://css-tricks.com/almanac/properties/w/word-break/ */
   /* These are technically the same, but use both */
-  overflow-wrap: break-word; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
-  word-wrap: break-word;
-
+  overflow-wrap:  break-word; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
+  word-wrap:      break-word;
   -ms-word-break: break-all;
   /* Instead use this non-standard one: */
   word-break: break-word;
