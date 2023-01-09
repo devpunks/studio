@@ -155,10 +155,9 @@
 }
 
 * {
-  margin: auto;
   /* https://css-tricks.com/what-you-should-know-about-collapsing-margins/ */
-  padding-top:   var(--margin-collapse-bugfix);
-  margin-bottom: var(--margin-collapse-bugfix)
+  padding: var(--margin-collapse-bugfix) auto;
+  margin: var(--margin-collapse-bugfix) auto;
 }
 
 html {
