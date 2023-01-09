@@ -349,9 +349,8 @@ tr:before
   { content: '' }
 td
   { z-index: -1 }
-td:first-of-type {
-  border-left: 0.0618em solid;
-}
+td:first-of-type
+  { border-left: 0.0618em solid }
 thead th
   { border-bottom: 0.0618em solid }
 tbody{
