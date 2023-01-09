@@ -36,3 +36,4 @@ w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
 ## References
 
   - [Quota Management API](./quota_management_api.pdf)
+  - [Media Elements](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
