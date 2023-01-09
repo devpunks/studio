@@ -113,12 +113,6 @@
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText }
 
-html, body {
-  min-height: 100vh;
-  min-width:  var(--max-width);
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available; /* https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/ */
-}
 html {}
 html:focus-within
   { scroll-behavior: smooth /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */ }
