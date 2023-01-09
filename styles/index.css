@@ -408,7 +408,9 @@ html, body {
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
 body > footer
   { -webkit-transform: translatez(0) }
-pre, p, q, cite, blockquote, address {
+pre, p, q, cite, blockquote, address
+/* ... and all id-entifiable headers ... */
+, :where(header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]) {
   -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
   -webkit-touch-callout:       inherit; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
