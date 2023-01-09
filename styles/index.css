@@ -37,11 +37,8 @@
   --drop-shadow: drop-shadow( var(--shadow) );
 }
 
-@media screen and (min-width: 1000px) {
-  :root {
-    --max-width: 1000px
-  }
-}
+@media screen and (min-width: 1000px)
+  { :root { --max-width: 1000px } }
 
 /*
  * Vendor-prefixed and regular ::selection selectors cannot be combined:
