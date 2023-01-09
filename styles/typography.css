@@ -362,7 +362,6 @@ h1 {
   /* TODO: calc () */
   line-height: var(--line-height);
 }
-
 body > h1
   { padding-left: 0 }
 
