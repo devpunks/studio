@@ -42,6 +42,7 @@
 }
 
 @media screen and (min-width: 1000px)
+  /* TODO: FIX THIS HARDCODED VALUE */
   { :root { --max-width: 1000px } }
 
 /*
