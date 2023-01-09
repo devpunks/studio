@@ -353,15 +353,12 @@ td:first-of-type
   { border-left: 0.0618em solid }
 thead th
   { border-bottom: 0.0618em solid }
-tbody{
-  position: relative;
-}
-table * {
-    display: block;
-}
-tbody tr {
-  counter-increment: table
-}
+tbody
+  { position: relative }
+table *
+  { display: block }
+tbody tr
+  { counter-increment: table }
 tfoot th
   { border-top: 0.0618em solid }
 th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
