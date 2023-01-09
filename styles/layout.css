@@ -58,9 +58,4 @@ body > main   { flex: 1 }
 body > aside  { }
 body > footer { bottom: 0 }
 body > header,
-body > footer {
-  z-index: 1;
-  position: sticky;
-  /* default background to prevent bleeding of scrolled content */
-  background: Canvas;
-}
+body > footer { z-index: 1 }
