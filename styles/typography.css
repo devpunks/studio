@@ -364,6 +364,8 @@ h1 {
 }
 body > h1
   { padding-left: 0 }
+body * > h1
+  { font-size: 2em; /* Override container H1s - Full discussion here */ }
 
 header {
   font-size: var(--larger);
