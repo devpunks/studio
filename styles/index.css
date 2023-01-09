@@ -12,7 +12,6 @@
 @import 'speech.css' speech not print layer(speech);
 @import 'forms.css' all not print layer(forms);
 @import 'icons.css' not speech layer(icons);
-@import 'layout.css' all layer(layout);
 @import 'print.css' print layer(print);
 @import 'multimedia.css' screen layer(multimedia);
 @import 'animation.css' not print;
