@@ -393,8 +393,6 @@ p {
 }
 
 pre, code, kbd, samp {
-  top: 0.318em;
-  position: relative;
   padding: 0 0.618em;
   display: inline-block;
   background: rgba(0,0,0,0.01);
