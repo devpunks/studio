@@ -53,8 +53,6 @@ body > nav {
   background: canvas;
   box-shadow: var(--shadow);
 }
-body > main   { flex: 1 }
-body > aside  { }
-body > footer { bottom: 0 }
-body > header,
-body > footer { z-index: 1 }
+body > main { }
+body > aside { }
+body > footer { }
