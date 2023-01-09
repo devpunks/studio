@@ -232,6 +232,7 @@ body > header { }
 body > main   { }
 body > aside {
   font-size: 90%;
+  padding-bottom: var(--margin-collapse-bugfix);
   line-height: 1.45em; /* 90% of 1.618em */
   background: buttonface;
 }
