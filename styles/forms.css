@@ -122,7 +122,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   -webkit-user-select: text /* enable text editing */;
           user-select: text /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
-input:focus, select:focus, textarea
+input:focus, select:focus, textarea:focus
   { opacity: 1.0 }
 
 [type=search] {
