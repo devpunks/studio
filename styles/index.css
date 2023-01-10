@@ -66,6 +66,14 @@
   { :root { --max-width: 1000px } }
 
 /*
+ * pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+ */
+::before, ::after {
+  /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
+  display: inline-block;
+}
+
+/*
  * Vendor-prefixed and regular ::selection selectors cannot be combined:
  * - https://stackoverflow.com/a/16982510/7133471
  * - https://twitter.com/miketaylr/status/12228805301
