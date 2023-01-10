@@ -15,7 +15,7 @@
 :where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] ):hover::before
   { opacity: 40% }
 
-a[href='#']:before
+a[href='#']::before
   { content: '⇭' }
 a[rel=tag]::before,
 a[href*='phobos.apple.com']::before,
