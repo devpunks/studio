@@ -44,10 +44,10 @@ form {
   flex-direction: var(--flex-direction);
   caret-color: currentcolor; /* https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color */
 }
-form:focus-within {}
+form:focus-within { }
 
 form
-  fieldset:focus-within {}
+  fieldset:focus-within { }
 
 fieldset {
   min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
