@@ -63,6 +63,7 @@ fieldset li
 
 :not(li) > label {
   width: 100%;
+  padding: 0 var(--line-height);
   cursor: pointer;
   font-weight: bolder;
   display: inline-block;
