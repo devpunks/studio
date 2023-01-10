@@ -218,13 +218,9 @@ mark {
 }
 mark::before,
 mark::after {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
+  width: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
 }
 mark::before
   { content: '[highlight start]' }
