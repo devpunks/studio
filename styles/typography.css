@@ -452,7 +452,7 @@ blockquote::before {
   content: open-quote;
   margin-top: 0.01618em;
 }
-blockquote:after {
+blockquote::after {
   opacity: 40%;
   margin: var(--p-margin);
   position: relative;
