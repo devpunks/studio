@@ -196,11 +196,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   padding: 0.1618em 1.1618em;
 }
 [href='#main']:focus {
-  clip: unset;
-  width: auto;
-  overflow: show;
   clip-path: unset;
-  position: absolute;
   outline: dotted 0.1em;
   box-shadow: var(--box-shadow);
 }
