@@ -208,11 +208,7 @@ body {
   margin: 0 auto;
   text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering/ */
 }
-
-body > * {
-  margin: var(--margin);
-  margin: var(--viewport);
-}
+body > * { margin: var(--viewport) }
 
 body > header,
 body > main,
