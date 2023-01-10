@@ -189,6 +189,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 [href='#main'] { /* skip link */
   z-index: 2;
   position: absolute;
+  background: canvas;
   white-space: nowrap;
   clip-path: inset(50%);
   clip: rect(0, 0, 0, 0);
