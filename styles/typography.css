@@ -225,14 +225,6 @@ body > aside {
 }
 body > footer { }
 
-nav {
-  margin-bottom: 1.618em;
-}
-body > nav {
-  width: 100%;
-  background: canvas;
-}
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
