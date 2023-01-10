@@ -325,6 +325,12 @@ input[type=color] {
 }
 ::-webkit-color-swatch-wrapper {
   border: none;
+  background: ButtonFace;
+  border-radius: inherit;
+}
+input[type=color]:hover::-webkit-color-swatch-wrapper {
+  border: none;
+  background: Canvas;
   border-radius: inherit;
 }
 ::-webkit-color-swatch {
