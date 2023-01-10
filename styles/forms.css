@@ -320,6 +320,7 @@ textarea {
 select, label select {
   border: none;
   cursor: context-menu;
+  word-wrap: normal; /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
   border-radius: 0.5em;
   text-overflow: ellipsis;
   text-align: var(--text-align);
