@@ -64,8 +64,7 @@ a[href*=youtube]::before {
   color: #fff;
   font-size: 0.7em;
   background: #f00;
-  border-radius: .3em;
-  text-shadow: 0.1em 0.1em 0 rgb(10,10,10,0.8)
+  border-radius: .4em;
 }
 
 a[href*=instagram]::before
