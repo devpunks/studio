@@ -53,6 +53,9 @@ fieldset {
   flex-direction: var(--flex-direction)
 }
 fieldset[disabled] {}
+
+legend { }
+
 /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
 fieldset input {}
 fieldset li
