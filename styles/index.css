@@ -151,7 +151,10 @@ html:focus-within
 */
 body
   { scroll-snap-type: y mandatory }
-body > nav { }
+body > nav {
+  background: canvas;
+  box-shadow: var(--shadow);
+}
 body > main
   { scroll-snap-align: start }
 
