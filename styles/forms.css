@@ -391,18 +391,19 @@ button, [type=button], [type=submit], [type=reset], [role=button]
 {
   opacity: 70%;
   cursor: pointer;
-  font-size: 140%;
   font-weight: bold;
   width: max-content;
   padding: 0 1.618em;
+  color: buttonText;
   margin: var(--margin);
+  background: buttonFace;
+  border-radius: 0.1618em;
+  font-size: var(--largest);
   -webkit-appearance: button;
-  appearance:         button;
-  border: 0.0168em solid currentColor;
+          appearance: button;
   box-shadow: var(--box-shadow);
+  border: 0.0168em solid currentColor;
 }
-
-
 button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover, [role=button]:hover,
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
   { opacity: 100% }
