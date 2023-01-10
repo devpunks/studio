@@ -63,8 +63,6 @@ a[href*=youtube]::before {
   padding: 0.2em 0.618em 0.1em;
   color: #fff;
   font-size: 0.7em;
-  font-weight: bold;
-  line-height: 1.7em;
   background: #f00;
   border-radius: .3em;
   text-shadow: 0.1em 0.1em 0 rgb(10,10,10,0.8)
