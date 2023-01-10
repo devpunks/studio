@@ -33,13 +33,13 @@
 
   --tab-size: 2;
 
-  --larger: 120%;
+  --smallest: 61.8%;
 
-  --smaller: 80%;
+  --smaller:  80.0%;
+
+  --larger:  120.0%;
 
   --largest: 161.8%;
-
-  --smallest: 61.8%;
 
   /* Vertical rhythm - https://24ways.org/2006/compose-to-a-vertical-rhythm*/
   --font-size: 2.618vw; /* http://webtypography.net/2.1.2 */
