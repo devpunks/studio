@@ -99,9 +99,6 @@ input[type=color], input[type=url], input[type=email], input[type=tel], input[ty
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   opacity: .7;
-  line-height: 200%;
-  background: Canvas;
-  color: currentColor;
   white-space: nowrap;
   line-height: inherit;
   margin: var(--p-margin);
