@@ -307,8 +307,12 @@ input[type=color] {
   opacity: 1.0;
   padding: unset;
   overflow: hidden;
+  background: Canvas;
   cursor: context-menu;
   display: inline-flex;
+  margin: var(--margin);
+  border-radius: 0.1618em;
+  font-size: var(--largest);
   height: var(--line-height);
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
@@ -316,16 +320,17 @@ input[type=color] {
 [type=color]::before {
   width: 0;
   z-index: 1;
-  content: '\2002' '🎨';
+  content: '🎨';
+//  content: '\2002' '🎨';
 }
 ::-webkit-color-swatch-wrapper {
-  padding: 0.2em;
-  border: 3px solid red;
-  border-radius: 10px;
+  border: none;
+  border-radius: inherit;
 }
 ::-webkit-color-swatch {
-  border: 3px solid green;
-  border-radius: 10px;
+  border: none;
+  margin: 0.1618em;
+  border-radius: inherit;
 }
 
 textarea {
