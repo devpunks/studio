@@ -83,8 +83,6 @@ button, input, select, textarea {
   font-family: inherit;
   letter-spacing: inherit;
   text-align: var(--text-align);
-  /* Remove the inheritance of text transform in Firefox */
-  text-transform: none;
   /*
    * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
    * appearance
