@@ -421,7 +421,6 @@ button:active, [type=button]:active, [type=submit]:active, [type=reset]:focus, [
   background: buttonText;
 }
 ::-webkit-file-upload-button {
-  font: inherit;
   -webkit-appearance: button;
   appearance:         button
 }
