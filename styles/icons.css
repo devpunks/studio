@@ -17,13 +17,6 @@
 
 a[href='#']::before
   { content: '⇭' }
-a[rel=tag]::before,
-a[href*='phobos.apple.com']::before,
-a[href*='maps.apple.com']::before,
-a[href^=mailto]::before,
-a[href^=tel]::before,
-a[href^=sms]::before
-  { width: 1.618em }
 
 a[rel=alternate][hreflang]::before
   { content:  attr(target) attr(hreflang) }
