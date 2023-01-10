@@ -37,6 +37,8 @@
   --max-width: 100%; /* https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm* */
 
   /* Shadows
+    - https://caniuse.com/css-filters
+    - https://caniuse.com/css-boxshadow
     - https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
     - https://css-tricks.com/breaking-css-box-shadow-vs-drop-shadow/
     - https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow
