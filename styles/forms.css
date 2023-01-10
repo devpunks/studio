@@ -400,7 +400,8 @@ dialog:not([open])
 button, [type=button], [type=submit], [type=reset], [role=button]
 {
   opacity: 70%;
-  cursor: pointer;
+  line-height: var(--line-height);
+  cursor:  pointer;
   font-weight: bold;
   width: max-content;
   padding: 0 1.618em;
