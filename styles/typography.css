@@ -290,10 +290,8 @@ a:hover {
   text-decoration-color: ActiveText;
 }
 a::before, a::after {
-  padding: 0 .3em;
-  margin: 0 0.168em;
-  display: inline-block;
   text-decoration: none;
+  margin-right: 0.1618em;
 }
 
 a.logo {
