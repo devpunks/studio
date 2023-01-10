@@ -428,6 +428,7 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
   - https://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/
 */
 button:active, [type=button]:active, [type=submit]:active, [type=reset]:focus, [role=button]:active {
+  box-shadow: none;
   color: buttonFace;
   background: buttonText;
 }
