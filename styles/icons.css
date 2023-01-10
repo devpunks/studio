@@ -60,6 +60,7 @@ a[href*=twitter]::before
 
 a[href*=youtube]::before {
   content: '►';
+  padding: 0.2em 0.618em 0.1em;
   color: #fff;
   font-size: 0.7em;
   font-weight: bold;
