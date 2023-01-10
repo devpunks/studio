@@ -119,9 +119,10 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   background-color: currentColor
 }
 
+a,
 a:link,
-a:active,
-a:visited
+a:visited,
+a:active
   { color: var(--a) }
 
 a:hover
