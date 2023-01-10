@@ -28,7 +28,7 @@
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 *, ::before, ::after
-/* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
+  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { box-sizing: inherit }
 html, body {
   min-height: 100vh;
