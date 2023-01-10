@@ -40,6 +40,7 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
     - https://css-tricks.com/breaking-css-box-shadow-vs-drop-shadow/
     - https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow
   */
   --shadow:
     0.05em 0.05em 0.2em currentColor;
