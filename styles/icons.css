@@ -7,12 +7,12 @@
 */
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
-:where(header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id])::before {
+:where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] )::before {
   opacity: 20%;
   content: '\1F517';
 }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
-:where(header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]):hover::before
+:where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] ):hover::before
   { opacity: 40% }
 
 a[href='#']:before
