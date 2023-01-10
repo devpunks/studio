@@ -26,11 +26,8 @@ a[rel=bookmark]::before
 { content: '📁' }
 a[rel=external]::before
   { content: '🌐' }
-a[rel=help]::after {
-  margin: 0;
-  padding: 0;
-  content: '❓';
-}
+a[rel=help]::after
+  { content: '❓' }
 address a[rel=help]::after
   { content: '' }
 a[rel=license]::before
