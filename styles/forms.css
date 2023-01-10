@@ -61,11 +61,6 @@ fieldset input {}
 fieldset li
   { list-style: none }
 
-legend {
-  width: 100%; /* Correct the text wrapping in Edge and IE. */
-  max-width: 100%
-}
-
 :not(li) > label {
   width: 100%;
   cursor: pointer;
