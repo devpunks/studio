@@ -120,10 +120,6 @@
   outline-color: rgba(0,0,0,0.618);
   background-color:  rgba(255,255,255,0.618);
 }
-::before, *:before, ::after, *:after {
-  /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
-  display: inline-block;
-}
 ::backdrop
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
   { background-color: currentColor }
