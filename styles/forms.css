@@ -337,13 +337,8 @@ select, label select {
   border-radius: 0.5em;
   text-overflow: ellipsis;
   text-align: var(--text-align);
-  text-align-last: var(--text-align);
   outline: 0.01em solid currentColor;
-}
-select, label select {
-  border: none;
-  line-height: 200%;
-  font-weight: normal;
+  text-align-last: var(--text-align);
 }
 select[multiple] {
   padding: 0;
