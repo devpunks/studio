@@ -547,11 +547,10 @@ nav summary
 fieldset
   { }
 legend {
-  padding: 0;
-  color: inherit; /* Correct the color inheritance from `fieldset` elements in IE. */
   font-weight: bold;
+  margin: var(--margin);
+  margin-top: 0;
   font-size: var(--larger);
-  white-space: normal;
-  line-height: inherit;
-  margin-bottom: 0.618em;
+  padding: 0 var(--line-height);
+  line-height: var(--line-height);
 }
