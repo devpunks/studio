@@ -422,11 +422,11 @@ button:active, [type=button]:active, [type=submit]:active, [type=reset]:focus, [
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  appearance:         button
+          appearance: button
 }
 ::-moz-file-upload-button {
   -webkit-appearance: button;
-  appearance:         button
+          appearance: button
 }
 
 
