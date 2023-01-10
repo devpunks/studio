@@ -52,8 +52,6 @@ body > nav {
   top: 0;
   z-index: 1;
   position: sticky;
-  background: canvas;
-  box-shadow: var(--shadow);
 }
 body > main { }
 body > aside { }
