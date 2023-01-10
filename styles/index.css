@@ -187,12 +187,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 }
 
 [href='#main'] { /* skip link */
-  width: 0;
-  border: 0;
-  z-index: 1000;
-  margin: 1.168em;
-  overflow: hidden;
-  background: canvas;
+  z-index: 2;
   position: absolute;
   white-space: nowrap;
   clip-path: inset(50%);
