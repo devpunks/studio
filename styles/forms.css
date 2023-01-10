@@ -389,7 +389,7 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   font-size: 140%;
   font-weight: bold;
   width: max-content;
-  padding: 0 1.612em;
+  padding: 0 1.618em;
   margin: var(--margin);
   line-height: 1.612em;
   border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
