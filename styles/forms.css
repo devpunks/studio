@@ -376,10 +376,6 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   width: max-content;
   padding: 0 1.618em;
   margin: var(--margin);
-  line-height: 1.612em;
-  border-radius: 0; /* https://github.com/twbs/bootstrap/issues/24093 */
-  color: currentColor;
-  background: transparent;
   -webkit-appearance: button;
   appearance:         button;
   border: 0.0168em solid currentColor;
