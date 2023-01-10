@@ -454,6 +454,7 @@ blockquote::before {
 }
 blockquote:after {
   opacity: 40%;
+  margin: var(--p-margin);
   position: relative;
   content: '⤷\2002' attr(cite);
   transform: translateY(-1.618rem);
