@@ -48,6 +48,13 @@
 
   --text-align: center;
 
+  /*
+    - https://caniuse.com/mdn-css_properties_margin-block
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block
+    - https://css-tricks.com/almanac/properties/m/margin-block-start/
+    - https://stackoverflow.com/questions/59909792/what-is-the-difference-between-margin-block-start-and-margin-top
+    - https://www.js-craft.io/blog/css-logical-properties-using-the-margin-block-and-margin-inline-instead-of-the-default-margin/
+  */
   --margin: 0.67em auto;
 
   --line-height: 1.618em; /* https://en.wikipedia.org/wiki/Golden_ratio */
