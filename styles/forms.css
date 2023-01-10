@@ -79,6 +79,7 @@ output
   { display: inline-block }
 
 button, input, select, textarea {
+  color: currentColor;
   font-family: inherit;
   letter-spacing: inherit;
   text-align: var(--text-align);
