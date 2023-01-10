@@ -357,7 +357,10 @@ select[multiple] optgroup, select[multiple] optgroup :first-child {
 border-top: 0.0618em solid ButtonText;
 }
 select[multiple] optgroup option {}
-
+select[multiple] optgroup option {}
+option {
+  color: currentColor;
+}
 
 dialog {
   left: 0;
