@@ -298,15 +298,35 @@ input[type=file] {
   opacity: 0;
 }
 
-/* https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/ */
-[type=color] {
-  padding: 0;
+/* input[type=color]
+    - https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/
+    - 
+*/
+input[type=color] {
   border: none;
-  background: Canvas;
+  opacity: 1.0;
+  padding: unset;
+  overflow: hidden;
   cursor: context-menu;
-  outline: 0.1em solid
+  display: inline-flex;
+  height: var(--line-height);
+  box-shadow: var(--box-shadow);
+  line-height: var(--line-height);
 }
-[type=color]::before {}
+[type=color]::before {
+  width: 0;
+  z-index: 1;
+  content: '\2002' '🎨';
+}
+::-webkit-color-swatch-wrapper {
+  padding: 0.2em;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+::-webkit-color-swatch {
+  border: 3px solid green;
+  border-radius: 10px;
+}
 
 textarea {
   white-space: unset;
