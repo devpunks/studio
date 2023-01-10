@@ -40,12 +40,8 @@ a[rel=pingback]::before
   { content: '⥹' }
 a[rel=search]::before
   { content: '🔍' }
-a[rel=tag]::before {
-  padding: 0;
-  content: '#';
-  width: .618em;
-  font-size: 1.28em
-}
+a[rel=tag]::before
+  { content: '#' }
 
 a[href^=mailto]::before
   { content: '📧' }
