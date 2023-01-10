@@ -154,11 +154,7 @@
   }
 }
 
-* {
-  /* https://css-tricks.com/what-you-should-know-about-collapsing-margins/ */
-  padding: var(--margin-collapse-bugfix) auto;
-  margin: var(--margin-collapse-bugfix) auto;
-}
+* { padding: var( --margin-collapse-bugfix ) }
 
 html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
