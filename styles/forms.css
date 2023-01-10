@@ -12,14 +12,8 @@
   --flex-direction: column;
 }
 
-/*
-  - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
-*/
-@media screen and (min-width: 786px) {
-  :root {
-/*     --flex-direction: row */
-  }
-}
+/* Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html */
+@media screen and (min-width: 786px) { :root { } }
 
 /* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
 ::placeholder { } /* 4.5:1 contrast ratio for ARIA */
