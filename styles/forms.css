@@ -412,7 +412,14 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
   outline: 0.168em dotted currentColor;
   outline: 0.168em dotted auto -webkit-focus-ring-color
 }
-
+/*
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+  - https://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/
+*/
+button:active, [type=button]:active, [type=submit]:active, [type=reset]:focus, [role=button]:active {
+  color: buttonFace;
+  background: buttonText;
+}
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
