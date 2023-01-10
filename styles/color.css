@@ -127,9 +127,11 @@ a:active
 a:hover
   { color: var(--a\:hover) }
 
-a.logo, a.logo:link, a.logo:active, a.logo:visited {
+a.logo, a.logo:link, a.logo:visited, a.logo:active {
   color: var(--color)
 }
+a.logo:hover
+  { color: var(--a\:hover) }
 
 p {
   color: var(--color);
