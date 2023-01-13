@@ -454,8 +454,22 @@ input:not([type]):read-only
   opacity: 1.0;
 }
 
-[required], [aria-required=true] {
-  /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */
+button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover, [role=button]:hover
+{ /* https://developer.mozilla.org/en-US/docs/Web/CSS/:hover */
+  opacity: 100%;
+}
+button:focus-visible, [type=button]:focus-visible, [type=submit]:focus-visible, [type=reset]:focus-visible, [role=button]:focus-visible
+  { outline: 0.168em dashed currentColor }
+button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
+{ /*  /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus */ }
+button:active, [type=button]:active, [type=submit]:active, [type=reset]:active, [role=button]:active {
+  /*
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+    - https://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/
+  */
+  outline-offset: 0;
+  filter: contrast(1.1);
+}
 
   opacity: 1.0;
 }
