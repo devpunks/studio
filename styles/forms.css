@@ -446,7 +446,13 @@ button, [type=button], [type=submit], [type=reset], [role=button]
 input[type=text]:read-only,
 input:not([type]):read-only
   { cursor: not-allowed }
-:read-write {}
+:required, [required], [aria-required=true] {
+  /*
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
+    - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes
+  */
+  opacity: 1.0;
+}
 
 [required], [aria-required=true] {
   /* https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes */
