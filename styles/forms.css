@@ -430,8 +430,7 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 */
 button:active, [type=button]:active, [type=submit]:active, [type=reset]:focus, [role=button]:active {
   box-shadow: none;
-  color: buttonFace;
-  background: buttonText;
+  filter: contrast(1.1);
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
