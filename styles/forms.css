@@ -490,8 +490,13 @@ button:active, [type=button]:active, [type=submit]:active, [type=reset]:active, 
 /* Styling validation using content
  *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
 */
-:user-valid { /* https://caniuse.com/mdn-css_selectors_user-valid */ }
-:user-invalid { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
+/* VALID */
+:user-valid
+  { /* https://caniuse.com/mdn-css_selectors_user-valid */ }
+input:valid::before, input:in-range::before,
+select:valid::before, textarea:invalid::before,, [aria-invalid=false]::before {
+  content: ' ';
+}
 
 input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown), input:out-of-range:not(:placeholder-shown), select:invalid:not(:placeholder-shown), [aria-invalid=true]:not(:placeholder-shown) {
   accent-color: ActiveText;
