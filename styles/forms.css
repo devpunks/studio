@@ -405,7 +405,7 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   font-weight: bold;
   width: max-content;
   padding: 0 1.618em;
-  color: buttonText;
+  color: currentColor;
   margin: var(--margin);
   background: buttonFace;
   border-radius: 0.1618em;
