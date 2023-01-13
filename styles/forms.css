@@ -498,6 +498,9 @@ select:valid::before, textarea:invalid::before,, [aria-invalid=false]::before {
   content: ' ';
 }
 
+/* INVALID */
+:user-invalid
+  { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
 input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown), input:out-of-range:not(:placeholder-shown), select:invalid:not(:placeholder-shown), [aria-invalid=true]:not(:placeholder-shown) {
   accent-color: ActiveText;
   color:        ActiveText;
