@@ -427,8 +427,7 @@ button, [type=button], [type=submit], [type=reset], [role=button]
 }
 
 /*
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/:active
-  - https://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/
+  - input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
 */
 button:active, [type=button]:active, [type=submit]:active, [type=reset]:focus, [role=button]:active {
   box-shadow: none;
