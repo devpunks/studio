@@ -506,11 +506,6 @@ input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown),
   color:        ActiveText;
   cursor:       not-allowed;
 }
-
-input:valid::before, input:in-range::before,
-select:valid::before, textarea:invalid::before,, [aria-invalid=false]::before {
-  content: ' ';
-}
 input:invalid::before, input:out-of-in-range::before,
 select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
   content: '✖';
