@@ -413,6 +413,7 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   -webkit-appearance: button;
           appearance: button;
   box-shadow: var(--box-shadow);
+  line-height: var(--line-height);
   border: 0.0168em solid currentColor;
 }
 button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover, [role=button]:hover,
