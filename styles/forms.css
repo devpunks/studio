@@ -439,8 +439,10 @@ button, [type=button], [type=submit], [type=reset], [role=button]
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:blank */ }
 :empty
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:empty */ }
-
-:read-only {}
+:read-write
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write */ }
+:read-only
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only */ }
 input[type=text]:read-only,
 input:not([type]):read-only
   { cursor: not-allowed }
