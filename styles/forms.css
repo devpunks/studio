@@ -471,7 +471,20 @@ button:active, [type=button]:active, [type=submit]:active, [type=reset]:active, 
   filter: contrast(1.1);
 }
 
-  opacity: 1.0;
+/* ENABLED */
+:enabled
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled */ }
+
+/* DISABLED */
+:disabled, [aria-enabled=false],
+:disabled:hover, [aria-enabled=false]:hover,
+:disabled:active, [aria-enabled=false]:active
+ { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
+  opacity: 30%;
+  outline: none;
+  filter: revert;
+  cursor: not-allowed;
+  text-decoration: line-through;
 }
 
 /* Styling validation using content
