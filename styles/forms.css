@@ -297,6 +297,14 @@ input[type=file] {
   padding: 0;
   opacity: 0;
 }
+input[type=file]::-webkit-file-upload-button {
+  -webkit-appearance: button;
+          appearance: button
+}
+input[type=file]::-moz-file-upload-button {
+  -webkit-appearance: button;
+          appearance: button
+}
 
 /* input[type=color]
     - https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/
