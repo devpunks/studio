@@ -307,6 +307,7 @@ input[type=file]::-moz-file-upload-button {
     - 
 */
 input[type=color] {
+  width: var(--line-height);
   border: none;
   opacity: 1.0;
   padding: unset;
