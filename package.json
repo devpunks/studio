@@ -72,7 +72,9 @@
     "pm2": "5.x"
   },
   "dependencies": {
-    "express": "4.x"
+    "express": "4.x",
+    "postcss": "8.x",
+    "postcss-import": "15.x"
   },
   "peerDependencies": {
     "pm2": ""
