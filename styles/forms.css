@@ -364,6 +364,9 @@ select[multiple] {
   overflow-y: scroll;
   text-overflow: ellipsis;
 }
+select[multiple]:focus {
+  overflow-x: scroll;
+}
 
 select:not([multiple]) {
   background: /* https://css-tricks.com/styling-a-select-like-its-2019/*/
@@ -380,11 +383,13 @@ select[multiple] optgroup option {}
 select[multiple] optgroup option {}
 
 option {
-  padding: 0 var(--line-height);
+  overflow-x: clip;
   color: currentColor;
+  padding: 0 var(--line-height);
   line-height: var(--line-height);
 }
-
+:focus option
+  { overflow-x: visible }
 
 dialog {
   left: 0;
