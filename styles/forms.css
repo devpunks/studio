@@ -355,7 +355,6 @@ select, label select {
   text-overflow: ellipsis;
   box-shadow: var(--box-shadow);
   text-align: var(--text-align);
-  outline: 0.01em solid currentColor;
   text-align-last: var(--text-align);
 }
 select[multiple] {
