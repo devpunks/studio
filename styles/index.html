@@ -1208,10 +1208,17 @@ class Shape {
         <fieldset>
           <legend><abbr title='Accessible Rich Internet Applications'>ARIA</abbr> Buttons</legend><!-- https://www.deque.com/blog/accessible-aria-buttons/ -->
 
-          <button title=Button>&lt;button&gt;</button>
-          <button disabled title='Button Disabled'>&lt;button disabled&gt;</button>
-          <button type=reset title=Reset>&lt;button type=reset&gt;</button>
-          <button type=submit title=Submit>&lt;button type=submit&gt;</button>
+          <!-- https://www.deque.com/blog/accessible-aria-buttons/ -->
+          <span role=button tabindex=0 >&lt;[role=button]&gt;</span>
+          <span role=button aria-pressed=false tabindex=0 >&lt;[role=button][aria-pressed]&gt;</span>
+          <span role=button aria-disabled=true aria-pressed=false tabindex=-1 >&lt;[role=button][aria-disabled=true]&gt;</span>
+        </fieldset>
+
+        <fieldset>
+          <legend>Link buttons</legend>
+
+          <a role=button title='<a>nchor link button' href=#buttons>&lt;a&gt;nchor link</a>
+          <a disabled role=button title='<a>nchor link button' href=#buttons><em>(disabled)</em>&lt;a&gt;nchor link</a>
         </fieldset>
       </footer>
 
