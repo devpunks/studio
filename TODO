@@ -5,6 +5,8 @@
 - App install banner
 
 - INSTALL PWA Personal Web App - https://web.dev/customize-install/
+- Clipboard API - https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
+
 - Quota Management - https://developer.mozilla.org/en-US/docs/Web/API/StorageQuota
 - Navigator.connection - https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection
 - NetworkInformation - https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation
