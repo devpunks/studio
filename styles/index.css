@@ -393,11 +393,14 @@ pre, p, q, cite, blockquote, address
 /* ... and all id-entifiable headers ... */
 , :where(header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]) {
   -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
-  -webkit-touch-callout:       inherit; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
   -webkit-user-select:         text;    /* Webkit (Chrome all / Safari all) */
           user-select:         text;    /* https://caniuse.com/user-select-none */
 }
+pre {
+  user-select: all; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select#all */
+}
+
 body > main
   { -webkit-overflow-scrolling: touch }
 body > aside
