@@ -1121,6 +1121,21 @@ class Shape {
             <option>Option Five
           </optgroup>
         </select>
+
+        <label>Multi-Select
+          <em>(Nested in <code>&lt;label&gt;</code>)</em>
+
+          <select multiple size=3 title='Select Multiple Options'>
+            <option selected>Option One (selected)
+            <option>The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog.
+            <option disabled>Option Three (disabled)
+
+            <optgroup label='Option Group'>
+              <option>Option Four
+              <option>Option Five
+            </optgroup>
+          </select>
+        </label>
       </fieldset>
 
       <a title='Top of page' href=#>Top</a>
@@ -1226,6 +1241,12 @@ class Shape {
 
         <fieldset>
           <legend>Input buttons</legend>
+
+          <label><code>&lt;input type=button&gt;</code>
+            <em>(Nested in <code>&lt;label&gt;</code>)</em>
+
+            <input type=button title=Button value='<input type=button>'>
+          </label>
 
           <input type=button title=Button value='<input type=button>'>
           <input type=button title='Submit (Disabled)' value='<input type=button disabled>' disabled>
