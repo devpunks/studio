@@ -406,7 +406,6 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   margin: var(--margin);
   background: buttonFace;
   border-radius: 0.1618em;
-  outline-offset: 0.168em;
   font-size: var(--largest);
   -webkit-appearance: button;
           appearance: button;
