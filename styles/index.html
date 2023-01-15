@@ -270,7 +270,13 @@
       <!-- https://html.spec.whatwg.org/multipage/links.html -->
 
       <p>Default:
-        <a name=default title='Default Link' href=#default>This page</a>
+        <a title='Default Link' href=#hyperlinks>This page</a>
+
+      <p>Disabled:
+        <a aria-disabled=true tabindex=-1 title='Disabled Link' href=#hyperlinks>This link is disabled</a>
+
+      <p>Download: <!-- https://www.samanthaming.com/tidbits/38-html-download-attribute/ -->
+        <a download title='Download style guide' href=./index.html>Download Style Guide</a>
 
       <p>Alternate: <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel#attr-alternate -->
         <a rel=alternate target=🇺🇸 hreflang=en-us title='Alternate translation of this page' href=#>Alternate <em>U.S. English</em></em></a>
