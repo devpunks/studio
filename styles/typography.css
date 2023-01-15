@@ -266,7 +266,7 @@ header *
 
 
 /* hyperlinks */
-a {
+a:not([aria-disabled=true]) { /* TODO: migrate ARIA to accessibility.css */
   margin:  .1em;
   padding: .1em;
   text-underline-offset: 0;
