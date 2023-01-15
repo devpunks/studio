@@ -397,10 +397,8 @@ dialog {
 dialog:not([open])
   { display: none }
 
-button, [type=button], [type=submit], [type=reset], [role=button]
-{
-  opacity: 70%;
-  cursor:  pointer;
+button, [type=button], [type=submit], [type=reset], [role=button] {
+  /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   font-weight: bold;
   width: max-content;
   padding: 0 1.618em;
