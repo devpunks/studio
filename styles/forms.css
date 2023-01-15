@@ -383,7 +383,7 @@ select[multiple] optgroup option {}
 select[multiple] optgroup option {}
 
 option {
-  overflow-x: clip;
+  overflow-x: clip; /* https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/ */
   color: currentColor;
   padding: 0 var(--line-height);
   line-height: var(--line-height);
