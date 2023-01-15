@@ -235,7 +235,7 @@ dt {}
 dd {}
 
 /* http://html5doctor.com/the-details-and-summary-elements/ */
-details { width: 100% }
+details { }
 summary {
   opacity: 0.75;
   list-style: none;
