@@ -353,6 +353,7 @@ select, label select {
   word-wrap: normal; /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
   border-radius: 0.5em;
   text-overflow: ellipsis;
+  box-shadow: var(--box-shadow);
   text-align: var(--text-align);
   outline: 0.01em solid currentColor;
   text-align-last: var(--text-align);
