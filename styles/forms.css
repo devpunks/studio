@@ -51,10 +51,13 @@ fieldset {
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
   display: flex;
   margin: inherit;
-  flex-direction: var(--flex-direction)
+  flex-direction: var(--flex-direction);
 }
 fieldset[disabled] {}
-legend { display: contents } /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
+legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
+  width: 100%;
+  /* display: contents; */
+}
 
 /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
 fieldset input {}
@@ -63,12 +66,9 @@ fieldset li
 
 :not(li) > label {
   width: 100%;
-  padding: 0 var(--line-height);
   cursor: pointer;
-  font-weight: bolder;
   display: inline-block;
-  font-size:  var(--larger)
-  text-align: var(--text-align);
+  padding: 0 var(--line-height);
 }
 
 :placeholder-shown {
@@ -98,6 +98,7 @@ input:not([type]), input[type=text], input[type=password], input[type=search],
 input[type=color], input[type=url], input[type=email], input[type=tel], input[type=number], input[type=range],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
+  width: inherit;
   white-space: nowrap;
   text-overflow: ellipsis;
   margin: var(--p-margin);
@@ -348,15 +349,17 @@ textarea {
   white-space: unset;
 }
 
-select, label select {
-  /* word-wrap: normal; */ /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
-  max-width: 90%;
-  overflow-x: hidden;
-  cursor: context-menu;
-  border-radius: 0.5em;
+select {
+   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+   width: inherit;
+   cursor: context-menu;
+   border-radius: 0.5em;
+   margin: var(--p-margin);
+   box-shadow: var(--box-shadow);
+   text-align-last: var(--text-align);
+}
+label input, label input:not([type]), label select, label textarea {
   margin: var(--margin);
-  box-shadow: var(--box-shadow);
-  text-align-last: var(--text-align);
 }
 select[multiple] {
   padding: 0;
@@ -364,7 +367,7 @@ select[multiple] {
   overflow-y: scroll;
   text-overflow: ellipsis;
 }
-select[multiple]:focus {
+select[multiple]:focus-visible {
   overflow-x: scroll;
 }
 
@@ -420,7 +423,6 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   margin: var(--margin);
   background: buttonFace;
   border-radius: 0.1618em;
-  font-size: var(--largest);
   -webkit-appearance: button;
           appearance: button;
   box-shadow: var(--box-shadow);
@@ -494,9 +496,4 @@ input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown),
 input:invalid::before, input:out-of-in-range::before,
 select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
   content: '✖';
-}
-
-label input {
-  top: 1px;
-  position: relative;
 }

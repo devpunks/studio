@@ -1057,7 +1057,9 @@ class Shape {
           </optgroup>
         </select>
 
-        <label>Select <em>(Nested in <code>&lt;label&gt;</code>)</em>
+        <label>Select
+          <em>(Nested in <code>&lt;label&gt;</code>)</em>
+
           <select title='Select Option'>
             <option hidden disabled selected value>- select an option -
             <option>Option One
@@ -1082,6 +1084,12 @@ class Shape {
           <option disabled>Option Three (disabled)
         </select>
 
+        <label for=select:disabled>Select <em>(Disabled)</em></label>
+        <select id=select:disabled disabled title='Select Option (Disabled)'>
+          <option>Option One
+          <option selected>Option Two (Selected)
+        </select>
+
         <label>
           Select <em>(Disabled)</em>
           <em>(Nested in <code>&lt;label&gt;</code>)</em>
@@ -1092,14 +1100,8 @@ class Shape {
           </select>
         </label>
 
-        <label for=select:disabled>Select <em>(Disabled)</em></label>
-          <select id=select:disabled disabled title='Select Option (Disabled)'>
-            <option>Option One
-            <option selected>Option Two (Selected)
-          </select>
-        </label>
-
         <label>Select <em>(With long text)</em>
+          <em>(Nested in <code>&lt;label&gt;</code>)</em>
           <select title='Select Option With Long Text'>
             <option>Option One
             <option selected>
@@ -1193,6 +1195,15 @@ class Shape {
 
         <label for=textarea>Textarea</label>
         <textarea id=textarea rows=8 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'></textarea>
+
+        <label for=textarea>Textarea
+          <em>(Nested in <code>&lt;label&gt;</code>)</em>
+
+          <textarea
+              id=textarea rows=8 cols=48 spellcheck=true
+              title='Enter your message here' placeholder='Enter your message here'>
+          </textarea>
+        </label>
 
         <label for=textarea:required><em>(Required)</em> Textarea</label>
         <textarea required id=textarea:required minlength=10 rows=4 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'>Not Valid</textarea>

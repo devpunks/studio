@@ -557,6 +557,6 @@ legend {
   margin: var(--margin);
   margin-top: 0;
   font-size: var(--larger);
-  padding: 0 var(--line-height);
+  padding: var(--margin-collapse-bugfix) var(--line-height);
   line-height: var(--line-height);
 }
