@@ -525,12 +525,11 @@ details {
 body > header details
   { padding-left: 0 }
 
+/* summary */
 body > nav > details > summary {
   margin: 0 1em;
   text-align: var(--text-align);
 }
-
-/* summary */
 summary {
   text-align: start;
   font-weight: bolder;
@@ -551,6 +550,7 @@ nav summary
   { white-space: nowrap }
 
 
+/* fieldset / legend */
 fieldset
   { }
 legend {
