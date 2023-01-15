@@ -81,7 +81,7 @@ output {
   padding: var(--margin-collapse-bugfix) var(--line-height);
 }
 
-button, input, select, textarea {
+button, [role=button], input, select, textarea {
   color: currentColor;
   font-family: inherit;
   letter-spacing: inherit;
