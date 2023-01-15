@@ -18,6 +18,8 @@
 
 a[href='#']::before
   { content: '⇭' }
+a[download]::before
+  { content: '⟱' }
 
 a[rel=alternate][hreflang]::before
   { content:  attr(target) attr(hreflang) }
