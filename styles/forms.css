@@ -430,8 +430,6 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 */
 :default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
-:optional
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */ }
 :indeterminate
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
 :blank /* https://github.com/w3c/csswg-drafts/issues/1967*/
