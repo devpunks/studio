@@ -443,51 +443,25 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 input[type=text]:read-only,
 input:not([type]):read-only
   { cursor: not-allowed }
+
+/* OPTIONAL */
+:optional { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
+  /* opacity: 70%; */
+}
+/* REQUIRED */
 :required, [required], [aria-required=true] {
   /*
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
     - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes
   */
-  opacity: 1.0;
-}
-
-button:hover, [type=button]:hover, [type=submit]:hover, [type=reset]:hover, [role=button]:hover
-{ /* https://developer.mozilla.org/en-US/docs/Web/CSS/:hover */
   opacity: 100%;
 }
-button:focus-visible, [type=button]:focus-visible, [type=submit]:focus-visible, [type=reset]:focus-visible, [role=button]:focus-visible
-  { outline: 0.168em dashed currentColor }
-button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
-{ /*  /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus */ }
-button:active, [type=button]:active, [type=submit]:active, [type=reset]:active, [role=button]:active {
-  /*
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/:active
-    - https://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/
-  */
-  outline-offset: 0;
-  filter: contrast(1.1);
-}
 
-/* ENABLED */
-:enabled
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled */ }
 
-/* DISABLED */
-:disabled, [aria-enabled=false],
-:disabled:hover, [aria-enabled=false]:hover,
-:disabled:active, [aria-enabled=false]:active
- { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
-  opacity: 30%;
-  outline: none;
-  filter: revert;
-  cursor: not-allowed;
-  text-decoration: line-through;
-}
-
+/* VALID */
 /* Styling validation using content
  *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
 */
-/* VALID */
 :user-valid
   { /* https://caniuse.com/mdn-css_selectors_user-valid */ }
 input:valid::before, input:in-range::before,
