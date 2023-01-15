@@ -1,10 +1,10 @@
-{ "name": "devpunks.studio",
+{
+  "name": "devpunks.studio",
   "private": true,
   "type": "module",
   "license": "MIT",
   "version": "0.3.2",
   "main": "index.es",
-  "browser": "index.js",
   "module": "./index.es",
   "author": "devPunks",
   "description": "devPunks.studio",
@@ -20,25 +20,32 @@
   "bugs": {
     "url": "https://github.com/devpunks/studio/issues"
   },
-  "cpu": [
-    "x64",
-    "!arm64"
-  ],
-  "os": [
-    "linux",
-    "darwin",
-    "!win32"
-  ],
-  "engines": {
-    "npm": "9.x",
-    "node": "18.x"
-  },
+
   "keywords": [
     "science",
     "technology",
     "engineering",
     "music"
   ],
+
+  "cpu": [
+    "!arm32",
+    "x64",
+    "arm64"
+  ],
+
+  "os": [
+    "!win32",
+    "linux",
+    "darwin",
+    "android"
+  ],
+
+  "engines": {
+    "npm": "9.x",
+    "node": "18.x"
+  },
+
   "workspaces": [
     "audio"
   ],
@@ -65,15 +72,20 @@
     "pm2": "5.x"
   },
   "dependencies": {
-    "express": "4.x",
-    "snuggsi": "../snuggsi"
+    "express": "4.x"
   },
-  "peerDependencies": { },
+  "peerDependencies": {
+    "pm2": ""
+  },
   "bundleDependencies": "true",
 
   "scripts": {
-    "test": "snuggsi test",
+    "log": "pm2 log all",
+    "test": "node --test",
     "start": "snuggsi serve",
+    "kill": "pm2 delete all",
+    "monitor": "pm2 monit all",
+    "restart": "pm2 restart all",
     "package": "snuggsi package",
     "dev": "pm2-dev .config/pm2.js",
     "install": "echo  Installing devPunks.studio",
