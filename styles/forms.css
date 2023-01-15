@@ -117,7 +117,8 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
     background: none;
     text-align: left;
     outline-offset: -2px;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
+            appearance: textfield;
 }
 /* Remove the inner padding in Chrome and Safari on macOS. */
 [type=search]::-webkit-search-decoration
@@ -138,7 +139,6 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   text-align: left;
   height: 1em;
   line-height: 1em;
-  /* vertical-align: bottom; */
 }
 [role=search]
   [type=search] {

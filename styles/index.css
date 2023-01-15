@@ -37,7 +37,7 @@
     - resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
 */
 :root {
-  --max-width: 100%; /* https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm* */
+  --max-width: 97.618%; /* https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm* */
 
   /* Shadows
     - https://caniuse.com/css-filters
@@ -47,9 +47,8 @@
     - https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow
     - https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow
   */
-  --shadow:
-    0.05em 0.05em 0.2em currentColor;
-  --box-shadow:  var(--shadow);
+  --shadow: 0.05em 0.05em 0.2em currentColor;
+  --box-shadow: var(--shadow);
   --text-shadow: var(--shadow);
   --drop-shadow: drop-shadow( var(--shadow) );
 }
