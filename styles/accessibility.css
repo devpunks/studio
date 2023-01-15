@@ -61,6 +61,82 @@
 }
 
 
+/* ENABLED */
+:enabled, [aria-disabled=false]
+ { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled */ }
+
+/* FOCUSED */
+:focus-visible, [aria-disabled=false]:focus-visible
+{
+/*
+  - https://hidde.blog/focus-visible-more-than-keyboard/
+  - https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F78
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+  - https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
+  - https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/
+*/
+  outline-offset: 0.168em;
+  outline: 0.168em dashed currentColor;
+}
+
+/* ACTIVE */
+:enabled:active, [role=button]:active {
+  /*
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+    - https://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/
+  */
+  outline-offset: 0;
+  filter: contrast(1.1); /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
+}
+
+/* DISABLED */
+/*
+  - https://catalin.red/disabled-form-controls/
+  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-disabled
+  - https://stackoverflow.com/questions/12591966/html-disabled-button-getting-active-css-pseudo-class
+  - https://dev.w3.org/html5/spec-LC/association-of-controls-and-forms.html#enabling-and-disabling-form-controls
+*/
+:disabled, [aria-disabled=true],
+:disabled:hover, [aria-disabled=true]:hover
+ { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
+  filter: none;
+  opacity: 30%;
+  outline: none;
+  cursor: not-allowed;
+  pointer-events: none; /* https://jakearchibald.com/2017/events-and-disabled-form-fields/ */
+  -webkit-user-select: none;
+          user-select: none;
+  text-decoration: line-through;
+  text-decoration-color: GrayText;
+}
+
+
+[href='#main'] { /* skip link */
+  z-index: 2;
+  position: fixed; /* https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning */
+  background: canvas;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  margin: var(--line-height);
+  padding: 0.1618em 1.1618em;
+}
+[href='#main']:focus {
+  clip-path: unset;
+  outline: dotted 0.1em;
+  box-shadow: var(--box-shadow);
+}
+a[href='#'] {
+  opacity: 0.3;
+  padding: 1em;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 2em;
+  text-decoration: none;
+}
+a[href='#']:hover
+  { opacity: 1 }
+
+
 /* Pointer events - USE TO DISABLE RIGHT CLICK!
   - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 */
