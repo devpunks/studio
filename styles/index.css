@@ -179,6 +179,8 @@ header, h1, h2, h3, h4, h5, h6
 iframe {
   border: none;
   background: canvas;
+  border-radius: 0.618em;
+  box-shadow: var(--box-shadow);
 }
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   border: 0;
