@@ -99,7 +99,7 @@
   background-color: transparent;
 }
 ::-webkit-scrollbar-track:hover {
-  background-color:  rgba(255,0,0,1);
+  background-color: transparent;
 }
 ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
   /* track pieces */
