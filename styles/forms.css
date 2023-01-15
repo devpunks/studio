@@ -54,8 +54,7 @@ fieldset {
   flex-direction: var(--flex-direction)
 }
 fieldset[disabled] {}
-
-legend { }
+legend { display: contents } /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
 
 /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
 fieldset input {}
