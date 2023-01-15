@@ -1,3 +1,14 @@
+/*
+  - Accessibility
+    - [role=button] - https://www.w3.org/WAI/ARIA/apg/example-index/button/button.html
+    - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#required_javascript_features
+    - [aria-pressed=true] - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#toggle_button_example
+
+  - Page Visibility
+    - https://web.dev/pagevisibility-intro/
+    - https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
+    - https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilitychange_event
+*/
 var
   first  = document.querySelector ('#first')
 , second = document.querySelector ('#second')
