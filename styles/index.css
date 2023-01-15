@@ -68,8 +68,7 @@
 @media (pointer: coarse) { /* finger */ }
 
 @media screen and (min-width: 1000px)
-  /* TODO: FIX THIS HARDCODED MAGIC NUMBER */
-  { :root { --max-width: 1000px } }
+  { :root { --max-width: 90vw } }
 
 /*
  * pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements

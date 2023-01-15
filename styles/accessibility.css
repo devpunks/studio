@@ -121,7 +121,7 @@ body > a[rel=help] { /* skip link */
 [href='#main']:focus-visible {
   clip-path: unset;
 }
-a[href='#'] {
+a[href='#'][title^=Top] {
   opacity: 0.3;
   padding: 1em;
   display: block;
