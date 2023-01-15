@@ -99,12 +99,13 @@ input[type=color], input[type=url], input[type=email], input[type=tel], input[ty
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   white-space: nowrap;
-  line-height: inherit;
+  text-overflow: ellipsis;
   margin: var(--p-margin);
   font-size: var(--larger);
   border: solid currentColor;
   border-width: 0 0 0.1em 0.1em;
   padding: 0 var(--line-height);
+  line-height: var(--line-height);
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
           user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
@@ -339,27 +340,29 @@ input[type=color]:hover::-webkit-color-swatch-wrapper {
 }
 
 textarea {
-  white-space: unset;
-  width: 100%;
   overflow: auto; /* Remove IE vertical scrollbar. */
+  padding: 0.618e;
   resize: vertical;
   text-align: left;
-  padding: 0 0.618em;
+  overflow-y: scroll;
+  white-space: unset;
 }
 
 select, label select {
-  border: none;
+  /* word-wrap: normal; */ /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+  max-width: 100%;
+  overflow-x: hidden;
   cursor: context-menu;
-  word-wrap: normal; /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
   border-radius: 0.5em;
-  text-overflow: ellipsis;
+  margin: var(--margin);
   box-shadow: var(--box-shadow);
-  text-align: var(--text-align);
   text-align-last: var(--text-align);
 }
 select[multiple] {
   padding: 0;
-  overflow: scroll;
+  overflow-x: clip;
+  overflow-y: scroll;
+  text-overflow: ellipsis;
 }
 
 select:not([multiple]) {
@@ -375,7 +378,13 @@ border-top: 0.0618em solid ButtonText;
 }
 select[multiple] optgroup option {}
 select[multiple] optgroup option {}
-option { color: currentColor }
+
+option {
+  padding: 0 var(--line-height);
+  color: currentColor;
+  line-height: var(--line-height);
+}
+
 
 dialog {
   left: 0;
