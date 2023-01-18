@@ -250,8 +250,8 @@ nav > details > ul {
 nav > details > ul li li {
   list-style-type: '📄';
 }
-nav li:hover {
-  list-style-position: outside;
+nav > details > ul li li:hover {
+  list-style-type: '📝';
 }
 
 aside ul {
