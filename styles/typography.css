@@ -543,8 +543,6 @@ nav details, nav summary {
   margin: 0;
   padding: 0;
 }
-nav summary
-  { white-space: nowrap }
 
 
 /* fieldset / legend */
