@@ -134,7 +134,9 @@
 }
 ::selection {
   color: HighlightText;
-  background: Highlight
+  background: Highlight;
+  border-radius: 27em;
+  display: inline-block;
 }
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
   padding:      0;
