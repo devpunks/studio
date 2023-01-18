@@ -313,7 +313,6 @@ ul ul, ol ol, dl dl {
 }
 nav ol, nav ul {
   font-size: 1em;
-  list-style: none;
   margin-bottom: 0;
   margin-left: 1.618em;
 }
