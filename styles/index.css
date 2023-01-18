@@ -242,10 +242,13 @@ dd {}
 details { }
 summary {
   opacity: 0.75;
-  list-style: none;
 }
+nav summary {
+  list-style: numeric inside;
+}
+::marker,
 summary::-webkit-details-marker
-  { display: none }
+  { display: none } /* https://stackoverflow.com/a/66814239 */
 details:hover > summary, details:focus-within > summary
   { opacity: 1.0 }
 summary::before,
