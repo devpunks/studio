@@ -314,7 +314,6 @@ ul ul, ol ol, dl dl {
 nav ol, nav ul {
   font-size: 1em;
   margin-bottom: 0;
-  margin-left: 1.618em;
 }
 nav > details > ul {
   margin-top: 0;
