@@ -232,6 +232,32 @@ dl {}
 dt {}
 dd {}
 
+ul[role=list]
+  { list-style: none; /* https://piccalil.li/blog/a-modern-css-reset/ */ }
+ul, ol
+  { list-style-position: inside }
+ul ul, ol ol
+  { display: block }
+nav summary + ul {
+  list-style-type: ;
+  list-style: '📄' inside;
+  /* list-style: numeric outside; */
+}
+nav > details > ul {
+  background: green;
+  list-style: none;
+}
+nav > details > ul li li {
+  list-style-position: inside;
+}
+nav li:hover {
+  list-style-position: outside;
+}
+
+aside ul {
+  list-style-type: '-';
+}
+
 /* http://html5doctor.com/the-details-and-summary-elements/ */
 details { }
 summary {
