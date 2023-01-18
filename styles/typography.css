@@ -521,6 +521,10 @@ details {
   margin: var(--margin);
   text-align: var(--text-align)
 }
+nav details, nav summary {
+  margin: 0;
+  padding: 0;
+}
 body > header details
   { padding-left: 0 }
 
