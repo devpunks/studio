@@ -527,6 +527,17 @@ nav details, nav summary {
 }
 body > header details
   { padding-left: 0 }
+body > nav, body > nav > details, body > nav > details > summary, body > nav > details > ul
+{
+  border-radius: 0 0 var(--line-height) var(--line-height);
+}
+body > nav > details > summary {
+  box-shadow: var(--shadow);
+}
+nav  details { }
+nav > details[open] {
+  padding-bottom: var(--line-height);
+}
 
 /* summary */
 body > nav > details > summary {
