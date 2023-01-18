@@ -526,7 +526,7 @@ body > header details
 
 /* summary */
 body > nav > details > summary {
-  margin: 0 var(--line-height);
+  padding: 0 1.6182em;
   text-align: var(--text-align);
 }
 summary {
