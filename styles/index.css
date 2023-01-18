@@ -206,9 +206,9 @@ mark::after {
 }
 mark::before
   { content: '[highlight start]' }
-
 mark::after
   { content: '[highlight end]' }
+
 data, var
   { outline: 0.01681em dotted currrentColor }
 
