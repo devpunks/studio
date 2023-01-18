@@ -110,7 +110,6 @@
   text-decoration-color: GrayText;
 }
 
-
 body > a[rel=help] { /* skip link */
   position: fixed; /* https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning */
   background: canvas;
