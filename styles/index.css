@@ -130,6 +130,7 @@
 ::-moz-selection {
   color: HighlightText;
   background: Highlight;
+  border-radius: 2em;
 }
 ::selection {
   color: HighlightText;
