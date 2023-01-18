@@ -241,7 +241,6 @@ ul ul, ol ol
 nav summary + ul {
   list-style-type: ;
   list-style: '📄' inside;
-  /* list-style: numeric outside; */
 }
 nav > details > ul {
   list-style: none;
