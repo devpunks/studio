@@ -282,7 +282,12 @@ nav li details > summary::before {
 }
 nav li details[open] > summary::before
   { content: '📂'; cursor: n-resize; }
-
+nav ul {
+  list-style: numeric outside;
+}
+aside ul {
+  list-style-type: '- ';
+}
 
 /* Table styling
   - counter styling & fallback
