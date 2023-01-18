@@ -262,9 +262,7 @@ aside ul {
 details { }
 summary {
   opacity: 0.75;
-}
-nav summary {
-  list-style: numeric inside;
+  list-style: none;
 }
 ::marker,
 summary::-webkit-details-marker
