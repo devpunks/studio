@@ -280,6 +280,10 @@ nav details[open] > summary {
   cursor: n-resize;
   list-style: '📂' inside;
 }
+body > nav, body > nav > details, body > nav > details > summary
+{
+  border-radius: 0 0 var(--line-height) var(--line-height);
+}
 
 summary::before,
 summary::after {
