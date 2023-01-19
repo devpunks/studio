@@ -291,6 +291,7 @@ nav > details > summary {
   clip-path: inset(-25%);
   list-style: '☰' inside; /* https://www.htmlsymbols.xyz/unicode/U+2630 */
 }
+
 nav > details[open] > summary {
   list-style: 'ⓧ' inside;
 }
