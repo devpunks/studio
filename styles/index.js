@@ -6,12 +6,9 @@ import atImport from 'postcss-import'
 const css = fs
   .readFileSync("./index.css", "utf8")
 
-console.log(css)
-
-// process css
 postcss()
-  .use(atImport())
-  .process(css, {
+  .use( atImport() )
+  .process( css, {
     // `from` option is needed here
     from: "./index.css"
   })
