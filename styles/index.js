@@ -12,8 +12,5 @@ const { css } = await postcss()
     // `from` option is needed here
     from: "./index.css"
   })
-  .then((result) => {
-    const output = result.css
 
-    console.log(output)
-  })
+console.log( css )
