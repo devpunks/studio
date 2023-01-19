@@ -286,6 +286,15 @@ nav details[open] > summary {
   cursor: n-resize;
   list-style: '📂' inside;
 }
+nav > details > summary {
+  list-style: '☰' inside; /* https://www.htmlsymbols.xyz/unicode/U+2630 */
+}
+nav > details[open] > summary {
+  list-style: 'ⓧ' inside;
+}
+nav > details[open] > summary:hover {
+  list-style: '✖' inside; /* https://www.htmlsymbols.xyz/unicode/U+2716 */
+}
 body > nav, body > nav > details, body > nav > details > summary
 {
   border-radius: 0 0 var(--line-height) var(--line-height);
