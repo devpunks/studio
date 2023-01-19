@@ -89,7 +89,8 @@
     ui-serif;
 
   --system-ui:
-    system-ui,   /* https://caniuse.com/font-family-system-ui */-apple-system,           /* macOS 10.11-10.12 */
+    system-ui,   /* https://caniuse.com/font-family-system-ui */
+    -apple-system,           /* macOS 10.11-10.12 */
     BlinkMacSystemFont,      /* macOSX, Chrome */
     'segoe ui', segoe,       /* Windows 6+ */
     'RobotoRegular', roboto, /* Android 4+ */
