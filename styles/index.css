@@ -256,6 +256,12 @@ aside ul {
   list-style-type: '-';
 }
 
+/**** COUNTERS *******
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style
+  - Example Demo - https://mdn.github.io/css-examples/counter-style-demo/
+*/
+
+
 /* http://html5doctor.com/the-details-and-summary-elements/ */
 details { }
 summary {
