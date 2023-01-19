@@ -7,9 +7,7 @@ const file = fs
 
 const { css } = await postcss()
   .use( atImport() )
-  .process( file, {
-    // `from` option is needed here
-    from: "./index.css"
-  })
+  .process( file,
+    { from: "./index.css" }) // ???
 
 console.log( css )
