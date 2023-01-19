@@ -3,8 +3,8 @@ import fs from 'fs'
 import postcss from 'postcss'
 import atImport from 'postcss-import'
 
-// css to be processed
-const css = fs.readFileSync("./index.css", "utf8")
+const css = fs
+  .readFileSync("./index.css", "utf8")
 
 console.log(css)
 
