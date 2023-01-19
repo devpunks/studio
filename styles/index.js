@@ -1,4 +1,3 @@
-// dependencies
 import fs from 'fs'
 import postcss from 'postcss'
 import atImport from 'postcss-import'
