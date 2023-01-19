@@ -298,6 +298,7 @@ nav > details[open] > summary {
 }
 nav > details[open] > summary:hover {
   list-style: '✖' inside; /* https://www.htmlsymbols.xyz/unicode/U+2716 */
+  list-style: 'ⓧ' inside; /* https://www.htmlsymbols.xyz/unicode/U+2716 */
 }
 body > nav, body > nav > details, body > nav > details > summary
 {
