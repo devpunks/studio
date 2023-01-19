@@ -3,7 +3,7 @@ import fs from 'fs'
 import postcss from 'postcss'
 import atImport from 'postcss-import'
 
-const css = fs
+const file = fs
   .readFileSync("./index.css", "utf8")
 
 postcss()
