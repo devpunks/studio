@@ -249,7 +249,7 @@ nav > details > ul {
 }
 
 nav > details > ul li li:hover {
-  list-style-type: '📝';
+  list-style-type: '➯';
 }
 
 aside ul {
