@@ -361,6 +361,7 @@ textarea {
 
 select {
    /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+   display: block;
    cursor: context-menu;
    border-radius: 0.5em;
    margin: var(--margin);
