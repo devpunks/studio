@@ -419,7 +419,6 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   width: max-content;
   padding: 0 1.618em;
-  margin: var(--p-margin);
   background: buttonFace;
   border-radius: 0.1618em;
   -webkit-appearance: button;
