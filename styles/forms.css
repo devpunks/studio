@@ -117,7 +117,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
           user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
-input, select, textarea
+input, select, textarea, output
  { width: 90% }
 
 label input, label select, label textarea
