@@ -466,7 +466,7 @@ input:not([type]):read-only
 
 /* OPTIONAL */
 :optional { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
-  /* opacity: 70%; */
+  opacity: 70%;
 }
 /* REQUIRED */
 :required, [required], [aria-required=true] {
