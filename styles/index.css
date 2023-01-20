@@ -348,10 +348,6 @@ th {
   padding: 0.618em;
   position: sticky;
   text-align: inherit;
-  text-align: -webkit-match-parent;
-}
-th {
-  padding: 0.618em;
   white-space: nowrap;
 }
 th:empty
