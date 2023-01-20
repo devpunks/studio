@@ -461,7 +461,7 @@ input:not([type]):read-only
   { cursor: not-allowed }
 
 /* OPTIONAL */
-:optional { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
+:optional:not(:disabled) { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
   opacity: 70%;
 }
 /* REQUIRED */
