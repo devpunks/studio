@@ -317,9 +317,8 @@ input[type=file]::-moz-file-upload-button {
 */
 input[type=color] {
   opacity: 1.0;
-  padding: unset;
-  overflow: hidden;
-  background: Canvas;
+  border: none;
+  padding: initial;
   cursor: context-menu;
   display: inline-flex;
   margin: var(--margin);
