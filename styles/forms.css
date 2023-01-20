@@ -31,8 +31,6 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 /* Form proximity effect
      - https://www.nngroup.com/articles/form-design-white-space/?lm=form-design-placeholders&pt=article
 */
-form, fieldset /* children positioning */
-  { position: relative }
 form {
   display: flex;
   max-width: var(--max-width);
