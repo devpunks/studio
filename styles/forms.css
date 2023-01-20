@@ -327,6 +327,7 @@ input[type=color] {
   width: 0;
   z-index: 1;
   content: '🎨';
+  position: relative;
 }
 ::-webkit-color-swatch-wrapper {
   border: none;
