@@ -362,8 +362,10 @@ tr
   {}
 tr:before
   { content: '' }
-td
-  { }
+td {
+  -webkit-user-select: text;
+          user-select: text;
+}
 
 thead th
   { border-bottom: 0.0618em solid }
