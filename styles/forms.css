@@ -329,7 +329,8 @@ input[type=color] {
   position: relative;
 }
 ::-webkit-color-swatch-wrapper {
-  border: none;
+  top: -1.6182em;
+  position: relative;
   background: ButtonFace;
   border-radius: inherit;
 }
