@@ -422,6 +422,7 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   background: buttonFace;
   margin: var(--p-margin);
   border-radius: 0.1618em;
+  font-size: var(--larger);
   -webkit-appearance: button;
           appearance: button;
   box-shadow: var(--box-shadow);
