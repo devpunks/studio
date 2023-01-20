@@ -240,7 +240,7 @@ ul[role=list]
 ul, ol
   { list-style-position: inside }
 ul ul, ol ol
-  { display: block }
+  { }
 nav summary + ul {
   list-style-type: ;
   list-style: '📄' inside;
