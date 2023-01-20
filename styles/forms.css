@@ -316,7 +316,6 @@ input[type=file]::-moz-file-upload-button {
     - 
 */
 input[type=color] {
-  border: none;
   opacity: 1.0;
   padding: unset;
   overflow: hidden;
