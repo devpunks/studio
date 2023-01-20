@@ -317,7 +317,7 @@ nav ol, nav ul {
   margin-bottom: 0;
 }
 nav > details > ul {
-  margin-top: 0;
+  margin-top: var(--line-height);
 }
 li, dd
   { margin: 0 0 1em 1em }
