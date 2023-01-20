@@ -305,8 +305,6 @@ ul, ol, dl {
   margin: 0 1em 0.618em;
   font-size: var(--larger);
 }
-ul ul, ol ol, dl dl
-  { margin: 0 auto }
 nav ol, nav ul {
   font-size: 1em;
   margin-bottom: 0;
