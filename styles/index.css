@@ -345,6 +345,7 @@ caption {
 }
 th {
   top: 5.118em;
+  padding: 0.618em;
   position: sticky;
   text-align: inherit;
   text-align: -webkit-match-parent;
