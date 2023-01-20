@@ -367,9 +367,6 @@ select {
    box-shadow: var(--box-shadow);
    text-align-last: var(--text-align);
 }
-label input, label input:not([type]), label select, label textarea {
-  margin: 0 auto var(--line-height);
-}
 select[multiple] {
   padding: 0;
   overflow-x: clip;
