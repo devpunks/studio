@@ -107,7 +107,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   white-space: nowrap;
   text-overflow: ellipsis;
-  margin: var(--p-margin);
+  margin: var(--margin);
   font-size: var(--larger);
   border: solid currentColor;
   border-width: 0 0 0.1em 0.1em;
