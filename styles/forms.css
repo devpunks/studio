@@ -420,6 +420,7 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   width: max-content;
   padding: 0 1.618em;
   background: buttonFace;
+  margin: var(--p-margin);
   border-radius: 0.1618em;
   -webkit-appearance: button;
           appearance: button;
