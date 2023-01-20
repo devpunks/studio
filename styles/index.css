@@ -199,7 +199,6 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 
 mark {
   padding: .618em;
-  background: mark;
   border-radius: 0.618em;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
