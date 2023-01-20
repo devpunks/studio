@@ -45,8 +45,11 @@ fieldset:focus-within { }
   - https://adrianroselli.com/2022/07/use-legend-and-fieldset.html
 */
 fieldset {
-  min-width: 0; /* See https://github.com/twbs/bootstrap/issues/12359 */
-  border: none;
+   /* See https://github.com/twbs/bootstrap/issues/12359 */
+   width: inherit;
+   /* min-width: 0; */
+   border: solid currentColor;
+
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
   display: flex;
   margin: inherit;
