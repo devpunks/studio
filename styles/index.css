@@ -247,9 +247,7 @@ nav summary + ul {
 nav > details > ul {
   list-style: none;
 }
-nav > details > ul li li {
-  list-style-type: '📄';
-}
+
 nav > details > ul li li:hover {
   list-style-type: '📝';
 }
