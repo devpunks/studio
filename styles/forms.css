@@ -320,10 +320,6 @@ input[type=color] {
   border: none;
   padding: initial;
   cursor: context-menu;
-  display: inline-flex;
-  margin: var(--margin);
-  border-radius: 0.1618em;
-  font-size: var(--largest);
   height: var(--line-height);
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
