@@ -304,6 +304,17 @@ body > nav, body > nav > details, body > nav > details > summary
 {
   border-radius: 0 0 var(--line-height) var(--line-height);
 }
+body > nav li li :link:focus-visible {
+  background-color: Mark;
+}
+body > nav li li :link::before {
+  content: '📄';
+  display: inline-block;
+  line-height: var(--line-height);
+}
+body > nav li li :link:hover::before {
+  content: '📝';
+}
 
 summary::before,
 summary::after {
