@@ -349,14 +349,8 @@ del {
   text-decoration-color: ActiveText
 }
 
-em {
-  /* text-emphasis-style, text-emphasis-color */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
-  text-emphasis: 'x';
-  -webkit-text-emphasis: 'x';
-  text-emphasis: filled currentColor;
-  -webkit-text-emphasis: filled currentColor;
-}
+em
+  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */ }
 b, strong
   { font-weight: bolder }
 p {
