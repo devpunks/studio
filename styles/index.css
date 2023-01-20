@@ -242,8 +242,7 @@ ul, ol
 ul ul, ol ol
   { }
 nav summary + ul {
-  list-style-type: ;
-  list-style: '📄' inside;
+  list-style: '➱' inside;
 }
 nav > details > ul {
   list-style: none;
