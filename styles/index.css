@@ -359,7 +359,7 @@ th[scope=row]:after {
   content: counter(table);
 }
 tr
-  { position: relative }
+  {}
 tr:before
   { content: '' }
 td
