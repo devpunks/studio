@@ -310,8 +310,6 @@ ul, ol, dl {
 }
 ul ul, ol ol, dl dl {
   margin-top: 0;
-  font-weight: normal;
-  font-size: var(--smaller);
 }
 nav ol, nav ul {
   font-size: 1em;
