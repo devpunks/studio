@@ -329,11 +329,6 @@ table {
   /* TODO: FIX HEIGHT FROM 100vh */
   height: 100vh;
   display: block;
-  width: inherit;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
   overflow-y: scroll;
   table-layout: fixed;
   counter-reset: table;
