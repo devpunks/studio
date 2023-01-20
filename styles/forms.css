@@ -56,7 +56,8 @@ fieldset {
 }
 fieldset[disabled] {}
 legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
-  width: 100%;
+  border: inherit;
+  background: inherit;
   /* display: contents; */
 }
 
