@@ -321,6 +321,7 @@ summary::after {
 }
 
 /* Table styling
+  - https://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html
   - counter styling & fallback
     - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
     - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
