@@ -11,6 +11,8 @@
    - AccentColorText - Text of accented user interface controls
    - ActiveText - Text in active links
    - ButtonText - Text on push buttons.
+   - ButtonBorder - Base border color of controls
+   - ButtonFace - The face background color for push buttons.
    - Canvas - Background of application content or documents
    - CanvasText - Text in application content or documents.
    - Field - Background of input fields.
