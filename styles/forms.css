@@ -322,7 +322,6 @@ input[type=color] {
   cursor: context-menu;
   height: var(--line-height);
   box-shadow: var(--box-shadow);
-  line-height: var(--line-height);
 }
 [type=color]::before {
   width: 0;
