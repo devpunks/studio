@@ -117,7 +117,6 @@
 ::-webkit-scrollbar-thumb {
   /* scrollbar thumb */
   height: 50vh; /* test scrollbar height */
-
   border-radius: 0.618em;
   outline-offset: -0.2em;
   outline: 0.0618em solid;
