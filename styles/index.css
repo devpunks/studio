@@ -118,7 +118,6 @@
   /* scrollbar thumb */
   /* test scrollbar height */
   height: 30%;
-  border: .3em solid red;
   border-radius: 0.618em;
   outline-offset: -0.2em;
   outline: 0.0618em solid;
