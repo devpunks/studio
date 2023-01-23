@@ -435,12 +435,9 @@ html, body {
   -webkit-user-select:         none; /* Webkit (Chrome all / Safari all) */
           user-select:         none; /* https://caniuse.com/user-select-none */
 }
-/* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body > footer
-  { -webkit-transform: translatez(0) }
 pre, p, q, cite, blockquote, address
 /* ... and all id-entifiable headers ... */
-, :where(header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]) {
+, :where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] ) {
   -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
   -webkit-user-select:         text;    /* Webkit (Chrome all / Safari all) */
@@ -454,6 +451,9 @@ body > main
   { -webkit-overflow-scrolling: touch }
 body > aside
   { -webkit-transform: translatez(0) }
+body > footer
+  { -webkit-transform: translatez(0) }
+/* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
 body > footer
   { -webkit-transform: translatez(0) }
 
