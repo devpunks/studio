@@ -435,7 +435,7 @@ html, body {
   -webkit-user-select:         none; /* Webkit (Chrome all / Safari all) */
           user-select:         none; /* https://caniuse.com/user-select-none */
 }
-blockquote {
+pre {
   scrollbar-gutter: stable /* https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter#browser_compatibility */
  }
 pre, p, q, cite, blockquote, address
