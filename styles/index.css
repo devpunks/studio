@@ -418,7 +418,9 @@ details summary
 
 details[open] summary
   { cursor: n-resize }
-
+details[open] > summary a {
+  border-block-end: 0.16182em solid
+}
 meter, progress
   { cursor: progress }
 
