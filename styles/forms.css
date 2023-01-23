@@ -379,6 +379,7 @@ select:not([multiple]) {
 
 select[multiple] optgroup {
   margin-top: 0.618em;
+  background: ButtonFace;
 }
 select[multiple] optgroup, select[multiple] optgroup :first-child {
 border-top: 0.0618em solid ButtonText;
