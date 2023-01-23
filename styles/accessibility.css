@@ -46,7 +46,7 @@
   { cursor: progress }
 [aria-disabled=true]
   { cursor: not-allowed }
-[hidden], [aria-hidden=true], .hidden  {
+[hidden], [aria-hidden=true]  {
   /* Invisible content - https://webaim.org/techniques/css/invisiblecontent/ */
   border: 0;
   margin: 0;
