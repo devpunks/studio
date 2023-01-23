@@ -159,12 +159,11 @@ html:focus-within
 */
 body
   { scroll-snap-type: y mandatory }
-body > nav {
-  background: canvas;
-  box-shadow: var(--shadow);
-}
-body > main
-  { scroll-snap-align: start }
+body > nav, body > main, body > aside, body > footer
+  { background: Canvas }
+body > nav
+  { box-shadow: var(--shadow) }
+body > main {scroll-snap-align: start }
 body > aside
  { background: ButtonFace }
 
