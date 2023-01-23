@@ -119,10 +119,10 @@
   /* test scrollbar height */
   height: 30%;
   border-radius: 0.618em;
-  outline-offset: -0.2em;
-  outline: 0.0618em solid;
-  outline-color: rgba(0,0,0,0.0618);
-  background-color:  rgba(0,0,0,0.0618);
+  outline-offset: -0.1618em;
+  border: .3em solid ButtonFace;
+  outline: 0.1618em solid CurrentColor;
+  background-color:  ButtonFace;
 }
 ::-webkit-scrollbar-thumb:hover {
   outline-color: rgba(0,0,0,0.618);
