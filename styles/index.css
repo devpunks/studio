@@ -122,8 +122,6 @@
   outline: 0.1618em solid;
   outline-color: ButtonText;
   outline-offset: -0.1618em;
-  border: .3em solid ButtonFace;
-  outline: 0.1618em solid CurrentColor;
   background-color:  ButtonFace;
 }
 ::-webkit-scrollbar-thumb:hover {
