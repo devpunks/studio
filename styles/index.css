@@ -125,6 +125,7 @@
   background-color:  ButtonFace;
 }
 ::-webkit-scrollbar-thumb:hover {
+  background-color: CurrentColor;
   outline-color: rgba(0,0,0,0.618);
 }
 ::backdrop
