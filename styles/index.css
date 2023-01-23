@@ -116,7 +116,9 @@
 }
 ::-webkit-scrollbar-thumb {
   /* scrollbar thumb */
-  height: 50vh; /* test scrollbar height */
+   /* test scrollbar height */
+  height: 30%;
+  border: .3em solid red;
   border-radius: 0.618em;
   outline-offset: -0.2em;
   outline: 0.0618em solid;
@@ -180,6 +182,18 @@ body > footer
 */
 template /* IE custom elements */
   { display: none }
+
+[hidden], [aria-hidden=true], template {
+  width: 1px;
+  height: 1px;
+  display: n;
+  overflow: hidden;
+   /* be careful..can be overridden */
+  position: absolute;
+  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+  pointer-events: none;
+  clip-path: inset(50%);
+}
 
 header, h1, h2, h3, h4, h5, h6
   { width: 96% }
