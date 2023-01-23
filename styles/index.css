@@ -119,6 +119,8 @@
   /* test scrollbar height */
   height: 30%;
   border-radius: 0.618em;
+  outline: 0.1618em solid;
+  outline-color: ButtonText;
   outline-offset: -0.1618em;
   border: .3em solid ButtonFace;
   outline: 0.1618em solid CurrentColor;
