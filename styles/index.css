@@ -126,7 +126,6 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   outline-color: rgba(0,0,0,0.618);
-  background-color:  rgba(255,255,255,0.618);
 }
 ::backdrop
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
