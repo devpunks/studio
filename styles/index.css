@@ -116,7 +116,7 @@
 }
 ::-webkit-scrollbar-thumb {
   /* scrollbar thumb */
-   /* test scrollbar height */
+  /* test scrollbar height */
   height: 30%;
   border: .3em solid red;
   border-radius: 0.618em;
