@@ -46,7 +46,6 @@ fieldset:focus-within { }
 */
 fieldset {
    /* See https://github.com/twbs/bootstrap/issues/12359 */
-   width: inherit;
    border: solid currentColor;
 
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
