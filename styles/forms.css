@@ -70,8 +70,9 @@ fieldset li
 :not(li) > label {
   width: 80ch;
   cursor: pointer;
-  display: inline-block;
-  padding: 0 var(--line-height);
+  padding: var(--margin-collapse-bugfix) var(--line-height);
+  display: block;
+  margin: var(--margin-collapse-bugfix) auto var(--margin);
 }
 
 :placeholder-shown {
