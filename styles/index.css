@@ -138,7 +138,7 @@
   border-radius: 2em;
 }
 ::selection {
-  color: HighlightText;
+  color: currentColor;
   background: Highlight;
   border-radius: 27em;
   display: inline-block;
