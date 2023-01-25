@@ -399,12 +399,6 @@ td {
           user-select: text;
 }
 
-thead th
-  { border-bottom: 0.0618em solid }
-tbody
-  { position: relative }
-table *
-  { display: block }
 tbody tr
   { counter-increment: table }
 tfoot th
