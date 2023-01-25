@@ -373,6 +373,8 @@ caption {
   position: sticky;
   caption-side: top;
 }
+thead {}
+tbody {}
 th {
   top: 5.118em;
   padding: 0.618em;
