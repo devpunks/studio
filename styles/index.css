@@ -379,7 +379,6 @@ th {
   top: 5em;
   padding: 0.618em;
   position: sticky;
-  text-align: inherit;
   white-space: nowrap;
 }
 th:empty
