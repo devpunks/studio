@@ -388,7 +388,7 @@ th[scope=row]
   { font-size: var(--smaller) }
 th[scope=row]:after {
   white-space: nowrap;
-  content: counter(table);
+  content: counter(th);
 }
 tr
   {}
