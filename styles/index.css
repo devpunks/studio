@@ -219,6 +219,7 @@ mark {
   border-radius: 0.318em;
   text-shadow: 0.06812em 0.06812em 0 canvas;
   box-shadow: var(--box-shadow);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break */
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
