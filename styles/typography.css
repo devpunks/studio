@@ -362,7 +362,7 @@ p {
   /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why/ */
   /* font-size: var(--smaller); */  /* 16x0.81=13 */
 }
-p, q, cite, address {
+p, q, address {
   max-width: 80ch;
   padding: 0 var(--line-height);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
