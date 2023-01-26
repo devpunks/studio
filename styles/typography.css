@@ -450,7 +450,8 @@ blockquote::after {
 
 cite {
   opacity: 75%;
-  font-weight: bolder;
+  max-width: 16em;
+  overflow: hidden;
   white-space: nowrap;
 }
 cite::before{
