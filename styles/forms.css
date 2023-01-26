@@ -45,7 +45,7 @@ fieldset:focus-within { }
   - https://adrianroselli.com/2022/07/use-legend-and-fieldset.html
 */
 fieldset {
-   max-width: 90;
+   max-width: 90%;
 
    /* See https://github.com/twbs/bootstrap/issues/12359 */
    border: solid currentColor;
