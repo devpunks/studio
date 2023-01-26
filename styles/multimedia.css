@@ -22,6 +22,12 @@ img {
   object-fit: contain;   /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
   object-position: auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
+a img {
+  width: 100%;
+  opacity: 0.8;
+}
+a:hover img
+ { opacity: 1.0 }
 svg {
   /* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
   overflow: hidden;
