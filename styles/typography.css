@@ -488,9 +488,6 @@ svg
  { vertical-align: middle }
 
 address {
-  font-style: normal;
-  line-height: inherit;
-  margin: var(--p-margin);
 }
 
 /* Table styling
