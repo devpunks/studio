@@ -461,8 +461,12 @@ blockquote cite, q cite
 blockquote cite {
   font-size: var(--line-height);
 }
-p cite {
-  font-size: var(--smaller);
+q cite {
+  max-width: 16em;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  font-size: var(--smallest);
 }
 q + cite {
   font-size: var(--smallest);
