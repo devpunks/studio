@@ -449,8 +449,6 @@ blockquote::after {
 
 cite {
   opacity: 75%;
-  max-width: 16em;
-  overflow: hidden;
   white-space: nowrap;
   display: inline-block;
   vertical-align: middle;
