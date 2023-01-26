@@ -459,7 +459,7 @@ cite {
   margin-bottom: var(--margin-collapse-bugfix);
 }
 cite::before{
-  color: black;
+  color: currentColor;
   content: ' -\2002' /* https://en.wikipedia.org/wiki/Dash */
 }
 blockquote cite {
