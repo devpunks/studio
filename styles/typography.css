@@ -396,7 +396,6 @@ p q, q q {
   margin: 0;
   padding: 0;
 }
-q q { margin: 0; }
 q::before
   { content: open-quote }
 q::after
