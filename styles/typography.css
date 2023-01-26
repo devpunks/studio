@@ -392,6 +392,8 @@ q {
   border-radius: 0.6812em;
   padding: 0.5em 0.61812em;
   font-size: var(--smaller);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
   quotes: "\201C""\201D""\2018""\2019";
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
@@ -514,7 +516,6 @@ details {
 nav details, nav summary {
   margin: 0;
   padding: 0;
-  text-align: s;
 }
 body > header details
   { padding-left: 0 }
@@ -535,7 +536,10 @@ summary {
   margin-left: -1.618em /* compensate for <details> padding */;
 }
 details > summary
-{ margin-left: 0 }
+{
+  margin-left: 0;
+  text-align: start;
+}
 
 /* fieldset / legend */
 fieldset
