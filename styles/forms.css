@@ -57,10 +57,7 @@ legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
   background: inherit;
   /* display: contents; */
 }
-
-/* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
-fieldset input {
-}
+fieldset input { }
 fieldset ul, fieldset ol, fieldset dl
   { margin: var(--margin) }
 fieldset li
