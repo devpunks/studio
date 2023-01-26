@@ -395,7 +395,7 @@ q {
   padding: 0.5em 0.61812em;
   font-size: var(--larger);
   -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
+  box-decoration-break: clone;
   quotes: "\201C""\201D""\2018""\2019";
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
