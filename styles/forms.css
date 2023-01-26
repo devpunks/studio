@@ -420,7 +420,6 @@ dialog:not([open])
 button, [type=button], [type=submit], [type=reset], [role=button] {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   width: max-content;
-  padding: var(--margin-collapse-bugfix) var(--line-height);
   background: buttonFace;
   margin: var(--margin-collapse-bugfix) 0.67em 0.67em;
   border-radius: 0.1618em;
