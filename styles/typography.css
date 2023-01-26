@@ -469,9 +469,7 @@ q cite {
   font-size: var(--smallest);
 }
 q + cite {
-  font-size: var(--smallest);
-  font-weight: normal;
-  padding: 0;
+  margin-bottom: var(--line-height);
 }
 
 del::before, ins::before
