@@ -43,6 +43,8 @@
 
   --tab-size: 2;
 
+  --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
+
   --smallest: 61.8%;
 
   --smaller:  80.0%;
