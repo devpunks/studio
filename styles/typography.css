@@ -53,13 +53,6 @@
 
   --largest: 161.8%;
 
-  /* Vertical rhythm - https://24ways.org/2006/compose-to-a-vertical-rhythm*/
-  --font-size: 2.618vw; /* http://webtypography.net/2.1.2 */
-
-  --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
-
-  --text-align: center;
-
   /*
     - https://caniuse.com/mdn-css_properties_margin-block
     - https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block
