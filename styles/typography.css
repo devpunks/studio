@@ -459,7 +459,7 @@ cite::before{
 blockquote cite, q cite
   { padding: 0 }
 blockquote cite {
-  font-size: 1.618em;
+  font-size: var(--line-height);
 }
 p cite {
   font-size: var(--smaller);
