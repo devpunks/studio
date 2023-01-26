@@ -389,6 +389,8 @@ q {
   display: inline;
   font-style: italic;
   line-height: 1.618em;
+  border-radius: 0.6812em;
+  padding: 0.5em 0.61812em;
   font-size: var(--smaller);
   quotes: "\201C""\201D""\2018""\2019";
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
