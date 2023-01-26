@@ -526,7 +526,6 @@ body > nav > details > summary {
 }
 summary {
   font-weight: bolder;
-  font-size: var(--larger);
   padding-bottom: 0.618em;
   margin-left: -1.618em /* compensate for <details> padding */;
 }
