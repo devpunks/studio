@@ -451,9 +451,6 @@ cite {
   opacity: 75%;
   white-space: nowrap;
   display: inline-block;
-  vertical-align: middle;
-  text-overflow: ellipsis;
-  margin-bottom: var(--margin-collapse-bugfix);
 }
 cite::before{
   color: currentColor;
