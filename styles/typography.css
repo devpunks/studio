@@ -358,7 +358,7 @@ b, strong
   { font-weight: bolder }
 p {
   /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why/ */
-  font-size: var(--smaller);  /* 16x0.81=13 */
+  /* font-size: var(--smaller); */  /* 16x0.81=13 */
 }
 p, q, cite, address {
   max-width: 80ch;
