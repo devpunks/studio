@@ -421,7 +421,7 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   width: max-content;
   background: buttonFace;
-  margin: var(--margin-collapse-bugfix) 0.67em 0.67em;
+  display: inline-block;
   border-radius: 0.1618em;
   font-size: var(--larger);
   -webkit-appearance: button;
