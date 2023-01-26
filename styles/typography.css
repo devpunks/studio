@@ -525,7 +525,6 @@ body > nav > details > summary {
   text-align: var(--text-align);
 }
 summary {
-  text-align: start;
   font-weight: bolder;
   font-size: var(--larger);
   padding-bottom: 0.618em;
