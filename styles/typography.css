@@ -453,6 +453,10 @@ cite {
   max-width: 16em;
   overflow: hidden;
   white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  margin-bottom: var(--margin-collapse-bugfix);
 }
 cite::before{
   color: black;
