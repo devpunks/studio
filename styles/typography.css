@@ -391,7 +391,6 @@ figcaption {
 q {
   display: inline;
   font-style: italic;
-  line-height: var(--line-height);
   border-radius: 0.6812em;
   padding: 0.5em 0.61812em;
   font-size: var(--smaller);
