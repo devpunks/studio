@@ -245,16 +245,6 @@ header, h1, h2, h3, h4, h5, h6 {
   margin: var(--margin) var(--font-size) auto;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
 }
-a:has(header, h1, h2, h3, h4, h5, h6),
-:where(header, h1, h2, h3, h4, h5, h6) a
-  { color: currentColor }
-h1 {
-  /* TODO: calc () */
-  line-height: var(--line-height);
-}
-body * > h1
-  { font-size: 2em; /* Override container H1s - Full discussion here */ }
-
 header {
   font-size: var(--largest);
   /* http://webtypography.net/3.2.1 */
