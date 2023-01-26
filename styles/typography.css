@@ -456,8 +456,7 @@ p cite {
   margin: 0;
 }
 q + cite {
-  font-size: 70%;
-  position: relative;
+  font-size: var(--smallest);
   font-weight: normal;
   display: inline-block;
 }
