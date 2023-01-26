@@ -242,7 +242,7 @@ body > footer
 hgroup { }
 header, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  margin: var(--margin);
+  margin: var(--margin) var(--font-size) auto;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow)
 }
 a:has(header, h1, h2, h3, h4, h5, h6),
