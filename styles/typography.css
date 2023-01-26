@@ -458,7 +458,7 @@ p cite {
 q + cite {
   font-size: var(--smallest);
   font-weight: normal;
-  display: inline-block;
+  padding: 0;
 }
 
 del::before, ins::before
