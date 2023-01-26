@@ -195,7 +195,7 @@ template /* IE custom elements */
 
 header, h1, h2, h3, h4, h5, h6 {
   width: 43ch;
-  padding: 0 var(--line-height);
+  padding: var(--margin-collapse-bugfix) var(--line-height);
 }
 
 iframe {
