@@ -305,6 +305,7 @@ ul, ol, dl {
   margin: 0 1em 0.618em;
   font-size: var(--larger);
 }
+
 nav > details > ul
   { margin-top: var(--line-height) }
 li, dd
