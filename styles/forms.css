@@ -67,7 +67,6 @@ fieldset li
   display: block;
   cursor: pointer;
   padding: var(--margin-collapse-bugfix) var(--line-height);
-  display: block;
   margin: var(--margin-collapse-bugfix) auto var(--margin);
 }
 
