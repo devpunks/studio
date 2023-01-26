@@ -64,7 +64,7 @@ fieldset li
   { list-style: none }
 
 :not(li) > label {
-  width: 80ch;
+  display: block;
   cursor: pointer;
   padding: var(--margin-collapse-bugfix) var(--line-height);
   display: block;
