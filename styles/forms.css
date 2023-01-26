@@ -103,7 +103,6 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   width: 100%;
   max-width: 48ch;
   display: list-item;
-  max-width: 62ch;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: var(--larger);
