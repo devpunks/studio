@@ -512,6 +512,7 @@ details {
 nav details, nav summary {
   margin: 0;
   padding: 0;
+  text-align: s;
 }
 body > header details
   { padding-left: 0 }
@@ -529,7 +530,6 @@ summary {
   font-weight: bolder;
   padding-bottom: 0.618em;
   font-size: var(--larger);
-  text-align: var(--text-align);
   margin-left: -1.618em /* compensate for <details> padding */;
 }
 details > summary
