@@ -193,8 +193,10 @@ template /* IE custom elements */
   clip-path: inset(50%);
 }
 
-header, h1, h2, h3, h4, h5, h6
-  { width: 96% }
+header, h1, h2, h3, h4, h5, h6 {
+  width: 43ch;
+  padding: 0 var(--line-height);
+}
 
 iframe {
   border: none;
