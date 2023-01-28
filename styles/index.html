@@ -1011,8 +1011,14 @@ class Shape {
         <label for=phone>Phone Number</label>
         <input id=phone type=tel title='Phone Number' placeholder='(999) 999-9999'>
 
-         <label for=number>Number Input</label>
-        <input id=number type=number title=Number placeholder='Enter a Number'>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode -->
+        <label>Number Input
+          <input type=number inputmode=numeric title=Number placeholder='Enter a Number'>
+        </label>
+
+        <label>Decimal Input
+          <input type=number inputmode=decimal title=Decimal placeholder='Enter a Decimal'>
+        </label>
 
         <label for=out-of-range><em>(Out of Range)</em>Number Input</label>
         <input id=out-of-range value=2 min=0 max=1 type=number title='(Out of Range) Number Input'>
