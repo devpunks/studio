@@ -496,3 +496,15 @@ input:invalid::before, input:out-of-in-range::before,
 select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
   content: '✖';
 }
+
+/* INERT */
+/*
+  - https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
+*/
+[inert], [inert] * {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+  -webkit-user-select: none;
+          user-select: none;
+}
