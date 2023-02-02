@@ -78,12 +78,6 @@ fieldset li
   text-overflow: ellipsis;
 }
 
-output {
-  display: inline-block;
-  margin: var(--p-margin);
-  padding: var(--margin-collapse-bugfix) var(--line-height);
-}
-
 button, [role=button], input, select, textarea {
   color: currentColor;
   font-family: inherit;
