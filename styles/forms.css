@@ -502,6 +502,7 @@ select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
 
 /* INERT */
 /*
+  - https://github.com/WICG/inert/blob/main/explainer.md
   - https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
 */
 [inert], [inert] * {
