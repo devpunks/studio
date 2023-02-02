@@ -113,6 +113,11 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
           user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
 
+[type=file] + output {
+  /* display: inline; */
+  background: red;
+  border-width: 0.1618em;
+}
 [type=search] {
     margin: 0;
     flex: 1 50%;
