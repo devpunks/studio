@@ -439,6 +439,10 @@ button:not(:disabled):hover, [type=button]:not(:disabled):hover,
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus */ }
 
+button svg {
+  margin: auto;
+}
+
 /*
   - input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
 */
