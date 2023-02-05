@@ -1274,10 +1274,19 @@ class Shape {
         <fieldset>
           <legend>Buttons</legend>
 
-          <button title=Button>&lt;button&gt;</button>
-          <button disabled title='Button Disabled'>&lt;button disabled&gt;</button>
-          <button type=reset title=Reset>&lt;button type=reset&gt;</button>
-          <button type=submit title=Submit>&lt;button type=submit&gt;</button>
+          <button title=Button><code>&lt;button&gt;</code></button>
+          <button disabled title='Button Disabled'><code>&lt;button disabled&gt;</code></button>
+          <button type=reset title=Reset><code>&lt;button type=reset&gt;</code></button>
+          <button type=submit title=Submit><code>&lt;button type=submit&gt;</code></button>
+          <button title='SVG Button'>
+            <p>
+              <code>&lt;button&gt;&lt;svg /&gt;&lt;/button&gt;</code>
+            </p>
+
+            <svg viewBox='0 0 100 100' xmlns ='http://www.w3.org/2000/svg'>
+              <use href=#svg:star></use>
+            </svg>
+          </button>
         </fieldset>
 
         <fieldset>
