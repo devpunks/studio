@@ -906,8 +906,14 @@ class Shape {
     <article id=svg>
       <header>Inline SVG</header>
 
-      <svg viewBox='44 -10 220 120'>
-        <polygon fill-rule=evenodd stroke=grey fill=#222 points='150,0 121,90 198,35 102,35 179,90'/>
+      <svg viewBox='0 0 100 100' xmlns ='http://www.w3.org/2000/svg'>
+        <use href=#svg:star></use>
+      </svg>
+
+      <svg>
+        <symbol id=svg:star xmlns='http://www.w3.org/2000/svg' viewBox='100 0 100 100'>
+          <polygon fill-rule=evenodd stroke=currentColor fill=curretColor points='150,0 121,90 198,35 102,35 179,90'/>
+        </symbol>
       </svg>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
