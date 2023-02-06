@@ -34,6 +34,7 @@ html, body {
   /*
     - https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm
     - https://polypane.app/blog/strategies-for-dealing-with-horizontal-overflows/
+    -  https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
   */
   min-height: -webkit-fill-available; /* https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/ */
 }
