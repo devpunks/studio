@@ -410,7 +410,6 @@ q {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
   quotes: "\201C""\201D""\2018""\2019";
-  margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
 p q, q q {
   margin: 0;
