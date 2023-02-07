@@ -309,7 +309,6 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 dl, ol, ul {
-  background: red;
   max-width: 70ch;
   text-align: start;
   font-size: var(--larger);
