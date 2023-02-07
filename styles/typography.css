@@ -320,6 +320,7 @@ nav > details > ul
 dt {
   font-weight: bolder;
   padding: var(--margin-collapse-bugfix) 1ch;
+  margin: 1ch var(--font-size) var(--margin-collapse-bugfix) 1ch;
 }
 dd, li li { font-size: var(--smaller) }
 dt + dd, li li:first-of-type
