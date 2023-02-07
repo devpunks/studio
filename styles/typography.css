@@ -304,7 +304,9 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   background-color: currentColor;
 }
 
-ul, ol, dl {
+dl, ol, ul {
+  background: red;
+  max-width: 70ch;
   text-align: start;
   padding-left: unset;
   margin: 0 1em 0.618em;
