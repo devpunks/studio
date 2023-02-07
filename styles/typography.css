@@ -308,8 +308,6 @@ dl, ol, ul {
   background: red;
   max-width: 70ch;
   text-align: start;
-  padding-left: unset;
-  margin: 0 1em 0.618em;
   font-size: var(--larger);
 }
 
