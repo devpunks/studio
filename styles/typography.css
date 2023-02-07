@@ -315,7 +315,6 @@ dl, ol, ul {
 dl dl, ol ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
 }
-
 nav > details > ul
   { margin-top: var(--line-height) }
 li, dd
