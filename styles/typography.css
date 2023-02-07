@@ -319,7 +319,6 @@ nav > details > ul
   { margin-top: var(--line-height) }
 dt {
   font-weight: bolder;
-  margin: 1ch var(--font-size) var(--margin-collapse-bugfix) 1ch;
   padding: var(--margin-collapse-bugfix) 1ch;
 }
 dd, li li { font-size: var(--smaller) }
