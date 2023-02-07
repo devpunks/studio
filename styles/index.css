@@ -259,7 +259,9 @@ li {
   background: yellow;
 }
 dl {}
-dt {}
+dt {
+  background: green;
+}
 dd {}
 
 ul[role=list]
