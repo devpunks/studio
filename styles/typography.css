@@ -403,7 +403,7 @@ figcaption {
 
 /* quotes */
 q {
-  display: inline;
+  padding: 1ch;
   font-style: italic;
   border-radius: 0.6812em;
   padding: 0.5em 0.61812em;
