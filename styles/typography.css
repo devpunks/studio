@@ -315,7 +315,7 @@ dl, ol, ul {
   margin: var(--margin-collapse-bugfix) auto var(--font-size);
   padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--font-size);
 }
-dl dl, ol ol, ul ul {
+dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
 }
 nav > details > ul
