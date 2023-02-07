@@ -255,7 +255,9 @@ pre code {
  */
 ul {}
 ol {}
-li {}
+li {
+  background: yellow;
+}
 dl {}
 dt {}
 dd {}
