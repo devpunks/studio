@@ -62,7 +62,7 @@ legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
 fieldset input
   { }
 fieldset ul, fieldset ol, fieldset dl
-  { margin: var(--margin) }
+  { }
 fieldset li
   { list-style: none }
 
