@@ -57,4 +57,5 @@ figure img, picture img, audio, canvas, video {
 figure img, picture img, figure picture {
   margin: 0;
   width: 100%;
+  background: transparent;
 }
