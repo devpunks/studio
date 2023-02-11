@@ -39,13 +39,18 @@ a img {
   opacity: 95%;
   background: Canvas;
 }
-iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
-  width: 90%;
-  display: block;
-  margin: 0 auto 1.612em;
-  vertical-align: middle;
+a:hover img {
+  opacity: 100%;
+  background: buttonFace;
 }
-picture img, figure img, canvas, audio, video {
+figure {}
+iframe {}
+picture {}
+canvas
+  {background: Canvas;display: block;max-width: 100%;}
+svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
+  { overflow: hidden }
+figure img, picture img, audio, canvas, video {
   border-radius: 0.618em;
   box-shadow: 0 0 0.218em;
 }
