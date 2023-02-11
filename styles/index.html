@@ -804,37 +804,27 @@ class Shape {
       <header><code>&lt;img&gt;</code> element</header>
       <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' >
 
+      <header><em>Horizontal</em><code>&lt;img&gt;</code> element</header>
+      <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/600/100' >
+
+      <header><em>Vertical</em><code>&lt;img&gt;</code> element</header>
+      <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/100/600' >
+
+      <header><code>&lt;img loading=&quot;lazy&quot;&gt;</code> element</header>
+      <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' >
+
       <header><code>&lt;img&gt;</code> element <em>(wrapped in an <code>&lt;a&gt;</code>nchor link)</em></header>
-      <a title='Kitten placeholder image' href=#images><img loading=lazy alt='Kitten placeholder image' src=http://placekitten.com/420/420 ></a>
+      <a title='Kitten placeholder image' href=#images>
+        <img loading=lazy alt='Kitten placeholder image' src=http://placekitten.com/420/420 >
+      </a>
 
       <header><code>&lt;img&gt;</code> element <em>(with <code>srcset</code>)</em></header>
       <img alt='Kitten placeholder image'
         src='http://placekitten.com/420/420'
         srcset='http://placekitten.com/420/420 1x,' />
 
-      <header>Wrapped in a <code>&lt;figure&gt;</code> element</header>
-      <figure>
-        <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
-      </figure>
-
-      <header>Wrapped in a <code>&lt;figure&gt;</code> element, with <code>&lt;figcaption&gt;</code></header>
-      <figure>
-        <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
-
-        <figcaption>Here is a caption for this image.</figcaption>
-      </figure>
-
-      <header><code>&lt;figure&gt;</code> element, with <code>&lt;picture&gt;</code></header>
-      <figure>
-        <picture>
-          <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
-        </picture>
-
-        <figcaption>This is a &lt;picture&gt; wrapped in a &lt;figure&gt;.</figcaption>
-      </figure>
-
       <header>
-        Wrapped in a <code>&lt;picture&gt;</code> element,
+        <code>&lt;picture&gt;</code> element,
         with <code>&lt;source&gt;</code>
         &amp; default <code>&lt;img&gt;</code>
       </header>
@@ -856,11 +846,51 @@ class Shape {
           srcset='http://placekitten.com/450/450 1x,' />
 
         <!-- img as last item or nothing is displayed -->
-        <img alt='Kitten placeholder image'
+        <img loading=lazy alt='Kitten placeholder image'
           src='http://placekitten.com/420/420'
           sizes=''
           srcset='http://placekitten.com/420/420 1x,' />
       </picture>
+
+      <header>
+        <code>&lt;picture&gt;</code> element with
+        <code>&lt;a&gt;</code>nchor link <code>&lt;img&gt;</code>
+      </header>
+      <picture>
+        <!-- img as last item or nothing is displayed -->
+        <a title='Kitten placeholder image' href=#images>
+          <img loading=lazy alt='Kitten placeholder image'
+            src='http://placekitten.com/420/420'
+            sizes=''
+            srcset='http://placekitten.com/420/420 1x,' />
+        </a>
+      </picture>
+
+      <header><code>&lt;figure&gt;</code> element</header>
+      <figure>
+        <h3>Pie Chart</h3>
+      </figure>
+
+      <header><code>&lt;img&gt;</code> wrapped in a <code>&lt;figure&gt;</code> element</header>
+      <figure>
+        <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
+      </figure>
+
+      <header><code>&lt;img&gt;</code> wrapped in a <code>&lt;figure&gt;</code> element, with <code>&lt;figcaption&gt;</code></header>
+      <figure>
+        <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
+
+        <figcaption>Here is a caption for this image.</figcaption>
+      </figure>
+
+      <header><code>&lt;figure&gt;</code> element, with <code>&lt;picture&gt;</code></header>
+      <figure>
+        <picture>
+          <img loading=lazy alt='Kitten placeholder image' src='http://placekitten.com/420/420' />
+        </picture>
+
+        <figcaption>This is a &lt;picture&gt; wrapped in a &lt;figure&gt;.</figcaption>
+      </figure>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
