@@ -18,10 +18,9 @@
 
 [loading=eager] {}
 
-iframe {}
-img {
-  object-fit: contain;   /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
-  object-position: auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
+iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
+  max-width: 100%;
+  vertical-align: middle;
 }
 a img
   { opacity: 0.8 }
