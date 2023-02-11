@@ -982,7 +982,208 @@ class Shape {
   <section id=forms>
     <header>Form elements</header>
 
-    <form>
+    <form autocomplete action=#>
+      <fieldset id=autocomplete>
+      <details>
+        <summary style='display:contents'><legend>Auto-complete</legend></summary>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete -->
+
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label>Language
+            <input name=language autocomplete=language>
+          </label>
+
+          <label>Honorific Prefix
+            <input name=prefix autocomplete=honorific-prefix>
+          </label>
+
+          <label>Given Name
+            <input name=given autocomplete=given-name>
+          </label>
+
+          <label>Additional Name
+            <input name=additional autocomplete=additional-name>
+          </label>
+
+          <label>Family Name
+            <input name=family autocomplete=family-name>
+          </label>
+
+          <label>Honorific Suffix
+            <input name=suffix autocomplete=honorific-suffix>
+          </label>
+
+          <label>B-Day Year
+            <input name=bday-year autocomplete=bday-year>
+          </label>
+
+          <label>B-Day Month
+            <input name=bday-month autocomplete=bday-month>
+          </label>
+
+          <label>B-Day Day
+            <input name=bday-day autocomplete=bday-day>
+          </label>
+
+          <label>Sex
+            <input name=sex autocomplete=sex>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Information</legend>
+
+          <label>Nickname
+            <input name=nickname autocomplete=nickname>
+          </label>
+
+          <label>Email
+            <input name=email autocomplete=email>
+          </label>
+
+          <label>Username
+            <input name=username autocomplete=username>
+          </label>
+
+          <label>New Password
+            <input name=new-password autocomplete=new-password>
+          </label>
+
+          <label>Current Password
+            <input name=current-password autocomplete=current-password>
+          </label>
+
+          <label>One Time Code
+            <input name=one-time-code autocomplete=one-time-code>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Information</legend>
+
+          <label>Organization Title
+            <input name=organization-title autocomplete=organization-title>
+          </label>
+
+          <label>Organization
+            <input name=organization autocomplete=organization>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Shipping Information</legend>
+
+          <label>Street Address
+            <input name=street-address autocomplete=street-address>
+          </label>
+
+          <label>Address Line 1
+            <input name=address-line1 autocomplete=address-line1>
+          </label>
+
+          <label>Address Line 2
+            <input name=address-line2 autocomplete=address-line2>
+          </label>
+
+          <label>Address Line 3
+            <input name=address-line3 autocomplete=address-line3>
+          </label>
+
+          <label>Country
+            <input name=country autocomplete=country>
+          </label>
+
+          <label>Country Name
+            <input name=country-name autocomplete=country-name>
+          </label>
+
+          <label>Postal Code
+            <input name=postal-code autocomplete=postal-code>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Billing Information</legend>
+
+          <label>CC Name
+            <input name=cc-name autocomplete=cc-name>
+          </label>
+
+          <label>CC Given Name
+            <input name=cc-given-name autocomplete=cc-given-name>
+          </label>
+
+          <label>CC Additional Name
+            <input name=cc-additional-name autocomplete=cc-additional-name>
+          </label>
+
+          <label>CC Family Name
+            <input name=cc-family-name autocomplete=cc-family-name>
+          </label>
+
+          <label>CC Number
+            <input name=cc-number autocomplete=cc-number>
+          </label>
+
+          <label>CC Exp Month
+            <input name=cc-exp-month autocomplete=cc-exp-month>
+          </label>
+
+          <label>CC Exp Year
+            <input name=cc-exp-year autocomplete=cc-exp-year>
+          </label>
+
+          <label>CC CSC
+            <input name=cc-csc autocomplete=cc-csc>
+          </label>
+
+          <label>CC Type
+            <input name=cc-type autocomplete=cc-type>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Telephone</legend>
+
+          <label>Tel. Country Code
+            <input name=tel-country-code autocomplete=tel-country-code>
+          </label>
+
+          <label>Tel. Area Code
+            <input name=tel-area-code autocomplete=tel-area-code>
+          </label>
+
+          <label>Tel. Local
+            <input name=tel-local autocomplete=tel-local>
+          </label>
+
+          <label>Tel. Extension
+            <input name=tel-extension autocomplete=tel-extension>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Social</legend>
+
+          <label>IMPP
+            <input name=impp autocomplete=impp>
+          </label>
+
+          <label>URL
+          <input name=url autocomplete=url>
+          </label>
+
+          <label>Photo
+          <input name=photo autocomplete=photo>
+          </label>
+        </fieldset>
+      </details>
+     </fieldset>
+    </form>
+
+    <form action=#>
       <fieldset id=output>
         <legend>Output fields</legend>
 
