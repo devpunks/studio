@@ -22,13 +22,10 @@ iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
   max-width: 100%;
   vertical-align: middle;
 }
-a img
-  { opacity: 0.8 }
-a:hover img
-  { opacity: 1.0 }
-svg {
-  /* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
-  overflow: hidden;
+/* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
+iframe, audio, video, embed, img {
+  object-fit: contain;
+  object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
 picture {}
 figure {}
