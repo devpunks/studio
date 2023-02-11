@@ -297,26 +297,17 @@ input[type=range] {
 input[list] { /* combobox */ }
 
 input[type=file] {
-  /* position: absolute; */
+  block-size: 10em;
+  max-block-size: 6em;
   outline: 2px solid red;
   /* height: 0; */
-  /* padding: 0; */
+  padding: 0;
   /* opacity: 0; */
-  /* margin: 0; */
   /* clip-path: inset(50%); */
-}
-input[type=file]::-webkit-file-upload-button {
-  -webkit-appearance: button;
-          appearance: button
-}
-input[type=file]::-moz-file-upload-button {
-  -webkit-appearance: button;
-          appearance: button
 }
 
 /* input[type=color]
     - https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/
-    - 
 */
 input[type=color] {
   opacity: 1.0;
