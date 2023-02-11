@@ -420,9 +420,11 @@ dialog {
 dialog:not([open])
   { display: none }
 
-button, [type=button], [type=submit], [type=reset], [role=button] {
+button, [type=button], [type=submit], [type=reset], [role=button], ::file-selector-button {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
+  cursor: pointer;
   width: max-content;
+  font-family: inherit;
   background: buttonFace;
   display: inline-block;
   border-radius: 0.1618em;
@@ -435,13 +437,12 @@ button, [type=button], [type=submit], [type=reset], [role=button] {
   margin: var(--margin-collapse-bugfix) 0.67em 0.67em;
   padding: var(--margin-collapse-bugfix) var(--line-height);
 }
-button:not(:disabled), [type=button]:not(:disabled),
-[type=submit]:not(:disabled), [type=reset]:not(:disabled), [role=button]:not([aria-disabled=true])
-{
+button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(:disabled),
+[type=submit]:not(:disabled), [type=reset]:not(:disabled), [role=button]:not([aria-disabled=true]) {
   opacity: 70%;
   cursor: pointer;
 }
-button:not(:disabled):hover, [type=button]:not(:disabled):hover,
+button:not(:disabled):hover, [type=button]:not(:disabled):hover, [type=file]::file-selector-button:not(:disabled):hover,
 [type=submit]:not(:disabled):hover, [type=reset]:not(:disabled):hover, [role=button]:not([aria-disabled=true]):hover
   { opacity: 100% }
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
