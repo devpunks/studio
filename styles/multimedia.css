@@ -27,9 +27,16 @@ iframe, audio, video, embed, img {
   object-fit: contain;
   object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
-picture {}
-figure {}
-canvas {
+picture, figure, audio, video, embed, object {
+  display: block;
+  margin: var(--font-size);
+}
+img, svg {
+  padding: var(--font-size);
+  margin: var(--font-size) auto;
+}
+a img {
+  opacity: 95%;
   background: Canvas;
 }
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
