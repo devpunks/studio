@@ -15,6 +15,7 @@
 */
 /* https://addyosmani.com/blog/lazy-loading/ */
 [loading=lazy] {}
+
 [loading=eager] {}
 
 iframe {}
