@@ -337,7 +337,7 @@ nav > details[open] > summary:hover {
 }
 body > nav, body > nav > details, body > nav > details > summary
 {
-  border-radius: 0 0 var(--line-height) var(--line-height);
+  border-radius: 0 0 1ch 1ch;
 }
 body > nav li li :link:focus-visible {
   background-color: Mark;
