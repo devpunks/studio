@@ -374,8 +374,9 @@ em
 b, strong
   { font-weight: bolder }
 p {
+  display: flow-root; /* https://css-tricks.com/display-flow-root/ */
   /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why/ */
-  /* font-size: var(--smaller); */  /* 16x0.81=13 */
+    /* 16x0.81=13 */
 }
 p, q, address {
   max-width: 80ch;
