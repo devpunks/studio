@@ -34,6 +34,7 @@ picture, figure, canvas, audio, video, embed, object {
 audio, video, canvas {
   width: 100%;
   max-width: 65ch;
+  filter: invert(100%);
   background: buttonFace;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
