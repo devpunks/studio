@@ -47,6 +47,7 @@ html, body {
 //  min-height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 //  min-height: fill-available;          /* https://caniuse.com/?search=fill-available */
 }
+
 /* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html { box-sizing: border-box }
 body { }
@@ -62,6 +63,7 @@ body > nav {
   position: sticky;
   margin: var(--margin-collapse-bugfix) auto var(--margin);
 }
+
 body > nav {
   max-height: 90vh;
   overflow-y: scroll;
