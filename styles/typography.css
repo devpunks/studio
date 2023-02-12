@@ -25,6 +25,14 @@
 */
 
 :root {
+  --margin: 1ch auto;
+
+  --text-align: center;
+
+  --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
+
+  --tab-size: 2; /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
+
   /*
   - Vertical rhythm
     - https://24ways.org/2006/compose-to-a-vertical-rhythm
