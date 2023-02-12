@@ -527,7 +527,8 @@ caption {
 /* details */
 details {
   margin: var(--margin);
-  text-align: var(--text-align)
+  text-align: var(--text-align);
+  padding: 0 0 0 var(--line-height);
 }
 nav details, nav summary {
   margin: 0;
