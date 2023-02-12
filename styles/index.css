@@ -413,8 +413,10 @@ tfoot th
 th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
   { background: ButtonFace }
 
-a
-  { cursor: pointer }
+a {
+  cursor: pointer;
+  display: inline-block;
+}
 a[rel=search]
   { cursor: help }
 
