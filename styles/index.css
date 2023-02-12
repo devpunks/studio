@@ -10,6 +10,7 @@
 @layer /* explicit layer ordering */
   speech, accessibility, typography, forms, color, icons, multimedia, layout, print, animation;
 
+/* ** BUG WHEN NOT USING URL** - https://css-tricks.com/css-tricks-chronicle-vol-iv/ */
 @import url('print.css') layer(print) print;
 @import url('layout.css') layer(layout) all;
 @import url('icons.css') layer(icons) not speech;
