@@ -47,12 +47,6 @@
       env( safe-area-inset-top, 0.612em ) auto
       env( safe-area-inset-bottom, 0.612em ) auto;
 
-  --text-align: center;
-
-  --tab-size: 2;
-
-  --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
-
   --smallest: 61.8%;
 
   --smaller:  80.0%;
