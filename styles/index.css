@@ -324,6 +324,7 @@ nav > details > summary {
   transform: translateX(-50%);
   clip-path: inset(0px 244px 1px 170px);
   list-style: '☰' inside; /* https://www.htmlsymbols.xyz/unicode/U+2630 */
+  clip-path: none;
 }
 
 nav > details[open] > summary {
