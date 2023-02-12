@@ -526,7 +526,6 @@ caption {
 
 /* details */
 details {
-  padding: 0 0 0 1.618em;
   margin: var(--margin);
   text-align: var(--text-align)
 }
