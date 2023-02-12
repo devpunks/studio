@@ -58,10 +58,8 @@ body > a[rel=help] { /* skip link */
 [href='#main']:focus-visible {
   clip-path: unset;
 }
-a[href='#'][title^=Top] {
-  opacity: 0.3;
-  text-decoration: none;
-}
+a[href='#'][title^=Top]
+  { opacity: 0.3 }
 a[href='#']:hover
   { opacity: 1 }
 
