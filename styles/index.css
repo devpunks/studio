@@ -206,8 +206,6 @@ iframe {
   width: 100%;
   border: none;
   background: canvas;
-  border-radius: 0.618em;
-  box-shadow: var(--box-shadow);
 }
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
   border: 0;
