@@ -73,10 +73,3 @@ body > footer {
   position: sticky;
   top: 100vh;
 }
-
-a {
-  display: inline-block;
-}
-picture a {
-  display: initial;
-}
