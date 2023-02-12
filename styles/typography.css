@@ -33,7 +33,7 @@
   --font-size: 2.618vw; /* http://webtypography.net/2.1.2 */
   /* --font-size: clamp(7.1618rem 8.618vw + 10.618rem, 13.336rem); https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/ */
 
-  --margin: 0.67em auto;
+  --margin: 1ch auto;
 
   /* https://julian.is/article/iphone-x-notch/ */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
