@@ -60,10 +60,6 @@ body > a[rel=help] { /* skip link */
 }
 a[href='#'][title^=Top] {
   opacity: 0.3;
-  padding: 1em;
-  display: block;
-  width: fit-content;
-  margin: 0 auto 2em;
   text-decoration: none;
 }
 a[href='#']:hover
