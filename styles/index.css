@@ -314,7 +314,6 @@ nav details[open] > summary {
   list-style: '📂' inside;
 }
 nav > details > summary {
-  box-shadow: none;
   clip-path: inset(0px 244px 1px 170px);
   list-style: '☰' inside; /* https://www.htmlsymbols.xyz/unicode/U+2630 */
 }
