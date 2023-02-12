@@ -33,7 +33,7 @@ picture, figure, audio, video, embed, object {
 }
 img, svg {
   padding: var(--font-size);
-  margin: var(--font-size) auto;
+  margin: var(--margin-collapse-bugfix) auto;
 }
 a img {
   opacity: 95%;
