@@ -69,8 +69,8 @@ body > nav {
 body > a[rel=help] { /* skip link */
   left: 0;
   z-index: 11;
-  top: var(--line-height);
-  left: var(--line-height);
+  width: fit-content;
+  padding: var(--line-height);
 }
 body > main { }
 body > aside { }
