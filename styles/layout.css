@@ -60,7 +60,11 @@ body > nav {
   top: 0;
   z-index: 10;
   position: sticky;
-  max-width: var(--viewport);
+  margin: var(--margin-collapse-bugfix) auto var(--margin);
+}
+body > nav details {
+  max-height: 90vh;
+  overflow-y: scroll;
 }
 body > a[rel=help] { /* skip link */
   z-index: 11;
