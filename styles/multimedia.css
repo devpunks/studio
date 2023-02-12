@@ -31,6 +31,12 @@ picture, figure, canvas, audio, video, embed, object {
   display: block;
   margin: var(--font-size);
 }
+audio, video, canvas {
+  width: 100%;
+  max-width: 65ch;
+  background: buttonFace;
+  margin: var(--margin-collapse-bugfix) auto var(--line-height);
+}
 img, svg {
   padding: var(--font-size);
 }
