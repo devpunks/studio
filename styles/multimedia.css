@@ -55,7 +55,7 @@ svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
   { overflow: hidden }
 figure img, iframe, picture img, audio, canvas, video {
   border-radius: 0.618em;
-  box-shadow: 0 0 0.218em;
+  box-shadow: var(--box-shadow);
 }
 figure img, picture img, figure picture {
   margin: 0;
