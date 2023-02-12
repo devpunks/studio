@@ -266,9 +266,7 @@ ul, ol
   { list-style-position: inside }
 ul ul, ol ol
   { }
-nav summary + ul {
-  list-style: '➱' inside;
-}
+
 nav > details > ul {
   list-style: none;
 }
