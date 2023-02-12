@@ -189,8 +189,8 @@ html {
   font-display:          fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   font-variant-numeric:  slashed-zero; /* https://css-tricks.com/almanac/properties/f/font-variant-numeric/ */
   -webkit-text-size-adjust: var(--text-size-adjust);
-  -moz-text-size-adjust:    var(--text-size-adjust);
-  text-size-adjust:         var(--text-size-adjust);
+     -moz-text-size-adjust: var(--text-size-adjust);
+          text-size-adjust: var(--text-size-adjust);
 
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   /* https://css-tricks.com/almanac/properties/w/word-break/ */
