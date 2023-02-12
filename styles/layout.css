@@ -62,7 +62,7 @@ body > nav {
   position: sticky;
   margin: var(--margin-collapse-bugfix) auto var(--margin);
 }
-body > nav details {
+body > nav {
   max-height: 90vh;
   overflow-y: scroll;
 }
