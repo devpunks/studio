@@ -50,7 +50,7 @@ figure {}
 iframe {}
 picture {}
 canvas
-  {background: Canvas;display: block;max-width: 100%;}
+  { background: Canvas }
 svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
   { overflow: hidden }
 figure img, picture img, audio, canvas, video {
