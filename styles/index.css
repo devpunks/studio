@@ -320,7 +320,6 @@ nav > details > summary {
 
 nav > details[open] > summary {
   list-style: 'ⓧ' inside;
-  box-shadow: var(--shadow);
 }
 nav > details[open] > summary:hover {
   list-style: '✖' inside; /* https://www.htmlsymbols.xyz/unicode/U+2716 */
