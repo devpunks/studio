@@ -379,6 +379,7 @@ p {
 }
 p, q, address {
   max-width: 80ch;
+  display: flow-root;
   padding: 0 var(--line-height);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
