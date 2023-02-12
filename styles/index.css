@@ -437,9 +437,13 @@ a[href='#'][title^=Top] {
   padding: 1ch var(--line-height);
 }
 
-details summary
-  { cursor: s-resize }
-
+details summary {
+  z-index: 11;
+  cursor: s-resize;
+}
+details details summary {
+  z-index: 10
+}
 details[open] summary
   { cursor: n-resize }
 details[open] > summary a {
