@@ -536,9 +536,7 @@ nav details, nav summary {
 body > header details
   { padding-left: 0 }
 nav  details { }
-nav > details[open] {
-  padding-bottom: var(--line-height);
-}
+nav > details[open] { }
 
 /* summary */
 body > nav > details > summary {
