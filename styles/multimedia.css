@@ -42,6 +42,10 @@ a:hover img {
   opacity: 100%;
   background: buttonFace;
 }
+p img , p svg {
+  float: left;
+  padding-block-start: 0;
+}
 figure {}
 iframe {}
 picture {}
