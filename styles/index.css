@@ -419,9 +419,15 @@ a {
 }
 a[rel=search]
   { cursor: help }
-
 abbr[title]
   { cursor: help }
+a[href='#'][title^=Top] {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  margin: var(--p-margin) auto;
+  padding: 1ch var(--line-height);
+}
 
 details summary
   { cursor: s-resize }
