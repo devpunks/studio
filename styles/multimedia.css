@@ -38,6 +38,9 @@ audio, video, canvas {
   background: buttonFace;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
+audio {
+  /* https://blog.shahednasser.com/how-to-style-an-audio-element/ */
+}
 img, svg {
   padding: var(--font-size);
 }
