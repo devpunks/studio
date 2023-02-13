@@ -15,6 +15,4 @@
 
 }
 
-a.logo {
-  display: block;
-}
+* { background: red }
