@@ -1,4 +1,4 @@
-@import 'styles/index.css' layer(devPunks);;
+@import url('styles/index.css') layer(devPunks);;
 
 /*
   FOR METERS WITH VERTICAL TEXT
