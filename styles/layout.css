@@ -63,7 +63,7 @@ body > nav {
   /* padding: 0; */
   z-index: 10;
   max-height: 90vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 body > a[rel=help] { /* skip link */
   left: 0;
