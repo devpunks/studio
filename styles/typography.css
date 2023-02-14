@@ -540,10 +540,7 @@ nav  details { }
 nav > details[open] { }
 
 /* summary */
-body > nav > details > summary {
-  padding: 0 var(--line-height);
-  text-align: var(--text-align);
-}
+
 summary {
   font-weight: bolder;
   padding-bottom: 0.618em;
