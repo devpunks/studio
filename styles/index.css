@@ -324,7 +324,7 @@ nav details[open] > summary {
 nav > details > summary {
   top: 0;
   left: 50%;
-  width: 100%;
+  width: 98%;
   opacity: 100%;
   /* position: fixed; */
   background: canvas;
