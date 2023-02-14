@@ -277,7 +277,6 @@ ul ul, ol ol
   { }
 
 nav > details > ul {
-  list-style: none;
 }
 
 nav > details > ul li li {
