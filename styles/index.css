@@ -326,7 +326,7 @@ nav > details > summary {
   left: 50%;
   width: 98%;
   opacity: 100%;
-  /* position: fixed; */
+  position: fixed;
   background: canvas;
   box-shadow: var(--shadow);
   text-align: var(--tab-size);
