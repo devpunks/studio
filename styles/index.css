@@ -346,7 +346,8 @@ nav > details[open] > summary:hover {
 }
 body > nav, body > nav > details, body > nav > details > summary
 {
-  border-radius: 0 0 1ch 1ch;
+  /* border-radius: 0 0 1ch 1ch; */
+  /* width: 100%; */
 }
 body > nav li li :link:focus-visible {
   background-color: Mark;
