@@ -58,9 +58,8 @@ body > * { /* all immediate children of <body> */
 }
 body > header { }
 body > nav {
-  /* top: 0; */
-  /* position: sticky; */
-  /* padding: 0; */
+  top: 0;
+  position: sticky;
   z-index: 10;
   max-height: 90vh;
   overflow-y: auto;
