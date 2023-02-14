@@ -319,7 +319,7 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
 }
 nav > details > ul
-  { margin-top: var(--line-height) }
+  { margin-block: 1ch }
 dt {
   font-weight: bolder;
   line-height: 3.6182ch;
