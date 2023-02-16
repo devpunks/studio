@@ -68,7 +68,10 @@ html {
   overflow-y: scroll;
   /* overflow-x: hidden; */
 }
-body { display: flex }
+body {
+  display: flex;
+  flex-direction: column /* var(--flex-direction); */
+}
 body > * { /* all immediate children of <body> */
   width: var(--max-width);
   max-width: var(--max-width);
