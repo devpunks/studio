@@ -112,7 +112,8 @@
   --font-family: Chalk;
 
   --Cursive:
-    Fantasy, Cursive, var(--Serif);
+    Fantasy, Cursive, var(
+  --Serif);
 
   --Math:
     'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
