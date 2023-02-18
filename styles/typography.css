@@ -124,7 +124,7 @@
     UI-Rounded;     /* default user interface rounded font */
 
   --Serif:
-    'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
+  'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
     Serif,              /* fallback */
     UI-Serif;           /* default user interface serif font */
 
