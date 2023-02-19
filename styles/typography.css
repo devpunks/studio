@@ -147,7 +147,7 @@
     UI-Monospace;               /* default user interface monospace font */
 
   --System-UI:
-    -Apple-System,           /* macOS 10.11-10.12 */
+  -Apple-System,           /* macOS 10.11-10.12 */
     BlinkMacSystemFont,      /* macOSX, Chrome */
     'Droid Sans',            /* Android */
     'RobotoRegular', Roboto, /* Android 4+ */
