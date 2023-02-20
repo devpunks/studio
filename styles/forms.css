@@ -519,7 +519,10 @@ input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown),
 }
 input:invalid::before, input:out-of-in-range::before,
 select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
-  content: '✖';
+  content: 'x';
+  display:block;
+  width: 1em;
+  height: 1em;
 }
 
 /* INERT */
