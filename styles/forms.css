@@ -413,7 +413,7 @@ dialog {
 dialog:not([open])
   { display: none }
 
-button, [type=button], [type=submit], [type=reset], [role=button], ::file-selector-button {
+button, [type=button], [type=submit], [type=reset], [role=button], ::file-selector-button, [type=file]::-webkit-file-upload-button {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   cursor: pointer;
   width: max-content;
