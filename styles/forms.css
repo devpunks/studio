@@ -261,7 +261,7 @@ label [type=checkbox], label [type=radio] {width: 3em;}
   padding: 0;
   left: 0;
   top: 0;
-  display: contents;
+  /* display: contents; */
 }
 [type=checkbox]:checked {}
 [type=checkbox]:checked::before {}
