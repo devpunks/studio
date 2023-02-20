@@ -221,8 +221,8 @@ input[type=range] {
   cursor: pointer;
   /* Adjusts the position of the checkboxes on the text baseline */
   vertical-align: middle;
-  border: 0.5em solid GrayText;
-  padding: 0em;
+  border: 0.5em solid lightgrey;
+  padding: 1em;
   background: pink;
   outline: 0.5em solid green;
 }
