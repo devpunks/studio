@@ -232,6 +232,8 @@ label [type=checkbox], label [type=radio] {
 }
 [type=radio]:checked, [type=checkbox]:checked {}
 [type=radio]::before, [type=checkbox]::before {
+  --check: attr(data-check);
+  content: var(--check, 'O');
   content: 'O';
   border: 0.5em solid lime;
   outline: 0.5em solid magenta;
