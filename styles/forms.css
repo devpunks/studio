@@ -75,9 +75,6 @@ label {
   width: 100%;
   display: block;
   max-width: 80ch;
-  cursor: pointer;
-  padding: var(--margin-collapse-bugfix) var(--line-height);
-  margin: var(--margin-collapse-bugfix) auto var(--margin);
 }
 
 :placeholder-shown {
