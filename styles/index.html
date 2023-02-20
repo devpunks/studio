@@ -1365,7 +1365,13 @@ class Shape {
               </label>
 
             <li>
-              <input id=checkbox:checked name=checkbox type=checkbox checked >
+              <input required id=checkbox:required name=checkbox type=checkbox placeholder='Foo' >
+              <label for=checkbox:required title='Checkbox required'>
+                Checkbox state is <code>required</code>
+              </label>
+
+            <li>
+              <input checked id=checkbox:checked name=checkbox type=checkbox checked >
               <label for=checkbox:checked title='Checkbox checked'>
                 Checkbox state is <code>checked</code>
               </label>
