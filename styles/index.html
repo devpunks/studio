@@ -1328,6 +1328,142 @@ class Shape {
 
       <a title='Top of page' href=#>Top</a>
 
+      <fieldset id=textareas>
+        <legend>Textareas</legend>
+
+        <label for=textarea>Textarea</label>
+        <textarea id=textarea rows=8 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'></textarea>
+
+        <label for=textarea>Textarea
+          <em>(Nested in <code>&lt;label&gt;</code>)</em>
+
+          <textarea
+              id=textarea rows=8 cols=48 spellcheck=true
+              title='Enter your message here' placeholder='Enter your message here'>
+          </textarea>
+        </label>
+
+        <label for=textarea:required><em>(Required)</em> Textarea</label>
+        <textarea required id=textarea:required minlength=10 rows=4 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'>Not Valid</textarea>
+
+        <label for=textarea:disabled><em>(Disabled)</em> Textarea</label>
+        <textarea disabled required id=textarea:disabled minlength=10 rows=4 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'></textarea>
+      </fieldset>
+
+      <a title='Top of page' href=#>Top</a>
+
+      <fieldset id=checkboxes>
+        <legend>Checkboxes</legend>
+        <fieldset>
+          <legend>Checkboxes <em>(with sibling <code>&lt;label&gt;</code>)</em></legend>
+
+          <ul>
+            <li>
+              <input id=checkbox name=checkbox type=checkbox >
+              <label for=checkbox title='Default checkbox'>
+                Default checkbox <em>(with no state)</em>
+              </label>
+
+            <li>
+              <input id=checkbox:checked name=checkbox type=checkbox checked >
+              <label for=checkbox:checked title='Checkbox checked'>
+                Checkbox state is <code>checked</code>
+              </label>
+
+            <li>
+              <input id=checkbox:disabled name=checkbox type=checkbox disabled >
+              <label for=checkbox:disabled title='Checkbox disabled'>
+                Checkbox state is <code>disabled</code>
+              </label>
+
+            <li>
+              <input id=checkbox:disabled:checked name=checkbox type=checkbox disabled checked >
+              <label for=checkbox:disabled:checked title='Checkbox disabled checked'>
+                Checkbox state is <code>disabled checked</code>
+              </label>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Checkboxes <em>(nested inside <code>&lt;label&gt;</code>)</em></legend>
+
+          <ul>
+            <li>
+              <label title='Default checkbox'>
+                <input name=checkbox:nested type=checkbox >
+                Default checkbox <em>(with no state)</em>
+              </label>
+
+            <li>
+              <label title='Checkbox checked'>
+                <input name=checkbox:nested type=checkbox checked >
+                Checkbox state is <code>checked</code>
+              </label>
+
+            <li>
+              <label title='Checkbox disabled'>
+                <input name=checkbox:checked type=checkbox disabled >
+                Checkbox state is <code>disabled</code>
+              </label>
+
+            <li>
+              <label title='Checkbox disabled checked'>
+                <input name=checkbox:nested type=checkbox disabled checked >
+                Checkbox state is <code>disabled checked</code>
+              </label>
+
+          </ul>
+        </fieldset>
+      </fieldset>
+
+      <a title='Top of page' href=#>Top</a>
+
+      <fieldset id=radios>
+        <legend>Radios</legend>
+
+        <ul>
+          <li>
+            <label title='Option 1'>
+              <input id=radio1 name=radio type=radio class=radio checked>
+              Inside of <code>&lt;label&gt;</code> tag
+            </label>
+
+          <li>
+            <input id=radio2 name=radio type=radio class=radio checked>
+            <label title='Option 2' for=radio2>
+              Outside of <code>&lt;label&gt;</code> tag
+            </label>
+        </ul>
+      </fieldset>
+
+      <a title='Top of page' href=#>Top</a>
+
+      <fieldset id=toggles>
+        <legend>Toggles</legend>
+
+        <ul>
+          <li>
+            <label title='Inside toggle' for=toggle>
+              <input id=toggle class=toggle name=toggle type=checkbox checked>
+              Inside of <code>&lt;label&gt;</code> tag
+            </label>
+
+          <li>
+            <input id=toggle2 class=toggle name=toggle type=checkbox>
+            <label for=toggle2 title='Outsid Toggle'>
+              Toggle outside of <code>&lt;label&gt;</code> tag
+            </label>
+
+          <li>
+            <input id=toggle-v class=toggle name=toggle type=checkbox>
+            <label for=toggle-v title='Vertical Toggle'>
+              Vertical toggle outside of <code>&lt;label&gt;</code> tag
+            </label>
+        </ul>
+      </fieldset>
+
+      <a title='Top of page' href=#>Top</a>
+
       <fieldset id=selects><!-- conflicts with <select id=select> -->
         <legend>Select menus</legend>
 
