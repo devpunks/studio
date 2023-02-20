@@ -219,7 +219,6 @@ input[type=range] {
   border: 0.05em solid GrayText;
   -webkit-appearance: revert;
   appearance: revert;
-}
 
 [type=radio]:before, [type=checkbox]:before {
   content: ' ';
