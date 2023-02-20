@@ -237,10 +237,10 @@ label [type=checkbox], label [type=radio] {
   content: 'O';
   border: 0.5em solid lime;
   outline: 0.5em solid magenta;
-  width: var(--line-height);
-  width: 3em;
-  height: var(--line-height);
-  height: 3em;
+  /* width: var(--line-height); */
+  /* width: 3em; */
+  /* height: var(--line-height); */
+  /* height: 3em; */
   line-height: var(--line-height);
   line-height: 3em;
   background: yellow;
