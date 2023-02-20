@@ -216,7 +216,8 @@ input[type=range] {
   line-height: var(--line-height);
 }
 [type=checkbox], [type=radio] {
-  font-family: sans-serif;
+  font-family: monospace;
+  font-size: var(--largest);
   margin: 0;
   cursor: pointer;
   /* Adjusts the position of the checkboxes on the text baseline */
