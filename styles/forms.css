@@ -66,6 +66,11 @@ fieldset ul, fieldset ol, fieldset dl
 fieldset li
   { }
 
+label {
+  cursor: pointer;
+  margin: var(--margin-collapse-bugfix) auto var(--margin);
+  padding: var(--margin-collapse-bugfix) var(--line-height);
+}
 :not(li) > label {
   width: 100%;
   display: block;
