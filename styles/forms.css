@@ -206,6 +206,7 @@ input[type=range] {
 }
 [type=range]::-ms-track {}
 
+
 /* checksboxes & radios */
 [type=checkbox], [type=radio] {
   margin: 0;
