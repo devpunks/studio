@@ -430,7 +430,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   margin: var(--margin-collapse-bugfix) 0.67em 0.67em;
   padding: var(--margin-collapse-bugfix) var(--line-height);
 }
-button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(:disabled),
+button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(:disabled), [type=file]::-webkit-file-upload-button:not(:disabled),
 [type=submit]:not(:disabled), [type=reset]:not(:disabled), [role=button]:not([aria-disabled=true]) {
   opacity: 70%;
   cursor: pointer;
