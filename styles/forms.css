@@ -226,9 +226,7 @@ input[type=range] {
   border: 0.5em solid GrayText;
   padding: 0em;
   background: pink;
-  outline: 1.5ch solid green;
-  -webkit-appearance: none;
-          appearannce: none;
+  outline: 0.5em solid green;
 }
 [type=radio]:checked, [type=checkbox]:checked {}
 [type=radio]::before, [type=checkbox]::before {
