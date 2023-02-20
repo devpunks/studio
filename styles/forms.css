@@ -260,7 +260,12 @@ input[type=range] {
   display: contents;
 }
 [type=checkbox]:checked {}
-[type=checkbox]:checked:before {}
+[type=checkbox]:checked::before {}
+/* radio */
+[type=radio] {}
+[type=radio]::before {}
+[type=radio]:checked {}
+[type=radio]:checked::before {}
 
 /* "pressed" button
  * aria-pressed - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#Associated_ARIA_roles_states_and_properties
