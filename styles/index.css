@@ -169,8 +169,9 @@ html:focus-within
   - https://drafts.csswg.org/css-scroll-snap-1/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
 */
-body
-  { scroll-snap-type: y mandatory }
+body {
+  /* scroll-snap-type: y mandatory */
+}
 body > nav, body > main, body > aside, body > footer
   { background: Canvas }
 body > nav
