@@ -208,6 +208,13 @@ input[type=range] {
 
 
 /* checksboxes & radios */
+#checkboxes label {
+  background: orange;
+  outline: 1px dashed;
+  padding: 0;
+  margin: 0;
+  line-height: var(--line-height);
+}
 [type=checkbox], [type=radio] {
   font-family: sans-serif;
   margin: 0;
