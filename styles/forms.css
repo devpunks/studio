@@ -435,7 +435,7 @@ button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(
   opacity: 70%;
   cursor: pointer;
 }
-button:not(:disabled):hover, [type=button]:not(:disabled):hover, [type=file]::file-selector-button:not(:disabled):hover,
+button:not(:disabled):hover, [type=button]:not(:disabled):hover, [type=file]::file-selector-button:not(:disabled):hover, [type=file]::-webkit-file-upload-button:not(:disabled):hover,
 [type=submit]:not(:disabled):hover, [type=reset]:not(:disabled):hover, [role=button]:not([aria-disabled=true]):hover
   { opacity: 100% }
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
