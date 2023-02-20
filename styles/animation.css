@@ -19,9 +19,12 @@
  *  - https://openclassrooms.com/en/courses/5625816-create-modern-css-animations/5819321-use-timing-functions-to-create-more-natural-animations
 
  * Media Queries
- *   - Media Queries 5 specification
- *   - https://davidwalsh.name/animate-media-queries
- *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+ *  - Media Queries 5 specification
+ *  - https://davidwalsh.name/animate-media-queries
+ *  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+
+ * 3D
+ *  - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
 */
 @media (prefers-reduced-motion: reduce) {
   /* https://piccalil.li/blog/a-modern-css-reset/ */
