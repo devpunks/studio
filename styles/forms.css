@@ -226,7 +226,9 @@ input[type=range] {
   background: pink;
   outline: 0.5em solid green;
 }
-label [type=checkbox], label [type=radio] {width: 3em;}
+label [type=checkbox], label [type=radio] {
+  width: auto;
+}
 [type=radio]:checked, [type=checkbox]:checked {}
 [type=radio]::before, [type=checkbox]::before {
   content: 'O';
