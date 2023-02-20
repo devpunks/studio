@@ -232,7 +232,8 @@ label [type=checkbox], label [type=radio] {width: 3em;}
 [type=radio]:checked, [type=checkbox]:checked {}
 [type=radio]::before, [type=checkbox]::before {
   content: 'O';
-  border: 2px solid lime;
+  border: 0.5em solid lime;
+  outline: 0.5em solid magenta;
   width: var(--line-height);
   width: 3em;
   height: var(--line-height);
