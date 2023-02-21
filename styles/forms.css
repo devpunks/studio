@@ -269,7 +269,7 @@ label [type=checkbox], label [type=radio] {
 [type=checkbox]::before {
   position: relative;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   left: 0;
   top: 0;
   /* display: contents; */
