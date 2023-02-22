@@ -258,7 +258,8 @@ label [type=checkbox], label [type=radio] {
 }
 [type=radio]:checked::before,
 [type=checkbox]:checked::before {
-  --checked: attr(data-checked);
+  --checked:
+  attr(data-checked);
   content: var(--checked, 'X');
   content: 'X';
   /* transition: all 0.3s ease-in; */
