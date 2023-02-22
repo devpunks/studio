@@ -250,6 +250,11 @@ label [type=checkbox], label [type=radio] {
   font-size: 1em;
   background: yellow;
   padding: 0.5em;
+  display: contents;
+  display: inherit;
+  list-style-type: '🙁';
+  list-style-position: inherit;
+  margin: 0.5em;
 }
 [type=radio]:checked::before,
 [type=checkbox]:checked::before {
