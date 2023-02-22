@@ -304,7 +304,6 @@ summary {
   opacity: 0.75;
   list-style: none;
 }
-::marker,
 summary::-webkit-details-marker
   { display: none } /* https://stackoverflow.com/a/66814239 */
 details:hover > summary, details:focus-within > summary
