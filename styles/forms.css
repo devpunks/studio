@@ -268,7 +268,9 @@ label [type=checkbox], label [type=radio] {
   /* display: contents; */
 }
 [type=checkbox]:checked {}
-[type=checkbox]:checked::before {}
+[type=checkbox]:checked::before {
+  list-style-type: '😊';
+}
 /* radio */
 [type=radio] {}
 [type=radio]::before {}
