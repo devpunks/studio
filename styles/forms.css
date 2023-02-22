@@ -447,6 +447,8 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   cursor: pointer;
   width: max-content;
+  max-width: inherit;
+  white-space: normal;
   font-family: inherit;
   background: buttonFace;
   display: inline-block;
