@@ -260,6 +260,7 @@ label [type=checkbox], label [type=radio] {
 [type=checkbox]:checked::before {
   --checked:
   attr(data-checked);
+  list-style-type: '😊';
   content: var(--checked, 'X');
   content: 'XXXXXXXXXXXXXXXXXX';
 }
