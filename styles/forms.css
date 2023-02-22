@@ -455,6 +455,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   border-radius: 0.1618em;
   font-size: var(--larger);
   box-shadow: var(--box-shadow);
+  height: 100%;
   line-height: var(--line-height);
   border: 0.0168em solid currentColor;
   margin: var(--margin-collapse-bugfix) 0.67em 0.67em;
