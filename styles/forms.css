@@ -261,9 +261,7 @@ label [type=checkbox], label [type=radio] {
   --checked:
   attr(data-checked);
   content: var(--checked, 'X');
-  content: 'X';
-  /* transition: all 0.3s ease-in; */
-  /* transform: translate(0em, 0.02em) scale(1); */
+  content: 'XXXXXXXXXXXXXXXXXX';
 }
 /* checkbox */
 [type=checkbox] {
