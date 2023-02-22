@@ -454,8 +454,6 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   display: inline-block;
   border-radius: 0.1618em;
   font-size: var(--larger);
-  -webkit-appearance: button;
-          appearance: button;
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
   border: 0.0168em solid currentColor;
