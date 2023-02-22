@@ -220,8 +220,7 @@ input[type=range] {
   font-size: var(--largest);
   margin: var(--margin);
   cursor: pointer;
-  /* display: list-item; */
-  display: block;
+  display: list-item;
   /* list-style-type: 'SHAZAM'; */
   /* list-style-position: outside; */
   /* Adjusts the position of the checkboxes on the text baseline */
