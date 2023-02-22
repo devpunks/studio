@@ -230,6 +230,12 @@ input[type=range] {
   background: pink;
   outline: 0.5em solid green;
 }
+[type=checkbox]::marker, [type=radio]::marker {
+  content: '🙁';
+}
+[type=checkbox]:checked::marker, [type=radio]:checked::marker {
+  content: '😊';
+}
 label [type=checkbox], label [type=radio] {
   width: auto;
 }
