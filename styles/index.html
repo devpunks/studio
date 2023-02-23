@@ -1289,6 +1289,18 @@ class Shape {
         <label for=email>Email Address</label>
         <input id=email type=email title='Email Address' placeholder=name@email.com>
 
+        <label>
+          <em>(multiple)</em> Email Addresses
+          <input multiple list=emails placeholder='Start Typing…'>
+        </label>
+
+        <datalist id=emails>
+          <option value=foo@bar.baz>
+          <!-- https://askleo.com/why_are_email_addresses_sometimes_in_anglebrackets/ -->
+          <option value='<baz@bat>'>
+          <option value='Jane Doe <jane@abc.xyz>'>
+        </datalist>
+
         <label for=phone>Phone Number</label>
         <input id=phone type=tel title='Phone Number' placeholder='(999) 999-9999'>
 
