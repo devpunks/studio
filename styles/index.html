@@ -1446,6 +1446,24 @@ class Shape {
               Outside of <code>&lt;label&gt;</code> tag
             </label>
         </ul>
+
+        <fieldset role=radiogroup aria-required=true >
+          <legend><em>(required)</em> Radios</legend>
+
+          <ul>
+              <li>
+            <label title='Inside of label tag'>
+                <input name=radio:required type=radio title='Radio'>
+                Inside of <code>&lt;label&gt;</code> tag
+              </label>
+
+            <li>
+              <input id=radio:required name=radio:required type=radio title='Radio'>
+              <label title='' for=radio:required>
+                Outside of <code>&lt;label&gt;</code> tag
+              </label>
+        </ul>
+        </fieldset>
       </fieldset>
 
       <a title='Top of page' href=#>Top</a>
