@@ -397,6 +397,9 @@ pre code {
   margin: var(--line-height);
   font-size:  var(--smaller);
 }
+header code, h1 code {
+  font-variant-caps: initial;
+}
 
 figcaption {
   font-size: 86%;
