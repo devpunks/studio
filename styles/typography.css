@@ -392,6 +392,7 @@ pre {
   text-align: initial;
   margin: var(--p-margin);
 }
+code {}
 pre code {
   margin: var(--line-height);
   font-size:  var(--smaller);
