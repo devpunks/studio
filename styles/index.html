@@ -823,9 +823,20 @@ class Shape {
         srcset='http://placekitten.com/420/420 1x,' />
 
       <header>
-        <code>&lt;picture&gt;</code> element,
-        with <code>&lt;source&gt;</code>
-        &amp; default <code>&lt;img&gt;</code>
+        <code>&lt;picture&gt;</code>
+        <em>(with default <code>&lt;img&gt;</code>)</em>
+      </header>
+      <picture><!-- https://dev.opera.com/articles/responsive-images/ -->
+        <!-- img as last item or nothing is displayed -->
+        <img alt='Kitten placeholder image'
+          src='http://placekitten.com/420/420'
+          sizes=''
+          srcset='http://placekitten.com/420/420 1x,' />
+      </picture>
+
+      <header>
+        <code>&lt;picture&gt;</code>
+        <em>(with <code>&lt;source&gt;</code> &amp; default <code>&lt;img&gt;</code>)</em>
       </header>
       <picture><!-- https://dev.opera.com/articles/responsive-images/ -->
         <source title='550 Kitty'
