@@ -506,7 +506,7 @@ pre, p, q, cite, blockquote, address
           user-select:         text;    /* https://caniuse.com/user-select-none */
   -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
 }
-pre {
+pre, code {
   user-select: all; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select#all */
 }
 
