@@ -55,7 +55,10 @@ a[rel=external]::before
 
 a[href*=twitter]::before
   { content: '🐦' }
-
+a[href*=instagram]::before
+  { content: '📷' }
+a[href*=github]::before
+  { content: '🐙' }
 a[href*=youtube]::before {
   content: '►';
   padding: 0.2em 0.618em 0.1em;
@@ -65,8 +68,8 @@ a[href*=youtube]::before {
   border-radius: .4em;
 }
 
-a[href*=instagram]::before
-  { content: '📷' }
+a[href*='maps.google.com']::before
+  { content: '🗺️' }
 
 a[href*=github]::before
   { content: '🐙' }
