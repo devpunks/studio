@@ -509,6 +509,11 @@ pre, p, q, cite, blockquote, address
 pre, code {
   user-select: all; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select#all */
 }
+pre::selection, code::selection {
+  outline-offset: 0.168em;
+  border: 1em solid red;
+  outline: 0.168em dashed currentColor;
+}
 
 body > main
   { -webkit-overflow-scrolling: touch }
