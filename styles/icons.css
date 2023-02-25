@@ -23,6 +23,8 @@ a[rel=help]::after
   { content: '❓' }
 address a[rel=help]::after
   { content: '' }
+a[rel=author]::before
+  { content: '🖊️' }
 a[rel=license]::before
   { content: '📝' }
 a[rel=prev]::before
