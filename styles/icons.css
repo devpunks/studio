@@ -19,14 +19,6 @@
 a[href='#']::before
   { content: '⇭' }
 
-a[rel=alternate][hreflang]::before
-  { content:  attr(target) attr(hreflang) }
-a[rel=author]::before
-  { content: '🖊️' }
-a[rel=bookmark]::before
-{ content: '📁' }
-a[rel=external]::before
-  { content: '🌐' }
 a[rel=help]::after
   { content: '❓' }
 address a[rel=help]::after
