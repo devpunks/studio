@@ -48,7 +48,6 @@ a[href^=mailto]::before
   { content: '📧' }
 a[href^=tel]::before
   { content: '📞' }
-
 a[href^=sms]::before
   { content: '💬' }
 
