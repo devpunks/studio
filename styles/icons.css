@@ -41,6 +41,8 @@ a[rel=prev]::before
   { content: '⇦' }
 a[rel=tag]::before
   { content: '#' }
+a[rel=search]::before
+  { content: '🔍' }
 
 a[href^=mailto]::before
   { content: '📧' }
