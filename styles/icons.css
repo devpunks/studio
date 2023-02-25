@@ -46,7 +46,6 @@ a[rel=search]::before
 
 a[href^=mailto]::before
   { content: '📧' }
-
 a[href^=tel]::before
   { content: '📞' }
 
