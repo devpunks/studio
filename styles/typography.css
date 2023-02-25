@@ -270,6 +270,9 @@ h1 {
   font-weight: unset;
   text-shadow: 0.04em 0.04em 0;
   line-height: var(--line-height);
+  -webkit-text-fill-color: Canvas;
+  -webkit-text-stroke-width: thin;
+  -webkit-text-stroke-color: GrayText;
 }
 body * > h1
   { font-size: 2em; /* Override container H1s - Full discussion here */ }
