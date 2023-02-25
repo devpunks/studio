@@ -500,7 +500,7 @@ iframe, pre, table, select[multiple] {
 
 pre, p, q, cite, blockquote, address
 /* ... and all id-entifiable headers ... */
-, :where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] ) {
+, header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
   -webkit-user-select:         text;    /* Webkit (Chrome all / Safari all) */
           user-select:         text;    /* https://caniuse.com/user-select-none */
