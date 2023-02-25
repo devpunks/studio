@@ -267,6 +267,8 @@ a:has(header, h1, h2, h3, h4, h5, h6),
   { color: currentColor }
 h1 {
   /* TODO: calc () */
+  font-weight: unset;
+  text-shadow: 0.04em 0.04em 0;
   line-height: var(--line-height);
 }
 body * > h1
