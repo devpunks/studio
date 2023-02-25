@@ -27,10 +27,12 @@ a[rel=author]::before
   { content: '🖊️' }
 a[rel=license]::before
   { content: '📝' }
-a[rel=prev]::before
-  { content: '⇦' }
-a[rel=next]::after
-  { content: '⇨' }
+a[rel=bookmark]::before
+  { content: '📁' }
+a[download]::before
+  { content: '⟱' }
+a[rel=alternate][hreflang]::before
+  { content:  attr(target) attr(hreflang) }
 a[rel=pingback]::before
   { content: '⥹' }
 a[rel=search]::before
