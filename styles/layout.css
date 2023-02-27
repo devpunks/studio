@@ -65,8 +65,6 @@ html, body {
 html { box-sizing: border-box }
 body { display: flex }
 body > * { /* all immediate children of <body> */
-  /* Use for horizontal scrolling and snapping. */
-  max-width: var(--max-width);
   width: var(--max-width);
 }
 body > header { }
