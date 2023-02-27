@@ -181,7 +181,7 @@ body > main
 body > aside
   { background: ButtonFace }
 body > footer
-  { }
+  { background: GrayText }
 
 /*
   -   https://meowni.ca/hidden.is.a.lie.html
