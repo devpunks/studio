@@ -102,3 +102,11 @@ figcaption {
 figure:hover figcaption {
   opacity: 0.618;
 }
+
+::marker {
+  background: green;
+  color: orange;
+  display:block;
+  width: 1ch;
+  height: 1ch;
+}
