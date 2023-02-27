@@ -72,6 +72,7 @@ body > header { }
 body > nav {
   top: 0;
   z-index: 10;
+  position: sticky;
   max-height: 90vh;
   overflow-y: auto;
 }
