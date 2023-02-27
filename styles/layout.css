@@ -63,7 +63,7 @@ html, body {
 
 /* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html { box-sizing: border-box }
-body { }
+body { display: flex }
 body > * { /* all immediate children of <body> */
   /* Use for horizontal scrolling and snapping. */
   max-width: var(--max-width);
