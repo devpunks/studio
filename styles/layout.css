@@ -73,6 +73,6 @@ body > a[rel=help] { /* skip link */
 body > main { }
 body > aside { }
 body > footer {
-  position: sticky;
   top: 100vh;
+  position: sticky;
 }
