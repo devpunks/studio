@@ -89,33 +89,22 @@
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
   /* https://css-tricks.com/snippets/css/system-font-stack/ */
   /* https://devhints.io/css-system-font-stack */
-  --font-family: var(--system-ui);
-  --font-family: chalk;
+  --font-family: var(--System-UI);
+  --font-family: Chalk;
 
-  --font-family-serif:
-    ui-serif;
+  --Fantasy:
+    Fantasy, Cursive, var(--Serif);
 
-  --system-ui:
-    system-ui,   /* https://caniuse.com/font-family-system-ui */
-    -apple-system,           /* macOS 10.11-10.12 */
-    BlinkMacSystemFont,      /* macOSX, Chrome */
-    'segoe ui', segoe,       /* Windows 6+ */
-    'RobotoRegular', roboto, /* Android 4+ */
-    helvetica, arial,        /* Windows, macOSX, Linux defaults */
-    ubuntu,                  /* Ubuntu 10.10+ */
-    cantarell,               /* Gnome 3+ */
-    'noto sans', oxygen,     /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
-    ui-sans-serif, sans-serif, /* fallback */
-    'Apple Color Emoji',     /* macOS emoji */
-    'Segoe UI Emoji',        /* Windows emoji */
-    'Segoe UI Symbol',       /* Windows emoji */
-    'Noto Color Emoji',      /* Linux emoji */
-    emoji;                   /* 🤷 */
+  --Serif:
+    UI-Serif, Serif;
 
-  --font-family-mono:
-    menlo, sfmono-regular,
-    menlo, monaco, consolas, /* macOS 10.10+ */
-    consolas,                /* Windows 6+ */'Roboto Mono',           /* Android 4+ */
+  --Sans-Serif:
+    UI-Sans-Serif, Sans-Serif;
+
+  --Mono:
+    Menlo, SFMono, Monaco,   /* macOS 10.10+ */
+    Consolas,                /* Windows 6+ */
+    'Roboto Mono',           /* Android 4+ */
     'Ubuntu Monospace',      /* Ubuntu 10.10+ */
     'Noto Mono',             /* KDE Plasma 5+ */
     'Oxygen Mono',           /* KDE Plasma 4+ */
