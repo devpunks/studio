@@ -102,7 +102,8 @@
     UI-Sans-Serif, Sans-Serif;
 
   --Mono:
-    Menlo, SFMono, Monaco,   /* macOS 10.10+ */
+    'SF Mono', SFMono,       /* macOS 10.10+ */
+    Menlo, Monaco,
     Consolas,                /* Windows 6+ */
     'Roboto Mono',           /* Android 4+ */
     'Ubuntu Monospace',      /* Ubuntu 10.10+ */
