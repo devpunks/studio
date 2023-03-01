@@ -381,6 +381,18 @@ del, s {
 del {
   text-decoration-color: ActiveText
 }
+ins {
+  text-decoration-color: HighlightText
+}
+
+del::before, ins::before
+  { font-family: var(--Mono) }
+
+del::before
+  { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
+
+ins::before
+  { content: '+' }
 
 em
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */ }
