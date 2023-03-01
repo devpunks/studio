@@ -519,10 +519,8 @@ small
 
 sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
 }
-sup
-  { top: -0.5em }
-sub
-  { bottom: -0.25em }
+sup {}
+sub {}
 
 svg
  { vertical-align: middle }
