@@ -515,7 +515,7 @@ q + cite {
 }
 
 small
-  { font-size: 80% }
+  { font-size: var(--smaller) }
 
 sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
   font-size: 75%;
