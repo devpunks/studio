@@ -518,10 +518,6 @@ small
   { font-size: var(--smaller) }
 
 sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline
 }
 sup
   { top: -0.5em }
