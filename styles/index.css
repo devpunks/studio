@@ -229,8 +229,6 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 }
 
 mark {
-  padding: .618em;
-  padding: 0.1618em;
   border-radius: 0.318em;
   text-shadow: 0.06812em 0.06812em 0 canvas;
   box-shadow: var(--box-shadow);
