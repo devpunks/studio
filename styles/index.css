@@ -251,8 +251,10 @@ mark::before
 mark::after
   { content: '[highlight end]' }
 
-data, var
-  { outline: 0.01681em dotted currrentColor }
+data, var {
+  outline: 0.01681em dotted;
+  background: none;
+}
 
 pre, code, kbd, samp
   { border-radius: 0.618em }
