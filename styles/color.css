@@ -5,6 +5,9 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/system-color
     - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#System_Colors
     - * CSS4 System Colors - https://www.w3.org/TR/css-color-4/#css-system-colors
+    - Tests - https://wpt.fyi/results/css/css-color/parsing/color-valid-system-color.html
+    - * CSS4 UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
+    - Consistency Tests - https://wpt.fyi/results/css/css-color/system-color-consistency.html
 
    - AccentColor - Background of accented user interface controls
    - AccentColorText - Text of accented user interface controls
