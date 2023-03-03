@@ -656,4 +656,35 @@ legend {
   /* -webkit-appearance: slider-vertical; */ /* WebKit */
   /* appearance: slider-vertical; */ /* Living Standard */
   accent-color: CurrentColor;
+  line-height: 100vh;
+  /* max-height: 5ch !important; */
+  width: 100% !important;
+  max-width: 14ch !important;
+  /* rotate:  90deg; */
+  padding: 0;
+}
+.vertical input[type=range]::-moz-range-track {
+  height: 20px;
+  background: orange;
+  border: 2px solid red;
+}
+.vertical input[type=range]::-moz-range-thumb {
+  height: 30px;
+  background: blue;
+}
+
+::-webkit-slider-runnable-track {
+  margin: 0;
+  padding: 1ch;
+  background: green;
+  border: 2px solid red;
+  outline: 3px dotted purple;
+}
+::-webkit-slider-thumb {
+  padding: 3ch;
+  display: block;
+  background: orange;
+  border: 7px solid currentColor;
+  margin: 1ch;
+  outline: 2px solid blue;
 }
