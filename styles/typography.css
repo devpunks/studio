@@ -124,11 +124,10 @@
     UI-Serif;           /* default user interface serif font */
 
   --Sans-Serif:
-    'Noto Sans', Oxygen, /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
-    'Fira Sans',         /* Mozilla Firefox */
-    Helvetica, Arial,    /* Windows, macOSX, Linux defaults */
-    UI-Sans-Serif,
-    Sans-Serif;          /* fallback */
+    'Noto Sans',      /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
+    Helvetica, Arial, /* Windows, macOSX, Linux defaults */
+    Sans-Serif,       /* fallback */
+    UI-Sans-Serif;    /* default user interface sans-serif font */
 
   --Monospace:
     Consolas,                /* Windows 6+ */
