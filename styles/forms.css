@@ -659,7 +659,7 @@ meter {
   line-height: 6ch;
   border-radius: 1ch;
   background: white;
-  border: 2px solid black;
+  border: 1ch solid CurrentColor;
   outline-offset: 1ch;
   outline: 1ch solid orange;
 }
