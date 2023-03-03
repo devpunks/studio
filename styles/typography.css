@@ -124,9 +124,9 @@
     'SF Mono', SFMono,       /* macOS 10.10+ */
     'Roboto Mono',           /* Android 4+ */
     'Ubuntu Monospace',      /* Ubuntu 10.10+ */
-    'Noto Mono',             /* KDE Plasma 5+ */
-    'Oxygen Mono',           /* KDE Plasma 4+ */
-    'Liberation Mono',       /* Linux/OpenOffice fallback */
+    'Noto Mono', 'Oxygen Mono', /* Linuux / KDE Plasma 5+ */
+   ,           /* KDE Plasma 4+ */
+    'Liberation Mono',       /* Linux fallback */
     Courier,                 /* typewriter */
     UI-Monospace, Monospace; /* fallback */
 
