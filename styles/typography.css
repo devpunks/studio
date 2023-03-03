@@ -635,5 +635,16 @@ legend {
   */
   /* rotate: 90deg; */
   /* direction: rtl; */
-  writing-mode: vertical-rl;
+  outline: 4px dotted red;
+  writing-mode: bt-l;
+  background: pink;
+  /* display: inline; */
+}
+
+.vertical input {
+  background:red;
+  writing-mode: bt-lr; /* IE */
+  /* https://caniuse.com/?search=vertical%20slider */
+  -webkit-appearance: slider-vertical; /* WebKit */
+          appearance: slider-vertical; /* Living Standard */
 }
