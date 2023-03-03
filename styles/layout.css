@@ -88,3 +88,15 @@ body > footer {
   top: 100vh;
   position: sticky;
 }
+
+#paragraphs {
+  resize: vertical;
+  overflow: scroll;
+  outline: 1px solid;
+}
+::-webkit-resizer {
+    border: 2px solid black;
+    background: red;
+    box-shadow: 0 0 5px 5px blue;
+    outline: 2px solid yellow;
+}
