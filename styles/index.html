@@ -1003,7 +1003,14 @@ class Shape {
     <article id=meter>
       <header>Meter</header>
 
-      <meter value=2 min=0 max=10>2 out of 10</meter>
+      <meter value=7 title='Meter: 7'></meter>
+
+      <meter value=7 min=0 max=10 title='Meter: 0 - 10 (with min,max)'>
+        7 out of 10 <em>(with min, max)</em>
+      </meter>
+      <meter value=7 min=0 low=3 optimum=5 high=7 max=10 title='Meter: 0 - 10 (with min, low, optimum, high, max)'>
+        7 out of 10 <em>(with min, low, optimum, high, max)</em>
+      </meter>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
