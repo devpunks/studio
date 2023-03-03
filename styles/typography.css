@@ -633,7 +633,7 @@ legend {
     - https://www.w3.org/International/articles/vertical-text/
     - https://developer.mozilla.org/en-US/docs/Web/CSS/direction
   */
-  rotate: 90deg;
+  /* rotate: 90deg; */
   /* direction: rtl; */
   writing-mode: vertical-rl;
 }
