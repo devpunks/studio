@@ -686,9 +686,20 @@ meter {
   -webkit-appearance: none;
           appearance: none;
 }
-::-webkit-meter-bar, ::-webkit-meter-optimum-value, ::-webkit-meter-suboptimum-value, ::-webkit-meter-even-less-good-value {
-  height: 4ch;
-  margin: 1ch;
+meter::-webkit-meter-bar,
+meter::-webkit-meter-optimum-value,
+meter::-webkit-meter-suboptimum-value,
+meter::-webkit-meter-even-less-good-value {
+  margin: 2ch;
+  width: inherit;
+  height: inherit;
+  display: inherit;
+  border-radius: 0;
+  position: relative;
+  inline-size: inherit !important;
+  /* outline-offset: 1ch; */
+  outline: 1ch solid orange;
+  border: 1ch solid currentColor;
 }
 ::-webkit-meter-bar {
   width: 20ch;
