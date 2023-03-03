@@ -713,5 +713,5 @@ meter::-webkit-meter-optimum-value
   { background: purple; }
 meter::-webkit-meter-suboptimum-value
   { background: orange; }
-::-webkit-meter-even-less-good-value
-  { background: blue; }
+meter::-webkit-meter-even-less-good-value
+  { background: navy; }
