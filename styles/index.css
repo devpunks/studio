@@ -492,6 +492,10 @@ meter, progress {
   margin: 3ch;
 }
 meter {}
+::-webkit-meter-inner-element {
+  background: pink;
+  display: block;
+}
 progress {}
 
 
