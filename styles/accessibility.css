@@ -21,7 +21,7 @@
 
 @media screen and ( -ms-high-contrast: active )
   { /* All high contrast styling rules */ }
-@media screen and (-ms-high-contrast: black-on-white)
+@media screen and ( -ms-high-contrast: black-on-white )
   { /* Rules for users using black-on-white */ }
 @media screen and (-ms-high-contrast: white-on-black)
   { /* Rules for users using white-on-black */ }
