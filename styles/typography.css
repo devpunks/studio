@@ -142,13 +142,19 @@
     UI-Monospace;               /* default user interface monospace font */
 
   --System-UI:
-    'Segoe UI', Segoe,         /* Windows 6+ - https://en.wikipedia.org/wiki/Segoe*/
-    -Apple-System,             /* macOS 10.11-10.12 */
-    BlinkMacSystemFont,        /* macOSX, Chrome */
-    'RobotoRegular', Roboto,   /* Android 4+ */
-    Ubuntu,                    /* Ubuntu 10.10+ */
-    Cantarell,                 /* Gnome 3+ */
-    System-UI;                 /* fallback https://caniuse.com/font-family-system-ui */
+    -Apple-System,           /* macOS 10.11-10.12 */
+    BlinkMacSystemFont,      /* macOSX, Chrome */
+    'Droid Sans',            /* Android */
+    'RobotoRegular', Roboto, /* Android 4+ */
+    'Segoe UI', Segoe,       /* Windows 6+ - https://en.wikipedia.org/wiki/Segoe*/
+    Oxygen,                  /* Linux / KDE Plasma 5+ */
+    Ubuntu,                  /* Ubuntu 10.10+ */
+    Cantarell,               /* Gnome 3+ */
+    'Fira Sans',             /* Mozilla Firefox */
+    /*
+      - https://w3c.github.io/csswg-drafts/css-fonts-4/#system-ui-def
+    */
+    System-UI;               /* fallback https://caniuse.com/font-family-system-ui */
 
 
   /* Margin collapse bugfix:
