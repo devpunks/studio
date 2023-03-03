@@ -1408,8 +1408,15 @@ class Shape {
         <label for=out-of-range><em>(Out of Range)</em>Number Input</label>
         <input id=out-of-range value=2 min=0 max=1 type=number title='(Out of Range) Number Input'>
 
-        <label for=ir>Range</label>
-        <input type=range id=ir title=Range value=10>
+        <fieldset>
+          <legend>Ranges</legend>
+          <label for=range>Range</label>
+          <input type=range id=range title=Range value=10>
+
+          <label>Vertical Range
+            <input type=range title=Range value=10>
+          </label>
+        </fieldset>
 
         <label for=idd>Date</label>
         <input type=date id=idd title=Date value=1970-01-01>
