@@ -420,9 +420,6 @@ ins {
   text-decoration-color: HighlightText
 }
 
-del::before, ins::before
-  { font-family: var(--Mono) }
-
 del::before
   { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
 
