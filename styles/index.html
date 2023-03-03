@@ -1413,8 +1413,25 @@ class Shape {
           <label for=range>Range</label>
           <input id=range value=8 type=range title=Range>
 
-          <label>Vertical Range
-            <input type=range title=Range value=10>
+          <label for=range:step>Range <em>(with <code>step</code>)</em></label>
+          <input id=range:step value=8 step=2 min=2 max=12 type=range title='Range (with step)'>
+
+          <label for=range:minmax>Range <em>(with <code>min</code> &amp; <code>max</code>)</em></label>
+          <input id=range:minmax value=8 min=2 max=12 type=range title='Range (with min & max)'>
+
+          <label class=vertical>Vertical Range
+            <!--
+
+            -->
+            <input value=8 type=range title='Vertical Range' >
+          </label>
+
+          <label class=vertical>Vertical Range <em>(with <code>step</code>)</em>
+            <input value=8 min=2 max=12 type=range title='Vertical range (with step)'>
+          </label>
+
+          <label class=vertical>Vertical Range <em>(with <code>min</code> &amp; <code>max</code>)</em>
+            <input value=8 min=2 max=12 type=range title='Vertical range (with min & max)' >
           </label>
         </fieldset>
 
