@@ -194,8 +194,6 @@ label output, label select, label textarea, label [type], label :not([type]) {
 */
 input[type=range] {
   border: none;
-  height: 0.618em;
-  padding: 0.618em;
   cursor: ew-resize;
   box-shadow: inset 0 0 0.0618em;
   border-radius: 0.618em;
