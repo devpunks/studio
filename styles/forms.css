@@ -367,7 +367,7 @@ input[type=color]:hover::-webkit-color-swatch-wrapper {
   background: Canvas;
   border-radius: inherit;
 }
-::-webkit-color-swatch {
+input[type=color]::-webkit-color-swatch {
   border: none;
   margin: 0.1618em;
   border-radius: inherit;
