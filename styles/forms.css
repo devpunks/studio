@@ -655,11 +655,17 @@ meter {
 }
 ::-webkit-meter-bar {
   width: 20ch;
-  height: 10ch;
+  margin: 1ch;
+  line-height: 6ch;
+  border-radius: 1ch;
+  background: white;
+  border: 2px solid black;
+  outline-offset: 1ch;
+  outline: 1ch solid orange;
 }
-::-webkit-meter-suboptimum-value {
-  background: orange;
-}
-::-webkit-meter-even-less-good-value {
-  background: blue;
-}
+::-webkit-meter-optimum-value
+  { background: purple; }
+::-webkit-meter-suboptimum-value
+  { background: orange; }
+::-webkit-meter-even-less-good-value
+  { background: blue; }
