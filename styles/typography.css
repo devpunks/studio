@@ -119,9 +119,9 @@
     UI-Rounded;     /* default user interface rounded font */
 
   --Serif:
-    'Noto Serif', 'Oxygen Serif', /* Linuux / KDE Plasma 5+ */
-    UI-Serif,
-    Serif;              /* fallback */
+    'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
+    Serif,              /* fallback */
+    UI-Serif;           /* default user interface serif font */
 
   --Sans-Serif:
     'Noto Sans', Oxygen, /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
