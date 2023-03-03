@@ -576,3 +576,92 @@ select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
   text-decoration: line-through;
   text-decoration-color: GrayText;
 }
+
+
+
+
+
+
+
+.vertical {
+  /*
+    - https://www.w3.org/International/articles/vertical-text/
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/direction
+  */
+  /* rotate: 90deg; */
+  direction: rtl;
+  outline: 4px dotted red;
+  writing-mode: bt-l;
+  background: pink;
+  display: table-cell;
+  width: auto !important;
+  padding: 0;
+  writing-mode: vertical-lr;
+}
+
+.vertical input[type=range] {
+  background:red;
+  writing-mode: bt-lr; /* IE */
+  /*
+    - https://caniuse.com/?search=vertical%20slider
+    - Chromium Bug - https://bugs.chromium.org/p/chromium/issues/detail?id=341071
+    - https://stackoverflow.com/questions/39809103/vertical-slider-for-chrome-and-moz
+    - https://stackoverflow.com/questions/3556157/how-to-customize-the-html5-input-range-type-looks-using-css
+  */
+  /* -webkit-appearance: slider-vertical; */ /* WebKit */
+  /* appearance: slider-vertical; */ /* Living Standard */
+  accent-color: CurrentColor;
+  line-height: 100vh;
+  /* max-height: 5ch !important; */
+  width: 100% !important;
+  max-width: 14ch !important;
+  /* rotate:  90deg; */
+  padding: 0;
+}
+.vertical input[type=range]::-moz-range-track {
+  height: 20px;
+  background: orange;
+  border: 2px solid red;
+}
+.vertical input[type=range]::-moz-range-thumb {
+  height: 30px;
+  background: blue;
+}
+
+::-webkit-slider-runnable-track {
+  margin: 0;
+  padding: 1ch;
+  background: green;
+  border: 2px solid red;
+  outline: 3px dotted purple;
+}
+::-webkit-slider-thumb {
+  padding: 3ch;
+  display: block;
+  background: orange;
+  border: 7px solid currentColor;
+  margin: 1ch;
+  outline: 2px solid blue;
+}
+
+meter {
+  -webkit-appearance: none;
+          appearance: none;
+}
+::-webkit-meter-bar {
+    height: 50px;
+    background: white;
+    border: 2px solid black;
+}
+::-webkit-meter-optimum-value {
+  background: purple;
+  display: block;
+  width: 20ch;
+  height: 10ch;
+}
+::-webkit-meter-suboptimum-value {
+  background: orange;
+}
+::-webkit-meter-even-less-good-value {
+  background: blue;
+}
