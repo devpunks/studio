@@ -638,7 +638,10 @@ legend {
   outline: 4px dotted red;
   writing-mode: bt-l;
   background: pink;
-  /* display: inline; */
+  display: table-cell;
+  width: auto !important;
+  padding: 0;
+  writing-mode: vertical-lr;
 }
 
 .vertical input {
