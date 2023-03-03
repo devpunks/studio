@@ -520,9 +520,7 @@ code, data, kbd, mark, pre, samp, var {
   user-select: all; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select#all */
 }
 pre::selection, code::selection {
-  outline-offset: 0.168em;
-  border: 1em solid red;
-  outline: 0.168em dashed currentColor;
+  -webkit-tap-highlight-color: Mark; /* https://davidwalsh.name/mobile-highlight-color */
 }
 
 body > main
