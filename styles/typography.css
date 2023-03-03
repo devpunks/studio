@@ -130,16 +130,16 @@
     UI-Sans-Serif;    /* default user interface sans-serif font */
 
   --Monospace:
-    Consolas,                /* Windows 6+ */
-    Menlo, Monaco,           /* macOS */
-    'SF Mono', SFMono,       /* macOS 10.10+ */
-    'Roboto Mono',           /* Android 4+ */
-    'Ubuntu Monospace',      /* Ubuntu 10.10+ */
-    'Noto Mono', 'Oxygen Mono', /* Linuux / KDE Plasma 5+ */
-   ,           /* KDE Plasma 4+ */
-    'Liberation Mono',       /* Linux fallback */
-    Courier,                 /* typewriter */
-    UI-Monospace, Monospace; /* fallback */
+    Menlo, Monaco,              /* macOS */
+    'SF Mono', SFMono,          /* macOS 10.10+ */
+    'Roboto Mono',              /* Android 4+ */
+    Consolas,                   /* Windows 6+ */
+    'Ubuntu Monospace',         /* Ubuntu 10.10+ */
+    'Noto Mono', 'Oxygen Mono', /* Linux / KDE Plasma 5+ */
+    'Liberation Mono',          /* Linux fallback */
+    Courier,                    /* typewriter */
+    Monospace,                  /* fallback */
+    UI-Monospace;               /* default user interface monospace font */
 
   --System-UI:
     'Segoe UI', Segoe,         /* Windows 6+ - https://en.wikipedia.org/wiki/Segoe*/
