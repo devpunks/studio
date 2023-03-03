@@ -137,13 +137,8 @@
     'RobotoRegular', Roboto,   /* Android 4+ */
     Ubuntu,                    /* Ubuntu 10.10+ */
     Cantarell,                 /* Gnome 3+ */
-    'noto sans', Oxygen,       /* KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
-    'Apple Color Emoji',       /* macOS emoji */
-    'Segoe UI Emoji',          /* Windows emoji */
-    'Segoe UI Symbol',         /* Windows emoji */
-    'Noto Color Emoji',        /* Linux emoji */
-    Emoji,                     /* 🤷 */
-    var(--Serif);              /* fallback */
+    System-UI;                 /* fallback https://caniuse.com/font-family-system-ui */
+
 
   /* Margin collapse bugfix:
     - https://www.freecodecamp.org/news/what-is-margin-collapse-and-how-to-avoid-it/
