@@ -75,9 +75,9 @@ body > a[rel=help] { /* skip link */
   position: fixed; /* https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning */
   background: canvas;
   clip-path: inset(50%);
-  margin: var(--line-height);
-  padding: var(--line-height);
-  box-shadow: var(--box-shadow);
+  margin: var( --line-height );
+  padding: var( --line-height );
+  box-shadow: var( --box-shadow );
 }
 [href='#main']:focus-visible {
   clip-path: unset;
