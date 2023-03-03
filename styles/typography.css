@@ -110,6 +110,14 @@
   --Cursive:
     Fantasy, Cursive, var(--Serif);
 
+  --Math:
+    'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
+    Math;
+
+  --Rounded:
+    'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
+    UI-Rounded;     /* default user interface rounded font */
+
   --Serif:
     'Noto Serif', 'Oxygen Serif', /* Linuux / KDE Plasma 5+ */
     UI-Serif,
