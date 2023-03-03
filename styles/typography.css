@@ -653,7 +653,7 @@ legend {
     - https://stackoverflow.com/questions/39809103/vertical-slider-for-chrome-and-moz
     - https://stackoverflow.com/questions/3556157/how-to-customize-the-html5-input-range-type-looks-using-css
   */
-  -webkit-appearance: slider-vertical; /* WebKit */
-  appearance: slider-vertical; /* Living Standard */
+  /* -webkit-appearance: slider-vertical; */ /* WebKit */
+  /* appearance: slider-vertical; */ /* Living Standard */
   accent-color: CurrentColor;
 }
