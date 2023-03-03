@@ -634,7 +634,7 @@ legend {
     - https://developer.mozilla.org/en-US/docs/Web/CSS/direction
   */
   /* rotate: 90deg; */
-  /* direction: rtl; */
+  direction: rtl;
   outline: 4px dotted red;
   writing-mode: bt-l;
   background: pink;
