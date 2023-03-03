@@ -646,5 +646,6 @@ legend {
   writing-mode: bt-lr; /* IE */
   /* https://caniuse.com/?search=vertical%20slider */
   -webkit-appearance: slider-vertical; /* WebKit */
-          appearance: slider-vertical; /* Living Standard */
+  appearance: slider-vertical; /* Living Standard */
+  accent-color: CurrentColor;
 }
