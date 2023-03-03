@@ -9,6 +9,7 @@
     - * CSS4 UN-deprecates system colors - https://github.com/w3c/csswg-drafts/issues/3804
     - Color Validity Tests - https://wpt.fyi/results/css/css-color/parsing/color-valid.html
     - Consistency Tests - https://wpt.fyi/results/css/css-color/system-color-consistency.html
+    - Color Computation Tests - https://wpt.fyi/results/css/css-color/system-color-compute.html
 
    - AccentColor - Background of accented user interface controls
    - AccentColorText - Text of accented user interface controls
