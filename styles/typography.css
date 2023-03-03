@@ -107,7 +107,9 @@
     Fantasy, Cursive, var(--Serif);
 
   --Serif:
-    UI-Serif, Serif;
+    'Noto Serif', 'Oxygen Serif', /* Linuux / KDE Plasma 5+ */
+    UI-Serif,
+    Serif;              /* fallback */
 
   --Sans-Serif:
     UI-Sans-Serif, Sans-Serif;
