@@ -356,7 +356,7 @@ input[type=color] {
   content: '🎨';
   position: relative;
 }
-::-webkit-color-swatch-wrapper {
+input[type=color]::-webkit-color-swatch-wrapper {
   top: -1.6182em;
   position: relative;
   background: ButtonFace;
