@@ -27,7 +27,7 @@
   { /* Rules for users using white-on-black */ }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors */
-@media screen and (forced-colors: active) { }
+@media screen and ( forced-colors: active ) { }
 
 /* FOCUSED */
 :focus-visible, [aria-disabled=false]:focus-visible
