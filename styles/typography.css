@@ -153,6 +153,7 @@
 ::selection
   { text-shadow: none }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
 /* https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css */
 @font-face { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
   font-weight: 300;
