@@ -497,7 +497,9 @@ meter {}
   display: block;
 }
 progress {}
-
+::-webkit-progress-inner-element {
+  background: pink;
+}
 
 /* PWA RELATED */
 /* https://caniuse.com/user-select-none */
