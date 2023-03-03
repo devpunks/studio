@@ -118,9 +118,7 @@
     UI-Sans-Serif,
     Sans-Serif;          /* fallback */
 
-  --Mono:
-    'SF Mono', SFMono,       /* macOS 10.10+ */
-    Menlo, Monaco,
+  --Monospace:
     Consolas,                /* Windows 6+ */
     'Roboto Mono',           /* Android 4+ */
     'Ubuntu Monospace',      /* Ubuntu 10.10+ */
