@@ -120,6 +120,8 @@
 
   --Monospace:
     Consolas,                /* Windows 6+ */
+    Menlo, Monaco,           /* macOS */
+    'SF Mono', SFMono,       /* macOS 10.10+ */
     'Roboto Mono',           /* Android 4+ */
     'Ubuntu Monospace',      /* Ubuntu 10.10+ */
     'Noto Mono',             /* KDE Plasma 5+ */
