@@ -131,7 +131,7 @@
     UI-Monospace, Monospace; /* fallback */
 
   --System-UI:
-    System-Ui,   /* https://caniuse.com/font-family-system-ui */
+    'Segoe UI', Segoe,         /* Windows 6+ - https://en.wikipedia.org/wiki/Segoe*/
     -Apple-System,             /* macOS 10.11-10.12 */
     BlinkMacSystemFont,        /* macOSX, Chrome */
     'Segoe UI', Segoe,         /* Windows 6+ */
