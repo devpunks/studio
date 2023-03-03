@@ -645,6 +645,7 @@ select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
 }
 
 meter {
+  /* https://css-tricks.com/html5-meter-element/ */
   -webkit-appearance: none;
           appearance: none;
 }
