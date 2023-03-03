@@ -23,7 +23,7 @@
   { /* All high contrast styling rules */ }
 @media screen and ( -ms-high-contrast: black-on-white )
   { /* Rules for users using black-on-white */ }
-@media screen and (-ms-high-contrast: white-on-black)
+@media screen and ( -ms-high-contrast: white-on-black )
   { /* Rules for users using white-on-black */ }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors */
