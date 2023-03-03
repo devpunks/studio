@@ -701,11 +701,12 @@ meter::-webkit-meter-even-less-good-value {
   outline: 1ch solid orange;
   border: 1ch solid currentColor;
 }
-::-webkit-meter-bar {
-  width: 20ch;
-  margin: 1ch;
-  line-height: 6ch;
-  border-radius: 1ch;
+meter::-webkit-meter-optimum-value,
+meter::-webkit-meter-suboptimum-value,
+meter::-webkit-meter-even-less-good-value {
+  padding: 1ch;
+}
+meter::-webkit-meter-bar {
   background: white;
   border: 1ch solid CurrentColor;
   outline-offset: 1ch;
