@@ -171,6 +171,25 @@
 */
 }
 
+@font-face { font-family: Emoji; /* 🐰 🥚 */
+  /*
+    - https://www.client9.com/css-color-emoji-stack/
+    - https://coderwall.com/p/ruv9hq/display-emoji-glyphs-intermingled-with-arbitrary-text
+  */
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: 1% 500%; /* Required by Chrome */
+  src: Emoji, /* 🤷 - https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src */
+       local('Segoe UI Emoji'),    /* Windows emoji */
+       local('Segoe UI Symbol'),   /* Windows emoji */
+       local('Noto Color Emoji'),  /* Linux emoji */
+       local('Apple Color Emoji'), /* macOS emoji */
+  ;
+  /* Emoji unicode blocks */
+  unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
+}
+
+
 /*
   - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
 */
