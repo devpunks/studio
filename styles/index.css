@@ -482,6 +482,14 @@ meter, progress {
   display: block;
   margin: var(--p-margin);
   vertical-align: baseline; /* Correct vertical alignment in Chrome, Firefox, & Opera. */
+  height: 4ch;
+  padding: 1ch;
+  line-height: 1ch;
+  background: red;
+  /* border: 1ch solid currentColor; */
+  outline: 1ch solid yellow;
+  outline-offset: 1ch;
+  margin: 3ch;
 }
 meter {}
 progress {}
