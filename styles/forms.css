@@ -653,9 +653,7 @@ meter {
   height: 4ch;
   margin: 1ch;
 }
-::-webkit-meter-optimum-value {
-  background: purple;
-  display: block;
+::-webkit-meter-bar {
   width: 20ch;
   height: 10ch;
 }
