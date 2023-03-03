@@ -222,8 +222,14 @@ html {
   letter-spacing: var(--letter-spacing);
   font-size-adjust:      0.5; /* Firefox - https://caniuse.com/font-size-adjust */
   font-stretch:          100%;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
-  font-variant:          normal;  /* https://css-tricks.com/almanac/properties/f/font-variant/ */
-  font-variant-emoji:    emoji; /* Firefox - https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
+  /*
+    - https://www.client9.com/css-color-emoji-stack/
+    - https://caniuse.com/mdn-css_properties_font-variant-emoji
+    - Firefox - https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji
+    - Unicode Emoji Variants -  https://www.unicode.org/emoji/charts/emoji-variants.html
+  */
+  font-variant-emoji:    emoji;
+
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
   font-display:          fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   font-variant-numeric:  slashed-zero; /* https://css-tricks.com/almanac/properties/f/font-variant-numeric/ */
