@@ -644,7 +644,7 @@ legend {
   writing-mode: vertical-lr;
 }
 
-.vertical input {
+.vertical input[type=range] {
   background:red;
   writing-mode: bt-lr; /* IE */
   /*
