@@ -230,7 +230,7 @@
   }
 }
 
-* { padding: var( --margin-collapse-bugfix ) }
+* { padding: var( --margin-collapse-bugfix ) 0 }
 
 html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
