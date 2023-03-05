@@ -71,9 +71,11 @@
 [aria-disabled=true]
   { cursor: not-allowed }
 
-body > a[rel=help] { /* skip link */
-  /* position: fixed; */ /* https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning */
-  background: canvas;
+body > a[href='#main'] { /* skip link */
+  padding: 0;
+  display: block;
+  filter: invert(1);
+  background: Canvas;
   clip-path: inset(50%);
   margin: var( --line-height );
   padding: var( --line-height );
