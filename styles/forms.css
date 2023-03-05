@@ -725,7 +725,11 @@ progress::-webkit-progress-even-less-good-value
 }
 meter::-webkit-meter-optimum-value,
 meter::-webkit-meter-suboptimum-value,
-meter::-webkit-meter-even-less-good-value {
+meter::-webkit-meter-even-less-good-value,
+progress::-webkit-progress-optimum-value,
+progress::-webkit-progress-suboptimum-value,
+progress::-webkit-progress-even-less-good-value
+{
   padding: 1ch;
 }
 meter::-webkit-meter-bar {
