@@ -72,7 +72,7 @@
   { cursor: not-allowed }
 
 body > a[rel=help] { /* skip link */
-  position: fixed; /* https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning */
+  /* position: fixed; */ /* https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning */
   background: canvas;
   clip-path: inset(50%);
   margin: var( --line-height );
