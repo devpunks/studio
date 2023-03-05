@@ -738,7 +738,8 @@ meter::-webkit-meter-bar, meter::-webkit-progress-bar {
 meter::-webkit-meter-optimum-value,
 progress::-webkit-progress-optimum-value
   { background: purple; }
-meter::-webkit-meter-suboptimum-value
+meter::-webkit-meter-suboptimum-value,
+progress::-webkit-pgoress-suboptimum-value
   { background: orange; }
 meter::-webkit-meter-even-less-good-value
   { background: navy; }
