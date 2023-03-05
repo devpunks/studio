@@ -732,7 +732,7 @@ progress::-webkit-progress-even-less-good-value
 {
   padding: 1ch;
 }
-meter::-webkit-meter-bar {
+meter::-webkit-meter-bar, meter::-webkit-progress-bar {
   background: white;
 }
 meter::-webkit-meter-optimum-value
