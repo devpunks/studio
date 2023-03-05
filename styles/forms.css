@@ -679,6 +679,7 @@ progress::-webkit-progress-value {
 }
 progress::-webkit-progress-inner-element {
   background: pink;
+  position: relative;
 }
 
 ::-webkit-slider-runnable-track {
