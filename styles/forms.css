@@ -735,7 +735,8 @@ progress::-webkit-progress-even-less-good-value
 meter::-webkit-meter-bar, meter::-webkit-progress-bar {
   background: white;
 }
-meter::-webkit-meter-optimum-value
+meter::-webkit-meter-optimum-value,
+progress::-webkit-progress-optimum-value
   { background: purple; }
 meter::-webkit-meter-suboptimum-value
   { background: orange; }
