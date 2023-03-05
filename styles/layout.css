@@ -78,8 +78,6 @@ body > nav {
 }
   body > a[href='#main'] { /* skip link */
   z-index: 11;
-  width: fit-content;
-  padding: var(--line-height);
 }
 body > main { }
 body > aside { }
