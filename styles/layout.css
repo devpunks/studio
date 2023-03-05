@@ -61,7 +61,7 @@ html, body {
 }
 
 /* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-html {box-sizing: border-box;background: green;max-width: 79vw;}
+html {box-sizing: border-box;background: green;height: 100vh;max-height: 100vh;overflow-y: scroll;overflow-x: h;}
 body { display: flex }
 body > * { /* all immediate children of <body> */
   width: var(--max-width);
