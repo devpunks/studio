@@ -83,6 +83,10 @@ body > a[href='#main'] { /* skip link */
 body > a[href='#main']:focus-visible {
   height: auto;
   clip-path: unset;
+  padding: var( --line-height ) 0;
+}
+body > a[href='#main']:focus-visible:hover {
+  filter: unset;
 }
 a[href='#'][title^=Top]
   { opacity: 0.3 }
