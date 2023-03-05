@@ -50,8 +50,8 @@ html, body {
     -  https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
   */
 /* TODO: REFACTOR */
-  min-width: 100vw;
-  min-width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  /* min-width: 100vw; */
+  /* min-width: -webkit-fill-available; */  /* Mozilla-based browsers will ignore this. */
   min-width:         -moz-available;  /* WebKit-based browsers will ignore this. */
   min-width:         fill-available;  /* https://caniuse.com/?search=fill-available */
 
