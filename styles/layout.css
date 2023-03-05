@@ -54,11 +54,10 @@ html, body {
   /* min-width: -webkit-fill-available; */  /* Mozilla-based browsers will ignore this. */
   min-width:         -moz-available;  /* WebKit-based browsers will ignore this. */
   min-width:         fill-available;  /* https://caniuse.com/?search=fill-available */
-
-  min-height: 100vh;
-//  min-height: -moz-available;          /* WebKit-based browsers will ignore this. */
-//  min-height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-//  min-height: fill-available;          /* https://caniuse.com/?search=fill-available */
+  /* min-height: 100vh; */
+  min-height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  min-height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  min-height: fill-available;          /* https://caniuse.com/?search=fill-available */
 }
 
 /* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
