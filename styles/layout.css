@@ -76,8 +76,7 @@ body > nav {
   max-height: 90vh;
   overflow-y: auto;
 }
-body > a[rel=help] { /* skip link */
-  left: 0;
+  body > a[href='#main'] { /* skip link */
   z-index: 11;
   width: fit-content;
   padding: var(--line-height);
