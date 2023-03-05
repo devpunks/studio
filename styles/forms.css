@@ -662,7 +662,21 @@ meter::-webkit-meter-inner-element, progress::-webkit-progress-inner-element {
   width: inherit;
   height: inherit;
 }
-progress {}
+progress {
+  appearance: initial;
+  height: auto;
+}
+progress[value] {
+  appearance: none;
+  position: relative;
+}
+progress::-webkit-progress-value {
+  background: pink;
+  display: block;
+  height: 1ch;
+  padding: 1ch;
+  position: relative;
+}
 progress::-webkit-progress-inner-element {
   background: pink;
 }
