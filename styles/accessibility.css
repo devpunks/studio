@@ -77,8 +77,6 @@ body > a[href='#main'] { /* skip link */
   filter: invert(1);
   background: Canvas;
   clip-path: inset(50%);
-  margin: var( --line-height );
-  padding: var( --line-height );
   box-shadow: var( --box-shadow );
 }
 [href='#main']:focus-visible {
