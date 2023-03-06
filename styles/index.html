@@ -1036,7 +1036,14 @@ class Shape {
       <meter optimal=3 min=1 low=2 high=4 max=5>3</meter>
 
       <header>With <code>title</code></header>
-      <meter title=stars>3</meter>
+      <meter title=stars></meter>
+      <meter value=0 title=stars>0</meter>
+      <meter min=1 max=5 title=stars></meter>
+      <meter value=3 min=1 title=stars>3</meter>
+      <meter value=3 max=5 title=stars>3</meter>
+      <meter value=3 min=1 max=5 title=stars>3</meter>
+      <meter optimal=3 low=2 high=4 title=stars>3</meter>
+      <meter optimal=3 min=1 low=2 high=4 max=5 title=stars>3</meter>
 
       <header>With <var>min</var>, <var>max</var></header>
       <meter hidden value=5 min=0 max=10 title='Meter: 0 - 10 (with min,max)'>
