@@ -639,7 +639,7 @@ select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
  */
 meter, progress {
   /* width: inherit; */
-  /* display: block; */
+  display: block;
   cursor: progress;
   /* margin: var(--p-margin); */
   /* vertical-align: baseline; */ /* Correct vertical alignment in Chrome, Firefox, & Opera. */
@@ -679,7 +679,13 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
   /* -webkit-appearance: none; */
   /* appearance: inherit; */
   width: inherit;
-  display: flex;
+  /* display: flex; */
+  margin: 1ch;
+  background: greenyellow;
+  /* padding: 1ch; */
+  /* height: auto; */
+  /* height: 6ch; */
+  /* align-items: center; */
 }
 
 ::-webkit-meter-inner-element,

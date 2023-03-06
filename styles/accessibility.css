@@ -107,12 +107,14 @@ mark::after
 
 meter::before, progress::before,
 meter::after, progress::after {
+  content: '';
   background: red;
   padding: 1ch;
-  line-height: 1ch;
-  width: 1ch;
-  height: 1ch;
-  overflow: hidden;
+  width: 5ch;
+  height: inherit;
+  /* margin: 1ch; */
+  display: none;
+  word-break: keep-all;
 }
 meter[value]::before, progress[value]::before
   { content: '=' attr(value) }
