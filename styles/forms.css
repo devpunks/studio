@@ -712,17 +712,12 @@ progress::-webkit-progress-value {
   outline: 1ch solid orange;
   border: 1ch solid currentColor;
 }
-meter::-webkit-meter-optimum-value,
-meter::-webkit-meter-suboptimum-value,
-meter::-webkit-meter-even-less-good-value,
-progress::-webkit-progress-optimum-value,
-progress::-webkit-progress-suboptimum-value,
-progress::-webkit-progress-even-less-good-value
-{
-  padding: 1ch;
-}
-meter::-webkit-meter-bar, meter::-webkit-progress-bar {
-  background: white;
+::-webkit-meter-optimum-value,
+::-webkit-progress-optimum-value
+{}
+
+::-webkit-meter-bar, ::-webkit-progress-bar {
+  background: Canvas;
 }
 meter::-webkit-meter-optimum-value,
 progress::-webkit-progress-optimum-value
