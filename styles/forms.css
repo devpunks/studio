@@ -719,6 +719,7 @@ progress::-webkit-progress-value {
 ::-webkit-meter-bar, ::-webkit-progress-bar {
   background: Canvas;
 }
+
 meter::-webkit-meter-optimum-value,
 progress::-webkit-progress-optimum-value
   { background: purple; }
