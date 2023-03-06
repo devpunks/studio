@@ -705,9 +705,6 @@ progress::-webkit-progress-value {
 ::-webkit-progress-optimum-value
 {
   margin: 2ch;
-  width: inherit;
-  height: inherit;
-  display: inherit;
   border-radius: 0;
   position: relative;
   inline-size: inherit !important;
