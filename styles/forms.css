@@ -658,20 +658,7 @@ progress {
 }
 progress[value] {
   appearance: none;
-  position: relative;
 }
-progress::-webkit-progress-value {
-  background: pink;
-  display: block;
-  height: 1ch;
-  padding: 1ch;
-  position: relative;
-}
-progress::-webkit-progress-inner-element {
-  background: pink;
-  position: relative;
-}
-
 ::-webkit-slider-runnable-track {
   margin: 0;
   padding: 1ch;
