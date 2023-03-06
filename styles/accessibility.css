@@ -94,6 +94,28 @@ a[href='#']:hover
   { opacity: 1 }
 
 
+mark::before,
+mark::after {
+  width: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+mark::before
+  { content: '[highlight start]' }
+mark::after
+  { content: '[highlight end]' }
+
+progress::before, meter::before
+  { content: attr(value) ' ' attr(title) }
+
+meter[min]:after, progress[min]:after
+  { content: 'minimum ' attr(min) }
+meter[max]:after, progress[max]:after
+  { content: 'out of ' attr(max) ' ' attr(title) }
+
+
+
+
 /* Pointer events - USE TO DISABLE RIGHT CLICK!
   - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 */
