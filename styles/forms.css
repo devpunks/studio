@@ -678,6 +678,8 @@ progress[value] {
 meter { /* https://css-tricks.com/html5-meter-element/ */
   /* -webkit-appearance: none; */
   /* appearance: inherit; */
+  width: inherit;
+  display: flex;
 }
 
 ::-webkit-meter-inner-element,
