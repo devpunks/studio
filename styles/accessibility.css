@@ -105,10 +105,26 @@ mark::before
 mark::after
   { content: '[highlight end]' }
 
-progress::before, meter::before
-  { content: attr(value) ' ' attr(title) }
+meter[value]::before, progress[value]::before
+  { content: '=' attr(value) }
+meter::after, progress::after
+  { content: attr(title) }
 
-meter[min]:after, progress[min]:after
+meter[min]::before, progress[min]::before
+  { content: attr(min) }
+meter[low]::before, progress[low]::before
+  { content: ' ('attr(low) ') ' }
+meter[min][low]::before, progress[min][low]::before
+  { content: attr(min) ' ('attr(low) ') ' }
+
+meter[high]::after, progress[high]::after
+  { content: ' ('attr(high) ') ' }
+meter[max]::after, progress[max]::after
+  { content: attr(max) }
+meter[high][max]::after, progress[high][max]::after
+  { content: attr(high) ' ('attr(max) ') ' }
+
+meter[min][title]::before, progress[min][title]::before
   { content: 'minimum ' attr(min) }
 meter[max]:after, progress[max]:after
   { content: 'out of ' attr(max) ' ' attr(title) }
