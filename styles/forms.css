@@ -708,7 +708,7 @@ progress::-webkit-progress-value {
   border-radius: 0;
   position: relative;
   inline-size: inherit !important;
-  /* outline-offset: 1ch; */
+  block-size: inherit !important;
   outline: 1ch solid orange;
   border: 1ch solid currentColor;
 }
