@@ -105,6 +105,15 @@ mark::before
 mark::after
   { content: '[highlight end]' }
 
+meter::before, progress::before,
+meter::after, progress::after {
+  background: red;
+  padding: 1ch;
+  line-height: 1ch;
+  width: 1ch;
+  height: 1ch;
+  overflow: hidden;
+}
 meter[value]::before, progress[value]::before
   { content: '=' attr(value) }
 meter::after, progress::after
