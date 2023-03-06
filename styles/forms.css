@@ -675,10 +675,9 @@ progress[value] {
   outline: 2px solid blue;
 }
 
-meter {
-  /* https://css-tricks.com/html5-meter-element/ */
-  -webkit-appearance: none;
-          appearance: none;
+meter { /* https://css-tricks.com/html5-meter-element/ */
+  /* -webkit-appearance: none; */
+  /* appearance: inherit; */
 }
 meter::-webkit-meter-bar,
 meter::-webkit-meter-optimum-value,
