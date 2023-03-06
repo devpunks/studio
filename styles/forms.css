@@ -648,7 +648,7 @@ meter, progress {
   /* border: 1ch solid currentColor; */
   /* outline: 1ch solid orange; */
   /* outline-offset: 1ch; */
-  margin: 3ch;
+  /* margin: 3ch; */
 }
 /* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
 meter {}
