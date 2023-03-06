@@ -679,14 +679,30 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
   /* -webkit-appearance: none; */
   /* appearance: inherit; */
 }
-meter::-webkit-meter-bar,
-meter::-webkit-meter-optimum-value,
-meter::-webkit-meter-suboptimum-value,
-meter::-webkit-meter-even-less-good-value,
-progress::-webkit-progress-bar,
-progress::-webkit-progress-optimum-value,
-progress::-webkit-progress-suboptimum-value,
-progress::-webkit-progress-even-less-good-value
+
+::-webkit-meter-inner-element,
+::-webkit-progress-inner-element {
+  /* background: pink; */
+  display: block;
+  /* border: 1ch solid currentColor; */
+  /* margin: 2ch; */
+  /* outline: 1ch solid orange; */
+  /* width: inherit; */
+  /* height: inherit; */
+}
+/*
+progress::-webkit-progress-value {
+  background: pink;
+  display: block;
+  height: 1ch;
+  padding: 1ch;
+  position: relative;
+}
+
+::-webkit-meter-bar,
+::-webkit-progress-bar,
+::-webkit-meter-optimum-value,
+::-webkit-progress-optimum-value
 {
   margin: 2ch;
   width: inherit;
