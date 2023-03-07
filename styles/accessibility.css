@@ -134,7 +134,7 @@ meter[max]::after, progress[max]::after
 meter[high]::after, progress[high]::after
   { content: ' ('attr(high) ') ' }
 meter[max][high]::after, progress[max][high]::after
-  { content: attr(high) ' ('attr(max) ') ' }
+  { content: '(' attr(high) ') 'attr(max) }
 
 meter[min][title]::before, progress[min][title]::before
   { content: 'minimum ' attr(min) }
