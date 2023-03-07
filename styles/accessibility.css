@@ -107,9 +107,9 @@ mark::after
 
 meter::before, progress::before,
 meter::after, progress::after {
+  content: '';
   background: red;
   padding: 1ch;
-  line-height: 1ch;
   width: 1ch;
   height: 1ch;
   overflow: hidden;
