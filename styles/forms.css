@@ -676,22 +676,6 @@ progress {
 progress[value] {
   appearance: none;
 }
-::-webkit-slider-runnable-track {
-  margin: 0;
-  padding: 1ch;
-  background: green;
-  border: 2px solid red;
-  outline: 3px dotted purple;
-}
-::-webkit-slider-thumb {
-  padding: 3ch;
-  display: block;
-  background: orange;
-  border: 7px solid currentColor;
-  margin: 1ch;
-  outline: 2px solid blue;
-}
-
 meter { /* https://css-tricks.com/html5-meter-element/ */
   /* -webkit-appearance: none; */
   /* appearance: inherit; */
