@@ -657,7 +657,6 @@ meter, progress {
   width: inherit;
   /* display: block; */
   cursor: progress;
-  /* margin: var(--p-margin); */
   /* vertical-align: baseline; */ /* Correct vertical alignment in Chrome, Firefox, & Opera. */
   /* height: auto; */
   /* background: turquoise; */
