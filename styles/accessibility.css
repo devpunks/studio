@@ -107,7 +107,7 @@ mark::after
 
 meter::before, progress::before,
 meter::after, progress::after {
-  content: '';
+  content: '\00a0';
   background: red;
   padding: 1ch;
   width: 1ch;
