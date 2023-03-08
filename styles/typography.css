@@ -561,7 +561,7 @@ blockquote cite {
   font-size: var(--line-height);
 }
 q cite {
-  max-width: 16em;
+  max-width: 21ch;
   overflow: hidden;
   vertical-align: middle;
   text-overflow: ellipsis;
