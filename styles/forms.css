@@ -694,15 +694,9 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
   /* outline: 1ch solid orange; */
   width: inherit;
   background: orange;
-  width: 90%;
-}
-/*
-progress::-webkit-progress-value {
-  background: pink;
-  display: block;
-  height: 1ch;
-  padding: 1ch;
-  position: relative;
+  display: inherit;
+  margin: 0ch;
+  border-radius: 1ch;
 }
 
 ::-webkit-meter-bar,
