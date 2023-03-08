@@ -123,11 +123,12 @@ meter[min]::before
   { content: attr(min) }
 meter[low]::before, progress[low]::before
   { content: ' ('attr(low) ') ' }
-meter[min][low]::before, progress[min][low]::before
+meter[min][low]::before
   { content: attr(min) ' ('attr(low) ') ' }
 
-meter[max]::after, progress[max]::after
-  { content: attr(max) }
+meter[value]::before, progress[value]::before
+  { content: '=' attr(value) }
+
 meter[high]::after, progress[high]::after
   { content: ' ('attr(high) ') ' }
 meter[max][high]::after, progress[max][high]::after
