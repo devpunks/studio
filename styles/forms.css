@@ -664,7 +664,9 @@ meter, progress {
   width: auto;
   border-radius: 1ch;
   display: list-item;
-  list-style-position: inside;
+  /* list-style-position: inside; */
+  /* height: fit-content; */
+  block-size: fit-content;
 }
 /* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
 meter {}
