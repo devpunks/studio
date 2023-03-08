@@ -700,9 +700,7 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
 }
 
 ::-webkit-meter-bar,
-::-webkit-progress-bar,
-::-webkit-meter-optimum-value,
-::-webkit-progress-optimum-value
+::-webkit-progress-bar
 {
   margin: 2ch;
   border-radius: 0;
