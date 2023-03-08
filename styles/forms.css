@@ -663,7 +663,7 @@ meter, progress {
   /* border: 1ch solid currentColor; */
   /* outline: 1ch solid orange; */
   /* outline-offset: 1ch; */
-  margin: 5ch 5ch;
+  margin: var(--margin);
   align-items: center;
   /* display: flex; */
   border-radius: 1ch;
