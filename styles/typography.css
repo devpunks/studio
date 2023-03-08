@@ -470,7 +470,9 @@ pre {
   text-align: initial;
   margin: var(--p-margin);
 }
-code {}
+code {
+  white-space: nowrap;
+}
 pre code {
   margin: var(--line-height);
   font-size:  var(--smaller);
