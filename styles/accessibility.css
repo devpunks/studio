@@ -114,6 +114,10 @@ meter::after, progress::after {
   outline-offset: .1682ch;
   outline: 2px solid blue;
   white-space: nowrap;
+  display: inline-block;
+  margin-block: 1ch;
+  border-radius: 1ch;
+  padding-inline: 1ch;
 }
 meter[value]::before, progress[value]::before
   { content: '=' attr(value) }
