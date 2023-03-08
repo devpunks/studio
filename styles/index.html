@@ -463,10 +463,19 @@
         With prose immediately after the <code>&lt;q&gt;</code>uote.
       </p>
 
-      <q>
-        This is a normal <q>quote inside of a quote <cite>Citation</cite></q>
-        <em>(and outside of a paragraph)</em> that would appear inline within text content.
-        <cite>Citation for previous quote <em>(Outside of <code>&lt;q&gt;</code>)</em></cite>
+      <q cite=https://en.wikipedia.org/wiki/Quotation>1<sup>st</sup> is a normal <em>double</em> <code>&lt;q&gt;</code>uote
+        <q cite=https://en.wikipedia.org/wiki/Quotation_mark#In_English>with a 2<sup>nd</sup> <em>nested</em> <code>&lt;q&gt;</code>uote <em>(within <em>single</em> quotes)</em>
+
+          <q cite=https://painintheenglish.com/case/5112>
+            With a 3<sup>rd</sup> <em>nested</em> <code>&lt;q&gt;</code>uote
+            <em>(which should return. to double quotes)</em>.
+            <cite tile='https://painintheenglish.com/case/5112'>
+              <a rel=author title='Pain in the English' href=https://painintheenglish.com/case/5112>https://painintheenglish.com/case/5112</a>
+            </cite>
+          </q>
+          <cite title='Citation for 3rd (or 2nd &lt;q&gt;uote'>Citation for 3<sup>rd</sup> <em>(or 2<sup>nd</sup> <code>&lt;q&gt;</code>uote</em></cite>
+        </q>
+        returning to prose from original <em>double</em> <code>&lt;q&gt;</code>uote
       </q>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
