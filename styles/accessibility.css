@@ -120,7 +120,7 @@ meter::after, progress::after {
 }
 [min]::before
   { content: attr(min) }
-meter[low]::before, progress[low]::before
+[low]::before
   { content: ' ('attr(low) ') ' }
 meter[min][low]::before
   { content: attr(min) ' ('attr(low) ') ' }
