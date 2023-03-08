@@ -491,8 +491,11 @@ q {
   font-style: italic;
   vertical-align: top;
   -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
-  quotes: "\201C""\201D""\2018""\2019";
+  box-decoration-break: clone;
+   /* https://developer.mozilla.org/en-US/docs/Web/CSS/quotes */
+  quotes: "\201C""\201D""\2018""\2019""\201C""\201D""\2018""\2019";
+}
+q q {
 }
 p q, q q {
   margin: 0;
