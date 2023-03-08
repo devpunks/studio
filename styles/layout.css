@@ -82,7 +82,7 @@ body > nav {
   max-height: 90vh;
   overflow-y: auto;
 }
-  body > a[href='#main'] { /* skip link */
+body > a[href='#main'] { /* skip link */
   z-index: 11;
 }
 body > main { }
