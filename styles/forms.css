@@ -671,6 +671,8 @@ meter, progress {
   inline-size: stretch;
   max-width: calc(100% - 16ch);
   border-radius: 1ch;
+  display: list-item;
+  list-style-position: inside;
 }
 /* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
 meter {}
