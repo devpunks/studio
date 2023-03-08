@@ -150,7 +150,7 @@ meter[title]::after, progress[title]::after
   { content: 'below (' attr(high) ') ' attr(title) }
 [max][title]::after
   { content: 'out of ' attr(max) ' ' attr(title) }
-meter[high][max][title]::after, progress[high][max][title]::after
+[high][max][title]::after
   { content: 'below (' attr(high) ') out of ' attr(max) ' ' attr(title) }
 
 
