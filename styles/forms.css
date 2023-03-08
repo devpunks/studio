@@ -686,7 +686,7 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
 ::-webkit-meter-inner-element,
 ::-webkit-progress-inner-element {
   /* background: pink; */
-  display: block;
+  display: inline-block;
   /* border: 1ch solid currentColor; */
   /* margin: 2ch; */
   /* outline: 1ch solid orange; */
