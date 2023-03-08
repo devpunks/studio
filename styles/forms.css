@@ -676,7 +676,6 @@ progress {
   height: auto;
 }
 progress[value] {
-  appearance: none;
 }
 meter { /* https://css-tricks.com/html5-meter-element/ */
   /* -webkit-appearance: none; */
