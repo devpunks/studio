@@ -666,7 +666,8 @@ meter, progress {
   /* outline-offset: 1ch; */
   margin: 5ch 5ch;
   align-items: center;
-  display: flex;
+  /* display: flex; */
+  border-radius: 1ch;
 }
 /* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
 meter {}
