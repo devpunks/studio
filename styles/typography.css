@@ -498,8 +498,8 @@ q {
 q q {
 }
 p q, q q {
-  margin: 0;
-  padding: 0;
+  padding-inline: initial;
+  font-size: var(--smaller);
 }
 q::before
   { content: open-quote }
