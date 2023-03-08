@@ -571,7 +571,14 @@ q cite {
 small
   { font-size: var(--smaller) }
 
-sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */vertical-align: unset;}
+sup {
+  position: relative;
+  top: -.418em;
+}
+sub {
+  position: relative;
+  top: 0.418em;
 }
 sup {}
 sub {}
