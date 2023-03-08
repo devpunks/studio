@@ -702,8 +702,8 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
 ::-webkit-meter-bar,
 ::-webkit-progress-bar
 {
-  margin: 2ch;
-  border-radius: 0;
+  margin: 1ch;
+  /* border-radius: 0; */
   position: relative;
   inline-size: inherit !important;
   block-size: inherit !important;
