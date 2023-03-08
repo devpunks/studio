@@ -567,9 +567,6 @@ q cite {
   text-overflow: ellipsis;
   font-size: var(--smallest);
 }
-q + cite {
-  margin-bottom: var(--line-height);
-}
 
 small
   { font-size: var(--smaller) }
