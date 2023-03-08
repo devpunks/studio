@@ -109,12 +109,10 @@ meter::before, progress::before,
 meter::after, progress::after {
   content: '\00a0';
   background: red;
-  padding: 1ch;
-  width: 1ch;
-  width: max-content;
-  word-break: break-word;
-  outline-offset: 1ch;
-  outline: 3px solid blue;
+  line-height: var(--line-height);
+  /* word-break: break-word; */
+  outline-offset: .1682ch;
+  outline: 2px solid blue;
   white-space: nowrap;
 }
 meter[value]::before, progress[value]::before
