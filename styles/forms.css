@@ -672,7 +672,7 @@ meter, progress {
 meter {}
 progress {
   appearance: initial;
-  height: auto;
+  /* height: auto; */
 }
 progress[value] {
 }
