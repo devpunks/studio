@@ -118,7 +118,7 @@ meter::after, progress::after {
   border-radius: 1ch;
   padding-inline: 1ch;
 }
-meter[min]::before
+[min]::before
   { content: attr(min) }
 meter[low]::before, progress[low]::before
   { content: ' ('attr(low) ') ' }
