@@ -547,6 +547,7 @@ blockquote::after {
 
 cite {
   opacity: 75%;
+  font-size: var(--smaller);
   white-space: nowrap;
   display: inline-block;
 }
