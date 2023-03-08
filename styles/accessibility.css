@@ -144,7 +144,7 @@ meter[min][title]::before
   { content: 'minimum ' attr(min) }
 meter[low][title]::before, progress[low][title]::before
   { content:  'above  ('attr(low) ') ' }
-meter[min][low][title]::before, progress[min][low][title]::before
+meter[min][low][title]::before
   { content: 'minimum ' attr(min) ' above ('attr(low) ') ' }
 
 meter[title]::after, progress[title]::after
