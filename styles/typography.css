@@ -503,7 +503,7 @@ p q, q q {
 }
 
 q::before
-  { content: open-quote }
+  {}
 q::after
   { content: close-quote }
 
