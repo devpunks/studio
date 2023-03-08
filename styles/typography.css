@@ -444,8 +444,10 @@ del::before
 ins::before
   { content: '+' }
 
-em
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */ }
+em {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
+  padding-inline: calc(.1682ch * var(--GOLDEN-RATIO));
+}
 b, strong
   { font-weight: bolder }
 p {
