@@ -580,8 +580,6 @@ sub {
   position: relative;
   top: 0.418em;
 }
-sup {}
-sub {}
 
 svg
  { vertical-align: middle }
