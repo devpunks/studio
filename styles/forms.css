@@ -655,19 +655,13 @@ select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
  */
 meter, progress {
   cursor: progress;
-  /* vertical-align: baseline; */ /* Correct vertical alignment in Chrome, Firefox, & Opera. */
-  height: auto;
+   /* Correct vertical alignment in Chrome, Firefox, & Opera. */
   background: turquoise;
   /* border: 1ch solid currentColor; */
   /* outline: 1ch solid orange; */
   /* outline-offset: 1ch; */
   margin: var(--margin);
-  align-items: center;
-  /* display: flex; */
-  inline-size: -webkit-fill-available;
-  inline-size: -moz-available;
-  inline-size: stretch;
-  max-width: calc(100% - 16ch);
+  width: auto;
   border-radius: 1ch;
   display: list-item;
   list-style-position: inside;
