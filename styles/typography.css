@@ -489,8 +489,7 @@ figcaption {
 /* quotes */
 q {
   font-style: italic;
-  font-size: var(--larger);
-  line-height: var(--line-height);
+  vertical-align: top;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
   quotes: "\201C""\201D""\2018""\2019";
