@@ -732,7 +732,7 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
 
 meter::-webkit-meter-optimum-value,
 progress::-webkit-progress-optimum-value
-  { background: purple; }
+  { background: pink; }
 meter::-webkit-meter-suboptimum-value,
 progress::-webkit-pgoress-suboptimum-value
   { background: orange; }
