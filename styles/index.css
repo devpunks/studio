@@ -480,7 +480,7 @@ iframe, pre, table, select[multiple] {
   scrollbar-gutter: stable;
  }
 
-pre, pre code, var, data, p, q, cite, blockquote, address
+pre, pre code, var, data, p, cite, blockquote, address
 /* ... and all id-entifiable headers ... */
 , header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
