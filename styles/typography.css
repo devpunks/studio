@@ -501,6 +501,7 @@ p q, q q {
   padding-inline: initial;
   font-size: var(--smaller);
 }
+
 q::before
   { content: open-quote }
 q::after
