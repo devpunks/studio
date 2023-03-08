@@ -738,5 +738,9 @@ progress::-webkit-pgoress-suboptimum-value
   { background: orange; }
 meter::-webkit-meter-even-less-good-value
 progress::-webkit-progress-even-less-good-value
-  { background: navy; }
-*/
+  { background: green; }
+
+progress::marker {
+  color: magenta;
+  content: attr(value);
+}
