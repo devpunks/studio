@@ -715,7 +715,16 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
 }
 ::-webkit-meter-optimum-value,
 ::-webkit-progress-optimum-value
-{}
+{
+  /* margin: 1ch; */
+  /* display: flex; */
+  width: fit-content;
+  /* padding: 1ch; */
+  display: list-item;
+  border-radius: 1ch;
+}
+
+
 
 ::-webkit-meter-bar, ::-webkit-progress-bar {
   background: Canvas;
