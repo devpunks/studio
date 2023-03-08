@@ -666,6 +666,10 @@ meter, progress {
   margin: var(--margin);
   align-items: center;
   /* display: flex; */
+  inline-size: -webkit-fill-available;
+  inline-size: -moz-available;
+  inline-size: stretch;
+  max-width: calc(100% - 16ch);
   border-radius: 1ch;
 }
 /* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
