@@ -19,7 +19,7 @@
     - https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation
     - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation
 */
-@media (orientation: landscape) {
+@media ( orientation: landscape ) {
   body {
     flex-direction: row;
   }
