@@ -25,7 +25,7 @@
   }
 }
 
-@media (orientation: portrait) {
+@media ( orientation: portrait ) {
   body {
     flex-direction: column;
   }
