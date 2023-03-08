@@ -549,7 +549,7 @@ cite {
   opacity: 75%;
   font-size: var(--smaller);
   white-space: nowrap;
-  display: inline-block;
+  display: inline-flex;
 }
 cite::before{
   color: currentColor;
