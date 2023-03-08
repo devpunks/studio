@@ -689,8 +689,11 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
   /* border: 1ch solid currentColor; */
   margin: var(--margin-collapse-bugfix) 5%;
   /* outline: 1ch solid orange; */
-  /* width: inherit; */
-  /* height: inherit; */
+  width: inherit;
+  vertical-align: middle;
+  height: var(--line-height);
+  background: orange;
+  width: 90%;
 }
 /*
 progress::-webkit-progress-value {
