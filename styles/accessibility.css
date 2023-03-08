@@ -131,6 +131,8 @@ meter[value]::before, progress[value]::before
 
 meter[high]::after, progress[high]::after
   { content: ' ('attr(high) ') ' }
+meter[max]::after, progress[max]::after
+  { content: attr(max) }
 meter[max][high]::after, progress[max][high]::after
   { content: '(' attr(high) ') 'attr(max) }
 
