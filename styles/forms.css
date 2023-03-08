@@ -705,10 +705,13 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
   margin: 1ch;
   /* border-radius: 0; */
   position: relative;
-  inline-size: inherit !important;
-  block-size: inherit !important;
-  outline: 1ch solid orange;
-  border: 1ch solid currentColor;
+  /* outline: 1ch solid orange; */
+  /* border: 1ch solid currentColor; */
+  width: inherit;
+  border-radius: 1ch;
+  overflow: visible;
+  display: list-item;
+  /* padding: 1ch; */
 }
 ::-webkit-meter-optimum-value,
 ::-webkit-progress-optimum-value
