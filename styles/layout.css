@@ -43,6 +43,7 @@
 *, ::before, ::after
   /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
   { box-sizing: inherit }
+
 html, body {
   /*
     - https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm
