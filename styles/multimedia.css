@@ -56,13 +56,9 @@ p img , p svg {
   float: left;
   padding-block-start: 0;
 }
-figure {}
-iframe {}
-picture {}
-canvas
-  { background: Canvas }
-svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
-  { overflow: hidden }
+figure {
+  background: red;
+}
 figure img, iframe, picture img, audio, canvas, video {
   border-radius: 0.618em;
   box-shadow: var(--box-shadow);
