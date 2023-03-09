@@ -67,3 +67,21 @@ figure img, picture img, figure picture {
   margin: 0;
   background: transparent;
 }
+
+figcaption::before {
+  width: 1em;
+  font-size: 1.618em;
+  display: inline-block;
+}
+figcaption {
+  opacity: 0.4;
+}
+figure:hover figcaption {
+  opacity: 0.618;
+}
+iframe {}
+picture {}
+canvas
+  { background: Canvas }
+svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
+  { overflow: hidden }
