@@ -377,7 +377,8 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 dl, ol, ul {
-  max-width: 70ch;
+  /* max-width: 70ch; */
+  width: 83%;
   text-align: start;
   font-size: var(--larger);
   margin: var(--margin-collapse-bugfix) auto var(--font-size);
