@@ -510,6 +510,8 @@ a
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
   suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
   prefix: "»"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/prefix */
+  system: fixed;                  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
+  range: 1 1, 3 3, 5 5; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/range */
   negative: '[' ']'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/negative */
 }
 
