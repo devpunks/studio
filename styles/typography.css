@@ -387,6 +387,9 @@ dl, ol, ul {
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
+  display: inherit;
+  background: yellow;
+  width: auto;
 }
 nav > details > ul
   { margin-block: 1ch }
