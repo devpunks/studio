@@ -508,7 +508,6 @@ a
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style */
 @counter-style example {
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
-  range: 1 2, 4 6; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/range */
   suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
   prefix: "»"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/prefix */
   negative: '[' ']'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/negative */
