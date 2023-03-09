@@ -507,10 +507,6 @@ a
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style */
 @counter-style example {
-  system: fixed;                  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
-  symbols: "\24B6""\24B7""\24B8"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
-  fallback: upper-alpha;          /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
-  speak-as: example; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
   range: 1 2, 4 6; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/range */
   suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
