@@ -273,7 +273,7 @@ dd {}
 ul[role=list]
   { list-style: none; /* https://piccalil.li/blog/a-modern-css-reset/ */ }
 ul, ol
-  { list-style-position: inside }
+  {}
 ul ul, ol ol
   { }
 
