@@ -382,7 +382,8 @@ dl, ol, ul {
   text-align: start;
   font-size: var(--larger);
   margin: var(--margin-collapse-bugfix) auto var(--font-size);
-  padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--font-size);
+  /* padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--font-size); */
+  list-style-position: inside;
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
