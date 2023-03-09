@@ -402,8 +402,9 @@ dt {
 dd, li {
   /* margin: var(--margin-collapse-bugfix) var(--font-size) 0.16182em var(--line-height); */
 }
-dd, li li
-  {font-size: var(--smaller);}
+dd, li li {
+  font-size: var(--smaller);
+}
 dd dd:first-of-type, li li:first-of-type {
 
 }
