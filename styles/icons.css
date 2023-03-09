@@ -92,19 +92,4 @@ a[href^=facetime-audio]::before { content: 'F🔈' }
 
 figcaption::before {
   content: '⇧';
-  font-size: 1.618em;
-}
-figcaption {
-  opacity: 0.4;
-}
-figure:hover figcaption {
-  opacity: 0.618;
-}
-
-::marker {
-  background: green;
-  color: orange;
-  display:block;
-  width: 1ch;
-  height: 1ch;
 }
