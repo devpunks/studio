@@ -492,7 +492,10 @@ q {
   vertical-align: top;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-   /* https://developer.mozilla.org/en-US/docs/Web/CSS/quotes */
+   /*
+    - https://tympanus.net/codrops/css_reference/quotes/
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
+  */
   quotes: "\201C""\201D""\2018""\2019""\201C""\201D""\2018""\2019";
 }
 q q {
