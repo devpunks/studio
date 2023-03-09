@@ -405,7 +405,7 @@ dd, li {
 dd, li li
   {font-size: var(--smaller);}
 dd dd:first-of-type, li li:first-of-type {
-  margin-top: 0.16182em;
+
 }
 nav li, nav li {
   margin: 0;
