@@ -269,7 +269,6 @@ li {
   background: pink;
   margin: 1ch;
 }
-li + li {/* margin-block-start: 1ch; */}
 dl {}
 dt {}
 dd {}
