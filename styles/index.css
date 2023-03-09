@@ -275,7 +275,7 @@ ul[role=list]
 ul, ol
   {}
 ul ul, ol ol
-  { }
+  {}
 
 nav > details > ul {
 }
