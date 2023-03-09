@@ -67,7 +67,7 @@ html {
   box-sizing: border-box;
   background: green;
   overflow-y: scroll;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 body { display: flex }
 body > * { /* all immediate children of <body> */
