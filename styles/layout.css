@@ -76,10 +76,35 @@ body > * { /* all immediate children of <body> */
 body > header {}
 body > nav {
   top: 0;
-  z-index: 10;
-  position: sticky;
-  max-height: 90vh;
-  overflow-y: auto;
+  z-index: 1;
+  /* position: sticky; */
+  position: absolute;
+  /* max-height: 90vh; */
+  /* overflow-y: auto; */
+  height: 100vh;
+  top: 0em;
+  /* background: lime; */
+  width: -webkit-fill-available;
+  /* width: 50%; */
+  /* left: 1em; */
+}
+body > nav::before {
+  content: '<nav>igation';
+  color: magenta;
+  display: block;
+  background: pink url(http://placekitten.com/400/200) no-repeat;
+  background-size: cover;
+  background-position: 0 center;
+  position: relative;
+  z-index: 11;
+  height: 5ch;
+}
+nav a {
+  display: block;
+  inline-size: auto;
+  /* inline-size: -webkit-fill-available; */
+  inline-size: -moz-available;
+  inline-size: stretch;
 }
 body > a[href='#main'] { /* skip link */
   z-index: 11;
