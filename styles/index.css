@@ -174,8 +174,9 @@ html:focus-within
 body {
   /* scroll-snap-type: y mandatory */
 }
-body > nav, body > main, body > aside, body > footer
-  {/* background: Canvas; */}
+body > nav, body > main, body > aside, body > footer {
+  background: Canvas;
+}
 body > nav
   { box-shadow: var(--box-shadow) }
 body > main
