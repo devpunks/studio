@@ -290,9 +290,6 @@ ul ul, ol ol
   {}
 
 
-nav > details > ul li li {
-  list-style: '➱' inside;
-}
 
 nav > details > ul li li:hover {
   list-style-type: '➯';
