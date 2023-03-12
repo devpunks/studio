@@ -456,17 +456,15 @@ body > nav li li :link:hover::before {
   content: '📝';
 }
 
-summary::before,
-summary::after {
-  width: 1em;
-  height: 1em;
-  font-size: 1em;
-  line-height: 1em;
-  margin: 0 0.218em;
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle
-}
+
+
+
+
+
+
+
+
+
 
 /* Table styling
   - https://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html
