@@ -416,7 +416,7 @@ nav dt + dd, nav li li:first-of-type
   { margin-top: 0 }
 details > dl, details > dd,
 details > ol li, details > ul li
-  { margin-left: 0 }
+  {}
 
 abbr {
   /* http://webtypography.net/3.2.2 */
