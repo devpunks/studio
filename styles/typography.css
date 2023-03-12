@@ -394,7 +394,7 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
   width: auto;
 }
 nav > details > ul
-  { margin-block: 1ch }
+  {}
 dt {
   font-weight: bolder;
   line-height: 3.6182ch;
