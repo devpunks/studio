@@ -291,9 +291,13 @@ ul ul, ol ol
 
 
 
-nav > details > ul li li:hover {
-  list-style-type: '➯';
-}
+
+
+
+
+
+
+
 
 /* http://html5doctor.com/the-details-and-summary-elements/ */
 details { }
