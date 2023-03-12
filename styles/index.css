@@ -628,7 +628,6 @@ dl, ol, ul, li, dt, dd, main * {
   - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
 */
 ::marker {
-  background: green;
   color: orange;
   display:block;
   width: 1ch;
