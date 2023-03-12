@@ -282,7 +282,7 @@ html {
   { text-decoration: inherit }
 
 body {
-  margin: 2em auto var(--margin-collapse-bugfix);
+  margin: 0 auto var(--margin-collapse-bugfix);
   text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering/ */
 }
 body > * { margin: var(--viewport) }
