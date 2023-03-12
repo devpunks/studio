@@ -401,8 +401,7 @@ dt {
   padding: var(--margin-collapse-bugfix) 1ch;
   margin: 0.6182ch 0 var(--margin-collapse-bugfix);
 }
-dd, li {
-}
+dd, li {}
 dd, li li {
   font-size: var(--smaller);
 }
