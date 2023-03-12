@@ -322,6 +322,21 @@ main details[open] > summary::before
 
 
 /* NAV */
+nav > details > ul {
+  margin: unset;
+  width: inherit;
+  display: list-item;
+  position: relative;
+}
+
+nav > details > ul li li {
+  list-style: '➱' inside;
+}
+
+nav > details > ul li li:hover {
+  list-style-type: '➯';
+}
+
 nav details > summary {
   cursor: s-resize;
   list-style: '📁' inside;
