@@ -409,8 +409,6 @@ dd dd:first-of-type, li li:first-of-type {
 
 }
 nav li, nav li {
-  margin: 0;
-  padding-bottom: 0
 }
 nav dd, nav li li
   { font-size: 1em }
