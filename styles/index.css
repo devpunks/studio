@@ -353,7 +353,7 @@ nav > details > summary {
   display: block;
   position: absolute;
   background: canvas;
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
   text-align: var(--tab-size);
   transform: translateX(-50%);
   clip-path: inset(0px 244px 1px 170px);
