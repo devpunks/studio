@@ -630,8 +630,14 @@ nav details, nav summary {
 }
 body > header details
   { padding-left: 0 }
-nav  details { }
-nav > details[open] { }
+nav  details {
+  display: list-item;
+  display: list-item;
+  list-style-type: '😕';
+}
+nav > details[open] {
+  list-style-type: '😊';
+}
 
 /* summary */
 
