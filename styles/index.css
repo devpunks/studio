@@ -358,20 +358,91 @@ nav > details > summary {
   /* transform: translateX(-50%); */
   /* clip-path: inset(0px 244px 1px 170px); */
   list-style: '☰' inside; /* https://www.htmlsymbols.xyz/unicode/U+2630 */
-  clip-path: none;
+  list-style-position: outside;
+  /* clip-path: none; */
 }
-
+nav > details > summary::before,
+nav > details > summary::after {
+  content: '☰';
+  padding: 1ch;
+  background: inherit;
+  display: inline-block;
+  box-shadow: var(--shadow);
+  font-size: calc(1em * var(--GOLDEN-RATIO));
+  border: calc(0.1ch * var(--GOLDEN-RATIO)) solid;
+}
+nav > details > summary::before {
+  position: relative;
+}
+nav > details > summary::after {
+  list-style-type: unset;
+  position: fixed;
+  bottom: 1ch;
+  right: 1ch;
+}
 nav > details[open] > summary {
-  list-style: 'ⓧ' inside;
+  list-style-position: inside;
+  list-style-type: 'ⓧ';
 }
-nav > details[open] > summary:hover {
-  list-style: '✖' inside; /* https://www.htmlsymbols.xyz/unicode/U+2716 */
-  list-style: 'ⓧ' inside; /* https://www.htmlsymbols.xyz/unicode/U+2716 */
+nav > details[open] > summary::before,
+nav > details[open] > summary::after {
+  content: 'ⓧ';
 }
-body > nav, body > nav > details, body > nav > details > summary
-{
-  border-radius: 0 0 1ch 1ch;
-  /* width: 100%; */
+nav > details[open] > summary:hover::before,
+nav > details[open] > summary:hover::after {
+  /* https://www.htmlsymbols.xyz/unicode/U+2716 */
+  content: '✖';
+}
+body > nav *::before, body > nav *::after {
+  outline: 1ch solid lightgrey;
+  outline-offset: 1ch;
+  outline: 0;
+  border: 1ch solid magenta;
+  border-width: 1ch 0;
+  text-align: center;
+  display: inherit;
+}
+body > nav *::before {
+  content: '⇇';
+  cursor: grabbing;
+  list-style-type: 'foo';
+  background: yellow;
+}
+body > nav *::after {
+  content: '⇉';
+  cursor: grabbing;
+  background: blue;
+  list-style-type: 'bar';
+  outline: 0;
+  border-width: 1ch 0;
+}
+body > nav > details {
+  width: -webkit-fill-available;
+  /* width: 50%; */
+  /* background: orange; */
+  overflow-y: scroll;
+  height: inherit;
+}
+body > nav > details::before {
+  border: none;
+  height: 100%;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
+  backdrop-filter: blur(calc(0.1ch * var(--GOLDEN-RATIO)));
+}
+body > nav > details::after {
+  background: pink;
+  display: block;
+  display: n;
+  content: '<details>::after';
+  box-shadow: var(--shadow);
+  z-index: 0;
+  position: relative;
 }
 body > nav li li :link:focus-visible {
   background-color: Mark;
