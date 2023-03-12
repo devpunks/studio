@@ -179,6 +179,7 @@ body > nav, body > main, body > aside, body > footer {
 }
 body > nav {
   box-shadow: var(--box-shadow);
+  background: transparent;
 }
 body > main
   { scroll-snap-align: start }
