@@ -289,8 +289,6 @@ ul, ol
 ul ul, ol ol
   {}
 
-nav > details > ul {
-}
 
 nav > details > ul li li {
   list-style: '➱' inside;
