@@ -305,6 +305,12 @@ summary {
   opacity: 0.75;
   list-style: none;
 }
+summary::before,
+summary::after {
+  content: 'foo';
+  background: orange;
+}
+
 summary::-webkit-details-marker
   { display: none } /* https://stackoverflow.com/a/66814239 */
 details:hover > summary, details:focus-within > summary
