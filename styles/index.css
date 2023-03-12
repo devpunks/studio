@@ -346,9 +346,9 @@ nav details[open] > summary {
   list-style: '📂';
 }
 nav > details > summary {
-  top: 0;
-  left: 50%;
-  width: 98%;
+  top: 5ch;
+  left: 0ch;
+  width: 100%;
   opacity: 100%;
   position: fixed;
   background: canvas;
