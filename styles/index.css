@@ -420,7 +420,7 @@ body > nav *::after {
 body > nav > details {
   width: -webkit-fill-available;
   /* width: 50%; */
-  /* background: orange; */
+  background: inherit;
   overflow-y: scroll;
   height: inherit;
 }
