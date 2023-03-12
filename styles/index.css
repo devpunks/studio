@@ -343,7 +343,7 @@ nav details > summary {
 }
 nav details[open] > summary {
   cursor: n-resize;
-  list-style: '📂' inside;
+  list-style: '📂';
 }
 nav > details > summary {
   top: 0;
