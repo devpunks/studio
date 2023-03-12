@@ -551,7 +551,7 @@ details details summary {
 details[open] summary
   { cursor: n-resize }
 details[open] > summary a {
-  border-block-end: 0.16182em solid
+  border-block-end: calc( 0.1 * var(--GOLDEN-RATIO) * 1em) solid;
 }
 
 /* PWA RELATED */
