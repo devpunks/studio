@@ -177,8 +177,9 @@ body {
 body > nav, body > main, body > aside, body > footer {
   background: Canvas;
 }
-body > nav
-  { box-shadow: var(--box-shadow) }
+body > nav {
+  box-shadow: var(--box-shadow);
+}
 body > main
   { scroll-snap-align: start }
 body > aside
