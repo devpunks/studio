@@ -75,8 +75,6 @@ label {
   display: block;
   display: inline-block;
   text-align: var(--text-align);
-  /* float: left; */
-  /* width: auto; */
   box-sizing: border-box;
 }
 label code {
