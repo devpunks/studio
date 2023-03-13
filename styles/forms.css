@@ -73,7 +73,6 @@ form details {
 label {
   background:  green;
   display: block;
-  /* display: flex; */
   display: inline-block;
   text-align: var(--text-align);
   /* float: left; */
