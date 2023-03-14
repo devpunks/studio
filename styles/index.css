@@ -352,6 +352,7 @@ nav > details > summary {
   width: 100%;
   opacity: 100%;
   display: block;
+  display: list-item;
   position: absolute;
   background: canvas;
   /* box-shadow: var(--shadow); */
