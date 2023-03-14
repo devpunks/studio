@@ -356,8 +356,7 @@ nav > details > summary {
   position: absolute;
   background: canvas;
   /* box-shadow: var(--shadow); */
-  text-align: var(--tab-size);
-  /* transform: translateX(-50%); */
+  text-align: var(--text-align);
   /* clip-path: inset(0px 244px 1px 170px); */
   list-style: '☰' inside; /* https://www.htmlsymbols.xyz/unicode/U+2630 */
   list-style-position: outside;
