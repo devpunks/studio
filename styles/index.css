@@ -348,7 +348,7 @@ nav details[open] > summary {
 }
 nav > details > summary {
   top: 5ch;
-  left: 0ch;
+  left: 4ch;
   width: 100%;
   opacity: 100%;
   display: block;
