@@ -365,6 +365,9 @@ nav > details > summary::before,
 nav > details > summary::after {
   content: '☰';
   padding: 1ch;
+  left: -1ch;
+  vertical-align: text-top;
+  z-index: -1;
   background: inherit;
   display: inline-block;
   box-shadow: var(--shadow);
