@@ -633,3 +633,9 @@ dl, ol, ul, li, dt, dd, main * {
 ::marker {
   color: orange;
 }
+summary::marker {
+  content: '🔴';
+}
+summary::marker::before {
+  content: 'bar'
+}
