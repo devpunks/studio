@@ -636,6 +636,3 @@ dl, ol, ul, li, dt, dd, main * {
 summary::marker {
   content: '🔴';
 }
-summary::marker::before {
-  content: 'bar'
-}
