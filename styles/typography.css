@@ -544,14 +544,12 @@ blockquote {
   margin-block-start: var(--line-height);
 }
 blockquote::before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 30%;
-  font-size: 7em;
-  line-height: 1em;
-  height: 2.1618rem;
-  position: absolute;
+  top: 1ch;
+  left: 2ch;
+  /* width: 100%; */
+  opacity: 80%;
+  line-height: 1.6182ch;
+  position: relative;
   content: open-quote;
   margin-top: 0.01618em;
 }
