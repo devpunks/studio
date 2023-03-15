@@ -574,8 +574,7 @@ cite {
 cite::before{
   content: '-'; /* https://en.wikipedia.org/wiki/Dash */
 }
-blockquote cite, q cite
-  {}
+blockquote cite, q cite {}
 blockquote cite {
   font-size: var(--line-height);
 }
