@@ -81,6 +81,9 @@ figure:hover figcaption {
 }
 iframe {}
 picture {}
+blockquote picture {
+  margin: 0 4ch 1.6182em;
+}
 canvas
   { background: Canvas }
 svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
