@@ -342,7 +342,6 @@ body * > h1
 /* hyperlinks */
 a { /* TODO: migrate ARIA to accessibility.css */
   padding-inline: 0.1682ch;
-  background: red;
   text-underline-offset: 0;
   text-decoration-thickness: .168em;
   text-decoration-color: transparent;
