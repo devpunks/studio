@@ -562,7 +562,7 @@ blockquote::before {
 blockquote::after {
   opacity: 40%;
   content: '⤷\2002' attr(cite);
-  transform: translateY(-1.618rem);
+  margin-block-end: 1ch;
 }
 
 cite {
