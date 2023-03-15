@@ -577,6 +577,10 @@ cite::before{
 blockquote cite, q cite {}
 blockquote cite {
   font-size: var(--line-height);
+  display: block;
+}
+blockquote cite::before {
+  content: ''
 }
 q cite {
   max-width: 21ch;
