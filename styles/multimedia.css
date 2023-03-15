@@ -31,8 +31,8 @@ picture, figure, canvas, audio, video, embed, object {
   display: block;
   margin: var(--font-size);
 }
-audio, video, canvas {
-  width: 100%;
+audio, canvas, video, iframe[src*=youtube] {
+  width: 90%;
   max-width: 65ch;
   filter: invert(100%);
   background: buttonFace;
