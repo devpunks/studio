@@ -551,7 +551,13 @@ blockquote::before {
   line-height: 1.6182ch;
   position: relative;
   content: open-quote;
-  margin-top: 0.01618em;
+  overflow: hidden;
+  /* background: pink; */
+  display: block;
+  width: 1ch;
+  height: 1ch;
+  text-align: start;
+  transform: scale(8);
 }
 blockquote::after {
   opacity: 40%;
