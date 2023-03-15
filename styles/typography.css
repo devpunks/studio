@@ -535,8 +535,7 @@ blockquote {
   /* http://webtypography.net/2.3.3 */
   opacity: 85%;
   display: block;
-  padding-top: 3em;
-  position: relative;
+  padding-block-start: 3ch;
   font-style: italic;
   border: 0.01618em solid;
   margin: var(--p-margin);
