@@ -560,7 +560,6 @@ blockquote::before {
 blockquote::after {
   opacity: 40%;
   position: relative;
-  margin: var(--p-margin);
   content: '⤷\2002' attr(cite);
   transform: translateY(-1.618rem);
 }
