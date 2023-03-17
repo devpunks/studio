@@ -78,7 +78,9 @@ figcaption {
 figure:hover figcaption {
   opacity: 0.618;
 }
-iframe {}
+iframe {
+  display: block;
+}
 picture {}
 blockquote picture {
   margin: 0 4ch 1.6182em;
