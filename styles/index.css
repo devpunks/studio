@@ -445,7 +445,19 @@ body > nav > details::before {
   height: 0;
   background: rgba(0,0,0,0.2);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
-  backdrop-filter: blur(calc(0.1ch * var(--GOLDEN-RATIO)));
+  backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
+  color: Canvas;
+  text-align: center;
+  font-size: calc(100vh / var(
+  --GOLDEN-RATIO));
+  line-height: 100vh;
+  opacity: 80%;
+}
+body > nav > details[open]::before {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  line-height: 100vh;
 }
 body > nav > details::after {
   background: pink;
