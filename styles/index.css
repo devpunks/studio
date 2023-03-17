@@ -355,6 +355,7 @@ nav > details > summary {
   display: block;
   display: list-item;
   position: absolute;
+  position: fixed;
   background: canvas;
   /* box-shadow: var(--shadow); */
   text-align: var(--text-align);
