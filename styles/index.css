@@ -422,6 +422,12 @@ body > nav *::after {
   border-width: 1ch 0;
 }
 body > nav > details {
+  width: 50%;
+  left: 1ch;
+  bottom: 0ch;
+  position: fixed;
+}
+body > nav > details[open] {
   width: -webkit-fill-available;
   /* width: 50%; */
   background: inherit;
