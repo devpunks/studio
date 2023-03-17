@@ -347,8 +347,8 @@ nav details[open] > summary {
   list-style: '📂';
 }
 nav > details > summary {
-  top: 5ch;
-  left: 4ch;
+  bottom: 2ch;
+  right: 2ch;
   width: 100%;
   opacity: 100%;
   display: block;
