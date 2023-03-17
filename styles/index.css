@@ -432,6 +432,8 @@ body > nav > details[open] {
   background: inherit;
   overflow-y: scroll;
   height: inherit;
+  /* max-height: 90vh; */
+  width: 50%;
 }
 body > nav > details::before {
   border: none;
