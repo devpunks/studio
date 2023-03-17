@@ -438,11 +438,12 @@ body > nav > details[open] {
 body > nav > details::before {
   border: none;
   outline: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0,0,0,0.6);
+  position: fixed;
+  bottom: 0;
+  left: 0ch;
+  width: 0;
+  height: 0;
+  background: rgba(0,0,0,0.2);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
   backdrop-filter: blur(calc(0.1ch * var(--GOLDEN-RATIO)));
 }
