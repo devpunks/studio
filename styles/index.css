@@ -350,6 +350,7 @@ nav > details > summary {
   bottom: 2ch;
   right: 2ch;
   width: 100%;
+  width: 38%;
   opacity: 100%;
   display: block;
   display: list-item;
