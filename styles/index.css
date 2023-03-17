@@ -380,10 +380,10 @@ nav > details > summary::before {
   position: relative;
 }
 nav > details > summary::after {
-  list-style-type: unset;
-  position: fixed;
-  bottom: 1ch;
-  right: 1ch;
+  /* list-style-type: unset; */
+  /* position: fixed; */
+  /* bottom: 1ch; */
+  /* right: 1ch; */
 }
 nav > details[open] > summary {
   list-style-position: inside;
