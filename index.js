@@ -8,6 +8,12 @@
     - https://web.dev/pagevisibility-intro/
     - https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
     - https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilitychange_event
+
+  - Form Validation
+    - https://developer.mozilla.org/en-US/docs/Web/API/FormData
+    - https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+    - https://www.quirksmode.org/blog/archives/2017/12/native_form_val.html
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation
 */
 var
   first  = document.querySelector ('#first')
