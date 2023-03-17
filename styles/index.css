@@ -437,7 +437,6 @@ body > nav > details[open] {
 }
 body > nav > details::before {
   border: none;
-  height: 100%;
   outline: none;
   position: absolute;
   top: 0;
