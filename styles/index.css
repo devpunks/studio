@@ -439,7 +439,7 @@ body > nav > details::after {
   line-height: 0;
   opacity: 80%;
 }
-body > nav > details[open]::before {
+body > nav > details[open]::after {
   width: 100vw;
   height: 100vh;
   max-height: 100vh;
