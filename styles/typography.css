@@ -456,6 +456,7 @@ b, strong
 
 p, q, address {
   max-width: 80ch;
+  text-align: start;
   padding: 0 var(--line-height);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
