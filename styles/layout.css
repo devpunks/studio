@@ -78,7 +78,7 @@ body > nav {
   top: 0;
   z-index: 1;
   /* position: sticky; */
-  position: absolute;
+  position: fixed;
   /* max-height: 90vh; */
   /* overflow-y: auto; */
   height: 100vh;
