@@ -444,15 +444,8 @@ body > nav > details[open]::after {
   height: 100vh;
   line-height: 100vh;
 }
-body > nav > details::after {
-  background: pink;
-  display: block;
-  display: n;
-  content: '<details>::after';
-  box-shadow: var(--shadow);
-  z-index: 0;
-  position: relative;
-}
+
+
 body > nav li li :link:focus-visible {
   background-color: Mark;
 }
