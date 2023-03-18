@@ -435,9 +435,8 @@ body > nav > details::after {
   backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
   color: Canvas;
   text-align: center;
-  font-size: calc(100vh / var(
-  --GOLDEN-RATIO));
-  line-height: 100vh;
+  font-size: calc(100vh / var(--GOLDEN-RATIO));
+  line-height: 0;
   opacity: 80%;
 }
 body > nav > details[open]::before {
