@@ -581,6 +581,12 @@ cite::before{
 blockquote cite, q cite {}
 blockquote::after, blockquote cite {
   display: block;
+  text-align: end;
+  font-size: var(--larger);
+  margin: var(--margin-collapse-bugfix) 1.6821ch;
+  padding: var(--margin-collapse-bugfix) 1.6821ch;
+}
+blockquote cite {
 }
 blockquote cite::before {
   content: normal;
