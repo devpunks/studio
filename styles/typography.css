@@ -538,6 +538,8 @@ blockquote {
   /* http://webtypography.net/2.3.3 */
   opacity: 85%;
   font-style: italic;
+  padding-block-start: 3ch;
+  padding-block-end: 1.682ch;
   quotes: "\201C""\201D";
   border: 0.01618em solid;
   margin: var(--p-margin);
