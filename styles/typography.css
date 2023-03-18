@@ -460,6 +460,11 @@ p, q, address {
   padding: 0 var(--line-height);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
+p {
+  display: flow-root; /* https://css-tricks.com/display-flow-root/ */
+  /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why/ */
+    /* 16x0.81=13 */
+}
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
