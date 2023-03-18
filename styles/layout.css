@@ -96,7 +96,6 @@ body > nav::before {
   background-size: cover;
   background-position: 0 center;
   position: relative;
-  z-index: 11;
   height: 5ch;
 }
 nav a {
