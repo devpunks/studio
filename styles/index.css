@@ -544,7 +544,6 @@ a[href='#'][title^=Top] {
 }
 
 details summary {
-  z-index: 11;
   cursor: s-resize;
 }
 details details summary {
