@@ -518,6 +518,8 @@ q q {
 }
 p q, q q {
   font-size: var(--smaller);
+  padding-inline-end: initial;
+  padding-inline-start: initial;
 }
 
 q::before
