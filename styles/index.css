@@ -421,21 +421,8 @@ body > nav *::after {
   outline: 0;
   border-width: 1ch 0;
 }
-body > nav > details {
-  width: 50%;
-  left: 1ch;
-  bottom: 0ch;
-  position: fixed;
-}
-body > nav > details[open] {
-  width: -webkit-fill-available;
-  background: inherit;
-  overflow-y: scroll;
-  height: inherit;
-  /* max-height: 90vh; */
-  width: 50%;
-}
-body > nav > details::before {
+body > nav > details::after {
+  z-index: -1;
   border: none;
   outline: none;
   position: fixed;
