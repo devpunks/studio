@@ -517,7 +517,6 @@ q {
 q q {
 }
 p q, q q {
-  padding-inline: initial;
   font-size: var(--smaller);
 }
 
