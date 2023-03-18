@@ -442,7 +442,6 @@ body > nav > details::after {
 body > nav > details[open]::after {
   width: 100vw;
   height: 100vh;
-  max-height: 100vh;
   line-height: 100vh;
 }
 body > nav > details::after {
