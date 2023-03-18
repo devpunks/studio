@@ -584,6 +584,7 @@ pre, pre code, var, data, p, cite, blockquote, address
           user-select:         text;    /* https://caniuse.com/user-select-none */
 }
 code, data, kbd, mark, pre, q, samp, var {
+  -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
   user-select: all; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select#all */
   -webkit-user-drag:           auto;    /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
   -webkit-user-select:         text;    /* Webkit (Chrome all / Safari all) */
