@@ -537,8 +537,6 @@ q::after
 blockquote {
   /* http://webtypography.net/2.3.3 */
   opacity: 85%;
-  display: block;
-  padding-block-start: 3ch;
   font-style: italic;
   quotes: "\201C""\201D";
   border: 0.01618em solid;
