@@ -579,8 +579,7 @@ cite::before{
   content: '-'; /* https://en.wikipedia.org/wiki/Dash */
 }
 blockquote cite, q cite {}
-blockquote cite {
-  font-size: var(--line-height);
+blockquote::after, blockquote cite {
   display: block;
 }
 blockquote cite::before {
