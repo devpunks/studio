@@ -355,6 +355,7 @@ nav > details > summary {
   width: 100%;
   width: 38%;
   opacity: 100%;
+  position: fixed;
   display: block;
   display: list-item;
   position: absolute;
