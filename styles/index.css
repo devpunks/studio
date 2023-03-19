@@ -350,7 +350,6 @@ nav details[open] > summary {
   list-style: '📂';
 }
 nav > details > summary {
-  bottom: 2ch;
   right: 2ch;
   width: 100%;
   width: 38%;
