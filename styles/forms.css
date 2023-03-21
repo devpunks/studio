@@ -11,10 +11,6 @@
  * Styling - https://www.quirksmode.org/blog/archives/2017/12/native_form_val.html
  */
 
-:root {
-  --flex-direction: column;
-}
-
 /* Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html */
 @media screen and (min-width: 786px) { :root { } }
 
