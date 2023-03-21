@@ -48,7 +48,7 @@ fieldset {
    max-width: 100%;
 
    /* See https://github.com/twbs/bootstrap/issues/12359 */
-   border: solid currentColor;
+   /* border: solid currentColor; */
 
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
    margin: var(--margin);
