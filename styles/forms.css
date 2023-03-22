@@ -51,6 +51,7 @@ fieldset {
    /* border: solid currentColor; */
 
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
+   /* border: none; */
    margin: var(--margin);
 }
 fieldset[disabled] {}
