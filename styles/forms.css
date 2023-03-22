@@ -58,7 +58,7 @@ fieldset[disabled] {}
 legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
   border: inherit;
   background: inherit;
-  display: contents;
+  /* display: contents; */
 }
 fieldset input
   { }
