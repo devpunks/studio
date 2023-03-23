@@ -71,9 +71,14 @@ form details {
   padding: 0;
 }
 label {
-  cursor: pointer;
-  margin: var(--margin-collapse-bugfix) auto var(--margin);
-  padding: var(--margin-collapse-bugfix) var(--line-height);
+  background:  green;
+  display: block;
+  /* display: flex; */
+  display: inline-block;
+  text-align: var(--text-align);
+  /* float: left; */
+  /* width: auto; */
+  box-sizing: border-box;
 }
 :not(li) > label {
   display: block;
