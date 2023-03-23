@@ -80,7 +80,12 @@ label {
   /* width: auto; */
   box-sizing: border-box;
 }
-:not(li) > label {
+label code {
+}
+label, label + input {
+  /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
+  /* padding: var(--margin-collapse-bugfix) var(--line-height); */
+  margin: 0 1ch;
   display: block;
   max-width: 80ch;
   background: red;
