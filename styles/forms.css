@@ -67,6 +67,9 @@ fieldset ul, fieldset ol, fieldset dl
 fieldset li
   { }
 
+form details {
+  padding: 0;
+}
 label {
   cursor: pointer;
   margin: var(--margin-collapse-bugfix) auto var(--margin);
