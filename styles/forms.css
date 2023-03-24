@@ -87,8 +87,17 @@ label, label + input {
   /* padding: var(--margin-collapse-bugfix) var(--line-height); */
   margin: 0 1ch;
   display: block;
-  max-width: 80ch;
-  background: red;
+  width: 100%;
+  width: -webkit-fill-available;
+}
+label + input {
+  background: purple;
+  padding: 0;
+}
+label + :not(input) {
+  clear: both;
+}
+:not(li) > label {
 }
 
 :placeholder-shown {
