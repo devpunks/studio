@@ -109,6 +109,7 @@ button, [role=button], input, select, textarea {
   font-family: inherit;
   letter-spacing: inherit;
   text-align: var(--text-align);
+  box-sizing: border-box;
   /*
    * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
    * appearance
