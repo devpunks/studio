@@ -134,10 +134,11 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   font-size: var(
   --font-size);
   border: solid currentColor;
-  border-width: 0 0 0.1em 0.1em;
-  padding: 0 var(--line-height);
-  line-height: var(--line-height);
-  margin: var(--margin-collapse-bugfix) auto var(--margin);
+  border-width: 0 0 0.1em;
+  /* padding: 0 var(--line-height); */
+  line-height: var(
+  --line-height);
+  /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
           user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 }
