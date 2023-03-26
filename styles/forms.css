@@ -145,6 +145,9 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   vertical-align: text-top;
 }
 
+
+label output, label select, label textarea, label [type], label input:not([type]) {grid-column: 2;width: calc((var(--GOLDEN-RATIO) - 1) * 100%);}
+
 [type=file] + output {
   /* display: inline; */
   background: red;
