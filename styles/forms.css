@@ -404,7 +404,7 @@ input[type=color]::-webkit-color-swatch {
 
 textarea {
   overflow: auto; /* Remove IE vertical scrollbar. */
-  padding: 0.618e;
+  padding: 0.618em;
   resize: vertical;
   text-align: left;
   overflow-y: scroll;
