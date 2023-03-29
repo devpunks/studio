@@ -1240,10 +1240,24 @@ class Shape {
           <input required name=language autocomplete=language>
         </label>
 
-      <fieldset id=autocomplete>
-      <details>
-        <summary><legend>Auto-complete</legend></summary>
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete -->
+        <fieldset>
+            <input required minlength=2 placeholder=Language name=language autocomplete=language>
+            <label for=language>Language</label>
+            <input required placeholder=foo id=language name=language autocomplete=language>
+            <label>Language
+              <input required name=language autocomplete=language>
+            </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Organization</legend>
+
+          <label>Organization</label>
+          <input name=organization autocomplete=organization>
+
+          <label>Organization Title</label>
+          <input name=organization-title autocomplete=organization-title>
+        </fieldset>
 
         <fieldset>
           <legend>Personal</legend>
