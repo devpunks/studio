@@ -1228,8 +1228,17 @@ class Shape {
     <h2>Forms</h2>
     <!-- https://adrianroselli.com/2020/01/my-priority-of-methods-for-labeling-a-control.html -->
 
-    <form autocomplete name=autocomplete action=#>
-      <header><code>&lt;form autocomplete &gt;</code></header>
+    <form style=background:red autocomplete name=autocomplete action=#>
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete -->
+      <details open >
+        <summary><code>&lt;form autocomplete &gt;</code></summary>
+
+        <input hidden required minlength=2 placeholder=Language name=language autocomplete=language>
+        <label for=language>Language</label>
+        <input required placeholder=foo id=language name=language autocomplete=language>
+        <label>Language
+          <input required name=language autocomplete=language>
+        </label>
 
       <fieldset id=autocomplete>
       <details>
