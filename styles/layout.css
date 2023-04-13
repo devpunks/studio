@@ -74,6 +74,9 @@ body > * { /* all immediate children of <body> */
   max-width: var(--max-width);
 }
 body > header {}
+
+
+/* Navigations ================================================================== */
 body > nav {
   top: 0;
   z-index: 1;
