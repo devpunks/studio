@@ -130,6 +130,7 @@ nav a {
   inline-size: -moz-available;
   inline-size: stretch;
 }
+
 body > a[href='#main'] { /* skip link */
   z-index: 11;
 }
