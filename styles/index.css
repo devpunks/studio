@@ -262,50 +262,6 @@ pre code {
   border-width: 0 0 0 0.02em;
 }
 
-/* CSS3 Lists
- * https://drafts.csswg.org/css-lists-3/
- * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
- */
-ul {}
-ol {}
-li {
-  background: pink;
-  margin: 1ch;
-  counter-increment: list;
-}
-li li {
-  counter-increment: nested-list;
-}
-dl {}
-dt {}
-dd {}
-
-ul[role=list], ul[role=list] li {
-  /*
-    - https://piccalil.li/blog/a-modern-css-reset/
-    - https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html
-  */
-  list-style: none;
-}
-ul, ol
-  {
-  background: limegreen;
-  counter-reset: list;
-}
-dl dl, ol ol, ol ul, ul ol, ul ul
-  {
-  display: inherit;
-}
-
-
-
-
-
-
-
-
-
-
 
 /* http://html5doctor.com/the-details-and-summary-elements/ */
 details { }
