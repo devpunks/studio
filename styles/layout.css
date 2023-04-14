@@ -117,7 +117,7 @@ body > nav > details[open] {
   width: 50%;
 }
 body > nav > details::before {
- content: 'shazaaam'
+ content: 'shazaam'
 }
 body > nav > details[open]::before {
  content: 'shazaaam open'
