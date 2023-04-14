@@ -120,7 +120,7 @@ body > nav > details::before {
  content: 'shazaam'
 }
 body > nav > details[open]::before {
- content: 'shazaaam open'
+ content: 'shazaam open'
 }
 
 nav a {
