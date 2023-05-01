@@ -163,7 +163,11 @@
   /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
   { outline: 1px dotted ButtonText }
 
-html {}
+html {
+  color: CanvasText;
+  background-color: Canvas;
+  color-scheme: light dark;
+}
 html:focus-within
   { scroll-behavior: smooth /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */ }
 
