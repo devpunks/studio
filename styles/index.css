@@ -604,7 +604,7 @@ ul {
 }
 li {
   margin: 1ch;
-  counter-increment: list;
+  padding: var(--margin-collapse-bugfix) 0.6182ch;
 }
 li li {
   counter-reset: list;
