@@ -678,77 +678,91 @@ class Shape {
           <dl>
             <dd><em>(Child)</em> definition list division.
             <dt><em>(Child)</em> Definition Title</dt>
+              <dd><em>(Child)</em> definition list division.
+              <dd><em>(Child)</em> definition list division.
             <dt><em>(Child)</em> <em>(Double)</em> Definition Title
-            <dd><em>(Child)</em> definition list division.
-            <dd><em>(Child)</em> definition list division.
-            <dd><em>(Child)</em> definition list division.
+              <dd><em>(Child)</em> definition list division.
+              <dd><em>(Child)</em> definition list division.
           </dl>
       </dl>
 
       <h3>Ordered List</h3>
       <ol>
-        <li>List Item 1
-        <li>List Item 2
-        <li>List Item 3
-        <li>
-          <em>(Child)</em> Ordered List
-          <ol>
-            <li><em>(Child)</em> List Item 1
-            <li><em>(Child)</em> List Item 2
-            <li><em>(Child)</em> List Item 3
+        <li>List Item
+        <li>List Item
+        <li>List Item
+        <li>List Item
+          <ol type=a>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
           </ol>
-        <li>
-          <em>(Child)</em> Unordered List
-          <ul>
-            <li><em>(Child)</em> List Item 1
-            <li><em>(Child)</em> List Item 2
-            <li><em>(Child)</em> List Item 3
-          </ul>
+        <li>List Item
+          <ol type=A>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ol>
+         <li>List Item
+          <ol type=i>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ol>
+        <li>List Item
+          <ol type=I>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ol>
+      </ol>
 
+      <header><code>&lt;ol role=list&gt;</code></header>
+      <ol role=list>
+        <li>List Item
+        <li>List Item
+        <li>List Item
+        <li>List Item
+          <ol>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ol>
       </ol>
 
       <h3>Unordered List</h3>
       <!-- https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html -->
-      <ul role=list>
-        <li>List Item
-        <li>List Item
-        <li>List Item
-        <li>
-          <em>(Child)</em> Unordered List
-          <ul>
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-          </ul>
-        <li>
-          <em>(Child)</em> Ordered List
-          <ol>
-            <li><em>(Child)</em> List Item 1
-            <li><em>(Child)</em> List Item 2
-            <li><em>(Child)</em> List Item 3
-          </ol>
-
-      </ul>
 
       <ul>
         <li>List Item
         <li>List Item
         <li>List Item
-        <li>
-          <em>(Child)</em> Unordered List
+        <li>List Item
           <ul>
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
           </ul>
-        <li>
-          <em>(Child)</em> Ordered List
-          <ol>
-            <li><em>(Child)</em> List Item 1
-            <li><em>(Child)</em> List Item 2
-            <li><em>(Child)</em> List Item 3
-          </ol>
+      </ul>
 
+      <header><code>&lt;ul role=list&gt;</code></header>
+      <ul role=list>
+        <li>List Item
+        <li>List Item
+        <li>List Item
+        <li>List Item
+          <ul>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ul>
       </ul>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
