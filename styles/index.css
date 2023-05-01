@@ -603,7 +603,6 @@ ul {
   list-style-type: revert;
 }
 li {
-  background: pink;
   margin: 1ch;
   counter-increment: list;
 }
