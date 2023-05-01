@@ -595,8 +595,8 @@ a
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/counters */
 ol {
-  list-style: ordered;
-  counter-reset: ordered 0;
+  /* list-style: ordered; */
+  /* counter-reset: ordered 0; */
   /* counter-set: ordered 1; */
 }
 ul {
