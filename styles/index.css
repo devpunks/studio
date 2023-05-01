@@ -688,7 +688,8 @@ system: fixed;
 
 /* Combined values */
 /*
-  - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
+system: fixed 3;
+system: extends decimal;
 */
 ::marker {
   color: orange;
