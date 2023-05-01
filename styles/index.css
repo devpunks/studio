@@ -591,8 +591,17 @@ a
  * https://drafts.csswg.org/css-lists-3/
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
-ul {}
-ol {}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/counters */
+ol {
+  list-style: ordered;
+  counter-reset: ordered 0;
+  /* counter-set: ordered 1; */
+}
+ul {
+  list-style: unordered;
+  list-style-type: revert;
+}
 li {
   background: pink;
   margin: 1ch;
