@@ -608,6 +608,23 @@ li {
 }
 li li {
 }
+ol > li, ul > li {}
+ol > li {
+  counter-increment: ordered;
+}
+ul > li {}
+ol > li::before,
+ul > li::before {
+  content: '😊';
+  display: inline-block;
+  padding-inline: 0.6182ch;
+  margin-inline-end: 0.6182ch;
+}
+ol > li::before {
+}
+ul > li::before {
+}
+
 dl {}
 dt {}
 dd {}
