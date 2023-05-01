@@ -172,6 +172,7 @@ html:focus-within
   { scroll-behavior: smooth /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */ }
 
 /* SCROLL SNAPPING
+  - https://www.w3.org/TR/css-scroll-snap-1/
   - https://drafts.csswg.org/css-scroll-snap-1/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
 */
