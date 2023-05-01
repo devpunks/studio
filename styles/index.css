@@ -640,6 +640,21 @@ dl, ol, ul, li, dt, dd
 dl dl, ol ol, ol ul, ul ol, ul ul
   {
   display: inherit;
+  display: list-item;
+  display: block;
+  counter-reset: ordered 0 unordered 0;
+}
+/*
+  - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
+*/
+::marker {
+  color: orange;
+}
+ol > li::marker {
+  content: counters(ordered, '.');
+}
+summary::marker {
+  content: '🔴';
 }
 
 
