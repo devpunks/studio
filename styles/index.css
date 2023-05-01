@@ -629,10 +629,13 @@ dl {}
 dt {}
 dd {}
 
-ul, ol
-  {
-  background: limegreen;
-  counter-reset: list;
+ul, ol {
+}
+dl, ol, ul, li, dt, dd
+/* , main * */
+{
+  /* display: list-item; */
+  list-style-position: inside;
 }
 dl dl, ol ol, ol ul, ul ol, ul ul
   {
