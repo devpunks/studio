@@ -675,12 +675,18 @@ summary::marker {
   symbols: "\24B6""\24B7""\24B8"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
 }
 
-dl, ol, ul, li, dt, dd, main * {
-  display: list-item;
-  list-style-type: example;
-  list-style-position: inside;
-}
+@counter-style ordered {
+  suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
+/* Keyword values */
+system: cyclic;
+system: numeric;
+system: alphabetic;
+system: symbolic;
+system: additive;
+system: fixed;
+  speak-as: ordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
 
+/* Combined values */
 /*
   - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
 */
