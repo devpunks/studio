@@ -99,8 +99,8 @@ a[href='#']:hover
     - https://piccalil.li/blog/a-modern-css-reset/
     - https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html
   */
-  /* list-style: none; */
-  display: block;
+  list-style: none;
+  display: bl;
 }
 
 [role='list'] li::before {
