@@ -95,8 +95,8 @@
  * - https://css-tricks.com/almanac/selectors/s/selection/
  */
 ::-moz-selection {
-  color: var(--background-color);
-  background-color: currentColor
+  color: var(--color, CanvasText );
+  background-color: var( --background-color, Canvas );
 }
 
 ::selection {
