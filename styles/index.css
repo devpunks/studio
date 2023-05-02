@@ -517,7 +517,11 @@ a[href='#'][title^=Top] {
   margin: var(--p-margin) auto;
   padding: 1ch var(--line-height);
 }
-
+li > a {
+  width: 94%;
+  vertical-align: top;
+  margin-inline-start: -1ch;
+}
 details summary {
   cursor: s-resize;
 }
