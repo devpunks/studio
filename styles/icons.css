@@ -20,7 +20,7 @@ a[href='#']::before
   { content: '⇭' }
 
 a[rel=help]::after
-  { content: '❓' }
+  {content: '❓';margin-left: -0.6182c;}
 address a[rel=help]::after
   { content: '' }
 a[rel=author]::before
