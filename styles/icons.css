@@ -19,8 +19,10 @@
 a[href='#']::before
   { content: '⇭' }
 
-a[rel=help]::after
-  {content: '❓';margin-left: -0.6182c;}
+a[rel=help]::after {
+  content: '❓';
+  margin-left: -0.6182ch;
+}
 address a[rel=help]::after
   { content: '' }
 a[rel=author]::before
