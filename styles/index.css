@@ -624,7 +624,6 @@ ul > li::before {
   width: 1ch;
   content: '\232A';
   display: inline-block;
-  padding-inline: 0.15ch;
   margin-inline-end: 0.6182ch;
 }
 ol > li::before {
