@@ -446,6 +446,7 @@ ins::before
 
 em {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
+  display: contents;
   padding-inline: calc(.1682ch * var(--GOLDEN-RATIO));
 }
 b, strong
