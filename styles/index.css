@@ -622,7 +622,7 @@ ol > li::before,
 ul > li::before {
   content: '😊';
   display: inline-block;
-  padding-inline: 0.6182ch;
+  padding-inline: 0.15ch;
   margin-inline-end: 0.6182ch;
 }
 ol > li::before {
