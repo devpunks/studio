@@ -105,7 +105,7 @@ a[href='#']:hover
 [role='list'] li::before {
   content: '\200B'; /* add zero-width space */
   background: color-mix(in lch, Canvas 80%, CanvasText);
-  border-inline-end: 2px solid;
+  border-inline-end: 0.3ch solid;
 }
 
 mark::before,
