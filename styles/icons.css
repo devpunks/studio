@@ -64,7 +64,6 @@ a[href*=github]::before
 a[href*=youtube]::before {
   width: 4ch;
   content: '►';
-  padding: 0.2em 0.618em 0.1em;
   color: #fff;
   font-size: 0.7em;
   background: #f00;
