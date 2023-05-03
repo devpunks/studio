@@ -7,7 +7,9 @@
  * Styling Form Pseudo Elements - https://www.tjvantoll.com/2013/04/15/list-of-pseudo-elements-to-style-form-controls/#input_range
  *
  * Web Form Usability (Top 10 Practices) - https://www.nngroup.com/articles/web-form-design
- * A Form of Madness - http://diveintohtml5.info/forms.html */
+ * A Form of Madness - http://diveintohtml5.info/forms.html
+ * Styling - https://www.quirksmode.org/blog/archives/2017/12/native_form_val.html
+ */
 
 :root {
   --flex-direction: column;
