@@ -62,6 +62,7 @@ a[href*=instagram]::before
 a[href*=github]::before
   { content: '🐙' }
 a[href*=youtube]::before {
+  width: 4ch;
   content: '►';
   padding: 0.2em 0.618em 0.1em;
   color: #fff;
