@@ -84,7 +84,7 @@ a[href*=facebook]::before,
 a[href^=facetime]::before,
 a[href^=facetime-audio]::before {
   color: #fff;
-  padding: 0 .3em;
+  padding: 0 .3ch;
   font-weight: bold;
   border-radius: .3em;
   background: #3b5998;
