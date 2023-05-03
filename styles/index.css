@@ -503,7 +503,6 @@ th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
   { background: ButtonFace }
 
 a {
-  background: red;
   display: inline;
   cursor: pointer;
   padding: 0.303ch 0.6182ch;
