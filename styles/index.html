@@ -1755,8 +1755,11 @@ class Shape {
 
       <a title='Top of page' href=#>Top</a>
 
-      <!-- https://moderncss.dev/pure-css-custom-styled-radio-buttons/ -->
-      <fieldset id=radios>
+      <!--
+        - https://moderncss.dev/pure-css-custom-styled-radio-buttons/
+        - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/radiogroup_role
+      -->
+      <fieldset id=radios role=radiogroup>
         <legend>Radios</legend>
 
         <ul>
