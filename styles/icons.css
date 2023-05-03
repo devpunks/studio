@@ -86,6 +86,7 @@ a[href^=facetime-audio]::before {
   color: #fff;
   padding: 0 .3ch;
   font-weight: bold;
+  font-size: 1.618ch;
   border-radius: .3em;
   background: #3b5998;
   text-shadow: .1em .1em .1em rgb(10,10,10,0.4)
