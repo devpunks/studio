@@ -8,44 +8,36 @@
   "module": "./index.es",
   "author": "devPunks",
   "description": "devPunks.studio",
-
   "contributors": [],
   "homepage": "https://github.com/devpunks/studio#readme",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devpunks/studio.git"
   },
-
   "bugs": {
     "url": "https://github.com/devpunks/studio/issues"
   },
-
   "keywords": [
     "science",
     "technology",
     "engineering",
     "music"
   ],
-
   "cpu": [
     "!arm32",
     "x64",
     "arm64"
   ],
-
   "os": [
     "!win32",
     "linux",
     "darwin",
     "android"
   ],
-
   "engines": {
     "npm": "9.x",
     "node": "18.x"
   },
-
   "workspaces": [
     "audio"
   ],
@@ -68,15 +60,16 @@
     "man": ".man",
     "audio": "audio"
   },
-  "bundleDependencies": "true",
-  "peerDependencies": { "pm2": "5.x" },
+  "peerDependencies": {
+    "pm2": "5.x"
+  },
   "dependencies": {
     "express": "4.x",
+    "npm": "^9.1.2",
     "postcss": "8.x",
-    "postcss-import": "15.x"
+    "postcss-import": "15.x",
+    "vercel": "^19.1.2"
   },
-  "devDependencies": { },
-
   "scripts": {
     "log": "pm2 log all",
     "test": "node --test",
