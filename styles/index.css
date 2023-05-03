@@ -506,7 +506,9 @@ a {
   background: red;
   display: inline;
   cursor: pointer;
-  display: inline-block;
+  padding: 0.303ch 0.6182ch;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
 }
 a[rel=search]
   { cursor: help }
