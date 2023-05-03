@@ -67,7 +67,9 @@ a[href*=youtube]::before {
   color: #fff;
   font-size: 0.7em;
   background: #f00;
-  border-radius: .4em;
+  text-align: center;
+  line-height: 3.8ch;
+  border-radius: 0.4em;
 }
 
 a[href*='maps.google.com']::before
