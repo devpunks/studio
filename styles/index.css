@@ -630,7 +630,6 @@ ul > li {}
 ol > li::before,
 ul > li::before {
   width: 1ch;
-  content: '\232A';
   display: inline-block;
   margin-inline-end: 0.6182ch;
 }
