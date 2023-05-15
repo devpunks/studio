@@ -101,7 +101,7 @@
 
 ::selection {
   color: var(--background-color);
-  background-color: currentColor
+  background-color: CurrentColor
 }
 
 ::backdrop
