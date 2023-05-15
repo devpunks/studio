@@ -80,6 +80,7 @@ label {
   /* padding: 1ch; */
   text-align: var(--text-align);
   box-sizing: border-box;
+  white-space: nowrap;
 }
 label code {
 }
