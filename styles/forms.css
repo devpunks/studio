@@ -75,9 +75,9 @@ label {
   padding: var(--margin-collapse-bugfix) var(--line-height);
 }
 :not(li) > label {
-  width: 100%;
   display: block;
   max-width: 80ch;
+  background: red;
 }
 
 :placeholder-shown {
