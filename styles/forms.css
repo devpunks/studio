@@ -150,7 +150,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 }
 
 
-label output, label select, label textarea, label [type], label input:not([type]) {grid-column: 2;width: calc((var(--GOLDEN-RATIO) - 1) * 100%);}
+label output, label select, label textarea, label [type], label input:not([type]) {grid-column: 2;/* width: calc((var(--GOLDEN-RATIO) - 1) * 100%); *//* flex-basis: 68%; */max-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length));}
 
 [type=file] + output {
   /* display: inline; */
