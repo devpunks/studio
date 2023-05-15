@@ -90,7 +90,8 @@ label, label + input {
   margin: 0 1ch;
   /* display: block; */
   width: 100%;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
+  justify-content: end;
 }
 label + input {
   background: purple;
