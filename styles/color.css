@@ -59,7 +59,7 @@
   --darkest-color:    rgba(180,180,180, 0.7);
   --a:                rgba(231,47,188,0.8);
   --a\:hover:         rgba(231,47,188,1.0);
-  --accent-color:     var(--lighter-color, auto); /* https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color */)
+  --accent-color:     var(--lighter-color, CanvasColor); /* https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color */)
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/color */
