@@ -130,6 +130,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   width: 100%;
   /* max-width: var(--line-length); */
+  min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length));
   display: inline-block;
   /* list-style-position: inside; */
   white-space: nowrap;
