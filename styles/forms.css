@@ -74,6 +74,10 @@ label {
   background:  green;
   display: block;
   display: inline-block;
+  display: inline-flex;
+  /* justify-content: flex-end; */
+  flex-direction: var(--flex-direction);
+  /* padding: 1ch; */
   text-align: var(--text-align);
   box-sizing: border-box;
 }
