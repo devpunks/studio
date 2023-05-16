@@ -540,7 +540,6 @@ input:not([type]):read-only
 :required, [required], [aria-required=true] {
   /*
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
-    - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Using_generated_content_with_pseudo-classes
   */
   opacity: 100%;
   /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w2.org/2000/svg"><text x="0%" y="10%" font-size="100%" fill="red">I love SVG!</text></svg>'); */
