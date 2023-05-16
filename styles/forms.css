@@ -142,7 +142,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   font-size: var(--larger);
   border: solid currentColor;
   border-width: 0 0 0.1em;
-  /* padding: 0 var(--line-height); */
+  padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
   line-height: var(
   --line-height);
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
