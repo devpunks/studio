@@ -554,6 +554,9 @@ input:valid::before, input:in-range::before,
 select:valid::before, textarea:invalid::before,, [aria-invalid=false]::before {
   content: ' ';
 }
+input:required:valid, textarea:required:valid, select:required:valid, [aria-invalid=false] {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text fill='Lime' font-size='2em' y='1em' x='0.1682em'>✓</text></svg>");
+}
 
 /* INVALID */
 :user-invalid
