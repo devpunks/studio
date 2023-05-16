@@ -211,7 +211,7 @@ template /* IE custom elements */
 [hidden], [aria-hidden=true], template {
   width: 1px;
   height: 1px;
-  display: n;
+  display: none;
   overflow: hidden;
    /* be careful..can be overridden */
   position: absolute;
