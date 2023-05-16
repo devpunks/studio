@@ -541,21 +541,7 @@ input:not([type]):read-only
   /*
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
   */
-  opacity: 100%;
-  /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w2.org/2000/svg"><text x="0%" y="10%" font-size="100%" fill="red">I love SVG!</text></svg>'); */
-  background-image: radial-gradient(ActiveText 30%, transparent 30%);
-  background-size: 1ch 1ch;
-  background-position: left center;
-  background-repeat: no-repeat;
-}
-:required::before, [required]::before, [aria-required=true]::before {
-  content: '*';
-  display: inline-block;
-  background: red;
-  width: 1ch;
-  height: 1ch;
-  line-height: 1ch;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><text x="5%" y="5%" font-size="30" fill="red">I love SVG!</text></svg>');
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text fill='GrayText' font-size='2em' y='1em' x='0.1682em'>*</text></svg>");
 }
 
 /* VALID */
