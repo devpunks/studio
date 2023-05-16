@@ -1251,8 +1251,15 @@ class Shape {
           <label for=organization>Organization</label>
           <input id=organization name=organization autocomplete=organization>
 
-          <label>Organization Title</label>
-          <input name=organization-title autocomplete=organization-title>
+          <label for=title>Organization Title</label>
+          <input id=title name=organization-title autocomplete=organization-title>
+
+          <input required minlength=2 placeholder=Language name=language autocomplete=language>
+          <label for=language2>Language</label>
+          <input required placeholder=foo id=language2 name=language autocomplete=language>
+          <label>Language
+            <input required name=language autocomplete=language>
+          </label>
         </fieldset>
 
         <fieldset id=autocomplete>
