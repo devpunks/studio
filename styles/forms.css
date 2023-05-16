@@ -32,7 +32,6 @@ a, area, button, input, label, select, summary, textarea, [tabindex] {
 */
 form {
   margin: var(--margin);
-  width: 100%;
   max-width: var(--max-width);
   flex-direction: var(--flex-direction);
   caret-color: currentcolor; /* https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color */
