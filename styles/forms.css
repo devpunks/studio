@@ -139,6 +139,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   text-overflow: ellipsis;
   font-size: var(
   --font-size);
+  font-size: var(--larger);
   border: solid currentColor;
   border-width: 0 0 0.1em;
   /* padding: 0 var(--line-height); */
