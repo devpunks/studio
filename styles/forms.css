@@ -565,14 +565,9 @@ input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown),
   accent-color: ActiveText;
   color:        ActiveText;
   cursor:       not-allowed;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text fill='ActiveText' font-size='2em' y='1em' x='0'>✗</text></svg>");
 }
-input:invalid::before, input:out-of-in-range::before,
-select:invalid::before, textarea:invalid::before, [aria-invalid=false]::before {
-  content: 'x';
-  display:block;
-  width: 1em;
-  height: 1em;
-}
+
 
 /* INERT */
 /*
