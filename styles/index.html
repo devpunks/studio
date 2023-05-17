@@ -1230,12 +1230,25 @@ class Shape {
 
     <form autocomplete name=autocomplete action=#>
         <input hidden required minlength=2 placeholder=Language name=language autocomplete=language>
-
+<span hidden>
         <label for=la>Language</label>
         <input required placeholder=foo id=la>
 
         <label for=la2>Language</label>
         <input required id=la2>
+</span>
+
+        <label>Language
+          <input placeholder=foo required autocomplete=language>
+        </label>
+
+        <label>Language
+          <input placeholder=foo required autocomplete=language>
+        </label>
+
+        <label>Language
+          <input required autocomplete=language>
+        </label>
 
         <label>Language
           <input placeholder=foo required autocomplete=language>
