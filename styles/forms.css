@@ -36,6 +36,11 @@ form {
   flex-direction: var(--flex-direction);
   caret-color: currentcolor; /* https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color */
 }
+form[autocomplete] {
+  columns: 2;
+  column-gap: 0;
+  background: orange;
+}
 form:focus-within { }
 fieldset:focus-within { }
 /*
