@@ -95,6 +95,7 @@ label, label + input {
   /* display: block; */
   width: 100%;
   /* width: -webkit-fill-available; */
+  /* width: 50%; */
   justify-content: end;
 }
 label + input {
