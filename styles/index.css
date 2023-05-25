@@ -247,10 +247,23 @@ mark {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
-mark {
-  padding: .618em;
-  padding: 0.1618em;
-  text-shadow: 0.06812em 0.06812em 0 canvas;
+time {
+
+}
+time[title] {
+  background: lime;
+}
+time[datetime] {
+  background: orange;
+}
+time::before, time::after {
+  background: pink;
+}
+time::before {
+  content: 'foo';
+}
+time::after{
+  content: 'foo';
 }
 data, var {
   color: CanvasText;
