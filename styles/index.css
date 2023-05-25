@@ -95,6 +95,7 @@
 ::before, ::after {
   /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
   display: inline-block;
+  /* vertical-align: text-top; */
 }
 
 /*
@@ -247,8 +248,18 @@ mark {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
-time {
 
+/*
+  - https://stackoverflow.com/questions/5437674/what-unicode-characters-represent-time
+*/
+time, time::before, time::after {
+}
+time {
+  white-space: nowrap;
+  display: inline-block;
+  font-size: var(--larger);
+  padding: 0.618ch;
+  background: purple;
 }
 time[title] {
   background: lime;
@@ -258,13 +269,28 @@ time[datetime] {
 }
 time::before, time::after {
   background: pink;
+  padding: 0.1682ch;
 }
 time::before {
-  content: 'foo';
+  content: '⌚';
 }
 time::after{
-  content: 'foo';
+  content: attr(datetime);
+  padding-inline: 0.6182ch;
 }
+time[datetime]::before {
+  content: '🗓';
+}
+time[datetime]::after {
+  margin-inline-start: 1ch;
+  box-shadow: 0 0 0.1ch 0.1682ch;
+}
+time:empty {
+  background: yellow;
+}
+time:empty::before {
+}
+
 data, var {
   color: CanvasText;
   padding: 0.1618em;
