@@ -240,6 +240,7 @@ hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
 }
 
 mark {
+  padding: 0.1618em;
   border-radius: 0.318em;
   box-shadow: var(--box-shadow);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break */
