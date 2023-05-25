@@ -576,7 +576,7 @@ iframe, pre, table, select[multiple] {
     - https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter
     - https://www.bram.us/2021/07/23/prevent-unwanted-layout-shifts-caused-by-scrollbars-with-the-scrollbar-gutter-css-property/
   */
-  scrollbar-gutter: stable;
+  scrollbar-gutter: stable both-edges;
  }
 
 pre, pre code, var, data, p, cite, blockquote, address
