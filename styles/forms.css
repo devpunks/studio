@@ -247,6 +247,7 @@ label output, label select, label textarea, label [type], label input:not([type]
 
 /*
  * - http://danielstern.ca/range.css
+
  * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
 */
 input[type=range] {
