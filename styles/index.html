@@ -583,6 +583,20 @@
         The<code>&lt;<dfn title=definition>dfn</dfn>&gt;</code> tag <dfn>indicates definition text.</dfn>
       <p>
         <mark>The <code>&lt;<dfn title=mark>mark</dfn>&gt;</code> tag indicates a highlight in text.</mark>
+      <p>The <!-- https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element -->
+        <a rel=external target=mdn href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time'>
+          <code>&lt;<dfn id='<time>' title=time>time</dfn>&gt;</code>
+        </a> tag is used to declare and <time title='This is the title for <time>'>display datetime</time>:
+        <ul role=list>
+          <li>
+            <a title='<time> nested in <a>nchor link' href='#<time>'><time></time></a>
+          <li>
+            <time><a title='<a>nchor link nested in <time>' href='#<time>'></a></time>
+          <li>
+            <time datetime=2017-01-01T12:00+00:00>Beginning of year</time>.
+          <li>
+            <time datetime=2017-01-01T12:00+00:00 title='This is the title for time'>Beginning of year</time>.
+        </ul>
       <p>
         The <code>&lt;<dfn title=variable>var</dfn>&gt;</code>iable tag is used in mathematical expressions, &amp; programming contexts,
         such as <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup>.
