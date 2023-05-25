@@ -74,6 +74,10 @@ fieldset li
 form details {
   padding: 0;
 }
+
+/*
+ * - https://www.w3.org/TR/WCAG20-TECHS/H44.html
+*/
 label {
   background:  green;
   display: block;
