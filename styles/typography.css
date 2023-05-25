@@ -479,7 +479,7 @@ pre {
   margin: var(--p-margin);
 }
 code {
-  white-space: nowrap;
+  white-space: initial;
 }
 pre code {
   margin: var(--line-height);
