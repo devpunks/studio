@@ -270,6 +270,8 @@ time[datetime] {
 time::before, time::after {
   background: pink;
   padding: 0.1682ch;
+  margin-inline: 0.1682ch;
+  text-align: center;
 }
 time::before {
   content: '⌚';
