@@ -90,7 +90,18 @@ label {
   box-sizing: border-box;
   white-space: nowrap;
 }
-label code {
+/*
+ * - https://www.w3.org/TR/WCAG20-TECHS/H44.html
+ * - Form Labelablehttps://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#labelable
+ *     Elements that can be associated with <label> elements. Contains:
+ *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
+*/
+label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
+  & output {
+    background-color: #bada55;
+  }
+}
+label button {
 }
 label, label + input {
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
