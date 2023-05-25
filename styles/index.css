@@ -255,6 +255,7 @@ mark {
 time, time::before, time::after {
 }
 time {
+  padding: 0.618ch;
   white-space: nowrap;
   display: inline-block;
   font-size: var(--larger);
