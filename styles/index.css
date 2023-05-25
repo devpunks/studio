@@ -259,7 +259,7 @@ time {
   white-space: nowrap;
   display: inline-block;
   font-size: var(--larger);
-  padding: 0.618ch;
+  text-overflow: ellipsis;
   background: purple;
 }
 time[title] {
