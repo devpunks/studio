@@ -474,7 +474,7 @@ pre, code, kbd, samp {
   background:  ButtonFace;
 }
 pre {
-  overflow: auto;
+  overflow: overlay;
   text-align: initial;
   margin: var(--p-margin);
 }
