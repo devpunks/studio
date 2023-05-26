@@ -279,7 +279,7 @@ time::before {
 }
 time::after{
   content: attr(datetime);
-  padding-inline: 0.6182ch;
+  margin-inline-start: 0.1682ch;
 }
 time[datetime]::before {
   content: '🗓';
