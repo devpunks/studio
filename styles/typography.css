@@ -455,7 +455,7 @@ em {
 }
 b, strong
   { font-weight: bolder }
-
+b {}
 p, q, address {
   max-width: 80ch;
   text-align: start;
