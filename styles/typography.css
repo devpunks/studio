@@ -467,6 +467,23 @@ p {
   /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why/ */
   /* 16x0.81=13 */
 }
+b[autocapitalize], p[autocapitalize=characters], p[autocapitalize=words], p[autocapitalize]::first-letter {
+  color: ActiveText;
+  font-weight: bold;
+  font-size: calc( 100% * var(--GOLDEN-RATIO) );
+}
+
+
+[autocapitalize=off], [autocapitalize=none] {
+  text-transform: none;
+}
+[autocapitalize=characters] {
+  text-transform: uppercase;
+}
+[autocapitalize=words]{
+  text-transform: capitalize;
+}
+
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
