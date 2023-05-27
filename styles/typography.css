@@ -334,8 +334,6 @@ section > header {
 }
 header *
   { text-transform: initial }
-section > header
-  {font-size: var(--largest);--fs: 1.681em;font-size: calc( var(--largest) * var(--golden-ratio) );}
 
 a:has(header, h1, h2, h3, h4, h5, h6),
 :where(header, h1, h2, h3, h4, h5, h6) a
