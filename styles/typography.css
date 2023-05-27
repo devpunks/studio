@@ -307,6 +307,10 @@ body > aside {
 body > footer
   { text-align: center }
 
+main > section:first-of-type, body > aside {
+  padding-top: var(--line-height);
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
