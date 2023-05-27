@@ -359,7 +359,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
 }
-a:hover {
+a:hover, header a {
   text-decoration-color: ActiveText;
 }
 a::before, a::after {
