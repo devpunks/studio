@@ -329,6 +329,9 @@ header { --fs: calc( var(--font-size) * var(--larger) );
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
   font-variant-caps: small-caps;
 }
+section > header {
+  font-size: calc( var(--largest) * var(--golden-ratio) );
+}
 header *
   { text-transform: initial }
 section > header
