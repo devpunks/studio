@@ -355,7 +355,6 @@ a { /* TODO: migrate ARIA to accessibility.css */
   padding-inline: 0.1682ch;
   text-underline-offset: 0;
   text-decoration-thickness: .168em;
-  text-decoration-color: transparent;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
 }
