@@ -467,7 +467,7 @@ b {}
 p, q, address {
   max-width: 80ch;
   text-align: start;
-  padding: 0 var(--line-height);
+  padding: var(--margin-collapse-bugfix) var(--line-height);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
 p {
