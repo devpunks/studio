@@ -39,9 +39,10 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
     - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
-*, ::before, ::after
-  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
-  {box-sizing: inherit;}
+*, ::before, ::after {  /* https://stackoverflow.com/questions/7327326 */
+  min-width: 0; /* https://defensivecss.dev/tip/flexbox-min-content-size */
+  box-sizing: inherit; /* https://css-tricks.com/international-box-sizing-awareness-day/ */
+}
 
 html, body {
   /*
@@ -52,8 +53,8 @@ html, body {
 /* TODO: REFACTOR */
   /* min-width: 100vw; */
   /* min-width: -webkit-fill-available; */  /* Mozilla-based browsers will ignore this. */
-  min-width:         -moz-available; /* WebKit-based browsers will ignore this. */
-  min-width:         stretch;        /* https://caniuse.com/?search=fill-available */
+  min-width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  min-width: stretch;                 /* https://caniuse.com/?search=fill-available */
   min-height: 100vh;                  /* fall-back */
   min-height: -moz-available;         /* WebKit-based browsers will ignore this. */
   min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
@@ -64,9 +65,9 @@ html, body {
 
 /* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
-  box-sizing: border-box;
   overflow-y: scroll;
   /* overflow-x: hidden; */
+  box-sizing: border-box;
 }
 body {
   display: flex;
