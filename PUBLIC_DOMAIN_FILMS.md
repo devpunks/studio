@@ -25,7 +25,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - Teenagers from Outer Space - https://en.wikipedia.org/wiki/Teenagers_from_Outer_Space
   - Trailer  - https://youtube.com/watch?v=dQYlvwp6Ip0
 - The Brain That Wouldnt Die - https://en.wikipedia.org/wiki/The_Brain_That_Wouldn%27t_Die
-  - https://www.youtube.com/watch?v=BqKv_kLZZGQ
+  - https://youtube.com/watch?v=BqKv_kLZZGQ
 - The Devil Bat - https://en.wikipedia.org/wiki/The_Devil_Bat
   - Trailer - https://www.youtube.com/watch?v=UXKxhzAGnSE
 - The Emporer Jones - https://en.wikipedia.org/wiki/The_Emperor_Jones_(1933_film)
