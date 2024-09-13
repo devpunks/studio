@@ -13,7 +13,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - https://en.wikipedia.org/wiki/House_on_Haunted_Hill
 - https://en.wikipedia.org/wiki/Night_of_the_Living_Dead
 - [Plan 9 From Outer Space](https://en.wikipedia.org/wiki/Plan_9_from_Outer_Space)
-  - https://www.youtube.com/watch?v=u2ukRYsYPmo
+  - https://youtube.com/watch?v=u2ukRYsYPmo
 - [A Bucket of Blood](https://en.wikipedia.org/wiki/A_Bucket_of_Blood)
 - Attack of the Giant Leeches - https://en.wikipedia.org/wiki/Attack_of_the_Giant_Leeches
 - Go For Broke - https://en.wikipedia.org/wiki/Go_for_Broke!_(1951_film)
