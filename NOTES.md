@@ -84,7 +84,7 @@ https://drafts.csswg.org/css-font-loading/
  application/ecmascript (.es) file extension - https://tools.ietf.org/html/rfc4329#section-8.2
 
  Page visibility API
- https://www.html5rocks.com/en/tutorials/pagevisibility/intro/
+ https://html5rocks.com/en/tutorials/pagevisibility/intro/
   https://www.w3.org/TR/page-visibility/#sec-document-interface
   Responsive typography. https://twitter.com/sarah_edo/status/856543697462325248
   Battery API - https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
