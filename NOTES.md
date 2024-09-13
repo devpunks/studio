@@ -131,7 +131,7 @@ https://drafts.csswg.org/css-font-loading/
    ES File Extension
 
 Leading Forward Slash
-   http://stackoverflow.com/questions/4659345/is-there-any-downside-for-using-a-leading-double-slash-to-inherit-the-protocol-i
+   http://stackoverflow.com/q/4659345/is-there-any-downside-for-using-a-leading-double-slash-to-inherit-the-protocol-i
    Difference between the W3C and WHATWG
    https://ww      w.reddit.com/r/javascript/comments/5swe9b/what_is_the_difference_between_the_w3c_and_the/
     Branch Protection
