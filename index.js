@@ -16,7 +16,7 @@
     - https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation
     - https://quirksmode.org/blog/archives/2017/12/native_form_val.html
     - https://quirksmode.org/blog/archives/2017/12/native_form_val_1.html
-    - https://www.quirksmode.org/blog/archives/2017/12/native_form_val_2.html
+    - https://quirksmode.org/blog/archives/2017/12/native_form_val_2.html
 */
 var
   first  = document.querySelector ('#first')
