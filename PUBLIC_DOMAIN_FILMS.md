@@ -45,4 +45,4 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
   - https://youtube.com/watch?v=nzPjlukF54o
   - Short Movie - https://youtube.com/watch?v=GKN_I6ouswg
 - The Cabinet of Dr. Caligari - https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari
-  - Trailer - https://www.youtube.com/watch?v=IAtpxqajFak
+  - Trailer - https://youtube.com/watch?v=IAtpxqajFak
