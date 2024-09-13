@@ -14,7 +14,7 @@
 
 See [`index.webmanifest`](index.webmanifest)
 
-w3c.org Web App Manifest specification - https://www.w3.org/TR/appmanifest
+w3c.org Web App Manifest specification - https://w3.org/TR/appmanifest
 
 
 ## `worker.js`
