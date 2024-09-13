@@ -136,7 +136,7 @@ Leading Forward Slash
    https://reddit.com/r/javascript/comments/5swe9b/what_is_the_difference_between_the_w3c_and_the/
     Branch Protection
     Regular Expressions:
-    Non Capturing - http://stackoverflow.com/questions/3512471/what-is-a-non-capturing-group-what-does-a-question-mark-followed-by-a-colon
+    Non Capturing - http://stackoverflow.com/q/3512471/what-is-a-non-capturing-group-what-does-a-question-mark-followed-by-a-colon
 Cosole
     https://developer.mozilla.org/en-US/docs/Web/API/Console/table
     Clone Node https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode
