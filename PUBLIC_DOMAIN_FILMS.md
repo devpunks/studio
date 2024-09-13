@@ -7,7 +7,7 @@
 - [List of Open Source Films](https://en.wikipedia.org/wiki/List_of_open-source_films)
 
 
-Top 10 Scariest Silent Films - https://www.youtube.com/watch?v=vxFVHQTqMRg
+Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 
 - https://en.wikipedia.org/wiki/Carnival_of_Souls
 - https://en.wikipedia.org/wiki/House_on_Haunted_Hill
