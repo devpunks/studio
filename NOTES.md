@@ -98,7 +98,7 @@ https://drafts.csswg.org/css-font-loading/
 
   CSS Snappoints (OH SNAP!)
     https://blog.hospodarets.com/css-scroll-snap
-    https://www.w3.org/TR/css-scroll-snap-1/
+    https://w3.org/TR/css-scroll-snap-1/
     https://drafts.csswg.org/css-scroll-snap/
     http://caniuse.com/#feat=css-snappoints
     https://css-tricks.com/introducing-css-scroll-snap-points/
