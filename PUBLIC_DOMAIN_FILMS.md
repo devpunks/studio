@@ -29,7 +29,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - The Devil Bat - https://en.wikipedia.org/wiki/The_Devil_Bat
   - Trailer - https://youtube.com/watch?v=UXKxhzAGnSE
 - The Emporer Jones - https://en.wikipedia.org/wiki/The_Emperor_Jones_(1933_film)
-  - Full Movie - https://www.youtube.com/watch?v=u4aEe97SVSg
+  - Full Movie - https://youtube.com/watch?v=u4aEe97SVSg
 - The Gorilla - https://en.wikipedia.org/wiki/The_Gorilla_(1939_film)
 - The Jackie Robinson Story - https://en.wikipedia.org/wiki/The_Jackie_Robinson_Story
 - The Last Man on Earth - https://en.wikipedia.org/wiki/The_Last_Man_on_Earth_(1964_film)
