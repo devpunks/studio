@@ -23,7 +23,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - Santa Clause conquers the Martians - https://en.wikipedia.org/wiki/Santa_Claus_Conquers_the_Martians
   - Trailer - https://youtube.com/watch?v=MJG525wyX68
 - Teenagers from Outer Space - https://en.wikipedia.org/wiki/Teenagers_from_Outer_Space
-  - Trailer  - https://www.youtube.com/watch?v=dQYlvwp6Ip0
+  - Trailer  - https://youtube.com/watch?v=dQYlvwp6Ip0
 - The Brain That Wouldnt Die - https://en.wikipedia.org/wiki/The_Brain_That_Wouldn%27t_Die
   - https://www.youtube.com/watch?v=BqKv_kLZZGQ
 - The Devil Bat - https://en.wikipedia.org/wiki/The_Devil_Bat
