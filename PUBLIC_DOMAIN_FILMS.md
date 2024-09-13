@@ -19,7 +19,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - Go For Broke - https://en.wikipedia.org/wiki/Go_for_Broke!_(1951_film)
 - Reefer Madness - https://en.wikipedia.org/wiki/Reefer_Madness
   - Trailer - https://youtube.com/watch?v=sbjHOBJzhb0
-  - Full Movie - https://www.youtube.com/watch?v=zhQlcMHhF3w
+  - Full Movie - https://youtube.com/watch?v=zhQlcMHhF3w
 - Santa Clause conquers the Martians - https://en.wikipedia.org/wiki/Santa_Claus_Conquers_the_Martians
   - Trailer - https://www.youtube.com/watch?v=MJG525wyX68
 - Teenagers from Outer Space - https://en.wikipedia.org/wiki/Teenagers_from_Outer_Space
