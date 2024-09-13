@@ -1,4 +1,3 @@
-/*
   - Accessibility
     - [role=button] - https://www.w3.org/WAI/ARIA/apg/example-index/button/button.html
     - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#required_javascript_features
