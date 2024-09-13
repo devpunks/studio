@@ -85,7 +85,7 @@ https://drafts.csswg.org/css-font-loading/
 
  Page visibility API
  https://html5rocks.com/en/tutorials/pagevisibility/intro/
-  https://www.w3.org/TR/page-visibility/#sec-document-interface
+  https://w3.org/TR/page-visibility/#sec-document-interface
   Responsive typography. https://twitter.com/sarah_edo/status/856543697462325248
   Battery API - https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
   Link in body
