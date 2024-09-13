@@ -90,7 +90,7 @@ https://drafts.csswg.org/css-font-loading/
   Battery API - https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
   Link in body
   https://jakearchibald.com/2016/link-in-body/
-  https://www.w3.org/Bugs/Public/show_bug.cgi?id=27303
+  https://w3.org/Bugs/Public/show_bug.cgi?id=27303
   https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/ZAPP8aTnyn0
   https://github.com/whatwg/html/commit/179983e9eb99efe417349a40ebb664bd11668ddd
   Intersection Observer
