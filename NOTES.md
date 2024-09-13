@@ -5,7 +5,7 @@
 // $$$$$$$ -
 https://blog.risingstack.com/writing-a-javascript-framework-project-structuring/
 // USE BROWSERSTACK
-// https://www.browserstack.com/screenshots/46a766e4ada9f5ad93a40e085769c68432601026
+// https://browserstack.com/screenshots/46a766e4ada9f5ad93a40e085769c68432601026
 
 // https://github.com/w3c/webcomponents/issues/509#issuecomment-230700060
 
