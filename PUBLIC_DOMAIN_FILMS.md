@@ -40,7 +40,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
   - 
 - The Phantom of the Opera - https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1925_film)
 - White Zombie - https://en.wikipedia.org/wiki/White_Zombie_(film)
-  - Trailer - https://www.youtube.com/watch?v=lOzgz1Ddmz8
+  - Trailer - https://youtube.com/watch?v=lOzgz1Ddmz8
 - _(Riddle of the)_ Black Cat _(E.A. Poe)_ - https://en.wikipedia.org/wiki/The_Black_Cat_(short_story)
   - https://www.youtube.com/watch?v=nzPjlukF54o
   - Short Movie - https://www.youtube.com/watch?v=GKN_I6ouswg
