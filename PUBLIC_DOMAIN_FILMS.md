@@ -42,7 +42,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - White Zombie - https://en.wikipedia.org/wiki/White_Zombie_(film)
   - Trailer - https://youtube.com/watch?v=lOzgz1Ddmz8
 - _(Riddle of the)_ Black Cat _(E.A. Poe)_ - https://en.wikipedia.org/wiki/The_Black_Cat_(short_story)
-  - https://www.youtube.com/watch?v=nzPjlukF54o
+  - https://youtube.com/watch?v=nzPjlukF54o
   - Short Movie - https://www.youtube.com/watch?v=GKN_I6ouswg
 - The Cabinet of Dr. Caligari - https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari
   - Trailer - https://www.youtube.com/watch?v=IAtpxqajFak
