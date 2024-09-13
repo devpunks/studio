@@ -33,7 +33,7 @@ Top 10 Scariest Silent Films - https://youtube.com/watch?v=vxFVHQTqMRg
 - The Gorilla - https://en.wikipedia.org/wiki/The_Gorilla_(1939_film)
 - The Jackie Robinson Story - https://en.wikipedia.org/wiki/The_Jackie_Robinson_Story
 - The Last Man on Earth - https://en.wikipedia.org/wiki/The_Last_Man_on_Earth_(1964_film)
-  - Trailer - https://www.youtube.com/watch?v=OWlNe1-5wb8
+  - Trailer - https://youtube.com/watch?v=OWlNe1-5wb8
 - The Terror - https://en.wikipedia.org/wiki/The_Terror_(1963_film)
   - Trailer - https://www.youtube.com/watch?v=N2YRo6dskac
 - The Wasp Woman - https://en.wikipedia.org/wiki/The_Wasp_Woman
