@@ -39,7 +39,7 @@ Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is m
 
 WEB PLATFORM STATUS - https://platformstatus.io/
 
-https://www.chromestatus.com/features
+https://chromestatus.com/features
 https://developer.microsoft.com/en-us/microsoft-edge/platform/status/
 https://platform-status.mozilla.org/#request-idle-callback
 https://webkit.org/status/
