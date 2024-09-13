@@ -133,7 +133,7 @@ https://drafts.csswg.org/css-font-loading/
 Leading Forward Slash
    http://stackoverflow.com/q/4659345/is-there-any-downside-for-using-a-leading-double-slash-to-inherit-the-protocol-i
    Difference between the W3C and WHATWG
-   https://ww      w.reddit.com/r/javascript/comments/5swe9b/what_is_the_difference_between_the_w3c_and_the/
+   https://reddit.com/r/javascript/comments/5swe9b/what_is_the_difference_between_the_w3c_and_the/
     Branch Protection
     Regular Expressions:
     Non Capturing - http://stackoverflow.com/questions/3512471/what-is-a-non-capturing-group-what-does-a-question-mark-followed-by-a-colon
