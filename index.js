@@ -43,5 +43,5 @@ console.log ('loading index.js')
 
 // FULLSCREEN
 // https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API
-// https://developers.google.com/web/fundamentals/native-hardware/fullscreen/
+// https://developers.google.com/web/fundamentals/native-hardware/fullscreen
 window.scrollTo(0,1);
