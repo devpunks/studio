@@ -20,10 +20,7 @@
     - https://quirksmode.org/blog/archives/2017/12/native_form_val_2.html
 */
 
-var
-  first  = document.querySelector ('#first')
-, second = document.querySelector ('#second')
-, result = document.querySelector ('#result')
+document.forms
 
 //, worker = 'Worker' in window && new Worker ('worker.js')
 
