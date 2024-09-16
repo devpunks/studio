@@ -596,7 +596,7 @@ input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid,
 input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid, input:not(:placeholder-shown):out-of-range, select:not(:placeholder-shown):invalid, [aria-invalid=true]:not(:placeholder-shown):invalid:focus {
   /* TODO: fix intermediate styles */
   /* TODO: Possibly add inert */
-  border-color: yellow;
+  color: yellow;
 }
 
 /* INERT */
