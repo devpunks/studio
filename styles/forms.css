@@ -594,7 +594,7 @@ input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid,
   background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text fill='ActiveText' font-size='2em' y='1em' x='0'>✗</text></svg>");
 }
 input:focus:invalid, textarea:focus:invalid, input:out-of-range:focus:invalid, select:focus:invalidf, , [aria-invalid=true]:focus:invalid {
-  
+  /* TODO: fix intermediate styles */
 }
 
 /* INERT */
