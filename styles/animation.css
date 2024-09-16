@@ -52,7 +52,7 @@
 @media (any-hover) and (hover) { }
 
 
-input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid, input:out-of-range:not(:placeholder-shown):invalid, select:not(:placeholder-shown):invalid, [aria-invalid=true]:not(:placeholder-shown) {
+input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid, input:out-of-range:not(:placeholder-shown):invalid, select:not(:placeholder-shown):invalid, [aria-invalid=true]:not(:placeholder-shown):invalid {
   animation: 0.4s linear infinite alternate border-pulse;
 }
 
