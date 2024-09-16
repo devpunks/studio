@@ -595,7 +595,8 @@ input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid,
 }
 input:focus:invalid, textarea:focus:invalid, input:out-of-range:focus:invalid, select:focus:invalidf, , [aria-invalid=true]:focus:invalid {
   /* TODO: fix intermediate styles */
-  /* TODO: Possibly add inert */}
+  /* TODO: Possibly add inertf */
+}
 
 /* INERT */
 /*
