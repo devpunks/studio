@@ -605,7 +605,12 @@ input:not(:placeholder-shown):out-of-range,
 }
 
 /* UNDETERMINED */
-input:focus:not(:placeholder-shown):invalid, textarea:focus:not(:placeholder-shown):invalid, input:focus:not(:placeholder-shown):out-of-range, select:focus:not(:placeholder-shown):invalid, [aria-invalid=true]:focus:not(:placeholder-shown):invalid {
+:required:placeholder-shown,
+input:focus:not(:placeholder-shown):invalid,
+select:focus:not(:placeholder-shown):invalid,
+textarea:focus:not(:placeholder-shown):invalid,
+input:focus:not(:placeholder-shown):out-of-range,
+[aria-invalid=true]:focus:not(:placeholder-shown):invalid {
   /* TODO: fix intermediate styles */
   /* TODO: Possibly add inert */
   color: yellow;
