@@ -616,7 +616,6 @@ input:focus:not(:placeholder-shown):out-of-range,
   /* TODO: fix intermediate styles */
   /* TODO: Possibly add inert */
   color: yellow;
-  background-image: initial;
 }
 
 /* INERT */
