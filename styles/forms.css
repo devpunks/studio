@@ -599,7 +599,7 @@ input:focus:not(:placeholder-shown):invalid, textarea:focus:not(:placeholder-sho
   /* TODO: fix intermediate styles */
   /* TODO: Possibly add inert */
   color: yellow;
-  background-image: unset;
+  background-image: initial;
 }
 
 /* INERT */
