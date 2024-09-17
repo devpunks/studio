@@ -593,7 +593,11 @@ input:required:valid, textarea:required:valid, select:required:valid, [aria-inva
 /* INVALID */
 :user-invalid
   { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
-input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid, input:not(:placeholder-shown):out-of-range, select:not(:placeholder-shown):invalid, [aria-invalid=true]:not(:placeholder-shown):invalid {
+input:not(:placeholder-shown):invalid,
+select:not(:placeholder-shown):invalid,
+textarea:not(:placeholder-shown):invalid,
+input:not(:placeholder-shown):out-of-range,
+[aria-invalid=true]:not(:placeholder-shown):invalid {
   accent-color: ActiveText;
   color:        ActiveText;
   cursor:       not-allowed;
