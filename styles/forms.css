@@ -603,7 +603,7 @@ input:not(:placeholder-shown):out-of-range,
   accent-color: ActiveText;
   color:        ActiveText;
   cursor:       not-allowed;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text fill='ActiveText' font-size='2em' y='1em' x='0'>✗</text></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text  font-size='2em' y='1em' x='0'>✗</text></svg>");
 }
 
 /* UNDETERMINED */
