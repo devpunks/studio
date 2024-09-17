@@ -572,7 +572,7 @@ input:not([type]):read-only
   /*
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
   */
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1em' x='0.1682em'>*</text></svg>");
+  background-image: initial;
 }
 
 /* VALID */
