@@ -114,7 +114,7 @@ label, label + input {
   justify-content: end;
 }
 label + input {
-  background: purple;
+  background-color: purple;
   padding: 0;
 }
 label + :not(input) {
