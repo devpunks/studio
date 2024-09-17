@@ -125,7 +125,6 @@ label + :not(input) {
 
 :placeholder-shown {
   text-overflow: ellipsis;
-  background: magenta;
 }
 select { /* https://github.com/whatwg/html/issues/3244 */
 }
