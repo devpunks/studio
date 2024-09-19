@@ -30,6 +30,7 @@ console.log( document.forms )
 document.addEventListener
   ('touchstart', function () {}, { passive: true })
 
+
 //worker.onmessage = function (e) {
 //  result.textContent = e.data
 //  console.log ('Message received from worker')
