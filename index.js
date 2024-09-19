@@ -20,7 +20,7 @@
     - https://quirksmode.org/blog/archives/2017/12/native_form_val_2.html
 */
 
-console.log( document.forms )
+console.log( document.forms
 
 //, worker = 'Worker' in window && new Worker ('worker.js')
 
