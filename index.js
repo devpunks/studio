@@ -36,7 +36,7 @@ document.addEventListener
 //}
 
 //worker.postMessage ( [first.value, second.value] )
-console.log ('loading index.js')
+console.log `loading index.js`
 
 // FULLSCREEN
 // https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API
