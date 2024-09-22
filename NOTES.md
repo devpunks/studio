@@ -148,8 +148,8 @@ Counters
   https://youtube.com/watch?v=Snj31cMmZ2c
   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters
 will-change -
-    https://developer.mozilla.org/en-US/docs/Web/CSS/will-change
-    http://cssmojo.com/the-dark-side-of-the-will-change-property/
-    https://css-tricks.com/prefetching-preloading-prebrowsing/
-    Link Prefetching - https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ
-    preconnect, prefetch, preload, prerender https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+  https://developer.mozilla.org/en-US/docs/Web/CSS/will-change
+  http://cssmojo.com/the-dark-side-of-the-will-change-property/
+  https://css-tricks.com/prefetching-preloading-prebrowsing/
+  Link Prefetching - https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ
+  preconnect, prefetch, preload, prerender https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
