@@ -37,7 +37,7 @@ Lightening Talks
 YOUTUBE COPYRIGHT FAIR USE
 Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use
 
-WEB PLATFORM STATUS - https://platformstatus.io/
+WEB PLATFORM STATUS - https://platformstatus.io
 
 https://chromestatus.com/features
 https://developer.microsoft.com/en-us/microsoft-edge/platform/status/
