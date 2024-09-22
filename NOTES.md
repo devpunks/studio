@@ -48,7 +48,7 @@ HTML
 Mathematical Programming Contexts.
 Removal of <head> <html> <body>
 No IE Support
-https://meyerweb.com/eric/thoughts/2009/01/22/using-http-headers-to-serve-styles/
+https://meyerweb.com/eric/thoughts/2009/01/22/using-http-headers-to-serve-styles
 
 H/2 (HTTP 2)
 Server strategy https://support.cloudflare.com/hc/en-us/articles/218367338-HTTP-2-Server-Push
