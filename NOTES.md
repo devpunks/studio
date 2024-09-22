@@ -133,16 +133,16 @@ Leading Forward Slash
     Regular Expressions:
     Non Capturing - http://stackoverflow.com/q/3512471/what-is-a-non-capturing-group-what-does-a-question-mark-followed-by-a-colon
 Cosole
-    https://developer.mozilla.org/en-US/docs/Web/API/Console/table
-    Clone Node https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode
-    Merging objects Object.assign https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Merging_objects
-    Can drag elements in developer console.
-    Can use $0= as current context
-    Destructing https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
-    hidden https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
-    rotating screens
-    Default is portrait then media query for landscape
-    @media only screen and (orientation: portrait)
+  https://developer.mozilla.org/en-US/docs/Web/API/Console/table
+  Clone Node https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode
+  Merging objects Object.assign https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Merging_objects
+  Can drag elements in developer console.
+  Can use $0= as current context
+  Destructing https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+  hidden https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+  rotating screens
+  Default is portrait then media query for landscape
+  @media only screen and (orientation: portrait)
 Counters
     https://davidwalsh.name/css-counters
     https://youtube.com/watch?v=Snj31cMmZ2c
