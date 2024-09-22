@@ -101,30 +101,29 @@ FontFace API
   https://github.com/ckrack/scrollsnap-polyfill
 
   CSS Grids
-   https://alistapart.com/article/practical-grid
-   https://webkit.org/status/#specification-css-grid-layout-level-1
-   https://developer.microsoft.com/en-us/microsoft-edge/platform/status/cssgridlayout/
-   Benchmarking - http://localhost:8181/examples/infinity-calendar.html
-   Tom Ethernet Packet 
-   - https://en.wikipedia.org/wiki/Ethernet_frame#Structure
-   https://en.wikipedia.org/wiki/Maximum_transmission_unit
-   Progressive Web Apps 
-   - https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0
-   https://medium.com/javascript-scene/why-native-apps-really-are-doomed-native-apps-are-doomed-pt-2-e035b43170e9
-   Chrome timeline GIF - https://blog.hospodarets.com/chrome-timeline-to-gif
-   ECMAScript modules in the browser
-   Don’t Bundle Your Modules 
-   https://dl.dropboxusercontent.com/u/20140634/script-type-module/images/asyncdefer.svg
-   https://github.com/whatwg/html/pull/443 
-   https://github.com/whatwg/loader/issues/83#issuecomment-166442597
-   https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/#RPFVZO0LoQM5QwHT.97
-   https://blog.hospodarets.com/native-ecmascript-modules-new-features
-   https://github.com/whatwg/html/pull/2261
-   https://html.spec.whatwg.org/multipage/scripting.html#attr-script-nomodule
-   https://trac.webkit.org/changeset/211078/webkit
-   "smoke server" https://zeit.co/docs
-   Pure CSS Tabs
-   ES File Extension
+    https://alistapart.com/article/practical-grid
+    https://webkit.org/status/#specification-css-grid-layout-level-1
+    https://developer.microsoft.com/en-us/microsoft-edge/platform/status/cssgridlayout/
+  Tom Ethernet Packet
+    - https://en.wikipedia.org/wiki/Ethernet_frame#Structure
+    - https://en.wikipedia.org/wiki/Maximum_transmission_unit
+  Progressive Web Apps 
+    - https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0
+  https://medium.com/javascript-scene/why-native-apps-really-are-doomed-native-apps-are-doomed-pt-2-e035b43170e9
+  Chrome timeline GIF - https://blog.hospodarets.com/chrome-timeline-to-gif
+  ECMAScript modules in the browser
+  Don’t Bundle Your Modules 
+  https://dl.dropboxusercontent.com/u/20140634/script-type-module/images/asyncdefer.svg
+  https://github.com/whatwg/html/pull/443 
+  https://github.com/whatwg/loader/issues/83#issuecomment-166442597
+  https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/#RPFVZO0LoQM5QwHT.97
+  https://blog.hospodarets.com/native-ecmascript-modules-new-features
+  https://github.com/whatwg/html/pull/2261
+  https://html.spec.whatwg.org/multipage/scripting.html#attr-script-nomodule
+  https://trac.webkit.org/changeset/211078/webkit
+  "smoke server" https://zeit.co/docs
+  Pure CSS Tabs
+  ES File Extension
 
 Leading Forward Slash
   http://stackoverflow.com/q/4659345/is-there-any-downside-for-using-a-leading-double-slash-to-inherit-the-protocol-i
