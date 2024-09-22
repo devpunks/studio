@@ -29,7 +29,7 @@ https://tools.ietf.org/html/rfc3986#section-3.3
 https://groups.google.com/forum/#!topic/api-craft/L2YlSS7FmEk
 - https://github.com/pedestal/pedestal/pull/352
 
-CONDITIONAL (IF) vs Expressions. https://fsharpforfunandprofit.com/posts/expressions-vs-statements/
+CONDITIONAL (IF) vs Expressions. https://fsharpforfunandprofit.com/posts/expressions-vs-statements
 
 
 DON’T CONCATENATE SCRIPTS! - https://github.com/comfusion/hyperdrive/issues/83
