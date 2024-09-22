@@ -48,6 +48,7 @@ H/2 (HTTP 2)
 Server strategy https://support.cloudflare.com/hc/en-us/articles/218367338-HTTP-2-Server-Push
 https://hpbn.co/http2
 Pagination with HTTP <link> - https://developer.github.com/v3/guides/traversing-with-pagination
+
 Prefetch, Preload Resources with <link>
 <link rel=preload> https://w3c.github.io/preload
 https://codepen.io/tigt/post/async-css-without-javascript
