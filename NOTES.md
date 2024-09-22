@@ -61,8 +61,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ
 https://github.com/Fyrd/caniuse/issues/2130#issuecomment-189755682
 https://fetch.spec.whatwg.org/#concept-request-destination
 Server Push
-Preload https://smashingmagazine.com/2016/02/preload-what-is-it-good-for/
-https://smashingmagazine.com/2017/04/guide-http2-server-push/
+Preload https://smashingmagazine.com/2016/02/preload-what-is-it-good-for
+https://smashingmagazine.com/2017/04/guide-http2-server-push
 Protocol Agnostic - //
 Destroy all IFs - http://degoes.net/articles/destroy-all-ifs
 Brotli compression
