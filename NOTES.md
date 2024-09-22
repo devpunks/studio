@@ -55,7 +55,7 @@ Server strategy https://support.cloudflare.com/hc/en-us/articles/218367338-HTTP-
 https://hpbn.co/http2
 Pagination with HTTP <link> - https://developer.github.com/v3/guides/traversing-with-pagination
 Prefetch, Preload Resources with <link>
-<link rel=preload> https://w3c.github.io/preload/
+<link rel=preload> https://w3c.github.io/preload
 https://codepen.io/tigt/post/async-css-without-javascript
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ
 https://github.com/Fyrd/caniuse/issues/2130#issuecomment-189755682
