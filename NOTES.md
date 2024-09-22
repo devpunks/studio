@@ -31,12 +31,6 @@ https://groups.google.com/forum/#!topic/api-craft/L2YlSS7FmEk
 
 CONDITIONAL (IF) vs Expressions. https://fsharpforfunandprofit.com/posts/expressions-vs-statements
 
-
-DON’T CONCATENATE SCRIPTS! - https://github.com/comfusion/hyperdrive/issues/83
-Lightening Talks
-YOUTUBE COPYRIGHT FAIR USE
-Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use
-
 WEB PLATFORM STATUS - https://platformstatus.io
 
 https://chromestatus.com/features
