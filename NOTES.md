@@ -144,9 +144,9 @@ Cosole
   Default is portrait then media query for landscape
   @media only screen and (orientation: portrait)
 Counters
-    https://davidwalsh.name/css-counters
-    https://youtube.com/watch?v=Snj31cMmZ2c
-    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters
+  https://davidwalsh.name/css-counters
+  https://youtube.com/watch?v=Snj31cMmZ2c
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters
 will-change -
     https://developer.mozilla.org/en-US/docs/Web/CSS/will-change
     http://cssmojo.com/the-dark-side-of-the-will-change-property/
