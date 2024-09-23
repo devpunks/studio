@@ -109,7 +109,6 @@ FontFace API
     - https://en.wikipedia.org/wiki/Maximum_transmission_unit
   Progressive Web Apps 
     - https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0
-  https://medium.com/javascript-scene/why-native-apps-really-are-doomed-native-apps-are-doomed-pt-2-e035b43170e9
   Chrome timeline GIF - https://blog.hospodarets.com/chrome-timeline-to-gif
   ECMAScript modules in the browser
   Don’t Bundle Your Modules 
