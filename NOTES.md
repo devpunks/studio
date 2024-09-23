@@ -113,14 +113,14 @@ FontFace API
   ECMAScript modules in the browser
   Don’t Bundle Your Modules 
   https://dl.dropboxusercontent.com/u/20140634/script-type-module/images/asyncdefer.svg
-  https://github.com/whatwg/html/pull/443 
+  https://github.com/whatwg/html/pull/443
   https://github.com/whatwg/loader/issues/83#issuecomment-166442597
   https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/#RPFVZO0LoQM5QwHT.97
   https://blog.hospodarets.com/native-ecmascript-modules-new-features
   https://github.com/whatwg/html/pull/2261
   https://html.spec.whatwg.org/multipage/scripting.html#attr-script-nomodule
   https://trac.webkit.org/changeset/211078/webkit
-  "smoke server" https://zeit.co/docs
+  "smoke server" https://vercel.com/docs
   Pure CSS Tabs
   ES File Extension
 
