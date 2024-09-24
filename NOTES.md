@@ -40,7 +40,7 @@ https://webkit.org/status
 
 HTML
 Mathematical Programming Contexts.
-Removal of <head> <html> <body>
+Removal of <head> <html> <body> # See GOOGLE HTML Guide.
 No IE Support
 https://meyerweb.com/eric/thoughts/2009/01/22/using-http-headers-to-serve-styles
 
