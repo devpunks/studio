@@ -304,8 +304,9 @@ body > main   { }
 body > aside {
   font-size: var(--smaller); /* 90% of 1.618em */
 }
-body > footer
-  { text-align: center }
+body > footer {
+text-align: center
+}
 
 main > section:first-of-type, body > aside {
   padding-top: var(--line-height);
