@@ -302,6 +302,7 @@ body > footer
 body > header { }
 body > main   { }
 body > aside {
+  /* TODO: Convert to absolute-sizing (x-small, small,large x-large) */
   font-size: var(--smaller); /* 90% of 1.618em */
 }
 body > footer {
