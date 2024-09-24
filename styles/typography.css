@@ -305,7 +305,7 @@ body > aside {
   font-size: var(--smaller); /* 90% of 1.618em */
 }
 body > footer {
-  font-size: medium
+  font-size: medium;
   text-align: center
 }
 
