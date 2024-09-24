@@ -306,6 +306,7 @@ body > aside {
 }
 body > footer {
   font-size: medium
+  text-align: center
 }
 
 main > section:first-of-type, body > aside {
