@@ -674,7 +674,7 @@ ol > li::marker {
 summary::marker {
   content: '🔴';
 }
-dd, dt, li { background: Canvas }
+dd, dt, li { background-color: Canvas }
 dt { }
 dd { }
 li { }
