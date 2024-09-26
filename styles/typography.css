@@ -549,10 +549,6 @@ q { /* quotes */
     - https://tympanus.net/codrops/css_reference/quotes/
     - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
   */
-
-
-/* Two pairs: */
-  quotes: ““” “”” “‘” “’”;
 }
 q q {
 }
