@@ -270,7 +270,7 @@ time[datetime] {
   background: orange;
 }
 time::before, time::after
-  { background: currentColor }
+  { background-color: currentColor }
 time::before {
   content: '⌚';
   padding: 0.1682ch;
