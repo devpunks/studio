@@ -658,7 +658,7 @@ table {}
 caption {
   padding: 1em 0;
   font-weight: bold;
-  background: Canvas;
+  background-color: Canvas;
   font-size: var(--larger);
   line-height: var(--largest);
 }
