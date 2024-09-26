@@ -662,9 +662,11 @@ ul {
   list-style: unordered;
   list-style-type: revert;
 }
-li {
-  margin: 1ch;
-  padding: var(--margin-collapse-bugfix) 0.6182ch;
+/*
+  - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
+*/
+::marker {
+  color: orange;
 }
 li li {
 }
