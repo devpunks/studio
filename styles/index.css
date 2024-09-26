@@ -252,8 +252,8 @@ mark {
 /*
   - https://stackoverflow.com/questions/5437674/what-unicode-characters-represent-time
 */
-time, time::before, time::after {
-}
+time, time::before, time::after
+  { border-radius: calc( 1ch * var(--GOLDEN-RATIO) ) }
 time {
   padding: 0.618ch;
   border-radius: 1.618ch;
