@@ -263,8 +263,8 @@ html {
      -moz-text-size-adjust: var(--text-size-adjust);
           text-size-adjust: var(--text-size-adjust);
 
-  /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
-  /* https://css-tricks.com/almanac/properties/w/word-break/ */
+  /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container */
+  /* https://css-tricks.com/almanac/properties/w/word-break */
   /* These are technically the same, but use both */
   overflow-wrap:  break-word; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
   word-wrap:      break-word;
