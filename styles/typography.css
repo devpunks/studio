@@ -400,10 +400,9 @@ dl, ol, ul {
   max-width: 70ch;
   font-size: larger;
   text-align: start;
-  background: currentColor;
-  font-size: var(--larger);
-  margin: var(--margin-collapse-bugfix) auto var(--font-size);
-  /* padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--font-size); */
+  background-color: currentColor;
+  margin: var(--margin-collapse-bugfix) auto var(--line-height);
+  padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--line-height);
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
