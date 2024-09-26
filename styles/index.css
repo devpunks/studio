@@ -674,6 +674,11 @@ ol > li::marker {
 summary::marker {
   content: '🔴';
 }
+dd, dt, li { background: Canvas }
+dt { }
+dd { }
+li { }
+li li { }
 ol > li, ul > li {}
 ol > li {
   counter-increment: ordered;
