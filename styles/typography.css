@@ -486,6 +486,7 @@ b[autocapitalize], p[autocapitalize=characters], p[autocapitalize=words], p[auto
 p[autocapitalize=on]::first-letter {
   color: Canvas;
   display: flow-root;
+  background: inherit;
 }
 
 
