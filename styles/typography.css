@@ -109,8 +109,7 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
     -  https://css-tricks.com/snippets/css/system-font-stack
     -  https://devhints.io/css-system-font-stack */
-  --font-family: var(
-  --System-UI);
+  --font-family: var(--System-UI);
   --font-family: Chalk;
 
   --Cursive:
