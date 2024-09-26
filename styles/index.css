@@ -696,38 +696,6 @@ ol > li::before {
 ul > li::before {
 }
 
-dl {}
-dt {}
-dd {}
-
-ul, ol {
-}
-dl, ol, ul, li, dt, dd
-/* , main * */
-{
-  /* display: list-item; */
-  list-style-position: inside;
-}
-dl dl, ol ol, ol ul, ul ol, ul ul
-  {
-  display: inherit;
-  display: list-item;
-  display: block;
-  counter-reset: ordered 0 unordered 0;
-}
-/*
-  - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
-*/
-::marker {
-  color: orange;
-}
-ol > li::marker {
-  content: counters(ordered, '.');
-}
-summary::marker {
-  content: '🔴';
-}
-
 /**** COUNTERS *******
   - https://www.w3.org/TR/predefined-counter-styles/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style
