@@ -565,7 +565,6 @@ address a {
   display: unset;
 }
 li > a {
-  width: 94%;
   vertical-align: top;
   display: inline-block;
   padding: 0.168em 0.68em;
