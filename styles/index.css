@@ -699,7 +699,7 @@ ul > li::before {
 /**** COUNTERS *******
   - https://w3.org/TR/predefined-counter-styles/
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style
-  - Example Demo - https://mdn.github.io/css-examples/counter-style-demo/
+  - Example Demo - https://mdn.github.io/css-examples/counter-style-demo
 */
 
 @counter-style example {
