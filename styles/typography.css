@@ -125,8 +125,7 @@
     Serif,              /* fallback */
     UI-Serif;           /* default user interface serif font */
 
-  --Sans-Serif:
-  'Noto Sans',      /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
+  --Sans-Serif: 'Noto Sans',      /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
     Helvetica, Arial, /* Windows, macOSX, Linux defaults */
     Sans-Serif,       /* fallback */
     UI-Sans-Serif;    /* default user interface sans-serif font */
