@@ -389,7 +389,7 @@ nav > details > summary::before,
 nav > details > summary::after {
   content: '☰';
   left: -1ch;
-  vertical-align: text-top;
+  padding: 1ch;
   z-index: -1;
   background: inherit;
   display: inline-block;
