@@ -432,8 +432,7 @@ details > dl, details > dd,
 details > ol li, details > ul li
   {}
 
-abbr {
-  /* http://webtypography.net/3.2.2 */
+abbr { /* http://webtypography.net/3.2.2 */
   font-style: normal;
   font-variant-numeric: oldstyle-nums;
 }
