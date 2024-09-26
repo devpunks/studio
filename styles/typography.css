@@ -684,8 +684,7 @@ nav > details[open] {
   list-style-type: '😊';
 }
 
-/* summary */
-summary {
+summary { /* summary */
   font-weight: bolder;
   padding-bottom: 0.618em;
   font-size: larger;
