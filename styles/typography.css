@@ -60,7 +60,7 @@
   /* TODO: Convert to absolute-sizing (x-small, small,large x-large) */
   --font-size: 3.6182vw; /* http://webtypography.net/2.1.2 */
 
-  /* https://julian.is/article/iphone-x-notch/ */
+  /* https://julian.is/article/iphone-x-notch */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
   --viewport:
       env( safe-area-inset-top, 0.612em ) auto
