@@ -399,7 +399,7 @@ nav > details > summary::after {
   border: calc(0.1ch * var(--GOLDEN-RATIO)) solid;
 }
 nav > details > summary::before {
-  position: relative;
+  position: relative
 }
 nav > details > summary::after {
   /* list-style-type: unset; */
