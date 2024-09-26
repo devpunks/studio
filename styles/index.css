@@ -143,6 +143,7 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   outline-color: CurrentColor;
+  background-color: CurrentColor;
 }
 ::backdrop
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
