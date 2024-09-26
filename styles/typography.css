@@ -692,7 +692,7 @@ nav > details[open] {
 summary {
   font-weight: bolder;
   padding-bottom: 0.618em;
-  font-size: var(--larger);
+  font-size: larger;
   margin-left: -1.618em /* compensate for <details> padding */;
 }
 details > summary
