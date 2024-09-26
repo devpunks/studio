@@ -297,7 +297,7 @@ body > footer
 
 body > header { }
 body > main   { }
-body > aside { font-size: smaller; }
+body > aside { font-size: smaller }
 body > footer {
   font-size: medium;
   text-align: center;
