@@ -538,7 +538,7 @@ p[autocapitalize=on]::first-letter {
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
-  background:  ButtonFace;
+  background-color:  ButtonFace;
 }
 pre {
   overflow: overlay;
