@@ -293,7 +293,7 @@ time:empty {
 }
 time:empty::before {
 }
-
+p time { vertical-align: middle }
 
 data, var {
   color: CanvasText;
