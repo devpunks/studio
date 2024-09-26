@@ -115,8 +115,7 @@
   --Cursive:
     Fantasy, Cursive, var(--Serif);
 
-  --Math:
-  'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
+  --Math: 'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
     Math;
 
   --Rounded:
