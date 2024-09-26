@@ -118,8 +118,7 @@
   --Math: 'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
     Math;
 
-  --Rounded:
-  'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
+  --Rounded: 'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
     UI-Rounded;     /* default user interface rounded font */
 
   --Serif:
