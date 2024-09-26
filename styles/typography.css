@@ -569,8 +569,7 @@ q::after
   - https://isotropic.co/the-best-css-styling-for-blockquotes/
   - https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 */
-blockquote {
-  /* http://webtypography.net/2.3.3 */
+blockquote { /* http://webtypography.net/2.3.3 */
   opacity: 85%;
   font-style: italic;
   padding-block-start: 3ch;
