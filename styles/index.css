@@ -22,15 +22,15 @@
 @import url('speech.css') layer(speech) speech not print;
 @import url('accessibility.css') layer(accessibility) not print;
  @import 'color.css' layer(color) color; */
-@import url('print.css');
-@import url('layout.css');
-@import url('icons.css');
-@import url('typography.css');
-@import url('forms.css');
-@import url('multimedia.css');
-@import url('animation.css');
-@import url('speech.css');
-@import url('accessibility.css');
+@import url(print.css);
+@import url(layout.css);
+@import url(icons.css);
+@import url(typography.css);
+@import url(forms.css);
+@import url(multimedia.css);
+@import url(animation.css);
+@import url(speech.css);
+@import url(accessibility.css);
 /*
   CSS Specificity Calculator
     - https://polypane.app/css-specificity-calculator/
