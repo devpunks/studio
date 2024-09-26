@@ -688,7 +688,8 @@ ul > li::before {
   display: inline-block;
   margin-inline-end: 0.6182ch;
 }
-ol > li::before { content: '\232A' }
+ol > li::before
+  { content: '\232A' }
 ul > li::before { }
 
 /**** COUNTERS *******
