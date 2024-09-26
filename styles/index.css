@@ -567,8 +567,6 @@ address a {
 li > a {
   vertical-align: top;
   display: inline-block;
-  padding: 0.168em 0.68em;
-  margin-inline-start: -1ch;
 }
 details summary {
   cursor: s-resize;
