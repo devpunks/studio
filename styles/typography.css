@@ -478,7 +478,7 @@ p {
   /* https://www.edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why */
   /* 16x0.81=13 */
 }
-b[autocapitalize], p[autocapitalize=characters], p[autocapitalize=words], p[autocapitalize]::first-letter {
+b[autocapitalize], p[autocapitalize=words], p[autocapitalize=characters], p[autocapitalize]::first-letter {
   color: ActiveText;
   font-weight: bold;
   font-size: calc( 100% * var(--GOLDEN-RATIO) );
