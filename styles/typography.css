@@ -66,6 +66,7 @@
       env( safe-area-inset-top, 0.612em ) auto
       env( safe-area-inset-bottom, 0.612em ) auto;
 
+  /* TODO: Convert to relative-sizing (smaller, larger) */
   --smallest: 61.8%;
 
   --smaller:  80.0%;
