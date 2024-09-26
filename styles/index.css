@@ -393,6 +393,7 @@ nav > details > summary::after {
   z-index: -1;
   background: inherit;
   display: inline-block;
+  vertical-align: text-top;
   box-shadow: var(--shadow);
   font-size: calc(1em * var(--GOLDEN-RATIO));
   border: calc(0.1ch * var(--GOLDEN-RATIO)) solid;
