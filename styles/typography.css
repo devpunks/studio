@@ -353,7 +353,7 @@ h1 {
   -webkit-text-stroke-color: GrayText;
 }
 body * > h1
-  { font-size: 2em; /* Override container H1s - Full discussion here */ }
+  { font-size: 2em; /* Override container H1s  */ }
 
 /* hyperlinks */
 a { /* TODO: migrate ARIA to accessibility.css */
