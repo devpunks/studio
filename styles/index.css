@@ -274,7 +274,7 @@ time::before, time::after
 time::before {
   content: '⌚';
   padding: 0.1682ch;
-  margin-inline-end: 0.1682ch;
+  margin-inline-end: 1ch;
 }
 time::after{
   content: attr(datetime);
