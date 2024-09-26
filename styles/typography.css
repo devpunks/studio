@@ -399,6 +399,7 @@ dl, ol, ul {
   max-width: 70ch;
   width: 90%;
   text-align: start;
+  background: currentColor;
   font-size: var(--larger);
   margin: var(--margin-collapse-bugfix) auto var(--font-size);
   /* padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--font-size); */
