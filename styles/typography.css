@@ -416,7 +416,13 @@ dt {
   padding: var(--margin-collapse-bugfix) 1ch;
   margin: 0.6182ch 0 var(--margin-collapse-bugfix);
 }
-dd, li {}
+li { }
+dd { }
+dd, li {
+  margin: var(--margin-collapse-bugfix) auto 0;
+  padding: var(--margin-collapse-bugfix) 0.6182ch;
+  line-height: calc( var(--line-height) * var(--GOLDEN-RATIO) * 0.8 );
+}
 dd, li li {
   font-size: var(--smaller);
 }
