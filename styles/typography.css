@@ -490,8 +490,6 @@ p[autocapitalize=on]::first-letter {
 }
 
 
-[autocapitalize=off], [autocapitalize=none] {
-  text-transform: none;
 }
 [autocapitalize=characters] {
   text-transform: uppercase;
