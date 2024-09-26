@@ -692,8 +692,7 @@ ul > li::before {
 ol > li::before {
   content: '\232A';
 }
-ul > li::before {
-}
+ul > li::before { }
 
 /**** COUNTERS *******
   - https://w3.org/TR/predefined-counter-styles/
