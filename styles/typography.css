@@ -489,17 +489,9 @@ p[autocapitalize=on]::first-letter {
   background: inherit;
 }
 
-
-}
-[autocapitalize=characters] {
-  text-transform: uppercase;
-}
-[autocapitalize=words]{
-  text-transform: capitalize;
-}
-[autocapitalize=off], [autocapitalize=none] {
-  text-transform: none;
-
+[autocapitalize=words]{ text-transform: capitalize }
+[autocapitalize=characters] { text-transform: uppercase }
+[autocapitalize=off], [autocapitalize=none] { text-transform: none }
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
