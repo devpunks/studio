@@ -538,6 +538,9 @@ q { /* quotes */
     "\201C" "\201D"
     "\2018" "\2019"
   ; /* quotes */
+
+/* Two pairs: */
+  quotes: ““” “”” “‘” “’”;
   font-style: italic;
   vertical-align: top;
   -webkit-box-decoration-break: clone;
