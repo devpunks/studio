@@ -699,7 +699,6 @@ ul > li::before { }
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style
   - Example Demo - https://mdn.github.io/css-examples/counter-style-demo
 */
-
 @counter-style example {
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
   suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
