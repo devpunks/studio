@@ -398,7 +398,8 @@ nav > details > summary::after {
   font-size: calc(1em * var(--GOLDEN-RATIO));
   border: calc(0.1ch * var(--GOLDEN-RATIO)) solid;
 }
-nav > details > summary::before { position: relative }
+nav > details > summary::before
+  { position: relative }
 nav > details > summary::after {
   /* list-style-type: unset; */
   /* position: fixed; */
@@ -480,7 +481,8 @@ body > nav li li :link:hover::before {
 
 
 address { }
-li address { display: inline-block }
+li address
+  { display: inline-block }
 /* Table styling
   - https://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html
   - counter styling & fallback
