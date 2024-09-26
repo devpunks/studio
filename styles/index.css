@@ -5,8 +5,8 @@
   - *** https://css-tricks.com/css-cascade-layers
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@import
-  - *** https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/
-  - *** https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/#organize-layers-to-subfolders
+  - *** https://smashingmagazine.com/2022/01/introduction-css-cascade-layers
+  - *** https://xfive.co/blog/itcss-scalable-maintainable-css-architecture/#organize-layers-to-subfolders
 */
 @layer /* explicit layer ordering */
   speech, accessibility, typography, forms, color, icons, multimedia, layout, print, animation;
