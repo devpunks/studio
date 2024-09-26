@@ -326,7 +326,8 @@ header, h1, h2, h3, h4, h5, h6 {
   margin: var(--margin) var(--font-size) auto;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
 }
-header { --fs: calc( var(--font-size) * var(--larger) );
+header {
+  --fs: calc( var(--font-size) * var(--larger) );
   font-size: var(-fs);
   /* http://webtypography.net/3.2.1 */
   /* http://webtypography.net/3.2.2 */
