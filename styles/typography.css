@@ -291,7 +291,7 @@ html {
 
 body {
   margin: 0 auto var(--margin-collapse-bugfix);
-  text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering/ */
+  text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering */
 }
 body > * { margin: var(--viewport) }
 
