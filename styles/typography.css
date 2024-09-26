@@ -497,6 +497,8 @@ p[autocapitalize=on]::first-letter {
 [autocapitalize=words]{
   text-transform: capitalize;
 }
+[autocapitalize=off], [autocapitalize=none] {
+  text-transform: none;
 
 
 pre, code, kbd, samp {
