@@ -636,7 +636,9 @@ q cite {
 small
   { font-size: var(--smaller) }
 
-sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */vertical-align: unset;}
+sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+vertical-align: unset;
+}
 sup {
   position: relative;
   top: -.418em;
