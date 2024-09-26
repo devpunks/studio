@@ -486,6 +486,41 @@ p {
   /* 16x0.81=13 */
 }
 
+q { /* quotes */
+  quotes:
+    "\201C" "\201D"
+    "\2018" "\2019"
+
+    "\201C" "\201D"
+    "\2018" "\2019"
+
+    "\201C" "\201D"
+    "\2018" "\2019"
+  ; /* quotes */
+
+/* Two pairs: */
+  quotes: ““” “”” “‘” “’”;
+  font-style: italic;
+  vertical-align: top;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+   /*
+    - https://tympanus.net/codrops/css_reference/quotes/
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
+  */
+}
+q::before {}
+q::after
+  { content: close-quote }
+
+p q, q q {
+  font-size: var(--smaller);
+  padding-inline-end: initial;
+  padding-inline-start: initial;
+}
+p q { }
+q q { }
+
 b[autocapitalize], p[autocapitalize=words], p[autocapitalize=characters], p[autocapitalize]::first-letter {
   color: ActiveText;
   font-weight: bold;
