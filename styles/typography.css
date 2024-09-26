@@ -529,8 +529,7 @@ figcaption {
   font-style: italic;
 }
 
-/* quotes */
-q {
+q { /* quotes */
   font-style: italic;
   vertical-align: top;
   -webkit-box-decoration-break: clone;
