@@ -667,7 +667,8 @@ ul {
 ::marker {
   color: orange;
 }
-ol > li::marker { content: counters(ordered, '.') }
+ol > li::marker
+  { content: counters(ordered, '.') }
 summary::marker
   { content: '🔴' }
 dd, dt, li
