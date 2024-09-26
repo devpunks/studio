@@ -593,7 +593,7 @@ html, body {
 }
 iframe, pre, table, select[multiple] {
   /*
-    - https://css-tricks.com/almanac/properties/s/scrollbar-gutter/
+    - https://css-tricks.com/almanac/properties/s/scrollbar-gutter
     - https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter
     - https://www.bram.us/2021/07/23/prevent-unwanted-layout-shifts-caused-by-scrollbars-with-the-scrollbar-gutter-css-property/
   */
