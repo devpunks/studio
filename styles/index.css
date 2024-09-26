@@ -668,7 +668,7 @@ ul {
   color: orange;
 }
 ol > li::marker {
-  content: counters(ordered, '.');
+  content: counters(ordered, '.')
 }
 summary::marker
   { content: '🔴' }
