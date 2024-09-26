@@ -663,7 +663,7 @@ ul {
   list-style-type: revert;
 }
 /*
-  - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/
+  - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker
 */
 ::marker {
   color: orange;
