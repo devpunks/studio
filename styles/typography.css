@@ -83,7 +83,7 @@
     - https://www.js-craft.io/blog/css-logical-properties-using-the-margin-block-and-margin-inline-instead-of-the-default-margin
   */
   --p-margin: 0 var(
-  --line-height) var(--line-height); /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag/ */
+  --line-height) var(--line-height); /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag */
 
   --line-height: 1.618em; /* https://en.wikipedia.org/wiki/Golden_ratio */
 
