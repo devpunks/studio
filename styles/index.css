@@ -559,7 +559,7 @@ a[href='#'][title^=Top] {
   margin: var(--p-margin) auto;
   padding: 1ch var(--line-height);
 }
-address a { display: unset; }
+address a { display: unset }
 li > a {
   vertical-align: top;
   display: inline-block;
