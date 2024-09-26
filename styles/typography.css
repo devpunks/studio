@@ -107,7 +107,7 @@
   /*
     - https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide
     - https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
-    -  https://css-tricks.com/snippets/css/system-font-stack/
+    -  https://css-tricks.com/snippets/css/system-font-stack
     -  https://devhints.io/css-system-font-stack */
   --font-family: var(
   --System-UI);
