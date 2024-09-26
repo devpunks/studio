@@ -55,7 +55,7 @@
   - Vertical rhythm
     - https://24ways.org/2006/compose-to-a-vertical-rhythm
     - https://css-tricks.com/simple-little-use-case-vmin
-    - https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
+    - https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
   */
   /* TODO: Convert to absolute-sizing (x-small, small,large x-large) */
   --font-size: 3.6182vw; /* http://webtypography.net/2.1.2 */
