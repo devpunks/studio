@@ -269,9 +269,8 @@ time[title] {
 time[datetime] {
   background: orange;
 }
-time::before, time::after {
-  background: pink;
-}
+time::before, time::after
+  { background: currentColor }
 time::before {
   content: '⌚';
   padding: 0.1682ch;
