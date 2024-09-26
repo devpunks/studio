@@ -418,7 +418,7 @@ nav > details[open] > summary::after {
 }
 nav > details[open] > summary:hover::before,
 nav > details[open] > summary:hover::after {
-  /* https://www.htmlsymbols.xyz/unicode/U+2716 */
+  /* https://htmlsymbols.xyz/unicode/U+2716 */
   content: '✖';
 }
 body > nav *::before, body > nav *::after {
