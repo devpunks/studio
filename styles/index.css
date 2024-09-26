@@ -526,8 +526,7 @@ th[scope=row]:after {
   white-space: nowrap;
   content: counter(th);
 }
-tr
-  {}
+tr {}
 tr:before
   { content: '' }
 td {
