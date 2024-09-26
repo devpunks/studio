@@ -80,7 +80,7 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block
     - https://css-tricks.com/almanac/properties/m/margin-block-start
     - https://stackoverflow.com/questions/59909792/what-is-the-difference-between-margin-block-start-and-margin-top
-    - https://www.js-craft.io/blog/css-logical-properties-using-the-margin-block-and-margin-inline-instead-of-the-default-margin
+    - https://js-craft.io/blog/css-logical-properties-using-the-margin-block-and-margin-inline-instead-of-the-default-margin
   */
   --p-margin: 0 var(
   --line-height) var(--line-height); /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag */
