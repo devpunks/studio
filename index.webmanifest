@@ -17,8 +17,8 @@
     [ "science", "technology", "engineering", "music", "studio", "education", "entertainment", "photo", "audio", "video" ],
 
   "icons": [
-    {"image/png", "sizes": "192x192", "type": "src": "/icons/index.192x192.png" },
-    {"image/png", "sizes": "512x512", "type": "src": "/icons/index.512x512.png" }
+    { "image/png", "sizes": "192x192", "type": "src": "/icons/index.192x192.png" },
+    { "image/png", "sizes": "512x512", "type": "src": "/icons/index.512x512.png" }
   ],
 
   "screenshots":
