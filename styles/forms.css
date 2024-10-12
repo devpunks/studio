@@ -679,7 +679,7 @@ input:focus:not(:placeholder-shown):out-of-range,
 
 .vertical input[type=range] {
   background:red;
-  writing-mode: bt-lr; /* IE */
+  writing-mode: sideways-lr; /* IE */
   /*
     - https://caniuse.com/?search=vertical%20slider
     - Chromium Bug - https://bugs.chromium.org/p/chromium/issues/detail?id=341071
