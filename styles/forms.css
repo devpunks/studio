@@ -689,7 +689,6 @@ input:focus:not(:placeholder-shown):out-of-range,
   /* -webkit-appearance: slider-vertical; */ /* WebKit */
   /* appearance: slider-vertical; */ /* Living Standard */
   accent-color: CurrentColor;
-  line-height: 100vh;
   /* max-height: 5ch !important; */
   width: 100% !important;
   max-width: 14ch !important;
