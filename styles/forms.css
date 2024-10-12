@@ -274,6 +274,7 @@ input[type=range] {
 
 /* checksboxes & radios */
 #checkboxes label {
+  overflow: hidden;
   background: orange;
   outline: 1px dashed;
   padding: 0;
