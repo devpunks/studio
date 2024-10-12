@@ -58,6 +58,8 @@ a:active { color: red }
   outline: 0.3ch dashed;
 }
 
+[accesskey] {}
+[accesskey]::before {}
 nav > dl, nav > ol, nav > ul {
   opacity: 0.7;
   background: rgba(255,255,255,0.5);
