@@ -77,8 +77,11 @@ form details {
 
 /*
  * - https://www.w3.org/TR/WCAG20-TECHS/H44.html
+ * - Form Label - https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#labelable
+ *     Elements that can be associated with <label> elements. Contains:
+ *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
 */
-label {
+label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
   display: block;
   display: inline-block;
   display: inline-flex;
@@ -89,20 +92,19 @@ label {
   text-align: var(--text-align);
   box-sizing: border-box;
   white-space: nowrap;
-}
-/*
- * - https://www.w3.org/TR/WCAG20-TECHS/H44.html
- * - Form Label - https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#labelable
- *     Elements that can be associated with <label> elements. Contains:
- *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
-*/
-label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
-  & output {
+
+  output {
     background-color: #bada55;
   }
+
+  code {
+    background: red;
+    display: inline;
+    height: fit-content;
+    white-space: nowrap;
+  }
 }
-label button {
-}
+label button {}
 label, label + input {
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   /* padding: var(--margin-collapse-bugfix) var(--line-height); */
