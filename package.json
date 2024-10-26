@@ -4,11 +4,16 @@
   "type": "module",
   "license": "MIT",
   "version": "0.3.2",
-  "main": "index.es",
   "module": "./index.es",
-  "author": "devPunks",
-  "description": "devPunks.studio",
   "contributors": [],
+  "author": "devPunks",
+  "keywords": [
+    "science",
+    "technology",
+    "engineering",
+    "music"
+  ],
+  "description": "devPunks.studio",
   "homepage": "https://github.com/devpunks/studio#readme",
   "repository": {
     "type": "git",
@@ -17,12 +22,73 @@
   "bugs": {
     "url": "https://github.com/devpunks/studio/issues"
   },
-  "keywords": [
-    "science",
-    "technology",
-    "engineering",
-    "music"
+  "workspaces": [
+    "audio"
   ],
+  "main": "index.es",
+  "files": [],
+  "packageManager": "npm@9.5.1",
+  "module": "./index.es",
+  "config": {
+    "PORT": "8080"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
+  },
+  "config": {
+    "PORT": "8080"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
+  },
+  "config": {
+    "PORT": "8080"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
+  },
+  "config": {
+    "PORT": "8080"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
+  },
+  "config": {
+    "PORT": "8080"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
+  },
+  "config": {
+    "PORT": "8080"
+  },
+  "exports": {
+    ".": {
+      "browser": {
+        "default": "./index.js"
+      }
+    }
+  },
   "cpu": [
     "!arm32",
     "x64",
@@ -38,31 +104,18 @@
     "npm": "9.x",
     "node": "18.x"
   },
-  "workspaces": [
-    "audio"
-  ],
-  "bin": {
-    "run": "./bin/run"
-  },
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./index.js"
-      }
-    }
-  },
-  "config": {
-    "PORT": "8080"
-  },
-  "files": [],
   "directories": {
     "bin": ".bin",
     "man": ".man",
     "audio": "audio"
   },
+  "bin": {
+    "run": "./bin/run"
+  },
   "peerDependencies": {
     "pm2": "5.x"
   },
+  "devDependencies": {},
   "dependencies": {
     "express": "4.x",
     "npm": "^10.5.2",
