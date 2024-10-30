@@ -6,7 +6,6 @@
   "acme-challenge": "/",
   "xrp-ledger.toml": "/xrp",
   "change-password": "/password",
-  "apple-app-site-association": "/",
   "security.txt": "/security/index.txt",
   "apple-developer-merchantid-domain-association": "/apple-pay"
 }
