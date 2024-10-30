@@ -1,7 +1,6 @@
 {
   "root": "/",
   "time": "/time",
-  "timezone": "/timezone",
   "stun-key": "/stun",
   "acme-challenge": "/",
   "xrp-ledger.toml": "/xrp",
