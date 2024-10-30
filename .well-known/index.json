@@ -2,8 +2,7 @@
   "root": "/",
   "time": "/time",
   "stun-key": "/stun",
-  "acme-challenge": "/",
-  "xrp-ledger.toml": "/xrp",
+  "timezone": "/timezone",
   "change-password": "/password",
   "security.txt": "/security/index.txt"
 }
