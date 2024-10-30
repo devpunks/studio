@@ -6,5 +6,5 @@
   "acme-challenge": "/",
   "xrp-ledger.toml": "/xrp",
   "change-password": "/password",
-  "security.txt": "/security/index.txt",
+  "security.txt": "/security/index.txt"
 }
