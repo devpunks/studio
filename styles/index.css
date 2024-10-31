@@ -557,12 +557,6 @@ td {
 td::before
   { content: 'td' }
 
-tbody tr
-  { counter-increment: table }
-tfoot th
-  { border-top: 0.0618em solid }
-th, thead, tfoot, thead tr, tfoot tr, tbody tr:nth-child(even)
-  { background: ButtonFace }
 
 a {
   display: inline;
