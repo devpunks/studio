@@ -659,9 +659,10 @@ thead {}
 tbody {}
 tfoot
   { text-align: end }
-tfoot th[colspan], thead th[colspan]
-  { font-size: larger; background: red; }
-
+tfoot th[colspan=0], thead th[colspan=0] {
+  font-size: larger;
+  background: red;
+}
 
 
 details { /* details */
