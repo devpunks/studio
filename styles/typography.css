@@ -320,8 +320,7 @@ header, h1, h2, h3, h4, h5, h6 {
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
 }
 header {
-  --fs: calc( var(--font-size) * var(--larger) );
-  font-size: var(-fs);
+  font-size: larger;
   /* http://webtypography.net/3.2.1 */
   /* http://webtypography.net/3.2.2 */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
