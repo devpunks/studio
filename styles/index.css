@@ -549,7 +549,7 @@ tbody tr
 
 tr {}
 tr::before
-  { content: 'table row' }
+  { content: 'tr' }
 td {
   -webkit-user-select: text;
           user-select: text;
