@@ -501,6 +501,8 @@ table {
   box-shadow: var(--box-shadow);
   margin: 0 var(--line-height) var(--line-height);
 }
+table::before
+  { content: 'table' }
 table *
   { display: inherit }
 caption {
