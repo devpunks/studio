@@ -145,56 +145,67 @@
     </ul>
   </nav>
 
-  <tfoot>
-    <tr><th colspan=1>This is the table footer</th></tr>
-  </tfoot>
+  <foo-bar>
+    <header>foo-bar</header>
 
-  <tbody>
-    <template name=table role=row hidden>
-    <tr>
-      <td>FOOOIN! {foo}
-    </tr>
-    </template>
-  </tbody>
-</table>
+    <table>
+      <caption>Table Caption</caption>
 
-<label>Microphones
-  <select>
-    <template name=microphones>
-      <option id=microphone{#} title='Microphone {#} {self}'>Microphone Input {#} {self}
-    </template>
-  </select>
-</label>
+      <thead>
+        <tr><th colspan=1>This is the table header {date}</th></tr>
+      </thead>
 
-<script>
+      <tfoot>
+        <tr><th colspan=1>This is the table footer</th></tr>
+      </tfoot>
 
-  Element `foo-bar`
+      <tbody>
+        <template name=table role=row hidden>
+        <tr>
+          <td>FOOOIN! {foo}
+        </tr>
+        </template>
+      </tbody>
+    </table>
 
-  (class extends HTMLElement {
+    <label>Microphones
+      <select>
+        <template name=microphones>
+          <option id=microphone{#} title='Microphone {#} {self}'>Microphone Input {#} {self}
+        </template>
+      </select>
+    </label>
 
-    get microphones () {
-      return [
-        'Sennheiser 416T (Silver)'
-      , 'Sennheiser 418T (Silver)'
-      ]
-    }
+    <script>
 
-    get date ()
-      { return new Date }
+      Element `foo-bar`
 
-    get table () {
-      return [
-        { foo: 'What do we have here?!' }
-      , { foo: 'ANOTHER ONE' }
-      , { foo: '...AND ANOTHER ONE...' }
-      ]
-    }
+      (class extends HTMLElement {
 
-  })
+        get microphones () {
+          return [
+            'Sennheiser 416T (Silver)'
+          , 'Sennheiser 418T (Silver)'
+          ]
+        }
 
-</script>
+        get date ()
+          { return new Date }
 
-</foo-bar>
+        get table () {
+          return [
+            { foo: 'What do we have here?!' }
+          , { foo: 'ANOTHER ONE' }
+          , { foo: '...AND ANOTHER ONE...' }
+          ]
+        }
+
+      })
+
+    </script>
+  </foo-bar>
+</main>
+
 
 <aside>
   <header>Aside</header>
