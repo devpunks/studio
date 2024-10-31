@@ -554,6 +554,8 @@ td {
   -webkit-user-select: text;
           user-select: text;
 }
+td::before
+  { content: 'td' }
 
 tbody tr
   { counter-increment: table }
