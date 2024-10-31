@@ -511,6 +511,11 @@ caption {
   position: sticky;
   caption-side: top;
 }
+caption::before
+  { content: 'caption' }
+
+thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
+  { background: ButtonFace }
 thead {}
 tbody {}
 th {
