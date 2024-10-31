@@ -536,6 +536,17 @@ th[scope=row]:after {
   white-space: nowrap;
   content: counter(th);
 }
+
+tfoot {}
+tfoot th
+  { border-top: 0.0618em solid }
+
+tbody {}
+tbody::before
+  { content: 'table body' }
+tbody tr
+  { counter-increment: table }
+
 tr {}
 tr::before
   { content: 'table row' }
