@@ -538,6 +538,8 @@ th[scope=row]:after {
 }
 
 tfoot {}
+tfoot::before
+  { content: 'tfoot' }
 tfoot th
   { border-top: 0.0618em solid }
 
