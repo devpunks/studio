@@ -657,7 +657,10 @@ caption {
 }
 thead {}
 tbody {}
-tfoot {}
+tfoot
+  { text-align: end }
+th[colspan]
+  { font-size: larger; background: red; }
 
 
 
