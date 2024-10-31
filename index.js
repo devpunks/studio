@@ -1,3 +1,12 @@
+/**************************************************************************
+* Copyright (C) 2024-2025 DEVPUNKS LLC.
+*
+* This file is part of devPunks.studio
+*
+* devPunks.studio can not be copied and/or distributed
+* without the express permission of DEVPUNKS LLC.
+**************************************************************************/
+
 /*
   - Accessibility
     - [role=button] - https://w3.org/WAI/ARIA/apg/example-index/button/button.html
