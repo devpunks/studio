@@ -527,8 +527,8 @@ th[scope=row]:after {
   content: counter(th);
 }
 tr {}
-tr:before
-  { content: '' }
+tr::before
+  { content: 'table row' }
 td {
   -webkit-user-select: text;
           user-select: text;
