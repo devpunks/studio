@@ -478,7 +478,6 @@ body > nav li li :link:hover::before {
   content: '📝';
 }
 
-
 address { }
 li address
   { display: inline-block }
