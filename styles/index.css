@@ -533,7 +533,7 @@ th {
   border-bottom: 0.0618em solid
 }
 th::before
-  { content: 'th' }
+  { content: '🗣th' }
 th:empty
   { border: none }
 th[scope=row]
