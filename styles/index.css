@@ -548,7 +548,7 @@ th[scope=row]:after {
 
 tfoot {}
 tfoot::before
-  { content: '👣tfoot'; background: orange; }
+  { content: '👣tfoot'; background: blue; }
 tfoot th
   { border-top: 0.0618em solid }
 
