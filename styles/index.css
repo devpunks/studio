@@ -481,6 +481,8 @@ body > nav li li :link:hover::before {
 address { }
 li address
   { display: inline-block }
+
+
 /* Table styling
   - https://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html
   - counter styling & fallback
