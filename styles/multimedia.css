@@ -87,10 +87,9 @@ figure:hover figcaption {
 }
 canvas
   { background: Canvas }
-iframe {
-  display: block;
-}
 audio
   { /* https://blog.shahednasser.com/how-to-style-an-audio-element/ */ }
 video
   { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
+iframe
+  { display: block }
