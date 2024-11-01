@@ -559,7 +559,7 @@ tbody tr
 
 tr {}
 tr::before {
-  content: 'tr';
+  content: '▬tr';
   background: yellow;
 }
 td {
