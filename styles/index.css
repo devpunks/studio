@@ -505,6 +505,7 @@ table::before {
   display: block;
   content: '▦table';
   background: blue;
+  width: 100%;
 }
 table *
   { display: inherit }
