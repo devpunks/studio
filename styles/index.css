@@ -563,8 +563,9 @@ tbody tr
 tr {}
 tr::before {
   content: '▬tr';
-  background: yellow;
+  background: blue;
 }
+
 td {
   -webkit-user-select: text;
           user-select: text;
