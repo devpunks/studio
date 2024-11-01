@@ -510,6 +510,7 @@ caption {
   z-index: 1;
   position: sticky;
   caption-side: top;
+  background: red;
 }
 caption::before
   { content: 'caption' }
