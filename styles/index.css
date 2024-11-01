@@ -516,6 +516,8 @@ caption {
   position: sticky;
   caption-side: top;
   background: red;
+  width: 100%;
+  display: block;
 }
 caption::before
   { content: '🗨caption'; background: blue; }
