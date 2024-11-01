@@ -95,7 +95,3 @@ video { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */
 video:hover {
   background: currentColor;
 }
-canvas
-  { background: Canvas }
-svg/* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
-  { overflow: hidden }
