@@ -529,7 +529,6 @@ thead {
   background: green;
   display: block;
   padding: 1ch;
-  width: 112%;
 }
 thead::before
   {content: '👤thead';background: blue;}
