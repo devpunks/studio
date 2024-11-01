@@ -502,7 +502,7 @@ table {
   margin: 0 var(--line-height) var(--line-height);
 }
 table::before
-  { content: 'table' }
+  {content: 'table';background: blue;display: block;}
 table *
   { display: inherit }
 caption {
