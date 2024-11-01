@@ -533,7 +533,9 @@ thead {
 thead::before
   {content: '👤thead';background: blue;display: block;}
 thead tr::before { }
-thead tr::after { }
+thead tr::after {
+  background: yellow;
+}
 
 th {
   top: 5em;
