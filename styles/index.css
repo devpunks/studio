@@ -573,6 +573,10 @@ tr::before {
   content: '▬tr';
   background: blue;
 }
+tr:after {
+  white-space: nowrap;
+  content: counter(tr);
+}
 
 td {
   -webkit-user-select: text;
