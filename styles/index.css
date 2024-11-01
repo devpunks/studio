@@ -466,7 +466,6 @@ body > nav > details[open]::after {
   line-height: 100vh;
 }
 
-
 body > nav li li :link:focus-visible {
   background-color: Mark;
 }
