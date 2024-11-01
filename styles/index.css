@@ -566,8 +566,6 @@ tbody {
 }
 tbody::before
   { content: 'table body'; background: blue; }
-tbody tr
-  { counter-increment: table }
 
 tr {}
 tr::before {
