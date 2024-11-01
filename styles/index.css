@@ -516,7 +516,7 @@ caption {
   background: red;
 }
 caption::before
-  { content: '🗨caption' }
+  { content: '🗨caption'; background: blue; }
 
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
   { background: ButtonFace }
