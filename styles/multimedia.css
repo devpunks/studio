@@ -85,8 +85,10 @@ figcaption {
 figure:hover figcaption {
   opacity: 0.618;
 }
-canvas
-  { background: Canvas }
+canvas { /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
+  background: Canvas;
+  content-visibility: hidden;
+}
 audio
   { /* https://blog.shahednasser.com/how-to-style-an-audio-element/ */ }
 video
