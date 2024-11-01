@@ -546,7 +546,7 @@ th:empty
   { border: none }
 th[scope='row']
   { font-size: var(--smaller) }
-th[scope=row]:after {
+th[scope='row']:after {
   white-space: nowrap;
   content: counter(th);
 }
