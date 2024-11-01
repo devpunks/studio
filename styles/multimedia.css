@@ -42,8 +42,6 @@ audio, canvas, video, iframe[src*=youtube] {
 audio:hover, canvas:hover, video:hover, iframe[src*=youtube]:hover {
   background: currentColor;
 }
-video:hover {
-}
 img, svg {
   padding: var(--font-size);
 }
