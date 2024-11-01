@@ -532,7 +532,7 @@ thead {
   width: 112%;
 }
 thead::before
-  { content: '👤thead'; background: blue; }
+  {content: '👤thead';background: blue;}
 
 th {
   top: 5em;
