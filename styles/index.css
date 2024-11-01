@@ -556,7 +556,7 @@ tbody tr
 
 tr {}
 tr::before
-  { content: 'tr' }
+  {content: 'tr';background: yellow;}
 td {
   -webkit-user-select: text;
           user-select: text;
