@@ -503,7 +503,7 @@ table {
 }
 table::before {
   display: block;
-  content: 'table';
+  content: '▦table';
   background: blue;
 }
 table *
