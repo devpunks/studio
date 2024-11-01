@@ -576,7 +576,7 @@ tr::before {
 }
 tr:after {
   white-space: nowrap;
-  content: counter(tr);
+  content: counter(rows);
   background: yellow;
 }
 
