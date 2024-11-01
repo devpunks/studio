@@ -92,13 +92,7 @@ canvas
 iframe {
   display: block;
 }
-audio {
-  /* https://blog.shahednasser.com/how-to-style-an-audio-element/ */
-}
-video { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */
-  padding: 1ch;
-  background: transparent;
-}
-video:hover {
-  background: currentColor;
-}
+audio
+  { /* https://blog.shahednasser.com/how-to-style-an-audio-element/ */ }
+video
+  { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
