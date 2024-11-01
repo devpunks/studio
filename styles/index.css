@@ -491,7 +491,6 @@ li address
 */
 table {
   /* TODO: FIX HEIGHT FROM 100vh */
-  width: 100%;
   height: 100vh;
   display: block;
   overflow-y: scroll;
