@@ -521,11 +521,13 @@ caption::before
 
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
   { background: ButtonFace }
+
 thead {
   background: green;
 }
 thead::before
   { content: '👤thead'; background: blue; }
+
 th {
   top: 5em;
   padding: 0.618em;
