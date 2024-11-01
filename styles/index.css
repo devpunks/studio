@@ -508,7 +508,7 @@ table::before {
   width: 100%;
 }
 table *
-  { display: inherit }
+  {/* display: inherit; */}
 
 caption {
   top: 0;
