@@ -44,6 +44,9 @@ video { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */
   padding: 1em;
   background: url(../index.png);
 }
+video:hover {
+  background: currentColor;
+}
 img, svg {
   padding: var(--font-size);
 }
