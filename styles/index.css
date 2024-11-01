@@ -556,7 +556,7 @@ tbody {
   background: purple;
 }
 tbody::before
-  { content: 'table body' }
+  { content: 'table body'; background: blue; }
 tbody tr
   { counter-increment: table }
 
