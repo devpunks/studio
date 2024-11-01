@@ -544,7 +544,7 @@ th::before
   { content: '🗣th'; background: blue; }
 th:empty
   { border: none }
-th[scope=row]
+th[scope='row']
   { font-size: var(--smaller) }
 th[scope=row]:after {
   white-space: nowrap;
