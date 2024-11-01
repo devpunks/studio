@@ -80,6 +80,8 @@ figcaption {
 figure:hover figcaption {
   opacity: 0.618;
 }
+canvas
+  { background: Canvas }
 iframe {
   display: block;
 }
