@@ -35,7 +35,8 @@ audio, canvas, video, iframe[src*=youtube] {
   width: 90%;
   padding: 1ch;
   max-width: 65ch;
-  background: buttonFace;
+  background: inherit;
+  aspect-ratio: 16 / 9;
   margin: var(--line-height) auto;
 }
 img, svg {
