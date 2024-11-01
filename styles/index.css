@@ -535,7 +535,7 @@ thead::before
 
 th {
   top: 5em;
-  padding: 0.618em;
+  /* padding: 0.618em; */
   position: sticky;
   white-space: nowrap;
   border-bottom: 0.0618em solid
