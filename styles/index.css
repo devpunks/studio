@@ -524,7 +524,7 @@ thead {
   background: green;
 }
 thead::before
-  { content: 'thead' }
+  { content: '■thead'; }
 th {
   top: 5em;
   padding: 0.618em;
