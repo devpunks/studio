@@ -531,6 +531,7 @@ thead {
   padding: 1ch;
 }
 thead::before {
+  display: block;
   content: '👤thead';
   background: blue;
   display: block;
