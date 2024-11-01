@@ -530,8 +530,11 @@ thead {
   display: block;
   padding: 1ch;
 }
-thead::before
-  {content: '👤thead';background: blue;display: block;}
+thead::before {
+  content: '👤thead';
+  background: blue;
+  display: block;
+}
 thead tr::before {
   background: blue;
 }
