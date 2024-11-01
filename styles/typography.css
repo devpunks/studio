@@ -649,7 +649,7 @@ li address
 /* Table styling */
 table {}
 caption {
-  padding: 1em 0;
+  /* padding: 1em 0; */
   font-weight: bold;
   background-color: Canvas;
   font-size: var(--larger);
