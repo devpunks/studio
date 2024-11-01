@@ -532,6 +532,7 @@ thead {
 }
 thead::before
   {content: '👤thead';background: blue;display: block;}
+thead tr::before { }
 
 th {
   top: 5em;
