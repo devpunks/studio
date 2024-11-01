@@ -546,7 +546,9 @@ tfoot::before
 tfoot th
   { border-top: 0.0618em solid }
 
-tbody {}
+tbody {
+  background: purple;
+}
 tbody::before
   { content: 'table body' }
 tbody tr
