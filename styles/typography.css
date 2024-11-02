@@ -647,7 +647,9 @@ li address
   { margin: var(--margin-collapse-bugfix) }
 
 /* Table styling */
-table {}
+table {
+  font-size: small;
+}
 caption {
   /* padding: 1em 0; */
   font-weight: bold;
