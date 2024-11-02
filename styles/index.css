@@ -566,9 +566,15 @@ th[colspan='0'] {
   background: pink;
 }
 
-tfoot {}
-tfoot::before
-  { content: '👣tfoot'; background: blue; }
+tfoot {
+  width: 100%;
+  display: block;
+}
+tfoot::before {
+  /* display: block; */
+  content: '👣tfoot';
+  background: blue;
+}
 tfoot th
   { border-top: 0.0618em solid }
 
