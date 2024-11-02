@@ -573,8 +573,11 @@ th {
   /* position: sticky; */
   /* white-space: nowrap; */
 }
-th::before
-  { content: '🗣th'; background: blue; }
+th::before {
+  content: '🗣th';
+  background: blue;
+  white-space: nowrap;
+}
 th:empty
   { border: none }
 th[scope='row']
