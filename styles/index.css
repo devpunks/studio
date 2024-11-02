@@ -548,7 +548,7 @@ th {
   /* top: 5em; */
   /* padding: 0.618em; */
   /* position: sticky; */
-  white-space: nowrap;
+  /* white-space: nowrap; */
   border-top: 0.0618em solid;
   border-bottom: 0.0618em solid
 }
