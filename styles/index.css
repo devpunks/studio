@@ -613,7 +613,6 @@ td {
   user-select: text;
   /* outline: 1px solid currentColor; */
   /* text-align: start; */
-  white-space: nowrap;
 }
 td::before {
   content: '▮td';
