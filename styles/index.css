@@ -622,8 +622,11 @@ td {
   /* text-align: start; */
   white-space: nowrap;
 }
-td::before
-  {content: '▮td';display: inline;background: blue;}
+td::before {
+  content: '▮td';
+  display: inline;
+  background: blue;
+}
 
 
 a {
