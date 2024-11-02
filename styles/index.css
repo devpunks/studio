@@ -550,6 +550,7 @@ thead tr::before {
 }
 thead tr::after {
   background: yellow;
+  vertical-align: middle;
 }
 
 th {
