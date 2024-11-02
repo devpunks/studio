@@ -543,6 +543,7 @@ thead tr {
   border-bottom: 0.0618em solid
 }
 thead tr::before, thead tr::after {
+  white-space: nowrap;
   display: table-cell;
 }
 thead tr::before {
