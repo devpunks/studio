@@ -607,10 +607,10 @@ td {
   -webkit-user-select: text;
   user-select: text;
   /* display: block; */
-  outline: 1px solid currentColor;
-  margin: 1em;
-  width: 90%;
-  text-align: start;
+  /* outline: 1px solid currentColor; */
+  /* margin: 1em; */
+  /* width: 90%; */
+  /* text-align: start; */
 }
 td::before
   { content: '▮td'; background: blue; }
