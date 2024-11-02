@@ -563,7 +563,6 @@ th[scope='row']:after {
   content: counter(th);
 }
 th[colspan='0'] {
-  width: 80%;
   background: pink;
 }
 
