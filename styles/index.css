@@ -580,6 +580,7 @@ tbody::before
 
 tr {
   counter-increment: rows;
+  width: 100%;
 }
 tr::before {
   content: '▬tr';
