@@ -595,7 +595,7 @@ tr:after {
 td {
   -webkit-user-select: text;
   user-select: text;
-  display: block;
+  /* display: block; */
   outline: 1px solid currentColor;
   margin: 1em;
   width: 90%;
