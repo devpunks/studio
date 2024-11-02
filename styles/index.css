@@ -606,6 +606,10 @@ tr:after {
   background: yellow;
 }
 
+th, td {
+  padding-inline-end: 1ch;
+  background: purple;
+}
 td {
   -webkit-user-select: text;
   user-select: text;
