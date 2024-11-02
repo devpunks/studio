@@ -492,7 +492,7 @@ li address
 table {
   /* TODO: FIX HEIGHT FROM 100vh */
   /* height: 100vh; */
-  display: block;
+  /* display: block; */
   /* overflow-y: scroll; */
   /* table-layout: fixed; */
   border-radius: 0.618em;
