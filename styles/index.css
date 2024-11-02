@@ -622,9 +622,27 @@ td {
 }
 td::before {
   content: '▮td';
-  display: inline;
   background: blue;
 }
+
+tbody {
+  white-space: nowrap;
+  background: purple;
+}
+tbody::before
+  {/* content: 'table body'; */background: blue;}
+
+tfoot {
+  width: 100%;
+  display: block;
+}
+tfoot::before {
+  /* display: block; */
+  content: '👣tfoot';
+  background: blue;
+}
+tfoot th
+  { border-top: 0.0618em solid }
 
 
 a {
