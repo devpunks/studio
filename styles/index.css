@@ -611,7 +611,7 @@ th, td {
 td {
   -webkit-user-select: text;
   user-select: text;
-  /* outline: 1px solid currentColor; */
+  outline: 1px solid currentColor;
 }
 td::before {
   content: '▮td';
