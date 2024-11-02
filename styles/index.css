@@ -538,6 +538,14 @@ thead::before {
 }
 thead th, thead td {
   outline: 1px solid black;
+  white-space: nowrap;
+}
+thead th::before, thead td::before {
+  background: pink;
+  white-space: nowrap;
+  line-height: 100%;
+  margin-inline-end: 1ch;
+  content: '>';
 }
 thead tr {
   border-top: 0.0618em solid;
