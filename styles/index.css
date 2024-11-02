@@ -608,7 +608,7 @@ tr::before {
 }
 tr:after {
   white-space: nowrap;
-  content: '◀' counter(rows);
+  content: '◀';
   background: yellow;
 }
 
