@@ -537,6 +537,8 @@ thead::before {
 }
 thead tr::before {
   background: blue;
+  display: block;
+  width: 100%;
 }
 thead tr::after {
   background: yellow;
