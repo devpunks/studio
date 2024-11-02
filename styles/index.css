@@ -592,7 +592,6 @@ th[colspan='0'] {
 
 
 tr {
-  /* display: block; */
   counter-increment: rows;
   /* width: 100%; */
 }
