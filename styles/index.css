@@ -509,7 +509,7 @@ table::before {
 }
 table *
   {/* display: inherit; */}
-
+table *::before { outline: 1px dashed }
 caption {
   top: 0;
   z-index: 1;
