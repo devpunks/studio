@@ -620,6 +620,7 @@ td {
   /* margin: 1em; */
   /* width: 90%; */
   /* text-align: start; */
+  white-space: nowrap;
 }
 td::before
   { content: '▮td'; background: blue; }
