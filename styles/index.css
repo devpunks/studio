@@ -623,7 +623,7 @@ td {
   white-space: nowrap;
 }
 td::before
-  { content: '▮td'; background: blue; }
+  {content: '▮td';display: inline;background: blue;}
 
 
 a {
