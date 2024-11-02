@@ -547,6 +547,10 @@ thead tr::before, thead tr::after {
   display: table-cell;
 }
 thead tr::before {
+  padding: 1ch;
+  font-size: smaller;
+  text-align: center;
+  content: counter(rows);
   background: blue;
 }
 thead tr::after {
