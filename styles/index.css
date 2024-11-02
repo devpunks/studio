@@ -493,9 +493,8 @@ table {
   /* TODO: FIX HEIGHT FROM 100vh */
   /* height: 100vh; */
   display: block;
-  overflow-y: scroll;
-  table-layout: fixed;
-  counter-reset: table;
+  /* overflow-y: scroll; */
+  /* table-layout: fixed; */
   border-radius: 0.618em;
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
