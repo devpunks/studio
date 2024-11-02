@@ -579,6 +579,7 @@ tfoot th
   { border-top: 0.0618em solid }
 
 tbody {
+  white-space: nowrap;
   background: purple;
 }
 tbody::before
