@@ -535,6 +535,13 @@ thead::before {
   content: '👤thead';
   background: blue;
 }
+thead th, thead td {
+  outline 1px solid;
+}
+thead tr {
+  border-top: 0.0618em solid;
+  border-bottom: 0.0618em solid
+}
 thead tr::before {
   background: blue;
   display: block;
