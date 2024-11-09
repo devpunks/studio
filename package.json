@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "license": "MIT",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "module": "./index.es",
   "contributors": [],
   "author": "devPunks",
@@ -28,57 +28,6 @@
   "main": "index.es",
   "files": [],
   "packageManager": "npm@9.5.1",
-  "module": "./index.es",
-  "config": {
-    "PORT": "8080"
-  },
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./index.js"
-      }
-    }
-  },
-  "config": {
-    "PORT": "8080"
-  },
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./index.js"
-      }
-    }
-  },
-  "config": {
-    "PORT": "8080"
-  },
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./index.js"
-      }
-    }
-  },
-  "config": {
-    "PORT": "8080"
-  },
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./index.js"
-      }
-    }
-  },
-  "config": {
-    "PORT": "8080"
-  },
-  "exports": {
-    ".": {
-      "browser": {
-        "default": "./index.js"
-      }
-    }
-  },
   "config": {
     "PORT": "8080"
   },
