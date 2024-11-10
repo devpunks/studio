@@ -630,7 +630,8 @@ td {
   outline: 1px solid currentColor;
   word-break: break-word;
   word-wrap: break-word;
-  width: 27%;
+  display: block;
+  text-align: start;
 }
 td::before {
   content: '▮td';
