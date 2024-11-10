@@ -553,7 +553,6 @@ thead th::before, thead td::before {
   color: currentColor;
   background: pink;
   white-space: nowrap;
-  line-height: 100%;
   margin-inline-end: 1ch;
   content: '>';
 }
