@@ -526,6 +526,7 @@ caption::before {
   content:
   '🗨caption';
   display: block;
+  margin-block: 1ch;
   background: blue;
   content: '🗨caption';
 }
