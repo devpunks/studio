@@ -517,7 +517,6 @@ caption {
   /* position: sticky; */
   background: red;
   padding: 1ch;
-  display: block;
   caption-side: top;
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
