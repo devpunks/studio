@@ -572,7 +572,6 @@ thead tr::before, tfoot tr::before {
   display: table-cell;
   font-size: smaller;
   text-align: center;
-  content: counter(rows);
   background: blue;
 }
 thead tr::after {
