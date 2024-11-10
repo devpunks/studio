@@ -630,7 +630,7 @@ tbody {
 tbody::before {
   margin: 1ch;
   display: block;
-  background: blue;
+  background: inherit;
 }
 tbody::before {
   content: '👤tbody';
