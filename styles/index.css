@@ -535,7 +535,7 @@ thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
 
 thead {
   background: green;
-  /* display: table-caption; */
+  display: block;
   padding: 1ch;
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
