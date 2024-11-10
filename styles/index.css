@@ -494,7 +494,7 @@ table {
   /* width: 100%; */
   /* display: block; */
   /* overflow-y: scroll; */
-  table-layout: fixed;
+  /* table-layout: fixed; */
   border-radius: 0.618em;
   /* border-collapse: collapse; */
   counter-reset: table rows th tr td;
