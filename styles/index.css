@@ -578,7 +578,9 @@ thead tr::after {
 th {
   /* top: 5em; */
   /* position: sticky; */
-  /* white-space: nowrap; */
+  /* display: block; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 th::before {
   content: '🗣th';
