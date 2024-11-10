@@ -641,8 +641,7 @@ tbody tr::before {
   content: counter(rows) '.';
   background: blue;
 }
-tr::after {
-  white-space: nowrap;
+tbody tr::after {
   content: '◀';
   background: yellow;
 }
