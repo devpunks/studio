@@ -621,6 +621,9 @@ td {
   -webkit-user-select: text;
   user-select: text;
   outline: 1px solid currentColor;
+  word-break: break-word;
+  word-wrap: break-word;
+  width: 27%;
 }
 td::before {
   content: '▮td';
