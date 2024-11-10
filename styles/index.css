@@ -571,6 +571,8 @@ thead tr::before, tfoot tr::before {
   font-size: smaller;
   text-align: center;
   background: blue;
+  display: table-cell;
+  padding-inline: 1ch;
 }
 thead tr::after {
   background: yellow;
