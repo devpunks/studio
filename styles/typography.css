@@ -651,7 +651,7 @@ table {
   font-size: small;
 }
 caption {
-  /* padding: 1em 0; */
+  text-align: start;
   font-weight: bold;
   background-color: Canvas;
   font-size: var(--larger);
