@@ -624,6 +624,8 @@ tbody {
   text-align: start;
   white-space: nowrap;
   background: purple;
+  display: block;
+  padding-block: 3ch;
 }
 tbody::before {
   background: blue;
