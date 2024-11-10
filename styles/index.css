@@ -502,7 +502,6 @@ table {
   margin: 0 var(--line-height) var(--line-height);
 }
 table::before {
-  width: 100%;
   display: block;
   content: '▦table';
   background: blue;
