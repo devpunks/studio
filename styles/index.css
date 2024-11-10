@@ -656,6 +656,7 @@ tfoot {
   padding: 1ch;
   display: block;
   border-radius: 1ch;
+  margin-block-start: -1ch;
 }
 tfoot::before {
   display: block;
