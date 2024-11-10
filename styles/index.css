@@ -654,7 +654,8 @@ tfoot {
   border-radius: 1ch;
 }
 tfoot::before {
-  /* display: block; */
+  display: block;
+  margin-block: 1ch;
   content: '👣tfoot';
   background: blue;
 }
