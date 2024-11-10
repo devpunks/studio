@@ -646,8 +646,9 @@ tbody tr::after {
   white-space: nowrap;
   background: yellow;
 }
-*/
-
+tbody td {
+  display: inline-block;
+}
 tfoot {
   background: white;
   padding: 1ch;
