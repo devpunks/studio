@@ -618,6 +618,7 @@ td {
 }
 td::before {
   content: '▮td';
+  margin-inline: 0 1ch;
   background: blue;
 }
 
