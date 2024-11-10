@@ -520,6 +520,12 @@ caption {
   width: 100%;
   display: block;
   margin-block-start: -1ch;
+  padding-block-end: 1ch;
+  line-height: calc(var(--GOLDEN-RATIO) * 2em);
+  
+  
+  );
+  );
   border-radius: 1ch 1ch 0 0;
 }
 caption::before
