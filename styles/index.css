@@ -631,7 +631,6 @@ tbody::before {
   margin: 1ch;
   display: block;
   background: blue;
-  /* content: 'table body'; */
 }
 tbody tr {
   margin: 1ch;
