@@ -607,10 +607,6 @@ th, td {
   padding-inline-end: 1ch;
 }
 td {
-  -webkit-user-select: text;
-  user-select: text;
-  outline: 1px solid currentColor;
-  word-wrap: unset;
   display: block;
   text-align: start;
 }
