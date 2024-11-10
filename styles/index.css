@@ -657,7 +657,7 @@ tbody td {
   display: inline-block;
 }
 tfoot {
-  background: white;
+  background: inherit;
   padding: 1ch;
   display: block;
   border-radius: 1ch;
