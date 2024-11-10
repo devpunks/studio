@@ -612,8 +612,7 @@ td {
   -webkit-user-select: text;
   user-select: text;
   outline: 1px solid currentColor;
-  word-break: break-word;
-  word-wrap: break-word;
+  word-wrap: unset;
   display: block;
   text-align: start;
 }
