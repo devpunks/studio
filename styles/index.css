@@ -610,6 +610,9 @@ td {
   display: block;
   word-wrap: unset;
   text-align: start;
+  -webkit-user-select: text;
+          user-select: text;
+  outline: 1px solid currentColor;
 }
 td::before {
   content: '▮td';
