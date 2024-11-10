@@ -536,7 +536,7 @@ thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
   {background: inherit;}
 
 thead {
-  background: green;
+  background: inherit;
   display: block;
   padding: 1ch;
   margin-block-start: -1ch;
