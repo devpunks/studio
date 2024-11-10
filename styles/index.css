@@ -516,7 +516,7 @@ caption {
   /* z-index: 1; */
   /* position: sticky; */
   background: red;
-  width: 100%;
+  padding: 1ch;
   display: block;
   margin-block-start: -1ch;
   padding-block-end: 1ch;
