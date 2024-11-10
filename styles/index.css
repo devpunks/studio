@@ -496,7 +496,7 @@ table {
   /* display: block; */
   /* table-layout: fixed; */
   border-radius: 0.618em;
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   counter-reset: table rows th tr td;
   box-shadow: var(--box-shadow);
   /* margin: 0 var(--line-height) var(--line-height); */
