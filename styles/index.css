@@ -515,7 +515,6 @@ caption {
   /* top: 0; */
   /* z-index: 1; */
   /* position: sticky; */
-  caption-side: top;
   background: red;
   width: 100%;
   display: block;
