@@ -567,7 +567,8 @@ thead tr::before, thead tr::after {
   white-space: nowrap;
 }
 thead tr::before {
-  padding: 1ch;
+  padding-inline: 1ch;
+  display: table-cell;
   font-size: smaller;
   text-align: center;
   content: counter(rows);
