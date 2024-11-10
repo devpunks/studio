@@ -611,7 +611,7 @@ tr::before {
   content: '▬tr';
   background: blue;
 }
-tr:after {
+tr::after {
   white-space: nowrap;
   content: '◀';
   background: yellow;
