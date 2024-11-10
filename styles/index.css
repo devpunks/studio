@@ -541,6 +541,7 @@ thead th, thead td {
   white-space: nowrap;
 }
 thead th::before, thead td::before {
+  color: currentColor;
   background: pink;
   white-space: nowrap;
   line-height: 100%;
