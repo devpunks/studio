@@ -520,7 +520,7 @@ caption {
   display: block;
 }
 caption::before
-  {content: '🗨caption';background: blue;display: block;}
+  {margin-block: 0.5ch 1ch;content: '🗨caption';background: blue;display: block;}
 
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
   { background: ButtonFace }
