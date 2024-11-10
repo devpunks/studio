@@ -523,8 +523,11 @@ caption {
   border-radius: 1ch 1ch 0 0;
   line-height: calc(var(--GOLDEN-RATIO) * 2em);
 }
-caption::before
-  {content: '🗨caption';background: blue;display: block;}
+caption::before {
+  display: block;
+  background: blue;
+  content: '🗨caption';
+}
 
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
   { background: ButtonFace }
