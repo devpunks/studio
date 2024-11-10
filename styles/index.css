@@ -630,8 +630,6 @@ tbody::before {
   /* content: 'table body'; */
 }
 tbody tr {
-  counter-increment: rows;
-  display: block;
   margin: 1ch;
 }
 /*
