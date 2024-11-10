@@ -525,6 +525,7 @@ caption::before {
   display: block;
   margin-block: 1ch;
   background: blue;
+  content: '🗨caption';
 }
 
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
