@@ -604,23 +604,6 @@ th[colspan='0'] {
   background: pink;
 }
 
-tbody tr {
-  counter-increment: rows;
-  display: block;
-  margin: 1ch;
-}
-/*
-tr::before {
-  content: '▬tr';
-  background: blue;
-}
-tr::after {
-  white-space: nowrap;
-  content: '◀';
-  background: yellow;
-}
-*/
-
 th, td {
   padding-inline-end: 1ch;
   background: purple;
