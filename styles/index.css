@@ -518,6 +518,7 @@ caption {
   background: red;
   padding: 1ch;
   display: block;
+  caption-side: top;
   margin-block-start: -1ch;
   padding-block-end: 1ch;
   line-height: calc(var(--GOLDEN-RATIO) * 2em);
