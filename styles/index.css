@@ -533,6 +533,8 @@ thead {
   background: green;
   display: block;
   padding: 1ch;
+  margin-block-start: -1ch;
+  border-radius: 1ch 1ch 0 0;
 }
 thead::before {
   display: block;
