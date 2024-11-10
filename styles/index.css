@@ -605,6 +605,8 @@ th[colspan='0'] {
 
 tbody tr {
   counter-increment: rows;
+  display: block;
+  margin: 1ch;
 }
 tr::before {
   content: '▬tr';
