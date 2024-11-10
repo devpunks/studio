@@ -605,7 +605,6 @@ th[colspan='0'] {
 
 th, td {
   padding-inline-end: 1ch;
-  background: purple;
 }
 td {
   -webkit-user-select: text;
