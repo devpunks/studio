@@ -534,6 +534,8 @@ thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even) {
 
 thead {
   padding: 1ch;
+  display: block;
+  background: inherit;
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
 }
