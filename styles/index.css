@@ -561,6 +561,8 @@ thead tr {
   border-top: 0.0618em solid;
   border-bottom: 0.0618em solid;
 }
+
+
 thead tr::before, thead tr::after {
   white-space: nowrap;
 }
