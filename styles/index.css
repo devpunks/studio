@@ -567,7 +567,7 @@ thead tr {
 thead tr::before, thead tr::after {
   white-space: nowrap;
 }
-thead tr::before {
+thead tr::before, tfoot tr::before {
   padding-inline: 1ch;
   display: table-cell;
   font-size: smaller;
