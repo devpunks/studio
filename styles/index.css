@@ -523,6 +523,8 @@ caption {
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
 caption::before {
+  content:
+  '🗨caption';
   display: block;
   background: blue;
   content: '🗨caption';
