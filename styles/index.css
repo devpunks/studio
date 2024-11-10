@@ -603,8 +603,7 @@ th[colspan='0'] {
   background: pink;
 }
 
-/*
-tr {
+tbody tr {
   counter-increment: rows;
 }
 tr::before {
