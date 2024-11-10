@@ -634,9 +634,11 @@ tbody tr {
   display: block;
   counter-increment: rows;
 }
-/*
-tr::before {
-  content: '▬tr';
+tbody tr::before {
+  min-width: 3em;
+  text-align: right;
+  padding-inline: 1ch;
+  content: counter(rows) '.';
   background: blue;
 }
 tr::after {
