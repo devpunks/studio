@@ -631,6 +631,8 @@ tbody::before {
 }
 tbody tr {
   margin: 1ch;
+  display: block;
+  counter-increment: rows;
 }
 /*
 tr::before {
