@@ -533,7 +533,7 @@ caption::before {
 }
 
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even)
-  { background: ButtonFace }
+  {background: inherit;}
 
 thead {
   background: green;
