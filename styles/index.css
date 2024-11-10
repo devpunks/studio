@@ -621,6 +621,7 @@ td::before {
 }
 
 tbody {
+  display: block;
   text-align: start;
   white-space: nowrap;
   background: inherit;
