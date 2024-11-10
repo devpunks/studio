@@ -542,7 +542,7 @@ thead {
 thead::before {
   display: block;
   margin-block: 1ch;
-  background: blue;
+  background: inherit;
 }
 thead::before {
   content: '👤thead';
