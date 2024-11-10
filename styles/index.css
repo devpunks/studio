@@ -541,7 +541,7 @@ thead {
   border-radius: 1ch 1ch 0 0;
 }
 thead::before {
-  /* display: block; */
+  display: block;
   content: '👤thead';
   background: blue;
 }
