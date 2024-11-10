@@ -519,7 +519,6 @@ caption {
   background: red;
   width: 100%;
   display: block;
-  padding: 0.5ch;
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
 }
