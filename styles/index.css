@@ -667,7 +667,7 @@ tfoot::before {
   display: block;
   margin-block: 1ch;
   content: '👣tfoot';
-  background: blue;
+  background: inherit;
 }
 tfoot tr {
   display: block;
