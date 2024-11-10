@@ -626,8 +626,6 @@ tbody {
   padding-block: 3ch;
   white-space: nowrap;
   background: inherit;
-  display: block;
-  padding-block: 3ch;
 }
 tbody::before {
   background: blue;
