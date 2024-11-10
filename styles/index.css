@@ -608,6 +608,7 @@ tbody tr {
   display: block;
   margin: 1ch;
 }
+/*
 tr::before {
   content: '▬tr';
   background: blue;
