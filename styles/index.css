@@ -521,6 +521,7 @@ caption {
   caption-side: top;
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
+  line-height: calc(var(--GOLDEN-RATIO) * 2em);
 }
 caption::before
   {margin-block: 1ch;content: '🗨caption';background: blue;display: block;}
