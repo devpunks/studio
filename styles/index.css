@@ -557,7 +557,6 @@ tfoot th::before, tfoot td::before {
   background: pink;
   white-space: nowrap;
   margin-inline-end: 1ch;
-  content: '>';
 }
 thead tr {
   border-top: 0.0618em solid;
