@@ -632,6 +632,10 @@ tbody::before {
   display: block;
   background: blue;
 }
+tbody::before {
+  content: '👤tbody';
+}
+
 tbody tr {
   margin: 1ch;
   display: block;
