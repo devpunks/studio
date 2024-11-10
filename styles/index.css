@@ -626,8 +626,26 @@ tbody {
   white-space: nowrap;
   background: purple;
 }
-tbody::before
-  {/* content: 'table body'; */background: blue;}
+tbody::before {
+  background: blue;
+  /* content: 'table body'; */
+}
+tbody tr {
+  counter-increment: rows;
+  display: block;
+  margin: 1ch;
+}
+/*
+tr::before {
+  content: '▬tr';
+  background: blue;
+}
+tr::after {
+  white-space: nowrap;
+  content: '◀';
+  background: yellow;
+}
+*/
 
 tfoot {
   width: 100%;
