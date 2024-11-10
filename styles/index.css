@@ -675,6 +675,10 @@ tfoot th {
   border-top: 0.0618em solid
 }
 
+caption, thead td, tbody td, tfoot td {
+  -webkit-user-select: text;
+          user-select: text;
+}
 
 a {
   display: inline;
