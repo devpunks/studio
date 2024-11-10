@@ -548,7 +548,6 @@ thead::before {
 }
 thead th, thead td {
   /* outline: 1px solid black; */
-  white-space: nowrap;
 }
 thead th::before, thead td::before {
   color: currentColor;
