@@ -544,6 +544,9 @@ thead::before {
   margin-block: 1ch;
   background: blue;
 }
+thead::before {
+  content: '👤thead';
+}
 thead th, thead td {
   /* outline: 1px solid black; */
 }
