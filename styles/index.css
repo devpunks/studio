@@ -620,7 +620,7 @@ td::before {
 
 tbody {
   display: block;
-  padding-block: 1ch 3ch;
+  padding-block: 1ch;
   white-space: nowrap;
   background: inherit;
 }
