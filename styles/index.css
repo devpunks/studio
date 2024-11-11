@@ -490,7 +490,7 @@ li address
     - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
 */
 table {
-t  width: 100%;
+  width: 100%;
   text-align: start;
   background: rgba(255,255,255,0.5);
   /* display: block; */
@@ -613,14 +613,14 @@ td {
   outline: 1px solid currentColor;
 }
 td::before {
-  content: '▮td';
+  content: 'â–®td';
   margin-inline: 0 1ch;
   background: blue;
 }
 
 tbody {
   display: block;
-  padding-block: 3ch;
+  padding-block: 1ch 3ch;
   white-space: nowrap;
   background: inherit;
 }
