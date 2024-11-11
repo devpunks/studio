@@ -611,7 +611,6 @@ th, td {
 td {
   display: block;
   word-wrap: unset;
-  text-align: start;
   outline: 1px solid currentColor;
 }
 td::before {
