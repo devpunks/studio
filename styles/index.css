@@ -679,6 +679,10 @@ caption, thead td, tbody td, tfoot td {
   -webkit-user-select: text;
           user-select: text;
 }
+table::before, thead::before, tbody::before {
+  text-indent: 1ch;
+}
+
 
 a {
   display: inline;
