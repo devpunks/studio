@@ -504,6 +504,7 @@ t  width: 100%;
 }
 table::before {
   content: '▦table';
+  display: block;
   background: blue;
   padding-block-end: 1ch;
   border-radius: 1ch 1ch 0 0;
