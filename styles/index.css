@@ -491,7 +491,8 @@ li address
     - https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
 */
 table {
-  width: 100%;
+t  width: 100%;
+  text-align: start;
   background: rgba(255,255,255,0.5);
   /* display: block; */
   /* table-layout: fixed; */
