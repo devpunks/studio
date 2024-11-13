@@ -631,8 +631,8 @@ td {
   word-wrap: unset;
   outline: 1px solid currentColor;
 }
-td::before {
-  content: 'â–®td';
+td::before, td::after {
+  content: 'td';
   margin-inline: 0 1ch;
   background: blue;
 }
