@@ -556,7 +556,7 @@ thead {
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
 }
-thead::before {
+thead::before, thead::after {
   display: block;
   margin-block: 1ch;
   background: inherit;
