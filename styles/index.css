@@ -639,6 +639,9 @@ td::before, td::after {
 td::before {
   content: 'td';
 }
+td::after {
+  content: 'td';
+}
 
 tbody {
   z-index: 1;
