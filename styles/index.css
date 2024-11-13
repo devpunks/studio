@@ -641,6 +641,7 @@ tbody {
   z-index: 1;
   position: relative;
   display: block;
+  margin-block-start: -1ch;
   padding-block: 1ch;
   white-space: nowrap;
   background: inherit;
