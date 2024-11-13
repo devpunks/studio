@@ -855,8 +855,8 @@ ol > li, ul > li {}
 ol > li
   { counter-increment: ordered }
 ul > li {}
-ol > li::before,
-ul > li::before {
+ol > li::after,
+ul > li::after {
   width: 1ch;
   display: inline-block;
   margin-inline-end: 0.6182ch;
