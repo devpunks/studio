@@ -636,6 +636,9 @@ td::before, td::after {
   margin-inline: 0 1ch;
   background: blue;
 }
+td::before {
+  content: 'td';
+}
 
 tbody {
   z-index: 1;
