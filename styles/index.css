@@ -502,8 +502,7 @@ table {
   box-shadow: var(--box-shadow);
   /* margin: 0 var(--line-height) var(--line-height); */
 }
-table::before {
-  content: '▦table';
+table::before, table::after {
   display: block;
   background: blue;
   padding-block-end: 1ch;
