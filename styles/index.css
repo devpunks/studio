@@ -648,7 +648,7 @@ tbody {
   border-radius: inherit;
   background: red;
 }
-tbody::before {
+tbody::before, tbody::after {
   margin: 1ch;
   display: block;
   background: inherit;
