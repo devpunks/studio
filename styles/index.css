@@ -495,7 +495,7 @@ table {
   background: rgba(255,255,255,0.5);
   /* display: block; */
   /* table-layout: fixed; */
-  border-radius: 0.618em;
+  border-radius: 1ch;
   border-collapse: collapse;
   counter-reset: table rows th tr td;
   box-shadow: var(--box-shadow);
