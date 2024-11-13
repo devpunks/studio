@@ -681,6 +681,8 @@ tbody td {
   display: inline-block;
 }
 tfoot {
+  z-index: 0;
+  position: relative;
   background: inherit;
   padding: 1ch;
   display: block;
