@@ -863,7 +863,7 @@ ul > li::after {
 }
 ol > li::after
   { content: '\232A' }
-ul > li::before { }
+ul > li::after { }
 
 /**** COUNTERS *******
   - https://w3.org/TR/predefined-counter-styles/
