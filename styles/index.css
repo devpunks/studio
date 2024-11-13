@@ -667,7 +667,7 @@ tbody tr {
 }
 tbody tr::before {
   min-width: 3em;
-  text-align: right;
+  display: inline-block;
   padding-inline: 1ch;
   content: counter(rows) '.';
   background: blue;
