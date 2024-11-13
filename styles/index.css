@@ -548,6 +548,8 @@ thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even) {
 }
 
 thead {
+  z-index: 0;
+  position: relative;
   padding: 1ch;
   display: block;
   background: inherit;
