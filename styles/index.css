@@ -92,8 +92,8 @@
 /*
  * pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
  */
-::before, ::after {
-  /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-abefore */
+::after, ::after {
+  /* https://stackoverflow.com/questions/8820286/how-to-remove-only-underline-from-aafter */
   display: inline-block;
   /* vertical-align: text-top; */
 }
