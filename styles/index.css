@@ -656,6 +656,9 @@ tbody::before, tbody::after {
 tbody::before {
   content: '👤tbody';
 }
+tbody::after {
+  content: '👤tbody';
+}
 
 tbody tr {
   margin: 1ch;
