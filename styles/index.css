@@ -534,7 +534,12 @@ caption {
 caption::before, caption::after {
   display: block;
   margin-block: 1ch;
-  background: blue;
+  background: inherit;
+}
+caption::before {
+  content: '🗨caption';
+}
+caption::after {
   content: '🗨caption';
 }
 
