@@ -694,6 +694,13 @@ tfoot::before, tfoot::after {
   margin-block: 1ch;
   background: inherit;
 }
+tfoot::before {
+  content: '👣tfoot';
+}
+tfoot::after {
+  content: '👣tfoot';
+}
+
 tfoot tr {
   display: block;
 }
