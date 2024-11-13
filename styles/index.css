@@ -523,8 +523,7 @@ table *::before { outline: 1px dashed }
 caption {
   /* top: 0; */
   /* z-index: 1; */
-  /* position: sticky; */
-  background: red;
+  caption-side: bottom;
   padding: 1ch;
   caption-side: top;
   margin-block-start: -1ch;
