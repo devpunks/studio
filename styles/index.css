@@ -689,7 +689,7 @@ tfoot {
   border-radius: 1ch;
   margin-block: -1ch;
 }
-tfoot::before {
+tfoot::before, tfoot::after {
   display: block;
   margin-block: 1ch;
   content: '👣tfoot';
