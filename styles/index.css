@@ -713,7 +713,8 @@ caption, thead td, tbody td, tfoot td {
   -webkit-user-select: text;
           user-select: text;
 }
-table::before, thead::before, tbody::before {
+table::before, thead::before, tbody::before, tfoot::before,
+table::after, thead::after, tbody::after, tfoot::after {
   text-indent: 1ch;
 }
 
