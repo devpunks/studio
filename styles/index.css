@@ -638,6 +638,8 @@ td::before {
 }
 
 tbody {
+  z-index: 1;
+  position: relative;
   display: block;
   padding-block: 1ch;
   white-space: nowrap;
