@@ -692,7 +692,6 @@ tfoot {
 tfoot::before, tfoot::after {
   display: block;
   margin-block: 1ch;
-  content: '👣tfoot';
   background: inherit;
 }
 tfoot tr {
