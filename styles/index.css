@@ -531,7 +531,7 @@ caption {
   border-radius: 1ch;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
-caption::before {
+caption::before, caption::after {
   display: block;
   margin-block: 1ch;
   background: blue;
