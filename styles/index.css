@@ -645,6 +645,8 @@ tbody {
   padding-block: 1ch;
   white-space: nowrap;
   background: inherit;
+  border-radius: inherit;
+  background: red;
 }
 tbody::before {
   margin: 1ch;
