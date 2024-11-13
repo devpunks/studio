@@ -511,6 +511,12 @@ table::before {
   margin-block-start: 1ch;
   border-radius: 1ch 1ch 0 0;
 }
+table::after {
+  content: '▦table';
+  margin-block-end: 1ch;
+  border-radius: 0 0 1ch 1ch;
+}
+
 table *
   {/* display: inherit; */}
 table *::before { outline: 1px dashed }
