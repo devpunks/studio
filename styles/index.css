@@ -505,7 +505,10 @@ table {
 table::before, table::after {
   display: block;
   background: blue;
-  padding-block-end: 1ch;
+}
+table::before {
+  content: '▦table';
+  margin-block-start: 1ch;
   border-radius: 1ch 1ch 0 0;
 }
 table *
