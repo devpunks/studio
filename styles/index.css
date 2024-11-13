@@ -525,9 +525,10 @@ caption {
   /* z-index: 1; */
   caption-side: bottom;
   padding: 1ch;
-  caption-side: top;
-  margin-block-start: -1ch;
-  border-radius: 1ch 1ch 0 0;
+  margin-block: 1ch;
+  /* position: sticky; */
+  background: inherit;
+  border-radius: 1ch;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
 caption::before {
