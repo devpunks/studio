@@ -603,8 +603,6 @@ thead tr::after {
 
 tfoot {
   z-index: 0;
-  position: relative;
-  background: inherit;
   padding: 1ch;
   display: block;
   border-radius: 1ch;
