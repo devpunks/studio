@@ -664,7 +664,8 @@ tbody tr:nth-child(odd) {
 th, td {
   flex-grow: 1;
   text-align: inherit;
-  /* padding-inline-end: 1ch; */
+  display: inline-flex;
+  justify-content: space-between;
   outline: 1px solid black;
 }
 th::before, th::after,
