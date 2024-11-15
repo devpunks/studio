@@ -601,6 +601,35 @@ thead tr::after {
   vertical-align: middle;
 }
 
+tfoot {
+  z-index: 0;
+  position: relative;
+  background: inherit;
+  padding: 1ch;
+  display: block;
+  border-radius: 1ch;
+  margin-block: -1ch;
+}
+tfoot::before, tfoot::after {
+  display: block;
+  margin-block: 1ch;
+  background: inherit;
+}
+tfoot::before {
+  content: '👣tfoot';
+}
+tfoot::after {
+  content: '👣tfoot';
+}
+
+tfoot tr {
+  display: block;
+}
+tfoot th {
+  display: block;
+  border-top: 0.0618em solid
+}
+
 th {
   /* top: 5em; */
   /* position: sticky; */
