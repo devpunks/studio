@@ -625,53 +625,6 @@ tfoot::after {
   content: '👣tfoot';
 }
 
-th {
-  top: auto;
-  /* position: sticky; */
-}
-th::before {
-  content: '🗣th';
-  background: blue;
-  white-space: nowrap;
-}
-th:empty
-  { border: none }
-th[scope='row']
-  { font-size: var(--smaller) }
-th[scope='row']:after {
-  white-space: nowrap;
-  content: counter(th);
-}
-th[colspan='0'] {
-  background: pink;
-}
-
-th, td {
-  flex-grow: 1;
-  overflow: hidden;
-  text-align: inherit;
-  text-overflow: ellipsis;
-  padding-inline-end: 1ch;
-  outline: 1px solid black;
-}
-td {
-  display: block;
-  word-wrap: unset;
-  outline: 1px solid currentColor;
-}
-td::before, td::after {
-  content: 'td';
-  display: inline-block;
-  margin-inline: 0 1ch;
-  background: blue;
-}
-td::before {
-  content: 'td';
-}
-td::after {
-  content: 'td';
-}
-
 tbody {
   z-index: 1;
   display: block;
