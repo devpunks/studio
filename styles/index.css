@@ -553,8 +553,12 @@ table thead {}
 table tfoot {}
 table tbody {}
 
-table thead tr::before, table thead tr::after,
-table tfoot tr::before, table tfoot tr::after {
+table tr {
+  background: green;
+  color: blue;
+  display: flex;
+}
+table tr::before, table tr::after {
   content: 'tr';
   padding: 1ch;
   font-size: smaller;
