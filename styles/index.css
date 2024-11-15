@@ -549,7 +549,7 @@ table thead {}
 table tfoot ()
 table tbody {}
 
-thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even) {
+thead, tfoot, tbody tr:nth-child(even) {
   background: inherit;
 }
 table thead tr::before, table thead tr::after,
