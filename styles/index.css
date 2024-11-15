@@ -563,7 +563,6 @@ table tr::before, table tr::after {
   padding: 1ch;
   font-size: smaller;
   text-align: center;
-  word-break: normal;
   display: table-cell;
   vertical-align: top;
   background: magenta;
