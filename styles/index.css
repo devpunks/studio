@@ -671,9 +671,40 @@ tbody tr:nth-child(even) {
   background: magenta;
 }
 
-table::before, thead::before, tbody::before, tfoot::before,
-table::after, thead::after, tbody::after, tfoot::after {
-  text-indent: 1ch;
+th, td {
+  flex-grow: 1;
+  overflow: hidden;
+  text-align: inherit;
+  text-overflow: ellipsis;
+  padding-inline-end: 1ch;
+  outline: 1px solid black;
+}
+
+th {
+  top: auto;
+  /* position: sticky; */
+}
+td::before, td::after {}
+th::before {
+  content: '🗣th';
+}
+th::after {
+  content: '🗣th';
+th:empty
+  { border: none }
+
+td {
+  display: block;
+  word-wrap: unset;
+  outline: 1px solid currentColor;
+}
+td::before, td::after {
+  display: inline-block;
+  margin-inline: 0 1ch;
+  background: blue;
+}
+td::before {
+  content: 'td';
 }
 
 
