@@ -564,8 +564,8 @@ table tr {
   display: flex;
 }
 table tr::before, table tr::after {
-  content: 'tr';
   padding: 1ch;
+  content: 'tr';
   font-size: smaller;
   text-align: center;
   display: table-cell;
