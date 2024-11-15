@@ -601,6 +601,8 @@ tfoot {
   display: block;
   position: relative;
   margin-block: -1ch;
+  border-radius: 1ch;
+  background: inherit;
 }
 tfoot::before, tfoot::after {
   display: block;
