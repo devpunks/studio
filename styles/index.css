@@ -605,6 +605,7 @@ th {
   /* display: block; */
   overflow: hidden;
   text-overflow: ellipsis;
+  outline: 1px solid black;
 }
 th::before {
   content: '🗣th';
