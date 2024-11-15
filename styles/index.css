@@ -561,7 +561,11 @@ table tfoot tr::before, table tfoot tr::after {
   text-align: center;
   word-break: normal;
   display: table-cell;
-  padding-inline: 1ch;
+  vertical-align: top;
+  background: magenta;
+}
+table thead tr::before, table thead tr::after {
+  white-space: nowrap;
 }
 table tr {
   background: green;
