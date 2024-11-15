@@ -662,7 +662,6 @@ th, td {
   text-align: inherit;
   display: inline-flex;
   justify-content: space-between;
-  outline: 1px solid black;
 }
 th::before, th::after,
 td::before, td::after {
