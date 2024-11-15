@@ -503,8 +503,7 @@ table {
 }
 table::before, table::after {
   display: block;
-  text-indent: 1ch;
-  background: blue;
+  background: inherit;
 }
 table::before {
   content: '▦table';
