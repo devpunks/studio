@@ -650,7 +650,9 @@ tbody tr::after {
   content: '◀';
   white-space: nowrap;
 }
-tbody tr:hover {}
+tbody tr:hover {
+  outline: 1ch solid currentColor;
+}
 tbody td {
 }
 tbody tr:nth-child(odd) {
