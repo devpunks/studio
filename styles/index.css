@@ -648,7 +648,6 @@ tbody tr::before {
   padding-inline: 1ch;
   display: inline-block;
   content: counter(rows) '.';
-  background: blue;
 }
 tbody tr::after {
   content: '◀';
