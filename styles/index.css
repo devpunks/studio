@@ -594,8 +594,7 @@ thead::before {
 thead::after {
   content: '👤thead';
 }
-thead th, thead td {
-}
+thead th, thead td {}
 thead th::before, thead td::before,
 tfoot th::before, tfoot td::before {
   content: '>';
