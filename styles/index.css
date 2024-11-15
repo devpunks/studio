@@ -560,7 +560,6 @@ table tbody {}
 
 table tr {
   background: green;
-  color: blue;
   display: flex;
 }
 table tr::before, table tr::after {
