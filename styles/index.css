@@ -653,7 +653,7 @@ tbody tr::after {
 tbody td {
 }
 tbody tr:nth-child(odd) {
-  background: magenta;
+  background: inherit;
 }
 
 th, td {
