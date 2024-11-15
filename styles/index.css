@@ -527,8 +527,7 @@ caption, td {
 
 table caption {
   /* top: 0; */
-  /* z-index: 1; */
-  caption-side: bottom;
+  /* position: sticky; */
   padding: 1ch;
   margin-block: 1ch;
   /* position: sticky; */
