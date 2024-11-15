@@ -630,9 +630,7 @@ tfoot::after {
 }
 
 th {
-  flex-grow: 1;
-  text-align: left;
-  /* top: 5em; */
+  top: auto;
   /* position: sticky; */
   /* display: block; */
   overflow: hidden;
