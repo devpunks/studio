@@ -578,6 +578,7 @@ thead {
   z-index: 0;
   padding: 1ch;
   display: block;
+  position: relative;
   background: inherit;
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
