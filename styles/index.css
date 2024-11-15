@@ -568,8 +568,7 @@ table tr::before, table tr::after {
   text-align: center;
   display: table-cell;
   white-space: nowrap;
-  vertical-align: top;
-  background: magenta;
+  background: inherit;
 }
 
 ::before {}
