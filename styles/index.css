@@ -556,12 +556,7 @@ table tbody {}
 table thead tr::before, table thead tr::after,
 table tfoot tr::before, table tfoot tr::after {
   content: 'tr';
-  backgrond: magenta;
-}
-table thead tr::before, table thead tr::after {
-  white-space: nowrap;
-}
-table thead tr::before, table tfoot tr::before {
+  padding: 1ch;
   font-size: smaller;
   text-align: center;
   background: blue;
