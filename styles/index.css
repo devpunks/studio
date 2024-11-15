@@ -559,7 +559,6 @@ table tfoot {}
 table tbody {}
 
 table tr {
-  background: green;
   display: flex;
 }
 table tr::before, table tr::after {
