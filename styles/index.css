@@ -608,10 +608,6 @@ thead tr {
   border-top: 0.0618em solid;
   border-bottom: 0.0618em solid;
 }
-thead tr::after {
-  background: yellow;
-  vertical-align: middle;
-}
 
 tfoot {
   z-index: 0;
