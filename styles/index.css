@@ -685,7 +685,6 @@ th:empty
   { border: none }
 
 td {
-  outline: 1px solid currentColor;
 }
 td::before, td::after {
 }
