@@ -599,10 +599,6 @@ tfoot th::before, tfoot td::before {
   white-space: nowrap;
   margin-inline-end: 1ch;
 }
-thead tr {
-  border-top: 0.0618em solid;
-  border-bottom: 0.0618em solid;
-}
 
 tfoot {
   z-index: 0;
