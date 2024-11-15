@@ -552,6 +552,21 @@ table tbody {}
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even) {
   background: inherit;
 }
+table thead tr::before, table thead tr::after,
+table tfoot tr::before, table tfoot tr::after {
+  content: 'tr';
+  backgrond: magenta;
+}
+table thead tr::before, table thead tr::after {
+  white-space: nowrap;
+}
+table thead tr::before, table tfoot tr::before {
+  font-size: smaller;
+  text-align: center;
+  background: blue;
+  display: table-cell;
+  padding-inline: 1ch;
+}
 table tr {
   background: green;
   color: blue;
