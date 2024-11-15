@@ -678,7 +678,7 @@ th {
   top: auto;
   /* position: sticky; */
 }
-td::before, td::after {}
+th::before, th::after {}
 th::before {
   content: '🗣th';
 }
