@@ -607,16 +607,6 @@ thead tr {
   border-top: 0.0618em solid;
   border-bottom: 0.0618em solid;
 }
-thead tr::before, thead tr::after {
-  white-space: nowrap;
-}
-thead tr::before, tfoot tr::before {
-  font-size: smaller;
-  text-align: center;
-  background: blue;
-  display: table-cell;
-  padding-inline: 1ch;
-}
 thead tr::after {
   background: yellow;
   vertical-align: middle;
