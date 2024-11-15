@@ -600,8 +600,6 @@ tfoot {
   padding: 1ch;
   display: block;
   position: relative;
-  background: inherit;
-  border-radius: 1ch;
   margin-block: -1ch;
 }
 tfoot::before, tfoot::after {
