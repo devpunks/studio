@@ -662,7 +662,6 @@ tbody tr:nth-child(odd) {
 
 th, td {
   flex-grow: 1;
-  overflow: hidden;
   text-align: inherit;
   text-overflow: ellipsis;
   padding-inline-end: 1ch;
