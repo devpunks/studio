@@ -546,6 +546,10 @@ caption::after {
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even) {
   background: inherit;
 }
+table tr {
+  background: green;
+  color: blue;
+}
 
 thead {
   z-index: 0;
