@@ -588,7 +588,7 @@ thead::before, thead::after {
   background: inherit;
 }
 thead::before {
-  content: '👤thead';
+  content: '👤';
 }
 thead::after {
   content: '👤thead';
