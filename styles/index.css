@@ -568,14 +568,6 @@ table tr::before, table tr::after {
   vertical-align: top;
   background: magenta;
 }
-table thead tr::before, table thead tr::after {
-  white-space: nowrap;
-}
-table tr {
-  background: green;
-  color: blue;
-  display: flex;
-}
 
 thead {
   z-index: 0;
