@@ -639,7 +639,6 @@ tbody::after {
 
 tbody tr {
   margin: 1ch;
-  background: yellow;
   counter-increment: rows;
 }
 tbody tr::before {
