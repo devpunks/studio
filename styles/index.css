@@ -618,6 +618,7 @@ tfoot::after {
 
 tbody {
   z-index: 1;
+  color: black;
   display: block;
   position: relative;
   padding-block: 1ch;
