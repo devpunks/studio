@@ -650,7 +650,7 @@ tbody tr::after {
   content: '\2800';
 }
 tbody tr:hover {
-  outline: 0.1ch solid currentColor;
+  outline: 0.2ch solid currentColor;
 }
 tbody td {
 }
