@@ -688,7 +688,6 @@ tbody {
   display: block;
   position: relative;
   padding-block: 1ch;
-  white-space: nowrap;
   background: inherit;
   border-radius: inherit;
   background: red;
