@@ -712,6 +712,9 @@ tbody tr {
   background: yellow;
   counter-increment: rows;
 }
+tbody tr:nth-child(even) {
+  background: magenta;
+}
 tbody tr::before {
   min-width: 3em;
   display: inline-block;
