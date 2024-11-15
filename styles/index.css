@@ -568,7 +568,7 @@ thead::after {
   content: '👤thead';
 }
 thead th, thead td {
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
 }
 thead th::before, thead td::before,
 tfoot th::before, tfoot td::before {
