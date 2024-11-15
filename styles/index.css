@@ -595,15 +595,6 @@ thead::before {
 thead::after {
   content: '👤thead';
 }
-thead th, thead td {}
-thead th::before, thead td::before,
-tfoot th::before, tfoot td::before {
-  content: '>';
-  color: currentColor;
-  background: pink;
-  white-space: nowrap;
-  margin-inline-end: 1ch;
-}
 
 tfoot {
   z-index: 0;
