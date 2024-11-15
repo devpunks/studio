@@ -667,6 +667,9 @@ tbody tr::after {
 tbody td {
   display: inline-block;
 }
+tbody tr:nth-child(even) {
+  background: magenta;
+}
 
 table::before, thead::before, tbody::before, tfoot::before,
 table::after, thead::after, tbody::after, tfoot::after {
