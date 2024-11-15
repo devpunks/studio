@@ -693,7 +693,7 @@ td::before {
   content: '>';
 }
 td::after {
-  content: 'td';
+  content: '<';
 }
 td:empty
   { border: none }
