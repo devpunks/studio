@@ -531,6 +531,8 @@ table caption {
   padding: 1ch;
   margin-block: 1ch;
   border-radius: 1ch;
+  background: inherit;
+  caption-side: bottom;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
 caption::before, caption::after {
