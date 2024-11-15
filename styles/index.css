@@ -689,8 +689,7 @@ th::after {
 th:empty
   { border: none }
 
-td {
-}
+td {}
 td::before, td::after {
 }
 td::before {
