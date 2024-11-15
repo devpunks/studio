@@ -492,7 +492,6 @@ li address
 table {
   width: 100%;
   text-align: start;
-  background: rgba(255,255,255,0.5);
   /* display: block; */
   /* table-layout: fixed; */
   border-radius: 1ch;
