@@ -574,6 +574,8 @@ table tr::before, table tr::after {
   background: magenta;
 }
 
+::before {}
+
 thead {
   z-index: 0;
   padding: 1ch;
