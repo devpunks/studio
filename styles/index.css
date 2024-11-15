@@ -674,7 +674,7 @@ td::before, td::after {
 }
 
 th {
-  top: auto;
+  /* top: auto; */
   /* position: sticky; */
 }
 th::before, th::after {}
