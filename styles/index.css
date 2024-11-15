@@ -549,9 +549,6 @@ table thead {}
 table tfoot ()
 table tbody {}
 
-thead, tfoot, tbody tr:nth-child(even) {
-  background: inherit;
-}
 table thead tr::before, table thead tr::after,
 table tfoot tr::before, table tfoot tr::after {
   content: 'tr';
