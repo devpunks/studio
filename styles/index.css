@@ -647,8 +647,7 @@ tbody tr::before {
   content: counter(rows) '.';
 }
 tbody tr::after {
-  content: '◀';
-  white-space: nowrap;
+  content: '\2800';
 }
 tbody tr:hover {
   outline: 0.1ch solid currentColor;
