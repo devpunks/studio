@@ -605,6 +605,8 @@ tfoot {
   z-index: 0;
   padding: 1ch;
   display: block;
+  position: relative;
+  background: inherit;
   border-radius: 1ch;
   margin-block: -1ch;
 }
