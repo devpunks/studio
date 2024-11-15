@@ -706,6 +706,10 @@ td::before, td::after {
 td::before {
   content: 'td';
 }
+td::after {
+  content: 'td';
+}
+
 
 
 a {
