@@ -691,7 +691,7 @@ tbody {
   background: inherit;
   white-space: nowrap;
   border-radius: inherit;
-  background: red;
+  margin-block-start: -1ch;
 }
 tbody::before, tbody::after {
   margin: 1ch;
