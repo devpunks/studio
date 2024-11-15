@@ -686,7 +686,7 @@ td::after {
 tbody {
   z-index: 1;
   display: block;
-  margin-block-start: -1ch;
+  position: relative;
   padding-block: 1ch;
   white-space: nowrap;
   background: inherit;
