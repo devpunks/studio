@@ -564,6 +564,7 @@ table tr::before, table tr::after {
   font-size: smaller;
   text-align: center;
   display: table-cell;
+  white-space: nowrap;
   vertical-align: top;
   background: magenta;
 }
