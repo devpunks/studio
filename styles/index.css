@@ -650,6 +650,7 @@ tbody tr::after {
   content: '◀';
   white-space: nowrap;
 }
+tbody tr:hover {}
 tbody td {
 }
 tbody tr:nth-child(odd) {
