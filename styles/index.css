@@ -646,6 +646,7 @@ tbody tr {
 tbody tr::before {
   min-width: 3em;
   padding-inline: 1ch;
+  display: inline-block;
   content: counter(rows) '.';
   background: blue;
 }
