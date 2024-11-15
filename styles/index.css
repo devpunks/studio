@@ -703,6 +703,8 @@ td::before {
 td::after {
   content: 'td';
 }
+td:empty
+  { border: none }
 
 
 
