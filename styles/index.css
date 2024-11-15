@@ -504,6 +504,7 @@ table {
 }
 table::before, table::after {
   display: block;
+  text-indent: 1ch;
   background: blue;
 }
 table::before {
