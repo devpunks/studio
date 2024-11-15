@@ -550,7 +550,7 @@ caption::after {
 table thead, table tfoot, table tbody {}
 table thead, table tfoot { background: inherit }
 table thead {}
-table tfoot ()
+table tfoot {}
 table tbody {}
 
 table thead tr::before, table thead tr::after,
