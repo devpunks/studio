@@ -519,7 +519,8 @@ table::after {
 
 table * {/* display: inherit; */}
 table *::before { outline: 1px dashed }
-caption {
+
+table caption {
   /* top: 0; */
   /* z-index: 1; */
   caption-side: bottom;
