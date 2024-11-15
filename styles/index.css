@@ -655,7 +655,6 @@ tbody tr::after {
   background: yellow;
 }
 tbody td {
-  display: inline-block;
 }
 tbody tr:nth-child(odd) {
   background: magenta;
