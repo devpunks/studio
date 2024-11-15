@@ -563,6 +563,7 @@ table tr {
 }
 table tr::before, table tr::after {
   content: 'tr';
+  min-width: 4ch;
   font-size: smaller;
   text-align: center;
   display: table-cell;
