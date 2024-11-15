@@ -656,6 +656,7 @@ th, td {
   text-align: inherit;
   text-overflow: ellipsis;
   padding-inline-end: 1ch;
+  outline: 1px solid black;
 }
 td {
   display: block;
