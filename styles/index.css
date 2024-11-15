@@ -630,14 +630,6 @@ tfoot::after {
   content: '👣tfoot';
 }
 
-tfoot tr {
-  display: block;
-}
-tfoot th {
-  display: block;
-  border-top: 0.0618em solid
-}
-
 th {
   /* top: 5em; */
   /* position: sticky; */
