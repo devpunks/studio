@@ -657,6 +657,7 @@ td {
 }
 td::before, td::after {
   content: 'td';
+  display: inline-block;
   margin-inline: 0 1ch;
   background: blue;
 }
