@@ -658,7 +658,10 @@ tbody tr:hover::after {
 tbody tr:nth-child(odd) {
   background: inherit;
 }
-
+tbody td {}
+tbody tr:hover td:not(:hover) {
+  opacity: 50%;
+}
 th, td {
   flex-grow: 1;
   text-align: inherit;
