@@ -543,6 +543,10 @@ caption::after {
   content: '🗨caption';
 }
 
+table tr {
+  background: green;
+}
+
 thead tr, thead, th, tfoot, tfoot tr, tbody tr:nth-child(even) {
   background: inherit;
 }
