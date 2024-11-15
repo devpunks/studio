@@ -691,7 +691,6 @@ td {
   outline: 1px solid currentColor;
 }
 td::before, td::after {
-  margin-inline: 0 1ch;
 }
 td::before {
   content: 'td';
