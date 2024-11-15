@@ -688,8 +688,7 @@ th:empty
   { border: none }
 
 td {
-  display: block;
-  word-wrap: unset;
+  word-wrap: normal;
   outline: 1px solid currentColor;
 }
 td::before, td::after {
