@@ -651,7 +651,7 @@ tbody tr::after {
   white-space: nowrap;
 }
 tbody tr:hover {
-  outline: 0.168ch solid currentColor;
+  outline: 0.1ch solid currentColor;
 }
 tbody td {
 }
