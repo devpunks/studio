@@ -632,10 +632,6 @@ tfoot::after {
 th {
   top: auto;
   /* position: sticky; */
-  /* display: block; */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  outline: 1px solid black;
 }
 th::before {
   content: '🗣th';
