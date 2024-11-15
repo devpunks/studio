@@ -669,6 +669,10 @@ th, td {
   padding-inline-end: 1ch;
   outline: 1px solid black;
 }
+th::before, th::after,
+td::before, td::after {
+  display: inline-block;
+}
 
 th {
   top: auto;
