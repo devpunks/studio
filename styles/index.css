@@ -570,6 +570,7 @@ table thead tr::before, table thead tr::after {
 table tr {
   background: green;
   color: blue;
+  display: flex;
 }
 
 thead {
