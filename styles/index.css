@@ -649,7 +649,6 @@ tbody tr::before {
 tbody tr::after {
   content: '◀';
   white-space: nowrap;
-  background: yellow;
 }
 tbody td {
 }
