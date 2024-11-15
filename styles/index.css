@@ -690,7 +690,7 @@ td {
 td::before, td::after {
 }
 td::before {
-  content: 'td';
+  content: '>';
 }
 td::after {
   content: 'td';
