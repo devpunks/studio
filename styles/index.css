@@ -530,8 +530,6 @@ table caption {
   /* position: sticky; */
   padding: 1ch;
   margin-block: 1ch;
-  /* position: sticky; */
-  background: inherit;
   border-radius: 1ch;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
