@@ -693,8 +693,6 @@ td {
   outline: 1px solid currentColor;
 }
 td::before, td::after {
-  display: inline-block;
-  margin-inline: 0 1ch;
   background: blue;
 }
 td::before {
