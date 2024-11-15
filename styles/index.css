@@ -559,7 +559,7 @@ table tfoot tr::before, table tfoot tr::after {
   padding: 1ch;
   font-size: smaller;
   text-align: center;
-  background: blue;
+  word-break: normal;
   display: table-cell;
   padding-inline: 1ch;
 }
