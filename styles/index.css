@@ -519,7 +519,9 @@ table::after {
 }
 
 table * {/* display: inherit; */}
-table *::before { outline: 1px dashed }
+table *::before, table *::after {
+  outline: 1px dashed
+}
 
 caption, td {
   -webkit-user-select: text;
