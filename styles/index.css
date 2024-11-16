@@ -647,12 +647,9 @@ li > a {
   vertical-align: top;
   display: inline-block;
 }
-details summary
-  { cursor: s-resize }
-details details summary
-  { z-index: 10 }
-details[open] summary
-  { cursor: n-resize }
+details summary { cursor: s-resize }
+details details summary { z-index: 10 }
+details[open] summary { cursor: n-resize }
 details[open] > summary a {
   border-block-end: calc( 0.1 * var(--GOLDEN-RATIO) * 1em) solid;
 }
