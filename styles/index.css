@@ -516,6 +516,7 @@ table tr > *::before, table tr > *::after {
   content: 'tr';
   min-width: 2ch;
   text-indent: 1em;
+  text-align: start;
   line-height: calc(1em * var(--GOLDEN-RATIO));
   font-size: smaller;
   white-space: nowrap;
