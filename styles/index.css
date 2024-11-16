@@ -536,6 +536,7 @@ table td::before, table td::after {
   min-width: 3em;
   font-size: smaller;
   text-align: center;
+  writing-mode: vertical-lr;
   white-space: nowrap;
 }
 
