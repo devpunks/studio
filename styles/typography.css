@@ -649,6 +649,7 @@ li address
 /* Table styling */
 table {
   font-size: small;
+  margin-block: 1ch;
 }
 caption {
 }
