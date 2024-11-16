@@ -147,9 +147,8 @@
   outline-color: CurrentColor;
   background-color: CurrentColor;
 }
-::backdrop
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
-  { background-color: currentColor }
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
+::backdrop { background-color: currentColor }
 ::-moz-selection {
   color: HighlightText;
   background: Highlight;
