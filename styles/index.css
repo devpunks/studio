@@ -495,7 +495,6 @@ table {
   /* table-layout: fixed; */
   margin: 1em auto;
   border-radius: 1ch;
-  margin-block-end: 1em;
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
   counter-reset: table rows th tr td;
