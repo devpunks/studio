@@ -681,12 +681,6 @@ tbody tr:hover td:not(:hover) {
 }
 
 
-th::before, th::after,
-td::before, td::after {
-  min-width: 2ch;
-  text-align: center;
-  white-space: nowrap;
-}
 
 th {
   /* top: auto; */
