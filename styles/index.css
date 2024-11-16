@@ -491,7 +491,6 @@ li address
 */
 table {
   /* table-layout: fixed; */
-  margin: 1em auto;
   border-radius: 1ch;
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
