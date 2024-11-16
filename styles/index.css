@@ -651,6 +651,7 @@ tbody tr {
   counter-increment: rows;
 }
 tbody tr::before {
+  opacity: 0.3;
   content: counter(rows) '.';
 }
 tbody tr::after {
