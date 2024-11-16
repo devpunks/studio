@@ -831,12 +831,18 @@ ul > li::after { }
 
 @counter-style ordered {
   speak-as: ordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
+  suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
+  system: fixed; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
+  system: cyclic;
+  system: numeric;
+  system: symbolic;
+  system: additive;
+  system: alphabetic;
 
-/* Combined values */
-/*
-system: fixed 3;
-system: extends decimal;
-*/
+  /* Combined values
+  system: fixed 3;
+  system: extends decimal;
+  */
 }
 @counter-style unordered {
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
