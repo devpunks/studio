@@ -581,10 +581,8 @@ table > caption::before, table > caption::after {
   margin-block: 1ch;
   background: inherit;
 }
-table > caption::before
-  { content: '🗨' }
-table caption::after
-  { content: '🗨' }
+table > caption::before { content: '🗨' }
+table > caption::after { content: '🗨' }
 
 table > thead, table > tfoot { background: inherit }
 table > tbody {}
