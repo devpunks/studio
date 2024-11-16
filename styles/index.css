@@ -686,7 +686,7 @@ th::before {
   content: 'th';
 }
 th::after {
-  content: '🗣th';
+  content: 'th';
 }
 th:empty
   { border: none }
