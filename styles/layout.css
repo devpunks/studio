@@ -14,7 +14,9 @@
   Generic Layouts:
     - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_mode
     - Containment - https://w3c.github.io/csswg-drafts/css-contain/
-    - Columns - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts
+    - Columns
+      - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout
+      - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts
 
   Orientation:
     - https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation
