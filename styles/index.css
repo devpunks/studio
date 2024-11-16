@@ -557,6 +557,7 @@ table caption {
 }
 caption::before, caption::after {
   display: block;
+  text-indent: 1ch;
   margin-block: 1ch;
   background: inherit;
 }
