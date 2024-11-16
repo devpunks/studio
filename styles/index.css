@@ -647,8 +647,7 @@ tbody tr:hover::before { opacity: 1.0 }
 tbody tr:hover::after { content: '◀' }
 
 tbody td {}
-tbody tr:hover td:not(:hover)
-  { opacity: 50% }
+tbody tr:hover td:not(:hover) { opacity: 50% }
 
 
 a {
