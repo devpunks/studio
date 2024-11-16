@@ -744,8 +744,7 @@ dd {}
 li {}
 li li {}
 ol > li, ul > li {}
-ol > li
-  { counter-increment: ordered }
+ol > li { counter-increment: ordered }
 ul > li {}
 ol > li::after,
 ul > li::after {
