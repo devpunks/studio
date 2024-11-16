@@ -647,7 +647,7 @@ tbody::before, tbody::after {
   background: inherit;
 }
 tbody::before
-  { content: '👤tbody' }
+  {content: '🫀';}
 tbody::after
   { content: '👤tbody' }
 tbody tr {
