@@ -634,6 +634,8 @@ tbody tr {
   margin-inline: 1ch;
   counter-increment: rows;
 }
+tbody tr:nth-child(odd)
+  { background: inherit }
 tbody tr::before {
   opacity: 0.3;
   content: counter(rows) '.';
