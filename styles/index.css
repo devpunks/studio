@@ -567,7 +567,6 @@ thead::before, tfoot::before, tbody::before, caption::before,
 thead::after, tfoot::after, tbody::after, caption::after
   { text-indent: 1ch }
 
-
 table > caption {
   /* top: 0; */
   /* position: sticky; */
