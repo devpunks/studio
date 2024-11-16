@@ -545,13 +545,6 @@ th {
   /* position: sticky; */
   background: inherit;
 }
-th::before, th::after {}
-th::before {
-  content: 'th';
-}
-th::after {
-  content: 'th';
-}
 th:empty
   { border: none }
 
