@@ -696,8 +696,7 @@ body > main { -webkit-overflow-scrolling: touch }
 body > aside { -webkit-transform: translatez(0) }
 body > footer { -webkit-transform: translatez(0) }
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body > footer
-  { -webkit-transform: translatez(0) }
+body > footer { -webkit-transform: translatez(0) }
 
 a
   { -webkit-touch-callout: default }
