@@ -578,7 +578,7 @@ table caption {
   background: inherit;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
-caption::before, caption::after {
+table caption::before, table caption::after {
   display: block;
   text-indent: 1ch;
   margin-block: 1ch;
