@@ -683,7 +683,7 @@ th {
 }
 th::before, th::after {}
 th::before {
-  content: '🗣th';
+  content: 'th';
 }
 th::after {
   content: '🗣th';
