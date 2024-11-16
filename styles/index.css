@@ -520,6 +520,9 @@ table * {}
 table *::before, table *::after {
   outline: 1px dashed;
 }
+table tr {
+  display: flex;
+}
 table tr * {
   flex-grow: 1;
   text-align: inherit;
