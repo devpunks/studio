@@ -625,6 +625,7 @@ table > tbody {
 }
 table > tbody::before, table > tbody::after {
   display: block;
+  margin-inline: 1ch;
   background: inherit;
 }
 table > tbody::before { content: '🫀' }
