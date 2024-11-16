@@ -540,7 +540,7 @@ table tr > *::before, table tr > *::after {
   writing-mode: vertical-lr;
 }
 
-th {
+table th {
   /* top: auto; */
   /* position: sticky; */
   background: inherit;
