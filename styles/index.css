@@ -373,8 +373,7 @@ nav > details > summary {
    /* https://htmlsymbols.xyz/unicode/U+2630 */
   clip-path: none;
 }
-nav > details > summary {
-}
+nav > details > summary {}
 nav > details > summary::before,
 nav > details > summary::after {
   content: '☰';
