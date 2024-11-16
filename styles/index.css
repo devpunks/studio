@@ -572,7 +572,7 @@ table caption {
   /* top: 0; */
   /* position: sticky; */
   padding: 1ch;
-  caption-side: top;
+  caption-side: bottom;
   margin-block: 1ch;
   border-radius: 1ch;
   text-align: inherit;
