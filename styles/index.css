@@ -634,10 +634,7 @@ a {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
-a[rel=search]
-  { cursor: help }
-abbr[title]
-  { cursor: help }
+a[rel=search] { cursor: help }
 a[href='#'][title^=Top] {
   display: block;
   width: fit-content;
