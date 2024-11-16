@@ -87,8 +87,9 @@
 @media (pointer: fine) { /* mouse */ }
 @media (pointer: coarse) { /* finger */ }
 
-@media screen and (min-width: 1000px)
-  { :root {--max-width: 90vw;} }
+@media screen and (min-width: 1000px) {
+  :root { --max-width: 90vw }
+}
 
 /*
  * pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
