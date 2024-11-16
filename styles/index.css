@@ -597,7 +597,7 @@ table > tbody {}
 
 table > thead {
   z-index: 0;
-  padding: 1ch;
+  padding-inline: 1ch;
   display: block;
   position: relative;
   background: inherit;
