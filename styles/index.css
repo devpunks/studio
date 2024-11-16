@@ -552,7 +552,10 @@ th::before, th::after {}
 th::before { content: 'th' }
 th::after  { content: 'th' }
 
-td {}
+td {
+  -webkit-user-select: text;
+          user-select: text;
+}
 td:empty
   { border: none }
 td::before, td::after {}
