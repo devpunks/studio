@@ -606,12 +606,10 @@ thead::before, thead::after {
   margin-block: 1ch;
   background: inherit;
 }
-thead::before {
-  content: '👤';
-}
-thead::after {
-  content: '👤thead';
-}
+thead::before
+  { content: '👤' }
+thead::after
+  { content: '👤thead' }
 
 tfoot {
   z-index: 0;
