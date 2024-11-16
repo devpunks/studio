@@ -254,7 +254,6 @@ time {
   overflow-x: hidden;
   white-space: nowrap;
   display: inline-block;
-  font-size: var(--larger);
   text-overflow: ellipsis;
   overflow-x: hidden;
   background: purple;
