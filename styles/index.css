@@ -397,6 +397,7 @@ nav > details > summary::after {
 }
 nav > details[open] > summary {
   list-style-type: 'ⓧ';
+  list-style-position: inside;
 }
 nav > details[open] > summary::before,
 nav > details[open] > summary::after {
