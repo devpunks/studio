@@ -624,7 +624,6 @@ table > tbody {
   background: inherit;
 }
 table > tbody::before, table > tbody::after {
-  margin: 1ch;
   display: block;
   background: inherit;
 }
