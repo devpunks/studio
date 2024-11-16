@@ -554,6 +554,9 @@ th::after  { content: 'th' }
 td {}
 td:empty
   { border: none }
+td::before, td::after {}
+td::before { content: '>' }
+td::after  { content: '<' }
 
 table thead, table tfoot, table tbody {}
 thead::before, tfoot::before, tbody::before,
