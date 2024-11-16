@@ -609,7 +609,7 @@ table > thead::before, table > thead::after {
 }
 table > thead::before
   { content: '👤' }
-thead::after
+table > thead::after
   {content: '👤' }
 
 table tfoot {}
