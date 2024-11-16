@@ -585,9 +585,9 @@ table caption::before, table caption::after {
   background: inherit;
 }
 table caption::before
-  {content: '🗨';}
+  { content: '🗨' }
 table caption::after
-  {content: '🗨';}
+  { content: '🗨' }
 
 table thead, table tfoot { background: inherit }
 table tbody {}
