@@ -130,7 +130,7 @@
 ::-webkit-scrollbar-track-piece:hover,
 ::-webkit-scrollbar-corner:hover {
   /* (unscrolled) track pieces */
-  background-color:  rgba(255,255,255,0.618);
+  background-color: rgba(255,255,255,0.618);
 }
 ::-webkit-scrollbar-thumb {
   /* scrollbar thumb */
