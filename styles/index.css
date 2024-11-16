@@ -645,13 +645,10 @@ tbody::before, tbody::after {
   display: block;
   background: inherit;
 }
-tbody::before {
-  content: '👤tbody';
-}
-tbody::after {
-  content: '👤tbody';
-}
-
+tbody::before
+  { content: '👤tbody' }
+tbody::after
+  { content: '👤tbody' }
 tbody tr {
   margin: 1ch;
   counter-increment: rows;
