@@ -547,9 +547,9 @@ table th {
 }
 table th:empty
   { border: none }
-th::before, th::after {}
-th::before { content: 'th' }
-th::after  { content: 'th' }
+table th::before, table th::after {}
+table th::before { content: 'th' }
+table th::after  { content: 'th' }
 
 td {
   -webkit-user-select: text;
