@@ -585,8 +585,6 @@ table > caption::before { content: '🗨' }
 table > caption::after { content: '🗨' }
 
 table > thead, table > tfoot { background: inherit }
-table > tbody {}
-
 table > thead {
   z-index: 0;
   padding-inline: 1ch;
