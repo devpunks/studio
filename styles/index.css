@@ -612,10 +612,8 @@ table > tfoot::before, table > tfoot::after {
   margin-block: 1ch;
   background: inherit;
 }
-table > tfoot::before
-  { content: '👣tfoot' }
-table > tfoot::after
-  { content: '👣tfoot' }
+table > tfoot::before { content: '👣tfoot' }
+table > tfoot::after { content: '👣tfoot' }
 
 tbody {
   z-index: 1;
