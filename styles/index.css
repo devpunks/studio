@@ -678,6 +678,10 @@ details[open] > summary a {
 /* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
 /* https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/DragAndDrop.html#//apple_ref/doc/uid/30001233-178644 */
 html, body {
+  -webkit-user-drag: none; /* https://stackoverflow.com/q/15034842 */
+  -webkit-user-select: none; /* Webkit (Chrome all / Safari all) */
+          user-select: none; /* https://caniuse.com/user-select-none */
+  -webkit-touch-callout: none; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
   -webkit-tap-highlight-color: transparent; /* https://davidwalsh.name/mobile-highlight-color */
   -webkit-touch-callout:       none; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
   -webkit-user-drag:           none; /* https://stackoverflow.com/questions/15034842/what-is-the-webkit-user-drag-css-property */
