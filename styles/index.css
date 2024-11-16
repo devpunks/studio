@@ -587,7 +587,6 @@ table tr *::before, table tr *::after {
   white-space: nowrap;
 }
 
-
 thead {
   z-index: 0;
   padding: 1ch;
