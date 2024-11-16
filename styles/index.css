@@ -849,7 +849,9 @@ system: extends decimal;
 @counter-style unordered {
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
   prefix: '»'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/prefix */
-  system: cyclic;                  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
+  symbols: '-'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
+  system: cyclic; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
+  fallback: cyclic; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
   negative: '[' ']'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/negative */
   speak-as: unordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
   fallback: cyclic;          /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
