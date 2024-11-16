@@ -628,7 +628,7 @@ table > tfoot::before, table > tfoot::after {
 }
 table > tfoot::before
   { content: '👣tfoot' }
-tfoot::after
+table > tfoot::after
   { content: '👣tfoot' }
 
 tbody {
