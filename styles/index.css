@@ -660,6 +660,9 @@ tbody tr::after {
 tbody tr:hover {
   outline: 0.2ch solid currentColor;
 }
+tbody tr:hover::before {
+  opacity: 1.0;
+}
 tbody tr:hover::after {
   content: '◀';
 }
