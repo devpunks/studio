@@ -424,6 +424,7 @@ body > nav *::before {
   background: yellow;
 }
 body > nav *::after {
+  outline: 0;
   content: '⇉';
   cursor: grabbing;
   background: blue;
