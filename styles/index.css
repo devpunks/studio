@@ -204,8 +204,7 @@ body > footer {
     - https://css-tricks.com/newsletter/295-hidden-until-found
     - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
 */
-template /* IE custom elements */
-  { display: none }
+template { display: none } /* IE custom elements */
 
 [hidden], [aria-hidden=true], template {
   width: 1px;
