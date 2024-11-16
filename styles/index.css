@@ -517,7 +517,7 @@ table::after {
   border-radius: 0 0 1ch 1ch;
 }
 
-table * {/* display: inherit; */}
+table * {}
 table *::before, table *::after {
   outline: 1px dashed
 }
