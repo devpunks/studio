@@ -626,6 +626,7 @@ tbody tr:hover::after { content: '◀' }
 tbody tr:hover td:not(:hover) { opacity: 50% }
 
 
+abbr[title] { cursor: help }
 a {
   display: inline;
   cursor: pointer;
