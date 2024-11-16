@@ -84,7 +84,7 @@
  *   - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
  *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer
  */
-@media (pointer: fine)   { /* mouse */ }
+@media (pointer: fine) { /* mouse */ }
 @media (pointer: coarse) { /* finger */ }
 
 @media screen and (min-width: 1000px)
