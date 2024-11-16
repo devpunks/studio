@@ -545,7 +545,7 @@ table th {
   /* position: sticky; */
   background: inherit;
 }
-th:empty
+table th:empty
   { border: none }
 th::before, th::after {}
 th::before { content: 'th' }
