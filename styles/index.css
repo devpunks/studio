@@ -519,7 +519,7 @@ table::after {
 
 table * {}
 table *::before, table *::after {
-  outline: 1px dashed
+  outline: 1px dashed;
 }
 
 caption, td {
