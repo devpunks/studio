@@ -168,6 +168,7 @@
 html {
   color: CanvasText;
   color-scheme: light dark;
+  background-color: Canvas;
 }
 html:focus-within
   { scroll-behavior: smooth /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page/ */ }
