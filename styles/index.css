@@ -571,7 +571,6 @@ thead::after, tfoot::after, tbody::after, caption::after
 table > caption {
   /* top: 0; */
   /* position: sticky; */
-  margin: 1ch 0;
   padding: 1ch;
   /* caption-side: bottom; */
   border-radius: 1ch;
