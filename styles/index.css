@@ -516,7 +516,7 @@ table::after {
   border-radius: 0 0 1ch 1ch;
 }
 
-table > *, table::before, table::after {
+table > * {
   margin: 1ch;
 }
 table *::before, table *::after
