@@ -255,7 +255,7 @@ time {
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
-  overflow-x: hidden;
+  font-size: var(--larger);
   background: purple;
 }
 time[title] {
