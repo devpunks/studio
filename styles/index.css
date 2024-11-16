@@ -275,9 +275,7 @@ time::after{
   content: attr(datetime);
   margin-inline-start: 0.1682ch;
 }
-time[datetime]::before {
-  content: '🗓';
-}
+time[datetime]::before { content: '🗓' }
 time[datetime]::after {
   padding: 0.1682ch;
   margin-inline-start: 1ch;
