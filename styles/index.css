@@ -621,6 +621,8 @@ tfoot {
   border-radius: 1ch;
   background: inherit;
 }
+
+
 tfoot::before, tfoot::after {
   display: block;
   margin-block: 1ch;
