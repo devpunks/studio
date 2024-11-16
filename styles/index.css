@@ -673,12 +673,8 @@ tbody td {}
 tbody tr:hover td:not(:hover) {
   opacity: 50%;
 }
-th, td {
-  flex-grow: 1;
-  text-align: inherit;
-  display: inline-flex;
-  justify-content: space-between;
-}
+
+
 th::before, th::after,
 td::before, td::after {
   min-width: 2ch;
