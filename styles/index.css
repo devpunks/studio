@@ -649,7 +649,7 @@ tbody::before, tbody::after {
 tbody::before
   { content: '🫀' }
 tbody::after
-  {content: '🫀';}
+  { content: '🫀' }
 tbody tr {
   margin: 1ch;
   counter-increment: rows;
