@@ -575,6 +575,12 @@ table tbody {}
 table tr {
   display: flex;
 }
+table tr * {
+  flex-grow: 1;
+  text-align: inherit;
+  display: inline-flex;
+  justify-content: space-between;
+}
 
 thead {
   z-index: 0;
