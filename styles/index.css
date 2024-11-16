@@ -547,6 +547,9 @@ th {
 }
 th:empty
   { border: none }
+th::before, th::after {}
+th::before { content: 'th' }
+th::after  { content: 'th' }
 
 td {}
 td::before, td::after {
