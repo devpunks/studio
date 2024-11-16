@@ -578,10 +578,6 @@ table thead {}
 table tfoot {}
 table tbody {}
 
-table tr {
-  display: flex;
-}
-
 thead {
   z-index: 0;
   padding: 1ch;
