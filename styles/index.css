@@ -521,6 +521,24 @@ table * {}
 table *::before, table *::after {
   outline: 1px dashed;
 }
+table thead, table tfoot, table tbody {}
+thead::before, tfoot::before, tbody::before,
+thead::after, tfoot::after, tbody::after, caption::before, caption::after {
+  text-indent: 1ch;
+}
+table tr, table th, table td {
+
+}
+table tr::before, table tr::after,
+table th::before, table th::after,
+table td::before, table td::after {
+  content: 'tr';
+  min-width: 2em;
+  font-size: smaller;
+  text-align: center;
+  white-space: nowrap;
+}
+
 
 caption, td {
   -webkit-user-select: text;
