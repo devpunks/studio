@@ -752,8 +752,7 @@ ul > li::after {
   display: inline-block;
   margin-inline-end: 0.6182ch;
 }
-ol > li::after
-  { content: '\232A' }
+ol > li::after { content: '\232A' }
 ul > li::after {}
 
 
