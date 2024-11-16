@@ -567,10 +567,6 @@ thead::before, tfoot::before, tbody::before,
 thead::after, tfoot::after, tbody::after, caption::before, caption::after
   { text-indent: 1ch }
 
-caption, td {
-  -webkit-user-select: text;
-          user-select: text;
-}
 
 table > caption {
   /* top: 0; */
