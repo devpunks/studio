@@ -576,7 +576,7 @@ table > thead::before, table > thead::after {
   background: inherit;
 }
 table > thead::before { content: '👤' }
-table > thead::after {content: '👤' }
+table > thead::after { content: '👤' }
 
 table > tfoot {
   z-index: 0;
