@@ -284,8 +284,7 @@ time[datetime]::after {
 time:empty {
   background: yellow;
 }
-time:empty::before {
-}
+time:empty::before {}
 p time { vertical-align: middle }
 
 data, var {
