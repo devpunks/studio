@@ -830,14 +830,6 @@ ul > li::after { }
 }
 
 @counter-style ordered {
-  suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
-/* Keyword values */
-system: cyclic;
-system: numeric;
-system: alphabetic;
-system: symbolic;
-system: additive;
-system: fixed;
   speak-as: ordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
 
 /* Combined values */
