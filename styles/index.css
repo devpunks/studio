@@ -567,12 +567,6 @@ caption::before {
 caption::after {
   content: '🗨caption';
 }
-
-table thead, table tfoot, table tbody {}
-table::before, thead::before, tfoot::before, tbody::before,
-table::after, thead::after, tfoot::after, tbody::after, caption::before, caption::after {
-  text-indent: 1ch;
-}
 table thead, table tfoot { background: inherit }
 table thead {}
 table tfoot {}
