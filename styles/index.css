@@ -628,10 +628,8 @@ table > tbody::before, table > tbody::after {
   display: block;
   background: inherit;
 }
-tbody::before
-  { content: '🫀' }
-tbody::after
-  { content: '🫀' }
+table > tbody::before { content: '🫀' }
+table > tbody::after { content: '🫀' }
 tbody tr {
   margin-inline: 1ch;
   counter-increment: rows;
