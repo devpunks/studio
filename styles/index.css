@@ -531,6 +531,8 @@ table tr * {
 }
 table tr::before, table tr::after,
 table tr *::before, table tr *::after {
+  content: 'tr';
+  min-width: 3em;
   min-width: 2ch;
   text-align: center;
   white-space: nowrap;
