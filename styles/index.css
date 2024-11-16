@@ -623,7 +623,7 @@ table > tbody {
   padding-block: 1ch;
   background: inherit;
 }
-tbody::before, tbody::after {
+table > tbody::before, table > tbody::after {
   margin: 1ch;
   display: block;
   background: inherit;
