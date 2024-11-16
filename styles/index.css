@@ -583,12 +583,10 @@ caption::before, caption::after {
   margin-block: 1ch;
   background: inherit;
 }
-caption::before {
-  content: '🗨caption';
-}
-caption::after {
-  content: '🗨caption';
-}
+caption::before
+  { content: '🗨caption' }
+caption::after
+  { content: '🗨caption' }
 table thead, table tfoot { background: inherit }
 table thead {}
 table tfoot {}
