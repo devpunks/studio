@@ -645,8 +645,6 @@ tbody tr {
   counter-increment: rows;
 }
 tbody tr::before {
-  min-width: 3em;
-  padding-inline: 1ch;
   content: counter(rows) '.';
 }
 tbody tr::after {
