@@ -521,6 +521,7 @@ table > * {
 }
 table *::before, table *::after
   { outline: 1px dashed }
+
 table tr {
   display: flex;
 }
