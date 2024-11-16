@@ -854,6 +854,4 @@ system: extends decimal;
   fallback: cyclic; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
   negative: '[' ']'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/negative */
   speak-as: unordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
-  fallback: cyclic;          /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
-  symbols: '-'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
 }
