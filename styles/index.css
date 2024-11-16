@@ -493,6 +493,7 @@ table {
   width: 100%;
   /* display: block; */
   /* table-layout: fixed; */
+  margin: 1em auto;
   border-radius: 1ch;
   margin-block-end: 1em;
   border-collapse: collapse;
