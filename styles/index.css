@@ -628,7 +628,6 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 
 abbr[title] { cursor: help }
 a {
-  display: inline;
   cursor: pointer;
   padding: 0.303ch 0.6182ch;
   -webkit-box-decoration-break: clone;
