@@ -542,9 +542,7 @@ table th {
   /* position: sticky; */
   background: inherit;
 }
-table th:empty
-  { border: none }
-table th::before, table th::after {}
+table th:empty { border: none }
 table th::before { content: 'th' }
 table th::after  { content: 'th' }
 
