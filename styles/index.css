@@ -572,6 +572,7 @@ table > caption {
   /* top: 0; */
   /* position: sticky; */
   padding: 1ch;
+  margin: 1ch 0;
   /* caption-side: bottom; */
   border-radius: 1ch;
   text-align: inherit;
