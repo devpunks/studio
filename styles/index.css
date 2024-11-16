@@ -162,9 +162,8 @@
   padding: 0;
   border-style: none
 }
-:-moz-focusring
-  /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
-  { outline: 1px dotted ButtonText }
+/* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
+:-moz-focusring { outline: 1px dotted ButtonText }
 
 html {
   color: CanvasText;
