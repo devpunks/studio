@@ -529,6 +529,7 @@ table tr * {
   display: inline-flex;
   justify-content: space-between;
 }
+table tr::before, table tr::after,
 table tr *::before, table tr *::after {
   min-width: 2ch;
   text-align: center;
