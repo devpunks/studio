@@ -633,7 +633,6 @@ tbody {
   position: relative;
   padding-block: 1ch;
   background: inherit;
-  margin-block-start: -1ch;
 }
 tbody::before, tbody::after {
   margin: 1ch;
