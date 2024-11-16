@@ -515,7 +515,7 @@ table::after {
 }
 
 table > * {
-  margin: 1ch;
+  margin-block: 1ch;
 }
 table *::before, table *::after
   { outline: 1px dashed }
