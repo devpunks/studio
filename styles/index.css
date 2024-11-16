@@ -463,9 +463,7 @@ body > nav li li :link::before {
   display: inline-block;
   line-height: var(--line-height);
 }
-body > nav li li :link:hover::before {
-  content: '📝';
-}
+body > nav li li :link:hover::before { content: '📝' }
 
 address { }
 li address
