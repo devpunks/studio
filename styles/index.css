@@ -571,6 +571,7 @@ table caption {
   /* top: 0; */
   /* position: sticky; */
   padding: 1ch;
+  display: block;
   caption-side: top;
   margin-block: 1ch;
   border-radius: 1ch;
