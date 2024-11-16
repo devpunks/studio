@@ -622,7 +622,6 @@ tfoot {
   background: inherit;
 }
 
-
 tfoot::before, tfoot::after {
   display: block;
   margin-block: 1ch;
