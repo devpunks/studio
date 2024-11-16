@@ -159,7 +159,7 @@
   background: Highlight;
 }
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
-  padding:      0;
+  padding: 0;
   border-style: none
 }
 :-moz-focusring
