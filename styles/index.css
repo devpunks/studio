@@ -331,7 +331,7 @@ main details[open] > summary::before
 /* NAV */
 nav {
   margin: 0;
-  /* padding: 0; */
+  background: pink;
 }
 nav > details > ul {
   margin: unset;
