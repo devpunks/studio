@@ -515,13 +515,15 @@ table::after {
   border-radius: 0 0 1ch 1ch;
 }
 
-table * {}
+table > *, table::before, table::after {
+  margin: 1ch;
+}
 table *::before, table *::after
   { outline: 1px dashed }
 table tr {
   display: flex;
 }
-table tr * {
+table tr > * {
   flex-grow: 1;
   flex-basis: 0;
   text-align: inherit;
