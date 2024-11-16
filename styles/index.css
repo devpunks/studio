@@ -476,7 +476,6 @@ li address { display: inline-block }
     - https://stackoverflow.com/q/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
 */
 table {
-  table-layout: fixed;
   border-radius: 1ch;
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
