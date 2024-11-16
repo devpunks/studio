@@ -602,7 +602,7 @@ table > thead {
   margin-block-start: -1ch;
   border-radius: 1ch 1ch 0 0;
 }
-thead::before, thead::after {
+table > thead::before, table > thead::after {
   display: block;
   margin-block: 1ch;
   background: inherit;
