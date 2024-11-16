@@ -615,7 +615,7 @@ table > tfoot::before, table > tfoot::after {
 table > tfoot::before { content: '👣tfoot' }
 table > tfoot::after { content: '👣tfoot' }
 
-tbody {
+table > tbody {
   z-index: 1;
   color: black;
   display: block;
