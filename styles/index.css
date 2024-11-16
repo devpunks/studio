@@ -555,15 +555,14 @@ table td {
   -webkit-user-select: text;
           user-select: text;
 }
-td:empty
-  { border: none }
-td::before, td::after {}
-td::before { content: '>' }
-td::after  { content: '<' }
+table td:empty { border: none }
+table td::before, table td::after {}
+table td::before { content: '>' }
+table td::after  { content: '<' }
 
-table thead, table tfoot, table tbody {}
-thead::before, tfoot::before, tbody::before, caption::before,
-thead::after, tfoot::after, tbody::after, caption::after
+table > thead, table > tfoot, table > tbody {}
+table > thead::before, table > tfoot::before, table > tbody::before, table > caption::before,
+table > thead::after, table > tfoot::after, table > tbody::after, table > caption::after
   { text-indent: 1ch }
 
 table > caption {
