@@ -307,7 +307,7 @@ pre code {
 
 
 /* http://html5doctor.com/the-details-and-summary-elements */
-details { }
+details {}
 summary {
   opacity: 0.75;
   list-style: none;
