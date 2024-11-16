@@ -295,6 +295,7 @@ var, data {
   margin-inline: 0.1618em;
 }
 var{}
+data {}
 
 pre, code, kbd, samp
   { border-radius: 0.618em }
