@@ -551,7 +551,7 @@ table th::before, table th::after {}
 table th::before { content: 'th' }
 table th::after  { content: 'th' }
 
-td {
+table td {
   -webkit-user-select: text;
           user-select: text;
 }
