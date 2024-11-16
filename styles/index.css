@@ -679,6 +679,7 @@ td::before, td::after {
 th {
   /* top: auto; */
   /* position: sticky; */
+  background: inherit;
 }
 th::before, th::after {}
 th::before {
