@@ -428,8 +428,6 @@ body > nav *::after {
   content: '⇉';
   cursor: grabbing;
   background: blue;
-  list-style-type: 'bar';
-  outline: 0;
   border-width: 1ch 0;
 }
 body > nav > details::after {
