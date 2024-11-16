@@ -540,6 +540,33 @@ table tr *::before, table tr *::after {
   writing-mode: vertical-lr;
 }
 
+th {
+  /* top: auto; */
+  /* position: sticky; */
+  background: inherit;
+}
+th::before, th::after {}
+th::before {
+  content: 'th';
+}
+th::after {
+  content: 'th';
+}
+th:empty
+  { border: none }
+
+td {}
+td::before, td::after {
+}
+td::before {
+  content: '>';
+}
+td::after {
+  content: '<';
+}
+td:empty
+  { border: none }
+
 table thead, table tfoot, table tbody {}
 thead::before, tfoot::before, tbody::before,
 thead::after, tfoot::after, tbody::after, caption::before, caption::after {
