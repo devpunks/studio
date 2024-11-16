@@ -396,7 +396,6 @@ nav > details > summary::after {
   /* right: 1ch; */
 }
 nav > details[open] > summary {
-  list-style-position: inside;
   list-style-type: 'ⓧ';
 }
 nav > details[open] > summary::before,
