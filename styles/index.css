@@ -607,7 +607,7 @@ table > thead::before, table > thead::after {
   margin-block: 1ch;
   background: inherit;
 }
-thead::before
+table > thead::before
   { content: '👤' }
 thead::after
   {content: '👤' }
