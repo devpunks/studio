@@ -551,7 +551,6 @@ table td {
           user-select: text;
 }
 table td:empty { border: none }
-table td::before, table td::after {}
 table td::before { content: '>' }
 table td::after  { content: '<' }
 
