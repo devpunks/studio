@@ -609,7 +609,7 @@ thead::before, thead::after {
 thead::before
   { content: '👤' }
 thead::after
-  {content: '👤';}
+  {content: '👤' }
 
 table tfoot {}
 tfoot {
