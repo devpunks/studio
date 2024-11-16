@@ -503,8 +503,7 @@ table::after {
 table > * { margin-inline: 1ch }
 table *::before, table *::after { outline: 1px dashed }
 
-table tr
-  { display: flex }
+table tr { display: flex }
 table tr > * {
   flex-grow: 1;
   flex-basis: 0;
@@ -566,10 +565,10 @@ table > caption::after { content: '🗨' }
 table > thead, table > tfoot { background: inherit }
 table > thead {
   z-index: 0;
-  padding-inline: 1ch;
   display: block;
   position: relative;
   background: inherit;
+  padding-inline: 1ch;
 }
 table > thead::before, table > thead::after {
   display: block;
