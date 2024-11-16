@@ -429,6 +429,7 @@ body > nav *::after {
   cursor: grabbing;
   background: blue;
   border-width: 1ch 0;
+  list-style-type: 'bar';
 }
 body > nav > details::after {
   z-index: -1;
