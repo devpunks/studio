@@ -251,6 +251,7 @@ time, time::before, time::after
   { border-radius: calc( 1ch * var(--GOLDEN-RATIO) ) }
 time {
   padding: 0.618ch;
+  overflow-x: hidden;
   white-space: nowrap;
   display: inline-block;
   font-size: var(--larger);
