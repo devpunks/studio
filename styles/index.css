@@ -188,10 +188,8 @@ body > nav {
   box-shadow: var(--box-shadow);
   background: transparent;
 }
-body > main
-  { scroll-snap-align: start }
-body > aside
-  { background: ButtonFace }
+body > main { scroll-snap-align: start }
+body > aside { background: ButtonFace }
 body > footer {
   color: Canvas;
   background: GrayText;
