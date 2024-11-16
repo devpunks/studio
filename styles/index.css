@@ -576,6 +576,7 @@ table caption {
   caption-side: top;
   margin-block: 1ch;
   border-radius: 1ch;
+  text-align: inherit;
   background: inherit;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
