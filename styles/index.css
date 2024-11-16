@@ -625,12 +625,10 @@ tfoot::before, tfoot::after {
   margin-block: 1ch;
   background: inherit;
 }
-tfoot::before {
-  content: '👣tfoot';
-}
-tfoot::after {
-  content: '👣tfoot';
-}
+tfoot::before
+  { content: '👣tfoot' }
+tfoot::after
+  { content: '👣tfoot' }
 
 tbody {
   z-index: 1;
