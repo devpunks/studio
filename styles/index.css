@@ -584,7 +584,7 @@ table caption::before, table caption::after {
   margin-block: 1ch;
   background: inherit;
 }
-caption::before
+table caption::before
   { content: '🗨caption' }
 caption::after
   { content: '🗨caption' }
