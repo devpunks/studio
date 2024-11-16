@@ -611,6 +611,7 @@ thead::before
 thead::after
   {content: '👤';}
 
+table tfoot {}
 tfoot {
   z-index: 0;
   padding: 1ch;
