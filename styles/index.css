@@ -587,17 +587,6 @@ table tbody {}
 table tr {
   display: flex;
 }
-table tr * {
-  flex-grow: 1;
-  text-align: inherit;
-  display: inline-flex;
-  justify-content: space-between;
-}
-table tr *::before, table tr *::after {
-  min-width: 2ch;
-  text-align: center;
-  white-space: nowrap;
-}
 
 thead {
   z-index: 0;
