@@ -491,7 +491,7 @@ li address
 */
 table {
   width: 100%;
-  /* display: block; */
+  display: block;
   /* table-layout: fixed; */
   margin: 1em auto;
   border-radius: 1ch;
