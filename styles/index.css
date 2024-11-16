@@ -590,8 +590,8 @@ table > caption::before
 table caption::after
   { content: '🗨' }
 
-table thead, table tfoot { background: inherit }
-table tbody {}
+table > thead, table > tfoot { background: inherit }
+table > tbody {}
 
 thead {
   z-index: 0;
