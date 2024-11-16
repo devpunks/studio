@@ -614,7 +614,6 @@ table > tfoot {
   padding: 1ch;
   display: block;
   position: relative;
-  /* margin-block: -1ch; */
   background: inherit;
 }
 table > tfoot::before, table > tfoot::after {
