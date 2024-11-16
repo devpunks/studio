@@ -668,11 +668,8 @@ tbody tr:hover::after
 tbody tr:nth-child(odd)
   { background: inherit }
 tbody td {}
-tbody tr:hover td:not(:hover) {
-  opacity: 50%;
-}
-
-
+tbody tr:hover td:not(:hover)
+  { opacity: 50% }
 
 
 a {
