@@ -559,9 +559,8 @@ td::after  { content: '<' }
 
 table thead, table tfoot, table tbody {}
 thead::before, tfoot::before, tbody::before,
-thead::after, tfoot::after, tbody::after, caption::before, caption::after {
-  text-indent: 1ch;
-}
+thead::after, tfoot::after, tbody::after, caption::before, caption::after
+  { text-indent: 1ch }
 
 caption, td {
   -webkit-user-select: text;
