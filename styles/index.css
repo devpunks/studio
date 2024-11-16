@@ -533,7 +533,7 @@ table tr > * {
   justify-content: space-between;
 }
 table tr::before, table tr::after,
-table tr *::before, table tr *::after {
+table tr > *::before, table tr > *::after {
   content: 'tr';
   min-width: 3em;
   min-width: 2ch;
