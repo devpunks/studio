@@ -530,9 +530,7 @@ pre code {
   font-size: smaller;
   white-space: break-spaces;
 }
-header code, h1 code {
-  font-variant-caps: initial;
-}
+header code, h1 code { font-variant-caps: initial }
 
 figcaption {
   font-size: 86%;
