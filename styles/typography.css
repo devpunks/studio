@@ -371,6 +371,8 @@ a.logo {
   white-space: nowrap;
   margin-bottom: 0.2em
 }
+nav > a { text-align: start }
+
 nav li a:hover {
   font-weight: bolder;
   text-decoration: none;
