@@ -615,8 +615,6 @@ a[href='#'][title^=Top] {
 }
 address a { display: unset }
 li > a {
-  vertical-align: top;
-  display: inline-block;
 }
 details summary { cursor: s-resize }
 details details summary { z-index: 10 }
