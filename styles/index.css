@@ -519,7 +519,7 @@ table tr > *::before, table tr > *::after {
   font-size: smaller;
   text-align: center;
   white-space: nowrap;
-  /* writing-mode: vertical-lr; */
+  writing-mode: horizontal-tb;
   line-height: calc(1em * var(--GOLDEN-RATIO));
 }
 table tr::before, table tr::after { content: 'tr' }
