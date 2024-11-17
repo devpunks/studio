@@ -109,9 +109,8 @@ a[href='#']:hover { opacity: 1 }
 
 mark::before,
 mark::after {
-  width: 0;
-  white-space: nowrap;
-  clip-path: inset(50%);
+  color: red;
+  clip-path: inset(0%);
 }
 mark::before { content: '[highlight start]' }
 mark::after { content: '[highlight end]' }
