@@ -140,11 +140,8 @@ a.logo, a.logo:link, a.logo:visited, a.logo:active {
 a.logo:hover
   { color: var(--a\:hover) }
 
-p {
-  color: var(--color);
-}
-legend
-  { color: inherit; /* IE */ }
+p { color: var(--color) }
+legend { color: inherit; /* IE */ }
 
 dialog {
   color: var(--background-color);
