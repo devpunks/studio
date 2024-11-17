@@ -591,8 +591,7 @@ blockquote::after, blockquote cite {
   margin: var(--margin-collapse-bugfix) 1.6821ch;
   padding: var(--margin-collapse-bugfix) 1.6821ch;
 }
-blockquote cite {
-}
+blockquote cite {}
 blockquote cite::before {
   content: normal;
 }
