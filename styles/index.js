@@ -8,6 +8,6 @@ const file = fs
 const { css } = await postcss()
   .use( atImport() )
   .process( file,
-    { from: "./index.css" }) // ???
+    { from: ''./index.css' }) // ???
 
 console.log( css )
