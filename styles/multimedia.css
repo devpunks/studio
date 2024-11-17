@@ -63,11 +63,11 @@ figure {
   background: red;
 }
 figure img, iframe, picture img, audio, canvas, video {
-  border-radius: 0.618em;
+  /* border-radius: 0.618em; */
   box-shadow: var(--box-shadow);
 }
 figure img, picture img, figure picture {
-  margin: 0;
+  margin: 0 auto;
   background: inherit;
 }
 figcaption::before {
