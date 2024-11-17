@@ -547,7 +547,6 @@ table > thead {
   display: block;
   position: relative;
   background: inherit;
-  padding-inline: 1ch;
 }
 table > thead::before, table > thead::after {
   display: block;
