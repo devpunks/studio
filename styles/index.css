@@ -514,11 +514,7 @@ table tr > * {
 }
 table tr::before, table tr::after,
 table tr > *::before, table tr > *::after {
-  content: 'tr';
-  min-width: 2ch;
-  text-indent: 1em;
-  text-align: start;
-  line-height: calc(1em * var(--GOLDEN-RATIO));
+  min-width: 2em;
   font-size: smaller;
   white-space: nowrap;
   writing-mode: vertical-lr;
