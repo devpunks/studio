@@ -513,7 +513,8 @@ table tr > * {
   outline-width: 0.1em;
   display: inline-flex;
   justify-content: space-between;
-  line-height: calc(1em * var(--GOLDEN-RATIO));
+  line-height: calc(1em * var(
+  --GOLDEN-RATIO));
 }
 table tr::before, table tr::after,
 table tr > *::before, table tr > *::after {
