@@ -496,9 +496,6 @@ table::after {
   border-radius: 0 0 1ch 1ch;
 }
 
-table > * { margin-inline: 1ch }
-table *::before, table *::after { /* outline: 1px dashed; */ }
-
 table tr { display: flex }
 table tr > * {
   flex-grow: 1;
