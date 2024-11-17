@@ -75,12 +75,8 @@ figcaption::before {
   font-size: 1.618em;
   display: inline-block;
 }
-figcaption {
-  opacity: 0.4;
-}
-figure:hover figcaption {
-  opacity: 0.618;
-}
+figcaption { opacity: 0.4 }
+figure:hover figcaption { opacity: 0.618 }
 canvas { /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
   background: Canvas;
   content-visibility: hidden;
