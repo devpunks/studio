@@ -113,10 +113,8 @@ mark::after {
   white-space: nowrap;
   clip-path: inset(50%);
 }
-mark::before
-  { content: '[highlight start]' }
-mark::after
-  { content: '[highlight end]' }
+mark::before { content: '[highlight start]' }
+mark::after { content: '[highlight end]' }
 
 meter::before, progress::before,
 meter::after, progress::after {
