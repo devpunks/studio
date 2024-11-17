@@ -532,7 +532,6 @@ table > caption {
   /* position: sticky; */
   /* caption-side: bottom; */
   border-radius: 1ch;
-  text-align: inherit;
   background: inherit;
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
