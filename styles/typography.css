@@ -656,13 +656,52 @@ table::before, table::after {
   text-indent: 1ch;
   margin-inline: 1ch;
 }
-table::before {
-  margin-block-start: 1ch;
+table::before { margin-block-start: 1ch }
+table::after { margin-block-end: 1ch }
+
+table > * { margin-inline: 1ch }
+table tr > * {
+  text-align: inherit;
+  line-height: calc(1em * var(--GOLDEN-RATIO));
 }
-table::after {
-  margin-block-end: 1ch;
+table tr::before, table tr::after,
+table tr > *::before, table tr > *::after {
+  font-size: smaller;
+  text-align: center;
+  white-space: nowrap;
+  writing-mode: horizontal-tb;
+  line-height: calc(1em * var(--GOLDEN-RATIO));
+}
+table tr > *::before { margin-right: 1ch }
+table tr > *::after  { margin-left: 1ch }
+
+table > thead, table > tfoot, table > tbody {}
+table > thead::before, table > tfoot::before, table > tbody::before, table > caption::before,
+table > thead::after, table > tfoot::after, table > tbody::after, table > caption::after {
+  text-indent: 1ch;
+  line-height: calc(1em * var(--GOLDEN-RATIO));
 }
 
+table > caption {
+  padding: 1ch;
+  margin: 1ch 0;
+  text-align: inherit;
+  line-height: calc(var(--GOLDEN-RATIO) * 1em);
+}
+table > caption::before, table > caption::after {
+  margin-block: 1ch;
+}
+
+table > thead { padding-inline: 1ch }
+table > thead::before, table > thead::after { margin-block: 1ch }
+
+table > tfoot { padding: 1ch }
+table > tfoot::before, table > tfoot::after { margin-block: 1ch }
+
+table > tbody { padding-block: 1ch }
+table > tbody::before, table > tbody::after { margin-inline: 1ch }
+
+tbody tr { margin-inline: 1ch }
 
 details { /* details */
   margin: var(--margin);
