@@ -545,7 +545,7 @@ table td::after  { content: '<' }
 table > thead, table > tfoot, table > tbody {}
 table > thead::before, table > tfoot::before, table > tbody::before, table > caption::before,
 table > thead::after, table > tfoot::after, table > tbody::after, table > caption::after
-  { text-indent: 1ch }
+  {text-indent: 1ch;line-height: calc(1em * var(--GOLDEN-RATIO));}
 
 table > caption {
   /* top: 0; */
