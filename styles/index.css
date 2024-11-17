@@ -550,7 +550,6 @@ table > thead {
 }
 table > thead::before, table > thead::after {
   display: block;
-  margin-block: 1ch;
   background: inherit;
 }
 table > thead::before { content: '👤' }
