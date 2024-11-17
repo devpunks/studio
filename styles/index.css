@@ -521,6 +521,9 @@ table tr > *::before, table tr > *::after {
   /* writing-mode: vertical-lr; */
   line-height: calc(1em * var(--GOLDEN-RATIO));
 }
+table tr::before, table tr::after { content: 'tr' }
+table tr > *::before {margin-right: 1ch;}
+table tr > *::after  {margin-left: 1ch;}
 
 table th {
   /* top: auto; */
