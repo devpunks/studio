@@ -439,12 +439,8 @@ del, s {
   text-decoration: line-through;
   text-decoration-style: wavy
 }
-del {
-  text-decoration-color: ActiveText
-}
-ins {
-  text-decoration-color: HighlightText
-}
+del { text-decoration-color: ActiveText }
+ins { text-decoration-color: HighlightText }
 
 del::before
   { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
