@@ -523,9 +523,7 @@ pre {
   text-align: initial;
   margin: var(--p-margin);
 }
-code {
-  white-space: initial;
-}
+code { white-space: initial }
 pre code {
   margin: var(--line-height);
   font-size:  var(--smaller);
