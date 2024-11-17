@@ -646,6 +646,7 @@ address { }
 li address
   { margin: var(--margin-collapse-bugfix) }
 
+
 /* Table styling */
 table {
   font-size: small;
