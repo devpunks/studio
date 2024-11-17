@@ -581,7 +581,7 @@ table > tbody::before, table > tbody::after {
   border-width: 0.1618em 0;
 }
 table > tbody::before { content: '🫀' }
-table > tbody::after { content: '🫀' }
+table > tbody::after  { content: '🫀' }
 
 tbody tr { counter-increment: rows }
 tbody tr:nth-child(even) { background: inherit }
