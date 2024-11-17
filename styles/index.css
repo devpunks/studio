@@ -507,11 +507,6 @@ table tr > * {
 table tr::before, table tr::after,
 table tr > *::before, table tr > *::after {
   min-width: 2em;
-  font-size: smaller;
-  text-align: center;
-  white-space: nowrap;
-  writing-mode: horizontal-tb;
-  line-height: calc(1em * var(--GOLDEN-RATIO));
 }
 table tr::before, table tr::after { content: 'tr' }
 table tr > *::before {margin-right: 1ch;}
