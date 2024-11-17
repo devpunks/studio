@@ -658,10 +658,6 @@ tbody {}
 tfoot
   {
 }
-tfoot th[colspan=0], thead th[colspan=0] {
-  font-size: larger;
-  background: red;
-}
 
 
 details { /* details */
