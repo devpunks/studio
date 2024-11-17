@@ -688,8 +688,7 @@ nav details, nav summary {
   margin: 0;
   padding: 0;
 }
-body > header details
-  { padding-left: 0 }
+body > header details { padding-left: 0 }
 nav  details {
   /* display: list-item; */
   list-style-type: '😕';
