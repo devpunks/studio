@@ -445,15 +445,13 @@ ins { text-decoration-color: HighlightText }
 del::before
   { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
 
-ins::before
-  { content: '+' }
+ins::before { content: '+' }
 
 em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
   display: contents;
   padding-inline: calc(.1682ch * var(--GOLDEN-RATIO));
 }
-b, strong
-  { font-weight: bolder }
+b, strong { font-weight: bolder }
 b {}
 p, q, address {
   max-width: 80ch;
