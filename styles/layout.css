@@ -133,11 +133,7 @@ body > nav > details[open]::before {
 }
 
 nav a {
-  display: block;
-  inline-size: auto;
-  /* inline-size: -webkit-fill-available; */
-  inline-size: -moz-available;
-  inline-size: stretch;
+  width: 100%;
 }
 
 body > a[href='#main'] { /* skip link */
