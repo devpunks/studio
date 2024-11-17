@@ -518,7 +518,8 @@ table tr > *::before, table tr > *::after {
   font-size: smaller;
   text-align: center;
   white-space: nowrap;
-  writing-mode: vertical-lr;
+  /* writing-mode: vertical-lr; */
+  line-height: calc(1em * var(--GOLDEN-RATIO));
 }
 
 table th {
