@@ -572,7 +572,6 @@ table > tbody {
   z-index: 1;
   display: block;
   position: relative;
-  padding-block: 1ch;
   background: inherit;
 }
 table > tbody::before, table > tbody::after {
