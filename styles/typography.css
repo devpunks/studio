@@ -573,9 +573,7 @@ blockquote::after {
   opacity: 40%;
   content: '⤷\2002' attr(cite);
 }
-blockquote p {
-  text-align: start;
-}
+blockquote p { text-align: start }
 cite {
   opacity: 75%;
   font-size: var(--smaller);
