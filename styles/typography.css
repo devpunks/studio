@@ -296,9 +296,8 @@ body > footer
   { outline: 0.3em dashed }
 
 body > header {}
-body > main   { 
-body > aside
-  { font-size: smaller }
+body > main {}
+body > aside { font-size: smaller }
 body > footer {
   font-size: medium;
   text-align: center;
