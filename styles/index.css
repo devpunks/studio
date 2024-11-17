@@ -621,7 +621,7 @@ tbody tr {
   margin-inline: 1ch;
   counter-increment: rows;
 }
-tbody tr:nth-child(odd)
+tbody tr:nth-child(even)
   { background: inherit }
 tbody tr::before {
   opacity: 0.3;
