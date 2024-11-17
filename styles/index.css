@@ -601,8 +601,8 @@ abbr[title] { cursor: help }
 a {
   background: red;
   cursor: pointer;
-  display: inline;
-  padding: 0.303ch 0.6182ch;
+  /* display: inline; */
+  /* padding: 0.303ch 0.6182ch; */
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
