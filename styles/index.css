@@ -509,8 +509,6 @@ table tr > *::before, table tr > *::after {
   min-width: 2em;
 }
 table tr::before, table tr::after { content: 'tr' }
-table tr > *::before {margin-right: 1ch;}
-table tr > *::after  {margin-left: 1ch;}
 
 table th {
   /* top: auto; */
