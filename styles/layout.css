@@ -133,7 +133,6 @@ body > nav > details[open]::before {
 }
 
 nav a {
-  width: 100%;
 }
 
 body > a[href='#main'] { /* skip link */
