@@ -603,7 +603,6 @@ table > tfoot::after  { content: '👣' }
 
 table > tbody {
   z-index: 1;
-  color: black;
   display: block;
   position: relative;
   padding-block: 1ch;
