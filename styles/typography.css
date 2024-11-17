@@ -617,8 +617,7 @@ sub {
   top: 0.418em;
 }
 
-svg
- { vertical-align: middle }
+svg { vertical-align: middle }
 
 address { }
 li address
