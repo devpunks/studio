@@ -295,8 +295,8 @@ body > aside,
 body > footer
   { outline: 0.3em dashed }
 
-body > header { }
-body > main   { }
+body > header {}
+body > main   { 
 body > aside
   { font-size: smaller }
 body > footer {
