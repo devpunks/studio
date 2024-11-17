@@ -557,7 +557,6 @@ table > thead::after { content: '👤' }
 
 table > tfoot {
   z-index: 0;
-  padding: 1ch;
   display: block;
   position: relative;
   background: inherit;
