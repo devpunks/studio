@@ -88,10 +88,8 @@ body > a[href='#main']:focus-visible {
 body > a[href='#main']:focus-visible:hover {
   filter: unset;
 }
-a[href='#'][title^=Top]
-  { opacity: 0.3 }
-a[href='#']:hover
-  { opacity: 1 }
+a[href='#'][title^=Top] { opacity: 0.3 }
+a[href='#']:hover { opacity: 1 }
 
 [role='list'],
 [role='list'] li {
