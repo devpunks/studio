@@ -493,7 +493,6 @@ table::before {
 }
 table::after {
   content: '▦table';
-  margin-block-end: 1ch;
   border-radius: 0 0 1ch 1ch;
 }
 
