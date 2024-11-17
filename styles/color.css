@@ -153,10 +153,9 @@ table thead {
   background: var(--color);
   color: var(--background-color)
 }
-table
-  tr:nth-child(odd) {
-    color: var(--background-color);
-    background-color: var(--color)
+table tr:nth-child(odd) {
+  color: var(--background-color);
+  background-color: var(--color)
 }
 
 pre, code, kbd, samp {
