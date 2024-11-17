@@ -619,9 +619,8 @@ sub {
 
 svg { vertical-align: middle }
 
-address { }
-li address
-  { margin: var(--margin-collapse-bugfix) }
+address {}
+li address { margin: var(--margin-collapse-bugfix) }
 
 
 /* Table styling */
