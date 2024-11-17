@@ -508,6 +508,9 @@ table tr > * {
   flex-grow: 1;
   flex-basis: 0;
   text-align: inherit;
+  /* margin: 3px; */
+  outline: solid currentColor;
+  outline-width: 0.1em;
   display: inline-flex;
   justify-content: space-between;
   line-height: calc(1em * var(--GOLDEN-RATIO));
