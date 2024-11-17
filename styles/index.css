@@ -516,6 +516,7 @@ table tr::before, table tr::after,
 table tr > *::before, table tr > *::after {
   min-width: 2em;
   font-size: smaller;
+  text-align: center;
   white-space: nowrap;
   writing-mode: vertical-lr;
 }
