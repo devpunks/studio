@@ -312,7 +312,7 @@ main > section:first-of-type, body > aside {
  * `article` contexts in Chrome, Firefox, and Safari.
  * - http://webtypography.net/3.1.1
  */
-hgroup { }
+hgroup {}
 header, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin: var(--margin) var(--font-size) auto;
