@@ -510,8 +510,8 @@ table tr > * {
   text-align: inherit;
   display: inline-flex;
   justify-content: space-between;
-  line-height: calc(1em * var(
-  --GOLDEN-RATIO));
+  outline: 0.1em solid currentColor;
+  line-height: calc(1em * var(--GOLDEN-RATIO));
 }
 table tr::before, table tr::after,
 table tr > *::before, table tr > *::after {
