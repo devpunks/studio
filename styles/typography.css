@@ -399,8 +399,7 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
   width: auto;
 }
-nav > details > ul
-  {}
+nav > details > ul {}
 dt {
   font-weight: bolder;
   line-height: 3.6182ch;
