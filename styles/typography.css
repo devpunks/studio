@@ -710,8 +710,7 @@ details > summary
 }
 
 /* fieldset / legend */
-fieldset
-  { }
+fieldset {}
 legend {
   font-weight: bold;
   margin: var(--margin);
