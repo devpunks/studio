@@ -489,8 +489,7 @@ q { /* quotes */
   */
 }
 q::before {}
-q::after
-  { content: close-quote }
+q::after { content: close-quote }
 
 p q, q q {
   font-size: var(--smaller);
