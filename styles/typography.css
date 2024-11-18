@@ -352,12 +352,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
   text-underline-offset: 0.168em;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-}
-a, header a:hover {
-  text-decoration-color: transparent;
-}
-a:hover, header a {
-  text-decoration-color: ActiveText;
+  text-decoration: solid underline orange .168em;
 }
 a::before, a::after {
   text-decoration: none;
