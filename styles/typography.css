@@ -358,6 +358,8 @@ a::before, a::after {
   text-decoration: none;
   text-decoration: wavy;
   margin-right: 0.1618em;
+  display: inline-block;
+  background: white;
 }
 
 a.logo {
