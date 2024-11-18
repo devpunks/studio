@@ -24,7 +24,6 @@ a[href='#']::before
 
 a[rel=help]::after {
   content: '❓';
-  margin-left: -0.6182ch;
 }
 address a[rel=help]::after
   { content: '' }
