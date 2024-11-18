@@ -603,7 +603,7 @@ a {
   outline: 1px dashed;
   background: red;
   -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 a[rel=search] { cursor: help }
 a[href='#'][title^=Top] {
