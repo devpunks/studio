@@ -358,7 +358,6 @@ a::before, a::after {
   text-decoration: none;
   margin-right: 0.1618em;
   display: inline-block;
-  /* background: white; */
 }
 a:hover, header a:hover {
   text-decoration-color: currentColor;
