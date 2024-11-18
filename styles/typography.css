@@ -361,6 +361,13 @@ a::before, a::after {
   display: inline-block;
   background: white;
 }
+a:hover, header a:hover {
+  text-decoration-color: currentColor;
+}
+a:hover::before, a:hover::after {
+  text-decoration: none;
+}
+
 
 a.logo {
   font-size: 2em;
