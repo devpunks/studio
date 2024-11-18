@@ -701,6 +701,7 @@ ul {
   - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker
 */
 ::marker {
+  margin-right: .1ch;
   color: orange;
 }
 ol > li::marker { content: counters(ordered, '.') }
