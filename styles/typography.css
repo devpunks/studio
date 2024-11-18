@@ -351,8 +351,8 @@ a { /* TODO: migrate ARIA to accessibility.css */
   padding-inline: 0.168em;
   text-underline-offset: 0.168em;
   -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
-  text-decoration: solid underline orange .168em;
+  text-decoration-skip-ink: none;
+  text-decoration: solid underline transparent .1em;
 }
 a::before, a::after {
   text-decoration: none;
