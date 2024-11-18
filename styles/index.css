@@ -602,7 +602,7 @@ a {
   cursor: pointer;
   outline: 0.1em dashed currentColor;
   -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+          box-decoration-break: clone;
 }
 a[rel=search] { cursor: help }
 a[href='#'][title^=Top] {
