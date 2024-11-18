@@ -356,7 +356,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
 }
 a::before, a::after {
   text-decoration: none;
-  margin-right: 0.1618em;
+  margin-inline: 0.1618em;
   display: inline-block;
 }
 a:hover, header a:hover {
