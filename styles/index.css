@@ -600,7 +600,7 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 abbr[title] { cursor: help }
 a {
   cursor: pointer;
-  outline: 1px dashed;
+  outline: 0.1em dashed currentColor;
   background: red;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
