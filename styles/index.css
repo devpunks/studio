@@ -694,8 +694,8 @@ ol {
   /* counter-set: ordered 1; */
 }
 ul {
-  list-style: unordered;
-  list-style-type: revert;
+  list-style: auto;
+  /* list-style-type: revert; */
 }
 /*
   - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker
