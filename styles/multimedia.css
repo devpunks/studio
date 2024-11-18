@@ -29,7 +29,7 @@ iframe, audio, video, embed, img {
 }
 picture, figure, canvas, audio, video, embed, object {
   display: block;
-  margin: var(--font-size);
+  /* margin: var(--font-size); */
 }
 audio, canvas, video, iframe[src*=youtube] {
   width: 90%;
