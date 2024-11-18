@@ -437,7 +437,7 @@ abbr[title] {
   border-bottom: 0;
   text-underline-offset: .168em;
   text-decoration-skip-ink: none;
-  text-decoration: underline dotted;
+  text-decoration: underline dotted currentColor 0.168em;
 }
 
 del, s {
