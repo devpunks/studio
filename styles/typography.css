@@ -348,7 +348,7 @@ body * > h1
 
 /* hyperlinks */
 a { /* TODO: migrate ARIA to accessibility.css */
-  padding-inline: 0.1682em;
+  padding-inline: 0.168em;
   text-underline-offset: 0.168em;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
