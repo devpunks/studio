@@ -347,15 +347,45 @@ body * > h1
 
 /* hyperlinks */
 a { /* TODO: migrate ARIA to accessibility.css */
-  padding-inline: 0.168em;
+  padding-inline: 0.2ch;
+  white-space: normal;
   text-underline-offset: 0.168em;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
 a::before, a::after {
-  text-decoration: none;
   display: inline-block;
+  text-decoration: none;
+  /* background: red; */
+  border-radius: 0.2ch;
+  padding-inline: 0.2ch;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  =:
+  middle;
 }
 a:hover, header a:hover {
   text-decoration-color: currentColor;
