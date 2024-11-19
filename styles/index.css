@@ -97,7 +97,6 @@
 ::after, ::after {
   /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
   display: inline-block;
-  vertical-align: text-bottom;
 }
 
 /*
