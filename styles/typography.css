@@ -240,7 +240,7 @@ html {
   line-height:    var(--line-height);
   word-spacing:   var(--word-spacing);
   letter-spacing: var(--letter-spacing);
-  font-size-adjust:      0.5; /* Firefox - https://caniuse.com/font-size-adjust */
+  font-size-adjust: from-font; /* Firefox - https://caniuse.com/font-size-adjust */
   font-stretch:          100%;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   /*
     - https://client9.com/css-color-emoji-stack
