@@ -67,7 +67,7 @@
 [aria-busy=true]
   { cursor: progress }
 [aria-disabled=true]
-  { cursor: not-allowed }
+  {cursor: not-allowed }
 
 body > a[href='#main'] { /* skip link */
   padding: 0;
