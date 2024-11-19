@@ -111,7 +111,7 @@ mark::after {
   clip-path: inset(0%);
 }
 mark::before {content: '[highlight start]'}
-mark::after { content: '[highlight end]' }
+mark::after  { content: '[highlight end]' }
 
 meter::before, progress::before,
 meter::after, progress::after {
