@@ -117,14 +117,9 @@ meter::before, progress::before,
 meter::after, progress::after {
   content: '\00a0';
   background: red;
-  line-height: var(--line-height);
-  /* word-break: break-word; */
-  outline-offset: .1682ch;
-  outline: 2px solid blue;
-  white-space: nowrap;
-  display: inline-block;
   margin-block: 1ch;
   border-radius: 1ch;
+  white-space: nowrap;
   padding-inline: 1ch;
 }
 [min]::before { content: attr(min) }
