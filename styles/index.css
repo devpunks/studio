@@ -613,9 +613,8 @@ a[href='#'][title^=Top] {
   margin: var(--p-margin) auto;
   padding: 1ch var(--line-height);
 }
-address a { display: unset }
-li > a {
-}
+li > a {}
+
 details summary { cursor: s-resize }
 details details summary { z-index: 10 }
 details[open] summary { cursor: n-resize }
