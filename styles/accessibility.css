@@ -60,7 +60,6 @@
 [role=contentinfo] {}
 [role=application] {}
 
-
 [tabindex='-1']:focus
   { outline: 0 }
 [aria-controls]
