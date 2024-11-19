@@ -531,6 +531,7 @@ p q, q q {
 p q {}
 q q {}
 
+[autocapitalize] a {text-decoration: revert;}
 b[autocapitalize], p[autocapitalize=words], p[autocapitalize=characters], p[autocapitalize]::first-letter {
   color: ActiveText;
   font-weight: bold;
