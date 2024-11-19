@@ -121,6 +121,10 @@ meter::after, progress::after {
   border-radius: 1ch;
   white-space: nowrap;
   padding-inline: 1ch;
+  display: inline-block;
+  outline-offset: .1682ch;
+  outline: 2px solid blue;
+  line-height: var(--line-height);
 }
 [min]::before { content: attr(min) }
 [low]::before { content: ' ('attr(low) ') ' }
