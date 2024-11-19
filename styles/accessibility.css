@@ -92,8 +92,8 @@ a[href='#']:hover { opacity: 1 }
 [role='list'],
 [role='list'] li {
   /*
-    - https://piccalil.li/blog/a-modern-css-reset/
-    - https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html
+    - https://piccalil.li/blog/a-modern-css-reset
+    - https://scottohara.me/blog/2019/01/12/lists-and-safari.html
   */
   list-style: none;
 }
