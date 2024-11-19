@@ -599,7 +599,9 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 abbr[title] { cursor: help }
 a {
   cursor: pointer;
-  outline: 0.1em dashed currentColor;
+  border-radius: 0.2ch;
+  display: inline-block;
+  /* outline: 0.1em dashed currentColor; */
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
