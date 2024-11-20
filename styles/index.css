@@ -265,7 +265,7 @@ time[datetime] {
   background: orange;
 }
 time::before, time::after
-  { background-color: currentColor }
+  {/* background-color: currentColor; */}
 time::before {
   content: '⌚';
   padding: 0.1682ch;
@@ -279,7 +279,7 @@ time[datetime]::before { content: '🗓' }
 time[datetime]::after {
   padding: 0.1682ch;
   margin-inline-start: 1ch;
-  box-shadow: 0 0 0.1ch 0.1682ch;
+  outline: 3px dotted;
 }
 time:empty {
   background: yellow;
