@@ -620,6 +620,25 @@ nav li::before, nav li::after {
 }
 
 li > a {}
+li > a::before, li > a::after {
+  
+}
+li > a::before {
+  content: 'x';
+  background: yellow;
+}
+li > a::after {
+  content: 'x';
+  background: green;
+}
+nav li > a {
+  background: red;
+  display: inline-flex;
+}
+nav li > a::before {
+  /* display:block; */
+  content: 'x';
+}
 
 details summary { cursor: s-resize }
 details details summary { z-index: 10 }
