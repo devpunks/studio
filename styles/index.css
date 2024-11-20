@@ -675,10 +675,12 @@ a { -webkit-touch-callout: default }
  * https://drafts.csswg.org/css-lists-3
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
-dl, ol, ul, li, dt, dd {
-  /* list-style-position: inside; */
-}
-dl dl, ol ol, ol ul, ul ol, ul ul {
+dl, ol, ul {}
+
+dl dl, ol ol, ul ul,
+ol dl, ul dl,
+dl ol, ul ol,
+dl ul, ol ul {
   counter-reset: ordered 0 unordered 0;
 }
 dl, ol, ul {}
