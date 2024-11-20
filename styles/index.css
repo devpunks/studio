@@ -94,7 +94,7 @@
 /*
  * pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
  */
-::after, ::after {
+::before, ::after {
   /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
   display: inline-block;
 }
