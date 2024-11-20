@@ -100,6 +100,9 @@ body > nav {
 body > nav::before {
   height: 5ch;
   display: block;
+  color: magenta;
+  position: relative;
+  content: '<nav>igation';
   background: pink url(http://placekitten.com/400/200) no-repeat;
   background-size: cover;
   background-position: 0 center;
