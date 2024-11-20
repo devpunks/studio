@@ -708,6 +708,10 @@ ol > ol, dl > ol, ul > ol,
 ul > ul, dl > ul, ol > ul {
   counter-reset: ordered 0 unordered 0;
 }
+nav > dl, nav > ol, nav > ul {
+  padding: 1ch 1ch 1ch 2em;
+  background: aqua;
+}
 aside dl, aside dl > *,
 aside ol, aside ol > *,
 aside ul, aside ul > *,
