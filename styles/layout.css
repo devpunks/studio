@@ -55,7 +55,7 @@ html, body {
     - https://polypane.app/blog/strategies-for-dealing-with-horizontal-overflows
     - https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit
   */
-/* TODO: REFACTOR */
+  /* TODO: REFACTOR */
   /* min-width: 100vw; */
   /* min-width: -webkit-fill-available; */  /* Mozilla-based browsers will ignore this. */
   min-width: -moz-available;          /* WebKit-based browsers will ignore this. */
