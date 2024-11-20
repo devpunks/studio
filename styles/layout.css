@@ -106,8 +106,6 @@ body > nav::before {
   background: pink url(http://placekitten.com/400/200) no-repeat;
   background-size: cover;
   background-position: 0 center;
-  position: relative;
-  height: 5ch;
 }
 body > nav > * {
 }
