@@ -676,7 +676,7 @@ a { -webkit-touch-callout: default }
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 dl, ol, ul, li, dt, dd {
-  list-style-position: inside;
+  /* list-style-position: inside; */
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
   display: inherit;
