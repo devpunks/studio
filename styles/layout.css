@@ -95,7 +95,6 @@ body > nav {
   /* overflow-y: auto; */
   height: 100vh;
   top: 0em;
-  /* background: lime; */
   width: -webkit-fill-available;
 }
 body > nav::before {
