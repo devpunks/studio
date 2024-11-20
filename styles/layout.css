@@ -111,7 +111,6 @@ body > nav > * {
 }
 body > nav > details {
   width: 50%;
-  /* z-index: 1000; */
 }
 
 body > nav > details[open] {
