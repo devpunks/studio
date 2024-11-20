@@ -97,7 +97,6 @@ body > nav {
   top: 0em;
   /* background: lime; */
   width: -webkit-fill-available;
-  /* width: 50%; */
 }
 body > nav::before {
   content: '<nav>igation';
