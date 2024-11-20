@@ -677,10 +677,10 @@ a { -webkit-touch-callout: default }
  */
 dl, ol, ul {}
 
-dl dl, ol ol, ul ul,
-ol dl, ul dl,
-dl ol, ul ol,
-dl ul, ol ul {
+dl > dl, ol > ol, ul > ul,
+ol > dl, ul > dl,
+dl > ol, ul > ol,
+dl > ul, ol > ul {
   counter-reset: ordered 0 unordered 0;
 }
 aside dl, aside ol, aside ul, aside dt, aside dd, aside li,
