@@ -710,7 +710,8 @@ summary::marker { content: '🔴' }
 dd, dt, li { background-color: Canvas }
 dd {}
 dt {}
-li {}
+li {
+}
 li li {}
 ol > li, ul > li {}
 ol > li { counter-increment: ordered }
