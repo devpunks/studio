@@ -598,6 +598,7 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 
 abbr[title] { cursor: help }
 a {
+  word-break: break-word;
   cursor: pointer;
   border-radius: 0.2ch;
   display: inline-block;
