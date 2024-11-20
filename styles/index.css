@@ -681,8 +681,12 @@ ol > ol, dl > ol, ul > ol,
 ul > ul, dl > ul, ol > ul {
   counter-reset: ordered 0 unordered 0;
 }
-aside dl, aside ol, aside ul, aside dt, aside dd, aside li,
-footer dl, footer ol, footer ul, footer dt, footer dd, footer li
+aside dl, aside dl > *,
+aside ol, aside ol > *,
+aside ul, aside ul > *,
+footer dl, footer dl > *,
+footer ol, footer ol > *,
+footer ul, footer ul > *
   { background: inherit }
 dl {}
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/counters */
