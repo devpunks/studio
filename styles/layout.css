@@ -90,6 +90,7 @@ body > nav {
   top: 0;
   z-index: 1;
   position: fixed;
+  /* position: sticky; */
   /* max-height: 90vh; */
   /* overflow-y: auto; */
   height: 100vh;
