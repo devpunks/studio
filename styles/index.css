@@ -683,7 +683,6 @@ dl ol, ul ol,
 dl ul, ol ul {
   counter-reset: ordered 0 unordered 0;
 }
-dl, ol, ul {}
 aside dl, aside ol, aside ul, aside dt, aside dd, aside li,
 footer dl, footer ol, footer ul, footer dt, footer dd, footer li
   { background: inherit }
