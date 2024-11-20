@@ -614,6 +614,7 @@ a[href='#'][title^=Top] {
   margin: var(--p-margin) auto;
   padding: 1ch var(--line-height);
 }
+
 li > a {}
 
 details summary { cursor: s-resize }
