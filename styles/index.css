@@ -687,6 +687,9 @@ footer dl, footer ol, footer ul, footer dt, footer dd, footer li
   { background: inherit }
 dl {}
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/counters */
+ul {
+  list-style: auto;
+}
 ol {
   /* list-style: ordered; */
   /* counter-reset: ordered 0; */
