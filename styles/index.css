@@ -614,6 +614,11 @@ a[href='#'][title^=Top] {
   padding: 1ch var(--line-height);
 }
 
+nav li::before, nav li::after {
+  content: '+';
+  background: pink;
+}
+
 li > a {}
 
 details summary { cursor: s-resize }
