@@ -256,6 +256,7 @@ html {
      -moz-text-size-adjust: var(--text-size-adjust);
           text-size-adjust: var(--text-size-adjust);
 
+  /* https://stackoverflow.com/questions/17259916/difference-between-overflow-wrap-and-word-break */
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container */
   /* https://css-tricks.com/almanac/properties/w/word-break */
   /* These are technically the same, but use both */
