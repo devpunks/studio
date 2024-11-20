@@ -615,6 +615,7 @@ a[href='#'][title^=Top] {
 }
 
 nav li {
+  display: inline;
   background: orange;
 }
 nav li::before, nav li::after {
