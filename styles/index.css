@@ -465,7 +465,7 @@ body > nav li li :link::before {
 body > nav li li :link:hover::before { content: '📝' }
 
 address {}
-li address { display: inline-block }
+li address {padding-inline: 1ch;display: inline-block}
 
 
 /* Table styling
