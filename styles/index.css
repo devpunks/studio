@@ -691,7 +691,7 @@ footer ul, footer ul > *
 dl {}
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/counters */
 ul {
-  list-style: auto;
+  list-style: inherit;
 }
 ol {
   /* list-style: ordered; */
