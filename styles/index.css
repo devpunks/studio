@@ -255,6 +255,7 @@ time {
   display: inline-block;
   text-overflow: ellipsis;
   font-size: var(--larger);
+  border-radius: calc( 1ch * var(--GOLDEN-RATIO) );
   background: purple;
 }
 time[title] {
