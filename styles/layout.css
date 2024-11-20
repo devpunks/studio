@@ -68,7 +68,7 @@ html, body {
   background: green;
 }
 
-/* boxing - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* boxing - https://paulirish.com/2012/box-sizing-border-box-ftw */
 html {
   overflow-y: scroll;
   /* overflow-x: hidden; */
