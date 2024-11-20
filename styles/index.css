@@ -705,7 +705,6 @@ ol {
 ol > li::marker { content: counters(ordered, '.') }
 summary::marker { content: '🔴' }
 dd, dt, li { background-color: Canvas }
-dt {}
 dd {}
 li {}
 li li {}
