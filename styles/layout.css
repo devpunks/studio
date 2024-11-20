@@ -98,8 +98,7 @@ body > nav {
   width: -webkit-fill-available;
 }
 body > nav::before {
-  content: '<nav>igation';
-  color: magenta;
+  height: 5ch;
   display: block;
   background: pink url(http://placekitten.com/400/200) no-repeat;
   background-size: cover;
