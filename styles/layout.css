@@ -46,7 +46,7 @@
 *, ::before, ::after {  /* https://stackoverflow.com/questions/7327326 */
   min-width: 0; /* https://defensivecss.dev/tip/flexbox-min-content-size */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model */
-  box-sizing: inherit; /* https://css-tricks.com/international-box-sizing-awareness-day/ */
+  box-sizing: inherit; /* https://css-tricks.com/international-box-sizing-awareness-day */
 }
 
 html, body {
