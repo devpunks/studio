@@ -277,8 +277,13 @@ time::after{
 }
 time[datetime]::before { content: '🗓' }
 time[datetime]::after {
-  padding: 0.1682ch;
-  margin-inline-start: 1ch;
+  top: 3em;
+  left: 10em;
+  position: fixed;
+  font-size: smaller;
+  background: white;
+  padding: 0.25em .5em;
+  /* margin-inline-start: 1ch; */
   outline: 3px dotted;
 }
 time:empty {
