@@ -510,7 +510,6 @@ table tr > *::before, table tr > *::after {
 table tr::before, table tr::after { content: 'tr' }
 
 table th {
-  /* top: auto; */
   /* position: sticky; */
   background: inherit;
 }
