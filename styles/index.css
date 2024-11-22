@@ -251,7 +251,7 @@ time {
   font-size: small;
   border-radius: 1ch;
   text-align: center;
-  padding-inline: 1ch;
+  padding: 1ch;
   white-space: nowrap;
   display: inline-block;
   line-height: 1.6182em;
