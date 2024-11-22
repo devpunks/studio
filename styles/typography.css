@@ -388,14 +388,6 @@ a.logo {
   margin-bottom: 0.2em
 }
 
-li > a { vertical-align: top }
-
-nav > a {margin: 1ch;text-align: start}
-
-nav li > a:hover {
-  /* font-weight: bolder; */
-}
-
 hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
   color: currentColor;
   margin: 3.612em auto;
