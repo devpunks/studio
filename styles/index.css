@@ -610,6 +610,7 @@ a {
   padding-inline: 1ch;
   border-radius: 0.2ch;
   display: inline-block;
+  word-break: break-word;
   outline: 0.1em dashed currentColor;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
