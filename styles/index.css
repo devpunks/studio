@@ -672,6 +672,9 @@ nav li > a {
   /* min-width: 10em; */
   background: red;
   display: inline-flex;
+  display: block;
+  width: auto;
+  justify-content: space-between;
 }
 nav li > a::before {
   content: 'x';
