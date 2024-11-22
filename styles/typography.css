@@ -379,6 +379,7 @@ cite > a, sup > a, sub > a {
   padding: 0;
   max-width: 12em;
   overflow: hidden;
+  line-height: initial;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
