@@ -370,7 +370,6 @@ a:hover::before, a:hover::after {
 
 footer a {
   margin: 1ch;
-  display: inline-block;
 }
 a.logo {
   font-size: 2em;
