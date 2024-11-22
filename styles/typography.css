@@ -513,7 +513,9 @@ p q, q q {
   padding-inline-end: initial;
   padding-inline-start: initial;
 }
-p q {}
+p q {
+  text-transform: initial;
+}
 q q {}
 
 [autocapitalize] a { text-decoration: revert; }
