@@ -70,9 +70,9 @@
   {cursor: not-allowed }
 
 body > a[href='#main'] { /* skip link */
+  height: 0;
   padding: 0;
-  display: block;
-  filter: invert(1);
+  text-align: center;
   background: Canvas;
   clip-path: inset(50%);
   box-shadow: var( --box-shadow );
