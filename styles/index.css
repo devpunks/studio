@@ -648,7 +648,6 @@ nav li > a {
   display: inline-flex;
 }
 nav li > a::before {
-  /* display:block; */
   content: 'x';
 }
 
