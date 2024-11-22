@@ -648,6 +648,7 @@ a[href='#'][title^=Top] {
 nav li {
   padding: 0;
   margin: 1ch;
+  display: block;
   background: orange;
 }
 nav li::before, nav li::after {
