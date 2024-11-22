@@ -369,7 +369,6 @@ a:hover::before, a:hover::after {
 }
 
 footer a {
-  padding-inline: 1ch;
   margin: 1ch;
   display: inline-block;
 }
