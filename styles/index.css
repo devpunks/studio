@@ -261,7 +261,7 @@ time[title] {
   background: lime;
 }
 time[datetime] {
-  background: orange;
+  background: rgba(255,255,255,0.5);
 }
 time::before, time::after {}
 time::before {
