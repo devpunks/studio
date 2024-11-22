@@ -382,6 +382,7 @@ cite > a, sup > a, sub > a {
   line-height: initial;
   white-space: nowrap;
   text-overflow: ellipsis;
+  vertical-align: text-bottom;
 }
 
 nav > a {
