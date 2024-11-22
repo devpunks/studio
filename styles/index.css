@@ -279,7 +279,6 @@ time[datetime]::after {
   position: relative;
   font-size: smaller;
   padding-inline: .5em;
-  /* outline: 3px dotted; */
   background: inherit;
   margin-block: 1.2ch;
 }
