@@ -281,6 +281,9 @@ time::after {
   padding-inline: .5em;
   background: inherit;
 }
+time[datetime]:hover::after {
+  opacity: 1.0;
+}
 time:empty {
   background: yellow;
 }
