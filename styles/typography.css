@@ -371,6 +371,16 @@ a:hover::before, a:hover::after {
 footer a {
   margin: 1ch;
 }
+
+li > a { vertical-align: top }
+
+nav > a {
+  margin: 1ch;
+  text-align: start;
+}
+nav li > a:hover {
+  font-weight: bolder;
+}
 a.logo {
   font-size: 2em;
   line-height: 2em;
