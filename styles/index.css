@@ -248,6 +248,7 @@ mark {
 /* https://stackoverflow.com/q/5437674/what-unicode-characters-represent-time */
 time, time::before, time::after { border-radius: inherit }
 time {
+  padding: 1ch;
   font-size: small;
   border-radius: 1ch;
   text-align: center;
