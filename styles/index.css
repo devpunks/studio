@@ -274,7 +274,8 @@ time::after{
   margin-inline-start: 0.1682ch;
 }
 time[datetime]::before { content: '🗓' }
-time[datetime]::after {
+time::after {
+  opacity: 0.5;
   display: block;
   position: relative;
   font-size: smaller;
