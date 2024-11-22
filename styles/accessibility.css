@@ -82,7 +82,7 @@ body > a[href='#main'] { /* skip link */
 body > a[href='#main']:focus-visible {
   height: unset;
   clip-path: unset;
-  padding: var( --line-height ) 0;
+  padding: var( --line-height);
 }
 body > a[href='#main']:focus-visible:hover {
   filter: unset;
