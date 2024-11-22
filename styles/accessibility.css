@@ -80,7 +80,7 @@ body > a[href='#main'] { /* skip link */
   /* height: var(--margin-collapse-bugfix); */
 }
 body > a[href='#main']:focus-visible {
-  height: auto;
+  height: unset;
   clip-path: unset;
   padding: var( --line-height ) 0;
 }
