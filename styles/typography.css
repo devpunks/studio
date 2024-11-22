@@ -503,8 +503,10 @@ q { /* quotes */
     - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
   */
 }
-q::before {}
-q::after { content: close-quote }
+q::before {
+  display: inline;
+}
+q::after {display: inline;content: close-quote}
 
 p q, q q {
   font-size: var(--smaller);
