@@ -516,9 +516,8 @@ q::before {
 q::after {display: inline;content: close-quote}
 
 p q, q q {
-  font-size: var(--smaller);
-  padding-inline-end: initial;
-  padding-inline-start: initial;
+  /* font-size: var(--smaller); */
+  padding-inline: initial;
 }
 p q {
   text-transform: initial;
