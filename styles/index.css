@@ -254,6 +254,7 @@ time {
   padding-inline: 1ch;
   white-space: nowrap;
   display: inline-block;
+  line-height: 1.6182em;
   text-overflow: ellipsis;
 }
 time[title] {
