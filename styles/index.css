@@ -279,10 +279,10 @@ time[datetime]::after {
   /* top: -1em; */
   position: relative;
   font-size: smaller;
-  background: white;
-  padding: 0.25em .5em;
-  /* margin-inline-start: 1ch; */
-  outline: 3px dotted;
+  padding-inline: .5em;
+  /* outline: 3px dotted; */
+  background: inherit;
+  margin-block: 1.2ch;
 }
 time:empty {
   background: yellow;
