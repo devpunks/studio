@@ -602,7 +602,7 @@ cite {
   opacity: 75%;
   font-size: var(--smaller);
   white-space: nowrap;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 cite::before{
   content: '-'; /* https://en.wikipedia.org/wiki/Dash */
