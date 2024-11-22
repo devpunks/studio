@@ -280,7 +280,6 @@ time[datetime]::after {
   font-size: smaller;
   padding-inline: .5em;
   background: inherit;
-  margin-block: 1.2ch;
 }
 time:empty {
   background: yellow;
