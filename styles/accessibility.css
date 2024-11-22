@@ -39,6 +39,7 @@
     - https://deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators
   */
   z-index: 1;
+  outline-offset: 0.2ch;
   outline: 0.3ch dashed;
 }
 
