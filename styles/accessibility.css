@@ -76,7 +76,7 @@ body > a[href='#main'] { /* skip link */
   background: Canvas;
   clip-path: inset(50%);
   box-shadow: var( --box-shadow );
-  /* height: var(--margin-collapse-bugfix); */
+  height: var(--margin-collapse-bugfix);
 }
 body > a[href='#main']:focus-visible {
   height: unset;
