@@ -611,7 +611,8 @@ cite {
   white-space: nowrap;
   /* display: inline-flex; */
 }
-cite::before{
+cite::before, cite::after {
+  background: red;
   content: '-'; /* https://en.wikipedia.org/wiki/Dash */
 }
 blockquote cite, q cite {}
