@@ -506,7 +506,6 @@ table::after {
 table tr { display: flex }
 table tr > * {
   flex-grow: 1;
-  flex-shrink: 1;
   flex-basis: 0;
   display: inline-flex;
   justify-content: space-between;
