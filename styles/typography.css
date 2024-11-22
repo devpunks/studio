@@ -380,7 +380,7 @@ a.logo {
 
 li > a { vertical-align: top }
 
-nav > a { text-align: start }
+nav > a {margin: 1ch;text-align: start}
 
 nav li > a:hover {
   /* font-weight: bolder; */
