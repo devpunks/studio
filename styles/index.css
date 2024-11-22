@@ -606,6 +606,7 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 
 abbr[title] { cursor: help }
 a {
+  padding-inline: 1ch;
   word-break: break-word;
   cursor: pointer;
   border-radius: 0.2ch;
