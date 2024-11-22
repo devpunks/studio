@@ -534,16 +534,11 @@ p[autocapitalize] {
 }
 b[autocapitalize], p[autocapitalize=words], p[autocapitalize=characters], p[autocapitalize]::first-letter {
   color: ActiveText;
+  font-size: larger;
   font-weight: bold;
-  font-size: xx-large;
 }
 p[autocapitalize]::first-letter {
-  text-indent: 1em;
-}
-p[autocapitalize=on]::first-letter {
-  color: Canvas;
-  display: flow-root;
-  background: inherit;
+  font-size: 1.6182em;
 }
 [autocapitalize=words]{ text-transform: capitalize }
 [autocapitalize=characters] { text-transform: uppercase }
