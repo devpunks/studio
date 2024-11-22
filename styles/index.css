@@ -249,7 +249,7 @@ mark {
 time, time::before, time::after
   {border-radius: inherit;}
 time {
-  padding: 0.618ch;
+  font-size: small;
   overflow-x: hidden;
   white-space: nowrap;
   display: inline-block;
