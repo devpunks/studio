@@ -759,7 +759,6 @@ ul > li::after,
 ol > li::after {}
 ul > li::after {}
 ol > li::after { content: '\232A' }
-ul > li::after {}
 
 
 /**** COUNTERS *******
