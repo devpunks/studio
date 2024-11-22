@@ -221,6 +221,20 @@ header, h1, h2, h3, h4, h5, h6 {
   max-width: 45rem;
   padding: var(--margin-collapse-bugfix) var(--font-size);
 }
+nav > header {
+  background: green;
+}
+nav > header::before,
+nav > header::after {
+  padding: 0.2ch;
+  margin: 0 0.1ch;
+}
+nav > header::before {
+  content: '🧭';
+}
+nav > header::after {
+  content: '⬊';
+}
 
 iframe {
   width: 100%;
@@ -632,7 +646,7 @@ a[href='#'][title^=Top] {
 }
 
 nav li {
-  display: inline-block;
+  padding: 0;
   margin: 1ch;
   background: orange;
 }
