@@ -325,7 +325,9 @@ header {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps */
   font-variant-caps: small-caps;
 }
-section > header {
+section > header, nav > header {
+  padding: 0;
+  margin: 0;
   font-size: calc( var(--largest) * var(--golden-ratio) );
 }
 header *
