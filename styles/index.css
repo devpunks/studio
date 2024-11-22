@@ -653,6 +653,7 @@ nav li {
 }
 nav li::before, nav li::after {
   content: '+';
+  float: left;
   background: pink;
 }
 
