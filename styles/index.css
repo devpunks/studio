@@ -277,7 +277,6 @@ time[datetime]::before { content: '🗓' }
 time::after {
   opacity: 0.5;
   display: block;
-  position: relative;
   font-size: smaller;
   padding-inline: .5em;
   background: inherit;
