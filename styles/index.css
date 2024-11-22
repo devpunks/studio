@@ -290,6 +290,11 @@ time:empty {
 time:empty::before {}
 
 p > time { vertical-align: middle }
+p > time::after {
+  opacity: 0;
+  position: absolute;
+}
+
 
 var, data {
   color: CanvasText;
