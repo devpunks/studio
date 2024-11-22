@@ -288,7 +288,8 @@ time:empty {
   background: yellow;
 }
 time:empty::before {}
-p time {vertical-align: middle;}
+
+p > time { vertical-align: middle }
 
 var, data {
   color: CanvasText;
