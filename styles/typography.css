@@ -533,10 +533,10 @@ p[autocapitalize=on]::first-letter {
   display: flow-root;
   background: inherit;
 }
-
 [autocapitalize=words]{ text-transform: capitalize }
 [autocapitalize=characters] { text-transform: uppercase }
 [autocapitalize=off], [autocapitalize=none] { text-transform: none }
+[autocapitalize=off] a, [autocapitalize=none] a { text-decoration: initial; }
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
