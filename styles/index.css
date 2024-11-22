@@ -290,7 +290,7 @@ time:empty {
   background: yellow;
 }
 time:empty::before {}
-p time {vertical-align: text-bottom;}
+p time {vertical-align: middle;}
 
 var, data {
   color: CanvasText;
