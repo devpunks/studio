@@ -754,7 +754,9 @@ li {}
 li li {}
 ol > li, ul > li {}
 ul > li {}
-ol > li::after,
+ol > li { counter-increment: ordered }
+ul > li::after,
+ol > li::after {}
 ul > li::after {}
 ol > li::after { content: '\232A' }
 ul > li::after {}
