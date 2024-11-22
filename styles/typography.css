@@ -525,6 +525,9 @@ b[autocapitalize], p[autocapitalize=words], p[autocapitalize=characters], p[auto
   font-weight: bold;
   font-size: xx-large;
 }
+p[autocapitalize]::first-letter {
+  text-indent: 1em; 
+}
 p[autocapitalize=on]::first-letter {
   color: Canvas;
   display: flow-root;
