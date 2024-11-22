@@ -755,7 +755,10 @@ dd {}
 dt {}
 li {}
 li li {}
-ol > li, ul > li {}
+ol > li, ul > li {
+  background: red;
+  /* margin: 1ch; */
+}
 ol > li { counter-increment: ordered }
 ul > li {}
 ol > li::after,
