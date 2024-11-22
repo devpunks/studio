@@ -634,9 +634,7 @@ nav li::before, nav li::after {
 }
 
 li > a {}
-li > a::before, li > a::after {
-  
-}
+li > a::before, li > a::after {}
 li > a::before {
   content: 'x';
   background: yellow;
