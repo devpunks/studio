@@ -677,7 +677,6 @@ li > a::after {
 }
 nav li > a {
   padding: 0;
-  /* min-width: 10em; */
   background: red;
   display: inline-flex;
   display: block;
