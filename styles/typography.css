@@ -460,6 +460,7 @@ abbr[title] {
 
 del, s {
   opacity: 0.618;
+  text-decoration-style: wavy;
   text-decoration: line-through;
   text-decoration-style: wavy
 }
