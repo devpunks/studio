@@ -390,7 +390,7 @@ nav > a {
   text-align: start;
 }
 nav li > a:hover {
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 a.logo {
   font-size: 2em;
