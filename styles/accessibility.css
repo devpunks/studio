@@ -30,6 +30,16 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors */
 @media screen and ( forced-colors: active ) { }
 
+/* ANCHORS */
+a,
+a:link,
+a:visited
+  { color: var(--a) }
+a:hover
+  { color: var(--a\:hover) }
+a:active
+  { color: var(--a) }
+
 /* FOCUSED */
 :focus-visible, [aria-disabled=false]:focus-visible {
   /*
