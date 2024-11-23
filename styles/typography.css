@@ -485,38 +485,6 @@ p {
   /* 16x0.81=13 */
 }
 
-q { /* quotes */
-  font-style: italic;
-  border-radius: 1ch;
-  background: rgba(255,255,255,0.5);
-   /*
-    - https://tympanus.net/codrops/css_reference/quotes/
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
-  */
-  quotes:
-    "\201C" "\201D"
-    "\2018" "\2019"
-
-    "\201C" "\201D"
-    "\2018" "\2019"
-
-    "\201C" "\201D"
-    "\2018" "\2019"; /* quotes */
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-q::before {
-  display: inline;
-}
-q::after {
-  display: inline;
-  content: close-quote;
-}
-p q, q q {
-  font-size: smaller;
-  padding-inline: initial;
-}
-
 [autocapitalize] * {
   padding: initial;
   text-indent: initial;
