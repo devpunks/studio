@@ -410,7 +410,6 @@ hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
 dl, ol, ul {
   font-size: larger;
   text-align: start;
-  background-color: currentColor;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
   padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--line-height);
 }
