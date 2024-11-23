@@ -408,7 +408,6 @@ hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 dl, ol, ul {
-  /* width: 90%; */
   font-size: larger;
   text-align: start;
   background-color: currentColor;
