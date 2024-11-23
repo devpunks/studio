@@ -520,7 +520,8 @@ p q, q q {
   padding-inline: initial;
 }
 p q {
-  text-transform: initial;
+  background: red;
+  /* text-transform: initial; */
 }
 q q {}
 
