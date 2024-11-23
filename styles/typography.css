@@ -389,7 +389,9 @@ nav > a {
   margin: 1ch;
   text-align: start;
 }
-nav li > a:hover {}
+nav li > a:hover {
+  background: inherit;
+}
 a.logo {
   font-size: 2em;
   line-height: 2em;
