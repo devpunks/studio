@@ -655,6 +655,8 @@ nav li {
 nav li::before, nav li::after {
   content: '+';
   float: left;
+  z-index: 2;
+  position: relative;
   background: pink;
 }
 nav li::before {
