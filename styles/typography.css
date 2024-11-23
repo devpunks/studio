@@ -502,15 +502,9 @@ q { /* quotes */
 
     "\201C" "\201D"
     "\2018" "\2019"; /* quotes */
+
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
-
-   /*
-    - https://tympanus.net/codrops/css_reference/quotes/
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
-  */
-  background: rgba(255,255,255,0.5);
-  border-radius: 1c;
 }
 q::before {
   display: inline;
