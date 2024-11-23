@@ -751,6 +751,7 @@ ul > ul, dl > ul, ol > ul {
   counter-reset: ordered 0 unordered 0;
 }
 nav > dl, nav > ol, nav > ul {
+  opacity: 0.7;
   padding: 1ch 0;
   -: 1ch;
 }
