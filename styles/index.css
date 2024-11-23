@@ -656,7 +656,12 @@ nav li::before, nav li::after {
   float: left;
   background: pink;
 }
-
+nav li::before {
+  float: left;
+}
+nav li::after {
+  float: right;
+}
 li > a {}
 li > a::before, li > a::after {}
 li > a::before {
