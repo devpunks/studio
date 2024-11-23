@@ -473,7 +473,7 @@ em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
 }
 b, strong { font-weight: bolder }
 b {}
-p, q, address {
+p, address {
   max-width: 80ch;
   text-align: start;
   padding: var(--margin-collapse-bugfix) var(--line-height);
