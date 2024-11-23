@@ -389,9 +389,7 @@ nav > a {
   margin: 1ch;
   text-align: start;
 }
-nav li > a:hover {
-  /* font-weight: bolder; */
-}
+nav li > a:hover {}
 a.logo {
   font-size: 2em;
   line-height: 2em;
