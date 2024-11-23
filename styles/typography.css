@@ -529,6 +529,39 @@ figcaption {
   font-style: italic;
 }
 
+q { /* quotes */
+  font-style: italic;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  
+   /*
+    - https://tympanus.net/codrops/css_reference/quotes/
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
+  */
+  quotes:
+    "\201C" "\201D"
+    "\2018" "\2019"
+
+    "\201C" "\201D"
+    "\2018" "\2019"
+
+    "\201C" "\201D"
+    "\2018" "\2019"; /* quotes */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+q::before {
+  display: inline;
+}
+q::after {
+  display: inline;
+  content: close-quote;
+}
+p q, q q {
+  font-size: smaller;
+  padding-inline: initial;
+}
+
 /*
   - http://webtypography.net/2.3.3
   - https://isotropic.co/the-best-css-styling-for-blockquotes
