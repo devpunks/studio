@@ -665,6 +665,7 @@ nav li::before {
 nav li::after {
   float: right;
 }
+nav li:hover {}
 li > a {}
 li > a::before, li > a::after {}
 li > a::before {
