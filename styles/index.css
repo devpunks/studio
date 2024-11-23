@@ -766,7 +766,6 @@ footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
 dl {}
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/counters */
 ul {
   list-style: inherit;
 }
