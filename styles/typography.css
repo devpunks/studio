@@ -486,6 +486,7 @@ p {
 }
 
 q { /* quotes */
+  font-style: italic;
   quotes:
     "\201C" "\201D"
     "\2018" "\2019"
