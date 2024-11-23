@@ -33,7 +33,7 @@
 /* FOCUSED */
 :focus-visible, [aria-disabled=false]:focus-visible {
   /*
-    - https://hidde.blog/focus-visible-more-than-keyboard/
+    - https://hidde.blog/focus-visible-more-than-keyboard
     - https://w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F78
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
     - https://w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
