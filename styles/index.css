@@ -678,9 +678,8 @@ li > a::after {
 nav li > a {
   padding: 0;
   background: red;
-  display: inline-flex;
-  display: block;
-  width: auto;
+  flex: 1 0 0;
+  display: flex;
   justify-content: space-between;
 }
 nav li > a::before {
