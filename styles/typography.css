@@ -487,6 +487,12 @@ p {
 
 q { /* quotes */
   font-style: italic;
+  border-radius: 1ch;
+  background: rgba(255,255,255,0.5);
+   /*
+    - https://tympanus.net/codrops/css_reference/quotes/
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
+  */
   quotes:
     "\201C" "\201D"
     "\2018" "\2019"
