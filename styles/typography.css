@@ -437,8 +437,10 @@ dd, li li {
   font-size: var(--smaller);
 }
 dd dd:first-of-type, li li:first-of-type {}
-nav li, nav li {}
-nav dd, nav li li { font-size: 1em }
+nav li {
+  background: inherit;
+}
+nav dd, nav li { font-size: 1em }
 nav dt + dd, nav li li:first-of-type
   { margin-top: 0 }
 details > dl, details > dd,
