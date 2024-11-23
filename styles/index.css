@@ -650,7 +650,6 @@ nav li {
   margin: 1ch;
   display: flex;
   justify-content: stretch;
-  /* background: orange; */
 }
 nav li::before, nav li::after {
   content: '+';
