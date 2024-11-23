@@ -678,7 +678,7 @@ li > a::after {
 }
 nav li > a {
   padding: 0;
-  background: red;
+  /* background: red; */
   flex: 1 0 0;
   display: flex;
   justify-content: space-between;
