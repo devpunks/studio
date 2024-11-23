@@ -752,10 +752,8 @@ ul > ul, dl > ul, ol > ul {
   counter-reset: ordered 0 unordered 0;
 }
 nav > dl, nav > ol, nav > ul {
-  margin: 0;
-  padding: 0;
-  /* padding: 1ch 1ch 1ch 2em; */
-  background: aqua;
+  padding: 1ch 0;
+  -: 1ch;
 }
 aside dl, aside dl > *,
 aside ol, aside ol > *,
