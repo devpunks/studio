@@ -590,13 +590,6 @@ blockquote::before {
   top: 1ch;
   left: 2ch;
   /* width: 100%; */
-  opacity: 80%;
-  line-height: 1.6182ch;
-  position: relative;
-  content: open-quote;
-  overflow: hidden;
-  /* background: pink; */
-  display: block;
   width: 1ch;
   height: 1ch;
   text-align: start;
