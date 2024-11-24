@@ -489,6 +489,11 @@ p {
   /* 16x0.81=13 */
 }
 
+[autocapitalize=words]{ text-transform: capitalize }
+[autocapitalize=characters] { text-transform: uppercase }
+[autocapitalize=off], [autocapitalize=none] { text-transform: none }
+[autocapitalize=off] a, [autocapitalize=none] a { text-decoration: initial }
+
 [autocapitalize] * {
   padding: initial;
   text-indent: initial;
