@@ -418,6 +418,7 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
 }
 nav > dl, nav > ol, nav > ul { padding: 1ch 0 }
 nav > details > ul {}
+
 dt {
   font-weight: bolder;
   line-height: 3.6182ch;
