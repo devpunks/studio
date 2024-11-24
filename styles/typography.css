@@ -511,7 +511,7 @@ p[autocapitalize]::first-letter, p[autocapitalize]::first-line {
 p[autocapitalize] {
   text-indent: 1em;
 }
-p[autocapitalize]::first-letter {
+p[autocapitalize]::first-letter, p[autocapitalize]::first-line {
   font-size: 1.6182em;
 }
 
