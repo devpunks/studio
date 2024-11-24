@@ -502,7 +502,7 @@ p {
 }
 
 [autocapitalize=words], [autocapitalize=characters],
-[autocapitalize]::first-letter, [autocapitalize]::first-line {
+[autocapitalize]::first-letter, [autocapitalize=on]::first-line {
   color: ActiveText;
   font-size: larger;
   font-weight: bold;
