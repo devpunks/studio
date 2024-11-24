@@ -656,7 +656,7 @@ nav li::before, nav li::after {
 nav li::before { content: '▷' }
 nav li::after  { content: '+' }
 nav li:hover::before, nav li:focus-within::before {
-  background: red;
+  content: '▶';
 }
 li > a {}
 li > a::before, li > a::after {}
