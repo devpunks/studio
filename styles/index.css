@@ -652,13 +652,6 @@ nav li::before, nav li::after {
   float: left;
   background: red;
   position: relative;
-  background: pink;
-}
-nav li::before {
-  float: left;
-}
-nav li::after {
-  float: right;
 }
 nav li:hover::before, nav li:focus-within::before {
   background: red;
