@@ -541,7 +541,7 @@ figcaption {
 q { /* quotes */
   font-style: italic;
   border-radius: 1ch;
-  padding-inline: 1ch;
+  padding-inline: 0.5ch;
 
    /*
     - https://tympanus.net/codrops/css_reference/quotes/
