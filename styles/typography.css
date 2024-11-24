@@ -513,6 +513,13 @@ p {
 [autocapitalize]::first-letter, [autocapitalize]::first-line {
   font-size: 1.6182em;
 }
+[autocapitalize]:not([autocapitalize=on]):not([autocapitalize=words]):not([autocapitalize=characters]):not([autocapitalize=sentences])::first-letter {
+  float: left;
+  line-height: 1;
+  font-size: 210%;
+  padding-right: 0.25ch;
+  display: inline-block;
+}
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
