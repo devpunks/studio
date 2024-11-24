@@ -744,6 +744,7 @@ nav > details[open] {
 }
 
 summary { /* summary */
+  font-size: larger;
   font-weight: bolder;
   padding-bottom: 0.618em;
   font-size: larger;
