@@ -661,6 +661,7 @@ nav li::after  { content: '+' }
 nav li:hover::before, nav li:focus-within::before {
   content: '▶';
 }
+
 li > a {}
 li > a::before, li > a::after {}
 li > a::before {
