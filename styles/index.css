@@ -459,6 +459,8 @@ body > nav > details::after {
   bottom: 0;
   z-index: -1;
   border: none;
+  opacity: 80%;
+  color: Canvas;
   outline: none;
   position: fixed;
   bottom: 0;
