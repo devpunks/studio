@@ -52,7 +52,8 @@ a:active { color: red }
   outline-offset: 0.2ch;
   outline: 0.3ch dashed;
 }
-nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
+
+nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
   background: inherit;
 }
 
