@@ -30,7 +30,7 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors */
 @media screen and ( forced-colors: active ) { }
 
-/* ANCHORS */
+/* LINK   - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes */
 a, a:link { color: currentColor }
 a:visited { color: blue }
 a:hover { color: green }
