@@ -33,6 +33,7 @@
 /* LINK   - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes */
 a, a:link { color: currentColor }
 a:visited { color: blue }
+/* DYNAMIC - https://w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes */
 a:hover { color: green }
 a:active { color: red }
 a:focus { color: magenta }
