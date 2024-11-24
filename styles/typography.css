@@ -502,8 +502,8 @@ p {
   text-decoration: revert;
 }
 
-[autocapitalize=words], [autocapitalize=characters],
-[autocapitalize]::first-letter, [autocapitalize=on]::first-line {
+[autocapitalize=words], [autocapitalize=characters], [autocapitalize=sentences],
+[autocapitalize=on]::first-line, [autocapitalize]::first-letter {
   color: ActiveText;
   font-size: larger;
   font-weight: bold;
