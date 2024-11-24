@@ -761,7 +761,8 @@ nav > dl, nav > ol, nav > ul {
   padding: 1ch 0;
   background: rgba(255,255,255,0.5);
 }
-nav > dl:hover, nav > ol:hover, nav > ul:hover {
+nav > dl:hover, nav > ol:hover, nav > ul:hover,
+nav > dl:focus-within, nav > ol:focus-within, nav > ul:focus-within {
   opacity: 1.0;
 }
 aside dl, aside dl > *,
