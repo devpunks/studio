@@ -650,7 +650,7 @@ nav li {
 }
 nav li::before, nav li::after {
   float: left;
-  z-index: 2;
+  background: red;
   position: relative;
   background: pink;
 }
