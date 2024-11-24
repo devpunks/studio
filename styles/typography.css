@@ -606,10 +606,23 @@ blockquote::after {
   opacity: 40%;
   content: '⤷\2002' attr(cite);
 }
-blockquote p { text-align: start }
+blockquote p {
+  text-align: start;
+}
+blockquote p:first-letter {
+  margin: 0;
+  float: left;
+  line-height: 1;
+  font-size: 260%;
+  font-weight: bold;
+  font-style: initial;
+  padding-right: 0.5ch;
+  display: inline-block;
+}
 cite {
   opacity: 75%;
   white-space: nowrap;
+  font-size: var(--smaller);
   /* display: inline-flex; */
 }
 cite::before, cite::after {
