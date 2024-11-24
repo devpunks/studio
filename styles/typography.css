@@ -596,6 +596,8 @@ blockquote::before {
   display: block;
   overflow: hidden;
   text-align: start;
+  position: relative;
+  content: open-quote;
   transform: scale(8);
 }
 blockquote::after {
