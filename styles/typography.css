@@ -510,10 +510,6 @@ p[autocapitalize] {
 p[autocapitalize]::first-letter {
   font-size: 1.6182em;
 }
-[autocapitalize=words]{ text-transform: capitalize }
-[autocapitalize=characters] { text-transform: uppercase }
-[autocapitalize=off], [autocapitalize=none] { text-transform: none }
-[autocapitalize=off] a, [autocapitalize=none] a { text-decoration: initial; }
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
