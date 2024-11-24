@@ -500,7 +500,10 @@ p {
   text-indent: initial;
   text-decoration: revert;
 }
-b[autocapitalize], p[autocapitalize=words], p[autocapitalize=characters], p[autocapitalize]::first-letter {
+
+b[autocapitalize],
+p[autocapitalize=words], p[autocapitalize=characters],
+p[autocapitalize]::first-letter, p[autocapitalize]::first-line {
   color: ActiveText;
   font-size: larger;
   font-weight: bold;
