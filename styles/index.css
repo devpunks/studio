@@ -464,10 +464,7 @@ body > nav > details::after {
   outline: none;
   line-height: 0;
   position: fixed;
-  bottom: 0;
-  left: 0ch;
-  width: 0;
-  height: 0;
+  text-align: center;
   background: rgba(0,0,0,0.2);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
   backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
