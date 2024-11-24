@@ -749,8 +749,7 @@ summary { /* summary */
   padding-bottom: 0.618em;
   margin-left: -1.618em /* compensate for <details> padding */;
 }
-details > summary
-{
+details > summary {
   margin-left: 0;
   text-align: start;
 }
