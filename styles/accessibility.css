@@ -37,6 +37,7 @@ a:visited { color: blue }
 a:hover { color: green }
 a:focus { color: magenta }
 a:focus:hover { color: cyan }
+a:active { color: red }
 
 /* FOCUSED */
 :focus-visible, [aria-disabled=false]:focus-visible {
