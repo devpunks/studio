@@ -466,6 +466,7 @@ body > nav > details::after {
   position: fixed;
   text-align: center;
   background: rgba(0,0,0,0.2);
+  font-size: calc(100vh / var(--GOLDEN-RATIO));
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
   backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
   color: Canvas;
