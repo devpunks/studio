@@ -595,7 +595,6 @@ blockquote { /* http://webtypography.net/2.3.3 */
 blockquote::before {
   top: 1ch;
   left: 2ch;
-  /* width: 100%; */
   width: 1ch;
   height: 1ch;
   opacity: 80%;
