@@ -469,11 +469,6 @@ body > nav > details::after {
   font-size: calc(100vh / var(--GOLDEN-RATIO));
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
   backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
-  color: Canvas;
-  text-align: center;
-  font-size: calc(100vh / var(--GOLDEN-RATIO));
-  line-height: 0;
-  opacity: 80%;
 }
 body > nav > details[open]::after {
   width: 100vw;
