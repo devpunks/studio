@@ -169,9 +169,6 @@ html {
   color-scheme: light dark;
   background-color: Canvas;
 }
-/* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page */
-html:focus-within { scroll-behavior: smooth }
-
 /* SCROLL SNAPPING
   - https://w3.org/TR/css-scroll-snap-1
   - https://drafts.csswg.org/css-scroll-snap-1
