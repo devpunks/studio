@@ -453,6 +453,10 @@ body > nav *::after {
   list-style-type: 'bar';
 }
 body > nav > details::after {
+  width: 0;
+  left: 0ch;
+  height: 0;
+  bottom: 0;
   z-index: -1;
   border: none;
   outline: none;
