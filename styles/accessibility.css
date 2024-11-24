@@ -31,14 +31,12 @@
 @media screen and ( forced-colors: active ) { }
 
 /* ANCHORS */
-a,
-a:link,
-a:visited
-  { color: var(--a) }
-a:hover
-  { color: var(--a\:hover) }
-a:active
-  { color: var(--a) }
+a, a:link { color: currentColor }
+a:visited { color: blue }
+a:hover { color: green }
+a:active { color: red }
+a:focus { color: magenta }
+a:focus:hover { color: cyan }
 
 /* FOCUSED */
 :focus-visible, [aria-disabled=false]:focus-visible {
