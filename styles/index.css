@@ -653,6 +653,8 @@ nav li::before, nav li::after {
   background: red;
   position: relative;
 }
+nav li::before { content: '▷' }
+nav li::after  { content: '+' }
 nav li:hover::before, nav li:focus-within::before {
   background: red;
 }
