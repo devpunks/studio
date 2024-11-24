@@ -492,6 +492,7 @@ p {
 /* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/autocapitalize */
 [autocapitalize=words]{ text-transform: capitalize }
 [autocapitalize=characters] { text-transform: uppercase }
+[autocapitalize=characters] { text-transform: uppercase }
 [autocapitalize=off], [autocapitalize=none] { text-transform: none }
 [autocapitalize=off] a, [autocapitalize=none] a { text-decoration: initial }
 
