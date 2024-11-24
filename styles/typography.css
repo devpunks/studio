@@ -609,7 +609,6 @@ blockquote::after {
 blockquote p { text-align: start }
 cite {
   opacity: 75%;
-  font-size: var(--smaller);
   white-space: nowrap;
   /* display: inline-flex; */
 }
