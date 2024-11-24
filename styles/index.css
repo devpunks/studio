@@ -652,6 +652,9 @@ nav li::before, nav li::after {
   float: left;
   background: red;
   position: relative;
+  min-width: 3ch;
+  padding: 1ch;
+  text-align: center;
 }
 nav li::before { content: '▷' }
 nav li::after  { content: '+' }
