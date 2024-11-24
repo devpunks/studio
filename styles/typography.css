@@ -507,7 +507,7 @@ p {
   font-size: larger;
   font-weight: bold;
 }
-p[autocapitalize] {
+[autocapitalize] {
   text-indent: 1em;
 }
 p[autocapitalize]::first-letter, p[autocapitalize]::first-line {
