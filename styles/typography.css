@@ -592,6 +592,9 @@ blockquote::before {
   /* width: 100%; */
   width: 1ch;
   height: 1ch;
+  opacity: 80%;
+  display: block;
+  overflow: hidden;
   text-align: start;
   transform: scale(8);
 }
