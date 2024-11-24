@@ -599,6 +599,8 @@ blockquote::before {
   position: relative;
   content: open-quote;
   transform: scale(8);
+  line-height: 1.6182ch;
+  /* background: pink; */
 }
 blockquote::after {
   opacity: 40%;
