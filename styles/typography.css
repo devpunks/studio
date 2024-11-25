@@ -296,7 +296,10 @@ body > header {
 }
 body > header[role=banner] { padding: 0 }
 body > main {}
-body > aside {/* font-size: smaller; */}
+body > aside {
+  padding-top: var(--line-height);
+
+}
 body > footer {
   font-size: medium;
   text-align: center;
