@@ -121,9 +121,6 @@ body > nav > details[open]::before {
  content: 'shazaam open'
 }
 
-body > a[href='#main'] { /* skip link */
-  z-index: 1;
-}
 body > main {}
 body > aside {}
 body > footer {
