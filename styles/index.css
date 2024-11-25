@@ -318,7 +318,13 @@ var, data {
 var{}
 data {}
 
-pre, code, kbd, samp { border-radius: 1ch }
+pre, code, kbd, samp {
+  border-radius: 1ch;
+  background-color: ButtonFace;
+}
+kbd {
+  background: red;
+}
 pre code {
   display: inherit;
   border: solid currentColor;
