@@ -65,7 +65,8 @@ figure {
   background: red;
 }
 figure img, iframe, picture img, audio, canvas, video {
-  border-radius: 0.618em;
+  padding: inherit;
+  border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
 figure img, picture img, figure picture {
