@@ -323,6 +323,7 @@ pre, code, kbd, samp {
   background-color: ButtonFace;
 }
 kbd {
+  text-transform: uppercase;
   border-radius: 0.5ch;
   background-color: Canvas;
   border: 0.1ch solid currentColor;
