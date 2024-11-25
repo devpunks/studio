@@ -649,10 +649,6 @@ nav li {
   justify-content: stretch;
 }
 nav li::before, nav li::after {
-  float: left;
-  position: relative;
-  min-width: 3ch;
-  padding: 1ch;
   text-align: center;
 }
 nav li::before { content: '▷' }
