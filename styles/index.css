@@ -570,8 +570,8 @@ body > nav li li :link::before {
 }
 body > nav li li :link:hover::before { content: '📝' }
 
-nav > a { display: inline-block }
-li > a {}
+nav > :link { display: inline-block }
+li > :link {}
 li > a::before, li > a::after {}
 li > a::before {}
 li > a::after {}
