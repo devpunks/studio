@@ -356,7 +356,7 @@ body * > h1
   word-break: break-word;
   text-underline-offset: 0.168em;
   -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
 :link::before, :link::after {
