@@ -645,7 +645,7 @@ nav li {
   margin: 1ch;
   padding: 1ch;
   display: flex;
-  justify-content: stretch;
+  align-items: center;
 }
 nav li::before, nav li::after {
   content: '\2800';
