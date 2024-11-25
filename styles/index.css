@@ -682,6 +682,7 @@ nav li > a::before, nav li > a::after {
 }
 nav li > a::before {
   content: 'x';
+  padding: 1ch;
 }
 nav li > a {
   padding: 0;
