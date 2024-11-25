@@ -662,9 +662,7 @@ nav li:hover::before, nav li:focus-within::before {
 
 li > a {}
 li > a::before, li > a::after {
-  content: '\2009';
-}
-li > a::before {
+  content: '\2009'; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
   background: yellow;
 }
 li > a::after {
