@@ -583,8 +583,9 @@ nav li > :link {
   align-items: center;
   justify-content: space-between;
 }
-nav li > a::before, nav li > a::after {}
-nav li > a::before { content: '▸' }
+nav li > :link::before, nav li > :link::after {}
+nav li > :link::before { content: '▸' }
+nav li > :link::after { content: '' }
 
 
 address {}
