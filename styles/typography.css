@@ -288,11 +288,7 @@ body {
   text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering */
 }
 
-body > header,
-body > main,
-body > aside,
-body > footer
-  { outline: 0.3em dashed }
+body > * { margin: var(--viewport) }
 
 body > header {
   text-align: center;
