@@ -350,7 +350,7 @@ body * > h1
   { font-size: 2em; /* Override container H1s  */ }
 
 /* hyperlinks */
-a { /* TODO: migrate ARIA to accessibility.css */
+:link { /* TODO: migrate ARIA to accessibility.css */
   padding-inline: 0.2ch;
   white-space: normal;
   word-break: break-word;
