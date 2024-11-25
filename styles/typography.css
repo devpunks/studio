@@ -513,6 +513,11 @@ p {
   padding-right: 0.25ch;
   display: inline-block;
 }
+[autocapitalize] * {
+  padding: initial;
+  text-indent: initial;
+  text-decoration: revert;
+}
 
 pre, code, kbd, samp {
   padding: 0 0.1618em;
