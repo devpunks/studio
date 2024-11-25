@@ -358,7 +358,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
   text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
-a::before, a::after {
+:link::before, :link::after {
   content: '';
   border-radius: 0.2ch;
 }
