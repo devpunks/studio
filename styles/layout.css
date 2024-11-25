@@ -94,8 +94,6 @@ body > nav {
   /* position: sticky; */
   /* max-height: 90vh; */
   /* overflow-y: auto; */
-  height: 100vh;
-  top: 0em;
   width: -webkit-fill-available;
 }
 body > nav::before {
