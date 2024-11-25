@@ -657,6 +657,7 @@ vertical-align: unset;
 }
 sup {
   top: -.418em;
+  position: relative;
 }
 sub {
   position: relative;
