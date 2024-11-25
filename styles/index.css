@@ -649,6 +649,7 @@ nav li {
 }
 nav li::before, nav li::after {
   content: '\2009';
+  background: red;
 }
 nav li::before {
   content: '▷';
