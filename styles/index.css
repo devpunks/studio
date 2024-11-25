@@ -751,7 +751,6 @@ a { -webkit-touch-callout: default }
 dl, ol, ul {}
 
 nav > dl, nav > ol, nav > ul {
-  outline: 3px dashed red;
 }
 nav > dl::before, nav > ol::before, nav > ul::before ,
 nav > dl::after, nav > ol::after, nav > ul::after  {
