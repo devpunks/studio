@@ -648,6 +648,7 @@ nav li {
   justify-content: stretch;
 }
 nav li::before, nav li::after {
+  padding: 1ch;
   text-align: center;
 }
 nav li::before {
