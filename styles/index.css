@@ -653,6 +653,7 @@ nav li::before, nav li::after {
 }
 nav li::before {
   content: '▷';
+  background: inherit;
 }
 nav li::after  { background: red }
 nav li:hover::before, nav li:focus-within::before {
