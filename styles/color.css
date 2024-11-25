@@ -83,7 +83,7 @@
 @media screen and ( prefers-contrast: low )  {}
 @media screen and ( prefers-contrast: high ) {}
 @media screen and ( -ms-high-contrast: active ) {}
-@media screen and (-ms-high-contrast: black-on-white) { }
+@media screen and ( -ms-high-contrast: black-on-white ) {}
 @media screen and (-ms-high-contrast: white-on-black) { }
 
 /* ----------------------------------------------------- */
