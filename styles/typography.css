@@ -298,7 +298,6 @@ body > footer
 body > header {
   /* - https://css-tricks.com/simple-little-use-case-vmin */
   padding: inherit;
-
   background-color: red;
 }
 body > main {}
