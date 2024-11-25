@@ -373,7 +373,7 @@ body * > h1
 footer :link { margin: 1ch }
 
 li > :link { vertical-align: top }
-cite > a, sup > a, sub > a {
+cite > :link, sup > :link, sub > :link {
   padding: 0;
   max-width: 12em;
   overflow: hidden;
