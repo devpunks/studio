@@ -80,6 +80,12 @@ body > * { /* all immediate children of <body> */
 }
 body > header, body > nav, body > main, body > aside, body > footer {}
 body > header {}
+body > main {}
+body > aside {}
+body > footer {
+  /* top: 100vh; */
+  /* position: sticky; */
+}
 
 /* Navigations ================================================================== */
 body > a[href='#main'] { z-index: 1 }
