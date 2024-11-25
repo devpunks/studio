@@ -520,7 +520,7 @@ p {
 }
 
 pre, code, kbd, samp {
-  padding: 0 0.1618em;
+  padding: 0.5ch 1ch;
   background-color:  ButtonFace;
 }
 pre {
