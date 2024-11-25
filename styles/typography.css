@@ -351,7 +351,6 @@ body * > h1
 
 /* hyperlinks */
 :link { /* TODO: migrate ARIA to accessibility.css */
-  padding-inline: 0.2ch;
   white-space: normal;
   word-break: break-word;
   text-underline-offset: 0.168em;
