@@ -653,7 +653,6 @@ nav li::before, nav li::after {
 }
 nav li::before {
   content: '▷';
-  padding: 1ch;
   min-width: 3ch;
 }
 nav li::after  { content: ''; background: red; }
