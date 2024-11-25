@@ -576,7 +576,7 @@ li > :link::before, li > :link::after {}
 li > :link::before {}
 li > :link::after {}
 
-nav li > a {
+nav li > :link {
   padding: 0;
   flex: 1 0 0;
   display: flex;
