@@ -29,15 +29,6 @@
   :root {}
 }
 
-/*
-  Flexbox:
-    - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
-    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-  CSS Grid:
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
-    - https://css-tricks.com/snippets/css/a-guide-to-flexbox
-*/
 *, ::before, ::after {  /* https://stackoverflow.com/questions/7327326 */
   min-width: 0; /* https://defensivecss.dev/tip/flexbox-min-content-size */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model */
