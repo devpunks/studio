@@ -70,7 +70,6 @@ figure img, iframe, picture img, audio, canvas, video {
   box-shadow: var(--box-shadow);
 }
 figure img, picture img, figure picture {
-  margin: var(--margin-collapse-bugfix auto);
   background: inherit;
 }
 figcaption::before {
