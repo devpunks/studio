@@ -745,53 +745,6 @@ details[open] > summary a {
   border-block-end: calc( 0.1 * var(--GOLDEN-RATIO) * 1em) solid;
 }
 
-/* PWA RELATED */
-/* https://caniuse.com/user-select-none */
-/* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
-/* https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/DragAndDrop.html#//apple_ref/doc/uid/30001233-178644 */
-html, body {
-  -webkit-user-drag: none; /* https://stackoverflow.com/q/15034842 */
-  -webkit-user-select: none; /* Webkit (Chrome all / Safari all) */
-          user-select: none; /* https://caniuse.com/user-select-none */
-  -webkit-touch-callout: none; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
-  -webkit-tap-highlight-color: transparent; /* https://davidwalsh.name/mobile-highlight-color */
-}
-iframe, pre, table, select[multiple] {
-  /*
-    - https://css-tricks.com/almanac/properties/s/scrollbar-gutter
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter
-    - https://bram.us/2021/07/23/prevent-unwanted-layout-shifts-caused-by-scrollbars-with-the-scrollbar-gutter-css-property
-  */
-  scrollbar-gutter: stable both-edges;
- }
-
-pre, pre code, var, data, p, cite, blockquote, address
-/* ... and all id-entifiable headers ... */
-, header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
-  -webkit-user-drag: auto; /* https://stackoverflow.com/q/15034842 */
-  -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
-          user-select: text; /* https://caniuse.com/user-select-none */
-  -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
-}
-code, data, kbd, mark, pre, q, samp, var {
-  -webkit-user-drag: auto; /* https://stackoverflow.com/q/15034842 */
-  -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
-          user-select: all; /* https://caniuse.com/user-select-none */
-  -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
-}
-pre::selection, code::selection {
-  -webkit-tap-highlight-color: Mark; /* https://davidwalsh.name/mobile-highlight-color */
-}
-
-body > main   { -webkit-overflow-scrolling: touch }
-body > aside  { -webkit-transform: translatez(0) }
-body > footer { -webkit-transform: translatez(0) }
-/* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body > footer { -webkit-transform: translatez(0) }
-
-a { -webkit-touch-callout: default }
-
-
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
