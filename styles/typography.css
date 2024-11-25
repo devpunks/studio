@@ -216,6 +216,7 @@
 @media screen and (min-width: 768px) {
   :root {
     --font-size: 2vw;
+    /* https://utopia.fyi */
     --font-size: clamp(1rem, -2.5556rem + 7.4074vw, 3rem);
     --text-align: start;
   }
