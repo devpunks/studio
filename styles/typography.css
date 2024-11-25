@@ -290,7 +290,7 @@ body {
 body *::before, body *::after {
   content: '';
   text-decoration: none;
-   padding-inline: 0 var(--margin-collapse-bugfix);
+  padding-inline: var(--margin-collapse-bugfix);
 }
 body > * { margin: var(--viewport) }
 
