@@ -359,6 +359,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
   text-decoration: solid underline transparent .1em;
 }
 a::before, a::after {
+  content: '';
   border-radius: 0.2ch;
 }
 a:hover, header a:hover {
