@@ -132,7 +132,7 @@ body > main {}
 body > aside {}
 body > footer {
   /* top: 100vh; */
-  position: sticky;
+  /* position: sticky; */
 }
 
 #paragraphs {
