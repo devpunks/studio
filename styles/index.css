@@ -652,9 +652,8 @@ nav li::before, nav li::after {
 }
 nav li::before {
   content: '▷';
-  /* min-width: 3ch; */
 }
-nav li::after  {background: red;}
+nav li::after  { background: red }
 nav li:hover::before, nav li:focus-within::before {
   background: red;
 }
