@@ -358,7 +358,6 @@ a { /* TODO: migrate ARIA to accessibility.css */
   text-decoration: solid underline transparent .1em;
 }
 a::before, a::after {
-  border-radius: 0.2ch;
   display: inline-block;
   padding-inline: 0.2ch;
   text-decoration: none;
