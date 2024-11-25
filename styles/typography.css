@@ -365,7 +365,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
 :link:hover, header :link:hover {
   text-decoration-color: currentColor;
 }
-a:hover::before, a:hover::after {
+:link:hover::before, :link:hover::after {
   text-decoration: none;
 }
 
