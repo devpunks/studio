@@ -287,12 +287,6 @@ body {
   margin: 0 auto var(--margin-collapse-bugfix);
   text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering */
 }
-body *::before, body *::after {
-  content: '';
-  text-decoration: none;
-  padding-inline: var(--margin-collapse-bugfix);
-}
-body > * { margin: var(--viewport) }
 
 body > header,
 body > main,
