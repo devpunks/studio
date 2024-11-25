@@ -29,6 +29,7 @@ iframe, audio, video, embed, img {
 }
 picture, figure, canvas, audio, video, embed, object {
   display: block;
+  padding: 1%;
   margin: var(--margin-collapse-bugfix) auto;
 }
 audio, canvas, video, iframe[src*=youtube] {
