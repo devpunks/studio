@@ -660,7 +660,7 @@ nav li:hover::before, nav li:focus-within::before {
 
 li > a {}
 li > a::before, li > a::after {
-  content: '\2800';
+  content: '\2009';
 }
 li > a::before {
   background: yellow;
