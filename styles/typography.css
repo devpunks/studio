@@ -532,7 +532,7 @@ code { white-space: initial }
 pre code {
   margin: 1ch;
   font-size: smaller;
-  white-space: break-spaces;
+  /* white-space: break-spaces; */
 }
 header code, h1 code { font-variant-caps: initial }
 
