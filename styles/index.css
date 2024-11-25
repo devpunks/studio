@@ -749,6 +749,7 @@ ul > ul, dl > ul, ol > ul {
 }
 nav > dl::before, nav > ol::before, nav > ul::before ,
 nav > dl::after, nav > ol::after, nav > ul::after  {
+  margin: 1ch;
   content: '+';
   display: block;
   text-indent: 1ch;
