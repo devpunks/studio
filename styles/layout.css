@@ -89,6 +89,7 @@ body > header {}
 body > nav {
   top: 0;
   z-index: 1;
+  height: 100vh;
   position: fixed;
   /* position: sticky; */
   /* max-height: 90vh; */
