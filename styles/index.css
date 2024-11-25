@@ -668,7 +668,7 @@ li > a::before {
   background: yellow;
 }
 li > a::after {
-  content: 'x';
+  content: ''; /* needed for flex stretch */
   background: green;
 }
 nav li > a {
