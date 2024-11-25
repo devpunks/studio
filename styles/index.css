@@ -775,9 +775,9 @@ ul {
   list-style: inherit;
 }
 ol {
-  /* list-style: ordered; */
-  /* counter-reset: ordered 0; */
-  /* counter-set: ordered 1; */
+  list-style: ordered;
+  counter-reset: ordered 0;
+  counter-set: ordered 1;
 }
 /*
   - https://drafts.csswg.org/css-lists-3/#marker-properties
