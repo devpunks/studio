@@ -177,9 +177,7 @@ html {
 body {
   /* scroll-snap-type: y mandatory */
 }
-body > nav, body > main, body > aside, body > footer {
-  background: Canvas;
-}
+body > header, body > nav, body > main, body > aside, body > footer {}
 body > nav {
   background: transparent;
   box-shadow: var(--box-shadow);
