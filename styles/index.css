@@ -646,6 +646,7 @@ nav li {
   padding: 1ch;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 nav li::before, nav li::after {
   content: '\2009';
