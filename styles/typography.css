@@ -377,7 +377,6 @@ cite > :link, sup > :link, sub > :link {
   padding: 0;
   max-width: 12em;
   overflow: hidden;
-  line-height: initial;
   white-space: nowrap;
   text-overflow: ellipsis;
   vertical-align: text-bottom;
