@@ -648,7 +648,7 @@ nav li {
   align-items: center;
 }
 nav li::before, nav li::after {
-  content: '\2800';
+  content: '\2009';
 }
 nav li::before {
   content: '▷';
