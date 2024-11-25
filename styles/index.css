@@ -754,7 +754,6 @@ nav > dl::after, nav > ol::after, nav > ul::after  {
   display: block;
   text-indent: 1ch;
   background: inherit;
-  margin: 1ch;
 }
 aside dl, aside dl > *,
 aside ol, aside ol > *,
