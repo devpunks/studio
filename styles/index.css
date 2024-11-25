@@ -94,11 +94,6 @@
 /*
  * pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
  */
-::before, ::after {
-  /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
-  display: inline-block;
-}
-
 /*
  * Vendor-prefixed and regular ::selection selectors cannot be combined:
  * - https://stackoverflow.com/a/16982510/7133471
