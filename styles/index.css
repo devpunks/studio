@@ -649,8 +649,6 @@ nav li {
 }
 nav li::before, nav li::after {
   content: '\2800';
-  padding: 1ch;
-  text-align: center;
 }
 nav li::before {
   content: '▷';
