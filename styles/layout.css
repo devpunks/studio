@@ -27,8 +27,6 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation
     - https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation
 */
-:root {}
-
 @media ( orientation: portrait ) {
   :root {}
 }
