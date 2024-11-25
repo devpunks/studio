@@ -741,24 +741,6 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 
 
 abbr[title] { cursor: help }
-a {
-  cursor: pointer;
-  position: relative;
-  border-radius: 0.2ch;
-  display: inline-block;
-  word-break: break-word;
-  /* outline: 0.1em dashed currentColor; */
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
-}
-a[rel=search] { cursor: help }
-a[href='#'][title^=Top] {
-  display: block;
-  width: fit-content;
-  text-decoration: none;
-  margin: var(--p-margin) auto;
-  padding: 1ch var(--line-height);
-}
 
 details summary { cursor: s-resize }
 details details summary { z-index: 10 }
