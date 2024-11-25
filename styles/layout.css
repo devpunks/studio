@@ -30,6 +30,9 @@
 @media ( orientation: portrait ) {
   :root {}
 }
+@media ( orientation: landscape ) {
+  :root {}
+}
 
 *, ::before, ::after {  /* https://stackoverflow.com/questions/7327326 */
   min-width: 0; /* https://defensivecss.dev/tip/flexbox-min-content-size */
