@@ -119,7 +119,7 @@ body > aside {
 }
 
 hr { /* https://www.lifewire.com/styling-horizontal-rule-tag-3466399 */
-  color:            var(--color);
+  color: var(--color);
   background-color: CurrentColor
 }
 
