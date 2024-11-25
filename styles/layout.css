@@ -27,9 +27,7 @@
 :root { --flex-direction: initial }
 
 @media ( orientation: portrait ) {
-  :root {
-    --flex-direction: column;
-  }
+  :root { --flex-direction: column }
 }
 
 
