@@ -665,10 +665,8 @@ li > a::before, li > a::after {
   content: '\2009'; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
   background: yellow;
 }
-li > a::after {
-   /* needed for flex stretch */
-  background: green;
-}
+li > a::before {}
+li > a::after {}
 nav li > a {
   padding: 0;
   flex: 1 0 0;
