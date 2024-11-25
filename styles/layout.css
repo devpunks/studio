@@ -126,6 +126,5 @@ body > nav > details[open]::before {
 ::-webkit-resizer {
     background: red;
     border: 2px solid black;
-    box-shadow: 0 0 5px 5px blue;
     outline: 2px solid yellow;
 }
