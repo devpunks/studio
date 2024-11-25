@@ -107,7 +107,7 @@
 
 
 html {
-  color:            var(--color);
+  color: var(--color);
   background-color: var(--background-color)
 }
 body * {
