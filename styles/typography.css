@@ -334,9 +334,11 @@ section > header, nav > header {
 header *
   { text-transform: initial }
 
-a:has(header, h1, h2, h3, h4, h5, h6),
-:where(header, h1, h2, h3, h4, h5, h6) a
-  { color: currentColor }
+:link:has(header, h1, h2, h3, h4, h5, h6),
+:where(header, h1, h2, h3, h4, h5, h6) :link {
+  color: currentColor
+}
+
 h1 {
   /* TODO: calc () */
   font-weight: unset;
