@@ -415,7 +415,7 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
   width: auto;
 }
-nav > dl, nav > ol, nav > ul { padding: 1ch 0 }
+nav > dl, nav > ol, nav > ul {padding: var(--margin-collapse-bugfix);}
 nav > details > ul {}
 
 dt {
