@@ -85,7 +85,6 @@ body > * { /* all immediate children of <body> */
 body > header, body > nav, body > main, body > aside, body > footer {}
 body > header {}
 
-
 /* Navigations ================================================================== */
 body > nav {
   top: 0;
