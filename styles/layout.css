@@ -110,10 +110,7 @@ body > nav::before {
   background-position: 0 center;
 }
 body > nav > * {}
-body > nav > details {
-  width: 50%;
-}
-
+body > nav > details { width: 50% }
 body > nav > details[open] {
   width: 50%;
   /* background: inherit; */
