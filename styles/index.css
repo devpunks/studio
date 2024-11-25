@@ -568,10 +568,7 @@ nav > a { display: inline-block }
 li > a {}
 li > a::before, li > a::after {
    /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
-  content: '';
-  background: yellow;
-  padding-inline: var(--margin-collapse-bugfix);
-  padding-inline: 3ch;
+   background: yellow;
 }
 li > a::before {}
 li > a::after {}
