@@ -160,7 +160,7 @@
 :-moz-focusring { outline: 1px dotted ButtonText }
 
 :link::before, :link::after {
-  content: '';
+  content: ''; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
   border-radius: 0.2ch;
 }
 
