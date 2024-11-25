@@ -651,8 +651,12 @@ nav li {
 nav li::before, nav li::after {
   text-align: center;
 }
-nav li::before { content: '▷' }
-nav li::after  {content: '';background: red;}
+nav li::before {
+  content: '▷';
+  padding: 1ch;
+  min-width: 3ch;
+}
+nav li::after  { content: ''; background: red; }
 nav li:hover::before, nav li:focus-within::before {
   background: red;
 }
