@@ -20,6 +20,7 @@
 
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
   vertical-align: middle;
+  max-width: var(--max-width);
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
