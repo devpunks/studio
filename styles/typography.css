@@ -511,6 +511,7 @@ p {
   line-height: 1;
   font-size: 210%;
   display: inline-block;
+  padding-right: 0.25ch;
 }
 [autocapitalize] * {
   padding: initial;
