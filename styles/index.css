@@ -643,7 +643,6 @@ a[href='#'][title^=Top] {
 }
 
 nav li {
-  padding: 1ch;
   margin: 1ch;
   display: flex;
   justify-content: stretch;
