@@ -755,7 +755,7 @@ nav > dl::after, nav > ol::after, nav > ul::after  {
   content: '+';
   display: block;
   text-indent: 1ch;
-  background: yellow;
+  background: inherit;
 }
 dl > dl, ol > dl, ul > dl,
 ol > ol, dl > ol, ul > ol,
