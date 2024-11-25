@@ -71,6 +71,7 @@ figure img, iframe, picture img, audio, canvas, video {
 }
 figure img, picture img, figure picture {
   background: inherit;
+  margin: var(--margin-collapse-bugfix auto);
 }
 figcaption::before {
   width: 1em;
