@@ -292,7 +292,6 @@ body > * { margin: var(--viewport) }
 
 body > header {
 }
-body > header[role=banner] { padding: 0 }
 body > main {}
 body > aside {
   padding-top: var(--line-height);
