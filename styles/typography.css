@@ -521,7 +521,6 @@ p {
 
 pre, code, kbd, samp {
   padding: 0.5ch 1ch;
-  background-color:  ButtonFace;
 }
 pre {
   overflow: overlay;
