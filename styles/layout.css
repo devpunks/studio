@@ -123,18 +123,6 @@ body > nav > details[open]::before {
  content: 'shazaam open'
 }
 
-body > main {}
-body > aside {}
-body > footer {
-  /* top: 100vh; */
-  /* position: sticky; */
-}
-
-#paragraphs {
-  resize: vertical;
-  overflow: scroll;
-  outline: 1px solid;
-}
 ::-webkit-resizer {
     background: red;
     border: 2px solid black;
