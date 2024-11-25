@@ -661,6 +661,7 @@ sup {
 }
 sub {
   top: 0.418em;
+  position: relative;
 }
 
 svg { vertical-align: middle }
