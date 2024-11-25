@@ -86,6 +86,7 @@ label {
   /* justify-content: flex-end; */
   flex-direction: var(--flex-direction);
   /* padding: 1ch; */
+  text-indent: 1ch;
   text-align: var(--text-align);
   box-sizing: border-box;
   white-space: nowrap;
