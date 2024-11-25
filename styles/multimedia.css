@@ -13,7 +13,7 @@
  * Web Performance - https://developer.mozilla.org/en-US/docs/Web/Performance
  * Lazy Loading - https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
 */
-/* https://addyosmani.com/blog/lazy-loading/ */
+/* https://addyosmani.com/blog/lazy-loading */
 [loading=lazy] {}
 
 [loading=eager] {}
