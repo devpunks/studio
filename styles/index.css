@@ -644,6 +644,7 @@ a[href='#'][title^=Top] {
 
 nav li {
   margin: 1ch;
+  padding: 1ch;
   display: flex;
   justify-content: stretch;
 }
