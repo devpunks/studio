@@ -216,7 +216,7 @@
 @media screen and (min-width: 768px) {
   :root {
     --font-size: 2vw;
-    --font-sizez: clamp(1rem, -2.5556rem + 7.4074vw, 3rem);
+    --font-size: clamp(1rem, -2.5556rem + 7.4074vw, 3rem);
     --text-align: start;
   }
 }
