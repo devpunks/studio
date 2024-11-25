@@ -655,7 +655,7 @@ nav li::before {
   content: '▷';
   background: inherit;
 }
-nav li::after  { background: red }
+nav li::after  {}
 nav li:hover::before, nav li:focus-within::before {
   background: red;
 }
