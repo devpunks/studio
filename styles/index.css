@@ -748,6 +748,16 @@ a { -webkit-touch-callout: default }
  */
 dl, ol, ul {}
 
+nav > dl, nav > ol, nav > ul {
+  outline: 3px dashed red;
+}
+nav > dl::before, nav > ol::before, nav > ul::before ,
+nav > dl::after, nav > ol::after, nav > ul::after  {
+  content: '+';
+  display: block;
+  text-indent: 1ch;
+  background: yellow;
+}
 dl > dl, ol > dl, ul > dl,
 ol > ol, dl > ol, ul > ol,
 ul > ul, dl > ul, ol > ul {
