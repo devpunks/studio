@@ -510,7 +510,6 @@ p {
   float: left;
   line-height: 1;
   font-size: 210%;
-  padding-right: 0.25ch;
   display: inline-block;
 }
 [autocapitalize] * {
