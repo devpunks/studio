@@ -81,6 +81,7 @@ body > header, body > nav, body > main, body > aside, body > footer {}
 body > header {}
 
 /* Navigations ================================================================== */
+body > a[href='#main'] { z-index: 1 }
 body > nav {
   top: 0;
   z-index: 1;
