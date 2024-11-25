@@ -324,6 +324,7 @@ pre, code, kbd, samp {
 }
 kbd {
   border-radius: 0.5ch;
+  background-color: Canvas;
   border: 0.1ch solid currentColor;
   box-shadow: 0.1ch 0.2ch 0 currentColor;
 }
