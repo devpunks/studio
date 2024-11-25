@@ -678,45 +678,6 @@ a[href='#'][title^=Top] {
   padding: 1ch var(--line-height);
 }
 
-nav li {
-  margin: 1ch;
-  padding: 1ch;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav li::before, nav li::after {
-  content: '\2009';
-  background: red;
-}
-nav li::before {
-  content: '▷';
-  background: inherit;
-}
-nav li::after  {}
-nav li:hover::before, nav li:focus-within::before {
-  background: red;
-}
-
-li > a {}
-li > a::before, li > a::after {
-  content: '\2009'; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
-  background: yellow;
-}
-li > a::before {}
-li > a::after {}
-nav li > a {
-  padding: 0;
-  flex: 1 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav li > a::before, nav li > a::after {}
-nav li > a::before {
-  content: '▸';
-}
-
 details summary { cursor: s-resize }
 details details summary { z-index: 10 }
 details[open] summary { cursor: n-resize }
