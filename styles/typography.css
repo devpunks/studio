@@ -383,7 +383,7 @@ cite > :link, sup > :link, sub > :link {
   vertical-align: text-bottom;
 }
 
-nav > a {
+nav > :link {
   margin: 1ch;
   text-align: start;
 }
