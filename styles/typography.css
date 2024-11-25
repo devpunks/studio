@@ -59,6 +59,8 @@
   */
   /* TODO: Convert to absolute-sizing (x-small, small,large x-large) */
   --font-size: 3.6182vw; /* http://webtypography.net/2.1.2 */
+    /* https://utopia.fyi */
+  --font-size: clamp(1rem, -1rem + 3vw, 3rem);
 
   /* https://julian.is/article/iphone-x-notch */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
