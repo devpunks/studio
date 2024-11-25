@@ -283,10 +283,6 @@ html {
           hyphens: auto;
 }
 
-::before, ::after
-  /* https://stackoverflow.com/questions/7327326/what-is-the-difference-between-before-and-before */
-  { text-decoration: inherit }
-
 body {
   margin: 0 auto var(--margin-collapse-bugfix);
   text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering */
