@@ -663,7 +663,6 @@ nav li:hover::before, nav li:focus-within::before {
 li > a {}
 li > a::before, li > a::after {}
 li > a::before {
-  content: 'x';
   background: yellow;
 }
 li > a::after {
