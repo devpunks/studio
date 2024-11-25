@@ -71,7 +71,7 @@ html {
 }
 body {
   display: flex;
-  flex-direction: column /* var(--flex-direction); */
+  flex-direction: column;
 }
 body > * { /* all immediate children of <body> */
   width: var(--max-width);
