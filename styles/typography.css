@@ -359,6 +359,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
 }
 a::before, a::after {
   display: inline-block;
+  border-radius: 0.2ch;
   padding-inline: 0.2ch;
   text-decoration: none;
 }
