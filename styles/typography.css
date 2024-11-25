@@ -297,6 +297,7 @@ body > footer
 
 body > header {
   text-align: center;
+  padding: 10vmin 1ch; /* - https://css-tricks.com/simple-little-use-case-vmin */
   background-color: red;
 }
 body > main {}
