@@ -362,7 +362,7 @@ a { /* TODO: migrate ARIA to accessibility.css */
   content: '';
   border-radius: 0.2ch;
 }
-a:hover, header a:hover {
+:link:hover, header :link:hover {
   text-decoration-color: currentColor;
 }
 a:hover::before, a:hover::after {
