@@ -131,7 +131,7 @@ body > a[href='#main'] { /* skip link */
 body > main {}
 body > aside {}
 body > footer {
-  top: 100vh;
+  /* top: 100vh; */
   position: sticky;
 }
 
