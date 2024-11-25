@@ -299,7 +299,7 @@ body > header {
   /* - https://css-tricks.com/simple-little-use-case-vmin */
   padding: inherit;
 
-  background: red;
+  background-color: red;
 }
 body > main {}
 body > aside {/* font-size: smaller; */}
