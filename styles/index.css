@@ -327,6 +327,7 @@ kbd {
 }
 pre code {
   display: inherit;
+  white-space: b;
   border: solid currentColor;
   border-width: 0 0 0 0.02em;
 }
