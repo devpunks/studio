@@ -497,12 +497,6 @@ p {
 [autocapitalize=off], [autocapitalize=none] { text-transform: none }
 [autocapitalize=off] a, [autocapitalize=none] a { text-decoration: initial }
 
-[autocapitalize] * {
-  padding: initial;
-  text-indent: initial;
-  text-decoration: revert;
-}
-
 [autocapitalize=words], [autocapitalize=characters], [autocapitalize=sentences],
 [autocapitalize=on]::first-line, [autocapitalize]::first-letter {
   color: ActiveText;
