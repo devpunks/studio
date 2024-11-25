@@ -80,7 +80,7 @@
 /* prefers-contrast (-ms-high-contrast)
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
 */
-@media screen and (prefers-contrast: high) { }
+@media screen and ( prefers-contrast: high ) {}
 @media screen and (prefers-contrast: low)  { }
 @media screen and (-ms-high-contrast: active) { }
 @media screen and (-ms-high-contrast: black-on-white) { }
