@@ -605,7 +605,6 @@ nav li > :link::before, nav li > :link::after {}
 nav li > :link::before { content: '▸' }
 nav li > :link::after { content: '' }
 
-
 address {}
 li address {
   padding-inline: 1ch;
