@@ -306,7 +306,6 @@ body > footer {
 }
 
 main > section:first-of-type, body > aside {
-  padding-top: var(--line-height);
 }
 
 /**
