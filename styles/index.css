@@ -658,7 +658,6 @@ nav li::before, nav li::after {
 nav li::before { content: '▷' }
 nav li::after  {content: '';background: red;}
 nav li:hover::before, nav li:focus-within::before {
-  content: '▶';
   background: red;
 }
 
