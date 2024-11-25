@@ -293,10 +293,7 @@ body > * { margin: var(--viewport) }
 body > header {
 }
 body > main {}
-body > aside {
-  padding-top: var(--line-height);
-
-}
+body > aside { padding-top: var(--line-height) }
 body > footer {
   font-size: medium;
   text-align: center;
