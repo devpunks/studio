@@ -74,7 +74,7 @@
  *   - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
  *   - https://css-tricks.com/dark-modes-with-css/
  */
-@media screen and ( prefers-color-scheme: dark )  { }
+@media screen and ( prefers-color-scheme: dark )  {}
 @media screen and ( prefers-color-scheme: light ) {}
 
 /* prefers-contrast (-ms-high-contrast)
