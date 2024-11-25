@@ -36,7 +36,7 @@
 
   CSS Grid:
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
-    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - https://css-tricks.com/snippets/css/a-guide-to-flexbox
 */
 *, ::before, ::after {  /* https://stackoverflow.com/questions/7327326 */
   min-width: 0; /* https://defensivecss.dev/tip/flexbox-min-content-size */
