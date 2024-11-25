@@ -106,8 +106,7 @@ body > nav::before {
   background-size: cover;
   background-position: 0 center;
 }
-body > nav > * {
-}
+body > nav > * {}
 body > nav > details {
   width: 50%;
 }
