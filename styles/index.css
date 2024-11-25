@@ -182,6 +182,7 @@ body > nav, body > main, body > aside, body > footer {
 }
 body > nav {
   background: transparent;
+  box-shadow: var(--box-shadow);
 }
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
