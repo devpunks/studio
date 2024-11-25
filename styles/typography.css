@@ -296,7 +296,6 @@ body > footer
   { outline: 0.3em dashed }
 
 body > header {
-  padding: 10vmin 1ch; /* - https://css-tricks.com/simple-little-use-case-vmin */
   text-align: center;
   background-color: red;
 }
