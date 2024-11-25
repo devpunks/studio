@@ -112,7 +112,7 @@ body > nav > details {
 }
 
 body > nav > details[open] {
-  width: -webkit-fill-available;
+  width: 50%;
   /* background: inherit; */
   /* overflow-y: scroll; */
   /* height: inherit; */
