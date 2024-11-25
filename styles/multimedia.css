@@ -73,6 +73,8 @@ figure img, picture img, figure picture {
   background: inherit;
   margin: var(--margin-collapse-bugfix auto);
 }
+figcaption { opacity: 0.4 }
+figure:hover figcaption { opacity: 0.618 }
 figcaption::before {
   width: 1em;
   font-size: 1.618em;
