@@ -126,7 +126,7 @@ body > nav > details[open]::before {
 }
 
 body > a[href='#main'] { /* skip link */
-  z-index: 11;
+  z-index: 1;
 }
 body > main {}
 body > aside {}
