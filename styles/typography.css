@@ -490,6 +490,7 @@ p {
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/autocapitalize */
+[autocapitalize] { text-indent: 1em }
 [autocapitalize=words]{ text-transform: capitalize }
 [autocapitalize=characters] { text-transform: uppercase }
 [autocapitalize=characters] { text-transform: uppercase }
