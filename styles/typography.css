@@ -294,6 +294,7 @@ body > header {
   text-align: center;
   padding: 10vmin 0; /* - https://css-tricks.com/simple-little-use-case-vmin */
 }
+body > header[role=banner] { padding: 0 }
 body > main {}
 body > aside {/* font-size: smaller; */}
 body > footer {
