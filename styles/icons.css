@@ -21,9 +21,9 @@
 a[href='#']::before
   { content: '⇭' }
 
-a[rel=help]::after {
-  content: '❓';
-}
+/* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
+a[rel=help]::after
+  { content: '❓' }
 address a[rel=help]::after
   { content: '' }
 a[rel=author]::before
