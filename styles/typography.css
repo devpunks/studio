@@ -530,8 +530,7 @@ pre {
 }
 code { white-space: initial }
 pre code {
-  margin: var(--line-height);
-  font-size:  var(--smaller);
+  margin: 1ch;
   font-size: smaller;
   white-space: break-spaces;
 }
