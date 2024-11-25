@@ -296,8 +296,7 @@ body > footer
   { outline: 0.3em dashed }
 
 body > header {
-  /* - https://css-tricks.com/simple-little-use-case-vmin */
-  padding: inherit;
+  padding: inherit; /* - https://css-tricks.com/simple-little-use-case-vmin */
   background-color: red;
 }
 body > main {}
