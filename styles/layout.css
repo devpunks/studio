@@ -118,9 +118,7 @@ body > nav > details[open] {
   /* height: inherit; */
   /* max-height: 90vh; */
 }
-body > nav > details::before {
- content: 'shazaam'
-}
+body > nav > details::before { content: 'shazaam' }
 body > nav > details[open]::before {
  content: 'shazaam open'
 }
