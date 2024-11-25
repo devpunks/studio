@@ -19,7 +19,6 @@
 [loading=eager] {}
 
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
-  max-width: var(--max-width);
   vertical-align: middle;
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
