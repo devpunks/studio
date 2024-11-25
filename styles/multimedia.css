@@ -28,7 +28,6 @@ iframe, audio, video, embed, img {
   object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
 picture, figure, canvas, audio, video, embed, object {
-  display: block;
   padding: 1%;
   margin: var(--margin-collapse-bugfix) auto;
 }
