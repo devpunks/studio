@@ -674,8 +674,7 @@ nav li > a {
   align-items: center;
   justify-content: space-between;
 }
-nav li > a::before, nav li > a::after {
-}
+nav li > a::before, nav li > a::after {}
 nav li > a::before {
   content: '▸';
 }
