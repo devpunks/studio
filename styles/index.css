@@ -570,6 +570,24 @@ body > nav li li :link::before {
 }
 body > nav li li :link:hover::before { content: '📝' }
 
+:link {
+  cursor: pointer;
+  position: relative;
+  border-radius: 0.2ch;
+  display: inline-block;
+  /* outline: 0.1em dashed currentColor; */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+:link[rel=search] { cursor: help }
+:link[href='#'][title^=Top] {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  margin: var(--p-margin) auto;
+  padding: 1ch var(--line-height);
+}
+
 nav > :link { display: inline-block }
 li > :link {}
 li > :link::before, li > :link::after {}
