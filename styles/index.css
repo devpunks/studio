@@ -318,7 +318,7 @@ var, data {
 var{}
 data {}
 
-pre, code, kbd, samp {border-radius: 1ch;}
+pre, code, kbd, samp { border-radius: 1ch }
 pre code {
   display: inherit;
   border: solid currentColor;
