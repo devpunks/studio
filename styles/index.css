@@ -677,6 +677,9 @@ nav li > a {
   display: flex;
   justify-content: space-between;
 }
+nav li > a::before, nav li > a::after {
+  /* padding: 1ch; */
+}
 nav li > a::before {
   content: 'x';
 }
