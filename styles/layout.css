@@ -53,6 +53,7 @@ html, body {
   /*
     - https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm
     - https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit
+    - https://polypane.app/blog/strategies-for-dealing-with-horizontal-overflows
   */
   /* TODO: REFACTOR */
   /* min-width: 100vw; */
