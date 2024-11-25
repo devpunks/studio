@@ -178,7 +178,7 @@ body {
   /* scroll-snap-type: y mandatory */
 }
 body > header, body > nav, body > main, body > aside, body > footer
-  { background: Canvas }
+  {color: CanvasText;background: Canvas}
 body > header {}
 body > nav {
   background: transparent;
