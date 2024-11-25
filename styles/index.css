@@ -625,7 +625,6 @@ abbr[title] { cursor: help }
 a {
   cursor: pointer;
   position: relative;
-  padding-inline: 1ch;
   border-radius: 0.2ch;
   display: inline-block;
   word-break: break-word;
