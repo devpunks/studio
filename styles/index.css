@@ -567,7 +567,8 @@ body > nav li li :link:hover::before { content: '📝' }
 nav > a { display: inline-block }
 li > a {}
 li > a::before, li > a::after {
-  content: '\2009'; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
+   /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
+  content: '';
   background: yellow;
 }
 li > a::before {}
