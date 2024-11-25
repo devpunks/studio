@@ -641,8 +641,8 @@ table th::before { content: 'th' }
 table th::after  { content: 'th' }
 
 table td {
-  -webkit-user-select: text;
-          user-select: text;
+  -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
+          user-select: text; /* https://caniuse.com/mdn-css_properties_user-select_text */
 }
 table td:empty { border: none }
 table td::before { content: '>' }
