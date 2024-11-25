@@ -159,6 +159,11 @@
 /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
 :-moz-focusring { outline: 1px dotted ButtonText }
 
+:link::before, :link::after {
+  content: '';
+  border-radius: 0.2ch;
+}
+
 html {
   color: CanvasText;
   color-scheme: light dark;
