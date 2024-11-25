@@ -669,7 +669,7 @@ li > a::before {
   background: yellow;
 }
 li > a::after {
-  content: ''; /* needed for flex stretch */
+   /* needed for flex stretch */
   background: green;
 }
 nav li > a {
