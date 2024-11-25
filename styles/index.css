@@ -321,7 +321,6 @@ data {}
 pre, code, kbd, samp {border-radius: 1ch;}
 pre code {
   display: inherit;
-  border-radius: unset;
   border: solid currentColor;
   border-width: 0 0 0 0.02em;
 }
