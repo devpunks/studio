@@ -302,7 +302,7 @@ body > footer
 
 body > header {
   text-align: center;
-  padding: 10vmin 1ch; /* - https://css-tricks.com/simple-little-use-case-vmin */
+  padding: 10vmin 0; /* - https://css-tricks.com/simple-little-use-case-vmin */
 }
 body > main {}
 body > aside {/* font-size: smaller; */}
