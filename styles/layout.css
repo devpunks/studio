@@ -82,6 +82,9 @@ body > * { /* all immediate children of <body> */
   width: var(--max-width);
   max-width: var(--max-width);
 }
+body > header, body > nav, body > main, body > aside, body > footer {
+  background: Canvas;
+}
 body > header {}
 
 
