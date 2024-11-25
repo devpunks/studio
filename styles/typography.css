@@ -387,7 +387,7 @@ nav > :link {
   margin: 1ch;
   text-align: start;
 }
-a.logo {
+:link.logo {
   font-size: 2em;
   line-height: 2em;
   white-space: nowrap;
