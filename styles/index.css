@@ -179,6 +179,7 @@ body {
 }
 body > header, body > nav, body > main, body > aside, body > footer
   { background: Canvas }
+body > header {}
 body > nav {
   background: transparent;
   box-shadow: var(--box-shadow);
