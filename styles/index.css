@@ -750,6 +750,7 @@ nav > dl::after, nav > ol::after, nav > ul::after  {
   display: block;
   text-indent: 1ch;
   background: inherit;
+  margin: 1ch;
 }
 dl > dl, ol > dl, ul > dl,
 ol > ol, dl > ol, ul > ol,
