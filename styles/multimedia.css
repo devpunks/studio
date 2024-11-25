@@ -45,7 +45,7 @@ audio:hover, video:hover, iframe[src*=youtube]:hover {
 img, svg {/* padding: 1ch; */}
 svg /* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
   { overflow: hidden }
-a img {
+:link img {
   opacity: 95%;
   background: Canvas;
 }
