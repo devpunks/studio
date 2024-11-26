@@ -92,6 +92,11 @@ a[href*=facebook]::before       { content: 'F' }
 a[href^=facetime]::before       { content: 'F🎥' }
 a[href^=facetime-audio]::before { content: 'F🔈' }
 
+
+body > nav::before {/* content: '🍔'; */} /* ☰ 🍔 */
+
+table::before, table::after { content: '☶ table' }
+
 figcaption::before {
   content: '⇧';
 }

@@ -611,11 +611,9 @@ table::before, table::after {
   background: inherit;
 }
 table::before {
-  content: '▦table';
   border-radius: 1ch 1ch 0 0;
 }
 table::after {
-  content: '▦table';
   border-radius: 0 0 1ch 1ch;
 }
 
