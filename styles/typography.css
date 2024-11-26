@@ -291,6 +291,10 @@ body {
 body > * { margin: var(--viewport) }
 
 body > header {
+  margin: var(--margin-collapse-bugfix) auto 1ch;
+}
+body > nav {
+  margin: var(--margin-collapse-bugfix) auto 1em;
 }
 body > main {}
 body > aside { padding-top: var(--line-height) }
@@ -323,7 +327,7 @@ header {
 body > header {
   text-align: center;
   padding: 10vmin 0; /* - https://css-tricks.com/simple-little-use-case-vmin */
-  margin: var(--margin-collapse-bugfix) auto 1ch;
+  margin: var(--margin-collapse-bugfix) auto;
 }
 body > header[role=banner] { padding: 0 }
 section > header, nav > header {
