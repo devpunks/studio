@@ -327,8 +327,8 @@ body > header {
 }
 body > header[role=banner] { padding: 0 }
 section > header, nav > header {
-  margin: 0;
   padding: 0;
+  max-width: 100%;
   font-size: calc( var(--largest) * var(--golden-ratio) );
 }
 header *
