@@ -291,20 +291,17 @@ body {
 body > * { margin: var(--viewport) }
 
 body > header {
-  margin: var(--margin-collapse-bugfix) auto 1ch;
+  text-align: center;
+  margin: var(--margin-collapse-bugfix) auto;
 }
 body > nav {
-  margin: var(--margin-collapse-bugfix) auto 1em;
+  margin: var(--margin-collapse-bugfix) auto 1ch;
 }
 body > main {}
 body > aside { padding-top: var(--line-height) }
-body > footer {
-  font-size: medium;
-  text-align: center;
-}
+body > footer { font-size: medium }
 
-main > section:first-of-type, body > aside {
-}
+main > section:first-of-type, body > aside {}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
