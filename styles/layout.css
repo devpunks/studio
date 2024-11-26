@@ -75,6 +75,9 @@ html {
     - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 */
 body {
+  height: 100%;
+  height: 100svh;
+  /* height: 100dvh; */
   display: flex;
   flex-direction: column;
 }
@@ -96,6 +99,9 @@ body > a[href='#main'] { z-index: 1 }
 body > nav {
   top: 0;
   z-index: 1;
+  height: 100%;
+  /* height: 100vh; */
+  /* height: 100svh; */
   position: sticky;
 }
 body > nav::before {

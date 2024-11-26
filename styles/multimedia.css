@@ -33,10 +33,8 @@ picture, figure, canvas, audio, video, embed, object {
   margin: 1ch auto var(--line-height);
 }
 audio, canvas, video, iframe[src*=youtube] {
-  width: 90%;
-  padding: 1ch;
-  max-width: 65ch;
-  background: inherit;
+  /* width: 100%; */
+  /* padding: 1ch; */
   aspect-ratio: 16 / 9;
   margin: var(--line-height) auto;
 }
@@ -64,9 +62,8 @@ figure {
   background: red;
 }
 figure img, iframe, picture img, audio, canvas, video {
-  width: auto;
-  margin: 1ch;
-  padding: 1ch;
+  /* margin: 1ch; */
+  /* padding: 1ch; */
   border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
