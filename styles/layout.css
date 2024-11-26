@@ -96,12 +96,7 @@ body > a[href='#main'] { z-index: 1 }
 body > nav {
   top: 0;
   z-index: 1;
-  height: 100vh;
-  position: fixed;
-  /* position: sticky; */
-  /* max-height: 90vh; */
-  /* overflow-y: auto; */
-  width: -webkit-fill-available;
+  position: sticky;
 }
 body > nav::before {
   height: 5ch;
