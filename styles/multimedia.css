@@ -27,7 +27,6 @@ iframe, audio, video, embed, img {
   object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
 picture, figure, canvas, audio, video, embed, object {
-  padding: 1%;
   display: block;
   text-align: center;
   border-radius: 1ch;
@@ -65,7 +64,8 @@ figure {
   background: red;
 }
 figure img, iframe, picture img, audio, canvas, video {
-  padding: inherit;
+  margin: 1ch;
+  padding: 1ch;
   border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
