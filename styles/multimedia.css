@@ -30,6 +30,7 @@ iframe, audio, video, embed, img {
 picture, figure, canvas, audio, video, embed, object {
   padding: 1%;
   display: block;
+  text-align: center;
   border-radius: 1ch;
   margin: var(--margin-collapse-bugfix) auto;
 }
