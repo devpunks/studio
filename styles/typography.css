@@ -297,6 +297,11 @@ body > header {
 body > nav {
   margin: var(--margin-collapse-bugfix) auto 1ch;
 }
+body > nav::before {
+  /* padding: 0.5ch; */
+  /* line-height: 1em; */
+}
+
 body > main {}
 body > aside { padding-top: var(--line-height) }
 body > footer { font-size: medium }

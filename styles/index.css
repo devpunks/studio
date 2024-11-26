@@ -191,6 +191,11 @@ body > header {}
 body > nav {
   box-shadow: var(--box-shadow);
 }
+body > nav::before {
+  /* cursor: pointer; */
+  /* font-size: xxx-large; */
+}
+
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
 body > footer {
@@ -275,7 +280,7 @@ template { display: none } /* IE custom elements */
 header, h1, h2, h3, h4, h5, h6 {
   padding: var(--margin-collapse-bugfix) var(--font-size);
 }
-body > header { max-width: var(--max-width) }
+body > header {}
 nav > header {
   background: green;
 }
@@ -393,6 +398,8 @@ pre code {
   border-width: 0 0 0 0.02em;
 }
 
+
+
 /* http://html5doctor.com/the-details-and-summary-elements */
 details {}
 summary {
@@ -404,7 +411,6 @@ summary::after {
   content: 'foo';
   background: orange;
 }
-
 summary::-webkit-details-marker
   { display: none } /* https://stackoverflow.com/a/66814239 */
 details:hover > summary, details:focus-within > summary
@@ -426,28 +432,19 @@ nav > details > ul {
   display: list-item;
   position: relative;
 }
-
 nav > details > ul li li {
   list-style: '➱' inside;
 }
-
 nav > details > ul li li:hover {
   list-style-type: '➯';
 }
-
 nav details > summary {
   cursor: s-resize;
   list-style: '📁' inside;
 }
-nav details[open] > summary {
-  cursor: n-resize;
-  list-style: '📂';
-}
 nav > details > summary {
   right: 2ch;
   bottom: 2ch;
-  width: 100%;
-  width: 38%;
   opacity: 100%;
   position: fixed;
   display: block;
@@ -460,7 +457,6 @@ nav > details > summary {
    /* https://htmlsymbols.xyz/unicode/U+2630 */
   clip-path: none;
 }
-nav > details > summary {}
 nav > details > summary::before,
 nav > details > summary::after {
   content: '☰';
@@ -482,6 +478,10 @@ nav > details > summary::after {
   /* bottom: 1ch; */
   /* right: 1ch; */
 }
+nav details[open] > summary {
+  cursor: n-resize;
+  list-style: '📂';
+}
 nav > details[open] > summary {
   list-style-type: 'ⓧ';
   list-style-position: inside;
@@ -494,29 +494,6 @@ nav > details[open] > summary:hover::before,
 nav > details[open] > summary:hover::after {
   /* https://htmlsymbols.xyz/unicode/U+2716 */
   content: '✖';
-}
-body > nav *::before, body > nav *::after {
-  outline: 1ch solid lightgrey;
-  outline-offset: 1ch;
-  outline: 0;
-  border: 1ch solid magenta;
-  border-width: 1ch 0;
-  text-align: center;
-  display: inherit;
-}
-body > nav *::before {
-  content: '⇇';
-  cursor: grabbing;
-  list-style-type: 'foo';
-  background: yellow;
-}
-body > nav *::after {
-  outline: 0;
-  content: '⇉';
-  cursor: grabbing;
-  background: blue;
-  border-width: 1ch 0;
-  list-style-type: 'bar';
 }
 body > nav > details::after {
   width: 0;
@@ -541,6 +518,8 @@ body > nav > details[open]::after {
   height: 100vh;
   line-height: 100vh;
 }
+
+
 nav li {
   margin: 1ch;
   padding: 1ch;
@@ -569,6 +548,7 @@ body > nav li li :link::before {
   line-height: var(--line-height);
 }
 body > nav li li :link:hover::before { content: '📝' }
+
 
 :link {
   cursor: pointer;
