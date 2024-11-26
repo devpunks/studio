@@ -6,8 +6,6 @@
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
 
-body > nav::before {/* content: '🍔'; */} /* ☰ 🍔 */
-
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
 :where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] )::before {
   opacity: 20%;
