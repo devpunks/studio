@@ -269,6 +269,7 @@ template { display: none } /* IE custom elements */
   white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
   pointer-events: none;
   clip-path: inset(50%);
+  content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
 }
 
 header, h1, h2, h3, h4, h5, h6 {
