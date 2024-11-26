@@ -72,7 +72,6 @@ figure img, iframe, picture img, audio, canvas, video {
 }
 figure img, picture img, figure picture {
   background: inherit;
-  margin: var(--margin-collapse-bugfix auto);
 }
 figcaption { opacity: 0.4 }
 figure:hover figcaption { opacity: 0.618 }
