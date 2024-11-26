@@ -32,7 +32,7 @@ picture, figure, canvas, audio, video, embed, object {
   display: block;
   text-align: center;
   border-radius: 1ch;
-  margin: var(--margin-collapse-bugfix) auto;
+  margin: 1ch auto var(--line-height);
 }
 audio, canvas, video, iframe[src*=youtube] {
   width: 90%;
