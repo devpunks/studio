@@ -273,7 +273,6 @@ template { display: none } /* IE custom elements */
 }
 
 header, h1, h2, h3, h4, h5, h6 {
-  max-width: 45rem;
   padding: var(--margin-collapse-bugfix) var(--font-size);
 }
 body > header { max-width: var(--max-width) }

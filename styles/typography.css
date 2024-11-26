@@ -310,7 +310,7 @@ main > section:first-of-type, body > aside {
 hgroup {}
 header, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  margin: var(--margin) var(--font-size) auto;
+  margin: 1ch auto 1em;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
 }
 header {
@@ -323,7 +323,7 @@ header {
 body > header {
   text-align: center;
   padding: 10vmin 0; /* - https://css-tricks.com/simple-little-use-case-vmin */
-  margin: var(--margin-collapse-bugfix) auto;
+  margin: var(--margin-collapse-bugfix) auto 1ch;
 }
 body > header[role=banner] { padding: 0 }
 section > header, nav > header {
@@ -341,7 +341,6 @@ header *
 
 h1 {
   /* TODO: calc () */
-  font-weight: unset;
   text-shadow: 0.04em 0.04em 0;
   line-height: var(--line-height);
   -webkit-text-fill-color: Canvas;
