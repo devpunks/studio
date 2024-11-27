@@ -484,6 +484,7 @@ nav details[open] > summary {
   list-style: '📂';
 }
 nav > details[open] > summary {
+  margin-block-end: 1ch;
   list-style-type: 'ⓧ';
   list-style-position: inside;
 }
@@ -494,19 +495,19 @@ nav > details[open] > summary::after {
 nav > details[open] > summary:hover::before,
 nav > details[open] > summary:hover::after {
   /* https://htmlsymbols.xyz/unicode/U+2716 */
-  content: '✖';
+  /* content: '✖'; */
+}
+nav > details[open] > summary::before {
+  content: 'menu';
 }
 body > nav > details::after {
-  width: 0;
-  left: 0ch;
-  height: 0;
-  bottom: 0;
-  z-index: -1;
-  border: none;
-  opacity: 80%;
-  color: Canvas;
-  outline: none;
-  line-height: 0;
+  top: 0;
+  z-index: -2;
+  opacity: 75%;
+  display: none;
+  width: inherit;
+  height: 100svh;
+  font-size: 25vh;
   position: fixed;
   text-align: center;
   background: rgba(0,0,0,0.2);
