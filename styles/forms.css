@@ -79,7 +79,6 @@ form details {
  * - https://www.w3.org/TR/WCAG20-TECHS/H44.html
 */
 label {
-  background:  green;
   display: block;
   display: inline-block;
   display: inline-flex;
