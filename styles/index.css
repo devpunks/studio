@@ -512,14 +512,9 @@ body > nav > details::after {
   text-align: center;
   line-height: 100svh;
   background: rgba(128,0,0,0);
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
-  backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
+  backdrop-filter: blur(49px); /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
 }
-body > nav > details[open]::after {
-  width: 100vw;
-  height: 100vh;
-  line-height: 100vh;
-}
+body > nav > details[open]::after {}
 
 
 nav li {
