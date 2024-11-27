@@ -103,11 +103,11 @@ body > footer {
 }
 
 /* Navigations ==================================================================
- *.  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role
- *.  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menubar_role
- *.  - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor
+ *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role
+ *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menubar_role
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor
  *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
- *.  - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
  *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
  */
 body > a[href='#main'] { z-index: 1 }
@@ -159,9 +159,9 @@ nav > details > summary::marker
 /* https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/toolbar_role */
 
 /* Tabs ==================================================================
- *.  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role
+ *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role
  *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tablist_role
- *.  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role
+ *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role
  */
 
 
