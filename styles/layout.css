@@ -102,7 +102,13 @@ body > footer {
   /* position: sticky; */
 }
 
-/* Navigations ================================================================== */
+/* Navigations ==================================================================
+ *.  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menubar_role
+ *.  - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
+ *.  - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
+ *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
+ */
 body > a[href='#main'] { z-index: 1 }
 body > nav {
   top: 0;
