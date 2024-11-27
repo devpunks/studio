@@ -105,30 +105,38 @@ body > nav {
   position: sticky;
 }
 body > nav::before, body > nav::after {
-  display: block;
-  color: magenta;
   content: '<nav>';
-  background: pink url(http://placekitten.com/400/200) no-repeat;
-  background-size: cover;
-  background-position: 0 center;
+  display: block;
+  text-indent: 1ch;
+  background: inherit;
 }
 body > nav::before {
   /* float: left; */
 }
 
-body > nav > * {}
-body > nav > details { width: 50% }
-body > nav > details[open] {
-  width: 50%;
-  /* background: inherit; */
+nav > * {}
+nav > details {
+  width: inherit;
+  outline-style: dotted;
+  margin-block: 1ch;
+  background: inherit;
+}
+nav > details[open] {
+  background: inherit;
   /* overflow-y: scroll; */
-  /* height: inherit; */
-  /* max-height: 90vh; */
 }
-body > nav > details::before { content: 'shazaam' }
-body > nav > details[open]::before {
- content: 'shazaam open'
+nav > details::before, nav > details::after {
+  content: '🍔';
 }
+nav > details::before {
+  content: 'menu';
+  text-indent: 1ch;
+}
+nav > details[open]::before {
+ content: 'menu open';
+}
+nav > details > summary::marker
+  {}
 
 ::-webkit-resizer {
     background: red;
