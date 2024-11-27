@@ -81,7 +81,8 @@ figcaption::before {
 iframe { display: block }
 audio  { /* https://blog.shahednasser.com/how-to-style-an-audio-element */ }
 video  { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
-canvas { /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
+canvas {
   background: Canvas;
-  content-visibility: hidden;
+  background: red;
+  width: 100%;
 }
