@@ -203,7 +203,6 @@ label output, label select, label textarea, label [type], label input:not([type]
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: green;
   border-bottom: 0.1em solid;
 }
 [role=search] label {
