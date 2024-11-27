@@ -98,7 +98,23 @@ body > nav::before
 nav > details > summary::marker
   { content: '88🔴' }
 
-table::before, table::after { content: '☶ table' }
+table::before, table::after
+  { content: '☶ table' }
+thead::before, thead::after
+  { content: '👤' }
+table > tbody::before, table > tbody::after
+  { content: '🫀' }
+table > tfoot::before, table > tfoot::after
+  { content: '👣' }
+table > caption::before, table > caption::after
+  { content: '🗨' }
+
+table tr::before, table tr::after
+  { content: 'tr' }
+table th::before, table th::after
+  { content: 'th' }
+table td::before { content: '>' }
+table td::after  { content: '<' }
 
 figcaption::before {
   content: '⇧';
