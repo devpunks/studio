@@ -189,6 +189,7 @@ body > header, body > nav, body > main, body > aside, body > footer {
 }
 body > header {}
 body > nav {
+  width: 75vw;
   box-shadow: var(--box-shadow);
 }
 body > nav::before {
