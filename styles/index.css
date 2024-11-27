@@ -401,11 +401,10 @@ pre code {
 }
 
 
-
 /* http://html5doctor.com/the-details-and-summary-elements */
 details {}
 summary {
-  opacity: 0.75;
+  cursor: s-resize;
   list-style: none;
 }
 summary::before,
