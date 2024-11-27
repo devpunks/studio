@@ -185,11 +185,6 @@ html {
 body {
   /* scroll-snap-type: y mandatory */
 }
-body * {}
-body *::before, body *::after {
-  /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
-  display: inline-block;
-}
 body > * { outline: 0.3ch dashed }
 body > header, body > nav, body > main, body > aside, body > footer {
   color: CanvasText;
