@@ -138,6 +138,12 @@ nav > details[open]::before {
 nav > details > summary::marker
   {}
 
+
+/* Toolbar ============================================================= */
+/* https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar */
+/* https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/toolbar_role */
+
+
 ::-webkit-resizer {
     background: red;
     border: 2px solid black;
