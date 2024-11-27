@@ -421,7 +421,6 @@ main details > summary::before
 main details[open] > summary::before
   { content: 'v' }
 
-
 /* NAV */
 nav {
   margin: 0;
