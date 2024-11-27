@@ -510,8 +510,8 @@ body > nav > details::after {
   font-size: 25vh;
   position: fixed;
   text-align: center;
-  background: rgba(0,0,0,0.2);
-  font-size: calc(100vh / var(--GOLDEN-RATIO));
+  line-height: 100svh;
+  background: rgba(128,0,0,0);
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
   backdrop-filter: blur(calc(1ch * var(--GOLDEN-RATIO)));
 }
@@ -612,12 +612,8 @@ table::before, table::after {
   display: block;
   background: inherit;
 }
-table::before {
-  border-radius: 1ch 1ch 0 0;
-}
-table::after {
-  border-radius: 0 0 1ch 1ch;
-}
+table::before { border-radius: 1ch 1ch 0 0 }
+table::after  { border-radius: 0 0 1ch 1ch }
 
 table tr { display: flex }
 table tr > * {
@@ -632,23 +628,17 @@ table tr::before, table tr::after,
 table tr > *::before, table tr > *::after {
   min-width: 2em;
 }
-table tr::before, table tr::after { content: 'tr' }
-
 table th {
   /* position: sticky; */
   background: inherit;
 }
 table th:empty { border: none }
-table th::before { content: 'th' }
-table th::after  { content: 'th' }
 
 table td {
   -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
           user-select: text; /* https://caniuse.com/mdn-css_properties_user-select_text */
 }
 table td:empty { border: none }
-table td::before { content: '>' }
-table td::after  { content: '<' }
 
 table > caption {
   /* top: 0; */
@@ -661,9 +651,6 @@ table > caption::before, table > caption::after {
   display: block;
   background: inherit;
 }
-table > caption::before { content: '🗨' }
-table > caption::after { content: '🗨' }
-
 table > thead, table > tfoot { background: inherit }
 table > thead {
   z-index: 0;
@@ -675,9 +662,6 @@ table > thead::before, table > thead::after {
   display: block;
   background: inherit;
 }
-table > thead::before { content: '👤' }
-table > thead::after { content: '👤' }
-
 table > tfoot {
   z-index: 0;
   display: block;
@@ -688,9 +672,6 @@ table > tfoot::before, table > tfoot::after {
   display: block;
   background: inherit;
 }
-table > tfoot::before { content: '👣' }
-table > tfoot::after  { content: '👣' }
-
 table > tbody {
   z-index: 1;
   display: block;
@@ -703,9 +684,6 @@ table > tbody::before, table > tbody::after {
   border: solid currentColor;
   border-width: 0.1618em 0;
 }
-table > tbody::before { content: '🫀' }
-table > tbody::after  { content: '🫀' }
-
 tbody tr { counter-increment: rows }
 tbody tr:nth-child(even) { background: inherit }
 tbody tr::before {
@@ -721,13 +699,6 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 
 
 abbr[title] { cursor: help }
-
-details summary { cursor: s-resize }
-details details summary { z-index: 10 }
-details[open] summary { cursor: n-resize }
-details[open] > summary a {
-  border-block-end: calc( 0.1 * var(--GOLDEN-RATIO) * 1em) solid;
-}
 
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3
@@ -774,7 +745,6 @@ ol {
   color: orange;
 }
 ol > li::marker { content: counters(ordered, '.') }
-summary::marker { content: '🔴' }
 dd, dt, li {}
 dd {}
 dt {}
