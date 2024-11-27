@@ -443,35 +443,36 @@ nav details > summary {
   list-style: '📁' inside;
 }
 nav > details > summary {
-  right: 2ch;
-  bottom: 2ch;
-  opacity: 100%;
-  position: fixed;
-  display: block;
   display: list-item;
-  position: absolute;
-  background: canvas;
-  /* box-shadow: var(--shadow); */
-  text-align: var(--text-align);
+  background: darkgreen;
   /* clip-path: inset(0px 244px 1px 170px); */
    /* https://htmlsymbols.xyz/unicode/U+2630 */
-  clip-path: none;
 }
 nav > details > summary::before,
 nav > details > summary::after {
   content: '☰';
-  left: -1ch;
-  padding: 1ch;
-  z-index: -1;
-  background: inherit;
-  display: inline-block;
-  vertical-align: text-top;
-  box-shadow: var(--shadow);
-  font-size: calc(1em * var(--GOLDEN-RATIO));
-  border: calc(0.1ch * var(--GOLDEN-RATIO)) solid;
+  width: 2em;
+  min-width: 2em;
+  margin-inline: 1ch;
+  padding-block: 1ch;
+  text-align: center;
+  z-index: 0;
+  font-size: 2em;
+  border: 0.2ch solid;
 }
 nav > details > summary::before
-  { position: relative }
+  {
+  display: list-item;
+  content: 'menu';
+  list-style: '👇';
+  list-style-position: inside;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0ch;
+  width: 3em;
+  font-size: 1em;
+}
 nav > details > summary::after {
   /* list-style-type: unset; */
   /* position: fixed; */
