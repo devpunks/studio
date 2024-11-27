@@ -216,6 +216,7 @@ html, body {
   -webkit-tap-highlight-color: transparent; /* https://davidwalsh.name/mobile-highlight-color */
 }
 
+body[role=application] {}
 body > main   { -webkit-overflow-scrolling: touch }
 body > aside  { -webkit-transform: translatez(0) }
 body > footer { -webkit-transform: translatez(0) }
