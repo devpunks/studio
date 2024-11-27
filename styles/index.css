@@ -205,6 +205,33 @@ body > footer {
 }
 
 
+/* HIDDEN
+  - https://meowni.ca/hidden.is.a.lie.html
+  - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+  - https://css-tricks.com/comparing-various-ways-to-hide-things-in-css
+  - Invisible content - https://webaim.org/techniques/css/invisiblecontent
+  - until-found
+    - https://css-tricks.com/newsletter/295-hidden-until-found
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
+  - content-visibility
+    - https://web.dev/articles/content-visibility
+*/
+template { display: none } /* IE custom elements */
+
+[hidden], [aria-hidden=true], template {
+  width: 1px;
+  height: 1px;
+  display: none;
+  overflow: hidden;
+   /* be careful..can be overridden */
+  position: absolute;
+  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+  pointer-events: none;
+  clip-path: inset(50%);
+  content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
+}
+
+
 /* PWA RELATED */
 /* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
 /* https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/DragAndDrop.html#//apple_ref/doc/uid/30001233-178644 */
@@ -234,6 +261,7 @@ iframe, pre, table, select[multiple] {
   scrollbar-gutter: stable both-edges;
  }
 
+
 pre code, var, p, cite, blockquote, address
 /* ... and all id-entifiable headers ... */
 , header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
@@ -254,37 +282,11 @@ pre::selection, code::selection {
   -webkit-tap-highlight-color: Mark; /* https://davidwalsh.name/mobile-highlight-color */
 }
 
-
-/*
-  -   https://meowni.ca/hidden.is.a.lie.html
-  - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
-  - https://css-tricks.com/comparing-various-ways-to-hide-things-in-css
-  - Invisible content - https://webaim.org/techniques/css/invisiblecontent
-  - until-found
-    - https://css-tricks.com/newsletter/295-hidden-until-found
-    - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
-*/
-template { display: none } /* IE custom elements */
-
-[hidden], [aria-hidden=true], template {
-  width: 1px;
-  height: 1px;
-  display: none;
-  overflow: hidden;
-   /* be careful..can be overridden */
-  position: absolute;
-  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
-  pointer-events: none;
-  clip-path: inset(50%);
-  content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
-}
-
 header, h1, h2, h3, h4, h5, h6 {
   padding: var(--margin-collapse-bugfix) var(--font-size);
 }
 body > header {}
 nav > header {
-  background: green;
 }
 nav > header::before,
 nav > header::after {
@@ -424,7 +426,6 @@ main details[open] > summary::before
 /* NAV */
 nav {
   margin: 0;
-  background: pink;
 }
 nav > details > ul {
   margin: unset;
