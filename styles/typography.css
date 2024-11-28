@@ -189,7 +189,8 @@
 */
 } /* @font-face */
 
-@font-face { font-family: Emoji; /* 🐰 🥚 */
+@font-face {
+  font-family: Emoji; /* 🐰 🥚 */
   /*
     - https://client9.com/css-color-emoji-stack
     - https://coderwall.com/p/ruv9hq/display-emoji-glyphs-intermingled-with-arbitrary-text
