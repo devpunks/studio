@@ -74,7 +74,9 @@ html, body {
 html {
   overflow-y: scroll;
   overflow-x: scroll;
-  box-sizing: border-box;
+  /* https://drafts.csswg.org/css-box-4 */
+  /* https://css-tricks.com/international-box-sizing-awareness-day */
+  box-sizing: border-box; /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model */
 }
 
 /*
