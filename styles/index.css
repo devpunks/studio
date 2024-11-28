@@ -393,11 +393,10 @@ pre, code, kbd, samp {
 kbd {
   min-width: 3em;
   border-radius: 0.5ch;
-  background-color: Canvas;
   display: inline-block;
-  text-transform: uppercase;
+  background-color: Canvas;
   border: 0.1ch solid currentColor;
-  box-shadow: 0.1ch 0.2ch 0 currentColor;
+  box-shadow: 0.25ch 0.25ch 0 currentColor;
 }
 pre code {
   display: inherit;
