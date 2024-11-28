@@ -391,7 +391,7 @@ pre, code, kbd, samp {
   background-color: ButtonFace;
 }
 kbd {
-  min-width: 2em;
+  min-width: 3em;
   border-radius: 0.5ch;
   background-color: Canvas;
   display: inline-block;
