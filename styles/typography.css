@@ -540,6 +540,7 @@ pre {
   margin: var(--p-margin);
 }
 code { white-space: initial }
+kbd { white-space: nowrap }
 pre code {
   margin: 1ch;
   font-size: smaller;
