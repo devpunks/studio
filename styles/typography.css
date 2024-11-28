@@ -530,8 +530,7 @@ p {
 }
 
 pre, code, kbd, samp {
-  font-size: medium;
-  padding: 0.25ch 1ch;
+  padding: 0.5ch 1ch;
   font-family: monospace;
 }
 pre {
