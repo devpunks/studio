@@ -111,7 +111,7 @@
     Math;
 
   --Rounded: 'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
-    UI-Rounded;     /* default user interface rounded font */
+    UI-Rounded;         /* default user interface rounded font */
 
   --Serif: 'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
     Serif,              /* fallback */
