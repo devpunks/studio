@@ -266,7 +266,7 @@ iframe, pre, table, select[multiple] {
 
 
 pre code, var, p, cite, blockquote, address
-/* ... and all id-entifiable headers ... */
+/* and all id-entifiable headers */
 , header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   -webkit-user-drag: auto; /* https://stackoverflow.com/q/15034842 */
   -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
