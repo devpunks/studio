@@ -264,9 +264,8 @@ html {
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container */
   /* https://stackoverflow.com/q/17259916/difference-between-overflow-wrap-and-word-break */
   overflow-wrap:  break-word; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
-  word-wrap:      break-word;
-  -ms-word-break: break-all;
-  /* Instead use this non-standard one: */
+      word-wrap:  break-word;
+  -ms-word-break: break-word;
       word-break: break-word;
 
   /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
