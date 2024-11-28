@@ -308,6 +308,13 @@ body > footer { font-size: medium }
 
 main > section:first-of-type, body > aside {}
 
+
+body main table {
+  background: blue;
+  /* https://css-tricks.com/almanac/properties/f/font-variant-numeric */
+  /* font-variant-numeric: ordinal slashed-zero tabular-nums; */
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
