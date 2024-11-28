@@ -246,13 +246,12 @@ html {
   /*
     - https://client9.com/css-color-emoji-stack
     - https://caniuse.com/mdn-css_properties_font-variant-emoji
-    - https://www.w3.org/TR/css-fonts-4/#font-variant-emoji-prop
-    - Firefox - https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji
+    - https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-emoji
     - Unicode Emoji Variants -  https://unicode.org/emoji/charts/emoji-variants.html
   */
-  font-variant-emoji:    emoji;
+  font-variant-emoji: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
-  font-display:          fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
+  font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   -webkit-text-size-adjust: var(--text-size-adjust);
      -moz-text-size-adjust: var(--text-size-adjust);
           text-size-adjust: var(--text-size-adjust);
