@@ -334,7 +334,7 @@ header {
   font-variant-caps: small-caps;
 }
 header[role=banner] {
-  padding: 0
+  padding: 0;
   background: red;
   padding: 10vmin 0; /* - https://css-tricks.com/simple-little-use-case-vmin */
 }
