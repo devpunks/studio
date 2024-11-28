@@ -249,7 +249,7 @@ html { /* FONTS - https://www.w3.org/TR/css-fonts-4 */
     - https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-emoji
     - Unicode Emoji Variants -  https://unicode.org/emoji/charts/emoji-variants.html
   */
-  font-variant-emoji: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
+  font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   -webkit-text-size-adjust: var(--text-size-adjust);
