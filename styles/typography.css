@@ -157,14 +157,13 @@
   --font-family: var(--Monospace);
   --font-family: var(--System-UI);
 
-
   /* Margin collapse bugfix:
     - https://freecodecamp.org/news/what-is-margin-collapse-and-how-to-avoid-it/
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
     - https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497
    */
   --margin-collapse-bugfix: 0.05px;
-}
+} /* :root */
 
 ::-moz-selection /* set separately */
   { text-shadow: none }
@@ -188,7 +187,7 @@
     local('chalk') tech(color-COLRv1),
     local('chalk-bold') format('truetype'),
 */
-}
+} /* @font-face */
 
 @font-face { font-family: Emoji; /* 🐰 🥚 */
   /*
@@ -207,7 +206,7 @@
   ;
   /* Emoji unicode blocks */
   unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
-}
+} /* @font-face */
 
 
 /*
