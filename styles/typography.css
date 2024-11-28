@@ -278,6 +278,8 @@ html {
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
   -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
           hyphens: auto;
 }
 
