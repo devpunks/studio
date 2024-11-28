@@ -255,7 +255,6 @@ html {
   font-variant-emoji:    emoji;
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
   font-display:          fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
-  font-variant-numeric: ordinal slashed-zero tabular-nums; /* https://css-tricks.com/almanac/properties/f/font-variant-numeric */
   -webkit-text-size-adjust: var(--text-size-adjust);
      -moz-text-size-adjust: var(--text-size-adjust);
           text-size-adjust: var(--text-size-adjust);
