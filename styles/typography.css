@@ -234,7 +234,7 @@ html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
   -moz-tab-size:  var(--tab-size);
-  tab-size:       var(--tab-size);
+       tab-size:  var(--tab-size);
   font-size:      var(--font-size);
   text-align:     var(--text-align);
   font-family:    var(--font-family);
@@ -246,6 +246,7 @@ html {
   /*
     - https://client9.com/css-color-emoji-stack
     - https://caniuse.com/mdn-css_properties_font-variant-emoji
+    - https://www.w3.org/TR/css-fonts-4/#font-variant-emoji-prop
     - Firefox - https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji
     - Unicode Emoji Variants -  https://unicode.org/emoji/charts/emoji-variants.html
   */
@@ -270,8 +271,8 @@ html {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars */
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
   /* https://css-tricks.com/almanac/properties/h/hyphenate */
-  -webkit-hyphenate-limit-chars: 10 3 4;  /* not yet supported */ 
-     -moz-hyphenate-limit-chars: 10 3 4;  /* not yet supported */ 
+  -webkit-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
+     -moz-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
           hyphenate-limit-chars: 10 3 4;
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
@@ -279,7 +280,7 @@ html {
      -moz-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
-}
+} /* html */
 
 body {
   margin: 0 auto var(--margin-collapse-bugfix);
