@@ -259,9 +259,10 @@ html {
 
   /* These are technically the same, but use both */
   /* https://css-tricks.com/almanac/properties/w/word-break */
+  /* https://blog.logrocket.com/guide-css-word-wrap-overflow-wrap-word-break */
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container */
   /* https://stackoverflow.com/q/17259916/difference-between-overflow-wrap-and-word-break */
-  overflow-wrap:  break-word; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
+  overflow-wrap:  break-word;
       word-wrap:  break-word;
   -ms-word-break: break-word;
       word-break: break-word;
