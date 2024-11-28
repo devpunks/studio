@@ -105,26 +105,26 @@
     - https://smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide
   */
   --Cursive:
-    Fantasy, Cursive, var(--Serif)
-  ;
+    Fantasy, Cursive, var(--Serif);
+
   --Math: 'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
-    Math
-  ;
+    Math;
+
   --Rounded: 'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
     UI-Rounded;     /* default user interface rounded font */
-  ;
+
   --Serif: 'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
     Serif,              /* fallback */
     UI-Serif;           /* default user interface serif font */
-  ;
+
   --Sans-Serif: 'Noto Sans',      /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
     Helvetica, Arial, /* Windows, macOSX, Linux defaults */
     Sans-Serif,       /* fallback */
     UI-Sans-Serif;    /* default user interface sans-serif font */
-  ;
+
   --Monospace:
     Menlo, Monaco,              /* macOS */
-  'SF Mono', SFMono,          /* macOS 10.10+ */
+    'SF Mono', SFMono,          /* macOS 10.10+ */
     'Roboto Mono',              /* Android 4+ */
     Consolas,                   /* Windows 6+ */
     'Ubuntu Monospace',         /* Ubuntu 10.10+ */
@@ -133,7 +133,7 @@
     Courier,                    /* typewriter */
     Monospace,                  /* fallback */
     UI-Monospace;               /* default user interface monospace font */
-  ;
+
   --System-UI:
     -Apple-System,           /* macOS 10.11-10.12 */
     BlinkMacSystemFont,      /* macOSX, Chrome */
@@ -146,15 +146,14 @@
     'Fira Sans',             /* Mozilla Firefox */
     /* https://w3c.github.io/csswg-drafts/css-fonts-4/#system-ui-def */
     System-UI;               /* fallback https://caniuse.com/font-family-system-ui */
-  ;
 
   --font-family: Chalk;
-  --font-family: var(--Cursive);
-  --font-family: var(--Math);
-  --font-family: var(--Rounded);
-  --font-family: var(--Serif);
-  --font-family: var(--Sans-Serif);
-  --font-family: var(--Monospace);
+  /* --font-family: var(--Cursive); */
+  /* --font-family: var(--Math); */
+  /* --font-family: var(--Rounded); */
+  /* --font-family: var(--Serif); */
+  /* --font-family: var(--Sans-Serif); */
+  /* --font-family: var(--Monospace); */
   --font-family: var(--System-UI);
 
   /* Margin collapse bugfix:
