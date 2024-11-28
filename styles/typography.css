@@ -530,7 +530,9 @@ p {
 }
 
 pre, code, kbd, samp {
-  padding: 0.5ch 1ch;
+  font-size: medium;
+  padding: 0.25ch 1ch;
+  font-family: monospace;
 }
 pre {
   overflow: overlay;
