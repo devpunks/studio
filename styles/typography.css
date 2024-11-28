@@ -42,13 +42,9 @@
 
 :root {
   --margin: 1ch auto;
-
   --text-align: center;
-
-  --line-length: 75ch; /* https://baymard.com/blog/line-length-readability */
-
+  --line-length: 75em; /* https://baymard.com/blog/line-length-readability */
   --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
-
   --tab-size: 2; /* &#0009 - https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
 
   /*
