@@ -80,10 +80,8 @@
   */
   --p-margin: 0 var(
   --line-height) var(--line-height); /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag */
-
   --line-height: 1.618em; /* https://en.wikipedia.org/wiki/Golden_ratio */
-
-  --word-spacing: -0.1681em; /* http://webtypography.net/2.1.1 */
+  --word-spacing: -0.18em; /* http://webtypography.net/2.1.1 */
 
   /* kerning "tracking"
       - 5%-12% (0.05em-0.012em) - https://practicaltypography.com/letterspacing.html
