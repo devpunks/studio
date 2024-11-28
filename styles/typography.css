@@ -230,11 +230,11 @@
 
 * { padding: var( --margin-collapse-bugfix ) 0 }
 
-html {
+html { /* FONTS - https://www.w3.org/TR/css-fonts-4 */
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
   -moz-tab-size:  var(--tab-size);
-       tab-size:  var(--tab-size);
+  tab-size:  var(--tab-size);
   font-size:      var(--font-size);
   text-align:     var(--text-align);
   font-family:    var(--font-family);
@@ -308,10 +308,12 @@ body > footer { font-size: medium }
 main > section:first-of-type, body > aside {}
 
 
-body main table {
+body {
   background: blue;
-  font-variant-numeric: oldstyle-nums slashed-zero tabular-nums;
-  /* font-variant-numeric: ordinal slashed-zero tabular-nums oldstyle-nums; */
+  /* font-variant-numeric: ordinal; */
+  font-variant-numeric: tabular-nums;
+  /* font-variant-numeric: slashed-zero; */
+  /* font-variant-numeric: oldstyle-nums; */
 }
 
 /**
