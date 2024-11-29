@@ -634,8 +634,8 @@ table th {
 table th:empty { border: none }
 
 table td {
-  -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
-          user-select: text; /* https://caniuse.com/mdn-css_properties_user-select_text */
+  -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
+          user-select: all; /* https://caniuse.com/mdn-css_properties_user-select_text */
 }
 table td:empty { border: none }
 
