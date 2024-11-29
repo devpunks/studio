@@ -240,6 +240,7 @@ html {
   font-stretch: semi-expanded;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
+  font-variation-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   -webkit-text-size-adjust: var(--text-size-adjust);
   -moz-text-size-adjust: var(--text-size-adjust);
