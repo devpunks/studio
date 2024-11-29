@@ -708,6 +708,7 @@ li address { margin: var(--margin-collapse-bugfix) }
 table {
   font-size: small;
   margin: 1ch auto;
+  font-variant-numeric: tabular-nums slashed-zero stacked-fractions;
 }
 table::before, table::after {
   text-indent: 1ch;
