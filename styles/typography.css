@@ -301,7 +301,7 @@ body > nav::before {
 }
 
 body > main {}
-body > aside { padding-top: var(--line-height) }
+body > aside {}
 body > footer { font-size: medium }
 
 main > section:first-of-type, body > aside {}
