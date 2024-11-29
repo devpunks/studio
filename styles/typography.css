@@ -271,8 +271,13 @@ html {
 
 body {
   margin: var(--margin-collapse-bugfix) 0 auto var(--margin-collapse-bugfix);
-  text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering */
-}
+  /* https://css-tricks.com/almanac/properties/t/text-rendering */
+  /* text-rendering: optimizeSpeed; */
+  /* text-rendering: optimizeLegibility; */
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} /* body */
 
 body > * { margin: var(--viewport) }
 
