@@ -236,13 +236,7 @@ html {
   word-spacing:   var(--word-spacing);
   letter-spacing: var(--letter-spacing);
   font-size-adjust: from-font; /* Firefox - https://caniuse.com/font-size-adjust */
-  font-stretch: 100%;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
-  /*
-    - https://client9.com/css-color-emoji-stack
-    - https://caniuse.com/mdn-css_properties_font-variant-emoji
-    - https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-emoji
-    - Unicode Emoji Variants -  https://unicode.org/emoji/charts/emoji-variants.html
-  */
+  font-stretch: semi-expanded;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
