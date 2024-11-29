@@ -78,21 +78,19 @@ html, body {
     - https://polypane.app/blog/strategies-for-dealing-with-horizontal-overflows
   */
   /* TODO: REFACTOR */
-  /* min-width: 100vw; */
-  /* min-width: -webkit-fill-available; */  /* Mozilla-based browsers will ignore this. */
+  max-width: 100vw;                   /* fall-back */
   min-width: -moz-available;          /* WebKit-based browsers will ignore this. */
   min-width: stretch;                 /* https://caniuse.com/?search=fill-available */
   min-height: 100vh;                  /* fall-back */
   min-height: -moz-available;         /* WebKit-based browsers will ignore this. */
   min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
   min-height: stretch;                /* https://caniuse.com/?search=fill-available */
-  max-width: 100vw;
 }
 
 /* boxing - https://paulirish.com/2012/box-sizing-border-box-ftw */
 html {
-  overflow-y: scroll;
-  overflow-x: scroll;
+  overflow-y: auto;
+  overflow-x: auto;
   /* https://drafts.csswg.org/css-box-4 */
   /* https://css-tricks.com/international-box-sizing-awareness-day */
   box-sizing: border-box; /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model */
