@@ -563,7 +563,7 @@ code {
   white-space: nowrap;
 }
 kbd {
-  font-size: medium;
+  font-size: smaller;
   text-align: center;
   white-space: nowrap;
   text-transform: uppercase;
