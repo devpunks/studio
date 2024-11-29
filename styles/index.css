@@ -330,8 +330,8 @@ time {
   cursor: wait;
   padding: 1ch;
   font-size: small;
+  text-align: left;
   border-radius: 1ch;
-  text-align: center;
   white-space: nowrap;
   display: inline-block;
   line-height: 1.6182em;
@@ -372,6 +372,7 @@ time:empty::before {}
 p > time { vertical-align: middle }
 p > time::after {
   opacity: 0;
+  bottom: 0ch;
   position: absolute;
 }
 
