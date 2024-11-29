@@ -100,22 +100,17 @@
   */
   --Cursive:
     Fantasy, Cursive, var(--Serif);
-
   --Math: 'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
     Math;
-
   --Rounded: 'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
     UI-Rounded;         /* default user interface rounded font */
-
   --Serif: 'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
     Serif,              /* fallback */
     UI-Serif;           /* default user interface serif font */
-
   --Sans-Serif: 'Noto Sans',      /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
     Helvetica, Arial, /* Windows, macOSX, Linux defaults */
     Sans-Serif,       /* fallback */
     UI-Sans-Serif;    /* default user interface sans-serif font */
-
   --Monospace:
     Menlo, Monaco,              /* macOS */
     'SF Mono', SFMono,          /* macOS 10.10+ */
@@ -127,7 +122,6 @@
     Courier,                    /* typewriter */
     Monospace,                  /* fallback */
     UI-Monospace;               /* default user interface monospace font */
-
   --System-UI:
     -Apple-System,           /* macOS 10.11-10.12 */
     BlinkMacSystemFont,      /* macOSX, Chrome */
