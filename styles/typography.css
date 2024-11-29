@@ -371,14 +371,14 @@ header *
           text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
-:link::before, :link::after {
+:link::, :link::after {
   content: '';
   border-radius: 0.2ch;
 }
 :link:hover, header :link:hover {
   text-decoration-color: currentColor;
 }
-:link:hover::before, :link:hover::after {
+:link:hover::after, :link:hover::after {
   text-decoration: none;
 }
 
@@ -412,6 +412,9 @@ hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
   background-color: currentColor;
 }
 
+time {
+  font-variant-numeric: ordinal tabular-nums;
+}
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
