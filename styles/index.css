@@ -378,7 +378,6 @@ p > time::after {
 
 var, data {
   color: CanvasText;
-  padding: 0.1618em;
   font-weight: bold;
   background: ButtonFace;
   margin-inline: 0.1618em;
