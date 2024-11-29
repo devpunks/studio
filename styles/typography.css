@@ -177,6 +177,16 @@
 */
 } /* @font-face */
 
+/*
+  - https://client9.com/css-color-emoji-stack
+  - https://en.wikipedia.org/wiki/Emoticons_(Unicode_block)
+  - https://caniuse.com/mdn-css_properties_font-variant-emoji
+  - https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-emoji
+  - https://en.wikipedia.org/wiki/Variation_Selectors_(Unicode_block)
+  - https://stackoverflow.com/q/4974668/what-is-the-unicode-variation-selector
+  - Unicode Emoji Variants -  https://unicode.org/emoji/charts/emoji-variants.html
+  - https://coderwall.com/p/ruv9hq/display-emoji-glyphs-intermingled-with-arbitrary-text
+*/
 @font-face {
   font-family: Emoji; /* 🐰 🥚 */
   /*
