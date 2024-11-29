@@ -12,7 +12,7 @@
   - *** https://xfive.co/blog/itcss-scalable-maintainable-css-architecture/#organize-layers-to-subfolders
 */
 @layer /* explicit layer ordering */
-  speech, accessibility, typography, forms, color, icons, multimedia, layout, print, animation;
+  accessibility, speech, print, typography, icons, color, forms, multimedia, layout, animation;
 
 /* ** BUG WHEN NOT USING URL** - https://css-tricks.com/css-tricks-chronicle-vol-iv
 @import url('print.css') layer(print) print;
@@ -25,15 +25,15 @@
 @import url('speech.css') layer(speech) speech not print;
 @import url('accessibility.css') layer(accessibility) not print;
  @import 'color.css' layer(color) color; */
+@import url(accessibility.css);
+@import url(speech.css);
 @import url(print.css);
-@import url(layout.css);
-@import url(icons.css);
 @import url(typography.css);
+@import url(icons.css);
 @import url(forms.css);
 @import url(multimedia.css);
+@import url(layout.css);
 @import url(animation.css);
-@import url(speech.css);
-@import url(accessibility.css);
 
 /*
   CSS Specificity Calculator
