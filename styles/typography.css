@@ -54,7 +54,7 @@
     - https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
   */
   /* https://utopia.fyi */
-  --font-size: clamp(1rem, -1rem + 3vw, 3rem); /* http://webtypography.net/2.1.2 */
+  --font-size: clamp(1rem, -1rem + 4vw, 4rem); /* http://webtypography.net/2.1.2 */
 
   /* https://julian.is/article/iphone-x-notch */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/env */
@@ -277,6 +277,12 @@ body {
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* font-variant-numeric: slashed-zero; */
+  /* font-variant-numeric: oldstyle-nums; */
+  font-variant-numeric: tabular-nums slashed-zero oldstyle-nums;
+  font-variant-numeric: diagonal-fractions;
+  font-variant-numeric: stacked-fractions;
 } /* body */
 
 body > * { margin: var(--viewport) }
@@ -299,15 +305,6 @@ body > aside { padding-top: var(--line-height) }
 body > footer { font-size: medium }
 
 main > section:first-of-type, body > aside {}
-
-
-body {
-  background: rgba(80,0,0,0.5);
-  font-variant-numeric: ordinal;
-  /* font-variant-numeric: tabular-nums; */
-  /* font-variant-numeric: slashed-zero; */
-  /* font-variant-numeric: oldstyle-nums; */
-}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
