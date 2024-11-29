@@ -729,7 +729,10 @@ footer dl, footer dl > *,
 footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
-dl {}
+dl {
+  margin: var(--margin-collapse-bugfix) 1em 1em;
+  background: rgba(200,200,200,0.5);
+}
 ul { list-style: inherit }
 ol {
   list-style: ordered;
