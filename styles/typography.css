@@ -314,8 +314,27 @@ main > section:first-of-type, body > aside {}
 hgroup {}
 header, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  margin: 1ch auto 1em;
+  line-height: var(--line-height);
+  line-height: 2em;
+  margin: 2em 1rem 1em;
+  background: rgba(100,100,100,0.5);
+  padding: var(--margin-collapse-bugfix) 0;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
+}
+header::before, h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+  text-align: center;
+  white-space: nowrap;
+  margin-inline: 0.5ch;
+  padding-inline: 0.1618ch;
+  background: inherit;
+}
+h1 {
+  font-size: 2em; /* TODO: calc () */
+  text-shadow: 0.04em 0.04em 0;
+  line-height: var(--line-height);
+  -webkit-text-fill-color: Canvas;
+  -webkit-text-stroke-width: thin;
+  -webkit-text-stroke-color: GrayText;
 }
 header {
   font-size: larger;
@@ -341,17 +360,6 @@ header *
 :where(header, h1, h2, h3, h4, h5, h6) :link {
   color: currentColor
 }
-
-h1 {
-  /* TODO: calc () */
-  text-shadow: 0.04em 0.04em 0;
-  line-height: var(--line-height);
-  -webkit-text-fill-color: Canvas;
-  -webkit-text-stroke-width: thin;
-  -webkit-text-stroke-color: GrayText;
-}
-body * > h1
-  { font-size: 2em; /* Override container H1s  */ }
 
 /* hyperlinks */
 :link { /* TODO: migrate ARIA to accessibility.css */
