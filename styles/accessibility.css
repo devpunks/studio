@@ -36,7 +36,7 @@
 html:focus-within { scroll-behavior: smooth }
 
 /* LINK   - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes */
-a, a:link { color: currentColor }
+a, a:link, a:any-link { color: -webkit-link }
 a:visited { color: blue }
 /* DYNAMIC - https://w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes */
 a:hover { color: green }
