@@ -64,17 +64,11 @@
 
   /* TODO: Convert to relative-sizing (smaller, larger) */
   --smallest: 61.8%;
-
   --smaller:  80.0%;
-
   --larger:  120.0%;
-
   --largest: 161.8%;
 
   /*
-    - https://caniuse.com/mdn-css_properties_margin-block
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block
-    - https://css-tricks.com/almanac/properties/m/margin-block-start
     - https://stackoverflow.com/questions/59909792/what-is-the-difference-between-margin-block-start-and-margin-top
     - https://js-craft.io/blog/css-logical-properties-using-the-margin-block-and-margin-inline-instead-of-the-default-margin
   */
