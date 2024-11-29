@@ -426,11 +426,15 @@ dl, ol, ul {
   font-size: larger;
   text-align: start;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
-  padding: var(--margin-collapse-bugfix) 0 var(--margin-collapse-bugfix) var(--line-height);
+  padding: var(--margin-collapse-bugfix) 0 1em 1em;
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
   margin-bottom: var(--margin-collapse-bugfix);
   width: auto;
+}
+dd > dl, dd > ol, dd > ul {
+  background: inherit;
+  margin: var(--margin-collapse-bugfix) 1em 1em;
 }
 nav > dl, nav > ol, nav > ul {
   padding: 0;
