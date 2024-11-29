@@ -191,10 +191,10 @@
         } // .microphones
 
         get date ()
-        { return ( new Date ).toUTCString () } // .date
+        { return ( new Date ).toLocaleDateString () } // .date
 
         get time ()
-          { return new Date } // .time
+          { return ( new Date ).toLocaleTimeString () } // .time
 
         get table () {
           return [
