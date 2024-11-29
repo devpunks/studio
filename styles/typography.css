@@ -480,8 +480,10 @@ abbr { /* http://webtypography.net/3.2.2 */
 }
 abbr[title] {
   border-bottom: 0;
+  text-transform: uppercase;
   text-underline-offset: .168em;
   text-decoration-skip-ink: none;
+  font-variant-caps: all-small-caps;
   text-decoration: underline dotted currentColor 0.168em;
 }
 
