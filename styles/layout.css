@@ -112,7 +112,7 @@ body {
   flex-direction: column;
 }
 body > * { /* all immediate children of <body> */
-  margin-inline: 0;
+  margin-inline: auto;
   width: var(--max-width);
   max-width: var(--max-width);
 }
