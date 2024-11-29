@@ -278,12 +278,11 @@ body {
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   /* font-variant-numeric: slashed-zero; */
   /* font-variant-numeric: oldstyle-nums; */
   font-variant-numeric: tabular-nums slashed-zero oldstyle-nums;
-  font-variant-numeric: diagonal-fractions;
-  font-variant-numeric: stacked-fractions;
+  /* font-variant-numeric: diagonal-fractions; */
+  /* font-variant-numeric: stacked-fractions; */
 } /* body */
 
 body > * { margin: var(--viewport) }
