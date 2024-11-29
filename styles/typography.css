@@ -538,7 +538,6 @@ code { white-space: initial }
 kbd {
   font-size: medium;
   text-align: center;
-  padding: 0.25ch 1ch;
   white-space: nowrap;
   text-transform: uppercase;
 }
