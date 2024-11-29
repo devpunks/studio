@@ -371,9 +371,11 @@ time:empty::before {}
 
 p > time { vertical-align: middle }
 p > time::after {
-  opacity: 0;
-  bottom: 0ch;
+  opacity: 1;
+  right: 0;
+  bottom: -1ch;
   position: absolute;
+  background: Canvas;
 }
 
 var, data {
