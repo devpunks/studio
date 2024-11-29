@@ -139,10 +139,10 @@
   /* --font-family: var(--Monospace); */
   /* --font-family: var(--Math); */
   /* --font-family: var(--Rounded); */
-  --font-family: var(--Sans-Serif);
+  /* --font-family: var(--Sans-Serif); */
   /* --font-family: var(--Serif); */
   /* --font-family: var(--Cursive); */
-  /* --font-family: var(--System-UI); */
+  --font-family: var(--System-UI);
   /* --font-family: Chalk; */
 
   /* Margin collapse bugfix:
