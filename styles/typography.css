@@ -247,8 +247,8 @@ html {
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   -webkit-text-size-adjust: var(--text-size-adjust);
-     -moz-text-size-adjust: var(--text-size-adjust);
-          text-size-adjust: var(--text-size-adjust);
+  -moz-text-size-adjust: var(--text-size-adjust);
+  text-size-adjust: var(--text-size-adjust);
 
   /* These are technically the same, but use both */
   /* https://css-tricks.com/almanac/properties/w/word-break */
@@ -256,23 +256,23 @@ html {
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container */
   /* https://stackoverflow.com/q/17259916/difference-between-overflow-wrap-and-word-break */
   overflow-wrap:  break-word;
-      word-wrap:  break-word;
+  word-wrap:  break-word;
   -ms-word-break: break-word;
-      word-break: break-word;
+  word-break: break-word;
 
   /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars */
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
   /* https://css-tricks.com/almanac/properties/h/hyphenate */
   -webkit-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
-     -moz-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
-          hyphenate-limit-chars: 10 3 4;
+  -moz-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
+  hyphenate-limit-chars: 10 3 4;
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
   -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 } /* html */
 
 body {
