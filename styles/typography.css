@@ -144,7 +144,7 @@
   /* --font-family: var(--Serif); */
   /* --font-family: var(--Cursive); */
   --font-family: var(--System-UI);
-  --font-family: Chalk;
+  /* --font-family: Chalk; */
 
   /* Margin collapse bugfix:
     - https://freecodecamp.org/news/what-is-margin-collapse-and-how-to-avoid-it/
