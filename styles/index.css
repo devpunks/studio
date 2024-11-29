@@ -174,7 +174,6 @@
 
 html {
   color: CanvasText;
-  color-scheme: light dark;
   background-color: Canvas;
 }
 /* SCROLL SNAPPING
@@ -188,7 +187,7 @@ body {
 body > * { outline: 0.3ch dashed }
 body > header, body > nav, body > main, body > aside, body > footer {
   color: CanvasText;
-  background: Canvas;
+  background: inherit;
 }
 body > header {}
 body > nav {
@@ -203,8 +202,8 @@ body > nav::before {
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
 body > footer {
-  color: Canvas;
-  background: GrayText;
+  color: currentColor;
+  background: Canvas;
 }
 
 

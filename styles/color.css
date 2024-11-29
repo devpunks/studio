@@ -107,8 +107,11 @@
 
 
 html {
+  /* https://drafts.csswg.org/css-color-adjust */
+  color-scheme: light dark;
+  color-scheme: dark;
   color: var(--color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 body * {
   column-rule-color: var(--color);
