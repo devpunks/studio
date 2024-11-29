@@ -436,21 +436,28 @@ nav > details > ul {}
 
 dt {
   font-weight: bolder;
+  text-indent: 0.618em;
   line-height: 3.6182ch;
-  padding: var(--margin-collapse-bugfix) 1ch;
-  margin: 0.6182ch 0 var(--margin-collapse-bugfix);
+  padding: var(--margin-collapse-bugfix) 0;
+  margin-block: 0.6182ch var(--margin-collapse-bugfix);
 }
-li {}
-dd {}
+dt + dt {
+  margin-block: var(--margin-collapse-bugfix);
+}
 dd, li {
   margin: var(--margin-collapse-bugfix) auto 0;
-  padding: var(--margin-collapse-bugfix) 0.6182ch;
+  padding: var(--margin-collapse-bugfix) 0;
   line-height: calc( var(--line-height) * var(--GOLDEN-RATIO) * 0.8 );
 }
 dd, li li {
-  font-size: var(--smaller);
+  font-size: large;
 }
-dd dd:first-of-type, li li:first-of-type {}
+dd {
+  margin-left: 1em;
+  text-indent: 0.618em;
+}
+li {}
+
 nav li {
   background: inherit;
 }
@@ -485,7 +492,7 @@ del::before
 ins::before { content: '+' }
 
 em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
-  display: contents;
+  display: inline;
   padding-inline: calc(.1682ch * var(--GOLDEN-RATIO));
 }
 b, strong { font-weight: bolder }
@@ -532,8 +539,8 @@ p {
   text-decoration: revert;
 }
 
-pre, code, kbd, samp {
-  padding: 0.5ch 1ch;
+pre, code, kbd, samp, var, data {
+  padding: 0.168em 0.5em;
   font-family: monospace;
 }
 pre {
@@ -551,6 +558,7 @@ kbd {
 pre code {
   margin: 1ch;
   font-size: smaller;
+  line-height: inherit;
 }
 header code, h1 code { font-variant-caps: initial }
 
