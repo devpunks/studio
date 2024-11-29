@@ -276,7 +276,7 @@ html {
 } /* html */
 
 body {
-  margin: 0 auto var(--margin-collapse-bugfix);
+  margin: var(--margin-collapse-bugfix) 0 auto var(--margin-collapse-bugfix);
   text-rendering: optimizeSpeed; /* https://css-tricks.com/almanac/properties/t/text-rendering */
 }
 
