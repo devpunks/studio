@@ -152,7 +152,7 @@
       <caption>Table Caption</caption>
 
       <thead>
-        <tr><th>This is the table header {date}
+        <tr><th>This is the table header <time datetime='{time}'>{date}</time>
       </thead>
 
       <tbody>
@@ -190,7 +190,10 @@
         } // .microphones
 
         get date ()
-          { return new Date } // .date
+        { return ( new Date ).toUTCString () } // .date
+
+        get time ()
+          { return new Date } // .time
 
         get table () {
           return [
