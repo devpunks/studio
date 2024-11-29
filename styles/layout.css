@@ -12,6 +12,7 @@
   Floating
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context
 */
+:root {}
 
 /*
   Performance
@@ -23,13 +24,6 @@
       - https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment
       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
 */
-
-/*
-  Media Queries:
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
-    - display-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode
-*/
-:root {}
 
 /*
   Screen
