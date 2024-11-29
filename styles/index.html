@@ -900,17 +900,73 @@ class Shape {
           <dd>This is a definition list division.
 
         <dt><em>(Parent)</em> Definition Title
-          <dd><em>(Parent)</em> definition list division.
+        <dd><em>(Parent)</em> definition list division.
           <dl>
             <dd><em>(Child)</em> definition list division.
             <dt><em>(Child)</em> Definition Title</dt>
-              <dd><em>(Child)</em> definition list division.
-              <dd><em>(Child)</em> definition list division.
             <dt><em>(Child)</em> <em>(Double)</em> Definition Title
               <dd><em>(Child)</em> definition list division.
               <dd><em>(Child)</em> definition list division.
+              <dd><em>(Child)</em> definition list division.
+              <dd><em>(Child)</em> definition list division.
           </dl>
+
+        <dd><em>(Child)</em> Unordered List
+          <ul>
+            <li>List Item
+            <li>List Item
+            <li>List Item
+            <li>List Item
+              <ul>
+                <li><em>(Child)</em> List Item
+                <li><em>(Child)</em> List Item
+                <li><em>(Child)</em> List Item
+                <li><em>(Child)</em> List Item
+              </ul>
+          </ul>
+
+        <dd><em>(Child)</em> Ordered List
+          <ol>
+            <li>List Item
+            <li>List Item
+            <li>List Item
+            <li>List Item
+              <ol type=1>
+                <li><em>(Child)</em> List Item
+                <li><em>(Child)</em> List Item
+                <li><em>(Child)</em> List Item
+                <li><em>(Child)</em> List Item
+              </ol>
+          </ol>
       </dl>
+
+      <h3>Unordered List</h3>
+      <ul>
+        <li>List Item
+        <li>List Item
+        <li>List Item
+        <li>List Item
+          <ul>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ul>
+      </ul>
+
+      <header><code>&lt;ul role=list&gt;</code></header>
+      <ul role=list>
+        <li>List Item
+        <li>List Item
+        <li>List Item
+        <li>List Item
+          <ul>
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+            <li><em>(Child)</em> List Item
+          </ul>
+      </ul>
 
       <h3>Ordered List</h3>
       <ol>
@@ -973,36 +1029,6 @@ class Shape {
             <li><em>(Child)</em> List Item
           </ol>
       </ol>
-
-      <h3>Unordered List</h3>
-      <!-- https://scottohara.me/blog/2019/01/12/lists-and-safari.html -->
-
-      <ul>
-        <li>List Item
-        <li>List Item
-        <li>List Item
-        <li>List Item
-          <ul>
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-          </ul>
-      </ul>
-
-      <header><code>&lt;ul role=list&gt;</code></header>
-      <ul role=list>
-        <li>List Item
-        <li>List Item
-        <li>List Item
-        <li>List Item
-          <ul>
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
-          </ul>
-      </ul>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
