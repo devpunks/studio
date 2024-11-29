@@ -40,13 +40,12 @@
   - https://pearsonified.com/2011/12/golden-ratio-typography.php
   - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography
 */
-
 :root {
   --margin: 1ch auto;
   --text-align: center;
   --line-length: 75em; /* https://baymard.com/blog/line-length-readability */
   --column-count: 1; /* https://drafts.csswg.org/css-multicol-1 */
-  --tab-size: 2; /* &#0009 - https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
+  --tab-size: 2; /* https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size */
 
   /*
   - Vertical rhythm
