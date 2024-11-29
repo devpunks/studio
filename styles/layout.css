@@ -33,6 +33,26 @@
 */
 
 /*
+  Media Queries:
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+    - display-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode
+*/
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/*
   Orientation:
     - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation
     - https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation
