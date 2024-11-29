@@ -392,6 +392,7 @@ pre, code, kbd, samp {
 kbd {
   min-width: 2em;
   line-height: normal;
+  text-indent: initial;
   border: 0.168em solid;
   border-radius: 0.5ch;
   display: inline-block;
@@ -474,7 +475,7 @@ nav > details > summary::before
   z-index: 1;
   top: 0;
   left: 0ch;
-  width: 3em;
+  width: auto;
   font-size: 1em;
 }
 nav > details > summary::after {
