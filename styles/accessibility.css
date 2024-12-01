@@ -60,6 +60,37 @@ a:active { color: red }
 
 [accesskey] {}
 [accesskey]::before {}
+
+[accesskey]:hover::after,
+[aria-label]:hover::after,
+[accesskey]:focus-visible::after,
+[aria-label]:focus-visible::after {
+  left: 0;
+  top: 100%;
+  z-index: 1;
+  opacity: 0.8;
+  cursor: default;
+  font-size: small;
+  padding: 0.681ch;
+  background: Canvas;
+  position: absolute;
+  display: list-item;
+  min-width: max-content;
+  border-radius: 0.5em;
+  list-style-type: 'ⓘ';
+  list-style-position: inside;
+}
+[aria-label]:hover::after, [aria-label]:focus-visible::after {
+  content: attr(aria-label);
+}
+[accesskey]:hover::after, [accesskey]:focus-visible::after {
+  content: attr(accesskey);
+}
+[aria-label][accesskey]:hover::after,
+[aria-label][accesskey]:focus-visible::after {
+  content: attr(accesskey) ' - ' attr(aria-label);
+}
+
 nav > dl, nav > ol, nav > ul {
   opacity: 0.7;
   background: rgba(255,255,255,0.5);
