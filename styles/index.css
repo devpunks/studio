@@ -292,16 +292,7 @@ a > header, a > h1, a > h2, a > h3, a > h4, a > h5, a > h6
 body > header {}
 nav > header {}
 nav > header::before,
-nav > header::after {
-  padding: 0.2ch;
-  /* margin: 0 0.1ch; */
-}
-nav > header::before {
-  content: '🧭';
-}
-nav > header::after {
-  content: '⬊';
-}
+nav > header::after {}
 
 iframe {
   width: 100%;
