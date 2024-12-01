@@ -162,6 +162,13 @@
 /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
 :-moz-focusring { outline: 1px dotted ButtonText }
 
+::before, ::after, ::marker {
+  /* https://seek-oss.github.io/capsize */
+  /* https://blog.kizu.dev/cap-height-align */
+  /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
+  /* margin-top: calc(1ex - 1cap); */
+  display: inline-block;
+}
 :link::before, :link::after {
   content: ''; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
   border-radius: 0.2ch;
