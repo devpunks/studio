@@ -174,11 +174,6 @@
   border-radius: 0.2ch;
 }
 
-::before, ::after, ::marker {
-  /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
-  margin-top: calc(1ex - 1cap);
-  display: inline-block;
-}
 
 html {
   color: CanvasText;
