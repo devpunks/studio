@@ -149,7 +149,10 @@ body > nav::before, body > nav::after {
   background: inherit;
 }
 body > nav::before {
-  /* float: left; */
+  float: left;
+  background: red;
+  line-height: 2em;
+  z-index: 1;
 }
 
 nav > * {}
