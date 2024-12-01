@@ -375,10 +375,6 @@ header *
           text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
-:link::, :link::after {
-  content: '';
-  border-radius: 0.2ch;
-}
 :link:hover, header :link:hover {
   text-decoration-color: currentColor;
 }
