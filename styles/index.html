@@ -2393,8 +2393,12 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <fieldset>
           <legend>Link buttons</legend>
 
-          <a role=button title='<a>nchor link button' href=#buttons><code>&lt;a&gt;</code>nchor link</a>
-          <a role=button disabled aria-disabled=true tabindex=-1 title='<a>nchor link button' href=#buttons><em>(disabled)</em><code>&lt;a&gt;</code>nchor link</a>
+          <a role=button
+            title='<a>nchor link button' aria-label='<a>nchor link button'
+            href=#buttons><code>&lt;a&gt;</code>nchor link</a>
+          <a role=button disabled aria-disabled=true tabindex=-1
+            title='<a>nchor link button' aria-label='<a>nchor link button' href=#buttons>
+            <em>(disabled)</em><code>&lt;a&gt;</code>nchor link</a>
         </fieldset>
       </menu>
 
