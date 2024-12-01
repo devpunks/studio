@@ -390,6 +390,25 @@ kbd {
   background-color: Canvas;
   box-shadow: 0.25ch 0.25ch 0 currentColor;
 }
+samp {
+  display: inline-block;
+}
+samp > kbd {
+  inline-flex;
+  border: none;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: baseline;
+  herit;
+  background: inherit;
+}
+samp > kbd::before {
+  content: '$';
+  font-size: 1.682em;
+  display: list-item;
+  list-style-type: '💻';
+  list-style-position: inside;
+}
 pre code {
   display: inherit;
   white-space: break-spaces;
