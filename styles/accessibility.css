@@ -126,7 +126,18 @@ a[href='#']:hover { opacity: 1 }
     - https://piccalil.li/blog/a-modern-css-reset
     - https://scottohara.me/blog/2019/01/12/lists-and-safari.html
   */
-  list-style: none;
+  /* list-style: none; */
+  /* margin-block: 1ch; */
+  /* list-style-position: inside; */
+}
+[role='list'] {
+  background: red;
+}
+[role='list'] li {
+  /* display: flex; */
+  flex-wrap: wrap;
+  align-items: stretch;
+  background: rgba(100,100,100,0.5);
 }
 
 [role='list'] li::before {
