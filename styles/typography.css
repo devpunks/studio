@@ -579,7 +579,10 @@ kbd {
   white-space: nowrap;
   text-transform: uppercase;
 }
-pre code {
+samp > kbd {
+  padding: initial;
+}
+pre > code {
   margin: 1ch;
   font-size: smaller;
   line-height: inherit;
