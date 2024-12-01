@@ -38,20 +38,9 @@
 
   - Golden Ratio:
     - https://en.wikipedia.org/wiki/Golden_ratio
+    - https://pearsonified.com/2011/12/golden-ratio-typography.php
     - https://adobe.com/creativecloud/design/discover/golden-ratio.html
     - https://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
-
-  - Emoji:
-    - Full Unicode List - https://unicode.org/emoji/charts/full-emoji-list.html
-
-  - W3C:
-    - CSS Fonts https://w3.org/TR/css-fonts-4
-    - https://w3c.github.io/csswg-drafts/css-fonts
-  - https://trentwalton.com/2012/06/19/fluid-type
-  - https://varvy.com/mobile/legible-font-size.html
-  - http://mikeyanderson.com/optimal_characters_per_line
-  - https://pearsonified.com/2011/12/golden-ratio-typography.php
-  - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography
 */
 :root {
   --margin: 1ch auto;
