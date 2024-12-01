@@ -587,7 +587,31 @@ pre > code {
   font-size: smaller;
   line-height: inherit;
 }
-header code, h1 code { font-variant-caps: initial }
+pre > samp {
+  kbd {
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+header > code, h1 > code { font-variant-caps: initial }
+
+var, data {
+  font-weight: bold;
+  margin-inline: 0.1618em;
+}
+
+math[display=block] {
+  padding-block: 1ch;
+  font-size: xx-large;
+  font-family: var(--Math);
+}
+math[display=inline] {}
+math::marker {}, math::before, math::after {}
+math::marker {}
+math::before {}
+math::after {}
+
 
 figcaption {
   font-size: 86%;
