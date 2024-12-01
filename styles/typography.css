@@ -316,9 +316,9 @@ main > section:first-of-type, body > aside {}
  */
 hgroup {}
 header, h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  line-height: var(--line-height);
   line-height: 2em;
+  font-weight: bold;
+  text-wrap: balance;
   margin: 2em 1rem 1em;
   background: rgba(100,100,100,0.5);
   padding: var(--margin-collapse-bugfix) 0;
