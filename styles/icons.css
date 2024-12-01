@@ -25,6 +25,12 @@ a[href='#']::before
   { content: '⇭' }
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
+a[rel=nofollow]::after
+  { content: '🤫' }
+a[rel=sponsored]::after
+  { content: '💸' }
+a[rel=ugc]::before
+  { content: '🗣️' }
 a[rel=help]::after
   { content: '❓' }
 address a[rel=help]::after
