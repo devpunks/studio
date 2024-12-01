@@ -158,6 +158,9 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   /* list-style-position: inside; */
   font-size: larger;
   white-space: nowrap;
+  display: inline-block;
+  box-sizing: border-box;
+  border-width: 0 0 0.1em;
   text-overflow: ellipsis;
   font-size: var(
   --font-size);
