@@ -507,6 +507,7 @@ dialog:not([open])
 button, [type=button], [type=submit], [type=reset], [role=button], ::file-selector-button, [type=file]::-webkit-file-upload-button {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
   cursor: pointer;
+  font-size: larger;
   width: max-content;
   max-width: inherit;
   white-space: normal;
@@ -514,7 +515,6 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   background: buttonFace;
   display: inline-block;
   border-radius: 0.1618em;
-  font-size: larger;
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
   border: 0.0168em solid currentColor;
