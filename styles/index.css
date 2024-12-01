@@ -481,14 +481,15 @@ nav > details > summary::after {
 nav > details > summary::before
   {
   display: list-item;
-  content: 'menu';
+  content: 'Menu';
   list-style: '👇';
   list-style-position: inside;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
-  top: 0;
-  left: 0ch;
-  width: auto;
+  /* top: 0; */
+  /* left: 0ch; */
+  width: min-content;
+  word-break: keep-all;
   font-size: 1em;
 }
 nav > details > summary::after {
