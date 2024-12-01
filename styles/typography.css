@@ -557,12 +557,6 @@ math {
   -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
   user-select: all; /* https://caniuse.com/user-select-none */
 }
-math[display=block] {padding-block: 1ch;font-size: xx-large;font-family: var(--Math);}
-math[display=inline] { background: red }
-math::marker {}
-math::before, math::after {}
-math::before {}
-math::after {}
 
 pre, code, kbd, samp, var, data {
   padding: 0.168em 0.5em;
