@@ -165,6 +165,7 @@ nav > details {
 nav > details[open] {
   background: inherit;
   /* overflow-y: scroll; */
+  background: rgba(200,200,20,0.5);
 }
 nav > details::before, nav > details::after {
   content: '🍔';
@@ -172,6 +173,9 @@ nav > details::before, nav > details::after {
 nav > details::before {
   content: 'menu';
   text-indent: 1ch;
+  text-align: inherit;
+  background: red;
+  display: block;
 }
 nav > details[open]::before {
  content: 'menu open';
