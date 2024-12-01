@@ -162,19 +162,13 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   box-sizing: border-box;
   border-width: 0 0 0.1em;
   text-overflow: ellipsis;
-  font-size: var(
-  --font-size);
-  font-size: var(--larger);
+  vertical-align: text-top;
   border: solid currentColor;
-  border-width: 0 0 0.1em;
+  line-height: var(--line-height);
   padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
-  line-height: var(
-  --line-height);
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
   user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
-  box-sizing: border-box;
-  vertical-align: text-top;
 }
 
 
