@@ -756,6 +756,8 @@ ol[type=i] {
 */
 ::marker {
   color: orange;
+  background: blue;
+  font-size: 2em;
 }
 ol > li::marker { content: counters(ordered, '.') }
 dd, dt, li {
