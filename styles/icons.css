@@ -98,8 +98,9 @@ a[href^=facetime-audio]::before { content: 'F🔈' }
 
 body > nav::before
   {/* content: '🍔'; */} /* ☰ 🍔 */
-nav > details > summary::marker
-  { content: '88🔴' }
+nav > header::before { content: '🧭' }
+nav > header::after { content: '⬊' }
+nav > details > summary::marker { content: '88🔴' }
 
 table::before, table::after
   { content: '☶ table' }
