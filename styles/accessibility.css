@@ -217,7 +217,6 @@ meter[title]::after, progress[title]::after
 [high][max][title]::after
   { content: 'below (' attr(high) ') out of ' attr(max) ' ' attr(title) }
 
-
 /* Pointer events - USE TO DISABLE RIGHT CLICK!
   - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 */
