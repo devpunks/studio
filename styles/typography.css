@@ -627,6 +627,7 @@ q { /* quotes */
   padding-inline: 0.5ch;
 
    /*
+    - https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html
     - https://tympanus.net/codrops/css_reference/quotes/
     - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
   */
