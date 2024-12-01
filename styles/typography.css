@@ -360,13 +360,15 @@ section > header, nav > header {
 header *
   { text-transform: initial }
 
-:link:has(header, h1, h2, h3, h4, h5, h6),
-:where(header, h1, h2, h3, h4, h5, h6) :link {
+a:link:has(header, h1, h2, h3, h4, h5, h6),
+:where(header, h1, h2, h3, h4, h5, h6) a:link {
   color: currentColor
 }
 
 /* hyperlinks */
-:link { /* TODO: migrate ARIA to accessibility.css */
+a:link { /* TODO: migrate ARIA to accessibility.css */
+  text-wrap: wrap;
+  white-space-collapse: collapse;
   white-space: normal;
   padding-inline: 0.2ch;
   word-break: break-word;
@@ -375,17 +377,17 @@ header *
           text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
-:link:hover, header :link:hover {
+a:link:hover, header a:link:hover {
   text-decoration-color: currentColor;
 }
-:link:hover::after, :link:hover::after {
+a:link:hover::after, a:link:hover::after {
   text-decoration: none;
 }
 
 footer :link { margin: 1ch }
 
-li > :link { vertical-align: top }
-cite > :link, sup > :link, sub > :link {
+li > a:link { vertical-align: top }
+cite > a:link, sup > a:link, sub > a:link {
   padding: 0;
   max-width: 12em;
   overflow: hidden;
@@ -395,11 +397,11 @@ cite > :link, sup > :link, sub > :link {
   vertical-align: text-bottom;
 }
 
-nav > :link {
+nav > a:link {
   margin: 1ch;
   text-align: start;
 }
-:link.logo {
+a:link.logo {
   font-size: 2em;
   line-height: 2em;
   white-space: nowrap;
