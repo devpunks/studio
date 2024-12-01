@@ -293,7 +293,7 @@ nav > header {}
 nav > header::before,
 nav > header::after {
   padding: 0.2ch;
-  margin: 0 0.1ch;
+  /* margin: 0 0.1ch; */
 }
 nav > header::before {
   content: '🧭';
