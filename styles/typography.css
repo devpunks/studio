@@ -327,7 +327,7 @@ header, h1, h2, h3, h4, h5, h6 {
 header::before, h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   text-align: center;
   white-space: nowrap;
-  margin-inline: 0.5ch;
+  margin-inline-end: 0.5ch;
   padding-inline: 0.1618ch;
   background: inherit;
 }
