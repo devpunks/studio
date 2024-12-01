@@ -171,14 +171,19 @@ nav > details::before, nav > details::after {
   content: '🍔';
 }
 nav > details::before {
-  content: 'menu';
-  text-indent: 1ch;
-  text-align: inherit;
-  background: red;
-  display: block;
+  content: 'Menu';
+  font-size: 1.681em;
+  padding-inline: 1ch;
+  display: list-item;
+  list-style-type: '⚙️';
+  list-style-position: inside;
+  line-height: initial;
+  margin: var(--margin-collapse-bugfix) auto;
+  background: CanvasText;
+  color: Canvas;];
 }
 nav > details[open]::before {
- content: 'menu open';
+ content: 'Menu open';
 }
 nav > details > summary::marker
   {}
