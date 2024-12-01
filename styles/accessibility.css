@@ -139,7 +139,6 @@ a[href='#']:hover { opacity: 1 }
   align-items: stretch;
   background: rgba(100,100,100,0.5);
 }
-
 [role='list'] li::before {
   content: '\200B'; /* add zero-width space */
   margin-inline-end: 0.6182ch;
