@@ -373,12 +373,8 @@ p > time::after {
 
 var, data {
   color: CanvasText;
-  font-weight: bold;
   background: ButtonFace;
-  margin-inline: 0.1618em;
 }
-var{}
-data {}
 
 pre, code, kbd, samp {
   border-radius: 1ch;
