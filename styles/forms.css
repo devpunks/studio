@@ -155,8 +155,8 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   width: 100%;
   /* max-width: var(--line-length); */
   /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
-  display: inline-block;
   /* list-style-position: inside; */
+  font-size: larger;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: var(
@@ -517,7 +517,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   background: buttonFace;
   display: inline-block;
   border-radius: 0.1618em;
-  font-size: var(--larger);
+  font-size: larger;
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
   border: 0.0168em solid currentColor;
