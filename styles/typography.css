@@ -736,8 +736,8 @@ table tr > *::before, table tr > *::after {
   font-size: smaller;
   text-align: center;
   white-space: nowrap;
+  line-height: 1.681em;
   writing-mode: horizontal-tb;
-  line-height: calc(1em * var(--GOLDEN-RATIO));
 }
 table tr > *::before { margin-right: 1ch }
 table tr > *::after  { margin-left: 1ch }
