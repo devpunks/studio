@@ -376,6 +376,33 @@ pre code {
   border-width: 0 0 0 0.02em;
 }
 
+/*
+  - https://isotropic.co/the-best-css-styling-for-blockquotes
+  - https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling
+*/
+blockquote { /* http://webtypography.net/2.3.3 */
+  opacity: 85%;
+  font-style: italic;
+  quotes: "\201C""\201D";
+  border: 0.01618em solid;
+  margin: var(--p-margin);
+  font-size: var(--larger);
+  padding-block: 3ch  1.682ch;
+  margin-block-start: var(--line-height);
+}
+blockquote::before {
+  left: 3ch;
+  width: 1ch;
+  height: 1ch;
+  opacity: 80%;
+  content: open-quote;
+  transform: scale(8);
+  line-height: 1.6182ch;
+}
+blockquote::after {
+  opacity: 40%;
+  content: '⤷\2002' attr(cite);
+}
 
 /* http://html5doctor.com/the-details-and-summary-elements */
 details {}
