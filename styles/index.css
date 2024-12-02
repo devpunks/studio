@@ -553,7 +553,7 @@ body > nav li li :link::before {
 body > nav li li :link:hover::before { content: '📝' }
 
 
-:link {
+a:link {
   cursor: pointer;
   position: relative;
   border-radius: 0.2ch;
@@ -562,8 +562,8 @@ body > nav li li :link:hover::before { content: '📝' }
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
-:link[rel=search] { cursor: help }
-:link[href='#'][title^=Top] {
+a:link[rel=search] { cursor: help }
+a:link[href='#'][title^=Top] {
   display: block;
   width: fit-content;
   text-decoration: none;
@@ -571,22 +571,22 @@ body > nav li li :link:hover::before { content: '📝' }
   padding: 1ch var(--line-height);
 }
 
-nav > :link { display: inline-block }
+nav > a:link { display: inline-block }
 li > :link {}
 li > :link::before, li > :link::after {}
 li > :link::before {}
 li > :link::after {}
 
-nav li > :link {
+nav li > a:link {
   padding: 0;
   flex: 1 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-nav li > :link::before, nav li > :link::after {}
-nav li > :link::before { content: '▸' }
-nav li > :link::after { content: '' }
+nav li > a:link::before, nav li > :link::after {}
+nav li > a:link::before { content: '▸' }
+nav li > a:link::after { content: '' }
 
 address {}
 li address {
