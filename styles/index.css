@@ -233,87 +233,20 @@ body > footer {
   background: Canvas;
 }
 
-
-/* HIDDEN
-  - https://meowni.ca/hidden.is.a.lie.html
-  - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
-  - https://css-tricks.com/comparing-various-ways-to-hide-things-in-css
-  - Invisible content - https://webaim.org/techniques/css/invisiblecontent
-  - until-found
-    - https://css-tricks.com/newsletter/295-hidden-until-found
-    - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
-  - content-visibility
-    - https://web.dev/articles/content-visibility
-*/
-template { display: none } /* IE custom elements */
-
-[hidden], [aria-hidden=true], template {
-  width: 1px;
-  height: 1px;
-  display: none;
-  overflow: hidden;
-   /* be careful..can be overridden */
-  position: absolute;
-  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
-  pointer-events: none;
-  clip-path: inset(50%);
-  content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
+:where(header, h1, h2, h3, h4, h5, h6) a:link,
+a:link:has(header, h1, h2, h3, h4, h5, h6) {
+  color: currentColor;
+}
+a:link:has(header, h1, h2, h3, h4, h5, h6) {
+  width: inherit;
+  display: block;
 }
 
+header, h1, h2, h3, h4, h5, h6
+  { display: block }
+a > :is( header, h1, h2, h3, h4, h5, h6 )
+  {width: 100%;display: inline-block;}
 
-/* PWA RELATED */
-/* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
-/* https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/DragAndDrop.html#//apple_ref/doc/uid/30001233-178644 */
-html, body {
-  -webkit-user-drag: none; /* https://stackoverflow.com/q/15034842 */
-  -webkit-user-select: none; /* Webkit (Chrome all / Safari all) */
-          user-select: none; /* https://caniuse.com/user-select-none */
-  -webkit-touch-callout: none; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
-  -webkit-tap-highlight-color: transparent; /* https://davidwalsh.name/mobile-highlight-color */
-}
-
-body[role=application] {}
-body > main   { -webkit-overflow-scrolling: touch }
-body > aside  { -webkit-transform: translatez(0) }
-body > footer { -webkit-transform: translatez(0) }
-/* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body > footer { -webkit-transform: translatez(0) }
-
-a { -webkit-touch-callout: default }
-
-iframe, pre, table, select[multiple] {
-  /*
-    - https://css-tricks.com/almanac/properties/s/scrollbar-gutter
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter
-    - https://bram.us/2021/07/23/prevent-unwanted-layout-shifts-caused-by-scrollbars-with-the-scrollbar-gutter-css-property
-  */
-  scrollbar-gutter: stable both-edges;
- }
-
-
-pre code, var, p, cite, blockquote, address
-/* and all id-entifiable headers */
-, header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
-  -webkit-user-drag: auto; /* https://stackoverflow.com/q/15034842 */
-  -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
-          user-select: text; /* https://caniuse.com/mdn-css_properties_user-select_text */
-  -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
-}
-
-code, data, kbd, mark, pre, q, samp, var {
-  -webkit-user-drag: auto; /* https://stackoverflow.com/q/15034842 */
-  -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
-          user-select: all; /* https://caniuse.com/mdn-css_properties_user-select_all */
-  -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
-}
-
-pre::selection, code::selection {
-  -webkit-tap-highlight-color: Mark; /* https://davidwalsh.name/mobile-highlight-color */
-}
-
-header, h1, h2, h3, h4, h5, h6 {}
-a > header, a > h1, a > h2, a > h3, a > h4, a > h5, a > h6
-  { display: inline-block }
 nav > header {}
 nav > header::before,
 nav > header::after {}
