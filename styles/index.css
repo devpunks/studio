@@ -24,7 +24,7 @@
 @import url('animation.css') layer(animation) not print;
 @import url('speech.css') layer(speech) speech not print;
 @import url('accessibility.css') layer(accessibility) not print;
- @import 'color.css' layer(color) color; */
+@import 'color.css' layer(color) color; */
 @import url(accessibility.css);
 @import url(speech.css);
 @import url(print.css);
