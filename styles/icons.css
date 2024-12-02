@@ -24,6 +24,8 @@
 a[href='#']::before
   { content: '⇭' }
 
+a[aria-disabled=true]::before
+  { content: '❌' }
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
 a[rel=nofollow]::after
   { content: '🤫' }
