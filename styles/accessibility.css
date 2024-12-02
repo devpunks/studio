@@ -70,7 +70,7 @@ a:active { color: red }
   z-index: 1;
   opacity: 0.8;
   cursor: default;
-  font-size: small;
+  font-size:medium;
   padding: 0.681ch;
   background: Canvas;
   position: absolute;
