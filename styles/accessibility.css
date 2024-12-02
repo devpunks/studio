@@ -171,7 +171,9 @@ a[href='#']:hover { opacity: 1 }
 mark::before,
 mark::after {
   color: red;
-  clip-path: inset(0%);
+  /* width: 0ch; */
+  /* overflow: auto; */
+  /* clip-path: inset(50%); */
 }
 mark::before { content: '[highlight start]' }
 mark::after  { content: '[highlight end]' }
