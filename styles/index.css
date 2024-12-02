@@ -174,6 +174,32 @@
 }
 
 
+/* HIDDEN
+  - https://meowni.ca/hidden.is.a.lie.html
+  - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+  - https://css-tricks.com/comparing-various-ways-to-hide-things-in-css
+  - Invisible content - https://webaim.org/techniques/css/invisiblecontent
+  - until-found
+    - https://css-tricks.com/newsletter/295-hidden-until-found
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
+  - content-visibility
+    - https://web.dev/articles/content-visibility
+*/
+template { display: none } /* IE custom elements */
+
+[hidden], [aria-hidden=true], template {
+  width: 1px;
+  height: 1px;
+  display: none;
+  overflow: hidden;
+   /* be careful..can be overridden */
+  position: absolute;
+  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+  pointer-events: none;
+  clip-path: inset(50%);
+  content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
+}
+
 html {
   color: CanvasText;
   background-color: Canvas;
