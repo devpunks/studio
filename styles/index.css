@@ -289,7 +289,6 @@ pre::selection, code::selection {
 header, h1, h2, h3, h4, h5, h6 {}
 a > header, a > h1, a > h2, a > h3, a > h4, a > h5, a > h6
   { display: inline-block }
-body > header {}
 nav > header {}
 nav > header::before,
 nav > header::after {}
