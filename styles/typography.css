@@ -315,9 +315,8 @@ main > section:first-of-type, body > aside {}
  * - http://webtypography.net/3.1.1
  */
 hgroup {}
-a:has(header, h1, h2, h3, h4, h5, h6) {
-  width: inherit;
-  display: block;
+header + header { font-size: 100% }
+a:link:has(header, h1, h2, h3, h4, h5, h6) {
   margin: 2em 1em 1em;
 }
 a > :is(header, h1, h2, h3, h4, h5, h6) {
