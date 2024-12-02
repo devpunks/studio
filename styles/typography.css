@@ -367,11 +367,6 @@ section > header, nav > header {
 header *
   { text-transform: initial }
 
-a:link:has(header, h1, h2, h3, h4, h5, h6),
-:where(header, h1, h2, h3, h4, h5, h6) a:link {
-  color: currentColor
-}
-
 /* hyperlinks */
 a:link { /* TODO: migrate ARIA to accessibility.css */
   text-wrap: wrap;
