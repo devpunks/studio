@@ -315,6 +315,14 @@ main > section:first-of-type, body > aside {}
  * - http://webtypography.net/3.1.1
  */
 hgroup {}
+a:has(header, h1, h2, h3, h4, h5, h6) {
+  width: inherit;
+  display: block;
+  margin: 2em 1em 1em;
+}
+a > :is(header, h1, h2, h3, h4, h5, h6) {
+  margin: unset;
+}
 header, h1, h2, h3, h4, h5, h6 {
   line-height: 2em;
   font-weight: bold;
@@ -333,11 +341,11 @@ header::before, h1::before, h2::before, h3::before, h4::before, h5::before, h6::
 }
 h1 {
   font-size: 2em; /* TODO: calc () */
-  text-shadow: 0.04em 0.04em 0;
+  /* text-shadow: 0.04em 0.04em 0; */
   line-height: var(--line-height);
-  -webkit-text-fill-color: Canvas;
-  -webkit-text-stroke-width: thin;
-  -webkit-text-stroke-color: GrayText;
+  /* -webkit-text-fill-color: Canvas; */
+  /* -webkit-text-stroke-width: thin; */
+  /* -webkit-text-stroke-color: GrayText; */
 }
 header {
   font-size: larger;
