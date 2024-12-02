@@ -75,10 +75,11 @@ a:active { color: red }
   background: Canvas;
   position: absolute;
   display: list-item;
-  min-width: max-content;
   border-radius: 0.5em;
+  min-width: max-content;
   list-style-type: 'ⓘ';
   list-style-position: inside;
+  line-height: var(--line-height);
 }
 [aria-label]:hover::after, [aria-label]:focus-visible::after {
   content: attr(aria-label);
