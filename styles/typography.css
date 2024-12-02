@@ -80,6 +80,7 @@
   --word-spacing: -0.1em; /* http://webtypography.net/2.1.1 */
 
   /* kerning "tracking"
+      - https://webtypography.net/2.1.8
       - 5%-12% (0.05em-0.012em) - https://practicaltypography.com/letterspacing.html
       - https://graphicdesign.stackexchange.com/questions/2606/difference-between-kerning-vs-letter-spacing
    */
