@@ -1388,9 +1388,16 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
 <!-- https://gist.github.com/perenstrom/f6a852170610827ec07854f6b03936ee -->
       <header><code>&lt; img srcset=&quot; …  &quot; &gt;</code></header>
-      <img alt='Kitten placeholder image'
-        src='http://placekitten.com/420/420'
-        srcset='http://placekitten.com/420/420 1x,' />
+      <img alt='&lt;img srcset=&quot; …  &quot; &gt;'
+        src='https://via.placeholder.com/500x500'
+        sizes='(min-width: 768px) 768px, (min-width: 500px) 500px,
+          (min-width: 450px) 450px, (min-width: 400px) 400px, 300px'
+        srcset='https://via.placeholder.com/768x768 768w,
+                https://via.placeholder.com/550x550 550w,
+                https://via.placeholder.com/500x500 500w,
+                https://via.placeholder.com/450x450 450w,
+                https://via.placeholder.com/400x400 400w,
+                https://via.placeholder.com/300x300 300w'>
 
       <header>
         <code>&lt;picture&gt;</code>
