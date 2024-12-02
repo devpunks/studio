@@ -26,6 +26,7 @@ a[href='#']::before
 
 a[aria-disabled=true]::before
   { content: '❌' }
+
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
 a[rel=nofollow]::after
   { content: '🤫' }
@@ -45,8 +46,6 @@ a[rel=bookmark]::before
   { content: '📁' }
 a[download]::before
   { content: '⟱' }
-a[rel=alternate][hreflang]::before
-  { content:  attr(target) attr(hreflang) }
 a[rel=pingback]::before
   { content: '⥹' }
 a[rel=next]::after
@@ -57,6 +56,8 @@ a[rel=tag]::before
   { content: '#' }
 a[rel=search]::before
   { content: '🔍' }
+a[rel=alternate][hreflang]::before
+  { content: attr(hreflang) attr(target) }
 
 a[href^=mailto]::before
   { content: '📧' }
