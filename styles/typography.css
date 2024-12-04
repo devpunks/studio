@@ -484,8 +484,8 @@ abbr { /* http://webtypography.net/3.2.2 */
   font-style: normal;
 }
 abbr[title] {
-  border-bottom: 0;
-  font-weight: bold;
+  font-size: 120%;
+  font-weight: 500;
   text-transform: uppercase;
   text-underline-offset: .168em;
   text-decoration-skip-ink: none;
