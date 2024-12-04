@@ -16,9 +16,9 @@
  * Responsive Videos
  *  - Responsive Video - https://adrianroselli.com/2023/12/media-queries-in-html-video.html
 */
-/* https://addyosmani.com/blog/lazy-loading */
-[loading=lazy] {}
 
+ /* https://addyosmani.com/blog/lazy-loading */
+[loading=lazy]  {}
 [loading=eager] {}
 
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
