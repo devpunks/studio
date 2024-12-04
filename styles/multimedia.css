@@ -12,6 +12,9 @@
  * Responsive Images
  *  - https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset
  *  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+ *
+ * Responsive Videos
+ *  - Responsive Video - https://adrianroselli.com/2023/12/media-queries-in-html-video.html
 */
 /* https://addyosmani.com/blog/lazy-loading */
 [loading=lazy] {}
