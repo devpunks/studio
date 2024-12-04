@@ -480,6 +480,7 @@ details > ol li, details > ul li {}
 
 
 abbr { /* http://webtypography.net/3.2.2 */
+  border-bottom: 0;
   font-style: normal;
 }
 abbr[title] {
