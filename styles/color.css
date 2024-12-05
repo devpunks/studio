@@ -18,7 +18,11 @@
     - Color Computation Tests - https://wpt.fyi/results/css/css-color/system-color-compute.html
 
    - ActiveText - Text in active links
-   - ButtonText - Text on push buttons.
+   - FieldText - Text in input fields
+   - Field - Background of input fields
+   - LinkText - Mon-active, non-visited
+   - VisitedText - Text in visited links
+   - ButtonText - Text on push button control
    - ButtonBorder - Base border color of controls
    - ButtonFace - The face background color for push buttons.
    - Canvas - Background of application content or documents
