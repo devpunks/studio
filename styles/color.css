@@ -29,8 +29,9 @@
    - CanvasText - Text in application content or documents
    - Canvas - Background of application content or documents
    - HighlightText - Text of item(s) selected in a control
-   - LinkText - Text in non-active, non-visited links.
-   - VisitedText - Text in visited links.
+   - Highlight - Background of item(s) selected in a control
+   - AccentColorText - Text of accented user interface controls
+   - AccentColor - Background of accented user interface controls
 
   - CSS <color> Values
     - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
