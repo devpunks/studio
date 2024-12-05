@@ -24,7 +24,9 @@
    - VisitedText - Text in visited links
    - ButtonText - Text on push button control
    - ButtonBorder - Base border color of controls
-   - ButtonFace - The face background color for push buttons.
+   - ButtonFace - The face background color for buttons
+   - GrayText - (disabled) text (#000 if not OS supported)
+   - CanvasText - Text in application content or documents
    - Canvas - Background of application content or documents
    - CanvasText - Text in application content or documents.
    - Field - Background of input fields.
