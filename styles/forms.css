@@ -446,6 +446,8 @@ textarea {
    overflow-y: scroll;
    white-space: unset;
 }
+textarea:not([cols]) { min-width: 50% }
+textarea:not([rows]) { min-height: 10em }
 
 select {
    /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
