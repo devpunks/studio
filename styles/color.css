@@ -52,13 +52,13 @@
 
 :root {
   --background-color: rgba(10,10,10, 0.8);
+  --a:                rgba(231,47,188,0.8);
+  --a\:hover:         rgba(231,47,188,1.0);
   --color:            rgba(240,240,240, 0.8);
   --lightest-color:   rgba(255,255,255,0.9);
   --lighter-color:    rgba(245,245,245,0.8);
   --darker-color:     rgba(200,200,200, 0.8);
   --darkest-color:    rgba(180,180,180, 0.7);
-  --a:                rgba(231,47,188,0.8);
-  --a\:hover:         rgba(231,47,188,1.0);
   --accent-color:     var(--lighter-color, CanvasColor); /* https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color */)
 }
 
