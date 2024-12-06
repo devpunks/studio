@@ -102,8 +102,6 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
     - https://smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide
   */
-  --Cursive:
-    Fantasy, Cursive, var(--Serif);
   --Math: 'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
     Math; /* https://www.w3.org/TR/css-fonts-4/#valdef-font-family-math */
   --Rounded: 'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
@@ -111,10 +109,14 @@
   --Serif: 'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
     Serif,              /* fallback */
     UI-Serif;           /* default user interface serif font */
-  --Sans-Serif: 'Noto Sans',      /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
+  --Sans-Serif: 'Noto Sans', /* Linux / KDE Plasma 5+ https://mail.kde.org/pipermail/distributions/2017-November/000258.html */
+    'Lucida Grande',  /* https://en.wikipedia.org/wiki/Lucida_Grande */
+    'Helvetica Neue', /* https://creativepro.com/helvetica-vs-neue-helvetica-same-but-different */
     Helvetica, Arial, /* Windows, macOSX, Linux defaults */
-    Sans-Serif,       /* fallback */
-    UI-Sans-Serif;    /* default user interface sans-serif font */
+    UI-Sans-Serif,    /* default user interface sans-serif font */
+    Sans-Serif;       /* fallback */
+  --Cursive:
+    Fantasy, Cursive, var(--Serif);
   --Monospace:
     Menlo, Monaco,              /* macOS */
     'SF Mono', SFMono,          /* macOS 10.10+ */
@@ -127,8 +129,10 @@
     Monospace,                  /* fallback */
     UI-Monospace;               /* default user interface monospace font */
   --System-UI:
+    system,                  /* Future proof */
     -apple-system,           /* "San Francisco", Chrome, macOSX */
     BlinkMacSystemFont,      /* "San Francisco", Chrome, macOS 10.x > */
+    'San Francisco', '.SFNSText-Regular', /* macOS 10 */
     'Droid Sans',            /* Android Chrome */
     'Segoe UI', Segoe,       /* Windows 6+ - https://en.wikipedia.org/wiki/Segoe */
     'RobotoRegular', Roboto, /* Android 4+ Chrome */
