@@ -94,6 +94,7 @@
    - https://caniuse.com/text-size-adjust
   */
   --text-size-adjust: 100%;
+  --text-size-adjust: none;
 
   /*
     -  https://devhints.io/css-system-font-stack
