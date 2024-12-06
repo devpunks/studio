@@ -1670,9 +1670,14 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
     <article id=audio>
       <header><code>&lt;audio&gt;</code> Element</header>
+      <audio src='https://w3schools.com/html/horse.ogg'>
+        ⚠️ Unsupported Audio.
+      </audio>
+
+      <header><code>&lt;audio <var>controls</var>&gt;</code> Element</header>
       <audio controls autopictureinpicture
-        preload='metadata' crossorigin='use-credentials' src='http://foo.com/bar.mp4'>
-        <source type='video/mpeg4' src='http://foo.com/bar.mp4'>
+        preload='metadata' crossorigin='use-credentials' src='https://w3schools.com/html/horse.ogg'>
+        <source type='video/mpeg4' src='https://w3schools.com/html/horse.ogg'>
         ⚠️ Unsupported Audio.
         <a title='download audio' href=#>click to download</a>
       </audio>
