@@ -93,6 +93,11 @@ iframe {
   overscroll-behavior: contain;
 }
 audio  { /* https://blog.shahednasser.com/how-to-style-an-audio-element */ }
+audio:not( [controls] ) {
+  height: 0;
+  display: none;
+}
+
 video  { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
 canvas {
   background: Canvas;
