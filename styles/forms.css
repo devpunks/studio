@@ -649,7 +649,7 @@ input:focus:not(:placeholder-shown):out-of-range,
   - https://stackoverflow.com/questions/12591966/html-disabled-button-getting-active-css-pseudo-class
   - https://dev.w3.org/html5/spec-LC/association-of-controls-and-forms.html#enabling-and-disabling-form-controls
 */
-:disabled, [aria-disabled=true],
+:disabled, [disabled], [aria-disabled=true],
 :disabled:hover, [aria-disabled=true]:hover
  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
   filter: none;
@@ -746,6 +746,7 @@ meter, progress {
   /* list-style-position: inside; */
   /* height: fit-content; */
   block-size: fit-content;
+  vertical-align: baseline;
 }
 /* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
 meter {}
