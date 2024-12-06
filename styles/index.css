@@ -357,7 +357,7 @@ samp > kbd {
 }
 samp > kbd::before {
   content: '$';
-  font-size: 1.682em;
+  font-size: 1.68em;
   display: list-item;
   list-style-type: '💻';
   list-style-position: inside;
