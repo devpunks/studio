@@ -818,10 +818,8 @@ ol > li::after { content: '\232A' }
 /* PWA RELATED */
 /* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
 /* https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/DragAndDrop.html#//apple_ref/doc/uid/30001233-178644 */
-@media( hover ) {
-  /* TODO: styles for with(out) hover */
+@media( hover ) { /* TODO: styles for with(out) hover */ }
 
-}
 html, body {
   -webkit-user-drag: none; /* https://stackoverflow.com/q/15034842 */
   -webkit-user-select: none; /* Webkit (Chrome all / Safari all) */
