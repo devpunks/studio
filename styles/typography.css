@@ -599,6 +599,7 @@ kbd {
 }
 samp > kbd {
   padding: initial;
+  text-transform: inherit;
 }
 pre > code {
   margin: 1ch;
