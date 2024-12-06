@@ -207,14 +207,7 @@ html {
   color: CanvasText;
   background-color: Canvas;
 }
-/* SCROLL SNAPPING
-  - https://w3.org/TR/css-scroll-snap-1
-  - https://drafts.csswg.org/css-scroll-snap-1
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
-*/
-body {
-  /* scroll-snap-type: y mandatory */
-}
+body {}
 body > * { outline: 0.3ch dashed }
 body > header, body > nav, body > main, body > aside, body > footer {
   background: inherit;
@@ -829,8 +822,15 @@ html, body {
   -webkit-touch-callout: none; /* Safari Touch - https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout */
   -webkit-tap-highlight-color: transparent; /* https://davidwalsh.name/mobile-highlight-color */
 }
-
-body[role=application] {}
+html {}
+body[role=application] {
+  /* SCROLL SNAPPING
+    - https://w3.org/TR/css-scroll-snap-1
+    - https://drafts.csswg.org/css-scroll-snap-1
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
+  */
+  /* scroll-snap-type: y mandatory */
+}
 body > main   { -webkit-overflow-scrolling: touch }
 body > aside  { -webkit-transform: translatez(0) }
 body > footer { -webkit-transform: translatez(0) }
