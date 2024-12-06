@@ -734,14 +734,13 @@ dl {
 }
 ul { list-style: inherit }
 ol {
-  list-style: ordered;
-  counter-reset: ordered 0;
-  counter-set: ordered 1;
+  counter-reset: ordered;
 }
 ol[type=i] {
   background: green;
   unicode-bidi: embed;
 }
+
 /*
   - https://drafts.csswg.org/css-lists-3/#marker-properties
   - https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker
