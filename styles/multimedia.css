@@ -72,9 +72,13 @@ figure img, iframe, picture img, audio, canvas, video {
   border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
-figure img, picture img, figure picture {
-  background: inherit;
+figure img, picture img, figure picture { background: inherit }
+figure img, picture img {
+  object-fit: cover;
+  /* https://smashingmagazine.com/2024/01/css-border-image-property */
+  border-image: fill 0 linear-gradient(magenta, #000);
 }
+
 figcaption { opacity: 0.4 }
 figure:hover figcaption { opacity: 0.618 }
 figcaption::before {
