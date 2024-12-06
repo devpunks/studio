@@ -678,6 +678,7 @@ blockquote::before {
 }
 blockquote p {
   text-align: start;
+  font-style: oblique;
 }
 blockquote p:first-of-type:first-letter {
   margin: 0;
