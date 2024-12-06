@@ -62,7 +62,7 @@ p img , p svg {
   padding-block-start: 0;
 }
 picture {}
-blockquote picture { margin: 0 4ch 1.6182em }
+blockquote picture { margin: 0 4ch 1.618em }
 figure {
   background: red;
 }
