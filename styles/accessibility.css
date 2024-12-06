@@ -167,6 +167,7 @@ a[href='#']:hover { opacity: 1 }
   border-inline-end: 0.3ch solid;
   background: color-mix(in lch, Canvas 80%, CanvasText);
 }
+[role=none] { list-style-type: none }
 
 mark::before,
 mark::after {
