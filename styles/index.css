@@ -154,8 +154,8 @@
   border-radius: 2em;
 }
 ::selection {
-  color: currentColor;
-  background: Highlight;
+  color: Canvas;
+  background-color: CanvasText;
 }
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
   padding: 0;
