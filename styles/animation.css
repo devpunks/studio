@@ -26,7 +26,19 @@
  * 3D
  *  - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
 */
-@media (prefers-reduced-motion: reduce) {
+
+:root {
+  /*
+    - https://nerdy.dev/interpolate-size
+    - https://developer.chrome.com/docs/css-ui/animate-to-height-auto
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size
+  */
+  interpolate-size: allow-keywords;
+}
+@media ( prefers-reduced-motion: no--preference ) {
+  html { scroll-behavior: smooth }
+}
+@media ( prefers-reduced-motion: reduce ) {
   /* https://piccalil.li/blog/a-modern-css-reset/ */
   *, *::before, *::after {
     scroll-behavior: auto !important;
