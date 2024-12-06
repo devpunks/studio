@@ -246,6 +246,7 @@ label output, label select, label textarea, label [type], label input:not([type]
     text-align: right;
 }
 
+[type=number] { -moz-appearance: textfield } /* Firefox */
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button
   { height: auto }
