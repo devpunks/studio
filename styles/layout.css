@@ -71,6 +71,31 @@
   box-sizing: inherit;
 }
 
+/* HIDDEN
+  - https://meowni.ca/hidden.is.a.lie.html
+  - https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html
+  - hidden - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+  - https://css-tricks.com/comparing-various-ways-to-hide-things-in-css
+  - Invisible content - https://webaim.org/techniques/css/invisiblecontent
+  - until-found
+    - https://css-tricks.com/newsletter/295-hidden-until-found
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden#the_hidden_until_found_state
+  - content-visibility
+    - https://web.dev/articles/content-visibility
+*/
+[hidden], [aria-hidden=true], template {
+  width: 1px;
+  height: 1px;
+  display: none;
+  overflow: hidden;
+   /* be careful..can be overridden */
+  position: absolute;
+  white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+  pointer-events: none;
+  clip-path: inset(50%);
+  content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
+}
+
 html, body {
   /*
     - https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm
