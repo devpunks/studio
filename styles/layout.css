@@ -88,8 +88,7 @@
   height: 1px;
   display: none;
   overflow: hidden;
-   /* be careful..can be overridden */
-  position: absolute;
+  position: absolute; /* be careful..can be overridden */
   white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
   pointer-events: none;
   clip-path: inset(50%);
