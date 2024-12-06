@@ -23,7 +23,7 @@
 
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
   vertical-align: middle;
-  max-width: var(--max-width);
+  max-width: var(--max-width, 100%);
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
@@ -39,6 +39,7 @@ picture, figure, canvas, audio, video, embed, object {
 audio, canvas, video, iframe[src*=youtube] {
   /* width: 100%; */
   /* padding: 1ch; */
+  vertical-align: baseline;
   aspect-ratio: 16 / 9;
   margin: var(--line-height) auto;
 }
