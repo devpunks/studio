@@ -22,11 +22,14 @@
 [loading=eager] {}
 
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
+  width: auto;
+  height: auto;
   vertical-align: middle;
   max-width: var(--max-width, 100%);
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
+  max-height: 80vh;
   object-fit: contain;
   object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }

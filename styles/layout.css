@@ -109,6 +109,7 @@ html, body {
   min-height: -moz-available;         /* WebKit-based browsers will ignore this. */
   min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
   min-height: stretch;                /* https://caniuse.com/?search=fill-available */
+  min-height: 100dvh;                 /* https://caniuse.com/mdn-api_css_dvh_static */
 }
 
 /* boxing - https://paulirish.com/2012/box-sizing-border-box-ftw */
