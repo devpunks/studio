@@ -106,6 +106,8 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
     white-space: nowrap;
   }
 }
+label { cursor: pointer }
+label > * { cursor: revert }
 label button {}
 label, label + input {
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
