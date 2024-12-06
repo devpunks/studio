@@ -37,8 +37,10 @@ form {
   caret-color: currentcolor; /* https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color */
 }
 form[autocomplete] {
+  gap: 2ch;
   columns: 2;
-  column-gap: 0;
+  column-gap: 2ch;
+  column-rule: 3px dotted;
   background: orange;
 }
 form:focus-within { }
