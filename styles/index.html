@@ -2264,8 +2264,11 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <fieldset id=textareas>
         <legend>Textareas</legend>
 
-        <label for=textarea>Textarea</label>
-        <textarea id=textarea rows=8 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'></textarea>
+        <label for=textarea>Textarea <em>(no <var>rows</var> or <var>cols</var>)</em></label>
+        <textarea id=textarea placeholder='Enter your message here'></textarea>
+
+        <label for=textarea:rows>Textarea<var>[rows]</var></label>
+        <textarea id=textarea:rows rows=8 cols=48 spellcheck=true title='Enter your message here' placeholder='Enter your message here'></textarea>
 
         <label>Textarea
           <em>(Nested in <code>&lt;label&gt;</code>)</em>
