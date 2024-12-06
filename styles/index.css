@@ -514,7 +514,7 @@ body > nav > details::after {
   position: fixed;
   text-align: center;
   line-height: 100svh;
-  background: rgba(128,0,0,0);
+  background: rgba(128,0,0,0.5);
   backdrop-filter: blur(49px); /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
 }
 body > nav > details[open]::after {}
