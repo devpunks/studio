@@ -344,8 +344,11 @@ kbd {
   box-shadow: 0.25ch 0.25ch 0 currentColor;
 }
 samp {
+  max-width: 100%;
+  overflow-x: auto;
   display: inline-block;
 }
+kbd > samp { overflow-x: unset }
 samp > kbd {
   inline-flex;
   border: none;
