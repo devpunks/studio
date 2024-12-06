@@ -87,7 +87,11 @@ figcaption::before {
   display: inline-block;
 }
 
-iframe { display: block }
+iframe {
+  display: block;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior */
+  overscroll-behavior: contain;
+}
 audio  { /* https://blog.shahednasser.com/how-to-style-an-audio-element */ }
 video  { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
 canvas {
