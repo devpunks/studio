@@ -346,11 +346,7 @@ pre code {
 }
 
 p {}
-p::after {
-  clear: both;
-  content: 'p';
-  background: red;
-}
+p::after { clear: both }
 
 /*
   - https://isotropic.co/the-best-css-styling-for-blockquotes
