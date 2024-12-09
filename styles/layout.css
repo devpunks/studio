@@ -86,14 +86,13 @@
     - https://web.dev/articles/content-visibility
 */
 [hidden], [aria-hidden=true], template {
-  width: 1px;
-  height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
   position: absolute; /* be careful..can be overridden */
   white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
   pointer-events: none;
   clip-path: inset(50%);
+  width: 1px; height: 1px; /* Needed for Safari focusable elements */
   content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
   display: none; visibility: hidden; /* https://www.w3schools.com/css/tryit.asp?filename=trycss_display */
 }
