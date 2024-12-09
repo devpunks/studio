@@ -87,8 +87,8 @@
 [hidden], [aria-hidden=true], template {
   width: 1px;
   height: 1px;
-  display: none;
   overflow: hidden;
+  clip: rect(0 0 0 0);
   position: absolute; /* be careful..can be overridden */
   white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
   pointer-events: none;
