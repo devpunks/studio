@@ -215,8 +215,7 @@ nav > details::before {
 nav > details[open]::before {
  content: 'Menu open';
 }
-nav > details > summary::marker
-  {}
+nav > details > summary::marker {}
 
 
 /* Toolbar ============================================================= */
