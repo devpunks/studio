@@ -345,6 +345,13 @@ pre code {
   border-width: 0 0 0 0.02em;
 }
 
+p {}
+p::after {
+  clear: both;
+  content: 'p';
+  background: red;
+}
+
 /*
   - https://isotropic.co/the-best-css-styling-for-blockquotes
   - https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling
