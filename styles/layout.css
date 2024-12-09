@@ -85,9 +85,9 @@
   - content-visibility
     - https://web.dev/articles/content-visibility
 */
-[hidden], [aria-hidden=true], template {
+template, [hidden]:not(:focus):not(:active),
+[aria-hidden=true]:not(:focus):not(:active) {
   overflow: hidden;
-  clip: rect(0 0 0 0);
   position: absolute; /* be careful..can be overridden */
   white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
   pointer-events: none;
