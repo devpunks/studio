@@ -113,52 +113,52 @@
 ::-webkit-scrollbar {
   /* entire scrollbar region */
   width: 1em;
-  background-color: transparent;
+  background: inherit;
 }
-::-webkit-scrollbar:hover {
- background-color: rgba(0,0,0,0.0618);
-}
+::-webkit-scrollbar:hover { background: Canvas }
 ::-webkit-scrollbar-track {
   /* entire track region */
-  background-color: transparent;
-}
-::-webkit-scrollbar-track:hover {
-  background-color: transparent;
+  background: transparent;
+
+  &:hover { background: inherit }
 }
 ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
   /* track pieces */
-  background: transparent;
-}
-::-webkit-scrollbar-track-piece:hover,
-::-webkit-scrollbar-corner:hover {
+  background: none;
+
   /* (unscrolled) track pieces */
-  background-color: rgba(255,255,255,0.618);
+  &:active { background: CurrentColor }
+}
+::-webkit-scrollbar-track-piece:active, ::-webkit-scrollbar-corner:active {
+  background: CurrentColor;
 }
 ::-webkit-scrollbar-thumb {
   /* scrollbar thumb */
   /* test scrollbar height */
   height: 30%;
+  border: .3em solid;
+  border-color: Canvas;
   border-radius: 0.618em;
   outline: 0.1618em solid;
-  outline-color: ButtonText;
-  outline-offset: -0.1618em;
-  background-color:  ButtonFace;
-  border: .3em solid ButtonFace;
+  outline-offset: -0.168em;
+  background:  CurrentColor;
+  outline-color: transparent;
 }
 ::-webkit-scrollbar-thumb:hover {
   outline-color: CurrentColor;
-  background-color: CurrentColor;
+}
+::-webkit-scrollbar-thumb:active {
+  border-color: CurrentColor;
 }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
-::backdrop { background-color: currentColor }
-::-moz-selection {
-  color: HighlightText;
-  background: Highlight;
-  border-radius: 2em;
-}
+::backdrop { background: currentColor }
 ::selection {
   color: Canvas;
-  background-color: CanvasText;
+  background: CanvasText;
+}
+::-moz-selection {
+  color: Canvas;
+  background: CanvasText;
 }
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
   padding: 0;
