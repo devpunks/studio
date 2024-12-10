@@ -237,12 +237,12 @@ html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   -moz-tab-size:  var(--tab-size);
   tab-size:       var(--tab-size);
-  font-size:      var(--font-size);
+  /* font-size:      var(--font-size); */
   text-align:     var(--text-align);
   font-family:    var(--font-family);
   line-height:    var(--line-height);
-  word-spacing:   var(--word-spacing);
-  letter-spacing: var(--letter-spacing);
+  /* word-spacing:   var(--word-spacing); */
+  /* letter-spacing: var(--letter-spacing); */
   font-size-adjust: from-font; /* Firefox - https://caniuse.com/font-size-adjust */
   font-stretch: semi-expanded;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
