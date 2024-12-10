@@ -56,6 +56,11 @@ a:active { color: red }
   z-index: 1;
   outline-offset: 0.2ch;
   outline: 0.3ch dashed;
+
+  p[contenteditable]& {
+    border-radius: 0.681ch;
+    outline-offset: 0.681ch;
+  }
 }
 
 [accesskey] {}
