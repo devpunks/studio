@@ -183,6 +183,24 @@
 
 </section>
 
+<section id=tabs>
+<!--
+  - https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
+  - https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
+-->
+  <ul role=tablist>
+    <li role=none>
+      <a role=tab title='Panel 1'
+        aria-controls=panel:1 aria-selected=false href=#panel:1> Panel 1</a>
+    <li role=none>
+      <a role=tab title='Panel 2'
+        aria-controls=panel:2 aria-selected=false href=#panel:2> Panel 2</a>
+  </ul>
+
+  <main id=panel:1>Panel 1</main>
+  <main id=panel:2>Panel 2</main>
+</section>
+
 <h1>Style Guide</h1>
 
 <aside>
