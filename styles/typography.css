@@ -129,7 +129,7 @@
     Monospace,                  /* fallback */
     UI-Monospace;               /* default user interface monospace font */
   --System-UI:
-    system,                  /* Future proof */
+    system,                  /* https://lists.w3.org/Archives/Public/www-style/2015Jul/0169.html */
     -apple-system,           /* "San Francisco", Chrome, macOSX */
     BlinkMacSystemFont,      /* "San Francisco", Chrome, macOS 10.x > */
     'San Francisco', '.SFNSText-Regular', /* macOS 10 */
