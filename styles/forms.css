@@ -15,7 +15,7 @@
 @media screen and (min-width: 786px) { :root { } }
 
 /* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
-::placeholder {} /* 4.5:1 contrast ratio for ARIA */
+::placeholder { background: lime } /* 4.5:1 contrast ratio for ARIA */
 
 /* Remove tapping delay
  *   https://css-tricks.com/almanac/properties/t/touch-action/
