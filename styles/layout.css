@@ -97,6 +97,11 @@ template, [hidden]:not(:focus):not(:active),
   content-visibility: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility */
   display: none; visibility: hidden; /* https://www.w3schools.com/css/tryit.asp?filename=trycss_display */
 }
+:not(:defined) { /* https://blog.kizu.dev/non-defined-custom-elements[] */
+  transition: visibility 0s 3s;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@starting-style */
+  @starting-style { visibility: hidden }
+}
 
 html, body {
   /*
