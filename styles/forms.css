@@ -14,8 +14,17 @@
 /* Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html */
 @media screen and (min-width: 786px) { :root { } }
 
-/* accessible placeholders & labels - https://www.nngroup.com/articles/form-design-placeholders/ */
-::placeholder { background: lime } /* 4.5:1 contrast ratio for ARIA */
+/* accessible placeholders & labels - https://nngroup.com/articles/form-design-placeholders */
+:is( input,textarea )::placeholder { /* 4.5:1 contrast ratio for ARIA */
+  opacity: 0.4;
+  color: inherit;
+  text-align:start;
+  background: inherit;
+  padding-inline: 1ch;
+  border-radius: 0.5ch;
+}
+:is( input,textarea ):not( [disabled] ):is( :hover, :focus-within )::placeholder
+  { opacity: 0.7 }
 
 /* Remove tapping delay
  *   https://css-tricks.com/almanac/properties/t/touch-action/
@@ -173,6 +182,11 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
   user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
+
+  /* https://kizu.dev/counters-and-stones */
+  &:not( [disabled] ):hover { background: magenta }
+
+  label:hover > &:hover:not( [disabled]) { background: lime }
 }
 
 
