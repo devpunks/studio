@@ -185,8 +185,12 @@
 
 <section id=tabs>
 <!--
-  - https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
-  - https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
+  - https://codepen.io/aardrian/pen/kdGMVx
+  - https://adrianroselli.com/2013/02/aria-tabs.html
+  - https://scottohara.me/blog/2019/07/10/the-output-element.html
+  - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
+  - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
+  - (Mobile) https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html
 -->
   <ul role=tablist>
     <li role=none>
@@ -1246,19 +1250,13 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
             <dt><em>(Child)</em> <em>(Double)</em> Definition Title
               <dd><em>(Child)</em> definition list division.
               <dd><em>(Child)</em> definition list division.
-              <dd><em>(Child)</em> definition list division.
-              <dd><em>(Child)</em> definition list division.
           </dl>
 
         <dd><em>(Child)</em> Unordered List
           <ul>
             <li>List Item
             <li>List Item
-            <li>List Item
-            <li>List Item
               <ul>
-                <li><em>(Child)</em> List Item
-                <li><em>(Child)</em> List Item
                 <li><em>(Child)</em> List Item
                 <li><em>(Child)</em> List Item
               </ul>
@@ -1268,11 +1266,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <ol>
             <li>List Item
             <li>List Item
-            <li>List Item
-            <li>List Item
-              <ol type=1>
-                <li><em>(Child)</em> List Item
-                <li><em>(Child)</em> List Item
+              <ol>
                 <li><em>(Child)</em> List Item
                 <li><em>(Child)</em> List Item
               </ol>
@@ -1291,6 +1285,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
           </ul>
+        <li>List Item
+        <li>List Item
       </ul>
 
       <header><code>&lt;ul role=list&gt;</code></header>
@@ -1305,6 +1301,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
           </ul>
+        <li>List Item
+        <li>List Item
       </ul>
 
       <header><code>&lt;ul role=none&gt;</code></header>
@@ -1319,6 +1317,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
           </ul>
+        <li>List Item
+        <li>List Item
       </ul>
 
       <header><code>&lt;ul role=presentation&gt;</code></header>
@@ -1333,6 +1333,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
           </ul>
+        <li>List Item
+        <li>List Item
       </ul>
 
       <header>Ordered List</header>

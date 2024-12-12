@@ -157,22 +157,27 @@ body > a[href='#main']:focus-visible:hover {
 a[href='#'][title^=Top] { opacity: 0.3 }
 a[href='#']:hover { opacity: 1 }
 
-[role='list'],
-[role='list'] li {
+[role=none], [role=none] li {
   /*
     - https://piccalil.li/blog/a-modern-css-reset
+    - https://bugs.webkit.org/show_bug.cgi?id=193382
+    - https://bugs.webkit.org/show_bug.cgi?id=170179
+    - https://yatil.net/blog/much-ado-about-no-lists
+    - https://x.com/cookiecrook/status/1337226933822603270
     - https://scottohara.me/blog/2019/01/12/lists-and-safari.html
+    - https://github.com/WebKit/webkit/blob/main/Source/WebCore/accessibility/AccessibilityList.cpp#L147
   */
   list-style: none;
 }
-
-[role='list'] li::before {
-  content: '\200B'; /* add zero-width space */
-  margin-inline-end: 0.618ch;
-  border-inline-end: 0.3ch solid;
-  background: color-mix(in lch, Canvas 80%, CanvasText);
+[role=presentation],
+[role=presentation] li {
+  list-style-type: none;
 }
-[role=none] { list-style-type: none }
+[role=presentation],
+[role=presentation] li::before {
+  content: '\200B'; /* add zero-width space */
+  border-inline-end: 0.3ch solid;
+}
 
 mark::before,
 mark::after {

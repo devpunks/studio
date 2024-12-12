@@ -731,7 +731,7 @@ ol[type=i] {
 ::marker {
   color: orange;
   background: blue;
-  font-size: 2em;
+  /* font-size: 2em; */
 }
 ol > li::marker { content: counters(ordered, '.') }
 dd, dt, li {
@@ -751,6 +751,11 @@ ul > li::after,
 ol > li::after {}
 ul > li::after {}
 ol > li::after { content: '\232A' }
+
+:is( dd, li ):has( > dl, > ol, > ul )::after {
+  position: absolute;
+  content: '';
+}
 
 
 /**** COUNTERS *******
