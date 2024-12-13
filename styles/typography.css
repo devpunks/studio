@@ -55,7 +55,11 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
     - https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
   */
-  /* https://utopia.fyi */
+  /*
+    - https://utopia.fyi
+    - https://mastodon.social/@mikemai2awesome/112094222983362704
+    - https://adrianroselli.com/2024/03/the-ultimate-ideal-bestest-base-font-size-that-everyone-is-keeping-a-secret-especially-chet.html
+*/
   --font-size: clamp(1rem, -1rem + 4vw, 4rem); /* http://webtypography.net/2.1.2 */
 
   /* https://julian.is/article/iphone-x-notch */
@@ -338,12 +342,18 @@ header, h1, h2, h3, h4, h5, h6 {
   padding: var(--margin-collapse-bugfix) 0;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
 }
-header::before, h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
-  text-align: center;
-  white-space: nowrap;
-  margin-inline-end: 0.5ch;
-  padding-inline: 0.1618ch;
-  background: inherit;
+header, h1, h2, h3, h4, h5, h6 {
+  &::before, &::after {
+    text-align: center;
+    white-space: nowrap;
+    padding-inline: 0.1618ch;
+  }
+
+  &::before {
+    background: inherit;
+    margin-inline-end: 0.5ch;
+  }
+  &::after { margin-inline-start: 0.5ch }
 }
 h1 {
   font-size: 2em; /* TODO: calc () */
@@ -375,28 +385,28 @@ header *
   { text-transform: initial }
 
 /* hyperlinks */
-a:link { /* TODO: migrate ARIA to accessibility.css */
+a {
   text-wrap: wrap;
-  white-space-collapse: collapse;
   white-space: normal;
   padding-inline: 0.2ch;
   word-break: break-word;
+  white-space-collapse: collapse;
   text-underline-offset: 0.168em;
   -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
 }
-a:link:hover, header a:link:hover {
+a:hover, header a:hover {
   text-decoration-color: currentColor;
 }
-a:link:hover::after, a:link:hover::after {
+a:hover::before, a:hover::after {
   text-decoration: none;
 }
 
-footer :link { margin: 1ch }
+footer a {/* margin: 10ch; *//* position: absolute; *//* left: 0; */}
 
-li > a:link { vertical-align: top }
-cite > a:link, sup > a:link, sub > a:link {
+li > a { vertical-align: top }
+cite > a, sup > a, sub > a {
   padding: 0;
   max-width: 12em;
   overflow: hidden;
@@ -406,7 +416,7 @@ cite > a:link, sup > a:link, sub > a:link {
   vertical-align: text-bottom;
 }
 
-nav > a:link {
+nav > a {
   margin: 1ch;
   text-align: start;
 }
@@ -661,13 +671,9 @@ q { /* quotes */
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-q::before {
-  display: inline;
-}
-q::after {
-  display: inline;
-  content: close-quote;
-}
+q::before {font-size: medium;content: '🗣️' open-quote}
+q::after {font-size: medium;content: close-quote}
+
 p q, q q {
   font-size: smaller;
   padding-inline: initial;
@@ -694,14 +700,12 @@ blockquote p:first-of-type:first-letter {
 }
 cite {
   opacity: 75%;
+  font-size: smaller;
   white-space: nowrap;
-  font-size: var(--smaller);
-  /* display: inline-flex; */
 }
-cite::before, cite::after {
-  content: '-'; /* https://en.wikipedia.org/wiki/Dash */
-  display: initial;
-}
+cite::before, cite::after {}
+cite::before { content: '\2014 ' }
+
 blockquote cite, q cite {}
 blockquote::after, blockquote cite {
   display: block;
@@ -826,7 +830,30 @@ summary {
 fieldset {}
 legend {
   font-weight: bold;
+  line-height: 1.682em;
   margin: var(--margin);
   font-size: var(--larger);
-  padding: var(--margin-collapse-bugfix) var(--line-height);
+  font-variant-caps: small-caps;
+
+  &:has(> header) {
+    &::before, &::after {
+      margin: 0;
+      padding: 0;
+      content: '';
+    }
+  }
+
+  > header {
+    font: inherit;
+    margin: initial;
+    line-height: inherit;
+    display: inline-block;
+  }
+
+  &::before, &::after {
+    text-align: center;
+    padding-inline: 0.5ch;
+  }
+  &::before { margin-inline-end: 0.5ch }
+  &::after  { margin-inline-start: 0.5ch }
 }

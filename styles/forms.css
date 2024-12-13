@@ -58,29 +58,31 @@ fieldset:focus-within { }
   - https://thatemil.com/blog/2017/07/01/fixing-fieldsets/
   - https://adrianroselli.com/2022/07/use-legend-and-fieldset.html
 */
+fieldset, legend {}
 fieldset {
-   /* box-sizing: border-box; */
-   max-width: 100%;
-
-   /* See https://github.com/twbs/bootstrap/issues/12359 */
-   /* border: solid currentColor; */
+  max-width: 100%;
+  border-radius: 0.5ch;
+  margin: var(--margin);
+  /* See https://github.com/twbs/bootstrap/issues/12359 */
+  text-align: var(--tab-size);
+  /* border: solid currentColor; */
 
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
-   /* border: none; */
-   margin: var(--margin);
+  /* border: none; */
 }
-fieldset[disabled] {}
-legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets/ */
+fieldset[disabled] { opacity: 0.682 }
+legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets */
+  display: flex;
   border: inherit;
   background: inherit;
-  /* display: contents; */
+
+  &::before, &::after {
+    content: '\2009';
+    /* content: 'X'; */
+    background: Canvas;
+    align-self: stretch;
+  }
 }
-fieldset input
-  { }
-fieldset ul, fieldset ol, fieldset dl
-  { }
-fieldset li
-  { }
 
 form details {
   padding: 0;

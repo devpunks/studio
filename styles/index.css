@@ -324,6 +324,7 @@ samp {
   max-width: 100%;
   overflow-x: auto;
   display: inline-block;
+  vertical-align: bottom;
 }
 kbd > samp { overflow-x: unset }
 samp > kbd {
