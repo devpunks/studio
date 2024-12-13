@@ -59,7 +59,7 @@
     - https://utopia.fyi
     - https://mastodon.social/@mikemai2awesome/112094222983362704
     - https://adrianroselli.com/2024/03/the-ultimate-ideal-bestest-base-font-size-that-everyone-is-keeping-a-secret-especially-chet.html
-*/
+  */
   --font-size: clamp(1rem, -1rem + 4vw, 4rem); /* http://webtypography.net/2.1.2 */
 
   /* https://julian.is/article/iphone-x-notch */
@@ -403,7 +403,11 @@ a:hover::before, a:hover::after {
   text-decoration: none;
 }
 
-footer a {/* margin: 10ch; *//* position: absolute; *//* left: 0; */}
+footer a {
+  /* left: 0; */
+  /* margin: 10ch; */
+  /* position: absolute; */
+}
 
 li > a { vertical-align: top }
 cite > a, sup > a, sub > a {
