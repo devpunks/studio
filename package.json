@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "license": "MIT",
-  "version": "0.15.6-1",
+  "version": "0.15.6",
   "module": "./index.es",
   "contributors": [],
   "author": "devPunks",
