@@ -27,15 +27,11 @@
 
 ## Call Sheets
 
-
 ## Camera Reports
-
 
 ## Filters
 
-
 ## Lenses
-
 
 ## Tools
 

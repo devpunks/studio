@@ -23,9 +23,7 @@ Automated or assigned to a `Caller` by the `Host`
 
 ## `Host`
 
-
 ## `Caller`
-
 
 ## `Conference`
 

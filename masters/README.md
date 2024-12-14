@@ -3,15 +3,11 @@
   - Bit depth
   - Sample rate
 
-
 ## Compress_(or)_
-
 
 ## Envelope
 
-
 ## Equalize_(er)_
-
 
 ## Limit_(er)_
 
