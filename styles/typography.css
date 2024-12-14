@@ -478,8 +478,8 @@ dt + dt {
   margin-block: var(--margin-collapse-bugfix);
 }
 dd, li {
-  margin: var(--margin-collapse-bugfix) auto 0;
   padding: var(--margin-collapse-bugfix) 0;
+  margin: var(--margin-collapse-bugfix) auto 0;
   line-height: calc( var(--line-height) * var(--GOLDEN-RATIO) * 0.8 );
 }
 dd, li li {
@@ -582,12 +582,11 @@ p {
 }
 
 math {
-  width: fit-content;
   margin: 1ch auto;
+  width: fit-content;
   padding: 0.1682ch 1ch;
-  ge;
-  border: 0.3ch solid Canvas;
   background: ButtonFace;
+  border: 0.3ch solid Canvas;
   -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
   user-select: all; /* https://caniuse.com/user-select-none */
 }
@@ -604,8 +603,8 @@ pre {
 code {
   align-self: start;
   line-height: normal;
-  vertical-align: middle;
   white-space: nowrap;
+  vertical-align: middle;
 }
 kbd {
   font-size: smaller;
@@ -674,9 +673,11 @@ q { /* quotes */
     "\2018" "\2019"; /* quotes */
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+
+  &::before, &::after { font-size: medium }
+  &::before { content: '🗣️' open-quote }
+  &::after { content: close-quote }
 }
-q::before {font-size: medium;content: '🗣️' open-quote}
-q::after {font-size: medium;content: close-quote}
 
 p q, q q {
   font-size: smaller;
