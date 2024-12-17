@@ -155,7 +155,7 @@
 ::spelling-error, ::grammar-error {
   color: inherit;
   background: inherit;
-  text-decoration: 0.6ch wavy red underline;
+  text-decoration: wavy underline red;
 }
 ::selection {
   color: Canvas;
