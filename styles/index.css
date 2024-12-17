@@ -815,7 +815,10 @@ li {}
 li li {}
 ol > li, ul > li {}
 ul > li {}
-ol > li { counter-increment: ordered }
+ol > li {
+  padding-inline: 0.618ch;
+  counter-increment: ordered;
+}
 ul > li::after,
 ol > li::after {}
 ul > li::after {}
