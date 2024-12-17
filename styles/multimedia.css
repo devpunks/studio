@@ -25,7 +25,7 @@ iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
   width: auto;
   height: auto;
   vertical-align: middle;
-  max-width: var(--max-width, 100%);
+  max-width: 100%;
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
@@ -65,7 +65,6 @@ p img , p svg {
   object-fit: cover;
   margin: 0 1em 1em;
   padding-block-start: 0;
-  width: clamp(20vw,50%,100vw);
 }
 picture {}
 blockquote picture { margin: 0 4ch 1.618em }
