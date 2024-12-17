@@ -153,12 +153,9 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
 ::backdrop { background: currentColor }
 ::spelling-error, ::grammar-error {
-  color: yellow;
-  cursor: ew-resize;
-  background-color: maroon;
-  text-emphasis-color: red;
-  outline: 0.5ch dashed red;
-  text-decoration: 2px wavy blue underline;
+  color: inherit;
+  background: inherit;
+  text-decoration: wavy blue underline;
 }
 ::selection {
   color: Canvas;
