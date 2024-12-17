@@ -407,6 +407,7 @@ body > nav {
   top: 0;
   z-index: 1;
   position: sticky;
+  margin-inline: auto;
 
   &::before, &::after {
     display: block;
@@ -431,13 +432,9 @@ nav > details {
 
   &::before, &::after { content: '🍔' }
   &::before {
-    color: Canvas;
     content: 'Menu';
-    font-size: 1.681em;
-    padding-inline: 1ch;
+    text-indent: 1em;
     display: list-item;
-    line-height: initial;
-    background: CanvasText;
     list-style-type:  '⚙️';
     list-style-position: inside;
     margin: var(--margin-collapse-bugfix) auto;
@@ -753,7 +750,9 @@ abbr[title] { cursor: help }
  * https://drafts.csswg.org/css-lists-3
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
-dl, ol, ul {}
+dl, ol, ul {
+  max-width: calc(100% - 2em);
+}
 
 nav > dl, nav > ol, nav > ul {
   margin: var(--margin-collapse-bugfix) 0;
@@ -780,6 +779,7 @@ footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
 dl {
+  border-radius: 0.618ch;
   margin: var(--margin-collapse-bugfix) 1em 1em;
   background: rgba(200,200,200,0.5);
 }
@@ -807,6 +807,7 @@ dd, dt, li {
   user-select: all;
 }
 dd {
+  border-radius: 0.618ch 0 0 0.618ch;
   background: inherit;
 }
 dt {}

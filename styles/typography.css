@@ -467,6 +467,9 @@ nav > dl, nav > ol, nav > ul {
 }
 nav > details > ul {}
 
+dd, dt, li {
+  text-indent: inherit;
+}
 dt {
   font-weight: bolder;
   text-indent: 0.618em;
@@ -490,6 +493,9 @@ dd {
   text-indent: 0.618em;
 }
 li {}
+ol > li {
+  text-indent: inherit;
+}
 
 nav li {
   background: inherit;
