@@ -140,9 +140,9 @@ html {
 body {
   height: 100%;
   /* height: 100svh; */
-  height: 100dvh;
-  /* display: flex; */
-  /* flex-direction: column; */
+  /* height: 100dvh; */
+  display: flex;
+  flex-direction: column;
 }
 
 body * { inset: 0 } /* https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
@@ -161,68 +161,6 @@ body > footer {
   /* position: sticky; */
 }
 
-/* Navigations ==================================================================
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menubar_role
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
- *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
- */
-body > a[href='#main'] { z-index: 1 }
-body > nav {
-  top: 0;
-  z-index: 1;
-  height: 100%;
-  /* height: 100vh; */
-  /* height: 100svh; */
-  position: sticky;
-}
-body > nav::before, body > nav::after {
-  content: '🚢<nav>';
-  display: block;
-  text-indent: 1ch;
-  background: inherit;
-}
-body > nav::before {
-  float: left;
-  background: red;
-  line-height: 2em;
-  z-index: 1;
-}
-
-nav > * {}
-nav > details {
-  width: inherit;
-  outline-style: dotted;
-  margin-block: 1ch;
-  background: inherit;
-}
-nav > details[open] {
-  background: inherit;
-  /* overflow-y: scroll; */
-  background: rgba(200,200,20,0.5);
-}
-nav > details::before, nav > details::after {
-  content: '🍔';
-}
-nav > details::before {
-  content: 'Menu';
-  font-size: 1.681em;
-  padding-inline: 1ch;
-  display: list-item;
-  list-style-type: '⚙️';
-  list-style-position: inside;
-  line-height: initial;
-  margin: var(--margin-collapse-bugfix) auto;
-  background: CanvasText;
-  color: Canvas;];
-}
-nav > details[open]::before {
- content: 'Menu open';
-}
-nav > details > summary::marker {}
-
 
 /* Toolbar ============================================================= */
 /* https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar */
@@ -233,7 +171,6 @@ nav > details > summary::marker {}
  *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tablist_role
  *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role
  */
-
 
 ::-webkit-resizer {
     background: red;

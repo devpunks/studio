@@ -152,8 +152,13 @@
 }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
 ::backdrop { background: currentColor }
-::spelling-error {
-  background-color: red;
+::spelling-error, ::grammar-error {
+  color: yellow;
+  cursor: ew-resize;
+  background-color: maroon;
+  text-emphasis-color: red;
+  outline: 0.5ch dashed red;
+  text-decoration: 2px wavy blue underline;
 }
 ::selection {
   color: Canvas;
@@ -193,7 +198,6 @@ body > header, body > nav, body > main, body > aside, body > footer {
 }
 body > header {}
 body > nav {
-  width: inherit;
   box-shadow: var(--box-shadow);
 }
 body > nav::before {
@@ -388,6 +392,72 @@ blockquote::after {
   content: no-close-quote '⤷\2002' attr(cite);
 }
 
+
+
+
+
+/* Navigations ==================================================================
+ *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role
+ *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menubar_role
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
+ *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
+ */
+body > a[href='#main'] { z-index: 1 }
+
+body > nav {
+  top: 0;
+  z-index: 1;
+  position: sticky;
+
+  &::before, &::after {
+    display: block;
+    text-indent: 1ch;
+    content: '🚢<nav>';
+    background: inherit;
+  }
+  &::before {
+    z-index: 1;
+    float: left;
+    line-height: 2em;
+    background: red;
+  }
+}
+
+nav > * {}
+nav > details {
+  width: inherit;
+  margin-block: 1ch;
+  background: inherit;
+  outline-style: dotted;
+
+  &::before, &::after { content: '🍔' }
+  &::before {
+    color: Canvas;
+    content: 'Menu';
+    font-size: 1.681em;
+    padding-inline: 1ch;
+    display: list-item;
+    line-height: initial;
+    background: CanvasText;
+    list-style-type:  '⚙️';
+    list-style-position: inside;
+    margin: var(--margin-collapse-bugfix) auto;
+  }
+
+  &[open] {
+    background: inherit;
+    /* overflow-y: scroll; */
+    background: rgba(200,200,20,0.5);
+
+    &::before {
+     content: 'Menu open';
+    }
+  }
+}
+nav > details > summary::marker {}
+
 /* http://html5doctor.com/the-details-and-summary-elements */
 details {}
 summary {
@@ -535,6 +605,7 @@ body > nav li li :link::before {
   line-height: var(--line-height);
 }
 body > nav li li :link:hover::before { content: '📝' }
+
 
 
 a:link {

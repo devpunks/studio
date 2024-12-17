@@ -58,29 +58,65 @@ fieldset:focus-within { }
   - https://thatemil.com/blog/2017/07/01/fixing-fieldsets/
   - https://adrianroselli.com/2022/07/use-legend-and-fieldset.html
 */
-fieldset, legend {}
 fieldset {
+  list-style-position: inside;
+  width: calc( 100% - 1ch);
   max-width: 100%;
+  inset: 1ch 1em;
   border-radius: 0.5ch;
   margin: var(--margin);
   /* See https://github.com/twbs/bootstrap/issues/12359 */
   text-align: var(--tab-size);
-  /* border: solid currentColor; */
+  border: 0.168ch solid currentColor;
+  background: rgba(255,255,255,0.1);
 
   /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
   /* border: none; */
-}
-fieldset[disabled] { opacity: 0.682 }
-legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets */
-  display: flex;
-  border: inherit;
-  background: inherit;
+  &[disabled] { opacity: 0.682 }
 
+  &:active, &:focus-within {
+    legend { color: CanvasText }
+  }
+  &::marker {
+    color: red;
+    content: 'M';
+  }
   &::before, &::after {
-    content: '\2009';
-    /* content: 'X'; */
-    background: Canvas;
-    align-self: stretch;
+    color: Canvas;
+    font-size: 1.618ch;
+    font-weight: lighter;
+    content: 'fieldset';
+    display: list-item;
+    list-style-type: '\2636';
+    background: inherit;
+  }
+  &::before { margin-bottom: 1ch }
+  &::after { margin-top: 1ch }
+
+  legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets */
+    z-index: 2;
+    width: 100%;
+    top: 0.681ch;
+    color: Canvas;
+    display: flex;
+    position: sticky;
+    border: inherit;
+    background: inherit;
+    border-radius: inherit;
+
+    &::before, &::after {
+      content: '\2009';
+      background: inherit;
+      align-self: stretch;
+      flex: 1;
+    }
+    &::before {
+      color: red;
+      content: '❌';
+      text-align: end;
+      display: list-item;
+      list-style-type: '⚠️';
+    }
   }
 }
 
@@ -813,8 +849,6 @@ meter { /* https://css-tricks.com/html5-meter-element/ */
   display: list-item;
   border-radius: 1ch;
 }
-
-
 
 ::-webkit-meter-bar, ::-webkit-progress-bar {
   background: Canvas;
