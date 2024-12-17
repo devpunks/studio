@@ -836,7 +836,7 @@ fieldset {}
 legend {
   font-weight: bold;
   line-height: 1.682em;
-  margin: var(--margin);
+  margin-block: 1ch auto;
   font-size: var(--larger);
   font-variant-caps: small-caps;
 
