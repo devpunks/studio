@@ -35,5 +35,8 @@ w3c.org Web App Manifest specification - https://w3.org/TR/appmanifest
 
 ## References
 
+  - Web Audio References - https://github.com/notthetup/awesome-webaudio
+  - [GridSound DAW](https://daw.gridsound.com)
+    - https://github.com/gridsound/daw
   - [Quota Management API](./quota_management_api.pdf)
   - [Media Elements](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
