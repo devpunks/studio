@@ -152,6 +152,9 @@
 }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
 ::backdrop { background: currentColor }
+::spelling-error {
+  background-color: red;
+}
 ::selection {
   color: Canvas;
   background: CanvasText;
@@ -174,7 +177,7 @@
   /* margin-top: calc(1ex - 1cap); */
   display: inline-block;
 }
-:link::before, :link::after {
+a::before, a::after {
   content: ''; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
   border-radius: 0.2ch;
 }
