@@ -494,88 +494,84 @@ nav > details > ul li li {
 nav > details > ul li li:hover {
   list-style-type: '➯';
 }
-nav details > summary {
-  cursor: s-resize;
-  list-style: '📁' inside;
-}
-nav > details > summary {
-  /* display: list-item; */
-  /* width: 50%; */
-  /* list-style-type: 'foo'; */
-  /* list-style-position: inside; */
-  background: darkgreen;
-  /* clip-path: inset(0px 244px 1px 170px); */
-   /* https://htmlsymbols.xyz/unicode/U+2630 */
-}
-nav > details > summary::before,
-nav > details > summary::after {
-  content: '☰';
-  width: 2em;
-  min-width: 2em;
-  margin-inline: 1ch;
-  padding-block: 1ch;
-  text-align: center;
-  z-index: 0;
-  font-size: 2em;
-  border: 0.2ch solid;
-}
-nav > details > summary::before
-  {
-  display: list-item;
-  content: 'Menu';
-  list-style: '👇';
-  list-style-position: inside;
-  /* position: absolute; */
-  z-index: 1;
-  /* top: 0; */
-  /* left: 0ch; */
-  width: min-content;
-  word-break: keep-all;
-  font-size: 1em;
-}
-nav > details > summary::after {
-  /* list-style-type: unset; */
-  /* position: fixed; */
-  /* bottom: 1ch; */
-  /* right: 1ch; */
-}
-nav details[open] > summary {
-  cursor: n-resize;
-  list-style: '📂';
-}
-nav > details[open] > summary {
-  margin-block-end: 1ch;
-  list-style-type: 'ⓧ';
-  list-style-position: inside;
-}
-nav > details[open] > summary::before,
-nav > details[open] > summary::after {
-  content: 'ⓧ';
-}
-nav > details[open] > summary:hover::before,
-nav > details[open] > summary:hover::after {
-  /* https://htmlsymbols.xyz/unicode/U+2716 */
-  /* content: '✖'; */
-}
-nav > details[open] > summary::before {
-  content: 'menu';
-}
-body > nav > details::after {
-  top: 0;
-  z-index: -2;
-  opacity: 75%;
-  display: none;
-  width: inherit;
-  height: 100svh;
-  font-size: 25vh;
-  position: fixed;
-  text-align: center;
-  line-height: 100svh;
-  background: rgba(128,0,0,0.5);
-  backdrop-filter: blur(49px); /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
-}
-body > nav > details[open]::after {}
 
+body > nav > details {
+
+  &[open] {
+    &::after { display: block }
+  
+    & > summary {
+      cursor: n-resize;
+      list-style: '📂';
+      margin-block-end: 1ch;
+      list-style-type: 'ⓧ';
+      list-style-position: inside;
+  
+      &::before, &::after {
+        content: 'ⓧ';
+      }
+      &::before {
+        content: 'menu';
+      }
+  
+      &:hover::before, &:hover::after {
+        /* https://htmlsymbols.xyz/unicode/U+2716 */
+        /* content: '✖'; */
+      }
+    }
+  }
+
+  & > summary {
+    cursor: s-resize;
+    list-style: '📁' inside;
+    /* display: list-item; */
+    /* width: 50%; */
+    /* list-style-type: 'foo'; */
+    /* list-style-position: inside; */
+    background: darkgreen;
+    /* clip-path: inset(0px 244px 1px 170px); */
+    /* https://htmlsymbols.xyz/unicode/U+2630 */
+
+    &::before, &::after {
+      content: '☰';
+      width: 2em;
+      z-index: 0;
+      font-size: 2em;
+      min-width: 2em;
+      margin-inline: 1ch;
+      padding-block: 1ch;
+      text-align: center;
+      border: 0.2ch solid;
+    }
+
+    &::before {
+      content: 'Menu';
+      display: list-item;
+      list-style: '👇';
+      list-style-position: inside;
+      z-index: 1;
+      width: min-content;
+      word-break: keep-all;
+      font-size: 1em;
+    }
+    &::after {}
+  }
+
+  &::after {
+    top: 0;
+    z-index: -1;
+    opacity: 75%;
+    display: none;
+    width: inherit;
+    height: 100svh;
+    font-size: 25vh;
+    position: fixed;
+    text-align: center;
+    line-height: 100svh;
+    background: transparent;
+    backdrop-filter: blur(19px); /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
+  }
+}
 
 nav li {
   margin: 1ch;
