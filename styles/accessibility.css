@@ -133,14 +133,15 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
   background: inherit;
 }
 
-
-/* LANDMARKS */
-[role=banner] {}
-[role=search] {}
-[role=main]   {}
-[role=form]   {}
-[role=contentinfo] {}
-[role=application] {}
+/* LANDMARKS - https://w3c.github.io/aria/#landmark */
+[role=form], body form {}
+[role=main], body > main {}
+[role=banner], body > header {}
+[role=navigation], body > nav {/* outline: 1ch dashed yellow; */}
+[role=contentinfo], body > footer {}
+[role=complementary], body > aside {}
+[role=search], form[role=search], search {}
+[role=application], body > main[role=application] {}
 
 body > a[href='#main'] { /* skip link */
   padding: 0;
