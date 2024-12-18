@@ -408,6 +408,7 @@ body > nav {
   z-index: 1;
   position: sticky;
   margin-inline: auto;
+  background: rgba(255,255,255,0.2);
 
   &::before, &::after {
     display: block;
@@ -426,13 +427,12 @@ body > nav {
 nav > * {}
 nav > details {
   width: inherit;
-  margin-block: 1ch;
-  background: inherit;
+  margin-block: var(--margin-collapse-bugfix);
   outline-style: dotted;
 
-  &::before, &::after { content: '🍔' }
+  &::before, &::after {}
   &::before {
-    content: 'Menu';
+    /* content: 'Menu'; */
     text-indent: 1em;
     display: list-item;
     list-style-type:  '⚙️';
@@ -441,12 +441,10 @@ nav > details {
   }
 
   &[open] {
-    background: inherit;
     /* overflow-y: scroll; */
-    background: rgba(200,200,20,0.5);
 
     &::before {
-     content: 'Menu open';
+     /* content: 'Menu open'; */
     }
   }
 }
@@ -461,7 +459,7 @@ summary {
 summary::before,
 summary::after {
   content: 'foo';
-  background: orange;
+  background: inherit;
 }
 summary::-webkit-details-marker
   { display: none } /* https://stackoverflow.com/a/66814239 */
@@ -490,71 +488,52 @@ nav > details > ul li li:hover {
 }
 
 body > nav > details {
-
   &[open] {
+    /* list-style: 'ⓧ' inside; */
     &::after { display: block }
-  
+
     & > summary {
-      cursor: n-resize;
-      list-style: '📂';
       margin-block-end: 1ch;
-      list-style-type: 'ⓧ';
-      list-style-position: inside;
-  
-      &::before, &::after {
-        content: 'ⓧ';
-      }
-      &::before {
-        content: 'menu';
-      }
-  
-      &:hover::before, &:hover::after {
-        /* https://htmlsymbols.xyz/unicode/U+2716 */
-        /* content: '✖'; */
-      }
     }
   }
 
-  & > summary {
-    cursor: s-resize;
-    list-style: '📁' inside;
-    /* display: list-item; */
-    /* width: 50%; */
-    /* list-style-type: 'foo'; */
-    /* list-style-position: inside; */
-    background: darkgreen;
+  & > summary { /* https://htmlsymbols.xyz/unicode/U+2630 */
+    display: flex;
+    background: inherit;
+    align-items: center;
+    justify-content: space-between;
     /* clip-path: inset(0px 244px 1px 170px); */
-    /* https://htmlsymbols.xyz/unicode/U+2630 */
 
     &::before, &::after {
-      content: '☰';
-      width: 2em;
-      z-index: 0;
-      font-size: 2em;
-      min-width: 2em;
-      margin-inline: 1ch;
-      padding-block: 1ch;
-      text-align: center;
-      border: 0.2ch solid;
+      cursor: pointer;
+      content: '\2009';
+      background: inherit;
+      padding: 1ch;
+      /* width: 4em; */
+      white-space: break-spaces;
+      /* overflow-wrap: break-word; */
+      width: auto;
+      word-break: keep-all;
+      display: list-item;
+      list-style: '☰' inside;
+      outline: 0.2ch dashed currentColor;
+    }
+    &::before {
+    }
+    &::after {
     }
 
-    &::before {
-      content: 'Menu';
-      display: list-item;
-      list-style: '👇';
-      list-style-position: inside;
-      z-index: 1;
-      width: min-content;
-      word-break: keep-all;
-      font-size: 1em;
+    &:hover::before, &:hover::after {
+      /* https://htmlsymbols.xyz/unicode/U+2716 */
+      /* content: '✖'; */
     }
-    &::after {}
   }
 
   &::after {
     top: 0;
     z-index: -1;
     opacity: 75%;
+    content: '🍔';
     display: none;
     width: inherit;
     height: 100svh;
