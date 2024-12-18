@@ -395,6 +395,8 @@ a {
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
   text-decoration: solid underline transparent .1em;
+
+  &::before, &::after {}
 }
 a:hover, header a:hover {
   text-decoration-color: currentColor;

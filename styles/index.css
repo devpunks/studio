@@ -1,6 +1,5 @@
 @charset 'utf-8'; /* https://en.wikipedia.org/wiki/UTF-8 */
 
-
 /* CSS Nesting - https://drafts.csswg.org/css-nesting */
 
 /* @import layers
@@ -109,7 +108,10 @@
  * - https://twitter.com/miketaylr/status/12228805301
  * - https://css-tricks.com/almanac/selectors/s/selection
  */
-/* scrollbars */
+/* Scrollbars
+  - https://drafts.csswg.org/css-scrollbars-1
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color
+*/
 ::-webkit-scrollbar {
   /* entire scrollbar region */
   width: 1em;
@@ -157,6 +159,10 @@
   background: inherit;
   text-decoration: wavy underline red;
 }
+/*
+  - https://github.com/w3c/csswg-drafts/issues/10212
+*/
+::search--text
 ::selection {
   color: Canvas;
   background: CanvasText;
@@ -172,17 +178,7 @@
 /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
 :-moz-focusring { outline: 1px dotted ButtonText }
 
-::before, ::after, ::marker {
-  /* https://seek-oss.github.io/capsize */
-  /* https://blog.kizu.dev/cap-height-align */
-  /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
-  /* margin-top: calc(1ex - 1cap); */
-  display: inline-block;
-}
-a::before, a::after {
-  content: ''; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
-  border-radius: 0.2ch;
-}
+::before, ::after, ::marker { display: inline-block }
 
 html {
   color: CanvasText;
@@ -230,8 +226,7 @@ nav > header::after {}
 iframe {
   width: 100%;
   border: none;
-  height: 50dvh;
-  background: canvas;
+  height: 80dvh;
 }
 hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
   border: 0;
@@ -242,7 +237,7 @@ hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
   box-sizing: content-box;
 }
 
-mark {
+mark { /* Custom Highlights API - https://drafts.csswg.org/css-highlight-api-1 */
   padding: 0.1618em;
   border-radius: 0.318em;
   box-shadow: var(--box-shadow);

@@ -73,6 +73,7 @@
     "vercel": "^19.1.2"
   },
   "scripts": {
+    "dev": "pm2-dev",
     "log": "pm2 log all",
     "test": "node --test",
     "start": "snuggsi serve",
@@ -80,9 +81,11 @@
     "monitor": "pm2 monit all",
     "restart": "pm2 restart all",
     "package": "snuggsi package",
-    "dev": "pm2-dev .config/pm2.js",
     "install": "echo  Installing devPunks.studio",
     "preinstall": "echo  pre-Installing devPunks.studio",
-    "postinstall": "echo  post-Installing devPunks.studio"
+    "postinstall": "echo  post-Installing devPunks.studio",
+    "preversion": ".bin/version",
+    "version": "echo npm version ; echo $npm_package_version # git add -A dist",
+    "postversion": "echo $npm_package_version"
   }
 }
