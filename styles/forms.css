@@ -19,7 +19,6 @@
   opacity: 0.4;
   color: inherit;
   text-align:start;
-  background: inherit;
   padding-inline: 1ch;
   border-radius: 0.5ch;
 }
@@ -52,7 +51,7 @@ form[autocomplete] {
   column-rule: 3px dotted;
   background: orange;
 }
-form:focus-within { }
+form:focus-within { }¸
 fieldset:focus-within { }
 /*
   - https://thatemil.com/blog/2017/07/01/fixing-fieldsets/
@@ -203,7 +202,9 @@ input:not([type]), input[type=text], input[type=password], input[type=search], i
 input[type=color], input[type=url], input[type=email], input[type=tel], input[type=number], input[type=range],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-  width: 100%;
+  /* width: 100%; */
+  max-width: calc(100% - 2ch);
+  margin-inline: 1ch;
   /* max-width: var(--line-length); */
   /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
   /* list-style-position: inside; */
@@ -219,7 +220,9 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
-  user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
+  user-select: text;
+
+   /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 
   /* https://kizu.dev/counters-and-stones */
   &:not( [disabled] ):hover { background: magenta }
@@ -229,9 +232,9 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
 
 
 label output, label select, label textarea, label [type], label input:not([type]) {
-  grid-column: 2;
-  width: calc((var(--GOLDEN-RATIO) - 1) * 100%);
-  /* flex-basis: 68%; */max-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length));
+  /* width: calc((var(--GOLDEN-RATIO) - 1) * 100%); */
+  /* flex-basis: 68%; */
+  /* max-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
 }
 
 [type=file] + output {
@@ -611,7 +614,8 @@ input:not([type]):read-only
   /*
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
   */
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1em' x='0.1682em'>*</text></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='1em' y='1em' x='0.1682em'>*</text></svg>");
+  background: rgba(0,0,0,0.7);
 }
 :required:not(:placeholder-shown), [required]:not(:placeholder-shown), [aria-required=true]:not(:placeholder-shown) {
   /*

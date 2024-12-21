@@ -111,20 +111,24 @@
     </ul>
   </nav>
 
-  <form role=search id=search action=?>
-    <label>Search
-      <input required placeholder=🔎Search title=🔎Search name=search type=search spellcheck=false >
-    </label>
+  <search spellcheck=true>
+    <form id=search action=?>
+      <label>Search
+        <input required id=🔎search list=🔎searches name=🔎search type=search
+          results=3 spellcheck=true enterkeyhint=search title=🔎Search placeholder='Search for…?' aria-label='Searchh for…?'>
+      </label>
+      <datalist id=🔎searches>
+        <option>Foo
+        <option>Bar
+        <option>Baz
+        <option>Bat
+        <option>Bam
+      </datalist>
 
-    <button>Search</button>
-
-    <a
-      rel=tags
-      href=tags
-      title=tags>
-      tags
-    </a>
-  </form>
+      <button>Search</button>
+      <a rel=tags href=tags title=tags>tags</a>
+    </form>
+  </search>
 </header>
 <!-- header.html --------------------------------------------------------->
 

@@ -55,15 +55,19 @@
     <img role=img alt='devPunks.studio' src='' sizes='' srcset='' />
   </a>
 
-  <details open><!-- Sticky search box - https://css-tricks.com/scroll-fix-content/ -->
-    <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role -->
+  <details open><!-- Sticky search box - https://css-tricks.com/scroll-fix-content -->
+    <!--
+      - https://github.com/whatwg/html/pull/7320
+      - https://github.com/whatwg/html/issues/5811
+      - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role
+    -->
     <summary>Search</summary>
 
-    <form role=search name=search title=Search action=?>
+    <form role=search name=search title=Search action=? spellcheck=true>
 
       <label for=🔎search>I am Looking for…?</label>
-      <input required id=🔎search results=5 list=🔎searches enterkeyhint=search
-        name=🔎search type=search title=🔎Search placeholder='I am Looking for…?'>
+      <input required id=🔎search list=🔎searches name=🔎search type=search
+        results=3 spellcheck=true enterkeyhint=search title=🔎Search placeholder='I am Looking for…?' aria-label='I am Looking for…?'>
 
       <input title=🔎Search value=🔎Search type=submit>
 
@@ -2163,8 +2167,17 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <fieldset id=html5>
         <legend>HTML5</legend>
 
-        <label for=search>Search</label>
-        <input id=search results=5 type=search title=Search placeholder=🔎Search>
+        <search spellcheck=true>
+          <label for=search>Search</label>
+          <input id=search list=searches results=5 type=search title=Search placeholder=Search>
+          <datalist id=searches>
+            <option>Foo
+            <option>Bar
+            <option>Baz
+            <option>Bat
+            <option>Bam
+          </datalist>
+        </search>
 
         <label for=ico>Combo</label>
         <input id=ico list=colors title='Start typing...' placeholder='Start typing...'>
