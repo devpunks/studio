@@ -255,27 +255,14 @@ label output, label select, label textarea, label [type], label input:not([type]
 /* Remove 'x' icon from search */
 [type=search]::-webkit-search-cancel-button { }
 [role=search] {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   border-bottom: 0.1em solid;
 }
 [role=search] label {
   background: pink;
-  flex: 1 100%;
-  font-size: 1em;
-  text-align: left;
-  height: 1em;
-  line-height: 1em;
 }
 [role=search]
   [type=search] {
-    height: 2em;
-    font-size: 1em;
-    line-height: 2em;
-    border-bottom: none;
     animation: none !important;
-    border-top: 1em solid rgba(0,0,0,0.001);
   }
 [role=search]
   [type=search]:placeholder-shown {

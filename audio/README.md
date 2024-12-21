@@ -10,4 +10,5 @@
 
 ## References
 
+  - [W3C Web Audio API](https://webaudio.github.io/web-audio-api)
   - [Tone.js](https://github.com/Tonejs/Tone.js)
