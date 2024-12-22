@@ -85,7 +85,7 @@
     "preinstall": "echo  pre-Installing devPunks.studio",
     "postinstall": "echo  post-Installing devPunks.studio",
     "preversion": ".bin/version",
-    "version": "echo npm version $npm_package_version # git add -A dist",
+    "version": "echo npm version ; echo $npm_package_version # git add -A dist",
     "postversion": "echo $npm_package_version"
   }
 }
