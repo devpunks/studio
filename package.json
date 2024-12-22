@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "license": "MIT",
-  "version": "0.11.8-4",
+  "version": "0.11.8-5",
   "module": "./index.es",
   "contributors": [],
   "author": "devPunks",
@@ -86,6 +86,6 @@
     "postinstall": "echo  post-Installing devPunks.studio",
     "preversion": "echo npm preversion $(.bin/version)",
     "version": "echo npm version $(.bin/version) # git add -A dist",
-    "postversion": "echo npm postversion $(.bin/version) `.bin/version`"
+    "postversion": "echo npm postversion $(.bin/version)"
   }
 }
