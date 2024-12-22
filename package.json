@@ -83,6 +83,8 @@
     "package": "snuggsi package",
     "install": "echo  Installing devPunks.studio",
     "preinstall": "echo  pre-Installing devPunks.studio",
-    "postinstall": "echo  post-Installing devPunks.studio"
+    "postinstall": "echo  post-Installing devPunks.studio",
+    "preversion": "echo npm preversion $(.bin/version)",
+    "version": "echo npm version $(.bin/version) # git add -A dist"
   }
 }
