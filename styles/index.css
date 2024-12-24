@@ -186,10 +186,6 @@
   /* margin-top: calc(1ex - 1cap); */
   display: inline-block;
 }
-a::before, a::after {
-  content: ''; /* needed for flex stretch - https://compart.com/en/unicode/U+2009 */
-  border-radius: 0.2ch;
-}
 
 html {
   color: CanvasText;

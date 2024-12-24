@@ -23,7 +23,10 @@ header, h1, h2, h3, h4, h5, h6 {
 :where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] ):hover::before
   { opacity: 75% }
 
-a[href='#']::before
+a::before, a::after
+  { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
+
+a[href='#']::before /* Jump-To-Top link */
   { content: '⇭' }
 
 a[aria-disabled=true]::before
