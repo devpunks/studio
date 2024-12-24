@@ -62,15 +62,13 @@
     "run": "./bin/run"
   },
   "peerDependencies": {
-    "pm2": "5.x"
+    "pm2": "^5.4.3"
   },
-  "devDependencies": {},
   "dependencies": {
-    "express": "4.x",
-    "npm": "^10.5.2",
-    "postcss": "8.x",
-    "postcss-import": "15.x",
-    "vercel": "^19.1.2"
+    "express": "^4.21.2",
+    "postcss": "^8.4.49",
+    "postcss-import": "^15.1.0",
+    "vercel": "^19.2.0"
   },
   "scripts": {
     "dev": "pm2-dev",

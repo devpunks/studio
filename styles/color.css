@@ -5,10 +5,24 @@
     Magenta   - https://en.wikipedia.org/wiki/Shades_of_magenta
     Gainsboro - https://en.wikipedia.org/wiki/Shades_of_gray#Gainsboro
 
-  - CSS System Colors
-    - https://www.w3.org/TR/css-color-4/#css-system-colors
-    - https://adrianroselli.com/2021/02/whcm-and-system-colors.html#CSS4
 
+  - CSS Native Colors
+    - https://www.w3.org/TR/css-color-3/#svg-color
+
+  - CSS <color> Values
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+  - CSS Colors Adjust
+     - https://www.w3.org/TR/css-color-adjust-1
+     =https://drafts.csswg.org/css-color-adjust
+
+  - CSS COLRv1
+    - https://css-tricks.com/colrv1-and-css-font-palette-web-typography/
+  - color-mix - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix
+  - forced-colors  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
+  - mix-blend-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+
+  - CSS System Colors
     - https://developer.mozilla.org/en-US/docs/Web/CSS/system-color
     - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#System_Colors
     - * CSS4 System Colors - https://www.w3.org/TR/css-color-4/#css-system-colors
@@ -18,37 +32,25 @@
     - Consistency Tests - https://wpt.fyi/results/css/css-color/system-color-consistency.html
     - Color Computation Tests - https://wpt.fyi/results/css/css-color/system-color-compute.html
 
-   - ActiveText - Text in active links
-   - FieldText - Text in input fields
-   - Field - Background of input fields
-   - LinkText - Mon-active, non-visited
-   - VisitedText - Text in visited links
-   - ButtonText - Text on push button control
-   - ButtonBorder - Base border color of controls
-   - ButtonFace - The face background color for buttons
-   - GrayText - (disabled) text (#000 if not OS supported)
-   - CanvasText - Text in application content or documents
-   - Canvas - Background of application content or documents
-   - HighlightText - Text of item(s) selected in a control
-   - Highlight - Background of item(s) selected in a control
-   - AccentColorText - Text of accented user interface controls
-   - AccentColor - Background of accented user interface controls
-
-  - CSS <color> Values
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
-
-  - CSS Native Colors
-    - https://www.w3.org/TR/css-color-3/#svg-color
-
-  - CSS Colors Adjust
-     - https://www.w3.org/TR/css-color-adjust-1
-     =https://drafts.csswg.org/css-color-adjust
-  - CSS COLRv1
-    - https://css-tricks.com/colrv1-and-css-font-palette-web-typography/
-  - color-mix - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix
-  - forced-colors  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors
-  - mix-blend-mode - https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+  - WHCM & System Colors
+    - https://w3.org/TR/css-color-4/#css-system-colors
+    - https://adrianroselli.com/2021/02/whcm-and-system-colors.html#CSS4
     - ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=970285
+    - ActiveText - Text in active links
+    - FieldText - Text in input fields
+    - Field - Background of input fields
+    - LinkText - Mon-active, non-visited
+    - VisitedText - Text in visited links
+    - ButtonText - Text on push button control
+    - ButtonBorder - Base border color of controls
+    - ButtonFace - The face background color for buttons
+    - GrayText - (disabled) text (#000 if not OS supported)
+    - CanvasText - Text in application content or documents
+    - Canvas - Background of application content or documents
+    - HighlightText - Text of item(s) selected in a control
+    - Highlight - Background of item(s) selected in a control
+    - AccentColorText - Text of accented user interface controls
+    - AccentColor - Background of accented user interface controls
 */
 
 :root {

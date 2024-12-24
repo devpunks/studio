@@ -1832,8 +1832,9 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
     <h2>Forms</h2>
     <!-- https://adrianroselli.com/2020/01/my-priority-of-methods-for-labeling-a-control.html -->
 
-    <form autocomplete name=autocomplete action=#>
-        <input hidden required minlength=2 placeholder=Language name=language autocomplete=language>
+    <form name=spelling spellcheck=true action=#>
+        <input hidden required minlength=2
+          placeholder=Language name=language autocomplete=language>
 <span hidden>
         <label for=la>Language</label>
         <input required placeholder=foo id=la>
@@ -1841,13 +1842,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <label for=la2>Language</label>
         <input required id=la2>
 </span>
-
         <label>Language
-          <input placeholder=foo required autocomplete=language>
-        </label>
-
-        <label>Language
-          <input placeholder=foo required autocomplete=language>
+          <input required spellcheck=true placeholder=foo>
         </label>
 
         <label>Language
@@ -1859,7 +1855,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         </label>
 
         <label>Language
-          <input required autocomplete=language>
+          <input required spellcheck=true>
         </label>
 
         <fieldset hidden >
@@ -1880,7 +1876,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         </fieldset>
     </form>
 
-    <form style="background:red;margin:1ch;" autocomplete name=autocomplete action=#>
+    <form style="background:red;" autocomplete name=autocomplete action=#>
       <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete -->
       <details open >
         <summary><code>&lt;form autocomplete &gt;</code></summary>

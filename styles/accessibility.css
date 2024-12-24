@@ -55,6 +55,7 @@
   background-color: CanvasText;
 }
 /* FOCUSED */
+/* https://allyjs.io/data-tables/focusable.html */
 /* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
 :-moz-focusring { outline: 1px dotted ButtonText }
 ::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
