@@ -399,6 +399,7 @@ blockquote::after {
 body > a[href='#main'] { z-index: 1 }
 
 body > nav {
+  text-align: unset;
   top: 0;
   z-index: 1;
   position: sticky;
