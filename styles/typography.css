@@ -831,7 +831,7 @@ details { /* details */
 }
 nav details, nav summary {
   margin: var(--margin-collapse-bugfix) auto;
-  padding: var(--margin-collapse-bugfix) auto;););););););
+  padding: var(--margin-collapse-bugfix) auto;
 }
 body > header details { padding-left: 0 }
 nav  details {}
@@ -844,6 +844,7 @@ summary {
   font-size: larger;
   font-weight: bolder;
 }
+summary::marker { font-size: 2em }
 summary::before, summary::after {
   padding-inline: 1em;
 }
