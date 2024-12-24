@@ -152,37 +152,16 @@
 ::-webkit-scrollbar-thumb:active {
   border-color: CurrentColor;
 }
+::before, ::after, ::marker { display: inline-block }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
 ::backdrop { background: currentColor }
-::spelling-error, ::grammar-error {
-  color: inherit;
-  background: inherit;
-  text-decoration: wavy underline red;
-}
-/*
-  - https://github.com/w3c/csswg-drafts/issues/10212
-*/
-::search--text
-::selection {
-  color: Canvas;
-  background: CanvasText;
-}
-::-moz-selection {
-  color: Canvas;
-  background: CanvasText;
-}
-::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
-  padding: 0;
-  border-style: none
-}
-/* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
-:-moz-focusring { outline: 1px dotted ButtonText }
-
-::before, ::after, ::marker { display: inline-block }
 
 html {
   color: CanvasText;
+  scrollbar-width: 2em;
+  scrollbar-gutter: 3em;
   background-color: Canvas;
+  scrollbar-color: CanvasText Canvas;
 }
 body {}
 body > * { outline: 0.3ch dashed }
