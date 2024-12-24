@@ -165,11 +165,6 @@
   --margin-collapse-bugfix: 0.05px;
 } /* :root */
 
-::-moz-selection /* set separately */
-  { text-shadow: none }
-::selection
-  { text-shadow: none }
-
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
 /* https://digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css */
 @font-face {
@@ -215,7 +210,6 @@
   unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
 } /* @font-face */
 
-
 /*
   - Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html
 */
@@ -233,6 +227,17 @@
   :root {
     --column-count: 1;
   }
+}
+
+::-moz-selection /* set separately */
+  { text-shadow: none }
+::selection
+  { text-shadow: none }
+
+::spelling-error, ::grammar-error {
+  color: inherit;
+  background: inherit;
+  text-decoration: wavy underline red;
 }
 
 * { padding: var( --margin-collapse-bugfix ) 0 }
