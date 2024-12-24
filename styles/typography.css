@@ -237,6 +237,14 @@
 
 * { padding: var( --margin-collapse-bugfix ) 0 }
 
+*::before, *::after, *::marker {
+  /* https://seek-oss.github.io/capsize */
+  /* https://blog.kizu.dev/cap-height-align */
+  /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
+  font: inherit;
+  text-indent: 0;
+}
+
 html {
   unicode-range: U+0-10FFFF; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range */
   -moz-tab-size:  var(--tab-size);
@@ -835,7 +843,9 @@ nav > details[open] {
 summary {
   font-size: larger;
   font-weight: bolder;
-  padding-bottom: 0.618em;
+}
+summary::before, summary::after {
+  padding-inline: 1em;
 }
 
 /* fieldset / legend */
