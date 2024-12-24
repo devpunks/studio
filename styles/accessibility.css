@@ -38,12 +38,29 @@
   cursor: default;
 }
 
+/* SELECTED */
+/* https://github.com/w3c/csswg-drafts/issues/10212 */
+::search-text, ::selection {
+  color: Canvas;
+  background: CanvasText;
+}
+::-moz-selection {
+  color: Canvas;
+  background: CanvasText;
+}
+
 /* TARGETED */
 ::target-text {
   color: Canvas;
   background-color: CanvasText;
 }
 /* FOCUSED */
+/* Restore focus outline - https://github.com/necolas/normalize.css/issues/481 */
+:-moz-focusring { outline: 1px dotted ButtonText }
+::-moz-focus-inner { /* Remove the inner border and padding of focus outlines in Firefox */
+  padding: 0;
+  border-style: none;
+}
 :focus-visible, [aria-disabled=false]:focus-visible {
   /*
     - https://hidde.blog/focus-visible-more-than-keyboard
