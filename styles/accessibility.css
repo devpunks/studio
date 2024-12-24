@@ -196,7 +196,7 @@ a[href='#']:hover {opacity: 1;}
 [role=presentation],
 [role=presentation] li::before {
   content: '\200B'; /* add zero-width space */
-  border-inline-end: 0.3ch solid;
+  border-inline-start: 0.3ch solid;
 }
 
 mark::before,
