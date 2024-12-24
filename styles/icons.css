@@ -117,7 +117,7 @@ body > nav::before
   {/* content: '🍔'; */} /* ☰ 🍔 */
 nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
-nav > details > summary::marker { content: '88🔴' }
+nav > details > summary::marker { content: inherit }
 
 table::before, table::after
   { content: '☶ table' }
