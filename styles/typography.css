@@ -297,7 +297,8 @@ html {
   */
   -webkit-hyphenate-limit-chars-before: 2;
   -webkit-hyphenate-limit-chars-after:  2;
-  -ms-hyphenate-limit-chars: 5;  /* not yet supported */
+  /* Mozilla - https://bugzilla.mozilla.org/show_bug.cgi?id=1521723 */
+  -ms-hyphenate-limit-chars: 5;
   hyphenate-limit-chars: 5;
 } /* html */
 
