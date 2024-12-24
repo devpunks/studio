@@ -2,6 +2,7 @@
  * 
  * ARIA Roles - https://w3.org/WAI/PF/aria/roles
  * WAI-ARIA guide - https://github.com/w3c/aria-practices
+ * WAI-ARIA Co-Evolution - https://w3c.github.io/aria/#co-evolution
  * Standards Guidelines - https://w3.org/WAI/standards-guidelines/wcag
  * WCAG (Web Content Accessibility Guidelines) - https://w3.org/TR/WCAG21
  * AOM (Accessibility Object Model) - https://github.com/WICG/aom/blob/gh-pages/explainer.md
@@ -111,7 +112,12 @@ html:focus-within { scroll-behavior: smooth }
   content: attr(accesskey) ' - ' attr(aria-label);
 }
 
-/* LINK   - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes */
+/* LINK
+  - https://github.com/w3c/wcag/issues/905
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link
+  - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes
+  = https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css/
+*/
 a, a:link, a:any-link {color: -webkit-link;}
 a:visited { color: blue }
 /* DYNAMIC - https://w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes */

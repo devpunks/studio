@@ -56,11 +56,6 @@
   </a>
 
   <details open><!-- Sticky search box - https://css-tricks.com/scroll-fix-content -->
-    <!--
-      - https://github.com/whatwg/html/pull/7320
-      - https://github.com/whatwg/html/issues/5811
-      - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role
-    -->
     <summary>Search</summary>
 
     <form role=search name=search title=Search action=? spellcheck=true>
@@ -119,7 +114,8 @@
 
 <nav hidden aria-label=Main>
 <!--
-  - https://web.dev/website-navigation/
+  - https://web.dev/website-navigation
+  - https://www.w3.org/TR/wai-aria-1.2/#directory
   - Content categories. -https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categorieDD
 -->
 <details>
@@ -276,7 +272,8 @@
       <!-- https://en.wikipedia.org/wiki/Emoji -->
       <header>Emoji</header>
 
-      <!-- https://www.toptal.com/designers/htmlarrows/symbols -->
+      <!-- https://www.amp-what.com -->
+      <!-- What Character? https://www.babelstone.co.uk/Unicode/whatisit.html -->
       <header>Unicode</header>
       <mark>
         <a rel=external target=external
@@ -2167,6 +2164,13 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <fieldset id=html5>
         <legend>HTML5</legend>
 
+        <!--
+          - https://github.com/whatwg/html/pull/7320
+          - https://github.com/whatwg/html/issues/5811
+          - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/search
+          - https://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element
+          - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Search_role
+        -->
         <search spellcheck=true>
           <label for=search>Search</label>
           <input id=search list=searches results=5 type=search title=Search placeholder=Search>

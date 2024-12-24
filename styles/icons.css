@@ -1,8 +1,11 @@
-/*
-  - Gliphs - https://css-tricks.com/snippets/html/glyphs/
-  - Arrows - https://www.toptal.com/designers/htmlarrows/arrows/
-  - Useful Symbols - https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols
+/* Unicode - https://www.amp-what.com
+ ' ' - thin space U+2009 \2009 &#x2009; &ThinSpace;
+ ' ' - hair space U+200A \200A &#x200A; &HairSpace;
+ '​' - zero-width space U+200B \200B &#x200B; &ZeroWidthSpace;
+  - Whitespace - https://en.wikipedia.org/wiki/Whitespace_character
+  - What Character? https://www.babelstone.co.uk/Unicode/whatisit.html
   - URL Schemes - https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+  - Useful Symbols - https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
 
