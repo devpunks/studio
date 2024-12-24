@@ -161,6 +161,7 @@ html {
   scrollbar-width: 2em;
   scrollbar-gutter: 3em;
   background-color: Canvas;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color */
   scrollbar-color: CanvasText Canvas;
 }
 body {}
