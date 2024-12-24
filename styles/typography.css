@@ -281,19 +281,24 @@ html {
   -ms-word-break: break-word;
   word-break: break-word;
 
-  /* https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179 */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars */
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  /* https://css-tricks.com/almanac/properties/h/hyphenate */
-  -webkit-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
-  -moz-hyphenate-limit-chars: 10 3 4;  /* not yet supported */
-  hyphenate-limit-chars: 10 3 4;
-
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-character */
+  -webkit-hyphenate-character: '\2014';
+  hyphenate-character: '\2014';
+
+  /*
+  - https://css-tricks.com/almanac/properties/h/hyphenate
+  - https://css-tricks.com/almanac/properties/h/hyphenate-limit-chars/
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars
+  */
+  -webkit-hyphenate-limit-chars-before: 2;
+  -webkit-hyphenate-limit-chars-after:  2;
+  -ms-hyphenate-limit-chars: 5;  /* not yet supported */
+  hyphenate-limit-chars: 5;
 } /* html */
 
 body {
