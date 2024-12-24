@@ -226,8 +226,7 @@ nav > header::after {}
 iframe {
   width: 100%;
   border: none;
-  height: 50dvh;
-  background: canvas;
+  height: 80dvh;
 }
 hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
   border: 0;
