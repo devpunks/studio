@@ -423,12 +423,11 @@ body > nav {
 nav > * {}
 nav > details {
   width: inherit;
-  margin-block: var(--margin-collapse-bugfix);
   outline-style: dotted;
+  margin-block: var(--margin-collapse-bugfix);
 
   &::before, &::after {}
   &::before {
-    /* content: 'Menu'; */
     text-indent: 1em;
     display: list-item;
     list-style-type:  '⚙️';
@@ -438,10 +437,6 @@ nav > details {
 
   &[open] {
     /* overflow-y: scroll; */
-
-    &::before {
-     /* content: 'Menu open'; */
-    }
   }
 }
 nav > details > summary::marker {}
@@ -450,7 +445,6 @@ nav > details > summary::marker {}
 details {}
 summary {
   cursor: s-resize;
-  list-style: none;
 }
 summary::before,
 summary::after {
@@ -501,6 +495,38 @@ body > nav > details {
     background: transparent;
     backdrop-filter: blur(19px); /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
   }
+
+  &[open] {
+    &::after { display: block }
+
+    & > summary { margin-block-end: 1ch }
+  }
+
+  & > summary { /* https://htmlsymbols.xyz/unicode/U+2630 */
+    list-style: '☰';
+    cursor: pointer;
+    line-height: 3em;
+    outline: 2px dashed;
+    background: inherit;
+    list-style-position: inside;
+    /* clip-path: inset(0px 244px 1px 170px); */
+
+    &::before, &::after {
+      content: '☰Menu';
+      cursor: inherit;
+      outline: inherit;
+      display: inherit;
+      background: inherit;
+      list-style: inherit;
+      list-style-position: inherit;
+    }
+    &::before { float: left }
+    &::after  { float: right }
+
+    &:hover {
+      &::before, &::after {}
+    }
+  }
 }
 
 nav li {
@@ -531,7 +557,6 @@ body > nav li li :link::before {
   line-height: var(--line-height);
 }
 body > nav li li :link:hover::before { content: '📝' }
-
 
 
 a:link {
