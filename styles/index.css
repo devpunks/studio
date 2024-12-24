@@ -194,8 +194,11 @@ a:link:has(header, h1, h2, h3, h4, h5, h6) {
   display: block;
 }
 
-header, h1, h2, h3, h4, h5, h6
-  { display: block }
+header, h1, h2, h3, h4, h5, h6 {
+  display: block;
+
+  &:has( > a ) { display: flex }
+}
 a > :is( header, h1, h2, h3, h4, h5, h6 )
   {width: 100%;display: inline-block;}
 
