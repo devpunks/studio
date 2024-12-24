@@ -9,19 +9,22 @@
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
 
+*::before, *::after, *::marker { }
+
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
-header, h1, h2, h3, h4, h5, h6 {
+header, h1, h2, h3, h4, h5, h6  {
   &::before, &::after { content: '\200B' }
+
+  &[id]{
+    &::before {
+      opacity: 25%;
+      content: '\1F517';
+      display: inline-block;
+      margin-inline-end: 0.168em;
+    }
+    &:hover::before { opacity: 75% }
+  }
 }
-:where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] )::before {
-  opacity: 25%;
-  content: '\1F517';
-  display: inline-block;
-  margin-inline-end: 0.168em;
-}
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
-:where( header[id], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] ):hover::before
-  { opacity: 75% }
 
 a::before, a::after
   { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
