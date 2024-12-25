@@ -67,7 +67,6 @@
   "devDependencies": {},
   "dependencies": {
     "express": "4.x",
-    "npm": "^10.5.2",
     "postcss": "8.x",
     "postcss-import": "15.x",
     "vercel": "^19.1.2"
