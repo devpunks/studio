@@ -99,6 +99,7 @@
   */
   --text-size-adjust: 100%;
   --text-size-adjust: none;
+  --text-size-adjust: auto;
 
   /*
     -  https://devhints.io/css-system-font-stack
@@ -165,13 +166,16 @@
   --margin-collapse-bugfix: 0.05px;
 } /* :root */
 
+/* https://css-tricks.com/font-display-masses */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide */
 /* https://digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css */
 @font-face {
   font-family: Chalk;
   font-weight: 400;
   font-style: normal;
   font-stretch: 1% 500%; /* Required by Chrome */
+  size-adjust: 100%; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/size-adjust */
   /* https://apple.stackexchange.com/questions/79875/how-can-i-get-the-postscript-name-of-a-ttf-font-installed-in-os-x */
   src:
     local('DBJ CHALK IT UP') /* Full Name */
@@ -260,10 +264,11 @@ html {
   line-height:    var(--line-height);
   /* word-spacing:   var(--word-spacing); */
   /* letter-spacing: var(--letter-spacing); */
-  font-size-adjust: from-font; /* Firefox - https://caniuse.com/font-size-adjust */
+  font-size-adjust: from-font; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust */
   font-stretch: semi-expanded;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
+  font-variant-alternates: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates */
   font-variation-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings */
   font-display: fallback; /* https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS#the_font-display_property */
   -webkit-text-size-adjust: var(--text-size-adjust);
@@ -402,6 +407,10 @@ section > header, nav > header {
 }
 header *
   { text-transform: initial }
+header var, h1 var,
+header code, h1 code
+  { font-variant-caps: initial }
+
 
 /* hyperlinks */
 a {
@@ -648,14 +657,10 @@ pre > code {
   font-size: smaller;
   line-height: inherit;
 }
-pre > samp {
-  kbd {
-    font-size: large;
-    font-weight: bold;
-  }
+pre > samp kbd {
+  font-size: large;
+  font-weight: bold;
 }
-
-header > code, h1 > code { font-variant-caps: initial }
 
 var, data {
   font-weight: bold;

@@ -92,14 +92,15 @@ html:focus-within { scroll-behavior: smooth }
   filter: contrast(1.1); /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
 }
 
+[aria-disabled=true]
+  {cursor: not-allowed }
 [tabindex='-1']:focus
   { outline: 0 }
 [aria-controls]
   { cursor: pointer }
-[aria-busy=true]
-  { cursor: progress }
-[aria-disabled=true]
-  {cursor: not-allowed }
+[aria-busy=true] {
+  cursor: progress
+}
 
 [accesskey] {}
 [accesskey]::before {}
@@ -139,15 +140,23 @@ html:focus-within { scroll-behavior: smooth }
   - https://github.com/w3c/wcag/issues/905
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link
   - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes
-  = https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css/
+  = https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css
 */
-a, a:link, a:any-link {color: -webkit-link;}
+a, a:link, a:any-link { color: -webkit-link }
 a:visited { color: blue }
 /* DYNAMIC - https://w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes */
 a:hover { color: green }
 a:focus { color: magenta }
 a:focus:hover { color: cyan }
 a:active { color: red }
+/* https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css */
+a:link:hover:focus,
+a:link:hover:active,
+a:link:focus:active,
+a:visited:hover:focus,
+a:visited:hover:active,
+a:visited:focus:active {}
+
 
 nav > dl, nav > ol, nav > ul {
   opacity: 0.7;
@@ -171,6 +180,18 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
 [role=complementary], body > aside {}
 [role=search], form[role=search], search {}
 [role=application], body > main[role=application] {}
+
+[role=tablist] {
+  margin: 0 auto;
+  padding: 1ch 0 0 0;
+  text-align: justify;
+  background: green;
+
+  li {
+    background: yellow;
+    display: inline-block;
+  }
+}
 
 body > a[href='#main'] { /* skip link */
   padding: 0;
@@ -198,7 +219,19 @@ a[href='#'][title^=Top] {
   em; */
   list-style-type: 'Foo';
 }
-a[href='#']:hover {opacity: 1;}
+a[href='#']:hover { opacity: 1 }
+
+/* https://kizu.dev/rotated-text */
+[aria-orientation=vertical] {
+  transform-origin: 0 0;
+  transform: translate(0,100%) rotate(-90deg);
+
+  &:after {
+    float: left;
+    content: '\200B';
+    margin-top: 100%;
+  }
+}
 
 [role=none], [role=none] li {
   /*

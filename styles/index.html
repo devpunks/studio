@@ -191,13 +191,15 @@
 <section id=tabs>
 <!--
   - https://codepen.io/aardrian/pen/kdGMVx
+  - https://w3.org/TR/wai-aria-1.2/#toolbar
+  - https://w3.org/TR/wai-aria-1.2/#tablist
   - https://adrianroselli.com/2013/02/aria-tabs.html
   - https://scottohara.me/blog/2019/07/10/the-output-element.html
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
   - (Mobile) https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html
 -->
-  <ul role=tablist>
+  <ul role=tablist aria-orientation=vertical>
     <li role=none>
       <a role=tab title='Panel 1'
         aria-controls=panel:1 aria-selected=false href=#panel:1> Panel 1</a>
@@ -285,7 +287,7 @@
           href=https://www.toptal.com/designers/htmlarrows/symbols>TODO</a>
       </mark>
 
-      <header>Music</header>
+      <header>Music</header><!-- https://x.com/steveschoger/status/1151160261170126850 -->
       <pre>
 ♩♪♫♬♭♮♯🎼🎵🎶〽️
 📯🔔🔕🎷🎺🪕🎻🎸🎹🥁
@@ -1631,9 +1633,22 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
       <header>
         <code>&lt;picture&gt;</code>
+        <em>(with <code>&lt;source <var>media=(prefers-color-scheme: … )&gt;</code> &amp; default <code>&lt;img&gt;</code>)</em>
+      </header>
+      <picture>
+        <!-- Use this image if the user's OS setting is dark -->
+        <source media='(prefers-color-scheme: dark)' sizes='' type='image/png' srcset='https://dummyimage.com/420x420/000/fff 1x'>
+
+        <!-- img as last item or nothing is displayed -->
+        <img alt='Default placeholder image'
+          src='https://dummyimage.com/420x420/fff/000'
+          srcset='https://dummyimage.com/420x420/fff/000 1x'>
+      </picture>
+
+      <header>
+        <code>&lt;picture&gt;</code>
         <em>(with <code>&lt;source&gt;</code> &amp; default <code>&lt;img&gt;</code>)</em>
       </header>
-
       <!-- Progressive enhancement from jpg to webp to avif depending on browser support, with retina versions-->
       <picture><!-- https://dev.opera.com/articles/responsive-images -->
         <source title='1000 Kitty'
