@@ -80,9 +80,9 @@
     "restart": "pm2 restart all",
     "package": "snuggsi package",
     "install": "echo  Installing devPunks.studio",
-    "preinstall": "echo  pre-Installing devPunks.studio",
-    "postinstall": "echo  post-Installing devPunks.studio",
-    "preversion": ".bin/version",
+    "preinstall": "echo pre-Installing devPunks.studio",
+    "postinstall": "echo post-Installing devPunks.studio",
+    "preversion": "echo preversion",
     "version": "echo npm version ; echo $npm_package_version # git add -A dist",
     "postversion": "echo $npm_package_version"
   }
