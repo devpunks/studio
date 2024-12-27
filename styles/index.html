@@ -199,7 +199,7 @@
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
   - (Mobile) https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html
 -->
-  <ul role=tablist aria-orientation=vertical>
+  <ul role=tablist>
     <li role=none>
       <a role=tab title='Panel 1'
         aria-controls=panel:1 aria-selected=false href=#panel:1> Panel 1</a>
@@ -968,10 +968,10 @@ Gesture symbols
 
       <blockquote cite=http://example.com>
         <picture>
-          <img alt='Placeholder image'
-            src=https://via.placeholder.com/768x768
+          <img alt='Placeholder Image'
+            src=https://placehold.co/768x768
             sizes=''
-            srcset='https://via.placeholder.com/500x500 1x' />
+            srcset='https://placehold.co/500x500 1x' />
         </picture>
 
         <p>This is a <code>&lt;blockquote&gt;</code> wrapping a <code>&lt;picture&gt;</code>. Typically used for testimonials, &amp; profile cards.</p>
@@ -1586,63 +1586,63 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       - https://smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
       -->
       <header><code>&lt;img&gt;</code> element</header>
-      <img alt='Placeholder image' src=https://via.placeholder.com/420x420 >
+      <img alt='Placeholder image' src=https://placehold.co/420x420 >
 
       <header><code>&lt;img&gt;</code> <em>(inside <code>&lt;p&gt;</code>aragraph)</em></header>
       <p>
-        <img alt='Placeholder image' src=https://via.placeholder.com/420x420 >
+        <img alt='Placeholder Image' src=https://placehold.co/420x420 >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
       <header>Horizontal<code>&lt;img&gt;</code></header>
-      <img alt='Placeholder image' src=https://via.placeholder.com/800x200 >
+      <img alt='Placeholder Image' src=https://placehold.co/800x200 >
 
       <header>Vertical<code>&lt;img&gt;</code></header>
-      <img alt='Placeholder image' src=https://via.placeholder.com/200x800 >
+      <img alt='Placeholder Image' src=https://placehold.co/200x800 >
 
       <header><code>&lt; img loading=lazy &gt;</code></header>
-      <img loading=lazy alt='Placeholder image' src=https://via.placeholder.com/420x420 >
+      <img loading=lazy alt='Placeholder Image' src=https://placehold.co/420x420 >
 
       <header><code>&lt;img&gt;</code> <em>(inside <code>&lt;a&gt;</code>nchor link)</em></header>
-      <a title='Placeholder image' href=#images>
-        <img alt='Placeholder image' src=https://via.placeholder.com/420x420 >
+      <a title='Placeholder Image' href=#images>
+        <img alt='Placeholder Image' src=https://placehold.co/420x420 >
       </a>
 
 <!-- https://gist.github.com/perenstrom/f6a852170610827ec07854f6b03936ee -->
       <header><code>&lt; img srcset=&quot; …  &quot; &gt;</code></header>
-      <img alt='&lt;img srcset=&quot; …  &quot; &gt;'
-        src='https://via.placeholder.com/500x500'
+      <img alt='Placeholder Image'
+        src=https://placehold.co/600x400
         sizes='(min-width: 768px) 768px, (min-width: 500px) 500px,
           (min-width: 450px) 450px, (min-width: 400px) 400px, 300px'
-        srcset='https://via.placeholder.com/768x768 768w,
-                https://via.placeholder.com/550x550 550w,
-                https://via.placeholder.com/500x500 500w,
-                https://via.placeholder.com/450x450 450w,
-                https://via.placeholder.com/400x400 400w,
-                https://via.placeholder.com/300x300 300w'>
+        srcset='https://placehold.co/768x768 768w,
+                https://placehold.co/550x550 550w,
+                https://placehold.co/500x500 500w,
+                https://placehold.co/450x450 450w,
+                https://placehold.co/400x400 400w,
+                https://placehold.co/300x300 300w'>
 
       <header>
         <code>&lt;picture&gt;</code>
         <em>(with default <code>&lt;img&gt;</code>)</em>
       </header>
-      <picture><!-- https://dev.opera.com/articles/responsive-images/ -->
+      <picture title='Picture Placeholder Image'><!-- https://dev.opera.com/articles/responsive-images/ -->
         <!-- img as last item or nothing is displayed -->
-        <img alt='Default placeholder image'
-          src='https://via.placeholder.com/250x250'
-          srcset='https://via.placeholder.com/200x200 1x' />
+        <img alt='Placeholder Image'
+          src='https://placehold.co/250x250?text=src'
+          srcset='https://placehold.co/200x200?text=srcset 1x' />
       </picture>
 
       <header>
         <code>&lt;picture&gt;</code>
         <em>(with <code>&lt;source <var>media=(prefers-color-scheme: … )&gt;</code> &amp; default <code>&lt;img&gt;</code>)</em>
       </header>
-      <picture>
+      <picture title='Placeholder Image'>
         <!-- Use this image if the user's OS setting is dark -->
-        <source media='(prefers-color-scheme: dark)' sizes='' type='image/png' srcset='https://dummyimage.com/420x420/000/fff 1x'>
+        <source media='(prefers-color-scheme: dark)' sizes='' type=image/png srcset='https://placehold.co/420x420/000/fff 1x'>
 
         <!-- img as last item or nothing is displayed -->
         <img alt='Default placeholder image'
-          src='https://dummyimage.com/420x420/fff/000'
-          srcset='https://dummyimage.com/420x420/fff/000 1x'>
+          src=https://dummyimage.com/420x420/fff/000
+          srcset='https://placehold.co/420x420/fff/000 1x'>
       </picture>
 
       <header>
@@ -1650,27 +1650,27 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <em>(with <code>&lt;source&gt;</code> &amp; default <code>&lt;img&gt;</code>)</em>
       </header>
       <!-- Progressive enhancement from jpg to webp to avif depending on browser support, with retina versions-->
-      <picture><!-- https://dev.opera.com/articles/responsive-images -->
+      <picture title='Picture Placeholder Image'><!-- https://dev.opera.com/articles/responsive-images -->
         <source title='1000 Kitty'
           sizes=''
-          type='image/jpeg'
+          type=image/svg+xml
           media='(min-width: 550px)'
-          srcset='https://via.placeholder.com/1000x1000 2x, https://via.placeholder.com/150x150 1x' />
+          srcset='https://placehold.co/550x550@2x?text=550+@2x 2x, https://placehold.co/550x550?text=500+@1x 1x' />
         <source title='750 Kitty'
           sizes=''
-          type='image/jpeg'
+          type=image/svg+xml
           media='(min-width: 500px)'
-          srcset='https://via.placeholder.com/750x750 2x, https://via.placeholder.com/125x125 1x' />
+          srcset='https://placehold.co/500x500@2x?text=500+@2x 2x, https://placehold.co/500x500?text=500+@1x 1x' />
         <source title='500 Kitty'
           sizes=''
-          type='image/jpeg'
+          type=image/svg+xml
           media='(min-width: 450px)'
-          srcset='https://via.placeholder.com/500x500 2x, https://via.placeholder.com/100x100 1x' />
+          srcset='https://placehold.co/450x450@2x?text=450+@2x 2x, https://placehold.co/450x450?text=450+@1x 1x' />
 
         <!-- img as last item or nothing is displayed -->
-        <img alt='Default placeholder image'
-          src='https://via.placeholder.com/250x250'
-          srcset='https://via.placeholder.com/200x200 1x' />
+        <img alt='Placeholder Image'
+          src=https://placehold.co/250x250
+          srcset='https://placehold.co/200x200 1x' />
       </picture>
 
       <header>
@@ -1679,10 +1679,10 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       </header>
       <picture>
         <!-- img as last item or nothing is displayed -->
-        <a title='Default placeholder image' href=#images>
-        <img alt='Default placeholder image'
-          src='https://via.placeholder.com/250x250'
-          srcset='https://via.placeholder.com/200x200 1x' />
+        <a title='Link Placeholder Image' href=#images>
+        <img alt='Placeholder Image'
+          src=https://placehold.co/250x250
+          srcset='https://placehold.co/200x200 1x' />
         </a>
       </picture>
 
@@ -1694,14 +1694,14 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
       <header><code>&lt;figure&gt;</code> <em>(with nested <code>&lt;img&gt;</code>)</em></header>
       <figure>
-        <img alt='Default placeholder image' src=https://via.placeholder.com/420x420 />
+        <img alt='Placeholder Image' src=https://placehold.co/420x420 />
       </figure>
 
       <header>
         <code>&lt;figure&gt;</code> <em>(with nested <code>&lt;img&gt;</code> &amp; <code>&lt;figcaption&gt;</code>)</em>
       </header>
       <figure>
-        <img alt='Default placeholder image' src=https://via.placeholder.com/420x420 />
+        <img alt='Placeholder Image' src=https://placehold.co/420x420 />
 
         <figcaption>Here is a caption for this image.</figcaption>
       </figure>
@@ -1711,7 +1711,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       </header>
       <figure>
         <picture>
-          <img alt='Default placeholder image' src=https://via.placeholder.com/420x420 />
+          <img alt='Placeholder Image' src=https://placehold.co/420x420 />
         </picture>
 
         <figcaption>This is a &lt;picture&gt; <em>(wrapped in a &lt;figure&gt;.)</em></figcaption>
@@ -2591,6 +2591,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <a title='Top of page' href=#>Top</a>
 
       <fieldset id=toggles>
+        <!-- https://github.com/whatwg/html/issues/4180 -->
+        <!-- https://adrianroselli.com/2021/10/switch-role-support.html -->
         <legend>Toggles</legend>
 
         <ul>
