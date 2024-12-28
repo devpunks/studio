@@ -191,25 +191,26 @@
 <section id=tabs>
 <!--
   - https://codepen.io/aardrian/pen/kdGMVx
-  - https://w3.org/TR/wai-aria-1.2/#toolbar
+  - https://w3.org/TR/wai-aria-1.2/#tab
   - https://w3.org/TR/wai-aria-1.2/#tablist
+  - https://w3.org/TR/wai-aria-1.2/#toolbar
   - https://adrianroselli.com/2013/02/aria-tabs.html
   - https://scottohara.me/blog/2019/07/10/the-output-element.html
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
   - (Mobile) https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html
 -->
-  <ul role=tablist>
-    <li role=none>
-      <a role=tab title='Panel 1'
-        aria-controls=panel:1 aria-selected=false href=#panel:1> Panel 1</a>
-    <li role=none>
-      <a role=tab title='Panel 2'
-        aria-controls=panel:2 aria-selected=false href=#panel:2> Panel 2</a>
-  </ul>
+  <menu role=tablist>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role -->
+    <li role=tab><a title='Tab 1'aria-controls=view:1 aria-selected=false href=#view:1>Tab 1</a>
+    <li role=tab aria-selected=true><a title='Tab 2' tabindex='-1' aria-controls=view:2 href=#view:2>Tab 2</a>
+    <li role=tab><a title='Tab 3' aria-controls=view:3 aria-selected=false href=#view:3>Tab 3</a>
+  </menu>
 
-  <main id=panel:1>Panel 1</main>
-  <main id=panel:2>Panel 2</main>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role -->
+  <main role=tabpanel id=view:1 tabindex=0>View 1</main>
+  <main role=tabpanel id=view:2 tabindex=0 aria-selected=true>View 2</main>
+  <main role=tabpanel id=view:3 tabindex=0>View 3</main>
 </section>
 
 <h1>Style Guide</h1>
