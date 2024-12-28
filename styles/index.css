@@ -841,10 +841,11 @@ body[role=application] {
   */
   /* scroll-snap-type: y mandatory */
 }
+body > nav { -webkit-transform: translatez(0) }
 body > main   { -webkit-overflow-scrolling: touch }
-body > aside  { -webkit-transform: translatez(0) }
-body > footer { -webkit-transform: translatez(0) }
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
+body > header { -webkit-transform: translatez(0) }
+body > aside  { -webkit-transform: translatez(0) }
 body > footer { -webkit-transform: translatez(0) }
 
 a { -webkit-touch-callout: default }

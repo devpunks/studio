@@ -340,7 +340,10 @@ body > nav::before {
 
 body > main {}
 body > aside {}
-body > footer { font-size: medium }
+body > footer {
+  font-size: medium;
+  padding-block: 1ch;
+}
 
 main > section:first-of-type, body > aside {}
 
