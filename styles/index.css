@@ -233,14 +233,8 @@ mark { /* Custom Highlights API - https://drafts.csswg.org/css-highlight-api-1 *
 time, time::before, time::after { border-radius: inherit }
 time {
   cursor: wait;
-  padding: 1ch;
-  font-size: small;
-  text-align: left;
   border-radius: 1ch;
-  white-space: nowrap;
   display: inline-block;
-  line-height: 1.6182em;
-  text-overflow: ellipsis;
 }
 time[title] {
   background: lime;
@@ -249,21 +243,10 @@ time[datetime] {
   background: rgba(255,255,255,0.5);
 }
 time::before, time::after {}
-time::before {
-  content: '⌚';
-  padding: 0.1682ch;
-  margin-inline-end: 1ch;
-}
-time::after{
-  content: attr(datetime);
-  margin-inline-start: 0.1682ch;
-}
-time[datetime]::before { content: '🗓' }
+time::before {}
 time::after {
   opacity: 0.5;
   display: block;
-  font-size: smaller;
-  padding-inline: .5em;
   background: inherit;
 }
 time[datetime]:hover::after {
@@ -274,7 +257,10 @@ time:empty {
 }
 time:empty::before {}
 
-p > time { vertical-align: middle }
+p > time[datetime] {
+  background: initial;
+  vertical-align: middle;
+}
 p > time::after {
   opacity: 0;
   right: 0;

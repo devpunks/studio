@@ -473,8 +473,26 @@ hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
 mark {}
 
 time {
+  padding: 0.628ch;
+  font-size: small;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.6182em;
+  text-overflow: ellipsis;
   font-variant-numeric: ordinal tabular-nums;
 }
+time::before {
+  padding: 0.1682ch;
+  margin-inline-end: 1ch;
+}
+time::after {
+  font-size: smaller;
+  padding-inline: .5em;
+}
+time[datetime]::after{ margin-inline-start: 0.1682ch }
+p > time[datetime] { vertical-align: middle }
+
+
 /* CSS3 Lists
  * https://drafts.csswg.org/css-lists-3
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
@@ -585,6 +603,7 @@ p {
   /* https://edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why */
   /* 16x0.81=13 */
 }
+footer p { font-size: smaller }
 
 /* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/autocapitalize */
 [autocapitalize] { text-indent: 1em }

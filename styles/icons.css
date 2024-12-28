@@ -112,12 +112,17 @@ a[href*=facebook]::before       { content: 'F' }
 a[href^=facetime]::before       { content: 'F🎥' }
 a[href^=facetime-audio]::before { content: 'F🔈' }
 
-
 body > nav::before
   {/* content: '🍔'; */} /* ☰ 🍔 */
 nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
 nav > details > summary::marker { content: inherit }
+
+figcaption::before{ content: '⇧' }
+
+time::before { content: '⌚' }
+time[datetime]::before { content: '🗓' }
+time[datetime]::after{ content: attr(datetime) }
 
 table::before, table::after
   { content: '☶ table' }
@@ -129,12 +134,9 @@ table > tfoot::before, table > tfoot::after
   { content: '👣' }
 table > caption::before, table > caption::after
   { content: '🗨' }
-
 table tr::before, table tr::after
   { content: 'tr' }
 table th::before, table th::after
   { content: 'th' }
 table td::before { content: '>' }
 table td::after  { content: '<' }
-
-figcaption::before{ content: '⇧' }
