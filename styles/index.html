@@ -2375,7 +2375,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
         <label for=select>Select</label>
         <select id=select title='Select Option'>
-          <option selected hidden disabled>- select an option -
+          <option disabled hidden value selected aria-selected=true>- select an option -
           <option>Option One
           <option>Option Two
           <option disabled>Option Three (disabled)
@@ -2390,7 +2390,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <em>(Nested in <code>&lt;label&gt;</code>)</em>
 
           <select title='Select Option'>
-            <option hidden disabled selected value>- select an option -
+            <option disabled hidden value selected aria-selected=true>- select an option -
             <option>Option One
             <option>Option Two
             <option disabled>Option Three (disabled)
@@ -2399,7 +2399,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
         <label for=select:required>Select <em>(Required)</em></label>
         <select required id=select:required title='Select Option'>
-          <option hidden disabled selected value>- select an option -
+          <option disabled hidden value selected aria-selected=true>- select an option -
           <option>Option One
           <option>Option Two
           <option disabled>Option Three (disabled)
@@ -2416,7 +2416,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <label for=select:disabled>Select <em>(Disabled)</em></label>
         <select id=select:disabled disabled title='Select Option (Disabled)'>
           <option>Option One
-          <option selected>Option Two (Selected)
+          <option selected aria-selected=true>Option Two (Selected)
         </select>
 
         <label>
@@ -2425,7 +2425,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
           <select disabled title='Select Option (Disabled)'>
             <option>Option One
-            <option selected>Option Two (Selected)
+            <option selected aria-selected=true>Option Two (Selected)
           </select>
         </label>
 
@@ -2433,7 +2433,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <em>(Nested in <code>&lt;label&gt;</code>)</em>
           <select title='Select Option With Long Text'>
             <option>Option One
-            <option selected>
+            <option selected aria-selected=true>
               The quick brown fox jumped over the lazy dog.
               The quick brown fox jumped over the lazy dog.
           </select>
@@ -2441,7 +2441,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
         <label for=select:multi>Multi-Select</label>
         <select multiple id=select:multi size=3 title='Select Multiple Options'>
-          <option selected>Option One (selected)
+          <option selected aria-checked=true>Option One (selected)
           <option>The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog.
           <option disabled>Option Three (disabled)
 
@@ -2455,7 +2455,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <em>(Nested in <code>&lt;label&gt;</code>)</em>
 
           <select multiple size=3 title='Select Multiple Options'>
-            <option selected>Option One (selected)
+            <option selected aria-checked=true>Option One (selected)
             <option>The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog.
             <option disabled>Option Three (disabled)
 
