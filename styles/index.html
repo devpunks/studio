@@ -198,6 +198,7 @@
   - https://scottohara.me/blog/2019/07/10/the-output-element.html
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
   - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
+  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tablist_role
   - (Mobile) https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html
 -->
   <menu role=tablist>
@@ -208,9 +209,9 @@
   </menu>
 
   <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role -->
-  <main role=tabpanel id=view:1 tabindex=0>View 1</main>
+  <main role=tabpanel id=view:1 tabindex=-1>View 1</main>
   <main role=tabpanel id=view:2 tabindex=0 aria-selected=true>View 2</main>
-  <main role=tabpanel id=view:3 tabindex=0>View 3</main>
+  <main role=tabpanel id=view:3 tabindex=-1>View 3</main>
 </section>
 
 <h1>Style Guide</h1>

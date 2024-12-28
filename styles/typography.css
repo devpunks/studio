@@ -422,19 +422,19 @@ a {
   padding-inline: 0.2ch;
   word-break: break-word;
   white-space-collapse: collapse;
-  text-underline-offset: 0.168em;
-  -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
-  text-decoration: solid underline transparent .1em;
-
-  &::before, &::after {}
+  /* text-underline-offset: 0.168em; */
+  /* text-underline-position: under; */
+  /* -webkit-text-decoration-skip-ink: auto; */
+  /* text-decoration-skip-ink: auto; */
+  text-decoration: underline red .1em;
 }
-a:hover, header a:hover {
-  text-decoration-color: currentColor;
-}
-a:hover::before, a:hover::after {
+a::before, a::after, a::marker {
+  display: inline-block;
+  white-space: pre-wrap;
   text-decoration: none;
 }
+a:hover::before, a:hover::after, a:hover::marker { text-decoration: none }
+a:hover, header a:hover {}
 
 footer a {
   /* left: 0; */
