@@ -183,8 +183,10 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
 
 [role=tablist] {
   margin: 0 auto;
+  margin: 1ch 1ch 0;
   padding: 1ch 0 0 0;
   text-align: justify;
+  border-radius: 1ch 1ch 0 0;
   background: rgba(255,255,255,0.6);
 
   li, [role=tab] {
@@ -195,6 +197,7 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
     border-left: 1px solid;
     background-color: transparent;
 
+    &:hover { background-color: inherit }
     &::before, &::after {
       content: '\200B';
       min-width: 1ch;
@@ -206,47 +209,41 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
     &::after  { list-style: '﴿' inside }
     &:first-of-type {
       margin-inline: 1ch 0;
+      border-radius: 0.682ch 0 0 0;
     }
     &:last-of-type {
       margin-inline: 0 1ch;
       border-right: 1px solid;
+      border-radius: 0 0.682ch 0 0;
     }
 
-    & a {
-      flex-grow: 1;
-      flex-basis: 100%;
-      min-width: 0.682ch;
-      display: block;
-      list-style-position: inside;
-
-      &::before, &::after {
-        content: '\200B';
-        margin-inline: 1ch;
-        text-decoration: solid underline transparent 1ch;
-      }
-
-      &::before { content: '﴾' }
-      &::after  { content: '﴿' }
-      &:hover::before, &:hover::after { text-decoration: solid underline transparent 1ch }
+    a::before, a::after {
+      content: '\200B';
+      margin-inline: 1ch;
+      text-decoration: solid underline transparent 1ch;
     }
+    a::before { content: '﴾' }
+    a::after  { content: '﴿' }
+    a:hover::before, a:hover::after { text-decoration: solid underline transparent 1ch }
 
-    &[aria-selected=true]{
+    &[aria-selected=true] {
       background-color: inherit;
       
       &::before, &::after { color: Canvas }
 
       & a {
+        opacity: 1.0;
         cursor: default;
 
         &::before, &::after {}
-        &::before { list-style: '﴾' inside }
-        &::after  { list-style: '﴿' inside }
       }
     }
   }
 }
 [role=tabpanel] {
   display: none;
+  padding: 2em 1ch;
+  background: rgba(255,255,255,0.8);
 
   &:target { display: block }
 }
