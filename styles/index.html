@@ -203,9 +203,12 @@
 -->
   <menu role=tablist>
     <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role -->
-    <li role=tab><a title='Tab 1'aria-controls=view:1 aria-selected=false href=#view:1>Tab 1</a>
-    <li role=tab aria-selected=true><a title='Tab 2' tabindex='-1' aria-controls=view:2 href=#view:2>Tab 2</a>
-    <li role=tab><a title='Tab 3' aria-controls=view:3 aria-selected=false href=#view:3>Tab 3</a>
+    <li role=tab>
+      <a title='Tab 1'aria-controls=view:1 aria-selected=false href=#view:1>Tab 1</a>
+    <li role=tab aria-selected=true>
+      <a disabled title='Tab 2' tabindex='-1'aria-selected=true aria-controls=view:2 href=#view:2>Tab 2</a>
+    <li role=tab>
+      <a title='Tab 3' aria-controls=view:3 aria-selected=false href=#view:3>Tab 3</a>
   </menu>
 
   <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role -->
@@ -1448,11 +1451,12 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
     </article>
 
     <article id=dialog>
-      <!-- https://deque.com/blog/aria-modal-alert-dialogs-a11y-support-series-part-2/ -->
       <header>Dialogs</header>
       <p>See <a rel=external target=external href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog>MDN Dialog</a></p>
-      
-      <dialog open>
+
+      <!-- https://w3c.github.io/aria/#alert -->
+      <!-- https://deque.com/blog/aria-modal-alert-dialogs-a11y-support-series-part-2 -->
+      <dialog open role=alert>
         Opened Dialog
 
         <form method=dialog>
@@ -1639,7 +1643,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       </header>
       <picture title='Placeholder Image'>
         <!-- Use this image if the user's OS setting is dark -->
-        <source media='(prefers-color-scheme: dark)' sizes='' type=image/png srcset='https://placehold.co/420x420/000/fff 1x'>
+        <source media='(prefers-color-scheme: dark)'
+          width=420 height=420 sizes='' type=image/png srcset='https://placehold.co/420x420/000/fff 1x'>
 
         <!-- img as last item or nothing is displayed -->
         <img alt='Default placeholder image'
@@ -1654,19 +1659,19 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <!-- Progressive enhancement from jpg to webp to avif depending on browser support, with retina versions-->
       <picture title='Picture Placeholder Image'><!-- https://dev.opera.com/articles/responsive-images -->
         <source title='1000 Kitty'
-          sizes=''
           type=image/svg+xml
           media='(min-width: 550px)'
+          width=550 height=550 sizes=''
           srcset='https://placehold.co/550x550@2x?text=550+@2x 2x, https://placehold.co/550x550?text=500+@1x 1x' />
         <source title='750 Kitty'
-          sizes=''
           type=image/svg+xml
           media='(min-width: 500px)'
+          width=500 height=500 sizes=''
           srcset='https://placehold.co/500x500@2x?text=500+@2x 2x, https://placehold.co/500x500?text=500+@1x 1x' />
         <source title='500 Kitty'
-          sizes=''
           type=image/svg+xml
           media='(min-width: 450px)'
+          width=450 height=450 sizes=''
           srcset='https://placehold.co/450x450@2x?text=450+@2x 2x, https://placehold.co/450x450?text=450+@1x 1x' />
 
         <!-- img as last item or nothing is displayed -->
@@ -2668,6 +2673,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
       <fieldset id=progress>
         <legend><header>Progress</header></legend>
+        <header>With <var>title</var></header>
 
         <progress></progress>
         <progress title=cm>0</progress>
@@ -2676,6 +2682,10 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <progress value=0 max=10 title=cm>0</progress>
         <progress value=5 max=10 title=cm>5</progress>
         <progress value=10 max=10 title=cm>10</progress>
+
+        <header>With <var>aria-orientation=<em>vertical</em></var></header>
+
+        <progress aria-orientation=vertical></progress>
 
         <footer><a title='Top of page' href=#>Top</a></footer>
       </fieldset>
