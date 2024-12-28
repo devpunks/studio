@@ -187,10 +187,19 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
   text-align: justify;
   background: green;
 
-  li {
+  li, [role=tab] {
     background: yellow;
     display: inline-block;
+
+    &[aria-selected="true"]{
+      background: red;
+    }
   }
+}
+[role=tabpanel] {
+  display: none;
+
+  &:target { display: block }
 }
 
 body > a[href='#main'] { /* skip link */
@@ -211,25 +220,19 @@ body > a[href='#main']:focus-visible:hover {
   filter: unset;
 }
 a[href='#'][title^=Top] {
-  /* opacity: 0.681; */
+  opacity: 0.681;
   background: red;
-  /* margin-block: auto; */
-  /* margin: 2em auto; */
-  display: list-item; */
-  em; */
-  list-style-type: 'Foo';
 }
 a[href='#']:hover { opacity: 1 }
 
 /* https://kizu.dev/rotated-text */
 [aria-orientation=vertical] {
-  transform-origin: 0 0;
-  transform: translate(0,100%) rotate(-90deg);
+  transform: translate(0) rotate(-90deg);
 
   &:after {
-    float: left;
-    content: '\200B';
-    margin-top: 100%;
+    /* float: left; */
+    /* content: '\200B'; */
+    /* margin-top: 100%; */
   }
 }
 
