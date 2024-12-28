@@ -429,6 +429,7 @@ a {
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 0.168em;
   text-decoration-color: transparent;
+  text-decoration-line: underline;
 }
 a::before, a::after {
   display: inline-block;
@@ -437,7 +438,7 @@ a::before, a::after {
 }
 a:hover, header a:hover {}
 a:hover {
-  text-decoration-line: underline;
+  text-decoration-color: currentColor;
 }
 
 footer a {

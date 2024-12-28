@@ -725,9 +725,8 @@ input:focus:not(:placeholder-shown):out-of-range,
   cursor: not-allowed;
   pointer-events: none; /* https://jakearchibald.com/2017/events-and-disabled-form-fields/ */
   -webkit-user-select: none;
-          user-select: none;
-  text-decoration: line-through;
-  text-decoration-color: GrayText;
+  user-select: none;
+  text-decoration-line: line-through;
 }
 
 
