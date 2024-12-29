@@ -2649,7 +2649,14 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <meter title=Stars value=1 max=2>1</meter>
         <meter title=Stars value=2 min=1 max=3>2</meter>
         <meter title=Stars value=2 low=1 optimal=2 high=3>2</meter>
-        <meter title=Stars value=3 min=1 low=2 optimal=3 high=4 max=5>3</meter>
+
+        <header>Suboptimal</header>
+        <meter title=Stars value=3 min=1 low=2 optimal=4 high=4 max=5>3</meter>
+        <meter title=Stars value=3 min=1 low=2 optimal=2 high=4 max=5>3</meter>
+
+        <header>Insufficient</header>
+        <meter title=Stars value=2 min=1 low=2 optimal=4 high=4 max=5>2</meter>
+        <meter title=Stars value=4 min=1 low=2 optimal=2 high=4 max=5>3</meter>
 
         <footer><a title='Top of page' href=#>Top</a></footer>
       </fieldset>

@@ -322,8 +322,7 @@ meter::before, progress::before,
 meter::after, progress::after {
   content: '\200B';
   display: list-item;
-  /* white-space: nowrap; */
-  /* padding-inline: 1ch; */
+  white-space: nowrap;
   background: rgba(255,255,255,0.2);
 }
 meter::before, meter::after { list-style: '🌡' inside }
