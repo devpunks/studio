@@ -4,7 +4,7 @@
  * Web Aim Creating Accessible Forms - https://webaim.org/techniques/forms/controls
  * Styling Web Forms - https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms
  * Advanced Form Styling - https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_stylin
- * Styling Form Pseudo Elements - https://www.tjvantoll.com/2013/04/15/list-of-pseudo-elements-to-style-form-controls/#input_range
+ * Styling Form Pseudo Elements - https://tjvantoll.com/2013/04/15/list-of-pseudo-elements-to-style-form-controls/#input_range
  *
  * Web Form Usability (Top 10 Practices) - https://www.nngroup.com/articles/web-form-design
  * A Form of Madness - http://diveintohtml5.info/forms.html
@@ -839,14 +839,25 @@ progress::-webkit-progress-inner-element {
 }
 meter::-webkit-meter-bar,
 progress::-webkit-progress-bar {
-  position: absolute;
-  display: block;
-  /* display: list-item; */
-  /* background: ButtonFace; */
   height: 2ch;
-  width: calc(100% - 1ch);
   margin: 0.5ch;
+  display: block;
+  position: absolute;
+  width: calc(100% - 1ch);
+  background: 10%/10% pink
+    linear-gradient( -135deg, transparent,
+      transparent 33%, rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%, transparent 66% );
+  box-shadow: -10px 10px 10px -10px #000 inset;
 }
+meter::-webkit-meter-bar::before,
+meter::-webkit-meter-bar::after,
+progress::-webkit-progress-bar::before,
+progress::-webkit-progress-bar::after {
+  content: '123';
+  display: block;
+} 
+
 meter::-webkit-meter-optimum-value, progress::-webkit-progress-value {
   margin: 0.5ch 0;
   display: block;
