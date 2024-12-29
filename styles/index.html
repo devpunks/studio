@@ -2629,42 +2629,27 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_writing_modes/Vertical_controls -->
         <legend><header>Meter</header></legend>
 
-        <header>Default</header>
+        <header>Indeterminate</header>
         <meter></meter>
-        <meter value=0>0</meter>
-        <meter min=1 max=5></meter>
-        <meter value=3 min=1>3</meter>
-        <meter value=3 max=5>3</meter>
-        <meter value=3 min=0 max=5>3</meter>
-        <meter value=3 low=0 high=5>3</meter>
-        <meter optimal=3 low=0 high=5>3</meter>
-        <meter value=2 optimal=3 min=1 low=2 high=4 max=5>3</meter>
+        <meter max=2></meter>
+        <meter min=1 max=3></meter>
+        <meter low=1 optimal=2 high=3>2</meter>
+        <meter min=1 low=2 optimal=3 high=4 max=5>3</meter>
+
+        <header>With <var>value</header>
+        <meter value=0.5>0.5</meter>
+        <meter value=1 max=2>1</meter>
+        <meter value=2 min=1 max=3>3</meter>
+        <meter value=2 low=1 optimal=2 high=3>2</meter>
+        <meter value=3 min=1 low=2 optimal=3 high=4 max=5>3</meter>
 
         <header>With <var>title</var></header>
-        <meter title=stars></meter>
-        <meter value=0 title=stars>0</meter>
-        <meter min=1 max=5 title=stars></meter>
-        <meter value=3 min=1 title=stars>3</meter>
-        <meter value=3 max=5 title=stars>3</meter>
-        <meter value=3 min=1 max=5 title=stars>3</meter>
-        <meter optimal=3 low=2 high=4 title=stars>3</meter>
-        <meter value=2 optimal=3 min=1 low=2 high=4 max=5 title=stars>3</meter>
-
-        <header>With <var>min</var>, <var>max</var></header>
-        <meter value=5 min=0 max=10 title='Meter: 0 - 10 (with min,max)'>
-          7 out of 10 <em>(with <var>min</var>, <var>max</var>)</em>
-        </meter>
-
-        <header>With
-          <var>min</var>,
-          <var>low</var>,
-          <var>optimum</var>,
-          <var>high</var>,
-          <var>max</var>
-        </header>
-        <meter value=2 min=0 low=3 optimum=5 high=7 max=10 title=points>
-          7 out of 10 <em>(with min, low, optimum, high, max)</em>
-        </meter>
+        <meter title=Stars></meter>
+        <meter title=Stars value=0.5>0.5</meter>
+        <meter title=Stars value=1 max=2>1</meter>
+        <meter title=Stars value=2 min=1 max=3>2</meter>
+        <meter title=Stars value=2 low=1 optimal=2 high=3>2</meter>
+        <meter title=Stars value=3 min=1 low=2 optimal=3 high=4 max=5>3</meter>
 
         <footer><a title='Top of page' href=#>Top</a></footer>
       </fieldset>
@@ -2673,18 +2658,20 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
       <fieldset id=progress>
         <legend><header>Progress</header></legend>
-        <header>With <var>title</var></header>
 
-        <progress></progress>
-        <progress title=cm>0</progress>
-        <progress value=0 title=cm>0</progress>
-        <progress max=10 title=cm>0</progress>
-        <progress value=0 max=10 title=cm>0</progress>
-        <progress value=5 max=10 title=cm>5</progress>
-        <progress value=10 max=10 title=cm>10</progress>
+        <header>Indeterminate</header>
+        <progress tabindex=-1>Unknown</progress>
+        <progress max=2></progress>
+
+        <header>With <var>value</header>
+        <progress value=0.5>0.5</progress>
+        <progress value=1 max=2>1</progress>
+
+        <header>With <var>title</var></header>
+        <progress title='Loading' max=2>Unknown</progress>
+        <progress title=Done value=0.5>0.5</progress>
 
         <header>With <var>aria-orientation=<em>vertical</em></var></header>
-
         <progress aria-orientation=vertical></progress>
 
         <footer><a title='Top of page' href=#>Top</a></footer>

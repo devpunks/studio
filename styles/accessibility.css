@@ -231,10 +231,8 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
       
       &::before, &::after { color: Canvas }
 
-      & a {
+      & a[disabled] {
         opacity: 1.0;
-        cursor: default;
-        font-weight: bolder;
         text-decoration-line: overline;
         text-decoration-color: currentColor;
 
@@ -317,47 +315,49 @@ mark::after {
 mark::before { content: '[highlight start]' }
 mark::after  { content: '[highlight end]' }
 
+
+
+
 meter::before, progress::before,
 meter::after, progress::after {
-  content: '\00a0';
-  background: red;
-  margin-block: 1ch;
-  border-radius: 1ch;
-  white-space: nowrap;
-  padding-inline: 1ch;
-  display: inline-block;
-  outline-offset: .1682ch;
-  outline: 2px solid blue;
-  line-height: var(--line-height);
+  content: '\200B';
+  display: list-item;
+  /* white-space: nowrap; */
+  /* padding-inline: 1ch; */
+  background: rgba(255,255,255,0.2);
 }
+meter::before, meter::after { list-style: '🌡' inside }
+progress::before, progress::after { list-style: '🎚️' inside }
+
+meter[value]::before, progress[value]::before { content: '=' attr(value) }
+
 [min]::before { content: attr(min) }
 [low]::before { content: ' ('attr(low) ') ' }
 [min][low]::before { content: attr(min) ' ('attr(low) ') ' }
+[min][low][value]::before { content: '=' attr(value) attr(min) ' ('attr(low) ') ' }
 
-meter[value]::before, progress[value]::before
-  { content: '=' attr(value) }
-
-[high]::after { content: ' ('attr(high) ') ' }
 [max]::after { content: attr(max) }
+[high]::after { content: ' ('attr(high) ') ' }
 [max][high]::after { content: '(' attr(high) ') 'attr(max) }
-
 
 meter[title]::after, progress[title]::after
   { content: attr(title) }
-
-[min][title]::before
+[title][min]::before
   { content: 'minimum ' attr(min) }
-[low][title]::before
+[title][low]::before
   { content:  'above  ('attr(low) ') ' }
-[min][low][title]::before
+[title][min][low]::before
   { content: 'minimum ' attr(min) ' above ('attr(low) ') ' }
-
-[high][title]::after
+[title][min][low][value]::before
+  { content: '=' attr(value) 'minimum ' attr(min) ' above ('attr(low) ') ' }
+[title][high]::after
   { content: 'below (' attr(high) ') ' attr(title) }
-[max][title]::after
+[title][max]::after
   { content: 'out of ' attr(max) ' ' attr(title) }
-[high][max][title]::after
+[title][high][max]::after
   { content: 'below (' attr(high) ') out of ' attr(max) ' ' attr(title) }
+
+
 
 /* Pointer events - USE TO DISABLE RIGHT CLICK!
   - https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events

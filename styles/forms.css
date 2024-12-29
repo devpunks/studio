@@ -730,7 +730,6 @@ input:focus:not(:placeholder-shown):out-of-range,
 }
 
 
-
 .vertical {
   /*
     - https://www.w3.org/International/articles/vertical-text/
@@ -746,7 +745,6 @@ input:focus:not(:placeholder-shown):out-of-range,
   padding: 0;
   writing-mode: vertical-lr;
 }
-
 .vertical input[type=range] {
   background:red;
   writing-mode: sideways-lr; /* IE */
@@ -774,7 +772,6 @@ input:focus:not(:placeholder-shown):out-of-range,
   height: 30px;
   background: blue;
 }
-
 ::-webkit-slider-runnable-track {
   margin: 0;
   padding: 1ch;
@@ -791,94 +788,98 @@ input:focus:not(:placeholder-shown):out-of-range,
   outline: 2px solid blue;
 }
 
-/* indicators */
+
+
 /* Style meter & progress
  *   - https://codepen.io/matt-west/pen/bpzEy
  *   - https://css-tricks.com/html5-meter-element/
- *   - 
+ *   - https://scottaohara.github.io/a11y_styled_form_controls/src/meter
  *   - https://stackoverflow.com/questions/8094835/how-to-style-html5-meter-tag
  */
 meter, progress {
-  cursor: progress;
+  height: auto;
+  display: inline-block;
+  /* border: none; */
+  margin: var(--margin);
+  width: calc(100% - 2ch);
+}
+meter {}
+progress {}
+meter[value], progress[value] {
+  --webkit-appearance: none;
+  appearance: none;
    /* Correct vertical alignment in Chrome, Firefox, & Opera. */
-  background: turquoise;
+  background: rgba(255,255,255,0.4);
   /* border: 1ch solid currentColor; */
   /* outline: 1ch solid orange; */
   /* outline-offset: 1ch; */
-  margin: var(--margin);
-  width: auto;
-  border-radius: 1ch;
-  display: list-item;
-  /* list-style-position: inside; */
+  /* display: list-item; */
   /* height: fit-content; */
-  block-size: fit-content;
-  vertical-align: baseline;
+  /* block-size: fit-content; */
 }
-/* https://scottaohara.github.io/a11y_styled_form_controls/src/meter/ */
-meter {}
-progress {
-  appearance: initial;
-  /* height: auto; */
+meter[value] {}
+progress[value] {}
+meter:indeterminate, progress:indeterminate {
+  background: red;
 }
-progress[value] {
-}
-meter { /* https://css-tricks.com/html5-meter-element/ */
-  /* -webkit-appearance: none; */
-  /* appearance: inherit; */
-}
+meter:indeterminate {}
+progress:indeterminate {}
 
-::-webkit-meter-inner-element,
-::-webkit-progress-inner-element {
+meter::-webkit-meter-inner-element,
+progress::-webkit-progress-inner-element {
   /* border: 1ch solid currentColor; */
-  /* margin: var(--margin-collapse-bugfix) 5%; */
-  /* outline: 1ch solid orange; */
-  width: inherit;
+  /* margin: var(--margin-collapse-bugfix) 1ch; */
+  outline: 1px solid;
+  height: 3ch;
+  ch; */
   background: orange;
-  display: inherit;
-  margin: 0ch;
-  border-radius: 1ch;
+  /* width: calc(100% - 2ch); */
+  /* display: block; */
+  background: inherit;
 }
-
-::-webkit-meter-bar,
-::-webkit-progress-bar
-{
-  margin: 1ch;
-  /* border-radius: 0; */
-  position: relative;
-  /* outline: 1ch solid orange; */
-  /* border: 1ch solid currentColor; */
-  width: inherit;
-  border-radius: 1ch;
-  overflow: visible;
-  display: list-item;
-  /* padding: 1ch; */
+meter::-webkit-meter-bar,
+progress::-webkit-progress-bar {
+  position: absolute;
+  display: block;
+  /* display: list-item; */
+  /* background: ButtonFace; */
+  height: 2ch;
+  width: calc(100% - 1ch);
+  margin: 0.5ch;
 }
-::-webkit-meter-optimum-value,
-::-webkit-progress-optimum-value
-{
-  /* margin: 1ch; */
-  /* display: flex; */
-  width: fit-content;
-  /* padding: 1ch; */
-  display: list-item;
-  border-radius: 1ch;
+meter::-webkit-meter-optimum-value, progress::-webkit-progress-value {
+  margin: 0.5ch 0;
+  display: block;
+  height: 1ch;
+  block-size: 1ch !important;
+  background-image:
+    -webkit-linear-gradient(-45deg,
+      transparent 33%, rgba(0, 0, 0, .1) 33%,
+      rgba(0,0, 0, .1) 66%, transparent 66% ),
+    -webkit-linear-gradient(top,
+      rgba(255, 255, 255, .25), rgba(0, 0, 0, .25) ),
+    -webkit-linear-gradient(left, #09c, #f44);
+  background-image:
+    linear-gradient(-45deg,
+      transparent 33%, rgba(0, 0, 0, .1) 33%,
+      rgba(0,0, 0, .1) 66%, transparent 66% ),
+    linear-gradient(top,
+      rgba(255, 255, 255, .25), rgba(0, 0, 0, .25) ),
+    linear-gradient(left, #09c, #f44);
 }
-
-::-webkit-meter-bar, ::-webkit-progress-bar {
-  background: Canvas;
-}
-
+/*
 meter::-webkit-meter-optimum-value,
 progress::-webkit-progress-optimum-value
-  { background: pink; }
+  { background: lime; }
 meter::-webkit-meter-suboptimum-value,
-progress::-webkit-pgoress-suboptimum-value
-  { background: orange; }
+progress::-webkit-proress-suboptimum-value
+  {background: #ffdb58; }
 meter::-webkit-meter-even-less-good-value
 progress::-webkit-progress-even-less-good-value
-  { background: green; }
+  { background: maroon; }
 
-progress::marker {
+meter::marker, progress::marker {
   color: magenta;
   content: attr(value);
 }
+*/
