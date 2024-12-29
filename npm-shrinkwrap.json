@@ -1,12 +1,12 @@
 {
   "name": "devpunks.studio",
-  "version": "0.15.8",
+  "version": "0.15.9-0",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "devpunks.studio",
-      "version": "0.15.8",
+      "version": "0.15.9-0",
       "cpu": [
         "!arm32",
         "x64",
