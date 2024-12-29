@@ -2,14 +2,12 @@
 @import url(https://fonts.cdnfonts.com/css/segoe-ui-4); /* https://cdnfonts.com/segoe-ui-4.font */
 @import url(https://code.cdn.mozilla.net/fonts/fira.css); /* https://github.com/mozilla/Fira */
 @import url(https://fonts.googleapis.com/css2?family=Varela+Round); /* https://fonts.google.com/specimen/Varela+Round */
-@import url(https://fonts.googleapis.com/css?family=Nunito&display=swap); /* https://fonts.google.com/specimen/Nunito */
-@import url(https://fonts.googleapis.com/css2?family=Roboto&display=fallback); /* https://fonts.google.com/specimen/Roboto */
+@import url(https://fonts.googleapis.com/css?family=Nunito&display=fallback); /* https://fonts.google.com/specimen/Nunito */
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt&display=block); /* https://fonts.google.com/specimen/Rock+Salt */
-@import url(https://fonts.googleapis.com/css?family=Noto+Emoji&display=block); /* https://en.wikipedia.org/wiki/Noto_fonts */
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Math&display=block); /* https://en.wikipedia.org/wiki/Noto_fonts */
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=fallback); /* https://fonts.google.com/specimen/Roboto */
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=fallback); /* https://en.wikipedia.org/wiki/Open_Sans */
-@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=fallback); /* https://en.wikipedia.org/wiki/Noto_fonts */
-@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100..900&display=fallback); /* https://en.wikipedia.org/wiki/Noto_fonts */
+@import url(https://fonts.googleapis.com/css?family=Noto+Emoji&family=Noto+Sans+Math&display=block); /* https://en.wikipedia.org/wiki/Noto_fonts */
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@100..900&display=fallback); /* https://en.wikipedia.org/wiki/Noto_fonts */
 /* https://css-tricks.com/dark-mode-and-variable-fonts */
 
 /* typography.css
