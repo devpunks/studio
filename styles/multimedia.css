@@ -132,7 +132,6 @@ video:picture-in-picture
   /* https://drafts.csswg.org/selectors/#pip-state */
   { box-shadow: 0 0 10px 0 }
 canvas {
-  background: Canvas;
-  background: red;
   width: 100%;
+  background: Canvas;
 }
