@@ -831,9 +831,8 @@ meter[value], progress[value] {
   /* block-size: fit-content; */
 }
 meter[value] {}
-progress[value] {}
+progress[value] { color: currentColor }
 meter:indeterminate, progress:indeterminate {
-  background: red;
 }
 meter:indeterminate {}
 progress:indeterminate {}
