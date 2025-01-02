@@ -205,8 +205,8 @@ input:not([type]), input[type=text], input[type=password], input[type=search], i
 input[type=color], input[type=url], input[type=email], input[type=tel], input[type=number], input[type=range],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-  /* width: 100%; */
-  max-width: calc(100% - 2ch);
+  width: calc(100% - 2ch);
+  /* max-width: calc(100% - 2ch); */
   margin-inline: 1ch;
   /* max-width: var(--line-length); */
   /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
