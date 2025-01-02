@@ -116,8 +116,11 @@ iframe {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior */
   overscroll-behavior: contain;
 }
-audio  { /* https://blog.shahednasser.com/how-to-style-an-audio-element */ }
-audio:not( [controls] ) {
+audio { /* https://blog.shahednasser.com/how-to-style-an-audio-element */
+  height: 3em;
+  width: 100%;
+  }
+audio:not([controls]) {
   height: 0;
   display: none;
 }
