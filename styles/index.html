@@ -1760,9 +1760,16 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
       <!-- Responsive Video - https://adrianroselli.com/2023/12/media-queries-in-html-video.html -->
       <video controls autopictureinpicture preload='metadata'
-      src='https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
-      poster='https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217'>
-        ⚠️ Unsupported Audio.
+        src='https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
+        poster='https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217'>
+        <!--
+          - https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API
+          - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track
+        -->
+        <track default kind=captions label='Captions' srclang=en src=captions.vtt />
+        <track kind=subtitles label='Subtitles' srclang=en src=subtitles.vtt />
+        <track kind=chapters label='Chapters' srclang=en src=chapters.vtt />
+        ⚠️ Unsupported Video.
         <a title='download video' href=#>click to download</a>
       </video>
 
