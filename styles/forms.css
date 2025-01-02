@@ -839,15 +839,17 @@ progress:indeterminate {}
 
 meter::-webkit-meter-inner-element,
 progress::-webkit-progress-inner-element {
-  /* border: 1ch solid currentColor; */
-  /* margin: var(--margin-collapse-bugfix) 1ch; */
-  outline: 1px solid;
   height: 3ch;
-  ch; */
-  background: orange;
-  /* width: calc(100% - 2ch); */
-  /* display: block; */
+  /* border: 1ch solid currentColor; */
+  height: 3ch;
+  outline: 1px solid;
   background: inherit;
+}
+progress::-webkit-progress-bar::before,
+progress::-webkit-progress-value::before,
+progress::-webkit-progress-inner-element::before {
+  display: block;
+  content: '123';
 }
 meter::-webkit-meter-bar,
 progress::-webkit-progress-bar {
