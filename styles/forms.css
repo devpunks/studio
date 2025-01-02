@@ -878,22 +878,12 @@ progress::-webkit-progress-bar::after {
 meter::-webkit-meter-optimum-value, progress::-webkit-progress-value {
   block-size: 1ch !important; /* TODO: Remove */
   margin: 0.5ch 0;
-  display: block;
-  height: 1ch;
-  block-size: 1ch !important;
+  border: 0.168ch solid;
+  box-shadow: 0 0 .168ch #000;
+  transition: inline-size 0.25s ease-out;
   background-image:
-    -webkit-linear-gradient(-45deg,
-      transparent 33%, rgba(0, 0, 0, .1) 33%,
-      rgba(0,0, 0, .1) 66%, transparent 66% ),
-    -webkit-linear-gradient(top,
-      rgba(255, 255, 255, .25), rgba(0, 0, 0, .25) ),
     -webkit-linear-gradient(left, #09c, #f44);
   background-image:
-    linear-gradient(-45deg,
-      transparent 33%, rgba(0, 0, 0, .1) 33%,
-      rgba(0,0, 0, .1) 66%, transparent 66% ),
-    linear-gradient(top,
-      rgba(255, 255, 255, .25), rgba(0, 0, 0, .25) ),
     linear-gradient(left, #09c, #f44);
 }
 /*
