@@ -326,7 +326,9 @@ mark::after  { content: '[highlight end]' }
 
 
 
-
+meter[tabindex='0'], progress[tabindex='0'] {
+  background: magenta;
+}
 meter::before, progress::before,
 meter::after, progress::after {
   content: '\200B';
