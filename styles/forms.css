@@ -668,7 +668,9 @@ textarea:required:valid,
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text  font-size='2em' y='1em' x='0.1682em'>✓</text></svg>");
 }
 
-/* INVALID */
+/* INVALID
+ *  - https://issues.chromium.org/issues/365802576
+ *  - https://bugs.webkit.org/show_bug.cgi?id=279503 */
 :user-invalid
   { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
 input:not(:placeholder-shown):invalid,
