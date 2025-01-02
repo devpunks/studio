@@ -131,7 +131,7 @@
       <details>
         <summary><a href=#text>Text</a></summary>
 
-        <ul role=list>
+        <ul>
           <li><a href=#emoji>Emoji</a>
           <li><a href=#headings>Headings</a>
           <li><a href=#hyperlinks>Hyperlinks</a>
@@ -153,7 +153,7 @@
       <details>
         <summary><a href=#embedded>Embedded content</a></summary>
 
-        <ul role=list>
+        <ul>
           <li><a href=#images>Images</a>
           <li><a href=#audio>Audio</a>
           <li><a href=#video>Video</a>
@@ -238,7 +238,7 @@
 
   <p>There is one <code>media</code> breakpoint @ <code>1000px</code>. But can easily be upgraded to <code>calc(0.75rem + 1vmax)</code> as the base <code>font-size</code> to remove the need for a breakpoint. However that would only work in <abbr title='Internet Explorer'>I.E.</abbr> <abbr title='greater than'>&gt;</abbr> 9
 
-  <ul role=list>
+  <ul>
     <li>
       <a
         rel=help
@@ -1094,7 +1094,7 @@ Gesture symbols
         <a rel=external target=mdn href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time'>
           <code>&lt;<dfn id='<time>' title=time>time</dfn>&gt;</code>
         </a> tag is used to declare and <time title='This is the title for <time>'>display datetime</time>:
-        <ul role=list>
+        <ul>
           <li>
             <time>This time has child elements that will be hidden.</time>
           <li>
@@ -1341,6 +1341,14 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           </ul>
         <li>List Item
         <li>List Item
+      </ul>
+
+      <header><code>&lt;ul role=log&gt;</code></header>
+      <ul role=log>
+        <li>Log Line Item
+        <li>Log Line Item
+        <li>Log Line Item
+        <li>Log Line Item
       </ul>
 
       <header>Ordered List</header>
