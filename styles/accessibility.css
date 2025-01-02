@@ -332,7 +332,7 @@ meter[tabindex='0'], progress[tabindex='0'] {
 meter::before, progress::before,
 meter::after, progress::after {
   content: '\200B';
-  display: list-item;
+  display: block;
   white-space: nowrap;
   background: rgba(255,255,255,0.2);
 }
