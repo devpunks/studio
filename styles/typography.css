@@ -162,6 +162,7 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
     - https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497
    */
+  /* --font-family: BLOKK; */
   --margin-collapse-bugfix: 0.05px;
 } /* :root */
 
@@ -170,6 +171,15 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide */
 /* https://digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css */
+@font-face { /* BLOKK font - https://github.com/los-gordos/BLOKK */
+  font-family: BLOKK;
+  font-style: normal;
+  font-weight: 400;
+
+  src:
+    url(./BLOKK.woff2) format('woff2');
+} /* @font-face */
+
 @font-face {
   font-family: Chalk;
   font-weight: 400;
@@ -177,12 +187,12 @@
   font-stretch: normal; /* Required by Chrome */
   size-adjust: 100%; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/size-adjust */
   /* https://apple.stackexchange.com/questions/79875/how-can-i-get-the-postscript-name-of-a-ttf-font-installed-in-os-x */
+
   src:
     local('DBJ CHALK IT UP') /* Full Name */
   , local('DJBCHALKITUP')    /* Postscript Name */
   , url(chalk.ttf) format('truetype'); /* fallback file location */
 /*
-  src:
     local('chalk') tech(color-COLRv1),
     local('chalk-bold') format('truetype'),
 */
