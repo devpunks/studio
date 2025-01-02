@@ -217,7 +217,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   white-space: nowrap;
   display: inline-block;
   box-sizing: border-box;
-  border-width: 0 0 0.1em;
+  border-width: 0 0 0.1ch;
   text-overflow: ellipsis;
   vertical-align: text-top;
   border: solid currentColor;
