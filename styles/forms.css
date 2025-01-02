@@ -219,7 +219,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   box-sizing: border-box;
   border-width: 0 0 0.1ch;
   text-overflow: ellipsis;
-  vertical-align: text-top;
+  vertical-align: baseline;
   border: solid currentColor;
   line-height: var(--line-height);
   padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
