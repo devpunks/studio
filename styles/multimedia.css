@@ -17,6 +17,13 @@
  *  - Responsive Video - https://adrianroselli.com/2023/12/media-queries-in-html-video.html
 */
 
+:muted {} /* https://drafts.csswg.org/selectors/#selectordef-muted */
+:paused {} /* https://drafts.csswg.org/selectors/#selectordef-paused */
+:playing {} /* https://drafts.csswg.org/selectors/#selectordef-playing */
+:seeking {} /* https://drafts.csswg.org/selectors/#selectordef-seeking */
+:stalled {} /* https://drafts.csswg.org/selectors/#selectordef-stalled */
+:buffering {} /* https://drafts.csswg.org/selectors/#selectordef-buffering */
+
  /* https://addyosmani.com/blog/lazy-loading */
 [loading=lazy]  {}
 [loading=eager] {}
