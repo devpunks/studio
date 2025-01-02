@@ -337,7 +337,7 @@ meter::after, progress::after {
   background: rgba(255,255,255,0.2);
 }
 meter::before, meter::after { list-style: '🌡' inside }
-progress::before, progress::after { list-style: '🎚️' inside }
+progress::before, progress::after { content: '🎚️' }
 
 meter[value]::before, progress[value]::before { content: '=' attr(value) }
 
