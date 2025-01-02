@@ -125,7 +125,12 @@ audio:not([controls]) {
   display: none;
 }
 
-video  { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
+video { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
+
+video:fullscreen {} /*  https://drafts.csswg.org/selectors/#pip-state */
+video:picture-in-picture
+  /* https://drafts.csswg.org/selectors/#pip-state */
+  { box-shadow: 0 0 10px 0 }
 canvas {
   background: Canvas;
   background: red;
