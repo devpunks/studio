@@ -810,6 +810,11 @@ meter, progress {
   height: auto;
   margin: var(--margin);
   width: calc(100% - 2ch);
+  -webkit-appearance: none;
+  appearance: none;
+}
+meter::marker, progress::marker {
+  content: 'bar'
 }
 meter {}
 progress {}
