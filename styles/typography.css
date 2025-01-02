@@ -859,7 +859,7 @@ table > caption::before, table > caption::after {
 table > thead { padding-inline: 1ch }
 table > thead::before, table > thead::after { margin-block: 1ch }
 
-table > tfoot { padding: 1ch }
+table > tfoot {}
 table > tfoot::before, table > tfoot::after { margin-block: 1ch }
 
 table > tbody { padding-block: 1ch }
