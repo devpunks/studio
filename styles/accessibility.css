@@ -281,11 +281,16 @@ a[href='#'][title^=Top] {
 }
 a[href='#']:hover { opacity: 1 }
 
-/* https://kizu.dev/rotated-text */
+/*
+  - https://kizu.dev/rotated-text
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:dir
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir
+*/
 [aria-orientation=vertical] {
   transform: translate(0) rotate(-90deg);
 
-  &:after {
+  &::after {
     /* float: left; */
     /* content: '\200B'; */
     /* margin-top: 100%; */
