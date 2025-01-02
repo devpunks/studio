@@ -858,11 +858,14 @@ progress::-webkit-progress-bar {
   display: block;
   position: absolute;
   width: calc(100% - 1ch);
-  background: 10%/10% pink
-    linear-gradient( -135deg, transparent,
-      transparent 33%, rgba(0, 0, 0, 0.1) 33%,
-      rgba(0, 0, 0, 0.1) 66%, transparent 66% );
-  box-shadow: -10px 10px 10px -10px #000 inset;
+
+  background: top left
+    repeating-linear-gradient( -45deg,
+      transparent, transparent 5%,
+      rgba(0, 0, 0, .1) 5%,  rgba(0, 0, 0, .1) 10%
+  );
+  background-color: lime;
+  box-shadow: 0 0 .168ch .168ch rgba(0, 0, 0, .68) inset;
 }
 meter::-webkit-meter-bar::before,
 meter::-webkit-meter-bar::after,
