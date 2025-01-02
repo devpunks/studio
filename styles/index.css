@@ -339,11 +339,7 @@ blockquote::before {
   left: 1ch;
   opacity: 80%;
   content: open-quote;
-  transform: scale(8);
-  line-height: 1.618ch;
-  background: magenta;
-  z-index: 0;
-  /* inset: 1em; */
+  transform: scale(5);
   position: absolute;
 }
 blockquote::after {
