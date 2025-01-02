@@ -138,7 +138,7 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
   display: inline-flex;
   /* justify-content: flex-end; */
   flex-direction: var(--flex-direction);
-  /* padding: 1ch; */
+  /* flex-direction: column; */
   text-indent: 1ch;
   text-align: var(--text-align);
   box-sizing: border-box;
