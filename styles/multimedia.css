@@ -46,11 +46,11 @@ picture, figure, canvas, audio, video, embed, object {
   border-radius: 1ch;
   margin: 1ch auto var(--line-height);
 }
-audio, canvas, video, iframe[src*=youtube] {
-  /* width: 100%; */
-  /* padding: 1ch; */
-  vertical-align: baseline;
+=canvas, video, iframe[src*=youtube] {
+  width: 100%;
+  padding:  0.5ch;
   aspect-ratio: 16 / 9;
+  vertical-align: baseline;
   margin: var(--line-height) auto;
 }
 audio:hover, video:hover, iframe[src*=youtube]:hover {
