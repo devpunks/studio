@@ -2662,18 +2662,18 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <legend><header>Meter</header></legend>
 
         <header>Indeterminate</header>
-        <meter></meter>
-        <meter max=2></meter>
-        <meter min=1 max=3></meter>
-        <meter low=1 optimal=2 high=3>2</meter>
-        <meter min=1 low=2 optimal=3 high=4 max=5>3</meter>
+        <meter tabindex=0>Unknown</meter>
+        <meter tabindex=0 max=2></meter>
+        <meter tabindex=0 min=1 max=3></meter>
+        <meter tabindex=0 low=1 optimal=2 high=3>2</meter>
+        <meter tabindex=0 min=1 low=2 optimal=3 high=4 max=5>3</meter>
 
-        <header>With <var>value</header>
-        <meter value=0.5>0.5</meter>
-        <meter value=1 max=2>1</meter>
-        <meter value=2 min=1 max=3>3</meter>
-        <meter value=2 low=1 optimal=2 high=3>2</meter>
-        <meter value=3 min=1 low=2 optimal=3 high=4 max=5>3</meter>
+        <header>With <var>value</var> &amp; <var>aria-valuenow</var></header>
+        <meter aria-valuenow=0.5 value=0.5>0.5</meter>
+        <meter aria-valuenow=1 value=1 max=2>1</meter>
+        <meter aria-valuenow=2 value=2 min=1 max=3>3</meter>
+        <meter aria-valuenow=2 value=2 low=1 optimal=2 high=3>2</meter>
+        <meter aria-valuenow=3 value=3 min=1 low=2 optimal=3 high=4 max=5>3</meter>
 
         <header>With <var>title</var></header>
         <meter title=Stars></meter>
