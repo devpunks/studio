@@ -876,6 +876,7 @@ progress::-webkit-progress-bar::after {
 } 
 
 meter::-webkit-meter-optimum-value, progress::-webkit-progress-value {
+  block-size: 1ch !important; /* TODO: Remove */
   margin: 0.5ch 0;
   display: block;
   height: 1ch;
