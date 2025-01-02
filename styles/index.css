@@ -336,9 +336,7 @@ blockquote { /* http://webtypography.net/2.3.3 */
   margin-block-start: var(--line-height);
 }
 blockquote::before {
-  left: 3ch;
-  width: 1ch;
-  height: 1ch;
+  left: 1ch;
   opacity: 80%;
   content: open-quote;
   transform: scale(8);
