@@ -915,13 +915,13 @@ progress::-webkit-progress-value::after {
 /*
 meter::-webkit-meter-optimum-value,
 progress::-webkit-progress-optimum-value
-  { background: lime; }
+  { background: #86CC00 }
 meter::-webkit-meter-suboptimum-value,
 progress::-webkit-proress-suboptimum-value
-  {background: #ffdb58; }
+  { background: #FFDB1A }
 meter::-webkit-meter-even-less-good-value
 progress::-webkit-progress-even-less-good-value
-  { background: maroon; }
+  { background: #CC4600 }
 
 meter::marker, progress::marker {
   color: magenta;
