@@ -130,22 +130,14 @@ form details {
  *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
 */
 label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
-  display: block;
-  /* display: inline-flex; */
+  width: calc(100% - 2ch);
+  text-indent: 1ch;
   margin: 0 1ch 1ch;
-  /* white-space: nowrap; */
-  align-items: center;
+  white-space: nowrap;
+  display: inline-flex;
   outline: 1px solid red;
   background: rebeccapurple;
-  /* justify-content: flex-end; */
   flex-direction: var(--flex-direction);
-  /* flex-direction: column; */
-  text-indent: 1ch;
-  text-align: var(--text-align);
-  box-sizing: border-box;
-  white-space: nowrap;
-  align-items: center;
-
 
   output { /* https://scottohara.me/blog/2019/07/10/the-output-element.html */
     background-color: #bada55;
