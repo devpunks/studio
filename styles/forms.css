@@ -761,19 +761,29 @@ input:focus:not(:placeholder-shown):out-of-range,
   background: blue;
 }
 ::-webkit-slider-runnable-track {
-  margin: 0;
-  padding: 1ch;
-  background: green;
+  margin: 1ch;
+  padding: 0.5ch;
+  background-color: CanvasText;
   border: 2px solid red;
+  border-radius: 0.682ch;
   outline: 3px dotted purple;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://w3.org/2000/svg" viewBox="0 0 200 20"><path stroke="#000" stroke-width="4" stroke-linecap="round" d="M 4 4 L 192 4"></path></svg>');
+  background-image: url('data:image/svg+xml,<svg xmlns="http://w3.org/2000/svg" viewBox="0 0 200 20"><path stroke="%23000" stroke-width="4" stroke-linecap="round" d="M 4 4 L 192 4"></path></svg>');
+  background-image: linear-gradient(0deg, transparent 40%, Canvas 40%, Canvas 60%, transparent 60%);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 ::-webkit-slider-thumb {
-  padding: 3ch;
-  display: block;
+  background: Canvas;
+  width: 3ch;
+  height: 1ch;
+  border: solid;
+  padding: 0.5ch;
+  ch; */
   background: orange;
-  border: 7px solid currentColor;
-  margin: 1ch;
-  outline: 2px solid blue;
+  box-shadow: 0.05ch 0.05ch 0.2ch Canvas;
+  border-radius: 0.682ch;
 }
 
 
