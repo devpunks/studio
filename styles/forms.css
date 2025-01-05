@@ -131,8 +131,12 @@ form details {
 */
 label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
   display: block;
-  display: inline-block;
-  display: inline-flex;
+  /* display: inline-flex; */
+  margin: 0 1ch 1ch;
+  /* white-space: nowrap; */
+  align-items: center;
+  outline: 1px solid red;
+  background: rebeccapurple;
   /* justify-content: flex-end; */
   flex-direction: var(--flex-direction);
   /* flex-direction: column; */
