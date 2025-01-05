@@ -165,11 +165,9 @@ label, label + input {
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   /* padding: var(--margin-collapse-bugfix) var(--line-height); */
   /* margin: 0 1ch; */
-  /* display: block; */
-  width: 100%;
+  /* width: 100%; */
   /* width: -webkit-fill-available; */
   /* width: 50%; */
-  justify-content: end;
 }
 label + input {
   background-color: purple;
