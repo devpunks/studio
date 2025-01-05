@@ -761,7 +761,7 @@ input:focus:not(:placeholder-shown):out-of-range,
   background-image: linear-gradient(0deg, transparent 40%, Canvas 40%, Canvas 60%, transparent 60%);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 9%;
+  background-size: 90%;
 }
 ::-webkit-slider-thumb {
   width: 5ch;
