@@ -322,16 +322,12 @@ search, [role=search] {
  * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
 */
 input[type=range] {
-  border: none;
+  border: solid 0.1ch;
+  border-radius: 0.682ch;
   cursor: ew-resize;
-  box-shadow: inset 0 0 0.618em;
-  margin: 0;
-  /* border-radius: 0.618em; */
-  /* width: 100%; */
-  /* max-width: 14ch; */
-  height: 100vh;
-  max-height: 2ch;
-  outline: none;
+  margin: 0 1ch 1ch;
+  width: inherit;
+  max-width: calc(100% - 2ch);
 }
 [type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
