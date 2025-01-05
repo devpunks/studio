@@ -346,19 +346,19 @@ progress::before, progress::after { content: '🎚️' }
 
 meter[value]::before, progress[value]::before { content: '=' attr(value) }
 
-[min]::before { content: attr(min) }
+[min]::before {/* content: attr(min); */}
 [low]::before { content: ' ('attr(low) ') ' }
 [min][low]::before { content: attr(min) ' ('attr(low) ') ' }
 [min][low][value]::before { content: '=' attr(value) attr(min) ' ('attr(low) ') ' }
 
-[max]::after { content: attr(max) }
+[max]::after {/* content: attr(max); */}
 [high]::after { content: ' ('attr(high) ') ' }
 [max][high]::after { content: '(' attr(high) ') 'attr(max) }
 
 meter[title]::after, progress[title]::after
   { content: attr(title) }
 [title][min]::before
-  { content: 'minimum ' attr(min) }
+  {/* content: 'minimum ' attr(min); */}
 [title][low]::before
   { content:  'above  ('attr(low) ') ' }
 [title][min][low]::before
@@ -368,7 +368,7 @@ meter[title]::after, progress[title]::after
 [title][high]::after
   { content: 'below (' attr(high) ') ' attr(title) }
 [title][max]::after
-  { content: 'out of ' attr(max) ' ' attr(title) }
+  {/* content: 'out of ' attr(max) ' ' attr(title); */}
 [title][high][max]::after
   { content: 'below (' attr(high) ') out of ' attr(max) ' ' attr(title) }
 
