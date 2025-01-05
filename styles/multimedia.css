@@ -99,6 +99,7 @@ img, picture {
     &::before, &::after { content: unset }
   }
 }
+blockquote picture { margin: 0 4ch 1.618em }
 figure img, iframe, picture img, audio, canvas, video {
   /* margin: 1ch; */
   /* padding: 1ch; */
