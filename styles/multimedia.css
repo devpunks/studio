@@ -87,10 +87,17 @@ p img , p svg {
   padding-block-start: 0;
 }
 
-picture {}
-blockquote picture { margin: 0 4ch 1.618em }
-figure {
-  background: red;
+img {}
+img, picture {
+  a > & {
+    margin: 0;
+  }
+  a:has(&) {
+    border: solid 0.168em;
+    border-color: transparent;
+    &:hover { border-color: currentColor }
+    &::before, &::after { content: unset }
+  }
 }
 figure img, iframe, picture img, audio, canvas, video {
   /* margin: 1ch; */
