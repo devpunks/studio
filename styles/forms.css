@@ -205,20 +205,18 @@ input:not([type]), input[type=text], input[type=password], input[type=search],
 input[type=file], input[type=number], input[type=color], input[type=url], input[type=email], input[type=tel],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-  width: calc(100% - 2ch);
-  /* max-width: calc(100% - 2ch); */
-  margin-inline: 1ch;
+  border-radius: 0.682ch;
+  max-width: calc(100% - 2ch);
+  margin: 0 1ch 1ch;););
   /* max-width: var(--line-length); */
   /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
   /* list-style-position: inside; */
   font-size: larger;
   white-space: nowrap;
+  border: solid 0.1ch;
   display: inline-block;
-  box-sizing: border-box;
-  border-width: 0 0 0.1ch;
   text-overflow: ellipsis;
   vertical-align: baseline;
-  border: solid currentColor;
   line-height: var(--line-height);
   padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
