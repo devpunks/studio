@@ -319,6 +319,7 @@ input[type=range] {
   margin: 0 1ch 1ch;
   width: inherit;
   max-width: calc(100% - 2ch);
+  background: rgba(255,255,255,0.4);
 }
 [type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
