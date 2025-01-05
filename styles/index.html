@@ -2326,7 +2326,13 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <header>Horizontal</header>
 
           <label for=range>Range</label>
-          <input id=range value=8 type=range title=Range>
+          <input id=range type=range>
+
+          <label for=range:title>Range <em>(with <var>title</var>)</em></label>
+          <input id=range:title type=range title='Range (with title)'>
+
+          <label for=range:value>Range <em>(with <var>value</var>)</em></label>
+          <input id=range:value value=0 type=range>
 
           <label for=range:step>Range <em>(with <var>step</var>)</em></label>
           <input id=range:step value=8 step=2 min=2 max=12 type=range title='Range (with step)'>
