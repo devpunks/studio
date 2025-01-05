@@ -229,7 +229,6 @@ label output, label select, label textarea, label [type], label input:not([type]
 }
 
 [type=file] + output {
-  /* display: inline; */
   background: red;
   border-width: 0.1618em;
 }
