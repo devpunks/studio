@@ -2335,27 +2335,36 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <input id=range:value value=0 type=range>
 
           <label for=range:step>Range <em>(with <var>step</var>)</em></label>
-          <input id=range:step value=8 step=2 min=2 max=12 type=range title='Range (with step)'>
+          <input id=range:step step=2 type=range>
+
+          <label for=range:min>Range <em>(with <var>min</var>)</em></label>
+          <input id=range:min value=0 min=1 type=range>
+
+          <label for=range:max>Range <em>(with <var>max</var>)</em></label>
+          <input id=range:max value=11 max=10 type=range>
 
           <label for=range:minmax>Range <em>(with <var>min</var> &amp; <var>max</var>)</em></label>
-          <input id=range:minmax value=8 min=2 max=12 type=range title='Range (with min & max)'>
+          <input id=range:minmax value=0 min=1 max=10 type=range>
+
+          <label for=range:titlevalueminmax>Range
+            <em>(with <var>title</var> <var>value</var>
+            <var>min</var> &amp; <var>max</var>)</em>
+          </label>
+          <input id=range:titlevalueminmax value=1 min=0 max=10 type=range title='Range with title'>
 
 
           <header>Vertical</header>
 
           <label class=vertical>Vertical Range
-            <!--
-
-            -->
-            <input value=8 type=range title='Vertical Range' >
+            <input value=0 type=range title='Vertical Range' >
           </label>
 
           <label class=vertical>Vertical Range <em>(with <var>step</var>)</em>
-            <input value=8 min=2 max=12 type=range title='Vertical range (with step)'>
+            <input value=0 min=0 max=10 type=range title='Vertical range (with step)'>
           </label>
 
           <label class=vertical>Vertical Range <em>(with <var>min</var> &amp; <var>max</var>)</em>
-            <input value=8 min=2 max=12 type=range title='Vertical range (with min & max)' >
+            <input value=0 min=0 max=10 type=range title='Vertical range (with min & max)' >
           </label>
         </fieldset>
 
