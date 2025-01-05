@@ -513,9 +513,7 @@ textarea:not([rows]) { min-height: 10em }
 
 select {
    /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
-   cursor: context-menu;
-   border-radius: 0.5em;
-   margin: var(--margin);
+   width: calc(100% - 2ch);
    box-shadow: var(--box-shadow);
    text-align-last: var(--text-align);
 }
@@ -579,6 +577,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   font-size: larger;
   width: max-content;
   max-width: inherit;
+  max-width: calc(100% - 2ch);
   white-space: normal;
   font-family: inherit;
   background: buttonFace;
@@ -587,7 +586,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
   border: 0.0168em solid currentColor;
-  margin: var(--margin-collapse-bugfix) 0.67em 0.67em;
+  margin: var(--margin-collapse-bugfix) 1ch 1ch;
   padding: var(--margin-collapse-bugfix) var(--line-height);
 }
 button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(:disabled), [type=file]::-webkit-file-upload-button:not(:disabled),
