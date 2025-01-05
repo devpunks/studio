@@ -106,15 +106,22 @@ figure img, iframe, picture img, audio, canvas, video {
   border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
-figure img, picture img, figure picture { background: inherit }
+figure img, picture img, figure picture {
+  /* margin: 1ch auto 0; */
+}
 figure img, picture img {
+  padding: 1ch;
   object-fit: cover;
+  clip-path: inset(0 0 round 1ch);
   /* https://smashingmagazine.com/2024/01/css-border-image-property */
-  border-image: fill 0 linear-gradient(magenta, #000);
+  border-image: fill 0 linear-gradient(CanvasText, Canvas);
 }
 
-figcaption { opacity: 0.4 }
-figure:hover figcaption { opacity: 0.618 }
+figure {
+  background: red;
+}
+figcaption { opacity: 0.682 }
+figure:hover figcaption { opacity: 1.0 }
 figcaption::before {
   width: 1em;
   font-size: 1.618em;
