@@ -501,11 +501,12 @@ input[type=color]::-webkit-color-swatch {
 
 textarea {
    /* Remove IE vertical scrollbar. */
-   padding: calc(var(--line-height) - 1em) var(--line-height);
+   width: calc(100% - 2ch);
+   padding: 1em 1ch;
    resize: vertical;
    text-align: left;
    overflow-y: scroll;
-   white-space: unset;
+   white-space: normal;
 }
 textarea:not([cols]) { min-width: 50% }
 textarea:not([rows]) { min-height: 10em }
