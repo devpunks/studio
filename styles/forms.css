@@ -177,11 +177,11 @@ label + :not(input) {
 select { /* https://github.com/whatwg/html/issues/3244 */}
 
 button, [role=button], input, select, textarea {
-  color: currentColor;
   font: inherit;
+  color: currentColor;
+  word-spacing: inherit;
   letter-spacing: inherit;
   text-align: var(--text-align);
-  box-sizing: border-box;
   /*
    * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
    * appearance
