@@ -20,6 +20,9 @@
   - https://varvy.com/mobile/legible-font-size.html
   - http://mikeyanderson.com/optimal_characters_per_line
   - https://developer.mozilla.org/en-US/docs/Web/CSS/font
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
+  - https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
+  - https://smashingmagazine.com/2023/11/addressing-accessibility-concerns-fluid-type
   - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals
   - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography
 
@@ -51,10 +54,7 @@
   /*
   - Vertical rhythm
     - https://24ways.org/2006/compose-to-a-vertical-rhythm
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
-    - https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
-  */
-  /*
+
     - https://utopia.fyi
     - https://mastodon.social/@mikemai2awesome/112094222983362704
     - https://adrianroselli.com/2024/03/the-ultimate-ideal-bestest-base-font-size-that-everyone-is-keeping-a-secret-especially-chet.html
@@ -107,7 +107,7 @@
     - https://smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide
   */
   --Math: 'Noto Sans Math', /* https://fonts.google.com/noto/specimen/Noto+Sans+Math */
-    Math; /* https://www.w3.org/TR/css-fonts-4/#valdef-font-family-math */
+    Math; /* https://w3.org/TR/css-fonts-4/#valdef-font-family-math */
   --Rounded: 'Varela Round', /* https://fonts.google.com/specimen/Varela+Round */
     UI-Rounded;         /* default user interface rounded font */
   --Serif: 'Noto Serif', 'Oxygen Serif', /* Linux / KDE Plasma 5+ */
@@ -202,7 +202,7 @@
   - https://client9.com/css-color-emoji-stack
   - https://en.wikipedia.org/wiki/Emoticons_(Unicode_block)
   - https://caniuse.com/mdn-css_properties_font-variant-emoji
-  - https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-emoji
+  - https://w3.org/TR/css-fonts-4/#propdef-font-variant-emoji
   - https://en.wikipedia.org/wiki/Variation_Selectors_(Unicode_block)
   - https://stackoverflow.com/q/4974668/what-is-the-unicode-variation-selector
   - Unicode Emoji Variants -  https://unicode.org/emoji/charts/emoji-variants.html
@@ -726,7 +726,7 @@ q { /* quotes */
   padding-inline: 0.5ch;
 
    /*
-    - https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html
+    - https://cl.cam.ac.uk/~mgk25/ucs/quotes.html
     - https://tympanus.net/codrops/css_reference/quotes/
     - https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
   */
