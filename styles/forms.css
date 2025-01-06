@@ -836,14 +836,18 @@ progress::-webkit-progress-bar {
   display: block;
   position: absolute;
   width: calc(100% - 1ch);
-
-  background: top left
-    repeating-linear-gradient( -45deg,
-      transparent, transparent 5%,
-      rgba(0, 0, 0, .1) 5%,  rgba(0, 0, 0, .1) 10%
-  );
   background-color: lime;
   box-shadow: 0 0 .168ch .168ch rgba(0, 0, 0, .68) inset;
+
+  background-image:
+    repeating-linear-gradient( -45deg,
+      transparent, transparent 20%,
+      rgba(0, 0, 0, .1) 20%,  rgba(0, 0, 0, .1) 40%
+  );
+  background-size: 20% 100%;
+  background-repeat: repeat-x;
+  background-position: top left;
+  animation: barberpole 10s linear infinite;
 }
 meter::-webkit-meter-bar::before,
 meter::-webkit-meter-bar::after,
@@ -864,7 +868,12 @@ meter::-webkit-meter-optimum-value, progress::-webkit-progress-value {
   background-image:
     linear-gradient(left, #09c, #f44);
 }
-meter::-webkit-meter-optimum-value { display: none }
+meter:not([value])::-webkit-meter-bar,
+progress:indeterminate::-webkit-progress-bar {
+  animation: none;
+  background-image: none;
+}
+meter:not([value])::-webkit-meter-optimum-value { display: none }
 progress:indeterminate::-webkit-progress-value {
   inline-size: 100% !important; /* TODO: Remove */
   width: 100%;
@@ -876,13 +885,23 @@ progress:indeterminate::-webkit-progress-value {
   background-attachment: fixed;
   background-position: 0%;
   animation-name: progress;
-  animation: 1.682s linear infinite alternate progress;
+  animation: 0.682s infinite ease progress;
 }
 @-webkit-keyframes progress {
   50%  { background-position: 95% }
 }
 @keyframes progress {
   50%  { background-position: 95% }
+}
+@-webkit-keyframes barberpole {
+  100% {
+    background-position: 100% 100%;
+  }
+}
+@keyframes barberpole {
+  100% {
+    background-position: 100% 100%;
+  }
 }
 progress::-webkit-progress-value::after {
  /* Only webkit/blink browsers understand pseudo elements on pseudo classes. A rare phenomenon! */
