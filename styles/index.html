@@ -206,7 +206,7 @@
     <li role=tab>
       <a title='Tab 1'aria-controls=view:1 aria-selected=false href=#view:1>Tab 1</a>
     <li role=tab aria-selected=true>
-      <a disabled title='Tab 2' tabindex='-1'aria-selected=true aria-controls=view:2 href=#view:2>Tab 2</a>
+      <a aria-disabled=true title='Tab 2' tabindex='-1'aria-selected=true aria-controls=view:2 href=#view:2>Tab 2</a>
     <li role=tab>
       <a title='Tab 3' aria-controls=view:3 aria-selected=false href=#view:3>Tab 3</a>
   </menu>
@@ -2423,6 +2423,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
       <a title='Top of page' href=#>Top</a>
 
+
       <fieldset id=selects><!-- conflicts with <select id=select> -->
         <legend>Selects</legend>
 
@@ -2430,12 +2431,16 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <select id=select title='Select Option'>
           <option disabled hidden value selected aria-selected=true>- select an option -
           <option>Option One
-          <option>Option Two
-          <option disabled>Option Three (disabled)
+          <option disabled>Option Two (disabled)
 
           <optgroup label='Option Group'>
+            <option>Option Three
             <option>Option Four
-            <option>Option Five
+          </optgroup>
+
+          <optgroup disabled label='(disabled) Option Group'>
+            <option>(disabled) Option Five
+            <option>(disabled) Option Six
           </optgroup>
         </select>
 
@@ -2445,8 +2450,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <select title='Select Option'>
             <option disabled hidden value selected aria-selected=true>- select an option -
             <option>Option One
-            <option>Option Two
-            <option disabled>Option Three (disabled)
+            <option disabled>Option Two (disabled)
           </select>
         </label>
 
@@ -2454,20 +2458,19 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <select required id=select:required title='Select Option'>
           <option disabled hidden value selected aria-selected=true>- select an option -
           <option>Option One
-          <option>Option Two
-          <option disabled>Option Three (disabled)
+          <option disabled>Option Two (disabled)
         </select>
 
         <label for=select:selected>Select <em>(Selected)</em></label>
         <select id=select:selected title='Select Option'>
           <option disabled value>- select an option -
-          <option selected>Option One (selected)
+          <option selected aria-selected=true>Option One (selected)
           <option>Option Two
           <option disabled>Option Three (disabled)
         </select>
 
         <label for=select:disabled>Select <em>(Disabled)</em></label>
-        <select id=select:disabled disabled title='Select Option (Disabled)'>
+        <select disabled id=select:disabled title='Select Option (Disabled)'>
           <option>Option One
           <option selected aria-selected=true>Option Two (Selected)
         </select>
@@ -2585,13 +2588,13 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
             <li>
               <label title='Checkbox disabled'>
-                <input name=checkbox:checked type=checkbox disabled >
+                <input disabled name=checkbox:checked type=checkbox >
                 Checkbox state is <code>disabled</code>
               </label>
 
             <li>
               <label title='Checkbox disabled checked'>
-                <input name=checkbox:nested type=checkbox disabled checked >
+                <input disabled checked name=checkbox:nested type=checkbox>
                 Checkbox state is <code>disabled checked</code>
               </label>
 
@@ -2771,7 +2774,7 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           </label>
 
           <input type=button title=Button value='<input type=button>'>
-          <input type=button title='Submit (Disabled)' value='<input type=button disabled>' disabled>
+          <input disabled type=button title='Submit (Disabled)' value='<input type=button disabled>'>
           <input type=reset  title=Reset value='<input type=reset>'>
           <input type=submit title=Submit value='<input type=submit>'>
         </fieldset>
