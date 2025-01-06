@@ -62,10 +62,16 @@
     - https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation
 */
 @media ( orientation: portrait ) {
-  :root { --flex-direction: column }
+  :root {
+    --width: 100%;
+    --flex-direction: column;
+  }
 }
 @media ( orientation: landscape ) {
-  :root { --flex-direction: row }
+  :root {
+    --width: auto;
+    --flex-direction: row;
+  }
 }
 
 *, ::before, ::after, ::marker {  /* https://stackoverflow.com/q/7327326 */
