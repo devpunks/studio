@@ -238,7 +238,7 @@ search, [role=search] {
   background: maroon;
   border-bottom: 0.1em solid;
 
-  & label { background: pink }
+  & label {}
   & button, input[type=submit] { background: lime }
 
   search > input, [type=search] {
@@ -320,7 +320,6 @@ input[type=range] {
   margin: 0 1ch 1ch;
   width: inherit;
   max-width: calc(100% - 2ch);
-  background: rgba(255,255,255,0.4);
 }
 [type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -450,11 +449,8 @@ label [type=checkbox], label [type=radio] {
 input[list] { /* combobox */ }
 
 input[type=file] {
-  block-size: 10em;
-  max-block-size: 6em;
-  outline: 2px solid red;
-  /* height: 0; */
-  padding: 0;
+  height: auto;
+  padding: 1ch;
   /* opacity: 0; */
   /* clip-path: inset(50%); */
 }
@@ -507,8 +503,11 @@ textarea:not([rows]) { min-height: 10em }
 select {
    /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
    width: calc(100% - 2ch);
-   box-shadow: var(--box-shadow);
    text-align-last: var(--text-align);
+}
+label + select {
+  border-radius: 0;
+  border-width: 0 1ch 1ch;
 }
 select[multiple] {
   padding: 0;
@@ -522,8 +521,12 @@ select[multiple]:focus-visible {
 
 select:not([multiple]) {
   /* https://css-tricks.com/styling-a-select-like-its-2019/ */
-  background:
-    url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E') right .6em top 50% / .65em auto no-repeat Field;
+  cursor: s-resize;
+  padding-right: 4ch;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1ch) center;
+  background-size: 3ch;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path d='M 200 0 L 100 100 0 0 z' fill='Canvas'></path></svg>");
 }
 
 select[multiple] optgroup {
@@ -537,7 +540,8 @@ select[multiple] optgroup option {}
 select[multiple] optgroup option {}
 
 option {
-  overflow-x: clip; /* https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/ */
+  cursor: n-resize;
+  /* overflow-x: clip; */ /* https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/ */
   padding: 0 var(--line-height);
   line-height: var(--line-height);
 }
