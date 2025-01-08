@@ -131,6 +131,7 @@ form details {
  *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
 */
 label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
+  cursor: pointer;
   width: calc(100% - 2ch);
   text-indent: 1ch;
   margin: 0 1ch 1ch;
