@@ -568,16 +568,23 @@ dialog {
 dialog:not([open])
   { display: none }
 
-button, [type=button], [type=submit], [type=reset], [role=button], ::file-selector-button, [type=file]::-webkit-file-upload-button {
+button, [type=button], [type=submit], [type=reset], [role=button], input[type=file]::file-selector-button, input[type=file]::-webkit-file-upload-button {
   /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
+  -webkit-appearance: none;
+  appearance: none;
+  color: Canvas;
   cursor: pointer;
+  font: inherit;
+  word-spacing: inherit;
+  letter-spacing: inherit;
   font-size: larger;
+  font-weight: bolder;
   width: max-content;
   max-width: inherit;
   max-width: calc(100% - 2ch);
   white-space: normal;
   font-family: inherit;
-  background: buttonFace;
+  background: CanvasText;
   display: inline-block;
   border-radius: 0.1618em;
   box-shadow: var(--box-shadow);
@@ -585,6 +592,9 @@ button, [type=button], [type=submit], [type=reset], [role=button], ::file-select
   border: 0.0168em solid currentColor;
   margin: var(--margin-collapse-bugfix) 1ch 1ch;
   padding: var(--margin-collapse-bugfix) var(--line-height);
+}
+input[type=file]::file-selector-button, input[type=file]::-webkit-file-upload-button {
+  margin: 0 1ch 0 0;
 }
 button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(:disabled), [type=file]::-webkit-file-upload-button:not(:disabled),
 [type=submit]:not(:disabled), [type=reset]:not(:disabled), [role=button]:not([aria-disabled=true]) {
@@ -631,7 +641,6 @@ input:not([type]):read-only
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
   */
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='1em' y='1em' x='0.1682em'>*</text></svg>");
-  background: rgba(0,0,0,0.7);
 }
 :required:not(:placeholder-shown), [required]:not(:placeholder-shown), [aria-required=true]:not(:placeholder-shown) {
   /*
@@ -654,7 +663,9 @@ input:required:valid,
 select:required:valid,
 textarea:required:valid,
 [aria-invalid=false] {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text  font-size='2em' y='1em' x='0.1682em'>✓</text></svg>");
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.55ch'>✓</text></svg>");
+  background-position: left center;
 }
 
 /* INVALID
@@ -670,7 +681,10 @@ input:not(:placeholder-shown):out-of-range,
   accent-color: ActiveText;
   color:        ActiveText;
   cursor:       not-allowed;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text  font-size='2em' y='1em' x='0'>✗</text></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.68ch' x='0ch'>✗</text></svg>");
+  background-position: 0;
+  background-size: 1.68ch auto;
+  background-repeat: no-repeat;
 }
 
 /* UNDETERMINED */
@@ -714,7 +728,6 @@ input:focus:not(:placeholder-shown):out-of-range,
 :disabled:hover, [aria-disabled=true]:hover
  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
   filter: none;
-  opacity: 30%;
   outline: none;
   cursor: not-allowed;
   pointer-events: none; /* https://jakearchibald.com/2017/events-and-disabled-form-fields/ */
