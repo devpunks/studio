@@ -76,15 +76,10 @@
   --larger:  120.0%;
   --largest: 161.8%;
 
-  /*
-    - https://stackoverflow.com/questions/59909792/what-is-the-difference-between-margin-block-start-and-margin-top
-    - https://js-craft.io/blog/css-logical-properties-using-the-margin-block-and-margin-inline-instead-of-the-default-margin
-  */
-  --p-margin: 0 var(
-  --line-height) var(--line-height); /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag */
-  --line-height: 1.618em; /* https://en.wikipedia.org/wiki/Golden_ratio */
-  --word-spacing: -0.1em; /* http://webtypography.net/2.1.1 */
-
+  /* https://css-tricks.com/forums/topic/recommended-margin-for-paragraph-tag */
+  /* http://webtypography.net/2.1.1 */
+  --word-spacing: -0.1em; /* https://w3.org/TR/WCAG21/#text-spacing */
+  --line-height: calc( var(--GOLDEN-RATIO) * 1em );
   /* kerning "tracking"
       - https://webtypography.net/2.1.8
       - 5%-12% (0.05em-0.012em) - https://practicaltypography.com/letterspacing.html
