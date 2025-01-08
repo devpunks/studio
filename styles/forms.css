@@ -18,7 +18,8 @@
 input:not([type])::placeholder { /* 4.5:1 contrast ratio for ARIA */
   opacity: 0.4;
   color: inherit;
-  text-align:start;
+  text-align:left;
+  overflow-x: clip;
   padding-inline: 1ch;
   border-radius: 0.5ch;
 }
