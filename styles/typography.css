@@ -275,7 +275,7 @@ html {
   word-spacing: 0.16em;
   letter-spacing: 0.12em;
   font-size-adjust: from-font; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust */
-  font-stretch: semi-expanded;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
+  /* font-stretch: semi-expanded; */  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
   font-feature-settings: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings */
   font-variant-alternates: normal; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates */
