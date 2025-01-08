@@ -259,7 +259,7 @@
   /* https://blog.kizu.dev/cap-height-align */
   /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
   font: inherit;
-  text-indent: 0;
+  text-indent: unset;
 }
 
 html {
