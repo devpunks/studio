@@ -137,9 +137,16 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
   text-indent: 1ch;
   white-space: nowrap;
   display: inline-flex;
-  outline: 1px solid red;
-  background: rebeccapurple;
-  flex-direction: var(--flex-direction);
+  flex-wrap: wrap;
+  background-color: Canvas;
+  background-image:
+    linear-gradient(
+    135deg,
+    rgba(255, 0, 0, 1) 0,
+    rgba(255, 0, 0, 1) 1ch,
+    transparent 0.4em
+  );
+  /* flex-direction: var(--flex-direction); */
 
   output { /* https://scottohara.me/blog/2019/07/10/the-output-element.html */
   }
