@@ -197,7 +197,7 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   background-color: transparent;
   width: var(--width);
   max-width: calc(100% - 2ch);
-  margin: 0 1ch 1ch;););
+  margin: 0 auto;
   /* max-width: var(--line-length); */
   /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
   /* list-style-position: inside; */
