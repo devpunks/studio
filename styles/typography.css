@@ -85,7 +85,7 @@
       - 5%-12% (0.05em-0.012em) - https://practicaltypography.com/letterspacing.html
       - https://graphicdesign.stackexchange.com/q/2606/difference-between-kerning-vs-letter-spacing
    */
-  --letter-spacing: 0.0681em; /* https://css-tricks.com/almanac/properties/l/letter-spacing */
+  --letter-spacing: calc( ( var(--GOLDEN-RATIO)  - 1 ) * 0.1 * 1em ); /* https://css-tricks.com/almanac/properties/l/letter-spacing */
 
   /*
    - CHROME AUTO-RESIZING - https://docs.google.com/document/d/1PPcEwAhXJJ1TQShor29KWB17KJJq7UJOM34oHwYP3Zg/edit
