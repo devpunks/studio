@@ -161,7 +161,6 @@
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
     - https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497
    */
-  /* --font-family: BLOKK; */
   --margin-collapse-bugfix: 0.05px;
 } /* :root */
 
