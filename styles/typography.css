@@ -45,8 +45,9 @@
     - https://pearsonified.com/2011/12/golden-ratio-typography.php
     - https://adobe.com/creativecloud/design/discover/golden-ratio.html
     - https://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
-*/
-:root {
+  */
+  --GOLDEN-RATIO: 1.61803398875;
+
   --margin: 1ch auto;
   --text-align: center;
   --line-length: 75em; /* https://baymard.com/blog/line-length-readability */
