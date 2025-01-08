@@ -142,7 +142,6 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
   flex-direction: var(--flex-direction);
 
   output { /* https://scottohara.me/blog/2019/07/10/the-output-element.html */
-    background-color: #bada55;
   }
 
   code {
@@ -152,7 +151,6 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
     white-space: nowrap;
   }
 }
-label { cursor: pointer }
 label > * { cursor: revert }
 label button {}
 label, label + input {
@@ -163,10 +161,7 @@ label, label + input {
   /* width: -webkit-fill-available; */
   /* width: 50%; */
 }
-label + input {
-  background-color: purple;
-  padding: 0;
-}
+
 label + :not(input) {
   clear: both;
 }
@@ -180,10 +175,8 @@ select { /* https://github.com/whatwg/html/issues/3244 */}
 
 button, [role=button], input, select, textarea {
   font: inherit;
-  color: currentColor;
   word-spacing: inherit;
   letter-spacing: inherit;
-  text-align: var(--text-align);
   /*
    * Fix rounded corners in iOS Safari https://github.com/twbs/bootstrap/issues/11586.
    * appearance
