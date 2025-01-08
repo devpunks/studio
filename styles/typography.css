@@ -606,10 +606,10 @@ em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
 b, strong { font-weight: bolder }
 b {}
 p, address {
-  max-width: 80ch;
+  max-width: var(--line-length);
   text-align: start;
   padding: var(--margin-collapse-bugfix) var(--line-height);
-  margin: var(--margin-collapse-bugfix) auto var(--line-height);
+  margin: var(--margin-collapse-bugfix) auto 2em;
 }
 p {
   text-wrap: pretty; /* https://developer.chrome.com/blog/css-text-wrap-pretty */
