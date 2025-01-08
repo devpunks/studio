@@ -2181,34 +2181,53 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <input required id=password type=password
           title='Type your password' placeholder='Type your Password'>
 
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file -->
-        <label for=file>File</label>
-        <input id=file type=file title='Select File' placeholder='File Input'>
-        <output for=file>The File</output>
+        <fieldset>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file -->
+          <legend>Files</legend>
 
-        <label for=file:multiple>Multiple Files</label>
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept -->
-        <input multiple id=file:multiple type=file title='Select Muiltiple Files' placeholder='Multiple File Input'
-          accept='image/*,audio/*,video/*'>
-        <output for=file:multiple>The Multiple Files</output>
+          <label for=file>File</label>
+          <input id=file type=file title='Select File' placeholder='File Input'>
+          <output for=file>The File</output>
 
-        <label for=file:microphone>Mobile Microphone</label>
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture -->
-        <input id=file:microphone type=file title='Speak into microphone' placeholder='Speak into microphone'
-          capture accept='audio/*'>
-        <output for=file:microphone>The Microphone File</output>
+          <label for=file:required>File <em>(<var>required</var>)</em></label>
+          <input required id=file:required type=file title='Select Required File' placeholder='Required File Input'>
 
-        <label for=file:camera>Selfie Camera</label>
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture -->
-        <input id=file:camera type=file title='Take a Selfie' placeholder='Take a Selfie'
-          capture=user accept='image/*'>
-        <output for=file:camera>The Camera File</output>
+          <label for=file:disabled>File <em>(<var>disabled</var>)</em></label>
+          <input disabled id=file:disabled type=file title='Select Disabled File' placeholder='Disabled File Input'>
 
-        <label for=file:video>Main Video Camera</label>
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture -->
-        <input id=file:video type=file title='Shoot a Movie' placeholder='Shoot a Movie'
-          capture=environment accept='video/*'>
-        <output for=file:video>The Video File</output>
+          <label>File <em>(Nested in <code>&lt;label&gt;</code>)</em>
+            <input type=file title='Select File' placeholder='File Input'>
+          </label>
+
+          <label>File &amp; <code>&lt;output&gt;</code> <em>(Nested in <code>&lt;label&gt;</code>)</em>
+            <input type=file title='Select File' placeholder='File Input'>
+            <output>The File</output>
+          </label>
+
+          <label for=file:multiple>Multiple Files</label>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept -->
+          <input multiple id=file:multiple type=file title='Select Muiltiple Files' placeholder='Multiple File Input'
+            accept='image/*,audio/*,video/*'>
+          <output for=file:multiple>The Multiple Files</output>
+
+          <label for=file:microphone>Mobile Microphone</label>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture -->
+          <input id=file:microphone type=file title='Speak into microphone' placeholder='Speak into microphone'
+            capture accept='audio/*'>
+          <output for=file:microphone>The Microphone File</output>
+
+          <label for=file:camera>Selfie Camera</label>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture -->
+          <input id=file:camera type=file title='Take a Selfie' placeholder='Take a Selfie'
+            capture=user accept='image/*'>
+          <output for=file:camera>The Camera File</output>
+
+          <label for=file:video>Main Video Camera</label>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture -->
+          <input id=file:video type=file title='Shoot a Movie' placeholder='Shoot a Movie'
+            capture=environment accept='video/*'>
+          <output for=file:video>The Video File</output>
+        </fieldset>
       </fieldset>
 
       <a title='Top of page' href=#>Top</a>
