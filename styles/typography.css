@@ -37,8 +37,10 @@
     - https://zellwk.com/blog/why-vertical-rhythms
     - https://trentwalton.com/2012/06/19/fluid-type
     - https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
-
-  - Golden Ratio:
+*/
+:root {
+  /*
+    - Golden Ratio:
     - https://en.wikipedia.org/wiki/Golden_ratio
     - https://pearsonified.com/2011/12/golden-ratio-typography.php
     - https://adobe.com/creativecloud/design/discover/golden-ratio.html
