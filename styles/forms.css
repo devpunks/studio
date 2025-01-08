@@ -133,6 +133,7 @@ form details {
 label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
   cursor: pointer;
   width: calc(100% - 2ch);
+  margin: 0 1ch 0;
   text-indent: 1ch;
   margin: 0 1ch 1ch;
   white-space: nowrap;
