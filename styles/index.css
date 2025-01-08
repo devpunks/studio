@@ -63,8 +63,6 @@
     - resolution - https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
 */
 :root {
-  --GOLDEN-RATIO: 1.61803398875; /* https://en.wikipedia.org/wiki/Golden_ratio */
-
   --max-width: 100%; /* https://dev.to/tepythai/why-100vw-causes-horizontal-scrollbar-4nlm */
 
   /* Shadows
