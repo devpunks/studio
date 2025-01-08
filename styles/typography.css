@@ -671,7 +671,7 @@ pre {
   max-width: var(--line-length);
   overflow: overlay;
   text-align: initial;
-  margin: var(--p-margin);
+  margin: var(--margin-collapse-bugfix) auto 2em;
 }
 code {
   align-self: start;
