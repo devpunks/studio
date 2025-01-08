@@ -192,6 +192,9 @@ input:not([type]), input[type=text], input[type=password], input[type=search],
 input[type=file], input[type=number], input[type=color], input[type=url], input[type=email], input[type=tel],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
+  box-shadow: inset 0 0 0 0.168ch;
+  background-repeat: no-repeat;
+  background-color: transparent;
   width: var(--width);
   border-radius: 0.682ch;
   max-width: calc(100% - 2ch);
