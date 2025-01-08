@@ -217,19 +217,21 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   /* https://kizu.dev/counters-and-stones */
   &:not( [disabled] ):hover {background-color: magenta;}
 
-  label:hover > &:hover:not( [disabled]) { background: lime }
+  label:hover > &:hover:not( [disabled]) { background-color: lime }
 }
 
 
 label output, label select, label textarea, label [type], label input:not([type]) {
-  /* width: calc((var(--GOLDEN-RATIO) - 1) * 100%); */
-  /* flex-basis: 68%; */
-  /* max-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
+  border: none;
+  border-radius: 0;
+  margin-bottom: 1ch;
 }
 
 [type=file] + output {
-  background: red;
-  border-width: 0.1618em;
+  text-align: left;
+  display: inline-block;
+  width: calc(100% - 2ch);
+  border-width: 0 1ch 1ch 1ch;
 }
 
 search, [role=search] {
