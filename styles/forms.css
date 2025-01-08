@@ -196,17 +196,18 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   background-repeat: no-repeat;
   background-color: transparent;
   width: var(--width);
-  border-radius: 0.682ch;
   max-width: calc(100% - 2ch);
   margin: 0 1ch 1ch;););
   /* max-width: var(--line-length); */
   /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
   /* list-style-position: inside; */
-  font-size: larger;
+  /* font-size: larger; */
+  overflow: clip;
   white-space: nowrap;
-  border: solid 0.1ch;
-  display: inline-block;
-  text-overflow: ellipsis;
+  border: solid Canvas;
+  border-width: 0 1ch 1ch 1ch;
+  border-style: solid;
+  sis;
   vertical-align: baseline;
   line-height: var(--line-height);
   padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
