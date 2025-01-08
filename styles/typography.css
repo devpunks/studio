@@ -270,8 +270,10 @@ html {
   text-align:     var(--text-align);
   font-family:    var(--font-family);
   line-height:    var(--line-height);
-  /* word-spacing:   var(--word-spacing); */
-  /* letter-spacing: var(--letter-spacing); */
+  word-spacing:   var(--word-spacing);
+  letter-spacing: var(--letter-spacing);
+  word-spacing: 0.16em;
+  letter-spacing: 0.12em;
   font-size-adjust: from-font; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust */
   font-stretch: semi-expanded;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch */
   font-variant-emoji: unicode; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji */
