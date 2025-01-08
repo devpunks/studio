@@ -648,7 +648,7 @@ footer p { font-size: smaller }
   padding-right: 0.25ch;
 }
 [autocapitalize] * {
-  padding: initial;
+  font: inherit;
   text-indent: initial;
   text-decoration: revert;
 }
