@@ -76,7 +76,7 @@ input:not(:focus):out-of-range:not(:placeholder-shown):invalid,
 
 @keyframes border-pulse {
   from {
-    border-color: currentColor
+    box-shadow: inset 0 0 0 0.168ch currentColor;
   }
 
   to {
