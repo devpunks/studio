@@ -209,14 +209,13 @@ input[type=date], input[type=time], input[type=datetime], input[type=datetime-lo
   border-style: solid;
   sis;
   vertical-align: baseline;
-  line-height: var(--line-height);
   padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
   /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
   -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
   user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
 
   /* https://kizu.dev/counters-and-stones */
-  &:not( [disabled] ):hover { background: magenta }
+  &:not( [disabled] ):hover {background-color: magenta;}
 
   label:hover > &:hover:not( [disabled]) { background: lime }
 }
