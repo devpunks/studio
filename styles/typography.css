@@ -416,7 +416,7 @@ section > header, nav > header {
   padding: 0;
   max-width: 100%;
   margin: var(--margin-collapse-bugfix) auto;
-  font-size: calc( var(--largest) * var(--golden-ratio) );
+  font-size: calc( var(--largest) * var(--GOLDEN-RATIO) );
 }
 header *
   { text-transform: initial }
