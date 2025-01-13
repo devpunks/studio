@@ -20,7 +20,7 @@
   color: inherit;
   text-align:left;
   overflow-x: clip;
-  padding-inline: 1ch;
+  /* padding-inline: 1ch; */
   text-overflow: ellipsis;
 }
 :is( input,textarea ):not( [disabled] ):is( :hover, :focus-within )::placeholder
@@ -199,32 +199,35 @@ input:not([type]), input[type=text], input[type=password], input[type=search],
 input[type=file], input[type=number], input[type=color], input[type=url], input[type=email], input[type=tel],
 input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
 { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-  box-shadow: inset 0 0 0 0.168ch;
-  background-repeat: no-repeat;
-  background-color: transparent;
   width: var(--width);
+  box-shadow: inset 0 0 0 0.168ch;
   max-width: calc(100% - 2ch);
   margin: 0 auto;
-  /* max-width: var(--line-length); */
-  /* min-width: calc((var(--GOLDEN-RATIO) - 1) * var(--line-length)); */
-  /* list-style-position: inside; */
-  /* font-size: larger; */
-  overflow: clip;
+  padding: 0 1ch;
+  text-indent: 1ch;
+  line-height: 2em;
+  border-style: solid;
   white-space: nowrap;
   border: solid Canvas;
-  border-width: 0 1ch 1ch 1ch;
-  border-style: solid;
-  sis;
+  text-overflow: ellipsis;
   vertical-align: baseline;
-  padding: var(--margin-collapse-bugfix) calc(var(--line-height) - 1ch);
-  /* margin: var(--margin-collapse-bugfix) auto var(--margin); */
-  -webkit-user-select: text; /* Safari - https://caniuse.com/?search=user-select */
-  user-select: text; /* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select */
+  border-width: 0 1ch 1ch 1ch;
+  -webkit-user-select: text;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image:
+    linear-gradient( 135deg, currentColor 0, 
+      currentColor calc( 0.5 * var(--line-height) ),
+    transparent calc( 0.5 * var(--line-height) ) );
+  user-select: text;
 
   /* https://kizu.dev/counters-and-stones */
-  &:not( [disabled] ):hover {background-color: magenta;}
-
-  label:hover > &:hover:not( [disabled]) { background-color: lime }
+  label + &:hover:not( [disabled]),
+  label:hover + &:not( [disabled]),
+  label:hover > &:hover:not( [disabled]) {
+    color: Canvas;
+    background-color: CanvasText;
+  }
 }
 
 
@@ -321,12 +324,13 @@ search, [role=search] {
  * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
 */
 input[type=range] {
-  border: solid 0.1ch;
-  border-radius: 0.682ch;
+  border: solid Canvas;
+  border-width: 0 1ch 1ch;
   cursor: ew-resize;
-  margin: 0 1ch 1ch;
   width: inherit;
+  margin: 0 auto;
   max-width: calc(100% - 2ch);
+  background: Canvas;
 }
 [type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
