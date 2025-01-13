@@ -11,6 +11,11 @@
   - Filters - https://css-tricks.com/almanac/properties/f/filter
   - Maskking vs. Clipping - https://css-tricks.com/masking-vs-clipping-use
 */
-:root{
+:root{}
 
+body > header {
+  background: top left url(pictures/mixer.webp);
+  background-size: contain;
+
+  border-image: fill 1 linear-gradient( rgba(255,0,0,0.3), rgba(0,0,255,0.3) );
 }
