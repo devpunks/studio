@@ -716,10 +716,10 @@ input:not(:placeholder-shown):out-of-range,
   accent-color: ActiveText;
   color:        ActiveText;
   cursor:       not-allowed;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.68ch' x='0ch'>✗</text></svg>");
-  background-position: 0;
-  background-size: 1.68ch auto;
-  background-repeat: no-repeat;
+  /* background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.68ch' x='0ch'>✗</text></svg>"); */
+  /* background-position: 0; */
+  /* background-size: 1.68ch auto; */
+  /* background-repeat: no-repeat; */
 }
 
 /* UNDETERMINED */
@@ -806,15 +806,12 @@ input:focus:not(:placeholder-shown):out-of-range,
   background: blue;
 }
 ::-webkit-slider-runnable-track {
-  margin: 1ch;
+  margin: 0ch;
   padding: 0.5ch 0.25ch;
   border-radius: 0.682ch;
-  box-shadow: 0 0 0.3ch Canvas;
-  background-color: rgba(255,255,255,0.4);
-  background-image: linear-gradient(0deg, transparent 40%, Canvas 40%, Canvas 60%, transparent 60%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 90%;
+  /* box-shadow: 0 0 0.3ch Canvas; */
+  box-shadow: inset 0 0 0 1.68ch CanvasText;
+  /* background-image: linear-gradient(0deg, transparent 40%, Canvas 40%, Canvas 60%, transparent 60%); */
 }
 ::-webkit-slider-thumb {
   width: 5ch;
