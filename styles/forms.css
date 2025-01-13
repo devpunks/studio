@@ -566,13 +566,19 @@ select[multiple] optgroup option {}
 select[multiple] optgroup option {}
 
 option {
+  overflow-x: hidden;
   cursor: n-resize;
-  /* overflow-x: clip; */ /* https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/ */
-  padding: 0 var(--line-height);
-  line-height: var(--line-height);
+  overflow-x: visible;
 }
-:focus option
-  { overflow-x: visible }
+:focus option {
+    overflow-x: visible;
+}
+option:focus-visible {
+  background-color: magenta;
+}
+option:selected {
+  background-color: red !important;
+}
 
 dialog {
   left: 0;
@@ -689,9 +695,12 @@ input:required:valid,
 select:required:valid,
 textarea:required:valid,
 [aria-invalid=false] {
-  background-image:
+  background-image: linear-gradient(
+      135deg,
+      currentColor 0,
+      currentColor 2ch
+    ),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.55ch'>✓</text></svg>");
-  background-position: left center;
 }
 
 /* INVALID
