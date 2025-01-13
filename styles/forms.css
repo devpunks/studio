@@ -556,9 +556,12 @@ option, optgroup {
   text-align: left;
   border: solid 0.1ch;
 }
-select[multiple] optgroup, select[multiple] optgroup :first-child {
-border-top: 0.0618em solid ButtonText;
+label + select[multiple] optgroup,
+label + select[multiple] option {
+  background: transparent;
 }
+
+select[multiple] optgroup, select[multiple] optgroup :first-child {/* border-top: 0.0618em solid ButtonText; */}
 select[multiple] optgroup option {}
 select[multiple] optgroup option {}
 
