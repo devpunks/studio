@@ -53,10 +53,25 @@ picture, figure, canvas, audio, video, embed, object {
 canvas, video, iframe[src*=youtube] {
   width: 100%;
   padding:  0.5ch;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16/9;
   vertical-align: baseline;
   margin: var(--line-height) auto;
 }
+
+@supports not (aspect-ratio: 16 / 9) {
+  canvas::before, video::before, iframe[src*=youtube]::before {
+    float: left;
+    padding-top: 56.25%;
+    content: "foo";
+  }
+
+  canvas::after, video::after, iframe[src*=youtube]::after {
+    display: block;
+    content: "foo";
+    clear: both;
+  }
+}
+
 audio:hover, video:hover, iframe[src*=youtube]:hover {
   background: currentColor;
 }
