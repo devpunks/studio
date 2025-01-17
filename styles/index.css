@@ -811,6 +811,7 @@ html, body {
   -webkit-tap-highlight-color: transparent; /* https://davidwalsh.name/mobile-highlight-color */
 }
 html {}
+body { -webkit-overflow-scrolling: touch }
 body[role=application] {
   /* SCROLL SNAPPING
     - https://w3.org/TR/css-scroll-snap-1
@@ -819,14 +820,10 @@ body[role=application] {
   */
   /* scroll-snap-type: y mandatory */
 }
-body > nav { -webkit-transform: translatez(0) }
-body > main   { -webkit-overflow-scrolling: touch }
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
-body > header { -webkit-transform: translatez(0) }
-body > aside  { -webkit-transform: translatez(0) }
-body > footer { -webkit-transform: translatez(0) }
+body > * { transform: translatez(0) }
 
-a { -webkit-touch-callout: default }
+a { -webkit-touch-callout: default } /* none */
 
 iframe, pre, table, select[multiple] {
   /*
