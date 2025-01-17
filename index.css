@@ -16,6 +16,5 @@
 body > header {
   background: top left url(pictures/mixer.webp);
   background-size: contain;
-
   border-image: fill 1 linear-gradient( rgba(255,0,0,0.3), rgba(0,0,255,0.3) );
 }
