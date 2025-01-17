@@ -82,11 +82,10 @@ svg {
   width: 100%;
   height: 100%;
   background: inherit;
-
-  image {
-    width:  inherit;
-    height: inherit;
-  }
+}
+svg image {
+  width:  inherit;
+  height: inherit;
 }
 
 a img {
@@ -164,7 +163,10 @@ video { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video */ }
 video:fullscreen {} /*  https://drafts.csswg.org/selectors/#pip-state */
 video:picture-in-picture
   /* https://drafts.csswg.org/selectors/#pip-state */
-  { box-shadow: 0 0 10px 0 }
+  {
+    box-shadow: 0 0 10px 0;
+    border: 1ch solid;
+  }
 canvas {
   width: 100%;
   background: Canvas;
