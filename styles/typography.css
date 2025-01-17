@@ -7,17 +7,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=fallback); /* https://en.wikipedia.org/wiki/Open_Sans */
 @import url(https://fonts.googleapis.com/css?family=Noto+Emoji&family=Noto+Sans+Math&display=block); /* https://en.wikipedia.org/wiki/Noto_fonts */
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@100..900&display=fallback); /* https://en.wikipedia.org/wiki/Noto_fonts */
-/* https://css-tricks.com/dark-mode-and-variable-fonts */
 
 /* typography.css
-  - W3C:
-    - https://w3.org/TR/css-fonts-4
-    - https://w3c.github.io/csswg-drafts/css-fonts
-
   - http://webtypography.net
   - https://wakamaifondue.com
+  - https://w3.org/TR/css-fonts-4
   - https://varvy.com/mobile/legible-font-size.html
-  - http://mikeyanderson.com/optimal_characters_per_line
+  - https://css-tricks.com/dark-mode-and-variable-fonts
   - https://developer.mozilla.org/en-US/docs/Web/CSS/font
   - https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
   - https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp
