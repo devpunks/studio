@@ -168,7 +168,8 @@ body > main { container-name: header }
 body > aside { container-name: asidee }
 body > footer {
   bottom: 0;
-  position: sticky;
+  /* position: sticky; */
+  container-name: footer;
 }
 
 
