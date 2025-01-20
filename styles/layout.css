@@ -163,9 +163,9 @@ body > * { /* all immediate children of <body> */
   max-width: var(--max-width);
 }
 body > header, body > nav, body > main, body > aside, body > footer {}
-body > header {}
-body > main {}
-body > aside {}
+body > header { container-name: header }
+body > main { container-name: header }
+body > aside { container-name: asidee }
 body > footer {
   bottom: 0;
   position: sticky;
