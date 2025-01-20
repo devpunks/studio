@@ -173,16 +173,6 @@ body > footer {
 }
 
 
-/* Toolbar ============================================================= */
-/* https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar */
-/* https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/toolbar_role */
-
-/* Tabs ==================================================================
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tablist_role
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role
- */
-
 ::-webkit-resizer {
     background: red;
     border: 2px solid black;
