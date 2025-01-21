@@ -562,14 +562,13 @@ label + select[multiple] option {
 select[multiple] optgroup, select[multiple] optgroup :first-child {/* border-top: 0.0618em solid ButtonText; */}
 select[multiple] optgroup option {}
 select[multiple] optgroup option {}
-
 option {
   overflow-x: hidden;
   cursor: n-resize;
   overflow-x: visible;
 }
 :focus option {
-    overflow-x: visible;
+  overflow-x: visible;
 }
 option:focus-visible {
   background-color: magenta;
