@@ -530,7 +530,6 @@ select[multiple] {
 select[multiple]:focus-visible {
   overflow-x: scroll;
 }
-
 select:not([multiple]) {
   /* https://css-tricks.com/styling-a-select-like-its-2019/ */
   cursor: s-resize;
