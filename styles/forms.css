@@ -547,7 +547,6 @@ select:not([multiple]) {
     ),
     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path d='M 200 0 L 100 100 0 0 z' fill='Canvas'></path></svg>");
 }
-
 select[multiple] optgroup {
   background: Canvas;
 }
