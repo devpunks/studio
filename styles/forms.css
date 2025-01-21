@@ -512,23 +512,12 @@ textarea {
 textarea:not([cols]) { min-width: 50% }
 textarea:not([rows]) { min-height: 10em }
 
-select {
-  /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
-  text-align-last: var(--text-align);
-}
-label + select {
-  border-radius: 0;
-  border-width: 0 1ch 1ch;
-}
-select[multiple] {
-  padding: 0;
-  overflow-x: clip;
-  overflow-y: scroll;
-  text-overflow: ellipsis;
-}
-select[multiple]:focus-visible {
-  overflow-x: scroll;
-}
+/* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
+/* select { text-align-last: var(--text-align) } */
+/* Safari */
+/* select { text-align: -webkit-center } */
+select[multiple] { padding: 0 }
+select[multiple]:where( :hover, :focus-visible ) { overflow: auto }
 select:not([multiple]) {
   /* https://css-tricks.com/styling-a-select-like-its-2019/ */
   cursor: s-resize;
@@ -538,42 +527,26 @@ select:not([multiple]) {
   background-position: left;
   background-size: 100%;
   background-image:
-    linear-gradient(
-      135deg,
+    linear-gradient( 135deg,
       rgba(255, 0, 0, 1) 0,
       rgba(255, 0, 0, 1) 1em,
       rgba(255, 255, 255, 0) 1em
     ),
     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path d='M 200 0 L 100 100 0 0 z' fill='Canvas'></path></svg>");
 }
-select[multiple] optgroup {
-  background: Canvas;
-}
 option, optgroup {
   padding: 1ch 0;
-  text-align: left;
   border: solid 0.1ch;
 }
-label + select[multiple] optgroup,
-label + select[multiple] option {
-  background: transparent;
-}
-select[multiple] optgroup, select[multiple] optgroup :first-child {/* border-top: 0.0618em solid ButtonText; */}
-select[multiple] optgroup option {}
-select[multiple] optgroup option {}
+select[multiple] optgroup option { text-indent: 1.682em }
+label + select[multiple] :where( optgroup, option ) { background: transparent }
 option {
-  overflow-x: hidden;
   cursor: n-resize;
-  overflow-x: visible;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 :focus option {
   overflow-x: visible;
-}
-option:focus-visible {
-  background-color: magenta;
-}
-option:selected {
-  background-color: red !important;
 }
 
 dialog {
