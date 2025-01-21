@@ -514,7 +514,6 @@ textarea:not([rows]) { min-height: 10em }
 
 select {
   /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
-  width: calc(100% - 2ch);
   text-align-last: var(--text-align);
 }
 label + select {
