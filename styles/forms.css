@@ -18,8 +18,8 @@
 ::placeholder, ::-webkit-input-placeholder { /* 4.5:1 contrast ratio for ARIA */
   opacity: 0.4;
   color: inherit;
-  text-align:left;
   overflow-x: clip;
+  white-space: nowrap;
   padding-inline: 1ch;
   text-overflow: ellipsis;
   font-style: oblique 90deg;
