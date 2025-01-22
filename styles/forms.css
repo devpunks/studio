@@ -210,7 +210,10 @@ input:where( :not( [type] ),
   vertical-align: baseline;
   border-width: 0 1ch 1ch 1ch;
   -webkit-user-select: text;
+  user-select: text;
   background-repeat: no-repeat;
+  max-width: calc(100% - 2ch);
+  box-shadow: inset 0 0 0 0.168ch;
   background-color: transparent;
   background-image:
     linear-gradient( 135deg, currentColor 0,
