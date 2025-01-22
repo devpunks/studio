@@ -204,6 +204,7 @@ input:where( :not( [type] ),
   text-indent: 1ch;
   border-style: solid;
   white-space: nowrap;
+  line-height: 1.682em;
   border: solid Canvas;
   text-overflow: ellipsis;
   vertical-align: baseline;
