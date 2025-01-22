@@ -193,10 +193,11 @@ button, [role=button], input, select, textarea {
 }
 
 output, select, textarea,
-input:not([type]), input[type=text], input[type=password], input[type=search],
-input[type=file], input[type=number], input[type=color], input[type=url], input[type=email], input[type=tel],
-input[type=date], input[type=time], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week]
-{ /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
+input:where( :not( [type] ),
+  [type=text], [type=password], [type=search], [type=file],
+  [type=number], [type=color], [type=url], [type=email], [type=tel],
+  [type=date], [type=time], [type=datetime], [type=datetime-local], [type=month], [type=week]
+) { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
   width: var(--width);
   box-shadow: inset 0 0 0 0.168ch;
   max-width: calc(100% - 2ch);
