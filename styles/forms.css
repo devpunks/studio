@@ -15,7 +15,7 @@
 @media screen and (min-width: 786px) { :root { } }
 
 /* accessible placeholders & labels - https://nngroup.com/articles/form-design-placeholders */
-::placeholder { /* 4.5:1 contrast ratio for ARIA */
+::placeholder, ::-webkit-input-placeholder { /* 4.5:1 contrast ratio for ARIA */
   opacity: 0.4;
   color: inherit;
   text-align:left;
