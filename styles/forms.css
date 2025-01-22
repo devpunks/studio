@@ -219,7 +219,6 @@ input:where( :not( [type] ),
     linear-gradient( 135deg, currentColor 0,
       currentColor calc( 0.5 * var(--line-height) ),
     transparent calc( 0.5 * var(--line-height) ) );
-  user-select: text;
 
   /* https://kizu.dev/counters-and-stones */
   label + &:hover:not( [disabled]),
