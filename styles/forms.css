@@ -136,7 +136,7 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
   text-indent: 1ch;
   white-space: nowrap;
   display: inline-flex;
-  flex-wrap: wrap;
+  width: calc(100% - 2ch);
   background-color: Canvas;
   background-image:
     linear-gradient(
