@@ -500,6 +500,7 @@ input[type=color]::-webkit-color-swatch {
   border-radius: inherit;
 }
 
+
 textarea {
    /* Remove IE vertical scrollbar. */
    width: calc(100% - 2ch);
