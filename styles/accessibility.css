@@ -82,13 +82,6 @@
   - https://w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
 */
 :focus-visible, [aria-disabled=false]:focus-visible {
-  /*
-    - https://hidde.blog/focus-visible-more-than-keyboard
-    - https://w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F78
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
-    - https://deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators
-    - https://w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
-  */
   outline-offset: 0.2ch;
   outline: 0.3ch dashed;
 
