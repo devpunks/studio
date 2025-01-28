@@ -448,9 +448,7 @@ a::before, a::after {
   text-decoration: none;
 }
 a:hover, header a:hover {}
-a:hover {
-  text-decoration-color: currentColor;
-}
+a:hover { text-decoration-color: currentColor}
 
 footer a {
   /* left: 0; */
