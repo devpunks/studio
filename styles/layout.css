@@ -170,6 +170,7 @@ body > header { container: header }
 body > main { container: header }
 @container main ( orientation: landscape ) {}
 body > aside { container: asidee }
+@container aside ( orientation: landscape ) {}
 body > footer {
   bottom: 0;
   /* position: sticky; */
