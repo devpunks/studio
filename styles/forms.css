@@ -679,7 +679,8 @@ textarea:required:valid,
   background-image: linear-gradient(
       135deg,
       currentColor 0,
-      currentColor 2ch
+      currentColor 2ch,
+      transparent 2ch
     ),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.55ch'>✓</text></svg>");
 }
