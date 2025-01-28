@@ -113,6 +113,64 @@ html:focus-within { scroll-behavior: smooth }
   cursor: progress
 }
 
+
+/* LINKS
+  - https://github.com/w3c/wcag/issues/905
+  - https://stackoverflow.com/questions/10587245
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link
+  - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes
+  - https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css
+*/
+a {
+  background: white;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0.2ch;
+  display: inline-block;
+  /* outline: 0.1em dashed currentColor; */
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+a { color: -webkit-link }
+a:active { color: red }
+a:visited { color: blue }
+/* DYNAMIC - https://w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes */
+a:hover { color: green }
+a:focus { color: magenta }
+a:focus:hover { color: cyan }
+/* https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css */
+a:link:hover:focus,
+a:link:hover:active,
+a:link:focus:active,
+a:visited:hover:focus,
+a:visited:hover:active,
+a:visited:focus:active {}
+/* Highlight current page link
+ - https://github.com/Fyrd/caniuse/issues/7169
+ - https://github.com/w3c/csswg-drafts/issues/10975
+ - https://chromestatus.com/feature/5194826811965440
+ - https://github.com/w3ctag/design-reviews/issues/998
+ - https://bugzilla.mozilla.org/show_bug.cgi?id=1654861
+ - https://developer.mozilla.org/en-US/docs/Web/CSS/:local-link
+ - https://groups.google.com/a/chromium.org/g/blink-dev/c/z2Y7O5ZCxgc/m/cj0paGiPAQAJ
+ */
+a:local-link { background: red } /* https://drafts.csswg.org/selectors/#local-link-pseudo */
+a:link[rel=search] { cursor: help }
+a:link[href='#'][title^=Top] {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  margin: var(--p-margin) auto;
+  padding: 1ch var(--line-height);
+}
+nav > a:link { display: inline-block }
+li > a:link {}
+li > a:link::before, li > :link::after {}
+li > a:link::before {}
+li > a:link::after {}
+
+
+
 [accesskey] {}
 [accesskey]::before {}
 
