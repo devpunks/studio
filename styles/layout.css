@@ -168,6 +168,7 @@ body > header, body > nav, body > main, body > aside, body > footer {}
 body > header { container: header }
 @container header ( orientation: landscape ) {}
 body > main { container: header }
+@container main ( orientation: landscape ) {}
 body > aside { container: asidee }
 body > footer {
   bottom: 0;
