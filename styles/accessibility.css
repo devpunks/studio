@@ -39,9 +39,20 @@
   cursor: default;
 }
 
-/* SELECTED */
-/* https://github.com/w3c/csswg-drafts/issues/10212 */
-::search-text, ::selection {
+/* pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements */
+
+/* SELECTED https://github.com/w3c/csswg-drafts/issues/10212
+  Vendor-prefixed and regular ::selection selectors cannot be combined:
+  - https://stackoverflow.com/a/16982510/7133471
+  - https://css-tricks.com/almanac/selectors/s/selection
+  Invisible selection
+    - https://perishablepress.com/invisible-css-selection
+*/
+::search-text {
+  color: Canvas;
+  background: CanvasText;
+}
+::selection {
   color: Canvas;
   background: CanvasText;
 }
