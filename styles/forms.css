@@ -512,6 +512,12 @@ textarea {
 }
 textarea:not([cols]) { min-width: 50% }
 textarea:not([rows]) { min-height: 10em }
+::-webkit-resizer {
+    background: red;
+    border: 2px solid black;
+    outline: 2px solid yellow;
+    box-shadow: 0 0 5px 5px blue;
+}
 
 /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
 /* select { text-align-last: var(--text-align) } */
