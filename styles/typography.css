@@ -163,11 +163,14 @@
   --margin-collapse-bugfix: 0.05px;
 } /* :root */
 
-/* https://css-tricks.com/font-display-masses */
-/* https://css-tricks.com/snippets/css/using-font-face-in-css */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide */
-/* https://digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css */
+/*
+  https://css-tricks.com/font-display-masses
+  https://css-tricks.com/snippets/css/using-font-face-in-css
+  https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+  https://perishablepress.com/visual-walkthrough-font-face-css
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+  https://digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css
+*/
 @font-face { /* BLOKK font - https://github.com/los-gordos/BLOKK */
   font-family: BLOKK;
   font-style: normal;
