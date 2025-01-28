@@ -719,7 +719,7 @@ input:focus:not(:placeholder-shown):out-of-range,
 [aria-invalid=true]:focus:not(:placeholder-shown):invalid {
   /* TODO: fix intermediate styles */
   /* TODO: Possibly add inert */
-  color: yellow;
+  color: Mark;
 }
 
 /* INERT */
