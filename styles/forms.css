@@ -695,8 +695,8 @@ select:not(:placeholder-shown):invalid,
 textarea:not(:placeholder-shown):invalid,
 input:not(:placeholder-shown):out-of-range,
 [aria-invalid=true]:not(:placeholder-shown):invalid {
-  accent-color: ActiveText;
-  color:        ActiveText;
+  accent-color: red;
+  color:        AccentColorText;
   cursor:       not-allowed;
   /* background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.68ch' x='0ch'>✗</text></svg>"); */
   /* background-position: 0; */
