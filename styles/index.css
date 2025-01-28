@@ -644,8 +644,9 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 abbr[title] { cursor: help }
 
 /* CSS3 Lists
- * https://drafts.csswg.org/css-lists-3
- * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
+  https://drafts.csswg.org/css-lists-3
+  https://perishablepress.com/sexy-html-list-tricks
+  Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 dl, ol, ul {
   max-width: calc(100% - 2em);
