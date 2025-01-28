@@ -221,6 +221,7 @@ input:where( :not( [type] ),
     transparent calc( 0.5 * var(--line-height) ) );
 
   /* https://kizu.dev/counters-and-stones */
+/*
   label + &:hover:not( [disabled]),
   label:hover + &:not( [disabled]),
   label:hover > &:hover:not( [disabled]) {
