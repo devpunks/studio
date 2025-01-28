@@ -60,8 +60,8 @@
   color: Canvas;
   background: CanvasText;
 }
-
 /* TARGETED */
+/* https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments */
 ::target-text {
   color: Canvas;
   background-color: CanvasText;
