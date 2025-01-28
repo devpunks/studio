@@ -519,6 +519,7 @@ textarea:not([rows]) { min-height: 10em }
     box-shadow: 0 0 5px 5px blue;
 }
 
+/* https://adrianroselli.com/2021/03/under-engineered-select-menus.html */
 /* Remove inheritance word wrap in Safari https://github.com/twbs/bootstrap/issues/24990 */
 /* select { text-align-last: var(--text-align) } */
 /* Safari */
