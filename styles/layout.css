@@ -176,11 +176,4 @@ body > footer {
   /* position: sticky; */
   container: footer;
 }
-
-
-::-webkit-resizer {
-    background: red;
-    border: 2px solid black;
-    outline: 2px solid yellow;
-    box-shadow: 0 0 5px 5px blue;
-}
+@container footer ( orientation: landscape ) {}
