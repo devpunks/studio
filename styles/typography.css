@@ -430,7 +430,7 @@ header code, h1 code
   { font-variant-caps: initial }
 
 a {
-  white-space: normal;
+  /* white-space: normal; */
   padding-inline: 0.2ch;
   word-break: break-word;
   white-space-collapse: collapse;
