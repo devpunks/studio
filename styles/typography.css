@@ -437,8 +437,6 @@ a {
   text-underline-offset: 0.168em;
   text-decoration-line: underline;
   text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: auto;
-  text-decoration-skip-ink: auto;
   text-decoration-thickness: 0.168em;
   text-decoration-color: transparent;
   text-decoration-line: underline;
