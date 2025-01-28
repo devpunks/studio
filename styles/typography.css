@@ -439,7 +439,8 @@ a {
   text-underline-position: from-font;
   text-decoration-thickness: 0.168em;
   text-decoration-color: transparent;
-  text-decoration-line: underline;
+  -webkit-text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 a::before, a::after {
   display: inline-block;
