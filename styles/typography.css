@@ -520,6 +520,7 @@ dl, ol, ul {
   padding: var(--margin-collapse-bugfix) 0 1em 1em;
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
+  /* display: block; */
   padding-bottom: 0;
   margin-bottom: var(--margin-collapse-bugfix);
   width: auto;
