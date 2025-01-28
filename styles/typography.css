@@ -290,6 +290,8 @@ html {
   text-size-adjust: var(--text-size-adjust);
   /* These are technically the same, but use both */
   /* https://css-tricks.com/almanac/properties/w/word-break */
+  /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr */
+  /* https://adrianroselli.com/2024/02/techniques-to-break-words.html */
   /* https://blog.logrocket.com/guide-css-word-wrap-overflow-wrap-word-break */
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container */
   /* https://stackoverflow.com/q/17259916/difference-between-overflow-wrap-and-word-break */
