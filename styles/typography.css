@@ -300,6 +300,7 @@ html {
   -ms-word-break: break-word;
   word-break: break-word;
 
+  /* https://en.wikipedia.org/wiki/Soft_hyphen */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
