@@ -39,21 +39,21 @@
     - https://w3.org/TR/css-color-4/#css-system-colors
     - https://adrianroselli.com/2021/02/whcm-and-system-colors.html#CSS4
     - ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=970285
-    - ActiveText - Text in active links
-    - FieldText - Text in input fields
-    - Field - Background of input fields
-    - LinkText - Mon-active, non-visited
-    - VisitedText - Text in visited links
-    - ButtonText - Text on push button control
-    - ButtonBorder - Base border color of controls
-    - ButtonFace - The face background color for buttons
-    - GrayText - (disabled) text (#000 if not OS supported)
-    - CanvasText - Text in application content or documents
-    - Canvas - Background of application content or documents
-    - HighlightText - Text of item(s) selected in a control
-    - Highlight - Background of item(s) selected in a control
-    - AccentColorText - Text of accented user interface controls
-    - AccentColor - Background of accented user interface controls
+    ActiveText - Text in active links
+    FieldText - Text in input fields
+    Field - Background of input fields
+    LinkText - Mon-active, non-visited
+    VisitedText - Text in visited links
+    ButtonText - Text on push button control
+    ButtonBorder - Base border color of controls
+    ButtonFace - The face background color for buttons
+    GrayText - (disabled) text (#000 if not OS supported)
+    CanvasText - Text in application content or documents
+    Canvas - Background of application content or documents
+    HighlightText - Text of item(s) selected in a control
+    Highlight - Background of item(s) selected in a control
+    AccentColorText - Text of accented user interface controls
+    AccentColor - Background of accented user interface controls
 */
 
 :root {
