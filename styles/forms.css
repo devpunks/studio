@@ -646,10 +646,14 @@ input:not([type]):read-only
 
 /* REQUIRED */
 :required, [required], [aria-required=true] {
-  /*
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
-  */
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='1em' y='1em' x='0.1682em'>*</text></svg>");
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/:required */
+  background-image: linear-gradient(
+      135deg,
+      currentColor 0,
+      currentColor 2ch,
+      transparent 2ch,
+    ),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='1.682em' y='1em' x='1em' fill='Mark'>*</text></svg>");
 }
 :required:not(:placeholder-shown), [required]:not(:placeholder-shown), [aria-required=true]:not(:placeholder-shown) {
   /*
