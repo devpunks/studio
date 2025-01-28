@@ -435,6 +435,7 @@ a {
   /* word-break: break-word; */
   /* white-space-collapse: collapse; */
   text-underline-offset: 0.168em;
+  text-decoration-line: underline;
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: auto;
   text-decoration-skip-ink: auto;
