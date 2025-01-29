@@ -184,7 +184,7 @@ body > footer {
 a:has(header, h1, h2, h3, h4, h5, h6) {
   color: currentColor;
 }
-a:link:has(header, h1, h2, h3, h4, h5, h6) {
+a:has(header, h1, h2, h3, h4, h5, h6) {
   width: inherit;
   display: block;
 }
