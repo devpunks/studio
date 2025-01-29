@@ -588,7 +588,8 @@ abbr[title] {
   text-underline-position: auto;
   text-decoration-skip-ink: none;
   font-variant-caps: all-small-caps;
-  text-decoration: underline dotted currentColor 0.168em;
+  text-decoration: none;
+  border-bottom: dotted 0.168em;
 }
 
 del, s {
