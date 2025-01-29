@@ -122,7 +122,6 @@ html:focus-within { scroll-behavior: smooth }
   - https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css
 */
 a {
-  background: white;
   cursor: pointer;
   position: relative;
   border-radius: 0.2ch;
