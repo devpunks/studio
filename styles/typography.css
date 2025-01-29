@@ -673,7 +673,7 @@ pre, code, kbd, samp, var, data {
   font-family: monospace;
 }
 pre {
-  max-width: var(--line-length);
+  width: calc(100% - 2ch);
   overflow: overlay;
   text-align: initial;
   margin: var(--margin-collapse-bugfix) auto 2em;
