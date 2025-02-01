@@ -380,8 +380,7 @@ header, h1, h2, h3, h4, h5, h6 {
   line-height: 2em;
   font-weight: bold;
   text-wrap: balance;
-  max-width: calc(100% - 2ch);
-  margin: 2em auto 1em;
+  justify-content: var(--text-align);
   background: rgba(100,100,100,0.5);
   padding: var(--margin-collapse-bugfix) 0;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
