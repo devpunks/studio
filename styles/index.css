@@ -180,13 +180,13 @@ body > footer {
   background: Canvas;
 }
 
-:where(header, h1, h2, h3, h4, h5, h6) a,
-a:has(header, h1, h2, h3, h4, h5, h6) {
-  color: currentColor;
-}
-a:has(header, h1, h2, h3, h4, h5, h6) {
-  width: inherit;
-  display: block;
+
+a {
+  position: relative;
+  border-radius: 0.2ch;
+  display: inline-block;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
 }
 
 header, h1, h2, h3, h4, h5, h6 {
