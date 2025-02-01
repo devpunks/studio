@@ -26,6 +26,8 @@
   background-color: inherit;
   border-radius: 0.68ch;
 }
+:where( header, h1, h2, h3, h4, h5, h6 )[id]:hover::before
+  { opacity: 75% }
 
 a::before, a::after
   { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
