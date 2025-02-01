@@ -121,15 +121,7 @@ html:focus-within { scroll-behavior: smooth }
   - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes
   - https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css
 */
-a {
-  cursor: pointer;
-  position: relative;
-  border-radius: 0.2ch;
-  display: inline-block;
-  /* outline: 0.1em dashed currentColor; */
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
-}
+a { cursor: pointer }
 a { color: -webkit-link }
 a:active { color: red }
 a:visited { color: blue }
