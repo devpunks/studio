@@ -9,7 +9,7 @@
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
 
-*::before, *::after, *::marker { }
+*::before, *::after, *::marker { vertical-align: middle }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
 header, h1, h2, h3, h4, h5, h6  {
