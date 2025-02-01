@@ -296,7 +296,7 @@ var, data {
 }
 
 pre, code, kbd, samp {
-  border-radius: 1ch;
+  border-radius: .5ch;
   background-color: ButtonFace;
 }
 kbd {
