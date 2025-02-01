@@ -432,6 +432,8 @@ header code, h1 code
 
 a {
   /* white-space: normal; */
+  font-size: inherit;
+  line-height: inherit;
   padding-inline: 0.2ch;
   /* word-break: break-word; */
   /* white-space-collapse: collapse; */
