@@ -152,9 +152,6 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
 }
 code {
   background: red;
-  display: inline;
-  height: fit-content;
-  white-space: nowrap;
 }
 label > * { cursor: revert }
 label button {}
