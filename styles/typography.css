@@ -685,7 +685,6 @@ code {
   padding: 0 .168em;
   line-height: inherit;
   white-space: nowrap;
-  vertical-align: middle;
 }
 kbd {
   font-size: smaller;
