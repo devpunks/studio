@@ -846,8 +846,7 @@ body > * {
 
 a {
   -webkit-touch-callout: default;
-  display: inline-flex;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 a {}
