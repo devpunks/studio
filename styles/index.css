@@ -754,13 +754,29 @@ ol > li::after { content: '\232A' }
   content: '';
 }
 
-
 /**** COUNTERS *******
   - https://w3.org/TR/predefined-counter-styles
   - https://developer.mozilla.org/en-US/docs/Web/CSS/counters
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style
   - Example Demo - https://mdn.github.io/css-examples/counter-style-demo
 */
+@counter-style header {
+  speak-as: ordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
+  suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
+  system: numeric; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
+  symbols: "0" "1" "2" "4" "5" "6" "7" "8" "9";
+/*
+  system: cyclic;
+  system: numeric;
+  system: symbolic;
+  system: additive;
+  system: alphabetic;
+
+  Combined values
+  system: fixed 3;
+  system: extends decimal;
+  */
+}
 @counter-style ordered {
   speak-as: ordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
   suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
