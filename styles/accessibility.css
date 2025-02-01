@@ -130,12 +130,8 @@ a:hover { color: green }
 a:focus { color: magenta }
 a:focus:hover { color: cyan }
 /* https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css */
-a:link:hover:focus,
-a:link:hover:active,
-a:link:focus:active,
-a:visited:hover:focus,
-a:visited:hover:active,
-a:visited:focus:active {}
+a:link:hover:focus, a:link:hover:active, a:link:focus:active,
+a:visited:hover:focus, a:visited:hover:active, a:visited:focus:active {}
 /* Highlight current page link
  - https://github.com/Fyrd/caniuse/issues/7169
  - https://github.com/w3c/csswg-drafts/issues/10975
