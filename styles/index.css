@@ -218,7 +218,9 @@ h1 {
   line-height: 1.68em;
   max-width: calc(100% - 2ch);
 }
-
+:is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ) {}
+:where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) {width: auto;}
+:where( a ):has( header, h1, h2, h3, h4, h5, h6 ) {/* width: calc(100% - 2vw); */}
 nav > header {}
 nav > header::before,
 nav > header::after {}
