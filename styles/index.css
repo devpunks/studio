@@ -338,6 +338,7 @@ pre code {
   border: solid currentColor;
   border-width: 0 0 0 0.02em;
 }
+pre { box-shadow: 0 0 0.618ch }
 
 p {}
 p::after { clear: both }
