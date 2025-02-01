@@ -385,14 +385,13 @@ header, h1, h2, h3, h4, h5, h6 {
   padding: var(--margin-collapse-bugfix) 0;
   text-shadow: 0.05em 0.05em 0.2em var(--text-shadow);
 }
-header, h1, h2, h3, h4, h5, h6 {
-  &::before, &::after {
-    text-align: center;
-    white-space: nowrap;
-    padding-inline: 0.1618ch;
-  }
-
-  &::before {
+:where( header, h1, h2, h3, h4, h5, h6 )::before,
+:where( header, h1, h2, h3, h4, h5, h6 )::after {
+  text-align: center;
+  white-space: nowrap;
+  padding-inline: 0.1618ch;
+}
+:where( header, h1, h2, h3, h4, h5, h6 )::before {
     background: inherit;
     margin-inline-end: 0.5ch;
   }
