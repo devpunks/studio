@@ -12,18 +12,19 @@
 *::before, *::after, *::marker { vertical-align: middle }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
-header, h1, h2, h3, h4, h5, h6  {
-  &::before, &::after { content: '\200B' }
+:where( header, h1, h2, h3, h4, h5, h6 )::before
+  { content: '\2009' }
 
-  &[id]{
-    &::before {
-      opacity: 25%;
-      content: '\1F517';
-      display: inline-block;
-      margin-inline-end: 0.168em;
-    }
-    &:hover::before { opacity: 75% }
-  }
+:where( header, h1, h2, h3, h4, h5, h6 )[id]::before {
+  opacity: 25%;
+  overflow:hidden;
+  content: '\1F517';
+  max-width: 1.68em;
+  font-size: inherit;
+  line-height: inherit;
+  display: inline-block;
+  background-color: inherit;
+  border-radius: 0.68ch;
 }
 
 a::before, a::after
