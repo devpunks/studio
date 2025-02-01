@@ -224,6 +224,8 @@ h1 {
 nav > header {}
 nav > header::before,
 nav > header::after {}
+nav > header::before {}
+nav > header::after {}
 
 iframe {
   width: 100%;
