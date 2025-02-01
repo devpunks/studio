@@ -690,7 +690,6 @@ abbr[title] { cursor: help }
 dl, ol, ul {
   max-width: calc(100% - 2em);
 }
-
 nav > dl, nav > ol, nav > ul {
   margin: var(--margin-collapse-bugfix) 0;
   padding: var(--margin-collapse-bugfix) 0;
