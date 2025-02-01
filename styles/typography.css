@@ -434,8 +434,6 @@ a {
   font-size: inherit;
   line-height: inherit;
   padding-inline: 0.2ch;
-  /* word-break: break-word; */
-  /* white-space-collapse: collapse; */
   text-underline-offset: 0.168em;
   text-decoration-line: underline;
   text-underline-position: from-font;
