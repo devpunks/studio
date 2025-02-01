@@ -844,7 +844,14 @@ body > * {
   transform: translatez(0);
 }
 
-a { -webkit-touch-callout: default } /* none */
+a {
+  -webkit-touch-callout: default;
+  display: inline-flex;
+  /* display: inline-block; */
+}
+
+a {}
+p > a { display: inline }
 
 iframe, pre, table, select[multiple] {
   /*
