@@ -495,8 +495,8 @@ time {
   /* font-variant-numeric: ordinal tabular-nums; */
 }
 time::before {
-  padding: 0.1682ch;
-  margin-inline-end: 1ch;
+  margin-right: 0;
+  padding: 0.168ch;
 }
 time::after {
   font-size: smaller;
