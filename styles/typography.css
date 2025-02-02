@@ -797,6 +797,7 @@ cite {
   font-size: smaller;
   white-space: nowrap;
   font-family: cursive;
+  line-height: inherit;
 }
 cite::before, cite::after {}
 cite::before { content: '\2014 ' }
