@@ -804,9 +804,9 @@ blockquote cite, q cite {}
 blockquote::after, blockquote cite {
   display: block;
   text-align: end;
-  font-size: var(--larger);
-  margin: var(--margin-collapse-bugfix) 1.6821ch;
-  padding: var(--margin-collapse-bugfix) 1.6821ch;
+  font-size: xx-large;
+  margin: var(--margin-collapse-bugfix) 1.6821vw;
+  padding: var(--margin-collapse-bugfix) 1.6821vw;
 }
 blockquote cite {}
 blockquote cite::before {
