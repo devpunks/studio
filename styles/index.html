@@ -1088,22 +1088,16 @@ Gesture symbols
         The <code>&lt;<dfn title=abbreviation>abbr</dfn>&gt;</code>eviation tag is used to abbreviate text:
         <em>(<abbr title='exempli gratia'>e.g.</abbr> <abbr title='HyperText Markup Language'>HTML</abbr>)</em>.
 
-       <p>The <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time -->
-        <a rel=external target=mdn href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time'>
-          <code>&lt;<dfn id='<time>' title=time>time</dfn>&gt;</code>
-        </a> tag is used to declare and <time title='This is the title for <time>'>display datetime</time>:
-        <ul>
-          <li>
-            <time>This time has child elements that will be hidden.</time>
-          <li>
-            <a title='<time> nested in <a>nchor link' href='#<time>'><time></time></a>
-          <li>
-            <time><a title='<a>nchor link nested in <time>' href='#<time>'></a></time>
-          <li>
-            <time datetime=2017-01-01T12:00+00:00>Beginning of year</time>
-          <li>
-            <time datetime=2017-01-01T12:00+00:00 title='This is the title for time'>Beginning of year</time>
-        </ul>
+      <p>The <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time -->
+        <code>&lt;<a rel=external target=mdn href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time><dfn id='<time>' title=time>time</dfn></a>&gt;</code>
+        tag is used to declare and <time title='This is the title for <time>'>display datetime</time>:
+
+        <time title='Watch time'>Time text</time>
+        <a title='<time> nested in <a>nchor link' href='#<time>'><time></time></a>
+        <time tabindex=0><a title='<a>nchor link nested in <time>' href='#<time>'>12:12</a></time>
+        <time tabindex=0 datetime=2017-01-01T00:00+00:00>Beginning of year</time>
+      </p>
+      <time tabindex=0 datetime=2017-12-31T23:59+00:00 title='This is the title for time'>End of year</time>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
