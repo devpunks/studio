@@ -352,7 +352,6 @@ blockquote { /* http://webtypography.net/2.3.3 */
   max-width: 80%;
   border-radius: 1ch;
   border: 0.01618em solid;
-  font-size: var(--larger);
 }
 blockquote::before {
   left: 1ch;
