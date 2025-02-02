@@ -805,7 +805,6 @@ blockquote cite, q cite {}
 blockquote::after, blockquote cite {
   display: block;
   text-align: end;
-  font-size: xx-large;
   max-height: 1.68em;
   margin: var(--margin-collapse-bugfix) 1.6821vw;
   padding: var(--margin-collapse-bugfix) 1.6821vw;
