@@ -614,7 +614,7 @@ p, address {
   max-width: var(--line-length);
   text-align: start;
   padding: var(--margin-collapse-bugfix) var(--line-height);
-  margin: var(--margin-collapse-bugfix) auto 2em;
+  margin: var(--margin-collapse-bugfix) auto 4em;
 }
 p {
   text-wrap: pretty; /* https://developer.chrome.com/blog/css-text-wrap-pretty */
