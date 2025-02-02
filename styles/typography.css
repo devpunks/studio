@@ -487,9 +487,8 @@ mark {}
 
 
 time {
-  padding: 0.628ch;
-  font-size: small;
-  text-align: left;
+  font-size: medium;
+  padding: 0 0.628ch;
   white-space: nowrap;
   line-height: 1.6182em;
   text-overflow: ellipsis;
