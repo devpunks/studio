@@ -274,7 +274,7 @@ time[datetime]:where( :hover, , :focus-visible, :focus-within )::after
   { opacity: 1.0 }
 p > time::after {
   right: 0;
-  bottom: -1ch;
+  opacity: 0;
   position: absolute;
   background: Canvas;
 }
