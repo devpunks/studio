@@ -811,10 +811,8 @@ blockquote::after, blockquote cite {
   margin: var(--margin-collapse-bugfix) 1.6821vw;
   padding: var(--margin-collapse-bugfix) 1.6821vw;
 }
-blockquote cite {}
-blockquote cite::before {
-  content: normal;
-}
+blockquote cite { margin-top: -1em }
+blockquote cite::before { content: normal }
 q cite {
   max-width: 21ch;
   overflow: hidden;
