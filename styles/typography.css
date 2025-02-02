@@ -682,6 +682,7 @@ pre {
 code {
   margin: 0 .168em;
   padding: 0 .168em;
+  font-size: inherit;
   line-height: inherit;
   white-space: nowrap;
 }
