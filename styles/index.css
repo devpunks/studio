@@ -195,7 +195,6 @@ header, h1, h2, h3, h4, h5, h6 {
   width: inherit;
   color: CanvasText;
   overflow: hidden;
-  line-height: 1.68em;
   display: list-item;
   border-radius: 0.68ch;
   counter-increment: header;
