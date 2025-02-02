@@ -356,8 +356,7 @@ blockquote { /* http://webtypography.net/2.3.3 */
 blockquote::before {
   opacity: 80%;
   content: open-quote;
-  transform: scale(5);
-  position: absolute;
+  transform: translate(0ch, 4ch) scale(8);
 }
 blockquote::after {
   opacity: 40%;
