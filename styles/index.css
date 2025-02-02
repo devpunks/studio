@@ -257,16 +257,11 @@ time:empty::before { margin-right: 0 }
 time, time::before, time::after { border-radius: inherit }
 time {
   cursor: wait;
+  background: red;
   border-radius: 1ch;
   display: inline-block;
 }
-time[title] {
-  background: lime;
-}
-time[datetime] {
-  background: rgba(255,255,255,0.5);
-}
-time::before, time::after {}
+time::before, time::after { cursor: inherit }
 time::before {}
 time::after {
   opacity: 0.5;
