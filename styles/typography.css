@@ -611,6 +611,9 @@ em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
 b, strong { font-weight: bolder }
 b {}
 p, address {
+  text-align: start;
+  font-size: inherit;
+  line-height: inherit;
   max-width: var(--line-length);
   text-align: start;
   padding: var(--margin-collapse-bugfix) var(--line-height);
