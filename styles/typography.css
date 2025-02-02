@@ -661,6 +661,16 @@ footer p { font-size: smaller }
   text-decoration: revert;
 }
 
+blockquote { /* http://webtypography.net/2.3.3 */
+  text-align: left;
+  margin: 1.68em auto;
+  padding: 1.68em 6%;
+  font-size: larger;
+  font-family: auto;
+}
+blockquote::before,
+blockquote::after {}
+
 math {
   margin: 1ch auto;
   width: fit-content;
