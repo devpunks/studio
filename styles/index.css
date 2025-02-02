@@ -278,6 +278,12 @@ p > time::after {
   position: absolute;
   background: Canvas;
 }
+p > time[datetime] {
+  padding: 0 0.628ch;
+  background: initial;
+  vertical-align: middle;
+}
+
 
 var, data {
   color: CanvasText;
