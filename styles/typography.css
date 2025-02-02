@@ -491,8 +491,8 @@ time {
   padding: 0 0.628ch;
   white-space: nowrap;
   line-height: 1.6182em;
-  text-overflow: ellipsis;
-  font-variant-numeric: ordinal tabular-nums;
+  font-family: var(--Monospace);
+  /* font-variant-numeric: ordinal tabular-nums; */
 }
 time::before {
   padding: 0.1682ch;
