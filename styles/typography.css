@@ -796,7 +796,6 @@ cite {
   opacity: 75%;
   font-size: smaller;
   white-space: nowrap;
-  font-family: cursive;
   line-height: inherit;
 }
 cite::before, cite::after {}
