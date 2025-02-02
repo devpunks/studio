@@ -123,7 +123,7 @@ nav > details > summary::marker { content: inherit }
 
 figcaption::before{ content: '⇧' }
 
-time::before { content: '⌚' }
+time::before { content: '🕒' }
 time[datetime]::before { content: '🗓' }
 time[datetime]::after{ content: attr(datetime) }
 
