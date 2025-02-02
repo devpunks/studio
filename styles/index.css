@@ -354,7 +354,6 @@ blockquote { /* http://webtypography.net/2.3.3 */
   margin: 1.68em auto;
   padding: 1.68em 2em;
   border: 0.01618em solid;
-  margin: var(--p-margin);
   font-size: var(--larger);
   padding-block: 3ch  1.682ch;
   margin-block-start: var(--line-height);
