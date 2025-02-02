@@ -273,7 +273,6 @@ time[datetime] { background: rgba(255,255,255,0.5) }
 time[datetime]:where( :hover, , :focus-visible, :focus-within )::after
   { opacity: 1.0 }
 p > time::after {
-  opacity: 0;
   right: 0;
   bottom: -1ch;
   position: absolute;
