@@ -354,7 +354,6 @@ blockquote { /* http://webtypography.net/2.3.3 */
   border: 0.01618em solid;
 }
 blockquote::before {
-  left: 1ch;
   opacity: 80%;
   content: open-quote;
   transform: scale(5);
