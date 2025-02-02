@@ -563,6 +563,13 @@ li address {
   display: inline-block;
 }
 
+ruby {
+  color: CanvasText;
+  background-color: Canvas;
+  border-radius:  1vw;
+  box-shadow: 0 0 .168ch;
+}
+
 
 /* Table styling
   - https://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html
