@@ -795,6 +795,7 @@ cite {
   opacity: 75%;
   font-size: smaller;
   white-space: nowrap;
+  font-family: cursive;
 }
 cite::before, cite::after {}
 cite::before { content: '\2014 ' }
