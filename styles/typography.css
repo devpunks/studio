@@ -502,7 +502,8 @@ time::after {
   font-size: smaller;
   padding-inline: .5em;
 }
-time[datetime]::after{ margin-inline-start: 0.1682ch }
+time[datetime] { padding: 0.628ch }
+time[datetime]::after{ margin-top: 0.1682ch }
 p > time[datetime] { vertical-align: middle }
 
 
