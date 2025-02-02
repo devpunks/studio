@@ -252,6 +252,8 @@ mark { /* Custom Highlights API - https://drafts.csswg.org/css-highlight-api-1 *
 
 
 /* https://stackoverflow.com/q/5437674/what-unicode-characters-represent-time */
+time:empty { background: yellow }
+time:empty::before { margin-right: 0 }
 time, time::before, time::after { border-radius: inherit }
 time {
   cursor: wait;
