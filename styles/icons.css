@@ -126,6 +126,7 @@ figcaption::before{ content: '⇧' }
 time::before { content: '🕒' }
 time[datetime]::before { content: '🗓' }
 time[datetime]::after{ content: attr(datetime) }
+time[datetime*=T]::before { content: '⌚' }
 
 table::before, table::after
   { content: '☶ table' }
