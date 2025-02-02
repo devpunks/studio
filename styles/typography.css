@@ -402,7 +402,6 @@ h1 {
   font-size: 2em;
   line-height: 2em;
   /* text-shadow: 0.04em 0.04em 0; */
-  line-height: var(--line-height);
   /* -webkit-text-fill-color: Canvas; */
   /* -webkit-text-stroke-width: thin; */
   /* -webkit-text-stroke-color: GrayText; */
