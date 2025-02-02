@@ -351,7 +351,8 @@ blockquote { /* http://webtypography.net/2.3.3 */
   opacity: 85%;
   max-width: 80%;
   text-align: left;
-  isolation: isolate;
+  margin: 1.68em auto;
+  padding: 1.68em 2em;
   border: 0.01618em solid;
   margin: var(--p-margin);
   font-size: var(--larger);
