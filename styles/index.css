@@ -284,7 +284,6 @@ p > time::after {
 }
 p > time[datetime] {
   padding: 0 0.628ch;
-  background: initial;
   vertical-align: middle;
 }
 
