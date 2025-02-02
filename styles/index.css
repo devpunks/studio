@@ -348,7 +348,8 @@ p::after { clear: both }
   - https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling
 */
 blockquote { /* http://webtypography.net/2.3.3 */
-  /* opacity: 85%; */
+  opacity: 85%;
+  max-width: 80%;
   text-align: left;
   isolation: isolate;
   border: 0.01618em solid;
