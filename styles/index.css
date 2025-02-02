@@ -191,11 +191,13 @@ a {
 
 
 header, h1, h2, h3, h4, h5, h6 {
-  max-width: calc(100% - 2vw);
   width: inherit;
   color: CanvasText;
   overflow: hidden;
   display: list-item;
+  line-height: 1.68em;
+  width: -moz-available;
+  width: -webkit-fill-available;
   border-radius: 0.68ch;
   counter-increment: header;
   list-style-position: inside;
