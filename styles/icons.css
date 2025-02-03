@@ -61,8 +61,6 @@ a[rel=help]::after
   { content: '❓' }
 a[rel=author]::before
   { content: '🖊️' }
-a[rel=license]::before
-  { content: '📝' }
 a[rel=bookmark]::before
   { content: '📁' }
 a[download]::before
