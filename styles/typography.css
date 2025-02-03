@@ -562,6 +562,7 @@ dd {
 li {
   text-indent: unset;
 }
+li li {}
 
 nav li {
   background: inherit;
