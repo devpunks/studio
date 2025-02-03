@@ -510,9 +510,7 @@ p > time[datetime] { vertical-align: middle }
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
 dl, ol, ul {
-  /* display: inline-block; */
-  /* font-size: larger; */
-  text-align: start;
+  text-align: left;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
   padding: var(--margin-collapse-bugfix) 0 1em 1em;
 }
