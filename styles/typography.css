@@ -524,7 +524,6 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
   padding-bottom: 0;
   max-width: initial;
   margin-bottom: var(--margin-collapse-bugfix);
-  width: auto;
 }
 dd > dl, dd > ol, dd > ul {
   background: inherit;
