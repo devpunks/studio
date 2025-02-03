@@ -713,7 +713,6 @@ abbr[title] { cursor: help }
 }
 dl, ol, ul {
   background: rgba(255,255,255,0.5);
-  max-width: calc(100% - 2em);
 }
 nav > dl, nav > ol, nav > ul {
   margin: var(--margin-collapse-bugfix) 0;
