@@ -357,6 +357,7 @@ body > main {}
 body > aside {}
 body > footer {
   padding: 1ch;
+  font-size: smaller;
 }
 
 main > section:first-of-type, body > aside {}
