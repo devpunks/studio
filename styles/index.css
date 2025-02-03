@@ -855,9 +855,6 @@ a {
   display: inline-block;
 }
 
-a {}
-p > a { display: inline }
-
 iframe, pre, table, select[multiple] {
   /*
     - https://css-tricks.com/almanac/properties/s/scrollbar-gutter
