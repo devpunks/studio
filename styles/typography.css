@@ -844,8 +844,9 @@ article address {}
 
 ruby {
   margin: 1ch;
-  padding: 1ch;
-  font-size: xxx-large;
+  text-align: center;
+  font-size: xx-large;
+  padding: 1.68ch 1ch;
 }
 
 /* Table styling */
