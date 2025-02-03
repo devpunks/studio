@@ -719,9 +719,7 @@ math[display=block] {
   font-size: xx-large;
   font-family: var(--Math);
 }
-math[display=inline] {}
-math::marker {}, math::before, math::after {}
-math::marker {}
+math::before, math::after {}
 math::before {}
 math::after {}
 
