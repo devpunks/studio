@@ -552,7 +552,6 @@ nav li > a:link::after { content: '' }
 
 
 article address, body > footer address, [contentinfo] address {
-  text-indent: 1em;
   background: Canvas;
 }
 body > footer address, [contentinfo] address {
