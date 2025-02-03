@@ -550,7 +550,7 @@ nav li > a:link::before { content: '▸' }
 nav li > a:link::after { content: '' }
 
 small {}
-body > footer small {opacity: 0.;}
+body > footer small { opacity: 0.68 }
 article address, body > footer address, [contentinfo] address {
   background: Canvas;
   border-radius: 0.68ch;
