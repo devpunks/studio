@@ -432,6 +432,7 @@ header code, h1 code
 a {
   font-size: inherit;
   line-height: inherit;
+  text-indent: initial;
   padding-inline: 0.2ch;
   text-underline-offset: 0.168em;
   text-decoration-line: underline;
