@@ -105,7 +105,6 @@ a:hover img {
 }
 body > footer small ~ a img { max-height: 2.5em }
 
-img {}
 img, picture {
   a > & {
     margin: 0;
