@@ -767,7 +767,6 @@ li li {}
 }
 ul > li {}
 ol > li {
-  padding-inline: 0.618ch;
   counter-increment: ordered;
 }
 ul > li::after,
