@@ -338,6 +338,7 @@ body {
   /* font-variant-numeric: stacked-fractions; */
 } /* body */
 
+body * { text-inent: unset }
 body > * { margin: var(--viewport) }
 
 body > header {
