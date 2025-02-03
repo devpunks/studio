@@ -814,7 +814,6 @@ q cite {
   font-size: x-small;
   vertical-align: middle;
   text-overflow: ellipsis;
-  font-size: var(--smallest);
 }
 
 small { font-size: smaller }
