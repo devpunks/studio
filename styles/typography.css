@@ -430,7 +430,6 @@ header code, h1 code
 
 
 a {
-  text-indent: unset;
   font-size: inherit;
   line-height: inherit;
   padding-inline: 0.2ch;
