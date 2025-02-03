@@ -553,6 +553,7 @@ nav li > a:link::after { content: '' }
 
 article address, body > footer address, [contentinfo] address {
   background: Canvas;
+  border-radius: 0.68ch;
 }
 body > footer address, [contentinfo] address {
   background: yellow;
