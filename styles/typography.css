@@ -816,7 +816,7 @@ q cite {
   text-overflow: ellipsis;
 }
 
-small { font-size: smaller }
+small {font-size: small }
 
 sub, sup { /* Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
 vertical-align: unset;
