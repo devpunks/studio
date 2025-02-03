@@ -171,10 +171,7 @@ body > header, body > nav, body > main, body > aside, body > footer {}
 body > header { container: header }
 @media ( orientation: landscape ) {}
 @container header ( orientation: landscape ) {}
-body > main {
-  container: header;
-  isolation: isolate;
-}
+body > main { container: header }
 @media ( orientation: landscape ) {}
 @container main ( orientation: landscape ) {}
 body > aside { container: asidee }
