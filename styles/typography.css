@@ -559,10 +559,8 @@ dd {
   font-size: large;
   text-indent: 0.618em;
 }
-li {}
-li li {}
-ol > li {
-  text-indent: inherit;
+li {
+  text-indent: unset;
 }
 
 nav li {
