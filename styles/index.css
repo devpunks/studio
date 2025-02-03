@@ -339,6 +339,21 @@ pre code {
 }
 pre { box-shadow: 0 0 0.618ch }
 
+math {
+  width: fit-content;
+  math-style: compact;
+  display: inline-block;
+  background: ButtonFace;
+  border: 0.3ch solid Canvas;
+}
+math[display=inline] {display: math;}
+math[display=block] {
+  display: block;
+}
+math::before, math::after {}
+math::before {}
+math::after {}
+
 p {}
 p::after { clear: both }
 
