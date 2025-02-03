@@ -569,6 +569,7 @@ ruby {
   display: inline-block;
   display: block ruby;
   box-shadow: 0 0 .168ch;
+  background-color: Canvas;
 }
 
 
