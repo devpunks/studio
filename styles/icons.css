@@ -32,12 +32,6 @@
 a::before, a::after
   { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
 
-a[href='#']::before /* Jump-To-Top link */
-  { content: '⇭' }
-
-a[aria-disabled=true]::before
-  { content: '❌' }
-
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
 a[rel=nofollow]::after
   { content: '🤫' }
