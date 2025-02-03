@@ -560,6 +560,7 @@ dd {
   text-indent: 0.618em;
 }
 li {}
+li li {}
 ol > li {
   text-indent: inherit;
 }
