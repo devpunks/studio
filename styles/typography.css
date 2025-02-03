@@ -709,6 +709,10 @@ var, data {
   margin-inline: 0.1618em;
 }
 
+math {
+  padding: 0.5ch;
+}
+math[display=inline] {}
 math[display=block] {
   padding-block: 1ch;
   font-size: xx-large;
