@@ -124,9 +124,10 @@ a[href*=facebook]::before       { content: 'ⓕ' }
 a[href^=facetime]::before       { content: 'ⓕ🎥' }
 a[href^=facetime-audio]::before { content: 'ⓕ🔈' }
 
+a[accesskey='0']::before
+  { content: '♿' }
 a[aria-disabled=true]::before
   { content: '❌' }
-
 
 body > nav::before
   {/* content: '🍔'; */} /* ☰ 🍔 */
