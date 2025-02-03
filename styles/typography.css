@@ -667,16 +667,6 @@ blockquote { /* http://webtypography.net/2.3.3 */
 blockquote::before,
 blockquote::after {}
 
-math {
-  margin: 1ch auto;
-  width: fit-content;
-  padding: 0.1682ch 1ch;
-  background: ButtonFace;
-  border: 0.3ch solid Canvas;
-  -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
-  user-select: all; /* https://caniuse.com/user-select-none */
-}
-
 pre, code, kbd, samp, var, data {
   font-size: inherit;
   line-height: inherit;
