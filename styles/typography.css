@@ -838,8 +838,13 @@ sub {
 
 svg { vertical-align: middle }
 
-address {}
-li address { margin: var(--margin-collapse-bugfix) }
+address {
+  font-size: larger;
+}
+article address, body > footer address, [contentinfo] address {
+  font-family: monospace;
+}
+
 
 ruby {
   margin: 1ch;
