@@ -179,6 +179,7 @@ body > main {
 @media ( orientation: landscape ) {}
 @container main ( orientation: landscape ) {}
 body > aside { container: asidee }
+@media ( orientation: landscape ) {}
 @container aside ( orientation: landscape ) {}
 body > footer {
   bottom: 0;
