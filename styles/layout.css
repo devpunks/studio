@@ -187,6 +187,7 @@ body > footer {
   container: footer;
   isolation: isolate;
 }
+@media ( orientation: landscape ) {}
 @container footer ( orientation: landscape ) {}
 
 body > header, body > footer, dialog, figcaption, fieldset, form, label
