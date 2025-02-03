@@ -37,8 +37,6 @@ body > footer small::before
   { content: '⚖️' }
 footer small ~ a:link::before
   { content: '' }
-a:link[target=map]::before
-  { content: '📍' }
 a[target=legal]::before
   { content: '⚖️' }
 a:link[rel=license]::before
