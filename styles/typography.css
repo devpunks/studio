@@ -553,9 +553,7 @@ dd, li {
   margin: var(--margin-collapse-bugfix) auto 0;
   line-height: calc( var(--line-height) * var(--GOLDEN-RATIO) * 0.8 );
 }
-dd, li li {
-  font-size: large;
-}
+dd {}
 dd {
   margin-left: 1em;
   text-indent: 0.618em;
