@@ -92,8 +92,6 @@ a[href*=twitter]::before
   { content: '🐦' }
 a[href*=instagram]::before
   { content: '📷' }
-a[href*=github]::before
-  { content: '🐙' }
 a[href*=youtube]::before {
   content: '►';
   color: #fff;
