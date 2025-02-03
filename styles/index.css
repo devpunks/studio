@@ -176,7 +176,7 @@ body > nav::before {
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
 body > footer {
-  color: currentColor;
+  color: CanvasText;
   background: Canvas;
 }
 
