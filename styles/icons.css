@@ -33,7 +33,7 @@ a::before, a::after
   { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
-footer small::before
+body > footer small::before
   { content: '⚖️' }
 footer small ~ a:link::before
   { content: '' }
