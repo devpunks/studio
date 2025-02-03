@@ -564,8 +564,10 @@ article address {}
 
 ruby {
   color: CanvasText;
-  background-color: Canvas;
-  border-radius:  1vw;
+  width: fit-content;
+  border-radius: 1vw;
+  display: inline-block;
+  display: block ruby;
   box-shadow: 0 0 .168ch;
 }
 
