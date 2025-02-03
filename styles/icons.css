@@ -118,9 +118,13 @@ a[href^=facetime-audio]::before {
   background: #3b5998;
   text-shadow: .1em .1em .1em rgb(10,10,10,0.4)
  }
-a[href*=facebook]::before       { content: 'F' }
-a[href^=facetime]::before       { content: 'F🎥' }
-a[href^=facetime-audio]::before { content: 'F🔈' }
+a[href*=facebook]::before       { content: 'ⓕ' }
+a[href^=facetime]::before       { content: 'ⓕ🎥' }
+a[href^=facetime-audio]::before { content: 'ⓕ🔈' }
+
+a[aria-disabled=true]::before
+  { content: '❌' }
+
 
 body > nav::before
   {/* content: '🍔'; */} /* ☰ 🍔 */
