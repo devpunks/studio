@@ -678,7 +678,8 @@ math {
 }
 
 pre, code, kbd, samp, var, data {
-  padding: 0.168em 0.5em;
+  font-size: inherit;
+  line-height: inherit;
   font-family: monospace;
 }
 pre {
