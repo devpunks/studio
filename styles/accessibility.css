@@ -351,8 +351,9 @@ a[href='#']:hover { opacity: 1 }
 [role=presentation] li {
   list-style-type: none;
 }
-[role=presentation],
-[role=presentation] li::before {
+:where( ol, ul )[role=presentation],
+:where( ol, ul )[role=presentation] :where( ol, ul ),
+:where( ol, ul )[role=presentation] li::before {
   content: '\200B'; /* add zero-width space */
   border-inline-start: 0.3ch solid;
 }
