@@ -681,6 +681,7 @@ pre, code, kbd, samp, var, data {
   font-size: inherit;
   line-height: inherit;
   font-family: monospace;
+  padding: 0.168em 0.5em;
 }
 pre {
   width: calc(100% - 2ch);
