@@ -513,6 +513,10 @@ dl, ol, ul {
   text-align: left;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
   padding: var(--margin-collapse-bugfix) 0 1em 1em;
+  padding-left: 2.5em;
+}
+:where( dl, ol, ul )[role=none] {
+  padding-left: 1.68em;
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
   /* display: block; */
