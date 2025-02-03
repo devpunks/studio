@@ -556,6 +556,7 @@ dd, li {
 dd {}
 dd {
   margin-left: 1em;
+  font-size: large;
   text-indent: 0.618em;
 }
 li {}
