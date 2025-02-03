@@ -714,7 +714,8 @@ math {
 }
 math[display=inline] {}
 math[display=block] {
-  padding-block: 1ch;
+  padding: 1ch;
+  margin: 1ch auto;
   font-size: xx-large;
   font-family: var(--Math);
 }
