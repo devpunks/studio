@@ -834,6 +834,9 @@ svg { vertical-align: middle }
 
 address {
   font-size: larger;
+  width: fit-content;
+  padding: 1em 1.68em;
+  margin: var(--margin-collapse-bugfix) auto 1em;
 }
 article address, body > footer address, [contentinfo] address {
   font-family: monospace;
