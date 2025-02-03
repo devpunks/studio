@@ -529,8 +529,6 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
 dd > dl, dd > ol, dd > ul {
   max-width: unset;
   background: inherit;
-  margin: 0 1em 0 0;
-  padding: 0 1em 0 0;
 }
 nav > dl, nav > ol, nav > ul {
   padding: 0;
