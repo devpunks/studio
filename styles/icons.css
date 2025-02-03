@@ -97,11 +97,6 @@ a[href*=youtube]::before {
   padding-inline: 0.7ch;
 }
 
-a[href*='maps.google.com']::before
-  { content: '🗺️' }
-
-a[href*='maps.apple.com']::before
-  { content: '🌎' }
 a[href*=iTunes i]::before
   { content: '🎵'; }
 
