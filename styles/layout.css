@@ -172,7 +172,11 @@ body > header {
 }
 @media ( orientation: landscape ) {}
 @container header ( orientation: landscape ) {}
-body > main { container: header }
+body > main {
+  container: header;
+  isolation: isolate;
+}
+@media ( orientation: landscape ) {}
 @container main ( orientation: landscape ) {}
 body > aside { container: asidee }
 @container aside ( orientation: landscape ) {}
