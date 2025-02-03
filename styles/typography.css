@@ -535,7 +535,7 @@ nav > dl, nav > ol, nav > ul {
 }
 nav > details > ul {}
 
-dd, dt, li {
+dd, dt {
   text-indent: inherit;
 }
 dt {
