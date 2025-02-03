@@ -335,7 +335,7 @@ a[href='#']:hover { opacity: 1 }
   }
 }
 
-[role=none], [role=none] li {
+[role=none] {
   /*
     - https://piccalil.li/blog/a-modern-css-reset
     - https://bugs.webkit.org/show_bug.cgi?id=193382
