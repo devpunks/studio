@@ -103,12 +103,7 @@ a:hover img {
   opacity: 100%;
   background: buttonFace;
 }
-p img , p svg {
-  float: left;
-  object-fit: cover;
-  margin: 0 1em 1em;
-  padding-block-start: 0;
-}
+body > footer small ~ a img { max-height: 2.5em }
 
 img {}
 img, picture {
