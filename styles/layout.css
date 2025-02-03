@@ -185,6 +185,7 @@ body > footer {
   bottom: 0;
   /* position: sticky; */
   container: footer;
+  isolation: isolate;
 }
 @container footer ( orientation: landscape ) {}
 
