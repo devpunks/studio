@@ -800,6 +800,14 @@ input:focus:not(:placeholder-shown):out-of-range,
   box-shadow: inset 0 0 0 1.68ch CanvasText;
   /* background-image: linear-gradient(0deg, transparent 40%, Canvas 40%, Canvas 60%, transparent 60%); */
 }
+::-moz-range-track {
+  margin: 0ch;
+  padding: 0.5ch 0.25ch;
+  border-radius: 0.682ch;
+  /* box-shadow: 0 0 0.3ch Canvas; */
+  box-shadow: inset 0 0 0 1.68ch CanvasText;
+  /* background-image: linear-gradient(0deg, transparent 40%, Canvas 40%, Canvas 60%, transparent 60%); */
+}
 ::-webkit-slider-thumb {
   width: 5ch;
   height: 3ch;
