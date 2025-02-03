@@ -99,6 +99,13 @@ a[href*=youtube]::before {
 
 a[href*=iTunes i]::before
   { content: '🎵'; }
+a[href*='maps.apple.com']::before
+  { content: '🌎' }
+
+a[href*='maps/search']::before
+  { content: '🗺️' }
+a[href*='maps/dir']::before
+  { content: '📍' }
 
 a[href*=facebook]::before,
 a[href^=facetime]::before,
