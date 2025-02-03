@@ -166,8 +166,11 @@ body > * { /* all immediate children of <body> */
 }
 body > header, body > nav, body > main, body > aside, body > footer {}
 
-
-body > header { container: header }
+body > header {
+  container: header;
+  isolation: isolate;
+}
+@media ( orientation: landscape ) {}
 @container header ( orientation: landscape ) {}
 body > main { container: header }
 @container main ( orientation: landscape ) {}
