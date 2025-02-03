@@ -33,6 +33,24 @@ a::before, a::after
   { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
+footer small::before
+  { content: '⚖️' }
+footer small ~ a:link::before
+  { content: '' }
+a:link[target=map]::before
+  { content: '📍' }
+a[target=legal]::before
+  { content: '⚖️' }
+a:link[rel=license]::before
+  { content: '📝' }
+a:link[rel=copyright]::before
+  { content: '🔏' }
+a:link[rel=privacy-policy]::before
+  { content: '🛡️' }
+a:link[rel=terms-of-service]::before
+  { content: '🔰' }
+a[rel=external]::before
+  { content: '🌐' }
 a[rel=nofollow]::after
   { content: '🤫' }
 a[rel=sponsored]::after
