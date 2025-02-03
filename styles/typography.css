@@ -522,6 +522,7 @@ dl dl, ol ol, ol ul, ul ol, ul ul {
   width: auto;
   margin: unset;
   padding-bottom: 0;
+  max-width: initial;
   margin-bottom: var(--margin-collapse-bugfix);
   width: auto;
 }
