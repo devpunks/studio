@@ -550,10 +550,15 @@ nav li > a:link::after { content: '' }
 
 
 
-address {}
-li address {
-  padding-inline: 1ch;
-  display: inline-block;
+address {
+  background: red;
+}
+article address, body > footer address, [contentinfo] address {
+  text-indent: 1em;
+  background: Canvas;
+}
+body > footer address, [contentinfo] address {
+  background: yellow;
 }
 
 ruby {
