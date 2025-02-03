@@ -712,6 +712,7 @@ abbr[title] { cursor: help }
   font-size: inherit;
 }
 dl, ol, ul {
+  background: rgba(255,255,255,0.5);
   max-width: calc(100% - 2em);
 }
 nav > dl, nav > ol, nav > ul {
