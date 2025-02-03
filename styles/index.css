@@ -556,7 +556,7 @@ article address, body > footer address, [contentinfo] address {
   border-radius: 0.68ch;
 }
 body > footer address, [contentinfo] address {
-  background: yellow;
+  border-radius: 0;
 }
 
 
