@@ -185,5 +185,7 @@ body > footer {
 @media ( orientation: landscape ) {}
 @container footer ( orientation: landscape ) {}
 
-body > header, body > footer, dialog, figcaption, fieldset, form, label
+/* https://css-tricks.com/almanac/properties/i/isolation */
+body > header, body > nav, body > main, body > aside, body > footer,
+dialog, figcaption, fieldset, form, label
   { isolation: isolate }
