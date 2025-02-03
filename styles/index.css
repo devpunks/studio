@@ -749,7 +749,6 @@ ol {
   counter-reset: ordered;
 }
 ol[type=i] {
-  background: green;
   unicode-bidi: embed;
 }
 dd, dt, li {
