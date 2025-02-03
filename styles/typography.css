@@ -356,7 +356,6 @@ body > nav::before {
 body > main {}
 body > aside {}
 body > footer {
-  font-size: medium;
   padding: 1ch;
 }
 
