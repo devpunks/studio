@@ -88,9 +88,6 @@ a[href^=tel]::before
   { content: '📞' }
 a[href^=sms]::before
   { content: '💬' }
-a[rel=external]::before
-  { content: '🌐' }
-
 a[href*=twitter]::before
   { content: '🐦' }
 a[href*=instagram]::before
