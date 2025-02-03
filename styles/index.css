@@ -558,6 +558,8 @@ article address, body > footer address, [contentinfo] address {
 body > footer address, [contentinfo] address {
   border-radius: 0;
 }
+address { background: red }
+article address {}
 
 
 ruby {
