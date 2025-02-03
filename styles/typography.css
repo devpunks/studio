@@ -519,7 +519,8 @@ dl, ol, ul {
   padding-left: 1.68em;
 }
 dl dl, ol ol, ol ul, ul ol, ul ul {
-  /* display: block; */
+  width: auto;
+  margin: unset;
   padding-bottom: 0;
   margin-bottom: var(--margin-collapse-bugfix);
   width: auto;
