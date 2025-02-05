@@ -552,7 +552,6 @@ dt + dt {
 dd, li {
   /* padding: var(--margin-collapse-bugfix) 0; */
   margin: var(--margin-collapse-bugfix) auto 0;
-  line-height: calc( var(--line-height) * var(--GOLDEN-RATIO) * 0.8 );
 }
 dd {}
 dd {
