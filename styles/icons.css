@@ -187,10 +187,7 @@ time[datetime*=T]::before { content: '⌚' }
   text-indent: 0.5ch;
   margin-right: 0.5ch;
 }
-:is(ol) > li {
-  /* width: 87%; */
-  /* left: 2em; */
-}
+:is(ol) > li {}
 :is(ol) > li::before {
   margin-left: 0ch;
   content: '8';
