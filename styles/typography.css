@@ -550,7 +550,7 @@ dt + dt {
   margin-block: var(--margin-collapse-bugfix);
 }
 dd, li {
-  padding: var(--margin-collapse-bugfix) 0;
+  /* padding: var(--margin-collapse-bugfix) 0; */
   margin: var(--margin-collapse-bugfix) auto 0;
   line-height: calc( var(--line-height) * var(--GOLDEN-RATIO) * 0.8 );
 }
