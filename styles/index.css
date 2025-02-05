@@ -743,7 +743,11 @@ dl {
   margin: var(--margin-collapse-bugfix) 1em 1em;
   background: rgba(200,200,200,0.5);
 }
-ul {/* list-style: inherit; */}
+ul:not( [role] ) {
+  /* list-style: inherit; */
+  margin-left: 3em;
+  width: calc(100% - 3em - 1ch);
+}
 ol {
   /* counter-reset: list 0 list-item 0; */
 }
