@@ -153,6 +153,7 @@ time[datetime*=T]::before { content: '⌚' }
   padding: 0 .2ch;
   display: inherit;
   font-size: x-large;
+  content: attr(data-icon);
   border-radius: .5ch .5ch 0 0;
 :;
 }
