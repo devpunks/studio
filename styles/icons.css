@@ -143,6 +143,104 @@ time[datetime]::before { content: '🗓' }
 time[datetime]::after{ content: attr(datetime) }
 time[datetime*=T]::before { content: '⌚' }
 
+
+
+
+:is(ol,ul) {
+  border-radius: .5ch .5ch 0 0;
+  width: 80%;
+  /* padding-left: 2em; */
+}
+:is(ol,ul)::before {
+  width: -webkit-fill-available;
+  content: attr(data-icon);
+  display: inherit;
+  /* text-align: center; */
+  padding: 0 .2ch;
+  font-size: x-large;
+  border-radius: .5ch .5ch 0 0;
+:;
+}
+:is(ol,ul)::marker,
+:is(ol,ul) ::marker {
+  color: currentColor;
+  font-size: 1.68em;
+}
+:is(ol) {
+  /* margin: 0 1ch; */
+  /* list-style-type: decimal-leading-zero; */
+  list-style-position: inside;
+}
+:is(ol)::before {
+  /* list-style-type: list; */
+}
+:is(ul):not([data-icon]) {
+  /* list-style-image:
+    url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
+  /* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
+}
+:is(ul)[data-icon] {
+  list-style-image: unset;
+  content: attr(data-icon);
+}
+:is(ul)[data-icon]::marker {
+  /* content: attr(data-icon); */
+  n); */
+}
+:is(ul) [data-icon]::marker {
+  /* content: attr(data-icon); */
+}
+:is(dl, ol, ul) ul {
+  /* padding-left: 2em; */
+  margin-left: 2em;
+}
+:is(ol,ul) li {
+  clear: both;
+  /* outline: .1ch solid; */
+}
+:is(ol,ul) > li::marker {
+  /* color: magenta; */
+}
+:is(ol,ul) > li::before {
+  margin-right: 0.5ch;
+  text-indent: 0.5ch;
+  content: '\200B';
+}
+:is(ol) > li {
+  /* width: 87%; */
+  /* left: 2em; */
+}
+:is(ol) > li::before {
+  margin-left: 0ch;
+  content: '8';
+}
+:is(ul) > li::before {
+  width: auto;
+  content: '\200B';
+}
+:is(ol,ul) > li[data-icon]::before {
+  float: left;
+  display: list-item;
+  content: attr(data-icon);
+  list-style-position: inside;
+  list-style-image:
+    url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">☑️</text></svg>');
+}
+[role=presentation] li { border-width: 0 }
+[role=presentation] li::before {}
+[role=log] li {
+  text-indent: 1ch;
+  border-bottom: 0.1ch solid;
+  list-style-position: inside;
+  list-style-image:
+    url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">🪵</text></svg>');
+}
+
+
+
+
+
+
 table::before, table::after
   { content: '☶ table' }
 thead::before, thead::after
