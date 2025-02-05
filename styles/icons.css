@@ -174,17 +174,9 @@ time[datetime*=T]::before { content: '⌚' }
   list-style-image: unset;
   content: attr(data-icon);
 }
-:is(ul)[data-icon]::marker {
-  /* content: attr(data-icon); */
-  n); */
-}
-:is(ul) [data-icon]::marker {
-  /* content: attr(data-icon); */
-}
-:is(dl, ol, ul) ul {
-  /* padding-left: 2em; */
-  margin-left: 2em;
-}
+:is(ul)[data-icon]::marker {}
+:is(ul) [data-icon]::marker {}
+:is(dl, ol, ul) ul { margin-left: 2em }
 :is(ol,ul) li {
   clear: both;
   /* outline: .1ch solid; */
