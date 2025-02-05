@@ -159,7 +159,6 @@ time[datetime*=T]::before { content: '⌚' }
 }
 :is(ol,ul)::marker,
 :is(ol,ul) ::marker {
-  color: currentColor;
   font-size: 1.68em;
 }
 :is(ol) {
