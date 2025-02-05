@@ -181,9 +181,7 @@ time[datetime*=T]::before { content: '⌚' }
   clear: both;
   /* outline: .1ch solid; */
 }
-:is(ol,ul) > li::marker {
-  /* color: magenta; */
-}
+:is(ol,ul) > li::marker {}
 :is(ol,ul) > li::before {
   margin-right: 0.5ch;
   text-indent: 0.5ch;
