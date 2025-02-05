@@ -218,7 +218,6 @@ time[datetime*=T]::before { content: '⌚' }
 
 
 
-
 table::before, table::after
   { content: '☶ table' }
 thead::before, thead::after
