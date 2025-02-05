@@ -190,6 +190,7 @@ time[datetime*=T]::before { content: '⌚' }
 :is(ol) > li {}
 :is(ol) > li::before {
   content: '8';
+  margin-left: 0ch;
 }
 :is(ul) > li::before {
   width: auto;
