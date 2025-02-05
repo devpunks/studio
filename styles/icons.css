@@ -162,14 +162,9 @@ time[datetime*=T]::before { content: '⌚' }
   font-size: 1.68em;
   color: currentColor;
 }
-:is(ol) {
-  /* margin: 0 1ch; */
-  /* list-style-type: decimal-leading-zero; */
-  list-style-position: inside;
-}
-:is(ol)::before {
-  /* list-style-type: list; */
-}
+:is(ol)[type='1'] { list-style-type: decimal-leading-zero }
+:is(ol) { list-style-position: inside }
+:is(ol)::before { /* list-style-type: list; */ }
 :is(ul):not([data-icon]) {
   /* list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
