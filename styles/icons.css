@@ -155,7 +155,7 @@ time[datetime*=T]::before { content: '⌚' }
   font-size: x-large;
   content: attr(data-icon);
   border-radius: .5ch .5ch 0 0;
-:;
+  width: -webkit-fill-available;
 }
 :is(ol,ul)::marker,
 :is(ol,ul) ::marker {
