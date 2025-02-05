@@ -512,7 +512,6 @@ p > time[datetime] { vertical-align: middle }
 dl, ol, ul {
   text-align: left;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
-  /* padding: var(--margin-collapse-bugfix) 0 1em 1em; */
   /* padding-left: 2.5em; */
   max-width: calc(100% - 2c);
 }
