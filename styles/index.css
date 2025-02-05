@@ -745,7 +745,7 @@ dl {
 }
 ul {/* list-style: inherit; */}
 ol {
-  counter-reset: ordered;
+  /* counter-reset: list 0 list-item 0; */
 }
 ol[type=i] {
   unicode-bidi: embed;
