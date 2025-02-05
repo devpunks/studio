@@ -762,7 +762,7 @@ dt {}
 li {}
 li li {}
 :where( ol, ul ) > li {
-  padding-inline: 0.618ch;
+  /* padding-inline: 0.618ch; */
 }
 ul > li {}
 ol > li {
