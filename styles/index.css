@@ -766,7 +766,7 @@ li li {}
 }
 ul > li {}
 ol > li {
-  counter-increment: ordered;
+  /* list-style-type: list; */
 }
 ul > li::after,
 ol > li::after {}
