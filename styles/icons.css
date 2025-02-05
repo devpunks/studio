@@ -184,6 +184,8 @@ time[datetime*=T]::before { content: '⌚' }
 :is(ol,ul) > li::marker {}
 :is(ol,ul) > li::before {
   content: '\200B';
+  text-indent: 0.5ch;
+  margin-right: 0.5ch;
 }
 :is(ol) > li {
   /* width: 87%; */
