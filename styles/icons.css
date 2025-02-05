@@ -146,11 +146,8 @@ time[datetime*=T]::before { content: '⌚' }
 
 
 
-:is(ol,ul) {
-  border-radius: .5ch .5ch 0 0;
-  /* width: 80%; */
-  /* padding-left: 2em; */
-}
+
+:is(ol,ul) { border-radius: .5ch .5ch 0 0 }
 :is(ol,ul)::before {
   width: -webkit-fill-available;
   content: attr(data-icon);
