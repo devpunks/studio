@@ -263,7 +263,6 @@ li[data-icon]::before {
 }
 :is( ol,ul )[aria-orientation=horizontal] {
   display: flex;
-  justify-content: start;
   /* list-style-image: unset; */
   list-style-position: inside;
 }
