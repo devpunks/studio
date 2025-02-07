@@ -750,7 +750,6 @@ dd, dt, li {
   user-select: all;
 }
 dd {
-  border-radius: 0.618ch 0 0 0.618ch;
   background: inherit;
 }
 dt {}
