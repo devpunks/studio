@@ -166,8 +166,7 @@ li::marker {}
 li::before, li::after {
   width: auto;
   content: '\200B';
-  text-indent: 0.5ch;
-  margin-right: 0.5ch;
+  text-align: center;
 }
 :is(ol) > li {}
 :is(ol) > li::before {
