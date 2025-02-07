@@ -152,7 +152,7 @@ time[datetime*=T]::before { content: '⌚' }
 :is(dl, ol, ul) ul { margin-left: 2em }
 :is(ol,ul)::marker,
 :is(ol,ul) ::marker {
-  font-size: 1.68em;
+  font-size: larger;
   color: currentColor;
 }
 :is(ol)[type='1'] { list-style-type: decimal-leading-zero }
