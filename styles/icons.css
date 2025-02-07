@@ -279,7 +279,7 @@ li[data-icon]::before {
   /* top: 2em; */
   margin: 0 auto 0.5ch;
   /* position: absolute; */
-  width: max-content;
+  /* width: 100%; */
 }
 
 
