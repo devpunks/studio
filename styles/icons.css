@@ -147,17 +147,9 @@ time[datetime*=T]::before { content: '⌚' }
 
 
 
-
-:is(ol,ul) { border-radius: .5ch .5ch 0 0 }
-:is(ol,ul)::before {
-  /* text-align: center; */
-  padding: 0 .2ch;
-  display: inherit;
-  font-size: x-large;
-  content: attr(data-icon);
-  border-radius: .5ch .5ch 0 0;
-  width: -webkit-fill-available;
-}
+:is(ol,ul) {}
+:is(dl, ol, ul) ol {}
+:is(dl, ol, ul) ul { margin-left: 2em }
 :is(ol,ul)::marker,
 :is(ol,ul) ::marker {
   font-size: 1.68em;
