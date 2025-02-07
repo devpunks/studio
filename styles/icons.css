@@ -217,6 +217,28 @@ li[data-icon]::before {
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">🪵</text></svg>');
 }
+[role=log]:hover li {
+  opacity: 0.5;
+}
+[role=log] li::before,
+[role=log] li::after {
+}
+[role=log] li::before {
+  content: '\200B';
+  cursor: e-resize;
+}
+[role=log] li::after {
+  min-width: 2em;
+  cursor: w-resize;
+  justify-self: right;
+}
+[role=log] li:hover {
+  opacity: 1;
+  content: '◀';
+}
+[role=log] li:hover::after {
+  content: '◀'
+}
 
 
 
