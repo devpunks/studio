@@ -554,7 +554,7 @@ dt + dt {
 }
 dd, li {
   /* padding: var(--margin-collapse-bugfix) 0; */
-  margin: var(--margin-collapse-bugfix) auto 0;
+  /* margin: var(--margin-collapse-bugfix) auto 0; */
 }
 dd {}
 dd {
