@@ -240,7 +240,44 @@ li[data-icon]::before {
   content: '◀'
 }
 
-
+:is( ol,ul )[role=toolbar],
+:is( ol,ul )[aria-orientation=horizontal] {
+  margin-left: auto;
+  width: calc(100% - 1ch);
+}
+:is( ol,ul )[role=toolbar] {
+  list-style: none;
+  outline: 0.1ch solid;
+}
+:is( ol,ul )[role=toolbar]::before {
+  display: list-item;
+  background: Canvas;
+  list-style-position: inside;
+  list-style-image:
+    url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">⚙️</text></svg>');
+}
+:is( ol,ul )[role=toolbar] li {
+  outline: 0.1ch solid;
+  display: inline-flex;
+}
+:is( ol,ul )[aria-orientation=horizontal] {
+  display: flex;
+  justify-content: start;
+  /* list-style-image: unset; */
+  list-style-position: inside;
+}
+:is( ol,ul )[aria-orientation=horizontal] li {
+  white-space: normal;
+  outline: 0.1ch dashed;
+  word-break: keep-all;
+  padding: 0 .5ch;
+}
+:is( ol, ul )[aria-orientation=horizontal] :is( ol, ul ) {
+  /* top: 2em; */
+  margin: unset;
+  /* position: absolute; */
+  width: max-content;
+}
 
 
 
