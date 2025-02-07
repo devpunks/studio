@@ -168,8 +168,14 @@ li::before, li::after {
   content: '\200B';
   text-align: center;
 }
-:is(ol) > li {}
-:is(ol) > li::before {
+li::before { margin-right: 0.5ch }
+li::after { margin-left: 0.5ch }
+li:hover {
+  z-index: 1;
+  background: inherit;
+}
+ol > li {}
+ol > li::before {
   content: '8';
   margin-left: 0ch;
 }
