@@ -272,6 +272,8 @@ li[data-icon]::before {
   outline: 0.1ch dashed;
   word-break: keep-all;
   padding: 0 .5ch;
+  width: inherit;
+  /* display: inline-block; */
 }
 :is( ol, ul )[aria-orientation=horizontal] :is( ol, ul ) {
   /* top: 2em; */
