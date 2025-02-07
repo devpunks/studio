@@ -265,6 +265,7 @@ li[data-icon]::before {
   display: flex;
   /* list-style-image: unset; */
   list-style-position: inside;
+  flex-direction: var(--flex-direction);
 }
 :is( ol,ul )[aria-orientation=horizontal] li {
   white-space: normal;
