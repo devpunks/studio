@@ -158,24 +158,13 @@ time[datetime*=T]::before { content: '⌚' }
 :is(ol) { list-style-position: inside }
 :is(ol)[type='1'] { list-style-type: decimal-leading-zero }
 :is(ol)::before { /* list-style-type: list; */ }
-:is(ul):not([data-icon]) {
-  /* list-style-image:
-    url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
-  /* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
-}
-:is(ul)[data-icon] {
-  list-style-image: unset;
-  content: attr(data-icon);
-}
-:is(ul)[data-icon]::marker {}
-:is(ul) [data-icon]::marker {}
-:is(dl, ol, ul) ul { margin-left: 2em }
-:is(ol,ul) li {
-  clear: both;
-  /* outline: .1ch solid; */
-}
-:is(ol,ul) > li::marker {}
-:is(ol,ul) > li::before {
+:is( ol,ul )[data-icon] { list-style-image: unset }
+
+
+li { clear: both }
+li::marker {}
+li::before, li::after {
+  width: auto;
   content: '\200B';
   text-indent: 0.5ch;
   margin-right: 0.5ch;
