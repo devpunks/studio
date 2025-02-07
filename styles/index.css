@@ -765,7 +765,9 @@ ol > li {
 }
 ul > li::after,
 ol > li::after {}
-ul > li::after {}
+ul > li::after {
+  padding: 0 0.5ch;
+}
 ol > li::after { content: '\232A' }
 
 :is( dd, li ):has( > dl, > ol, > ul )::after {
