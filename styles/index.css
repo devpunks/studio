@@ -743,6 +743,8 @@ ul {
   margin-left: 2em;
   width: calc(100% - 2em - 1ch);
 }
+ol {}
+ol[type=i] { unicode-bidi: embed }
 dd, dt, li {
   -webkit-user-select: all;
   user-select: all;
