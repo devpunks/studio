@@ -155,7 +155,6 @@ time[datetime*=T]::before { content: '⌚' }
   font-size: larger;
   color: currentColor;
 }
-:is(ol)[type='1'] { list-style-type: decimal-leading-zero }
 :is(ol) { list-style-position: inside }
 :is(ol)::before { /* list-style-type: list; */ }
 :is(ul):not([data-icon]) {
