@@ -518,7 +518,11 @@ dl, ol, ul {
 :where( dl, ol, ul )[role=none] {
   /* padding-left: .68em; */
 }
-dl dl, ol ol, ol ul, ul ol, ul ul {
+
+:is(dl,ol,ul):is([role=none],[role=presentation]) :is(dl,ol,ul) {
+  list-style: inherit;
+}
+:is(dl,ol,ul) :is(dl,ol,ul) {
   /* padding-left: 1em; */
   width: auto;
   margin: unset;
