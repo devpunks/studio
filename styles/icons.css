@@ -242,7 +242,7 @@ li[data-icon]::before {
 :is( ol,ul )[role=toolbar],
 :is( ol,ul )[aria-orientation=horizontal] {
   margin-left: auto;
-  width: calc(100% - 1ch);
+  width: calc(100%);
 }
 :is( ol,ul )[role=toolbar] {
   list-style: none;
