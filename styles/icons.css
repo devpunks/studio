@@ -264,7 +264,7 @@ li[data-icon]::before {
   list-style-position: inside;
   flex-direction: var(--flex-direction);
 }
-:is( ol,ul )[aria-orientation=horizontal] li {
+:is( ol,ul, menu )[aria-orientation=horizontal] li {
   white-space: normal;
   word-break: keep-all;
   width: inherit;
