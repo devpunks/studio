@@ -187,7 +187,6 @@ ul > li::before {}
 :is(ol,ul):where( [aria-label], [data-icon] )::before {
   padding: 0 0.5ch;
   display: inherit;
-  line-height: 2em;
   font-size: inherit;
   font-weight: bolder;
   background: inherit;
