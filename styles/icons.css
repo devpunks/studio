@@ -234,6 +234,7 @@ li[data-icon]::before {
   min-width: 2em;
   cursor: w-resize;
   justify-self: right;
+  display: inline-block;
 }
 [role=log] li:hover {
   opacity: 1;
