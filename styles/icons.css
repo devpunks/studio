@@ -238,8 +238,8 @@ li[data-icon]::before {
 [role=log] li:hover { opacity: 1 }
 [role=log] li:hover::after { content: '◀' }
 
-:is( ol,ul )[role=toolbar],
-:is( ol,ul )[aria-orientation=horizontal] {
+:is( ol, ul, menu )[role=toolbar],
+:is( ol, ul, menu )[aria-orientation=horizontal] {
   margin-left: auto;
   width: calc(100%);
 }
