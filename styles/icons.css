@@ -258,7 +258,7 @@ li[data-icon]::before {
   outline: 0.1ch solid;
   display: inline-flex;
 }
-:is( ol,ul )[aria-orientation=horizontal] {
+:is( ol,ul, menu )[aria-orientation=horizontal] {
   display: flex;
   /* list-style-image: unset; */
   list-style-position: inside;
