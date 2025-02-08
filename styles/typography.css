@@ -525,8 +525,6 @@ dl, ol, ul {
 :is(dl,ol,ul) :is(dl,ol,ul) {
   /* padding-left: 1em; */
   width: auto;
-  margin: unset;
-  padding-bottom: 0;
   max-width: initial;
   margin-bottom: var(--margin-collapse-bugfix);
 }
