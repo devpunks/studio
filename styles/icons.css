@@ -169,7 +169,10 @@ li::before, li::after {
   text-align: center;
 }
 li::before { margin-right: 0.5ch }
-li::after { margin-left: 0.5ch }
+li::after {
+  display: none;
+  margin-left: 0.5ch;
+}
 li:hover {
   z-index: 1;
   background: inherit;
