@@ -268,7 +268,6 @@ li[data-icon]::before {
 :is( ol,ul )[aria-orientation=horizontal] li {
   white-space: normal;
   word-break: keep-all;
-  padding: 0 .5ch;
   width: inherit;
   /* display: inline-block; */
 }
