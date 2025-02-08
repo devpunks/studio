@@ -243,7 +243,7 @@ li[data-icon]::before {
   margin-left: auto;
   width: calc(100%);
 }
-:is( ol,ul )[role=toolbar] {
+:is( ol, ul, menu )[role=toolbar] {
   list-style: none;
   outline: 0.1ch solid;
 }
