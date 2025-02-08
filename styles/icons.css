@@ -236,13 +236,8 @@ li[data-icon]::before {
   justify-self: right;
   display: inline-block;
 }
-[role=log] li:hover {
-  opacity: 1;
-  content: '◀';
-}
-[role=log] li:hover::after {
-  content: '◀'
-}
+[role=log] li:hover { opacity: 1 }
+[role=log] li:hover::after { content: '◀' }
 
 :is( ol,ul )[role=toolbar],
 :is( ol,ul )[aria-orientation=horizontal] {
