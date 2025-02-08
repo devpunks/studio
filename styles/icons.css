@@ -155,11 +155,10 @@ time[datetime*=T]::before { content: '⌚' }
   font-size: larger;
   color: currentColor;
 }
-:is(ol) { list-style-position: inside }
-:is(ol)[type='1'] { list-style-type: decimal-leading-zero }
-:is(ol)::before { /* list-style-type: list; */ }
-:is( ol,ul )[data-icon] { list-style-image: unset }
-
+:is( ol ) { list-style-position: inside }
+:is( ol )[type='1'] { list-style-type: decimal-leading-zero }
+:is( ol )::before { /* list-style-type: list; */ }
+:is( ol, ul, menu )[data-icon] { list-style-image: unset }
 
 li { clear: both }
 li::marker {}
