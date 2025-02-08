@@ -147,11 +147,11 @@ time[datetime*=T]::before { content: '⌚' }
 
 
 
-:is(ol,ul) {}
-:is(dl, ol, ul) ol {}
-:is(dl, ol, ul) ul { margin-left: 2em }
-:is(ol,ul)::marker,
-:is(ol,ul) ::marker {
+:is( ol,ul) {}
+:is( dl, ol, ul ) ol {}
+:is( dl, ol, ul ) ul { margin-left: 2em }
+:is( ol,ul )::marker,
+:is( ol,ul ) ::marker {
   font-size: larger;
   color: currentColor;
 }
