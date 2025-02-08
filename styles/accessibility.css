@@ -102,6 +102,9 @@ html:focus-within { scroll-behavior: smooth }
   outline-offset: 0;
   filter: contrast(1.1); /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
 }
+button:is(:hover, :focus-within) {
+  filter: contrast(1.1); /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
+}
 
 [aria-disabled=true]
   {cursor: not-allowed }
