@@ -278,6 +278,40 @@ li[data-icon]::before {
   /* width: 100%; */
   margin: 0 auto 0.5ch;
 }
+menu {
+  list-style: none
+}
+menu[role=toolbar] {
+  background: rgba(255,255,255,0.4);
+}
+menu > li > * {
+  margin: 0;
+  margin: 0.2ch;
+  max-width: unset;
+  white-space: nowrap;
+}
+menu[role=toolbar] > li {
+  width: auto;
+  display: inline-block;
+}
+menu[role=toolbar] > li::before {
+  margin: 0;
+}
+menu[role=toolbar] button {
+  width: 2em;
+  padding: 0;
+  overflow: hidden;
+  background: inherit;
+}
+button:focus-visible { z-index: 1 }
+button::before {
+  min-width: 2em;
+  cursor: inherit;
+  content: '\200B';
+}
+button[data-icon]::before {
+  content: attr(data-icon);
+}
 
 
 
