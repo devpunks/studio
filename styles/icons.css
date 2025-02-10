@@ -288,7 +288,12 @@ li[data-icon]::before {
 }
 :is( ol,ul, menu )[role=toolbar] li,
 :is( ol,ul, menu )[aria-orientation=horizontal] li {
-  white-space: normal;
+  margin: 0;
+  width: auto;
+  /* width: 100%; */
+  /* width: inherit; */
+  it; */
+  white-space: nowrap;
   word-break: keep-all;
   width: inherit;
   padding: 0 .5ch;
