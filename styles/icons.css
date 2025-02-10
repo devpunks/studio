@@ -301,11 +301,13 @@ li[data-icon]::before {
 }
 :is( ol, ul, menu )[role=toolbar] :is( ol, ul, menu ),
 :is( ol, ul, menu )[aria-orientation=horizontal] :is( ol, ul, menu ) {
-  /* top: 2em; */
-  /* margin: 0 auto 0.5ch; */
-  /* position: absolute; */
-  /* width: 100%; */
-  margin: 0 auto 0.5ch;
+  /* left: -2em; */
+  /* margin: 0; */
+  /* width: auto; */
+  /* width: inherit; */
+  /* margin: 0 0 .5ch 2em; */
+  width: inherit;
+  white-space: nowrap;
 }
 menu {
   list-style: none
