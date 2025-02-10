@@ -534,10 +534,6 @@ dl, ol, ul {
   /* max-width: initial; */
   margin-bottom: var(--margin-collapse-bugfix);
 }
-dd > :is( dd, ol, ul ) {
-  max-width: unset;
-  background: inherit;
-}
 nav > :is( dd, ol, ul ) {
   padding: 0;
 }
