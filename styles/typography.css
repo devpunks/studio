@@ -762,6 +762,14 @@ p q, q q {
 /*
   - http://webtypography.net/2.3.3
 */
+blockquote {
+  text-align: left;
+  margin: 1.68em auto;
+  padding: 1.68em 6%;
+  font-size: larger;
+  font-family: auto;
+}
+blockquote::before, blockquote::after {}
 blockquote::before {
   line-height: 1.6182ch;
 }
