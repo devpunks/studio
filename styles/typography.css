@@ -923,7 +923,9 @@ summary {
 }
 summary::marker { font-size: 2em }
 summary::before, summary::after {
-  padding-inline: 1em;
+  width: 2em;
+  margin-right: .5ch;
+  text-align: center;
 }
 
 /* fieldset / legend */
