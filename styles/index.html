@@ -1377,13 +1377,11 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         <li>List Item
       </ul>
 
-      <!-- https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar -->
-      <header>Unordered List <var>role=toolbar</var></header>
-      <ul role=toolbar aria-label='Toolbar'>
-        <li aria-haspopup=true>List Item
-          <ul>
-            <li><em>(Child)</em> List Item
-            <li><em>(Child)</em> List Item
+      <header>Unordered List <var>aria-label=…</var></header>
+      <ul aria-label='The quick brown fox&apos;s list'>
+        <li>List Item
+        <li>List Item
+          <ul aria-label='The quick brown cub&apos;s list'>
             <li><em>(Child)</em> List Item
             <li><em>(Child)</em> List Item
           </ul>
