@@ -147,7 +147,7 @@ time[role=timer]::before { content: '⏱️' }
 
 
 
-:is( ol,ul) {}
+:is( ol,ul) { text-indent: initial }
 :is( dl, ol, ul ) ol {}
 :is( dl, ol, ul ) ul { margin-left: 2em }
 :is( ol,ul )::marker,
