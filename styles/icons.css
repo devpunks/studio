@@ -338,10 +338,7 @@ button::before {
   content: '\200B';
   vertical-align: initial;
 }
-button[data-icon]::before {
-  width: 2em;
-  content: attr(data-icon);
-}
+button[data-icon]::before { content: attr(data-icon) }
 
 
 
