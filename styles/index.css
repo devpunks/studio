@@ -716,6 +716,8 @@ abbr[title] { cursor: help }
 [role=feed] article { border: inherit }
 [role=feed]:hover article { opacity: .5 }
 [role=feed]:hover article:hover { opacity: 1 }
+:is( ol, ul ):is( [role=none], [role=presentation] ) :is( ol, ul )
+  { list-style: inherit }
 
 dl, ol, ul {
   background: rgba(255,255,255,0.5);
