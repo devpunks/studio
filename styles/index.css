@@ -284,10 +284,7 @@ p > time::after {
   position: absolute;
   background: Canvas;
 }
-p > time[datetime] {
-  padding: 0 0.628ch;
-  vertical-align: middle;
-}
+p > time[datetime] {}
 
 
 var, data {
