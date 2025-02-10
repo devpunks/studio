@@ -520,7 +520,7 @@ p > time[datetime] {
 }
 dl, ol, ul {
   text-align: left;
-  padding: 0 .5em;
+  /* padding: 0 .5em; */
   max-width: calc(100% - 2ch);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
