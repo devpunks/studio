@@ -756,7 +756,7 @@ dd, dt, li {
 }
 dd {
   background: inherit;
-  border-radius: 0.618ch 0 0 0.618ch;
+  border-radius: inherit;
 }
 dt {}
 li {}
