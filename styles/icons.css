@@ -269,8 +269,7 @@ li[data-icon]::before {
 :is( ol,ul, menu )[role=toolbar],
 :is( ol,ul, menu )[aria-orientation=horizontal] {
   display: flex;
-  /* list-style-image: unset; */
-  list-style-position: inside;
+  flex-wrap: wrap;
   flex-direction: var(--flex-direction);
 }
 :is( ol,ul, menu )[aria-orientation=horizontal] li {
