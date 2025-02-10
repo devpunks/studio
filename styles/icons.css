@@ -332,7 +332,6 @@ menu[role=toolbar] > li::before {
 }
 button:focus-visible { z-index: 1 }
 button::before {
-  min-width: 2em;
   cursor: inherit;
   content: '\200B';
 }
