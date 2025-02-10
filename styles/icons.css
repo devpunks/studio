@@ -205,7 +205,8 @@ ul > li::before {}
   display: inherit;
   font-size: inherit;
   font-weight: bolder;
-  background: inherit;
+  line-height: inherit;
+  background: yellow;
   text-transform: capitalize;
   border-bottom: 0.1ch solid;
   width: -webkit-fill-available;
