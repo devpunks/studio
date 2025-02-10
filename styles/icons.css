@@ -205,7 +205,7 @@ ul > li::before {}
   /* white-space: nowrap; */
   text-transform: capitalize;
   border-bottom: 0.1ch solid;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
   width: -moz-available;
   content: attr(data-icon) ' ' attr(aria-label);
   /* list-style-image:
