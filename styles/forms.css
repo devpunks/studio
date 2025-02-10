@@ -599,7 +599,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], input[type=fi
   line-height: var(--line-height);
   border: 0.0168em solid currentColor;
   margin: var(--margin-collapse-bugfix) 1ch 1ch;
-  padding: var(--margin-collapse-bugfix) var(--line-height);
+  padding: var(--margin-collapse-bugfix) 1ch;
 }
 input[type=file]::file-selector-button, input[type=file]::-webkit-file-upload-button {
   margin: 0 1ch 0 0;
