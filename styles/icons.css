@@ -178,17 +178,12 @@ li:hover {
   background: inherit;
 }
 :is( ol, ul, menu ) :is(li)[aria-haspopup] {
-  /* background: yellow; */
   /* display: inline-block; */
-  margin: 0;
+  /* margin: 0; */
   /* width: auto; */
 }
 :is( ol, ul, menu ) :is(li)[aria-haspopup] :is( ol, ul, menu ) {
   background: red;
-  display: block;
-  /* margin: 0; */
-  width: fit-content;
-  /* position: relative; */
 }
 :is( ol, ul, menu ) :is(li)[aria-haspopup] :is( li ) {
   display: block;
