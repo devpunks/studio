@@ -324,7 +324,7 @@ menu > li > * {
 menu[role=toolbar] > li::before {
   margin: 0;
 }
-menu[role=toolbar] button {
+[role=toolbar] button[data-icon] {
   width: 2em;
   padding: 0;
   overflow: hidden;
