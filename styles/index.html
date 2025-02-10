@@ -1095,9 +1095,12 @@ Gesture symbols
         <time datetime=2017-01-01 title='Calendar time'></time>
         <time datetime=2017-01-01T12:12+00:00 title='Watch time'></time>
         <a title='<time> nested in <a>nchor link' href='#<time>'><time></time></a>
-        <time tabindex=0><a title='<a>nchor link nested in <time>' href='#<time>'>12:12</a></time>
         <time tabindex=0 datetime=2017-01-01 title='This is the title for date'>Beginning of year</time>
         <time tabindex=0 datetime=2017-01-01T00:00+00:00 title='This is the title for time'>Beginning of day</time>
+        <time tabindex=0><a title='<a>nchor link nested in <time>' href='#<time>'>12:12</a></time>
+        <time title='Watch time'>24 hours</time>
+        <!-- https://w3c.github.io/aria/#timer -->
+        <time role=timer tabindex=0 datetime=00:00:00.000 aria-atomic=true title='Timer'>60 seconds</time>
       </p>
       <time tabindex=0 datetime=2017-12-31 title='This is the title for time'>End of year</time>
       <time tabindex=0 datetime=2017-12-31T23:59+00:00 title='This is the title for time'>End of day</time>
