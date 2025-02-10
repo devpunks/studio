@@ -665,16 +665,6 @@ p + p { margin: 1.68em auto var(--margin-collapse-bugfix) }
   text-decoration: revert;
 }
 
-blockquote { /* http://webtypography.net/2.3.3 */
-  text-align: left;
-  margin: 1.68em auto;
-  padding: 1.68em 6%;
-  font-size: larger;
-  font-family: auto;
-}
-blockquote::before,
-blockquote::after {}
-
 pre, code, kbd, samp, var, data {
   font-size: inherit;
   line-height: inherit;
