@@ -202,7 +202,7 @@ ul > li::before {}
   font-size: inherit;
   font-weight: bolder;
   line-height: inherit;
-  background: yellow;
+  /* white-space: nowrap; */
   text-transform: capitalize;
   border-bottom: 0.1ch solid;
   width: -webkit-fill-available;
