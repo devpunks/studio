@@ -295,9 +295,9 @@ li[data-icon]::before {
   it; */
   white-space: nowrap;
   word-break: keep-all;
-  width: inherit;
-  padding: 0 .5ch;
-  /* display: inline-block; */
+  /* white-space: nowrap; */
+  list-style-position: inside;
+  /* background: red; */
 }
 :is( ol, ul, menu )[aria-orientation=horizontal] :is( ol, ul, menu ) {
   /* top: 2em; */
