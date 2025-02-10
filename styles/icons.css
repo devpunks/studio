@@ -336,6 +336,7 @@ button:focus-visible { z-index: 1 }
 button::before {
   cursor: inherit;
   content: '\200B';
+  vertical-align: initial;
 }
 button[data-icon]::before {
   width: 2em;
