@@ -245,6 +245,7 @@ li[data-icon]::before {
 [role=log] li::before {
   content: '\200B';
   cursor: e-resize;
+  /* margin-right: 0.5ch; */
 }
 [role=log] li::after {
   min-width: 2em;
