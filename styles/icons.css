@@ -266,11 +266,7 @@ li[data-icon]::before {
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">⚙️</text></svg>');
 }
-[role=toolbar] li {
-  outline: 0.1ch solid;
-  display: inline-flex;
-  width: inherit;
-}
+:is( ol,ul, menu )[role=toolbar],
 :is( ol,ul, menu )[aria-orientation=horizontal] {
   display: flex;
   /* list-style-image: unset; */
