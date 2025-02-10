@@ -442,6 +442,7 @@ details {
 }
 summary {
   cursor: s-resize;
+  background: blue;
 }
 summary::before,
 summary::after {
