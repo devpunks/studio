@@ -708,6 +708,16 @@ abbr[title] { cursor: help }
   color: inherit;
   font-size: inherit;
 }
+[role=feed] {
+  max-height: 25em;
+  overflow-x: auto;
+  border: 0.1ch solid;
+  counter-reset: header;
+}
+[role=feed] article { border: inherit }
+[role=feed]:hover article { opacity: .5 }
+[role=feed]:hover article:hover { opacity: 1 }
+
 dl, ol, ul {
   background: rgba(255,255,255,0.5);
 }
