@@ -432,13 +432,7 @@ nav > details > summary::marker {}
 
 /* http://html5doctor.com/the-details-and-summary-elements */
 details {
-  rgba(255,255,255,
-  CONTAIN-INTRINSIC-BLOCK-SIZE: AUTO 100PX);rgba(255,255,255,
-  CONTAIN-INTRINSIC-BLOCK-SIZE: AUTO 100PX);rgba(255,255,
-  FONT-WEIGHT: 200);rgba(255,
-  FONT-WEIGHT: 200);
-  );
-  background: rgba(255,255,255,);
+  background: rgba(255,255,255,0.5);
 }
 summary {
   cursor: s-resize;
