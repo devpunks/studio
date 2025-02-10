@@ -257,15 +257,7 @@ li[data-icon]::before {
 [role=log] li:hover::after { content: '◀' }
 
 :is( ol, ul, menu )[role=toolbar],
-:is( ol, ul, menu )[aria-orientation=horizontal] {
-  margin-left: auto;
-  width: 100%;
-}
-:is( ol, ul, menu )[role=toolbar] {
-  list-style: none;
-  display: flex;
-  outline: 0.1ch solid;
-}
+:is( ol, ul, menu )[aria-orientation=horizontal] {}
 :is( ol, ul, menu )[role=toolbar]::before {
   display: list-item;
   background: Canvas;
