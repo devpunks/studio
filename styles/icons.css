@@ -272,6 +272,21 @@ li[data-icon]::before {
   flex-wrap: wrap;
   flex-direction: var(--flex-direction);
 }
+:is( ol, ul, menu )[role=toolbar] {
+  list-style: none;
+}
+:is( ol,ul, menu )[aria-orientation=horizontal] {
+  justify-content: space-around;
+}
+:is( ol, ul, menu ):is( [role=toolbar], [role=marquee], [role=log] ) {
+  justify-content: flex-start;
+  list-style-position: inside;
+}
+:is( ol, ul, menu ):is( [role=toolbar], [role=marquee], [role=log] ) > li {
+  margin: 0;
+  /* width: auto; */
+}
+:is( ol,ul, menu )[role=toolbar] li,
 :is( ol,ul, menu )[aria-orientation=horizontal] li {
   white-space: normal;
   word-break: keep-all;
