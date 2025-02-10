@@ -842,7 +842,7 @@ ul > li::after {
   speak-as: example; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
   range: 1 1, 3 3, 5 5; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/range */
   fallback: upper-alpha; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
-  symbols: "\24B6""\24B7""\24B8"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
+  symbols: "\24B6" "\24B7" "\24B8"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
 }
 
 
