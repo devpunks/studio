@@ -725,6 +725,7 @@ dd > :is( dl, ol, ul ) {
   background: inherit;
   margin: 0 .ch;
 }
+
 nav > dl, nav > ol, nav > ul {
   margin: var(--margin-collapse-bugfix) 0;
   padding: var(--margin-collapse-bugfix) 0;
