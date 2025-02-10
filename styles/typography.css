@@ -528,10 +528,7 @@ dl, ol, ul {
   /* padding-left: .68em; */
 }
 
-:is(dl,ol,ul):is([role=none],[role=presentation]) :is(dl,ol,ul) {
-  list-style: inherit;
-}
-:is(dl,ol,ul) > :is(dl,ol,ul) {
+:is( dl, ol, ul ) :is( dl, ol, ul ) {
   width: auto;
   /* padding-left: 1em; */
   /* max-width: initial; */
