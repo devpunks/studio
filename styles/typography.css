@@ -613,9 +613,7 @@ del::before
 
 ins::before { content: '+' }
 
-em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */
-  padding-inline: calc(.1682ch * var(--GOLDEN-RATIO));
-}
+em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */ }
 b, strong { font-weight: bolder }
 b {}
 
