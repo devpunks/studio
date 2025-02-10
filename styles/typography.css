@@ -501,7 +501,11 @@ time::after {
 }
 time[datetime] { padding: 0.628ch }
 time[datetime]::after{ margin-top: 0.1682ch }
-p > time[datetime] { vertical-align: middle }
+p > time[datetime] {
+  margin: unset;
+  padding: 0 0.628ch;
+  vertical-align: middle;
+}
 
 
 
