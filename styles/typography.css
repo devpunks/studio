@@ -541,7 +541,7 @@ dd > :is( dd, ol, ul ) {
   max-width: unset;
   background: inherit;
 }
-nav > dl, nav > ol, nav > ul {
+nav > :is( dd, ol, ul ) {
   padding: 0;
 }
 nav > details > ul {}
