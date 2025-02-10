@@ -848,6 +848,9 @@ ruby {
   padding: 1.68ch 1ch;
 }
 
+article { margin: 0 .5ch .5ch }
+
+
 /* Table styling */
 table {
   font-size: small;
