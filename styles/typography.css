@@ -544,7 +544,7 @@ dd, dt {
 }
 dt {
   font-weight: bolder;
-  /* text-indent: 0.618em; */
+  text-indent: .5em;
   line-height: 3.6182ch;
   padding: var(--margin-collapse-bugfix) 0;
   margin-block: 0.6182ch var(--margin-collapse-bugfix);
