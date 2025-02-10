@@ -244,7 +244,6 @@ li[data-icon]::before {
 }
 [role=log] li::before {
   content: '\200B';
-  /* content: '▶'; */
   cursor: e-resize;
 }
 [role=log] li::after {
