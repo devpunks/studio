@@ -299,6 +299,7 @@ li[data-icon]::before {
   list-style-position: inside;
   /* background: red; */
 }
+:is( ol, ul, menu )[role=toolbar] :is( ol, ul, menu ),
 :is( ol, ul, menu )[aria-orientation=horizontal] :is( ol, ul, menu ) {
   /* top: 2em; */
   /* margin: 0 auto 0.5ch; */
