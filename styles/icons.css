@@ -178,7 +178,7 @@ li:hover {
   background: inherit;
 }
 :is( ol, ul, menu ) :is(li)[aria-haspopup] {
-  background: yellow;
+  /* background: yellow; */
   /* display: inline-block; */
   margin: 0;
   /* width: auto; */
