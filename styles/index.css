@@ -448,8 +448,12 @@ summary::-webkit-details-marker
   { display: none } /* https://stackoverflow.com/a/66814239 */
 details:hover > summary, details:focus-within > summary
   { opacity: 1.0 }
-main details > summary::before
-  { content: '>' }
+main details > summary::before {
+  float: left;
+  content: '>';
+  background: red;
+  display: list-item;
+}
 main details[open] > summary::before
   { content: 'v' }
 
