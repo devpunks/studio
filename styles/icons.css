@@ -167,7 +167,7 @@ li::before, li::after {
   content: '\200B';
   text-align: center;
 }
-li::before { margin-right: 0.5ch }
+li::before {}
 li::after {
   display: none;
   margin-left: 0.5ch;
