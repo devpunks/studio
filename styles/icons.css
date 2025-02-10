@@ -277,6 +277,7 @@ li[data-icon]::before {
 [role=toolbar] li {
   outline: 0.1ch solid;
   display: inline-flex;
+  width: inherit;
 }
 :is( ol,ul, menu )[aria-orientation=horizontal] {
   display: flex;
