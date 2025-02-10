@@ -321,10 +321,6 @@ menu > li > * {
   max-width: unset;
   white-space: nowrap;
 }
-menu[role=toolbar] > li {
-  width: auto;
-  display: inline-block;
-}
 menu[role=toolbar] > li::before {
   margin: 0;
 }
