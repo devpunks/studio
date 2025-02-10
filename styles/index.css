@@ -810,7 +810,6 @@ ul > li::after {
   system: symbolic;
   system: additive;
   system: alphabetic;
-
   /* Combined values
   system: fixed 3;
   system: extends decimal;
