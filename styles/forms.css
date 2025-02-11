@@ -562,6 +562,7 @@ dialog {
   margin: auto;
   border: solid;
   display: block;
+  padding: 1ch 1ch 0;
   position: absolute;
 
   height: -webkit-fit-content;
