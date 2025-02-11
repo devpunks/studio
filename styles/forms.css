@@ -569,7 +569,6 @@ dialog {
   height: fit-content;
   background-color: Canvas;
 }
-
 dialog:not([open])
   { display: none }
 
