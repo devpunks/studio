@@ -618,6 +618,20 @@ button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [rol
 button svg {
   margin: auto;
 }
+button:focus-visible { z-index: 1 }
+button::before {
+  cursor: inherit;
+  content: '\200B';
+  vertical-align: initial;
+}
+button[data-icon]::before { content: attr(data-icon) }
+[role=toolbar] button[data-icon] {
+  width: 2em;
+  padding: 0;
+  overflow: hidden;
+  background: inherit;
+}
+[role=toolbar] button[data-icon]::before { width: 2em }
 
 /*
   - input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
