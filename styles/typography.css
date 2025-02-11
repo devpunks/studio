@@ -904,7 +904,7 @@ tbody tr { margin-inline: 1ch }
 details { /* details */
   margin: 0;
   text-align: var(--text-align);
-  padding: 0 0 0 var(--line-height);
+  /* padding: 0 0 0 var(--line-height); */
 }
 nav details, nav summary {
   margin: var(--margin-collapse-bugfix) auto;
