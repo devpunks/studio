@@ -526,18 +526,29 @@ dl, ol, ul {
   max-width: calc(100% - 2ch);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
-:where( dl, ol, ul )[role=none] {
-  /* padding-left: .68em; */
-}
-
-:is( dl, ol, ul ) :is( dl, ol, ul ) {
-  width: auto;
-  /* padding-left: 1em; */
-  /* max-width: initial; */
-  margin-bottom: var(--margin-collapse-bugfix);
-}
-nav > :is( dd, ol, ul ) {
-  padding: 0;
+:is( ol,ul) { text-indent: initial }
+:is( dl, ol, ul ) ol {}
+:is( dl, ol, ul ) ul {}
+:is( ol,ul )::marker,
+:is( ol,ul ) ::marker { font-size: larger }
+ul { margin-left: 2em }
+:is( ol, ul ) > li { padding: 0 0.5ch }
+li { text-indent: unset }
+li li {}
+li::marker {}
+li::before, li::after { text-align: center }
+li::before {}
+li::after  { margin-left: 0.5ch }
+ol > li {}
+ol > li::before { margin-left: 0ch }
+ul > li {}
+ul > li::before {}
+:is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
+  padding: 0 0.5ch;
+  font-size: inherit;
+  font-weight: bolder;
+  line-height: inherit;
+  text-transform: capitalize;
 }
 nav > details > ul {}
 
