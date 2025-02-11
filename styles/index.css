@@ -549,7 +549,6 @@ body > footer address, [contentinfo] address {
 address { background: red }
 article address {}
 
-
 ruby {
   color: CanvasText;
   width: fit-content;
