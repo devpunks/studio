@@ -179,8 +179,8 @@ li[data-icon]::before {
   /* margin: 0; */
   /* width: auto; */
 }
-menu[role=toolbar] > li::before {
-  margin: 0;
+:is( ol, ul, menu ) :is(li)[aria-haspopup] :is( ol, ul, menu ) {
+  background: red;
 }
 [role=toolbar] button[data-icon] {
   width: 2em;
