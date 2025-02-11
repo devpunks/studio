@@ -164,13 +164,6 @@ li[data-icon]::before {
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">☑️</text></svg>');
 }
 [role=log] li {
-  cursor: text;
-  /* display: flex; */
-  /* display: initial; */
-  display: list-item;
-  border-bottom: 0.1ch solid Canvas;
-  justify-content: space-between;
-  list-style-position: inside;
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">🪵</text></svg>');
 }
