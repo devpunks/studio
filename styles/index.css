@@ -446,6 +446,7 @@ nav li {
   margin: 1ch;
   padding: 1ch;
   display: flex;
+  background: inherit;
   align-items: center;
   justify-content: space-between;
 }
