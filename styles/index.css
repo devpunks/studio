@@ -292,7 +292,6 @@ var, data {
   color: CanvasText;
   background: ButtonFace;
 }
-
 pre, code, kbd, samp {
   border-radius: .5ch;
   background-color: ButtonFace;
