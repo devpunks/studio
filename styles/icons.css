@@ -182,11 +182,9 @@ li[data-icon]::before {
 :is( ol, ul, menu ) :is(li)[aria-haspopup] :is( ol, ul, menu ) {
   background: red;
 }
-[role=toolbar] button[data-icon] {
-  width: 2em;
-  padding: 0;
-  overflow: hidden;
-  background: inherit;
+:is( ol, ul, menu ) :is(li)[aria-haspopup] :is( li ) {
+  display: block;
+  width: inherit;
 }
 [role=toolbar] button[data-icon]::before { width: 2em }
 
