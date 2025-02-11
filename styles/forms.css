@@ -609,7 +609,8 @@ button:not(:disabled), [type=button]:not(:disabled) [type=file]::-webkit-file-up
 button:not(:disabled):hover, [type=button]:not(:disabled):hover, [type=submit]:not(:disabled):hover,
 [type=reset]:not(:disabled):hover, [role=button]:not([aria-disabled=true]):hover, [type=file]::-webkit-file-upload-button:not(:disabled):hover
   { opacity: 100% }
-button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
+/* TODO: [type=file]::file-selector-button:focus */
+button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus, [type=file]::-webkit-file-upload-button:focus
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus */ }
 
 button svg {
