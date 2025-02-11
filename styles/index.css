@@ -701,6 +701,7 @@ dd > :is( dl, ol, ul ) {
   background: inherit;
   margin: 0 .5ch;
 }
+details :is( details, dl, ol, ul ) { margin-bottom: unset }
 
 nav > dl, nav > ol, nav > ul {
   margin: var(--margin-collapse-bugfix) 0;
