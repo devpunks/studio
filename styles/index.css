@@ -807,7 +807,7 @@ ol {}
 ol[type=i] { unicode-bidi: embed }
 dd, dt, li {
   -webkit-user-select: all;
-  user-select: all;
+          user-select: all;
 }
 dd {
   background: inherit;
