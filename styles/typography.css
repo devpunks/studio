@@ -663,6 +663,7 @@ pre, code, kbd, samp, var, data {
   font-family: monospace;
   padding: 0 0.5em;
 }
+code :is( var, data ) { padding: 0 }
 pre {
   width: calc(100% - 2ch);
   overflow: overlay;
