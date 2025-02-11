@@ -586,8 +586,10 @@ button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::
   white-space: normal;
   font-weight: bolder;
   font-family: inherit;
-  background: CanvasText;
   display: inline-block;
+  word-spacing: inherit;
+  background: CanvasText;
+  letter-spacing: inherit;
   border-radius: 0.1618em;
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
