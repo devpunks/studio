@@ -661,7 +661,7 @@ p + p { margin: 1.68em auto var(--margin-collapse-bugfix) }
 pre, code, kbd, samp, var, data {
   line-height: inherit;
   font-family: monospace;
-  padding: 0.168em 0.5em;
+  padding: 0 0.5em;
 }
 pre {
   width: calc(100% - 2ch);
