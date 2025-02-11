@@ -170,10 +170,6 @@ li[data-icon]::before {
 [role=log] li::before { content: '\200B' }
 [role=log] li:hover::after { content: '◀' }
 :is( ol, ul, menu )[role=toolbar]::before {
-  width: 100%;
-  display: list-item;
-  background: Canvas;
-  list-style-position: inside;
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">⚙️</text></svg>');
 }
