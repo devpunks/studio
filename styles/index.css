@@ -728,6 +728,56 @@ li[data-icon]::before {
 :is( ol, ul ):is( [role=none], [role=presentation] ) :is( ol, ul )
   { list-style: inherit }
 
+[role=log] li {
+  cursor: text;
+  display: list-item;
+  list-style-position: inside;
+  justify-content: space-between;
+  border-bottom: 0.1ch solid Canvas;
+}
+[role=log]:hover li { opacity: 0.5 }
+[role=log] li::before,
+[role=log] li::after {}
+[role=log] li::before { cursor: e-resize }
+[role=log] li::after {
+  min-width: 2em;
+  cursor: w-resize;
+  justify-self: right;
+  display: inline-block;
+}
+[role=log] li:hover { opacity: 1 }
+:is( ol, ul, menu )[role=toolbar],
+:is( ol, ul, menu )[aria-orientation=horizontal] {}
+:is( ol, ul, menu )[role=toolbar]::before {
+  width: 100%;
+  display: list-item;
+  background: Canvas;
+  list-style-position: inside;
+}
+:is( ol,ul, menu )[role=toolbar],
+:is( ol,ul, menu )[aria-orientation=horizontal] {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: var(--flex-direction);
+}
+:is( ol, ul, menu )[role=toolbar] { list-style: none }
+:is( ol,ul, menu )[aria-orientation=horizontal] { justify-content: space-around }
+:is( ol, ul, menu ):is( [role=toolbar], [role=marquee], [role=log] ) {
+  justify-content: flex-start;
+  list-style-position: inside;
+}
+:is( ol,ul, menu )[role=toolbar] li,
+:is( ol,ul, menu )[aria-orientation=horizontal] li {
+  width: auto;
+  list-style-position: inside;
+}
+:is( ol, ul, menu )[role=toolbar] :is( ol, ul, menu ),
+:is( ol, ul, menu )[aria-orientation=horizontal] :is( ol, ul, menu )
+  { width: inherit }
+menu { list-style: none }
+menu[role=toolbar] { background: rgba(255,255,255,0.4) }
+menu > li > * { max-width: unset }
+
 dl, ol, ul { background: rgba(255,255,255,0.5) }
 dd > :is( dl, ol, ul ) {
   max-width: unset;
