@@ -514,9 +514,11 @@ p > time[datetime] {
  * https://perishablepress.com/css-center-align-list-left-align-text
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
-[role=feed] {
-  margin: .5ch;
-  padding: .5ch 0;
+:is( dl, ol, ul ) :is( dl, ol, ul ) {
+  width: auto;
+  /* padding-left: 1em; */
+  /* max-width: initial; */
+  margin-bottom: var(--margin-collapse-bugfix);
 }
 dl, ol, ul {
   text-align: left;
