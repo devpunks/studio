@@ -800,14 +800,9 @@ footer dl, footer dl > *,
 footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
-dl {
-  /* border-radius: 0.618ch; */
-  counter-reset: term 0;
-}
-ul {
-  margin-left: 2em;
-  width: calc(100% - 2em - 1ch);
-}
+dl
+  { counter-reset: term 0 }
+ul { width: calc(100% - 2em - 1ch) }
 ol {}
 ol[type=i] { unicode-bidi: embed }
 dd, dt, li {
