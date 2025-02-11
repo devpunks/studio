@@ -163,9 +163,6 @@ li[data-icon]::before {
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">☑️</text></svg>');
 }
-[role=presentation] li { border-width: 0 }
-[role=presentation] li::before {}
-
 [role=log] li {
   cursor: text;
   /* display: flex; */
