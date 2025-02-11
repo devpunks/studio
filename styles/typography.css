@@ -577,7 +577,8 @@ dt + dt {
 dt[role=term]::before,
 dd[role=definition]::before {
   font-size: large;
-  text-indent: 0.618em;
+  font-weight: bolder;
+  margin-right: 0.5ch;
 }
 li {
   text-indent: unset;
