@@ -816,23 +816,11 @@ dd {
 dd[role=definition]
   { counter-increment: definition }
 dt[role=term]::before,
-dd[role=definition]::before {
-  font-size: large;
-  font-weight: bolder;
-  margin-right: 0.5ch;
-}
-dd[role=definition]::before {
-  vertical-align: top;
-  content: counter(definition) ':';
-}
-dd[role=definition] > :is( dl, ol, ul ) {
-  margin-left: 2em;
-  /* display: inline-block; */
-  list-style-position: inside;
-}
-dt {
-  counter-reset: definition 0;
-}
+dd[role=definition]::before {}
+dd[role=definition] > :is( dl, ol, ul )
+  { list-style-position: inside }
+dt
+  { counter-reset: definition 0 }
 dt[role=term] {
   counter-increment: term;
   border-bottom: 0.1ch solid;
