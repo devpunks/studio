@@ -178,22 +178,6 @@ li[data-icon]::before {
   /* display: inline-block; */
   /* margin: 0; */
   /* width: auto; */
-  /* width: inherit; */
-  /* margin: 0 0 .5ch 2em; */
-  width: inherit;
-  white-space: nowrap;
-}
-menu {
-  list-style: none
-}
-menu[role=toolbar] {
-  background: rgba(255,255,255,0.4);
-}
-menu > li > * {
-  margin: 0;
-  margin: 0.2ch;
-  max-width: unset;
-  white-space: nowrap;
 }
 menu[role=toolbar] > li::before {
   margin: 0;
