@@ -902,7 +902,7 @@ table > tbody::before, table > tbody::after { margin-inline: 1ch }
 tbody tr { margin-inline: 1ch }
 
 details { /* details */
-  margin: 0;
+  margin: 0 auto 1em;
   text-align: var(--text-align);
   /* padding: 0 0 0 var(--line-height); */
 }
