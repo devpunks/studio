@@ -662,11 +662,6 @@ tbody tr:hover::after  { content: '◀' }
 
 tbody tr:hover td:not(:hover) { opacity: 50% }
 
-abbr[title] { cursor: help }
-
-
-
-
 
 /* CSS3 Lists
   https://drafts.csswg.org/css-lists-3
