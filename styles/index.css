@@ -825,23 +825,7 @@ dt[role=term] {
   counter-increment: term;
   border-bottom: 0.1ch solid;
 }
-dt[role=term]::before {
-  content: counter(term) '.';
-}
-li {}
-li li {}
-:where( ol, ul ) > li {
-  padding: 0 0.5ch;
-}
-ul > li {}
-ol > li {
-  /* list-style-type: list; */
-}
-ul > li::after,
-ol > li::after {}
-ul > li::after {
-  /* padding: 0 0.5ch; */
-}
+
 
 /**** COUNTERS *******
   - https://w3.org/TR/predefined-counter-styles
