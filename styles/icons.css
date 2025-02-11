@@ -153,7 +153,11 @@ ol > li::before { content: '\200B' }
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
   /* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
 }
-dl[aria-label]::before { text-transform: unset }
+dt[role=term]::before
+  { content: counter(term) '.' }
+dd[role=definition]::before
+  { content: counter(definition) ':' }
+
 li[data-icon]::before {
   float: left;
   display: list-item;
