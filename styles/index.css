@@ -700,7 +700,7 @@ dl, ol, ul { background: rgba(255,255,255,0.5) }
 dd > :is( dl, ol, ul ) {
   max-width: unset;
   background: inherit;
-  margin: 0 .ch;
+  margin: 0 .5ch;
 }
 
 nav > dl, nav > ol, nav > ul {
