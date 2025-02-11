@@ -725,6 +725,7 @@ footer ul, footer ul > *
   { background: inherit }
 dl {
   /* border-radius: 0.618ch; */
+  counter-reset: term 0;
 }
 ul {
   margin-left: 2em;
