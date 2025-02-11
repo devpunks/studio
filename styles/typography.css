@@ -553,6 +553,17 @@ ul > li::before {}
 dd, dt {
   text-indent: inherit;
 }
+dd, li {
+  padding: var(--margin-collapse-bugfix) 0;
+  margin: var(--margin-collapse-bugfix) auto 0;
+}
+dd {}
+dd {
+  margin-left: 1em;
+  font-size: large;
+  text-indent: 0.618em;
+}
+dd > :is( dl, ol, ul ) { margin: 0 .5ch }
 dt {
   font-weight: bolder;
   text-indent: .5em;
