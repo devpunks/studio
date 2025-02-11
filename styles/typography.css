@@ -618,10 +618,7 @@ details > ol li, details > ul li {}
 nav > details > ul {}
 
 
-abbr { /* http://webtypography.net/3.2.2 */
-  border-bottom: 0;
-  font-style: normal;
-}
+abbr { font-style: normal } /* http://webtypography.net/3.2.2 */
 abbr[title] {
   font-size: 120%;
   font-weight: 500;
