@@ -145,57 +145,8 @@ time[datetime]::after{ content: attr(datetime) }
 time[datetime*=T]::before { content: '⌚' }
 time[role=timer]::before { content: '⏱️' }
 
-
-
-
-:is( ol,ul) { text-indent: initial }
-:is( dl, ol, ul ) ol {}
-:is( dl, ol, ul ) ul {}
-:is( ol,ul )::marker,
-:is( ol,ul ) ::marker {
-  font-size: larger;
-  color: currentColor;
-}
-:is( ol ) { list-style-position: inside }
-:is( ol )[type='1'] { list-style-type: decimal-leading-zero }
-:is( ol )::before { /* list-style-type: list; */ }
-:is( ol, ul, menu )[data-icon] { list-style-image: unset }
-
-li { clear: both }
-li::marker {}
-li::before, li::after {
-  width: auto;
-  content: '\200B';
-  text-align: center;
-}
-li::before {}
-li::after {
-  display: none;
-  margin-left: 0.5ch;
-}
-li:hover {
-  z-index: 1;
-  background: inherit;
-}
-:is( ol, ul, menu ) :is(li)[aria-haspopup] {
-  /* display: inline-block; */
-  /* margin: 0; */
-  /* width: auto; */
-}
-:is( ol, ul, menu ) :is(li)[aria-haspopup] :is( ol, ul, menu ) {
-  background: red;
-}
-:is( ol, ul, menu ) :is(li)[aria-haspopup] :is( li ) {
-  display: block;
-  width: inherit;
-}
-ol > li {}
-ol > li::before {
-  content: '8';
-  margin-left: 0ch;
-}
-ul > li {}
-ul > li::before {}
+li::before, li::after { content: '\200B' }
+ol > li::before { content: '\200B' }
 :is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
   padding: 0 0.5ch;
   /* display: inherit; */
