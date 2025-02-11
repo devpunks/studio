@@ -550,8 +550,6 @@ ul > li::before {}
   line-height: inherit;
   text-transform: capitalize;
 }
-nav > details > ul {}
-
 dd, dt {
   text-indent: inherit;
 }
