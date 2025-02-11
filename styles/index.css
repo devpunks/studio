@@ -535,16 +535,7 @@ body > nav > details {
 
 
 
-nav li > a:link {
-  padding: 0;
-  flex: 1 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav li > a:link::before, nav li > :link::after {}
-nav li > a:link::before { content: '▸' }
-nav li > a:link::after { content: '' }
+
 
 small {}
 body > footer small { opacity: 0.68 }
