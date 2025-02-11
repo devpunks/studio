@@ -533,34 +533,6 @@ body > nav > details {
   }
 }
 
-nav li {
-  margin: 1ch;
-  padding: 1ch;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav li::before, nav li::after {
-  content: '\2009';
-  background: red;
-}
-nav li::before {
-  content: '▷';
-  background: inherit;
-}
-nav li::after  {}
-nav li:hover::before, nav li:focus-within::before {
-  background: red;
-}
-body > nav li li :link:focus-visible {
-  background-color: Mark;
-}
-body > nav li li :link::before {
-  content: '📄';
-  display: inline-block;
-  line-height: var(--line-height);
-}
-body > nav li li :link:hover::before { content: '📝' }
 
 
 nav li > a:link {
