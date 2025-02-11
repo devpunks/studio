@@ -425,7 +425,7 @@ label [type=checkbox], label [type=radio] {
   - https://github.com/whatwg/html/issues/5625
   - https://inclusive-components.design/toggle-button
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role
-  - https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/
+  - https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches
  */
 [type=checkbox].toggle {
   width: 2em;
