@@ -566,6 +566,7 @@ dd {
 dd > :is( dl, ol, ul ) { margin: 0 .5ch }
 dt {
   text-indent: .5em;
+  font-weight: bolder;
   line-height: 3.6182ch;
   padding: var(--margin-collapse-bugfix) 0;
   margin-block: 0.6182ch var(--margin-collapse-bugfix);
