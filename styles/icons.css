@@ -159,9 +159,6 @@ dd[role=definition]::before
   { content: counter(definition) ':' }
 
 li[data-icon]::before {
-  float: left;
-  display: list-item;
-  margin-right: 0.5ch;
   content: attr(data-icon);
   list-style-position: inside;
   list-style-image:
