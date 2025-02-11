@@ -148,17 +148,6 @@ time[role=timer]::before { content: '⏱️' }
 li::before, li::after { content: '\200B' }
 ol > li::before { content: '\200B' }
 :is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
-  padding: 0 0.5ch;
-  /* display: inherit; */
-  font-size: inherit;
-  font-weight: bolder;
-  line-height: inherit;
-  /* white-space: nowrap; */
-  text-transform: capitalize;
-  border-bottom: 0.1ch solid;
-  /* width: -webkit-fill-available; */
-  width: -moz-available;
-  width: 100%;
   content: attr(data-icon) ' ' attr(aria-label);
   /* list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
