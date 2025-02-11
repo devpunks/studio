@@ -918,8 +918,8 @@ nav > details[open] {
 }
 
 summary {
-  font-size: larger;
-  font-weight: bolder;
+  /* font-size: larger; */
+  /* font-weight: bolder; */
 }
 summary::marker { font-size: 2em }
 summary::before, summary::after {
