@@ -429,37 +429,6 @@ nav > details {
 }
 nav > details > summary::marker {}
 
-/* http://html5doctor.com/the-details-and-summary-elements */
-details {
-  background: rgba(255,255,255,0.5);
-}
-summary {
-  cursor: s-resize;
-  background: blue;
-}
-summary::before,
-summary::after {
-  content: 'foo';
-  background: red;
-  float: right;
-}
-summary::-webkit-details-marker
-  { display: none } /* https://stackoverflow.com/a/66814239 */
-details:hover > summary, details:focus-within > summary
-  { opacity: 1.0 }
-main details > summary::before {
-  float: left;
-  content: '>';
-  background: red;
-  display: list-item;
-}
-main details[open] > summary::before
-  { content: 'v' }
-
-/* NAV */
-nav {
-  margin: 0;
-}
 nav > details > ul {
   margin: unset;
   width: inherit;
