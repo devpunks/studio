@@ -376,8 +376,7 @@ blockquote::after {
 }
 
 /* http://html5doctor.com/the-details-and-summary-elements */
-details {
-}
+details {}
 summary {
   display: block;
   cursor: s-resize;
