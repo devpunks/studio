@@ -196,7 +196,7 @@ ol > li::before {
 }
 ul > li {}
 ul > li::before {}
-:is(ol, ul, menu ):where( [aria-label], [data-icon] )::before {
+:is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
   padding: 0 0.5ch;
   /* display: inherit; */
   font-size: inherit;
