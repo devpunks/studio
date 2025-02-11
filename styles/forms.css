@@ -573,8 +573,9 @@ dialog:not([open])
   { display: none }
 dialog form { margin: unset }
 
-button, [type=button], [type=submit], [type=reset], [role=button], input[type=file]::file-selector-button, input[type=file]::-webkit-file-upload-button {
-  /* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
+/* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
+/* TODO: [type=file]::file-selector-button */
+button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::-webkit-file-upload-button {
   -webkit-appearance: none;
   appearance: none;
   color: Canvas;
