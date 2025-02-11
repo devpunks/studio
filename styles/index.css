@@ -813,9 +813,8 @@ dd {
   background: inherit;
   border-radius: inherit;
 }
-dd[role=definition] {
-  counter-increment: definition;
-}
+dd[role=definition]
+  { counter-increment: definition }
 dt[role=term]::before,
 dd[role=definition]::before {
   font-size: large;
