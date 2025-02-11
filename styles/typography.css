@@ -671,8 +671,8 @@ pre {
   margin: var(--margin-collapse-bugfix) auto 2em;
 }
 code {
-  margin: 0 .168em;
-  padding: 0 .168em;
+  /* margin: 0 .168em; */
+  /* padding: 0 .168em; */
   white-space: nowrap;
 }
 kbd {
