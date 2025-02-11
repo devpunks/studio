@@ -584,6 +584,7 @@ button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::
   width: max-content;
   max-width: inherit;
   white-space: normal;
+  font-weight: bolder;
   font-family: inherit;
   background: CanvasText;
   display: inline-block;
