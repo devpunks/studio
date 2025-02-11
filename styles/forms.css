@@ -598,16 +598,16 @@ button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::
   padding: var(--margin-collapse-bugfix) 1ch;
   margin: var(--margin-collapse-bugfix) 1ch 1ch;
 }
-input[type=file]::file-selector-button, input[type=file]::-webkit-file-upload-button {
-  margin: 0 1ch 0 0;
-}
-button:not(:disabled), [type=button]:not(:disabled), ::file-selector-button:not(:disabled), [type=file]::-webkit-file-upload-button:not(:disabled),
-[type=submit]:not(:disabled), [type=reset]:not(:disabled), [role=button]:not([aria-disabled=true]) {
-  opacity: 70%;
-  cursor: pointer;
-}
-button:not(:disabled):hover, [type=button]:not(:disabled):hover, [type=file]::file-selector-button:not(:disabled):hover, [type=file]::-webkit-file-upload-button:not(:disabled):hover,
-[type=submit]:not(:disabled):hover, [type=reset]:not(:disabled):hover, [role=button]:not([aria-disabled=true]):hover
+/* TODO: [type=file]::file-selector-button */
+input[type=file]::-webkit-file-upload-button
+  { margin: 0 1ch 0 0 }
+/* TODO: [type=file]::file-selector-button:not(:disabled) */
+button:not(:disabled), [type=button]:not(:disabled) [type=file]::-webkit-file-upload-button:not(:disabled),
+[type=submit]:not(:disabled), [type=reset]:not(:disabled), [role=button]:not([aria-disabled=true])
+  { opacity: 70% }
+/* TODO: [type=file]::file-selector-button:not(:disabled):hover */
+button:not(:disabled):hover, [type=button]:not(:disabled):hover, [type=submit]:not(:disabled):hover,
+[type=reset]:not(:disabled):hover, [role=button]:not([aria-disabled=true]):hover, [type=file]::-webkit-file-upload-button:not(:disabled):hover
   { opacity: 100% }
 button:focus, [type=button]:focus, [type=submit]:focus, [type=reset]:focus, [role=button]:focus
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus */ }
