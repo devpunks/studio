@@ -405,26 +405,8 @@ details[open] > summary::after {content: '▼' }
  */
 body > a[href='#main'] { z-index: 1 }
 
-body > nav {
-  text-align: unset;
-  top: 0;
-  z-index: 1;
-  position: sticky;
-  margin-inline: auto;
-  background: rgba(255,255,255,0.2);
-
-  &::before, &::after {
-    display: block;
-    text-indent: 1ch;
-    content: '🚢<nav>';
-    background: inherit;
-  }
-  &::before {
-    z-index: 1;
-    float: left;
-    line-height: 2em;
-    background: red;
-  }
+nav {
+  margin: 0;
 }
 
 nav > * {}
