@@ -173,42 +173,9 @@ li[data-icon]::before {
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">⚙️</text></svg>');
 }
-:is( ol,ul, menu )[role=toolbar],
-:is( ol,ul, menu )[aria-orientation=horizontal] {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: var(--flex-direction);
-}
-:is( ol, ul, menu )[role=toolbar] {
-  list-style: none;
-}
-:is( ol,ul, menu )[aria-orientation=horizontal] {
-  justify-content: space-around;
-}
-:is( ol, ul, menu ):is( [role=toolbar], [role=marquee], [role=log] ) {
-  justify-content: flex-start;
-  list-style-position: inside;
-}
-:is( ol, ul, menu ):is( [role=toolbar], [role=marquee], [role=log] ) > li {
-  margin: 0;
-  /* width: auto; */
-}
-:is( ol,ul, menu )[role=toolbar] li,
-:is( ol,ul, menu )[aria-orientation=horizontal] li {
-  margin: 0;
-  width: auto;
-  /* width: 100%; */
-  /* width: inherit; */
-  it; */
-  white-space: nowrap;
-  word-break: keep-all;
-  /* white-space: nowrap; */
-  list-style-position: inside;
-  /* background: red; */
-}
-:is( ol, ul, menu )[role=toolbar] :is( ol, ul, menu ),
-:is( ol, ul, menu )[aria-orientation=horizontal] :is( ol, ul, menu ) {
-  /* left: -2em; */
+
+:is( ol, ul, menu ) :is(li)[aria-haspopup] {
+  /* display: inline-block; */
   /* margin: 0; */
   /* width: auto; */
   /* width: inherit; */
