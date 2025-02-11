@@ -377,7 +377,6 @@ blockquote::after {
 
 /* http://html5doctor.com/the-details-and-summary-elements */
 details {
-  background: rgba(255,255,255,0.5);
 }
 summary {
   display: block;
