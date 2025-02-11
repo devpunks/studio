@@ -410,7 +410,6 @@ label [type=checkbox], label [type=radio] {
 
 /* "pressed" button
  * aria-pressed - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#Associated_ARIA_roles_states_and_properties
- * aria-label   - 
  */
 [aria-pressed=true]  {}
 [aria-pressed=false] {}
