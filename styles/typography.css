@@ -580,8 +580,14 @@ dd[role=definition]::before {
   font-weight: bolder;
   margin-right: 0.5ch;
 }
-li {
-  text-indent: unset;
+dd[role=definition] > :is( dl, ol, ul ) { margin-left: 2em }
+
+details :is( details, dl, ol, ul ) { margin-bottom: unset }
+
+:where( dl, ol, ul )[role=none] {}
+:where( dl, ol, ul )[role=feed] {
+  margin: .5ch;
+  padding: .5ch 0;
 }
 li li {}
 
