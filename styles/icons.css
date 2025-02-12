@@ -160,7 +160,6 @@ dt[role=term]::before
 dd[role=definition]::before
   { content: counter(definition) ':' }
 li[data-icon]::before {
-  content: attr(data-icon);
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="80%" y="1.0em">☑️</text></svg>');
 }
