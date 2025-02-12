@@ -131,6 +131,8 @@ a[accesskey='0']::before
 a[aria-disabled=true]::before
   { content: '❌' }
 
+[data-icon]::before { content: attr(data-icon) }
+
 body > nav::before
   {/* content: '🍔'; */} /* ☰ 🍔 */
 nav > header::before { content: '🧭' }
