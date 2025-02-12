@@ -968,6 +968,12 @@ summary::before, summary::after {
   font-size: larger;
 }
 
+
+/* Navigations ================================================================== */
+nav {}
+nav > * {}
+
+
 /* fieldset / legend */
 fieldset {}
 legend {
