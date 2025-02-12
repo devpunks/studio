@@ -627,6 +627,7 @@ button::before {
   padding: 0;
   margin: auto;
   overflow: hidden;
+  white-space: nowrap;
   background: inherit;
 }
 [role=toolbar] button[data-icon]::before { width: 2em }
