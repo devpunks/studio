@@ -730,6 +730,31 @@ li[data-icon]::before {
 [role=feed]:hover article { opacity: .5 }
 [role=feed]:hover article:hover { opacity: 1 }
 
+[aria-orientation=horizontal],
+[aria-orientation=horizontal] :is( ol, ul, menu ) {
+  width: inherit;
+  list-style-position: inside;
+}
+[aria-orientation=horizontal] { justify-content: space-around }
+[role=marquee], [role=log], [role=toolbar]. [role=menubar] {
+  justify-content: flex-start;
+  list-style-position: inside;
+}
+[role=marquee], [role=log] {}
+:is( [role=marquee], [role=log] ):hover li { opacity: 0.5 }
+:is( [role=marquee], [role=log] ) li:hover { opacity: 1 }
+[role=marquee][aria-orientation=horizontal] {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  font-size: larger;
+  margin-left: auto;
+  width: calc(100% - 1ch);
+  list-style-position: inside;
+  padding-right: calc(100% - 1ch);
+}
+[role=log] {
+  justify-content: flex-start;
+}
 [role=log] li {
   cursor: text;
   display: list-item;
