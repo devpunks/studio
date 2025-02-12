@@ -563,7 +563,6 @@ dd, li {
 dd {}
 dd {
   margin-left: 1em;
-  font-size: large;
   text-indent: 0.618em;
 }
 dd > :is( dl, ol, ul ) { margin: 0 .5ch }
