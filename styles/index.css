@@ -713,6 +713,11 @@ li[data-icon]::before {
   display: list-item;
   list-style-position: inside;
 }
+:is( ol, ul, menu ):is( [role=none], [role=presentation] ) :is( ol, ul, menu ) {
+  margin: 0;
+  list-style: inherit;
+  max-width: initial;
+}
 [role=presentation] li { border-width: 0 }
 [role=presentation] li::before {}
 [role=feed] {
