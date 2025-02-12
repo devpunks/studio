@@ -1753,6 +1753,20 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
     <article id=menus><!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu -->
       <header>Menus</header>
+      <ul role=menu aria-label='Unordererd List Menu'>
+        <li><a data-icon=🛠️ aria-label='Item 1' title='Item 1' href=#action>Item 1</a>
+        <li><a data-icon=🛠️ aria-label='Item 2' title='Item 2' href=#action>Item 2</a>
+        <li><a role=button data-icon=🛠️ aria-label='Item 3' title='Item 3' href=#action>Item 3</a>
+        <li><a role=button data-icon=🛠️ aria-label='Item 4' title='Item 4' href=#action>Item 4</a>
+      </ul>
+
+      <ul role=menu aria-orientation=horizontal aria-label='Unordererd List Horizontal Menu'>
+        <li><a data-icon=🛠️ aria-label='Item 1' title='Item 1' href=#action>Item 1</a>
+        <li><a data-icon=🛠️ aria-label='Item 2' title='Item 2' href=#action>Item 2</a>
+        <li><a role=button data-icon=🛠️ aria-label='Item 3' title='Item 3' href=#action>Item 3</a>
+        <li><a role=button data-icon=🛠️ aria-label='Item 4' title='Item 4' href=#action>Item 4</a>
+      </ul>
+
       <menu aria-label='Vertical Menu'>
         <li><button>Button 1</button>
         <li><button>Button 2</button>
