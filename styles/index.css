@@ -757,9 +757,6 @@ li[data-icon]::before {
 }
 [role=log] li {
   cursor: text;
-  display: list-item;
-  list-style-position: inside;
-  justify-content: space-between;
   border-bottom: 0.1ch solid Canvas;
 }
 [role=log]:hover li { opacity: 0.5 }
