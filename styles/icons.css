@@ -159,7 +159,6 @@ dt[role=term]::before
   { content: counter(term) '.' }
 dd[role=definition]::before
   { content: counter(definition) ':' }
-
 li[data-icon]::before {
   content: attr(data-icon);
   list-style-image:
