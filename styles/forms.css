@@ -577,7 +577,7 @@ dialog form { margin: unset }
 /* TODO: [type=file]::file-selector-button */
 button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::-webkit-file-upload-button {
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   color: Canvas;
   cursor: pointer;
   font-size: larger;
