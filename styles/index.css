@@ -776,6 +776,12 @@ li[data-icon]::before {
   li { min-width: unset }
 [role=toolbar] {
   width: auto;
+  list-style: none;
+}
+[role=toolbar]::before {
+  width: 100%;
+  display: list-item;
+  background: Canvas;
   list-style-position: inside;
 }
 :is( ol, ul, menu )[role=toolbar] :is( ol, ul, menu ),
