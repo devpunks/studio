@@ -406,9 +406,7 @@ details[open] > summary::after  { content: '▼' }
  */
 body > a[href='#main'] { z-index: 1 }
 
-nav {
-  margin: 0;
-}
+nav {}
 nav > * {}
 nav > details {
   width: inherit;
