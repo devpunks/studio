@@ -765,7 +765,6 @@ li[data-icon]::before {
 [role=log] li::after {
   min-width: 2em;
   cursor: w-resize;
-  justify-self: right;
   display: inline-block;
 }
 [role=log] li:hover { opacity: 1 }
