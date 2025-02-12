@@ -535,7 +535,7 @@ dl, ol, ul {
 :is( ol,ul )::marker,
 :is( ol,ul ) ::marker { font-size: larger }
 ul { margin-left: 2em }
-:is( ol, ul ) > li {padding: 0 0.5ch;}
+:is( ol, ul ) > li { padding: 0 0.5ch }
 li { text-indent: unset }
 li li {}
 li::marker {}
