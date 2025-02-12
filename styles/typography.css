@@ -593,27 +593,24 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
   margin: .5ch;
   padding: .5ch 0;
 }
-li[data-icon]::before { margin-right: 0.5ch }
-:is( ol, ul, menu ):is( [role=toolbar], [role=marquee], [role=log] ) > li { margin: 0 }
-:is( ol,ul, menu )[aria-orientation=horizontal] li {
+is( [role=menubar], [role=toolbar], [role=marquee], [role=log] ) > li { margin: 0 }
+[aria-orientation=horizontal] li {
   margin: 0;
   white-space: nowrap;
   word-break: keep-all;
 }
-:is( ol, ul, menu )[role=toolbar] :is( ol, ul, menu ),
-:is( ol, ul, menu )[aria-orientation=horizontal] :is( ol, ul, menu )
+[role=toolbar] :is( ol, ul, menu ),
+[aria-orientation=horizontal] :is( ol, ul, menu )
   { white-space: nowrap }
-menu > li > * {
+:is( menu, [role=menu] ) > li > * {
   margin: 0.2ch;
-  white-space: nowrap;
 }
-menu[role=toolbar] > li::before { margin: 0 }
+[role=toolbar] > li::before { margin: 0 }
 
 nav > :is( dl, ol, ul ) {
   margin: var(--margin-collapse-bugfix) 0;
   padding: var(--margin-collapse-bugfix) 0;
 }
-
 nav dd, nav li {}
 nav dt + dd, nav li li:first-of-type
   { margin-top: 0 }
