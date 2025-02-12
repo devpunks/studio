@@ -546,7 +546,7 @@ ol > li {}
 ol > li::before { margin-left: 0ch }
 ul > li {}
 ul > li::before {}
-:is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
+:is(dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
   padding: 0 0.5ch;
   font-size: inherit;
   font-weight: bolder;
