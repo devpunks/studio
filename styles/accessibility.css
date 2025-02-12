@@ -222,7 +222,9 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
 /* Toolbar ============================================================= */
 /* https://w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar */
 /* https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/toolbar_role */
-
+[role=menubar] {
+  background: Canvas;
+}
 
 /* Tabs ==================================================================
  *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role
