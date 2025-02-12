@@ -121,7 +121,7 @@ button:is(:hover, :focus-within) {
   - https://github.com/w3c/wcag/issues/905
   - https://stackoverflow.com/questions/10587245
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link
-  - https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes
+  - https://w3.org/TR/CSS22/selector.html#link-pseudo-classes
   - https://blog.selfthinker.org/2011/07/10/trick-question-how-many-link-states-can-be-defined-in-css
 */
 a { cursor: pointer }
