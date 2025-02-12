@@ -759,7 +759,6 @@ li[data-icon]::before {
   cursor: text;
   border-bottom: 0.1ch solid Canvas;
 }
-[role=log]:hover li { opacity: 0.5 }
 [role=log] li::before,
 [role=log] li::after {}
 [role=log] li::before { cursor: e-resize }
