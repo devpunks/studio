@@ -622,7 +622,6 @@ button::before {
   content: '\200B';
   vertical-align: initial;
 }
-button[data-icon]::before { content: attr(data-icon) }
 [role=toolbar] button[data-icon] {
   width: 2em;
   padding: 0;
