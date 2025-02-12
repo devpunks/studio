@@ -809,8 +809,10 @@ footer dl, footer dl > *,
 footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
-dl
-  { counter-reset: term 0 }
+dl {
+  background: unset;
+  counter-reset: term 0
+}
 ul { width: calc(100% - 2em - 1ch) }
 ol {}
 ol[type=i] { unicode-bidi: embed }
