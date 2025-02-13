@@ -558,6 +558,13 @@ ul > li {}
 ul > li::marker {}
 ul > li::before {}
 ul > li::after {}
+:is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
+  li { padding: unset }
+[aria-orientation=horizontal]
+  li { margin: 0 auto }
+:is( [role=toolbar], [role=menubar] )
+  li { margin: unset }
+
 :is(dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
   flex: 0 0 auto;
   /* width: max-content; */
