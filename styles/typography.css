@@ -713,7 +713,8 @@ p + p { margin: 1.68em auto var(--margin-collapse-bugfix) }
   text-decoration: revert;
 }
 
-pre, code, kbd, samp, var, data {
+code, kbd, pre, samp, var, data {
+  padding: 0 0.5em;
   line-height: inherit;
   font-family: monospace;
   padding: 0 0.5em;
