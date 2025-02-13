@@ -754,7 +754,7 @@ pre > samp kbd {
   font-size: large;
   font-weight: bold;
 }
-samp { vertical-align: text-bottom }
+samp {}
 samp > kbd::before { font-size: 1.68em }
 
 math {
