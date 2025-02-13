@@ -747,6 +747,7 @@ li[data-icon]::before {
 [role=marquee][aria-orientation=horizontal] {
   overflow: auto hidden;
   flex-wrap: nowrap;
+  display: inline-flex;
   font-size: larger;
   margin-left: auto;
   width: calc(100% - 1ch);
