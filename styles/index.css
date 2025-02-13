@@ -761,7 +761,6 @@ li[data-icon]::before {
   display: inline-flex;
   overflow: auto hidden;
   width: calc(100% - 1ch);
-  width: max-content;
   list-style-position: inside;
 }
 [role=marquee][aria-orientation=horizontal]::before {
