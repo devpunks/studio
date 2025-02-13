@@ -321,7 +321,6 @@ kbd > kbd:hover {
   background-color: CanvasText;
 }
 samp > kbd {
-  inline-flex;
   border: none;
   box-shadow: none;
   display: inline-flex;
