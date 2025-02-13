@@ -765,7 +765,6 @@ li[data-icon]::before {
 }
 [role=marquee][aria-orientation=horizontal]::before {
   left: 0;
-  background: Canvas;
   z-index: 1;
   box-shadow: .2ch 0 .15ch;
 }
