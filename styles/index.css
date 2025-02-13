@@ -815,8 +815,6 @@ menu, [role=menu], [role=toolbar] {
   max-width: unset;
 }
 [role=toolbar]::before {
-  width: 100%;
-  display: list-item;
   background: Canvas;
   list-style-position: inside;
 }
