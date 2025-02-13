@@ -13,9 +13,8 @@
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
 
-*::before, *::after, *::marker
-  { vertical-align: middle }
-
+:where( header, h1, h2, h3, h4, h5, h6 )::marker
+  { content: counter(header) }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
 :where( header, h1, h2, h3, h4, h5, h6 )::before
   { content: '\2009' }
