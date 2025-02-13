@@ -730,6 +730,7 @@ kbd {
   text-indent: unset;
   font-size: inherit;
   white-space: nowrap;
+  line-height: initial;
   text-transform: uppercase;
 }
 samp > kbd {
