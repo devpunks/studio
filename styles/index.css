@@ -690,7 +690,6 @@ li:hover {
   z-index: 1;
   background: inherit;
 }
-
 :where( ol, ul ) > li {}
 ol > li {}
 ul > li {}
