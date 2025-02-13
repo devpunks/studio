@@ -606,6 +606,15 @@ dd[role=definition] > :is( dl, ol, ul ) { margin-left: 2em }
 
 details :is( details, dl, ol, ul ) { margin-bottom: unset }
 
+[role=none], [role=presentation] {}
+:is( [role=none], [role=presentation] )
+  li { padding: 0 }
+
+:is( [role=none], [role=presentation] )
+  :is( ol, ul, menu ) { margin: 0 }
+:is( [role=none], [role=presentation] )
+  li::before { margin-right: .5ch }
+
 :where( dl, ol, ul )[role=none] {
   margin: 0 auto;
 }
