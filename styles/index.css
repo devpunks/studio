@@ -301,7 +301,7 @@ code, kbd, pre, samp, var, data {
   background-color: ButtonFace;
 }
 code {}
-pre code {
+pre > code {
   display: inherit;
   border: solid currentColor;
   border-width: 0 0 0 0.02em;
