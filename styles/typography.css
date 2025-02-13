@@ -635,8 +635,12 @@ is( [role=menubar], [role=toolbar], [role=marquee], [role=log] )
   word-break: keep-all;
 }
 [role=toolbar] :is( ol, ul, menu ),
-[aria-orientation=horizontal] :is( ol, ul, menu )
-  { white-space: nowrap }
+[aria-orientation=horizontal] :is( ol, ul, menu ) {
+  margin: unset;
+  width: fit-content;
+  white-space: nowrap;
+  min-width: fit-content;
+}
 :is( menu, [role=menu] ) [role=toolbar] {
   margin: 0 0.2ch;
 }
