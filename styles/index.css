@@ -775,7 +775,6 @@ li[data-icon]::before {
 [role=marquee][aria-orientation=horizontal] li:first-of-type { padding-left: 100% }
 [role=marquee][aria-orientation=horizontal] li:last-of-type { padding-right: 100% }
 [role=log] {
-  overflow: auto;
   justify-content: flex-start
 }
 [role=log] li {
