@@ -807,6 +807,7 @@ li[data-icon]::before {
 }
 [role=toolbar] {
   display: inline-flex;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 [aria-orientation=horizontal], [role=menubar] { display: flex }
