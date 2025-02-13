@@ -757,8 +757,7 @@ li[data-icon]::before {
 :is( [role=marquee], [role=log] ):hover li { opacity: 0.5 }
 :is( [role=marquee], [role=log] ) li:hover { opacity: 1 }
 [role=marquee][aria-orientation=horizontal] {
-  overflow: auto hidden;
-  flex-wrap: nowrap;
+  width: max-content;
   display: inline-flex;
   font-size: larger;
   margin-left: auto;
