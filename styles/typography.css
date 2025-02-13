@@ -745,7 +745,7 @@ pre {
 }
 pre > code {
   margin: 1ch;
-  font-size: smaller;
+  font-size: larger;
   line-height: inherit;
 }
 pre > samp kbd {
