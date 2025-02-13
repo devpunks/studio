@@ -528,6 +528,7 @@ dl, ol, ul {
 ol, ul { text-indent: initial }
 ul { margin-left: 2em }
 ol {}
+:is( [role=toolbar], [role=menubar] ) { margin: unset }
 :is( dl, ol, ul )
   :is( dl, ol, ul ) {
     width: auto;
