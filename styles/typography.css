@@ -437,10 +437,8 @@ header code, h1 code
 
 /* anchor links */
 a {
-  /* font-size: inherit; */
-  /* line-height: inherit; */
-  text-indent: initial;
-  padding-inline: 0.2ch;
+  padding: 0 0.2ch;
+  text-indent: unset;
   text-underline-offset: 0.168em;
   text-decoration-line: underline;
   text-underline-position: from-font;
