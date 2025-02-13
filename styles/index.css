@@ -332,11 +332,10 @@ samp > kbd::before {
   list-style-type: '💻';
   list-style-position: inside;
 }
-pre code {
-  display: inherit;
-  white-space: break-spaces;
-  border: solid currentColor;
-  border-width: 0 0 0 0.02em;
+samp {
+  max-width: 100%;
+  overflow-x: auto;
+  display: inline-block;
 }
 pre { box-shadow: 0 0 0.618ch }
 
