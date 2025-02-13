@@ -553,6 +553,7 @@ ol > li::after  {}
 ul > li {}
 ul > li::marker {}
 ul > li::before {}
+ul > li::after {}
 :is(dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
   padding: 0 0.5ch;
   font-size: inherit;
