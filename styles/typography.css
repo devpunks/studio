@@ -752,11 +752,8 @@ pre > samp kbd {
   font-size: large;
   font-weight: bold;
 }
-
-var, data {
-  font-weight: bold;
-  margin-inline: 0.1618em;
-}
+samp { vertical-align: bottom }
+samp > kbd::before { font-size: 1.68em }
 
 math {
   padding: 0.5ch;
