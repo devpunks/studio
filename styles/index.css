@@ -811,7 +811,7 @@ li[data-icon]::before {
   justify-content: flex-start;
 }
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
-  li { min-width: unset; margin: 0; }
+  li { min-width: fit-content }
 menu, [role=menu], [role=toolbar] {
   width: auto;
   list-style: none;
