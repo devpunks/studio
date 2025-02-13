@@ -549,6 +549,7 @@ ol > li::marker {
   font-weight: bold;
 }
 ol > li::before { margin-left: 0ch }
+ol > li::after  {}
 ul > li {}
 ul > li::before {}
 :is(dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
