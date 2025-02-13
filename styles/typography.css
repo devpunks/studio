@@ -720,16 +720,10 @@ code, kbd, pre, samp, var, data {
 }
 code { white-space: nowrap }
 code :is( var, data ) { padding: 0 }
-pre {
-  width: calc(100% - 2ch);
-  overflow: overlay;
-  text-align: initial;
-  margin: var(--margin-collapse-bugfix) auto 2em;
-}
-code {
-  /* margin: 0 .168em; */
-  /* padding: 0 .168em; */
-  white-space: nowrap;
+pre code { white-space: break-spaces }
+var, data {
+  margin: 0 .1618em;
+  font-weight: bold;
 }
 kbd {
   font-size: smaller;
