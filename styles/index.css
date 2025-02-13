@@ -295,8 +295,7 @@ p > time::after {
 }
 p > time[datetime] {}
 
-
-var, data {
+code, kbd, pre, samp, var, data {
   color: CanvasText;
   background: ButtonFace;
 }
