@@ -704,9 +704,6 @@ ul > li {}
 ol > li::before,
 ol > li::before {}
 ul > li::before {
-  content: 'x';
-  content'x': ;
-  content: '';
   display: inline;
   line-height: inherit;
   /* position: absolute; */
