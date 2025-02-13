@@ -753,7 +753,6 @@ li[data-icon]::before {
   width: calc(100% - 1ch);
   width: max-content;
   list-style-position: inside;
-  padding-right: calc(100% - 1ch);
 }
 [role=log] { justify-content: flex-start }
 [role=log] li {
