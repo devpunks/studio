@@ -220,7 +220,7 @@ header { list-style-type: decimal-leading-zero }
   max-width: calc(100% - 2ch);
 }
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ) {}
-:where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) {width: auto;}
+:where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) { width: auto }
 :where( a ):has( header, h1, h2, h3, h4, h5, h6 ) {/* width: calc(100% - 2vw); */}
 nav > header {}
 nav > header::before,
@@ -683,7 +683,7 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 li { clear: both }
 li li {}
 li::marker {}
-li::before, li::after { width: auto }
+li::before, li::after {width: auto;}
 li::before {}
 li::after  { display: none }
 li:hover {
