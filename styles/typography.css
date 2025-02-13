@@ -644,6 +644,8 @@ is( [role=menubar], [role=toolbar], [role=marquee], [role=log] )
 :is( menu, [role=menu] ) [role=toolbar] {
   margin: 0 0.2ch;
 }
+:is( menu, [role=menu] )
+  > li > * { margin: unset }
 [role=toolbar] > li::before { margin: 0 }
 
 nav > :is( dl, ol, ul ) {
