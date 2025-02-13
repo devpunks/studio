@@ -794,6 +794,12 @@ li[data-icon]::before {
   flex-wrap: wrap;
   flex-direction: var(--flex-direction);
 }
+[aria-orientation=horizontal], [role=menubar] { display: flex }
+[aria-orientation=horizontal] {}
+[role=menubar] {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 [role=tree] {
   display: block;
   width: max-content;
