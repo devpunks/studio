@@ -326,8 +326,6 @@ samp > kbd {
   background: inherit;
   display: inline-flex;
   align-items: baseline;
-  herit;
-  background: inherit;
 }
 samp > kbd::before {
   content: '$';
