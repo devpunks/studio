@@ -726,7 +726,6 @@ var, data {
   font-weight: bold;
 }
 kbd {
-  font-size: smaller;
   text-align: center;
   white-space: nowrap;
   text-transform: uppercase;
