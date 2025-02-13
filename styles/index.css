@@ -768,6 +768,13 @@ li[data-icon]::before {
   flex-wrap: wrap;
   flex-direction: var(--flex-direction);
 }
+[role=tree] {
+  display: block;
+  width: max-content;
+  background: red;
+}
+[role=toolbar] {display: inline-flex;justify-content: flex-start;}
+[aria-orientation=horizontal], [role=menubar] { display: flex }
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
   li { min-width: unset }
 [role=toolbar] {
