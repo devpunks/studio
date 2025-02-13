@@ -303,6 +303,7 @@ code, kbd, pre, samp, var, data {
 code {}
 pre > code {
   display: inherit;
+  white-space: pre;
   border: solid currentColor;
   border-width: 0 0 0 0.02em;
 }
