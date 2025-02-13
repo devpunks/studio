@@ -316,11 +316,9 @@ kbd {
   background-color: Canvas;
   box-shadow: 0.25ch 0.25ch 0 currentColor;
 }
-samp {
-  max-width: 100%;
-  overflow-x: auto;
-  display: inline-block;
-  vertical-align: bottom;
+kbd > kbd:hover {
+  color: Canvas;
+  background-color: CanvasText;
 }
 kbd > samp { overflow-x: unset }
 samp > kbd {
