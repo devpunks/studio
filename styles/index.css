@@ -323,6 +323,7 @@ kbd > kbd:hover {
 samp > kbd {
   border: none;
   box-shadow: none;
+  background: inherit;
   display: inline-flex;
   align-items: baseline;
   herit;
