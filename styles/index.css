@@ -755,10 +755,14 @@ li[data-icon]::before {
   width: max-content;
   list-style-position: inside;
 }
-
-ul {}
-[role=marquee][aria-orientation=horizontal]::before 
-  {width: max-content;position: fixed;left: 0;background: Canvas;z-index: 1;box-shadow: .2ch 0 .15ch;}
+[role=marquee][aria-orientation=horizontal]::before {
+  width: max-content;
+  position: fixed;
+  left: 0;
+  background: Canvas;
+  z-index: 1;
+  box-shadow: .2ch 0 .15ch;
+}
 [role=marquee][aria-orientation=horizontal] li {}
 [role=marquee][aria-orientation=horizontal] li:first-of-type { padding-left: 100% }
 [role=marquee][aria-orientation=horizontal] li:last-of-type { padding-right: 100% }
