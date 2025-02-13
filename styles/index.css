@@ -724,9 +724,8 @@ li[data-icon]::before {
   display: list-item;
   list-style-position: inside;
 }
-:is( ol, ul, menu ):is( [role=none], [role=presentation] ) :is( ol, ul, menu ) {
-  margin: 0;
-  list-style: inherit;
+:is( [role=none], [role=presentation] ) :is( ol, ul, menu ) {
+  width: auto;
   max-width: initial;
 }
 [role=presentation] li { border-width: 0 }
