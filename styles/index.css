@@ -320,7 +320,6 @@ kbd > kbd:hover {
   color: Canvas;
   background-color: CanvasText;
 }
-kbd > samp { overflow-x: unset }
 samp > kbd {
   inline-flex;
   border: none;
