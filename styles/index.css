@@ -810,7 +810,6 @@ li[data-icon]::before {
   align-items: flex-start;
   justify-content: flex-start;
 }
-[aria-orientation=horizontal], [role=menubar] { display: flex }
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
   li { min-width: unset; margin: 0; }
 menu, [role=menu], [role=toolbar] {
