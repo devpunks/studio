@@ -751,9 +751,7 @@ li[data-icon]::before {
   list-style-position: inside;
   padding-right: calc(100% - 1ch);
 }
-[role=log] {
-  justify-content: flex-start;
-}
+[role=log] { justify-content: flex-start }
 [role=log] li {
   cursor: text;
   border-bottom: 0.1ch solid Canvas;
