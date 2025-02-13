@@ -799,7 +799,10 @@ li[data-icon]::before {
   width: max-content;
   background: red;
 }
-[role=toolbar] {display: inline-flex;justify-content: flex-start;}
+[role=toolbar] {
+  display: inline-flex;
+  justify-content: flex-start;
+}
 [aria-orientation=horizontal], [role=menubar] { display: flex }
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
   li { min-width: unset; margin: 0; }
