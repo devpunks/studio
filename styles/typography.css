@@ -641,7 +641,7 @@ abbr[title] {
   text-underline-offset: 0.16em;
   text-underline-position: auto;
   text-decoration-skip-ink: none;
-  font-variant-caps: all-small-caps;
+  /* font-variant-caps: all-small-caps; */
   text-decoration: none;
   border-bottom: dotted 0.168em;
 }
