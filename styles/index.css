@@ -339,7 +339,10 @@ samp {
   display: inline-block;
 }
 kbd > samp { overflow-x: unset }
-pre { box-shadow: 0 0 0.618ch }
+pre {
+  overflow: auto;
+  box-shadow: 0 0 0.618ch;
+}
 
 math {
   width: fit-content;
