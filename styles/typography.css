@@ -737,6 +737,12 @@ samp > kbd {
   padding: initial;
   text-transform: inherit;
 }
+pre {
+  width: calc(100% - 2ch);
+  overflow: overlay;
+  text-align: initial;
+  margin: var(--margin-collapse-bugfix) auto 2em;
+}
 pre > code {
   margin: 1ch;
   font-size: smaller;
