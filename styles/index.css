@@ -759,8 +759,7 @@ li[data-icon]::before {
 [role=marquee][aria-orientation=horizontal] {
   width: max-content;
   display: inline-flex;
-  font-size: larger;
-  margin-left: auto;
+  overflow: auto hidden;
   width: calc(100% - 1ch);
   width: max-content;
   list-style-position: inside;
