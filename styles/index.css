@@ -706,8 +706,6 @@ ol > li::before {}
 ul > li::before {
   display: inline;
   line-height: inherit;
-  /* position: absolute; */
-  /* float: left; */
 }
 ol > li::after,
 ul > li::after {}
