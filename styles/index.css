@@ -203,8 +203,13 @@ header, h1, h2, h3, h4, h5, h6 {
   list-style-type: upper-alpha;
   list-style-type: header;
 }
-:where( header, h1, h2, h3, h4, h5, h6 )::marker{
-  content: counter(header);
+:where( header, h1, h2, h3, h4, h5, h6 )[id]::before {
+  opacity: 25%;
+  overflow:hidden;
+  max-width: 1.68em;
+  display: inline-block;
+  border-radius: 0.68ch;
+  background-color: inherit;
 }
 h1 {
   display: block;
