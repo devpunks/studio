@@ -626,6 +626,7 @@ button::before {
   width: 2em;
   padding: 0;
   margin: auto;
+  min-width: 2em;
   overflow: hidden;
   white-space: nowrap;
   background: inherit;
