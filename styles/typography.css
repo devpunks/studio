@@ -567,7 +567,6 @@ ul > li::after {}
 
 :is(dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
   flex: 0 0 auto;
-  /* width: max-content; */
   padding: 0 0.5ch;
   font-size: inherit;
   font-weight: bolder;
