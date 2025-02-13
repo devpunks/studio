@@ -816,7 +816,6 @@ menu, [role=menu], [role=toolbar] {
 }
 [role=toolbar]::before {
   background: Canvas;
-  list-style-position: inside;
 }
 dl, ol, ul { background: rgba(255,255,255,0.5) }
 dd > :is( dl, ol, ul ) {
