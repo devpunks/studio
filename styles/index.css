@@ -764,8 +764,7 @@ li[data-icon]::before {
   cursor: w-resize;
   display: inline-block;
 }
-[aria-orientation=horizontal], [role=menubar], [role=toolbar] {
-  display: flex;
+[aria-orientation=horizontal], [role=toolbar], [role=menubar] {
   flex-wrap: wrap;
   flex-direction: var(--flex-direction);
 }
