@@ -751,6 +751,7 @@ li[data-icon]::before {
   font-size: larger;
   margin-left: auto;
   width: calc(100% - 1ch);
+  width: max-content;
   list-style-position: inside;
   padding-right: calc(100% - 1ch);
 }
