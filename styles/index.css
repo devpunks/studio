@@ -991,6 +991,6 @@ code, data, kbd, mark, pre, q, samp, var {
   -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
 }
 
-pre::selection, code::selection {
-  -webkit-tap-highlight-color: Mark; /* https://davidwalsh.name/mobile-highlight-color */
-}
+/* https://davidwalsh.name/mobile-highlight-color */
+pre::selection, code::selection
+  { -webkit-tap-highlight-color: Mark }
