@@ -119,9 +119,8 @@ a[accesskey='0']::before
 a[aria-disabled=true]::before
   { content: '❌' }
 
-  q::before, q::after { font-size: medium }
-  q::before { content: '🗣️' open-quote }
-  q::after  { content: close-quote }
+q::before { content: '🗣️' open-quote }
+q::after  { content: close-quote }
 
 [data-icon]::before { content: attr(data-icon) }
 :is( dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
