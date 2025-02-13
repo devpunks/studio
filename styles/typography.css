@@ -795,11 +795,7 @@ q { /* quotes */
     "\201C" "\201D"
     "\2018" "\2019"; /* quotes */
   -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-
-  &::before, &::after { font-size: medium }
-  &::before { content: '🗣️' open-quote }
-  &::after { content: close-quote }
+          box-decoration-break: clone;
 }
 
 p q, q q {
