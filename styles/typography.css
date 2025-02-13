@@ -715,7 +715,6 @@ code, kbd, pre, samp, var, data {
   padding: 0 0.5em;
   text-indent: unset;
   line-height: initial;
-  text-indent: initial;
   font-family: monospace;
   vertical-align: text-bottom;
 }
