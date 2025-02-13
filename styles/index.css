@@ -683,7 +683,7 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 li { clear: both }
 li li {}
 li::marker {}
-li::before, li::after {width: auto;}
+li::before, li::after { width: auto }
 li::before {}
 li::after  { display: none }
 li:hover {
