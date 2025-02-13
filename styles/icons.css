@@ -155,12 +155,6 @@ time[role=timer]::before { content: '⏱️' }
 
 li::before, li::after { content: '\200B' }
 ol > li::before { content: '\200B' }
-:is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
-  content: attr(data-icon) ' ' attr(aria-label);
-  /* list-style-image:
-    url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
-  /* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
-}
 dt[role=term]::before
   { content: counter(term) '.' }
 dd[role=definition]::before
