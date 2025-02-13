@@ -731,7 +731,7 @@ li[data-icon]::before {
 
 [aria-orientation=horizontal],
 [aria-orientation=horizontal] :is( ol, ul, menu ) {
-  width: inherit;
+  /* width: inherit; */
   list-style-position: inside;
 }
 [aria-orientation=horizontal] { justify-content: space-around }
