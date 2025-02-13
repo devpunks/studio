@@ -676,9 +676,10 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
   color: inherit;
   font-size: inherit;
 }
-:is( ol ) { list-style-position: inside }
-:is( ol )[type='1'] { list-style-type: decimal-leading-zero }
-:is( ol )::before {}
+ul {}
+ol { list-style-position: inside }
+ol[type='1'] { list-style-type: decimal-leading-zero }
+ol::before {}
 :is( ol, ul, menu )[data-icon] { list-style-image: unset }
 li { clear: both }
 li li {}
