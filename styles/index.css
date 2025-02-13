@@ -735,8 +735,6 @@ li[data-icon]::before {
   width: -moz-available;
   width: -webkit-fill-available;
 }
-[role=presentation] li { border-width: 0 }
-[role=presentation] li::before {}
 [role=feed] {
   max-height: 25em;
   overflow-x: auto;
