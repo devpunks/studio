@@ -262,6 +262,7 @@
   /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
   font: inherit;
   text-indent: unset;
+  vertical-align: middle;
 }
 
 html {
