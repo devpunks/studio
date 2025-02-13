@@ -727,6 +727,13 @@ li[data-icon]::before {
 :is( [role=none], [role=presentation] ) :is( ol, ul, menu ) {
   width: auto;
   max-width: initial;
+  list-style: inherit;
+}
+:is( [role=none], [role=presentation] ) li {
+  border-width: 0;
+  max-width: unset;
+  width: -moz-available;
+  width: -webkit-fill-available;
 }
 [role=presentation] li { border-width: 0 }
 [role=presentation] li::before {}
