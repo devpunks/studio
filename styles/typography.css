@@ -534,8 +534,10 @@ ol {}
     width: auto;
     margin-bottom: var(--margin-collapse-bugfix);
   }
-:is( dl, ol, ul ) ol {}
-:is( dl, ol, ul ) ul {}
+:is( dl, ol, ul )
+  ol { margin: 0 0 0 auto }
+:is( dl, ol, ul )
+  ul { margin: 0 0 0 1em }
 :is( ol, ul )::marker {}
 :is( ol, ul ) > li { padding: 0 0.5ch }
 li { text-indent: unset }
