@@ -741,6 +741,7 @@ pre {
   width: calc(100% - 2ch);
   overflow: overlay;
   text-align: initial;
+  line-height: inherit;
   margin: var(--margin-collapse-bugfix) auto 2em;
 }
 pre > code {
