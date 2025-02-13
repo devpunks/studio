@@ -718,6 +718,7 @@ code, kbd, pre, samp, var, data {
   line-height: inherit;
   font-family: monospace;
 }
+code { white-space: nowrap }
 code :is( var, data ) { padding: 0 }
 pre {
   width: calc(100% - 2ch);
