@@ -704,6 +704,8 @@ ul > li::after {}
 
 :is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
   width: 100%;
+  display: list-item;
+  list-style-position: inside;
   border-bottom: 0.1ch solid;
 }
 dl[aria-label]::before { text-transform: unset }
