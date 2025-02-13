@@ -781,6 +781,10 @@ menu, [role=menu], [role=toolbar] {
   width: auto;
   list-style: none;
 }
+:is( menu, [role=menu] ) > li > * {
+  margin: unset;
+  max-width: unset;
+}
 [role=toolbar]::before {
   width: 100%;
   display: list-item;
