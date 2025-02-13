@@ -633,7 +633,7 @@ nav > details > ul {}
 
 
 
-abbr { font-style: normal } /* http://webtypography.net/3.2.2 */
+abbr {} /* http://webtypography.net/3.2.2 */
 abbr[title] {
   font-size: 120%;
   font-weight: bolder;
