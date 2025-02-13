@@ -630,7 +630,9 @@ button::before {
   white-space: nowrap;
   background: inherit;
 }
-[role=toolbar] button[data-icon]::before { width: 2em }
+[role=toolbar]:is( :hover, :focus-within ) * { opacity: .8 }
+[role=toolbar] :is( * ):hover { opacity: 1 }
+[role=toolbar] [data-icon]::before { width: 2em }
 
 /*
   - input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
