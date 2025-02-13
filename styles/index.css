@@ -300,6 +300,13 @@ code, kbd, pre, samp, var, data {
   border-radius: .5ch;
   background-color: ButtonFace;
 }
+code {}
+pre code {
+  display: inherit;
+  border: solid currentColor;
+  border-width: 0 0 0 0.02em;
+}
+var, data {}
 kbd {
   min-width: 2em;
   line-height: normal;
