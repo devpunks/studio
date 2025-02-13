@@ -328,8 +328,6 @@ samp > kbd {
   align-items: baseline;
 }
 samp > kbd::before {
-  content: '$';
-  font-size: 1.68em;
   display: list-item;
   list-style-type: '💻';
   list-style-position: inside;
