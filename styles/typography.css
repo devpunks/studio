@@ -538,7 +538,6 @@ ol {}
 :is( ol, ul )::marker {}
 :is( ol, ul ) > li { padding: 0 0.5ch }
 li { text-indent: unset }
-li li {}
 li::marker {}
 li::before, li::after { text-align: center }
 li::before {}
