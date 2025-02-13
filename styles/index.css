@@ -964,10 +964,7 @@ body > * {
   transform: translatez(0);
 }
 
-a {
-  -webkit-touch-callout: default;
-  display: inline-block;
-}
+a { -webkit-touch-callout: default }
 
 iframe, pre, table, select[multiple] {
   /*
