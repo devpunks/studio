@@ -746,10 +746,8 @@ li[data-icon]::before {
 [role=feed]:hover article:hover { opacity: 1 }
 
 [aria-orientation=horizontal],
-[aria-orientation=horizontal] :is( ol, ul, menu ) {
-  /* width: inherit; */
-  list-style-position: inside;
-}
+[aria-orientation=horizontal]
+  :is( ol, ul, menu ){ list-style-position: inside }
 [aria-orientation=horizontal] { justify-content: space-around }
 [role=marquee], [role=log], [role=toolbar]. [role=menubar] {
   justify-content: flex-start;
