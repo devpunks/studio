@@ -776,8 +776,8 @@ li[data-icon]::before {
 [role=toolbar] {display: inline-flex;justify-content: flex-start;}
 [aria-orientation=horizontal], [role=menubar] { display: flex }
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
-  li { min-width: unset }
-[role=toolbar] {
+  li { min-width: unset; margin: 0; }
+menu, [role=menu], [role=toolbar] {
   width: auto;
   list-style: none;
 }
