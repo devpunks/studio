@@ -718,6 +718,7 @@ code, kbd, pre, samp, var, data {
   line-height: initial;
   text-indent: initial;
   font-family: monospace;
+  vertical-align: text-bottom;
 }
 code { white-space: nowrap }
 code :is( var, data ) { padding: 0 }
