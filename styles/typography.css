@@ -523,7 +523,16 @@ dl, ol, ul {
   max-width: calc(100% - 2ch);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
-:is( ol,ul) { text-indent: initial }
+ol, ul { text-indent: initial }
+ul { margin-left: 2em }
+ol {}
+:is( dl, ol, ul )
+  :is( dl, ol, ul ) {
+    width: auto;
+    /* padding-left: 1em; */
+    /* max-width: initial; */
+    margin-bottom: var(--margin-collapse-bugfix);
+  }
 :is( dl, ol, ul ) ol {}
 :is( dl, ol, ul ) ul {}
 :is( ol,ul )::marker,
