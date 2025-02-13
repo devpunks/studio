@@ -797,6 +797,7 @@ q { /* quotes */
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
+q::before, q::after { font-size: medium }
 
 p q, q q {
   font-size: smaller;
