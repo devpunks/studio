@@ -211,6 +211,9 @@ header, h1, h2, h3, h4, h5, h6 {
   border-radius: 0.68ch;
   background-color: inherit;
 }
+:where( header, h1, h2, h3, h4, h5, h6 )[id]:hover::before
+  { opacity: 75% }
+
 h1 {
   display: block;
   counter-reset: header 0;
