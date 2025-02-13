@@ -702,9 +702,16 @@ li:hover {
 ol > li {}
 ul > li {}
 ol > li::before,
-ul > li::before {}
 ol > li::before {}
-ul > li::before {}
+ul > li::before {
+  content: 'x';
+  content'x': ;
+  content: '';
+  display: inline;
+  line-height: inherit;
+  /* position: absolute; */
+  /* float: left; */
+}
 ol > li::after,
 ul > li::after {}
 ol > li::after {}
