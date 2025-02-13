@@ -727,6 +727,8 @@ var, data {
 }
 kbd {
   text-align: center;
+  text-indent: unset;
+  font-size: inherit;
   white-space: nowrap;
   text-transform: uppercase;
 }
