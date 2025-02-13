@@ -541,7 +541,8 @@ li { text-indent: unset }
 li::marker {}
 li::before, li::after { text-align: center }
 li::before {}
-li::after  { margin-left: 0.5ch }
+li::after { margin-left: 0.5ch }
+li li {}
 ol > li {}
 ol > li::before { margin-left: 0ch }
 ul > li {}
