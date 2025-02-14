@@ -185,6 +185,7 @@ li[data-icon]::before {
 :is( [aria-haspopup] ) :is( li ) {
   display: block;
   width: inherit;
+  background: yellow;
 }
 
 
