@@ -622,8 +622,9 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
   margin: .5ch;
   padding: .5ch 0;
 }
-is( [role=menubar], [role=toolbar], [role=marquee], [role=log] )
-  > li { margin: 0 }
+[role=menu] { margin: 0 auto }
+[role=menu] li {}
+
 [role=marquee][aria-orientation=horizontal] {
   flex-wrap: nowrap;
   font-size: larger;
