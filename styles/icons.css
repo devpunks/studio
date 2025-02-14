@@ -172,7 +172,7 @@ li[data-icon]::before {
   /* margin: 0; */
   /* width: auto; */
 }
-:is( ol, ul, menu ) :is(li)[aria-haspopup] :is( ol, ul, menu ) {
+:is( [aria-haspopup] ) :is( ol, ul, menu ) {
   background: red;
 }
 :is( ol, ul, menu ) :is(li)[aria-haspopup] :is( li ) {
