@@ -225,7 +225,7 @@ header { list-style-type: decimal-leading-zero }
   margin: 0 auto;
   color: CanvasText;
   line-height: 1.68em;
-  max-width: calc(100% - 2ch);
+  max-width: calc( 100% - 2ch );
 }
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ) {}
 :where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) { width: auto }
