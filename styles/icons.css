@@ -179,7 +179,10 @@ li[data-icon]::before {
   display: inline-flex;
   z-index: 1;
 }
-:is( ol, ul, menu ) :is(li)[aria-haspopup] :is( li ) {
+:is( [aria-haspopup] ):hover :is( ol, ul, menu ) {
+  background: red;
+}
+:is( [aria-haspopup] ) :is( li ) {
   display: block;
   width: inherit;
 }
