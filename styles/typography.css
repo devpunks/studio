@@ -641,7 +641,7 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
   margin: unset;
   width: fit-content;
   white-space: nowrap;
-  min-width: fit-content;
+  min-width: -webkit-fill-available;
 }
 :is( menu, [role=menu] ) [role=toolbar] {
   margin: 0 0.2ch;
