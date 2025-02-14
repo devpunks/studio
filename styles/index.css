@@ -760,7 +760,7 @@ li[data-icon]::before {
   width: max-content;
   display: inline-flex;
   overflow: auto hidden;
-  width: calc(100% - 1ch);
+  width: calc( 100% - 1ch );
   list-style-position: inside;
 }
 [role=marquee][aria-orientation=horizontal]::before {
@@ -852,8 +852,8 @@ dl {
   background: unset;
   counter-reset: term 0
 }
-ul { width: calc(100% - 2em - 1ch) }
-ul[role=none] { width: calc(100% - 1ch) }
+ul {width: calc( 100% - 2em - 1ch ) }
+ul[role=none] { width: calc( 100% - 1ch ) }
 ol {}
 ol[type=i] { unicode-bidi: embed }
 dd, dt, li {
