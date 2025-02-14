@@ -229,7 +229,7 @@ header { list-style-type: decimal-leading-zero }
 }
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ) {}
 :where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) { width: auto }
-:where( a ):has( header, h1, h2, h3, h4, h5, h6 ) {/* width: calc(100% - 2vw); */}
+:where( a ):has( header, h1, h2, h3, h4, h5, h6 ) {}
 nav > header {}
 nav > header::before,
 nav > header::after {}
