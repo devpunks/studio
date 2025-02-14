@@ -174,7 +174,7 @@ li[data-icon]::before {
 }
 :is( [aria-haspopup] ) :is( ol, ul, menu ) {
   background: red;
-  position:absolute;
+  /* position:absolute; */
   top: 2em;
   display: inline-flex;
   z-index: 1;

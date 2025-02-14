@@ -766,8 +766,8 @@ li[data-icon]::before {
 [role=marquee][aria-orientation=horizontal]::before {
   left: 0;
   z-index: 1;
-  position: fixed;
-  width: max-content;
+  /* position: fixed; */
+  /* width: max-content; */
   background: Canvas;
   box-shadow: .2ch 0 .15ch;
 }
@@ -822,6 +822,7 @@ menu, [role=menu], [role=toolbar] {
   /* width: fit-content; */
   max-width: fit-content;
   list-style: none;
+  /* min-width:  100%; */
 }
 :is( menu, [role=menu] )
   > li > * { max-width: unset }
