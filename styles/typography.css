@@ -632,6 +632,7 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
 }
 [aria-orientation=horizontal] li {
   margin: 0;
+  padding: 0.25em;
   white-space: nowrap;
   word-break: keep-all;
 }
