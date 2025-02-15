@@ -1014,6 +1014,7 @@ summary::before, summary::after {
   min-width: 2em;
   margin: 0 .5ch;
   font-size: larger;
+  text-align: center;
 }
 
 
