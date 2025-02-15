@@ -687,7 +687,7 @@ ul {}
 ol { list-style-position: inside }
 ol[type='1'] { list-style-type: decimal-leading-zero }
 ol::before {}
-:is( ol, ul, menu )[data-icon] {list-style-image: unset;}
+:is( ol, ul, menu )[data-icon] { list-style-image: unset }
 li { clear: both }
 li li {}
 li::marker {}
