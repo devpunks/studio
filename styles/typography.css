@@ -841,6 +841,8 @@ blockquote {
   text-align: left;
   font-size: larger;
   font-family: auto;
+  padding: 1.68em 6%;
+  margin: 1.68em auto;
 }
 blockquote::before, blockquote::after {}
 blockquote::before {
