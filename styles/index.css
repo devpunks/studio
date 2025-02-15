@@ -20,7 +20,8 @@
 @import 'color.css' layer(color) color;
 @import url('layout.css') layer(layout) all;
 @import url('animation.css') layer(animation) not print;
-@import url('speech.css') layer(speech) speech not print;
+@import url('multimedia.css') layer(multimedia) screen;
+@import url('typography.css') layer(typography) all;
 @import url('accessibility.css') layer(accessibility) not print;
 @import 'color.css' layer(color) color; */
 @import url(accessibility.css);
