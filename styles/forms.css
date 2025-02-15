@@ -110,7 +110,6 @@ fieldset {
       content: '\2009';
       background: inherit;
       align-self: stretch;
-      flex: 1;
     }
     &::before {
       color: red;
