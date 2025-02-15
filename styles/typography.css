@@ -540,9 +540,6 @@ ol {}
   ol { margin: 0 0 0 auto }
 :is( dl, ol, ul )
   ul { margin: 0 0 0 1em }
-:is( ol, ul )::marker {}
-:is( ol, ul )
-  > li { padding: 0 0.5ch }
 li { text-indent: unset }
 li::marker {}
 li::before, li::after { text-align: center }
