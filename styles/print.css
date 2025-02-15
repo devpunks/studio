@@ -52,8 +52,7 @@
     page-break-after: avoid;
          break-after: avoid;
     page-break-inside: avoid;
-    break-after: avoid;
-    break-inside: avoid;
+         break-inside: avoid;
   }
 
   p {
