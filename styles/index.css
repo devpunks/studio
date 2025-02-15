@@ -27,8 +27,6 @@
 @import url('i18n.css') layer(speech) speech not print;
 */
 @import url(print.css);
-@import url(typography.css);
-@import url(icons.css);
 @import url(forms.css);
 @import url(multimedia.css);
 @import url(layout.css);
