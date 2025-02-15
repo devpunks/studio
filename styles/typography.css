@@ -673,6 +673,7 @@ abbr[title] {
   text-decoration-skip-ink: none;
   text-decoration: none;
   border-bottom: dotted 0.168em;
+  /* font-variant-caps: all-small-caps; */
 }
 
 del, s {
