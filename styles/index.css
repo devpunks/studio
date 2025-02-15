@@ -810,8 +810,17 @@ li[data-icon]::before {
 [role=menubar] li {}
 [role=tree] {
   display: block;
-  width: max-content;
-  background: red;
+  list-style: disc;
+  /* width: max-content; */
+  /* background: red; */
+  border-left: .1ch solid;
+  list-style-position: outside;
+}
+[role=tree] li {
+  margin: 0 0 0 .6ch;
+  display: list-item;
+  list-style-position: outside;
+  line-height: unset;
 }
 [role=toolbar] {
   display: inline-flex;
