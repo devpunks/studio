@@ -940,19 +940,3 @@ progress::-webkit-progress-value::after {
   content: 'x';
   background-color: white;
 }
-/*
-meter::-webkit-meter-optimum-value,
-progress::-webkit-progress-optimum-value
-  { background: #86CC00 }
-meter::-webkit-meter-suboptimum-value,
-progress::-webkit-proress-suboptimum-value
-  { background: #FFDB1A }
-meter::-webkit-meter-even-less-good-value
-progress::-webkit-progress-even-less-good-value
-  { background: #CC4600 }
-
-meter::marker, progress::marker {
-  color: magenta;
-  content: attr(value);
-}
-*/
