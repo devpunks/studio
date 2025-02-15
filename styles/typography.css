@@ -382,7 +382,7 @@ a:has( header, h1, h2, h3, h4, h5, h6 ) {}
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ) { margin: 0 auto }
 
 header, h1, h2, h3, h4, h5, h6 {
-  margin: 1em 1rem;
+  margin: 1em auto;
   line-height: 2em;
   font-weight: bold;
   text-wrap: balance;
