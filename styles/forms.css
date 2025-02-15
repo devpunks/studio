@@ -210,7 +210,7 @@ input:where( :not( [type] ),
   user-select: text;
   background-repeat: no-repeat;
   max-width: calc(100% - 2ch);
-  width: -moz-availab;
+  width: -moz-available;
   width: -webkit-fill-available;
   box-shadow: inset 0 0 0 0.168ch;
   background-color: transparent;
