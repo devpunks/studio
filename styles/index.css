@@ -281,7 +281,7 @@ time {
   font-weight: bolder;
   display: inline-block;
 }
-time::before, time::after { cursor: inherit }
+time::before, time::after {}
 time::before {}
 time::after {
   opacity: 0.5;
