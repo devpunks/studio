@@ -355,6 +355,7 @@ a[href='#']:hover { opacity: 1 }
 [role=presentation] li {
   list-style-type: none;
 }
+[role=presentation] li {}
 :where( ol, ul )[role=presentation],
 :where( ol, ul )[role=presentation] :where( ol, ul ),
 :where( ol, ul )[role=presentation] li::before {
