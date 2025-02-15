@@ -11,7 +11,7 @@
   - *** https://xfive.co/blog/itcss-scalable-maintainable-css-architecture/#organize-layers-to-subfolders
 */
 @layer /* explicit layer ordering */
-  accessibility, speech, print, typography, icons, color, forms, multimedia, layout, animation;
+  print, forms, icons, layout, animation, multimedia, typography, accessibility, speech, i18n;
 
 /* ** BUG WHEN NOT USING URL** - https://css-tricks.com/css-tricks-chronicle-vol-iv
 @import url('print.css') layer(print) print;
