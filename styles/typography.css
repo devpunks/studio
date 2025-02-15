@@ -526,6 +526,8 @@ dl, ol, ul {
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
 ol, ul { text-indent: initial }
+p + :is( dl, ol, ul ) { margin-top: 1em }
+:is( ol, ul )::marker {}
 ul { margin-left: 2em }
 ol {}
 :is( [role=toolbar], [role=menubar] ) { margin: unset }
