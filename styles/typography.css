@@ -839,8 +839,6 @@ p q, q q {
 */
 blockquote {
   text-align: left;
-  margin: 1.68em auto;
-  padding: 1.68em 6%;
   font-size: larger;
   font-family: auto;
 }
