@@ -544,7 +544,7 @@ li li {}
   > li { padding: 0 0.5ch }
 ol > li {}
 ol > li::marker {
-  font-size: larger;
+  font-size: large;
   font-weight: bold;
 }
 ol > li::before { margin-left: 0ch }
