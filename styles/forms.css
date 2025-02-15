@@ -100,7 +100,6 @@ fieldset {
     top: 0.681ch;
     color: Canvas;
     display: flex;
-    position: sticky;
     border: inherit;
     background: inherit;
     border-radius: inherit;
