@@ -561,8 +561,8 @@ ruby {
   color: CanvasText;
   width: fit-content;
   border-radius: 1vw;
-  display: inline-block;
-  display: block ruby;
+  display: inline-block;  /* default */
+  display: block ruby; /* overrides */
   box-shadow: 0 0 .168ch;
   background-color: Canvas;
 }
