@@ -585,7 +585,7 @@ dd {
   margin-left: 1em;
   padding-left: 0.618em;
 }
-dd > :is( dl, ol, ul ) { margin: 0 .5ch }
+dd > :is( dl, ol, ul ) { margin: 0 0 0 1.68ch }
 dt {
   text-indent: .5em;
   font-weight: bold;
