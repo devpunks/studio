@@ -86,7 +86,6 @@ fieldset {
     color: Canvas;
     font-size: 1.618ch;
     font-weight: lighter;
-    content: 'fieldset';
     display: list-item;
     list-style-type: '\2636';
     background: inherit;
