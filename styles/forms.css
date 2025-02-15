@@ -87,7 +87,6 @@ fieldset {
     font-size: 1.618ch;
     font-weight: lighter;
     display: list-item;
-    list-style-type: '\2636';
     background: inherit;
   }
   &::before { margin-bottom: 1ch }
