@@ -529,7 +529,6 @@ body > nav > details {
 
     &::before, &::after {
       content: '☰Menu';
-      cursor: inherit;
       outline: inherit;
       display: inherit;
       background: inherit;
