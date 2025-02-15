@@ -825,9 +825,6 @@ meter, progress {
   -webkit-appearance: none;
   appearance: none;
 }
-meter::marker, progress::marker {
-  content: 'bar'
-}
 meter {}
 progress {}
 meter[value], progress[value] {
