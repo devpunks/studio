@@ -775,39 +775,6 @@ input:focus:not(:placeholder-shown):out-of-range,
 }
 
 
-.vertical {
-  /*
-    - https://www.w3.org/International/articles/vertical-text/
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/direction
-  */
-  /* rotate: 90deg; */
-  outline: 4px dotted red;
-  background: pink;
-  display: table-cell;
-  display: inline-block;
-  writing-mode: vertical-lr;
-}
-.vertical input[type=range] {
-   /* IE */
-  /*
-    - https://caniuse.com/?search=vertical%20slider
-    - Chromium Bug - https://bugs.chromium.org/p/chromium/issues/detail?id=341071
-    - https://stackoverflow.com/questions/39809103/vertical-slider-for-chrome-and-moz
-    - https://stackoverflow.com/questions/3556157/how-to-customize-the-html5-input-range-type-looks-using-css
-  */
-   /* WebKit */
-   /* Living Standard */
-   cursor: ns-resize;
-}
-.vertical input[type=range]::-moz-range-track {
-  height: 20px;
-  background: orange;
-  border: 2px solid red;
-}
-.vertical input[type=range]::-moz-range-thumb {
-  height: 30px;
-  background: blue;
-}
 ::-webkit-slider-runnable-track {
   margin: 0ch;
   padding: 0.5ch 0.25ch;
