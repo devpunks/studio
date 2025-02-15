@@ -921,7 +921,6 @@ address {
 article address, body > footer address, [contentinfo] address { font-family: monospace }
 body > footer address, [contentinfo] address {
   border: solid;
-  border-width: 0.1ch 0;
   margin: 1em auto;
 }
 article address {}
