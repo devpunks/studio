@@ -807,6 +807,7 @@ li[data-icon]::before {
   align-items: flex-start;
   justify-content: flex-start;
 }
+[role=menubar] li {}
 [role=tree] {
   display: block;
   width: max-content;
