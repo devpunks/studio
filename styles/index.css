@@ -32,6 +32,11 @@
 /* @import url(color.css); */
 @import url(layout.css);
 @import url(animation.css);
+@import url(multimedia.css);
+@import url(typography.css);
+@import url(accessibility.css);
+@import url(speech.css);
+@import url(i18n.css);
 
 /*
   CSS Selectors 4
