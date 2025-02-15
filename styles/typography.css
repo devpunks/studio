@@ -592,7 +592,6 @@ dt {
   line-height: 3.618ch;
   margin-top: 0.6182ch;
   padding: var(--margin-collapse-bugfix) 0;
-  margin-block: 0.6182ch var(--margin-collapse-bugfix);
 }
 dt + dt {
   margin-block: var(--margin-collapse-bugfix);
