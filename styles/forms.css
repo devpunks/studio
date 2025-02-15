@@ -106,6 +106,7 @@ fieldset {
     border-radius: inherit;
 
     &::before, &::after {
+      flex: 1;
       content: '\2009';
       background: inherit;
       align-self: stretch;
