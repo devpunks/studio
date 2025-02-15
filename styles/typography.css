@@ -581,7 +581,6 @@ dd, li {
   padding: var(--margin-collapse-bugfix) 0;
   margin: var(--margin-collapse-bugfix) auto 0;
 }
-dd {}
 dd {
   margin-left: 1em;
   text-indent: 0.618em;
