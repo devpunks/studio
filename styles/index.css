@@ -277,6 +277,7 @@ time {
   cursor: wait;
   background: Canvas;
   border-radius: 1ch;
+  font-weight: bolder;
   display: inline-block;
 }
 time::before, time::after { cursor: inherit }
