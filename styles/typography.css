@@ -1013,7 +1013,6 @@ summary {
 summary::before, summary::after {
   min-width: 2em;
   margin: 0 .5ch;
-  text-align: center;
   font-size: larger;
 }
 
