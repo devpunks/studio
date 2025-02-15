@@ -204,8 +204,8 @@ header, h1, h2, h3, h4, h5, h6 {
   border-radius: 0.68ch;
   counter-increment: header;
   list-style-position: inside;
-  list-style-type: upper-alpha;
-  list-style-type: header;
+  list-style-type: upper-alpha; /* default */
+  list-style-type: header; /* overrides */
 }
 :where( header, h1, h2, h3, h4, h5, h6 )[id]::before {
   opacity: 25%;
