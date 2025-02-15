@@ -397,7 +397,7 @@ summary {
   border-bottom: .1ch solid;
   list-style-position: inside;
 }
-summary::before, summary::after { cursor: inherit }
+summary::before, summary::after {}
 details > summary::marker, /* Latest Chrome, Edge, Firefox */
 details > summary::-webkit-details-marker /* Safari */
   { display: none } /* https://stackoverflow.com/a/66814239 */
