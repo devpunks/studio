@@ -1,3 +1,13 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:lang */
+/*
+English (“Menu”)
+German (“Menü”)
+Spanish (“Menú”)
+French (“Le Menu”)
+Japanese (“メニュー”)
+Arabic (“قائمة طعام”)
+Simplified Chinese (“菜单”)
+Traditional Chinese (“選單”)
+ */
 
 body *:lang(en-US) {}
