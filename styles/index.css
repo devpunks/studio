@@ -15,9 +15,6 @@
 
 /* ** BUG WHEN NOT USING URL** - https://css-tricks.com/css-tricks-chronicle-vol-iv
 @import url('print.css') layer(print) print;
-@import url('layout.css') layer(layout) all;
-@import url('icons.css') layer(icons) not speech;
-@import url('typography.css') layer(typography) all;
 @import url('forms.css') layer(forms) all, not print;
 @import url('multimedia.css') layer(multimedia) screen;
 @import url('animation.css') layer(animation) not print;
