@@ -79,6 +79,6 @@
 
   tr, img {
     page-break-inside: avoid;
-    break-inside: avoid;
+         break-inside: avoid;
   }
 } /* @media print */
