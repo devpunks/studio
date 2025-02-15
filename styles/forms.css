@@ -88,6 +88,8 @@ fieldset {
     font-weight: lighter;
     display: list-item;
     background: inherit;
+    content: 'fieldset';
+    list-style-type: '\2636';
   }
   &::before { margin-bottom: 1ch }
   &::after { margin-top: 1ch }
