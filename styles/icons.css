@@ -166,6 +166,15 @@ li[data-icon]::before {
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">⚙️</text></svg>');
 }
+[role=tree] li {
+  list-style-image:
+    url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">┣</text></svg>');
+}
+[role=tree] li:last-of-type {
+  list-style-image:
+    url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">┗</text></svg>');
+}
+
 
 [aria-haspopup] {
   /* display: inline-block; */
