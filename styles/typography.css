@@ -406,10 +406,6 @@ header, h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2em;
   line-height: 2em;
-  /* text-shadow: 0.04em 0.04em 0; */
-  /* -webkit-text-fill-color: Canvas; */
-  /* -webkit-text-stroke-width: thin; */
-  /* -webkit-text-stroke-color: GrayText; */
 }
 header {
   /* http://webtypography.net/3.2.1 */
