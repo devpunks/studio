@@ -23,9 +23,9 @@
 @import url('multimedia.css') layer(multimedia) screen;
 @import url('typography.css') layer(typography) all;
 @import url('accessibility.css') layer(accessibility) not print;
-@import 'color.css' layer(color) color; */
-@import url(accessibility.css);
-@import url(speech.css);
+@import url('speech.css') layer(speech) speech not print;
+@import url('i18n.css') layer(speech) speech not print;
+*/
 @import url(print.css);
 @import url(typography.css);
 @import url(icons.css);
