@@ -988,6 +988,8 @@ table > tbody::before, table > tbody::after { margin-inline: 1ch }
 
 tbody tr { margin-inline: 1ch }
 
+
+
 details { /* details */
   margin: 0 auto 1em;
   text-align: var(--text-align);
