@@ -72,7 +72,7 @@
 
   pre, blockquote {
     page-break-inside: avoid;
-    break-inside: avoid;
+         break-inside: avoid;
   }
   thead
     { display: table-header-group }
