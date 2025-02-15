@@ -355,7 +355,7 @@ math {
   background: ButtonFace;
   border: 0.3ch solid Canvas;
 }
-math[display=inline] {display: math;}
+math[display=inline] { display: math }
 math[display=block] {
   display: block;
 }
