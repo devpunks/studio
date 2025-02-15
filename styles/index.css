@@ -276,7 +276,6 @@ time, time::before, time::after { border-radius: inherit }
 time {
   cursor: wait;
   background: Canvas;
-  font-weight: bolder;
   border-radius: 1ch;
   display: inline-block;
 }
