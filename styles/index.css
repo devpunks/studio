@@ -836,9 +836,9 @@ li[data-icon]::before {
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
   li { min-width: fit-content }
 menu, [role=menu], [role=toolbar] {
-  width: fit-content;
   list-style: none;
-  /* min-width:  100%; */
+  width: fit-content;
+  max-width: fit-content;
 }
 :is( menu, [role=menu] )
   > li > * { max-width: unset }
