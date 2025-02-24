@@ -260,7 +260,6 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
     &:last-of-type {
       margin-inine: 0 1ch;
       border-right: 1px solid;
-      border-radius: 0 0.682ch 0 0;
     }
 
     a::before, a::after {
