@@ -808,6 +808,7 @@ li[data-icon]::before {
 [role=menu] {}
 [role=menu] li {}
 [role=menubar] {
+  width: inherit;
   align-items: flex-start;
   justify-content: flex-start;
 }
