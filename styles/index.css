@@ -399,11 +399,8 @@ summary { cursor: s-resize }
 summary::marker, /* Latest Chrome, Edge, Firefox */
 summary::-webkit-details-marker /* Safari */
   { display: none } /* https://stackoverflow.com/a/66814239 */
-details > summary::before { content: '►' }
-details > summary::after { content: '◀' }
-details[open] > summary { cursor: n-resize }
-details[open] > summary::before { content: '▼' }
-details[open] > summary::after  { content: '▼' }
+summary::before, summary::after
+  { min-width: initial }
 
 
 /* Navigations ==================================================================
