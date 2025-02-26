@@ -1003,8 +1003,10 @@ nav > details[open] {
   padding-block-end: 1ch;
 }
 summary {
-  /* font-size: larger; */
-  /* font-weight: bolder; */
+  margin: 0 -1ch;
+  padding: 0 1ch;
+  font-size: larger;
+  font-weight: bolder;
 }
 summary::before, summary::after {
   min-width: 2em;
