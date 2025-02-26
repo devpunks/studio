@@ -823,7 +823,6 @@ li[data-icon]::before {
   display: block;
   list-style: disc;
   /* width: max-content; */
-  /* background: red; */
   border-left: .1ch solid;
   list-style-position: outside;
 }
