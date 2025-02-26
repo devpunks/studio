@@ -324,7 +324,6 @@ html {
 } /* html */
 
 body {
-  background: rgba(80,0,0,0.5);
   margin: var(--margin-collapse-bugfix) 0 auto var(--margin-collapse-bugfix);
   /* https://css-tricks.com/almanac/properties/t/text-rendering */
   /* text-rendering: optimizeSpeed; */
