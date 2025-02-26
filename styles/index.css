@@ -388,6 +388,7 @@ blockquote::after {
   content: no-close-quote '⤷\2002' attr(cite);
 }
 
+
 /* http://html5doctor.com/the-details-and-summary-elements */
 /* https://nerdy.dev/open-and-close-transitions-for-the-details-element */
 details {}
