@@ -1002,7 +1002,6 @@ nav > details[open] {
   list-style-type: '😊';
   padding-block-end: 1ch;
 }
-
 summary {
   /* font-size: larger; */
   /* font-weight: bolder; */
