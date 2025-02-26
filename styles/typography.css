@@ -647,7 +647,6 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
   margin: auto;
   border-left: .1ch solid;
 }
-
 nav > :is( dl, ol, ul ) {
   margin: var(--margin-collapse-bugfix) 0;
   padding: var(--margin-collapse-bugfix) 0;
