@@ -198,6 +198,20 @@ li[data-icon]::before {
 }
 
 
+[role] > summary::before { content: '▶' }
+[role][open] > summary::before { content: '▼' }
+[role=tree] > summary::before  { content: '⊞' }
+[role=tree][open] > summary::before  { content: '⊟' }
+[role$=group] > summary::before { content: '➕' }
+[role$=group][open] > summary::before { content: '➖' }
+:is( [role=none], [role=presentation] ) > summary::before {
+  content: '';
+  min-width: unset;
+}
+
+[role] > summary { display:block }
+
+
 table::before, table::after
   { content: '☶ table' }
 thead::before, thead::after
