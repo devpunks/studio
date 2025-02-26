@@ -393,7 +393,16 @@ blockquote::after {
 /* https://nerdy.dev/open-and-close-transitions-for-the-details-element */
 details { outline: 0.1ch solid }
 details[open] {}
-summary { cursor: s-resize }
+summary {
+  color: Canvas;
+  cursor: s-resize;
+  background-color: CanvasText;
+}
+[role]:not( [role=menu], [role=toolbar] )
+  > summary {
+    color: unset;
+    background-color: unset;
+}
 [role] > summary { display:block }
 [open] > summary { cursor: n-resize }
 summary::marker, /* Latest Chrome, Edge, Firefox */
