@@ -1011,6 +1011,8 @@ summary {
 summary::before, summary::after {
   margin: 0 .5ch 0 0;
   text-align: center;
+  line-height: normal;
+  vertical-align: middle;
 }
 
 
