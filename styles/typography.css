@@ -1052,3 +1052,12 @@ legend {
   &::before { margin-inline-end: 0.5ch }
   &::after  { margin-inline-start: 0.5ch }
 }
+
+
+/* SVG ================================================================== */
+svg { vertical-align: middle }
+text{
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
