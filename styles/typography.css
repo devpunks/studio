@@ -523,7 +523,7 @@ p + :is( dl, ol, ul ) { margin-top: 1.68em }
 :is( ol, ul )::marker {}
 ul { margin-left: 2em }
 ol {}
-:is( [role=toolbar], [role=menubar] ) {margin: unset;}
+:is( [role=toolbar], [role=menubar] ) { margin: unset }
 :is( dl, ol, ul )
   :is( dl, ol, ul ) {
     width: auto;
