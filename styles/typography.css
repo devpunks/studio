@@ -644,8 +644,7 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
 [role=toolbar] > li::before { margin: 0 }
 
 [role=tree] :is( dl, ol, ul, menu ) {
-  /* background: red; */
-  margin: inherit;
+  margin: auto;
   border-left: .1ch solid;
 }
 
