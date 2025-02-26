@@ -986,12 +986,12 @@ table > tbody::before, table > tbody::after { margin-inline: 1ch }
 tbody tr { margin-inline: 1ch }
 
 
-
 details { /* details */
-  margin: 0 auto 1em;
-  text-align: var(--text-align);
-  /* padding: 0 0 0 var(--line-height); */
+  margin: 0 auto;
+  padding: 0 1ch;
+  text-align: start;
 }
+details[open] { padding-bottom: 1ch }
 nav details, nav summary {
   margin: var(--margin-collapse-bugfix) auto;
   padding: var(--margin-collapse-bugfix) auto;
