@@ -723,7 +723,7 @@ li[data-icon]::before {
   /* display: list-item; */
   list-style-position: inside;
 }
-:is( [role=none], [role=presentation] ) {}
+[role=none], [role=presentation] {}
 
 :is( [role=none], [role=presentation] ) :is( ol, ul, menu ) {
   width: auto;
