@@ -903,8 +903,6 @@ sub {
   position: relative;
 }
 
-svg { vertical-align: middle }
-
 address {
   font-size: larger;
   width: fit-content;
