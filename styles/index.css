@@ -405,6 +405,8 @@ summary {
 }
 [role] > summary { display:block }
 [open] > summary { cursor: n-resize }
+:is( [role=menu], [role=menubar], [role=toolbar] )[open]
+  > summary { border-bottom: .1ch solid }
 summary::marker, /* Latest Chrome, Edge, Firefox */
 summary::-webkit-details-marker /* Safari */
   { display: none } /* https://stackoverflow.com/a/66814239 */
