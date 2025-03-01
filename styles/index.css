@@ -876,11 +876,6 @@ menu, [role=menu], [role=toolbar] {
 [role=toolbar] li {}
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
   li { min-width: fit-content }
-menu, [role=menu], [role=toolbar] {
-  list-style: none;
-  width: fit-content;
-  max-width: fit-content;
-}
 :is( menu, [role=menu] )
   > li > * { max-width: unset }
 [role=toolbar]::before { background: Canvas }
