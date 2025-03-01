@@ -836,6 +836,16 @@ li[data-icon]::before {
   outline: .2ch dashed;
   display: inline-block;
 }
+menu, [role=menu], [role=toolbar] {
+  list-style: none;
+  width: fit-content;
+  max-width: fit-content;
+}
+:is( menu, [role=menu], [role=menubar], [role=tree], [role=toolbar] )
+  li {
+    -webkit-user-select: none;
+            user-select: none;
+  }
 [role=menu] {}
 [role=menu] li {}
 [role=menubar] {
