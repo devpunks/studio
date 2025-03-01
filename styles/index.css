@@ -860,7 +860,7 @@ menu, [role=menu], [role=toolbar] {
   > li > * { max-width: unset }
 [role=toolbar]::before { background: Canvas }
 dl, ol, ul {
-  max-width: calc(100% - 2ch);
+  max-width: calc( 100% - 2ch );
   background: rgba(255,255,255,0.5);
 }
 dd > :is( dl, ol, ul ) {
