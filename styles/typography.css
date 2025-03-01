@@ -516,7 +516,6 @@ p > time[datetime] {
  */
 dl, ol, ul {
   text-align: left;
-  max-width: calc(100% - 2ch);
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
 }
 ol, ul { text-indent: initial }
