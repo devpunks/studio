@@ -821,6 +821,7 @@ li[data-icon]::before {
 [role$=group] li {
   margin: 0;
   padding: 0;
+  outline: .2ch dashed;
   display: inline-block;
   background: yellow;
 }
