@@ -820,6 +820,8 @@ li[data-icon]::before {
   border: .1ch solid;
 }
 [role$=group] li {
+  margin: 0;
+  /* width: -webkit-fill-available; */
   display: inline-block;
   background: yellow;
 }
