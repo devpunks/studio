@@ -865,6 +865,7 @@ menu, [role=menu], [role=toolbar] {
   padding: 0;
   display: list-item;
   line-height: unset;
+  list-style-position: outside;
 }
 [role=toolbar] {
   display: inline-flex;
