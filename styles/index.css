@@ -808,7 +808,7 @@ li[data-icon]::before {
   /* min-width: 100%; */
   margin: 0 auto;
 }
-[role=$group] {
+[role$=group] {
   background:red;
 }
 [role=menu] {}
