@@ -996,8 +996,7 @@ details { /* details */
 details[open] { padding-bottom: 1ch }
 details[open]:is( [role=menu], [role=menubar], [role=toolbar ])
   { padding-bottom: unset }
-:is( [role=none], [role=tree], [role=menu], [role=toolbar] )
-  > summary { font-weight: normal }
+:is( [role=none], [role=tree], [role=menu], [role=toolbar] ) summary { font-weight: normal }
 nav details, nav summary {
   margin: var(--margin-collapse-bugfix) auto;
   padding: var(--margin-collapse-bugfix) auto;
