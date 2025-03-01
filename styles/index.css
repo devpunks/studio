@@ -809,8 +809,6 @@ li[data-icon]::before {
   margin: 0 auto;
 }
 [role$=group] {
-  display: flex;
-  max-width: 100%;
   width: 100%;
   margin: unset;
   flex-direction: var(--flex-direction);
