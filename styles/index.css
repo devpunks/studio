@@ -810,6 +810,7 @@ li[data-icon]::before {
 }
 [role$=group] {
   background:red;
+  border: .1ch solid;
 }
 [role=menu] {}
 [role=menu] li {}
