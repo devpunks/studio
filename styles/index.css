@@ -827,10 +827,9 @@ li[data-icon]::before {
   flex-wrap: wrap;
   max-width: unset;
   border: .1ch solid;
-  justify-content: space-around;
-  justify-content: space-evenly;
   flex-direction: var(--flex-direction);
 }
+[role='radiogroup'] { justify-content: space-evenly; }
 [role$=group] li {
   margin: 0;
   outline: .2ch dashed;
