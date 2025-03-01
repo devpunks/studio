@@ -812,7 +812,7 @@ li[data-icon]::before {
   display: flex;
   max-width: 100%;
   width: 100%;
-  /* margin: unset; */
+  margin: unset;
   flex-direction: var(--flex-direction);
   background:red;
   border: .1ch solid;
