@@ -902,11 +902,6 @@ footer dl, footer dl > *,
 footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
-dl {
-  background: unset;
-  counter-reset: term 0
-}
-ul {width: calc( 100% - 2em - 1ch ) }
 ul[role=none] { width: calc( 100% - 1ch ) }
 ol {}
 ol[type=i] { unicode-bidi: embed }
