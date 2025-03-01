@@ -837,6 +837,7 @@ li[data-icon]::before {
   outline: .2ch dashed;
   display: inline-block;
 }
+[role='radiogroup'] li { background: red; margin: 1ch 0; }
 menu, [role=menu], [role=toolbar] {
   list-style: none;
   width: fit-content;
