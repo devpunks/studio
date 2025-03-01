@@ -704,6 +704,15 @@ ol[type=i] { unicode-bidi: embed }
 ol[type='1'] { list-style-type: decimal-leading-zero }
 ol::before {}
 :is( ol, ul, menu )[data-icon] { list-style-image: unset }
+dt, dd, li {
+  -webkit-user-select: all;
+          user-select: all;
+}
+dt { background: red }
+dd {
+  background: inherit;
+  border-radius: inherit;
+}
 li { clear: both }
 li li {}
 li::marker {}
