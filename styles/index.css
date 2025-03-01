@@ -819,7 +819,6 @@ li[data-icon]::before {
   flex-direction: var(--flex-direction);
 }
 [role$=group] li {
-  padding: 0;
   margin: 0;
   display: inline-block;
   background: yellow;
