@@ -818,6 +818,7 @@ li[data-icon]::before {
   border: .1ch solid;
 }
 [role$=group] li {
+  display: inline-block;
   background: yellow;
 }
 [role=menu] {}
