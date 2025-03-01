@@ -811,7 +811,7 @@ li[data-icon]::before {
 [role$=group] {
   display: flex;
   max-width: 100%;
-  /* width: 100%; */
+  width: 100%;
   /* margin: unset; */
   flex-direction: var(--flex-direction);
   background:red;
