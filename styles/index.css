@@ -853,7 +853,6 @@ li[data-icon]::before {
 }
 [role=tree] li {
   padding: 0;
-  /* margin: 0 0 0 .6ch; */
   display: list-item;
   list-style-position: outside;
   line-height: unset;
