@@ -695,7 +695,7 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 }
 dl {
   background: unset;
-  counter-reset: term 0
+  counter-reset: term 0;
 }
 dt { counter-reset: definition 0 }
 ol { list-style-position: inside }
