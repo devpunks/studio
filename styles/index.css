@@ -730,7 +730,6 @@ ul > li::after {}
 }
 dl[aria-label]::before { text-transform: unset }
 li[data-icon]::before {
-  /* float: left; */
 }
 [role=none], [role=presentation] {}
 
