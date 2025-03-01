@@ -908,8 +908,6 @@ dt[role=term]::before,
 dd[role=definition]::before {}
 dd[role=definition] > :is( dl, ol, ul )
   { list-style-position: inside }
-dt
-  { counter-reset: definition 0 }
 dt[role=term] {
   counter-increment: term;
   border-bottom: 0.1ch solid;
