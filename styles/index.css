@@ -820,6 +820,7 @@ li[data-icon]::before {
 }
 [role$=group] li {
   margin: 0;
+  padding: 0;
   display: inline-block;
   background: yellow;
 }
