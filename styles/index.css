@@ -822,7 +822,6 @@ li[data-icon]::before {
   margin: 0 auto;
 }
 [role$=group] {
-  /* width: 100%; */
   display: flex;
   margin: unset;
   flex-wrap: wrap;
