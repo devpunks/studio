@@ -645,7 +645,8 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
 [role=toolbar] > li::before { margin: 0 }
 
 [role=tree] :is( dl, ol, ul, menu ) {
-  margin: auto;
+  margin: 0;
+  /* margin: auto; */
   border-left: .1ch solid;
 }
 nav > :is( dl, ol, ul ) {
