@@ -848,7 +848,6 @@ li[data-icon]::before {
   padding: 0;
   display: block;
   list-style: disc;
-  /* width: max-content; */
   border-left: .1ch solid;
   list-style-position: outside;
 }
