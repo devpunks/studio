@@ -743,6 +743,7 @@ ul > li::after {}
 
 :is(dl, ol, ul, menu ):where( [aria-label], [data-icon] )::before {
   width: 100%;
+  flex-basis: 100%;
   display: list-item;
   list-style-type: none;
   border-bottom: 0.1ch solid;
