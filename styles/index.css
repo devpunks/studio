@@ -814,7 +814,6 @@ li[data-icon]::before {
   margin: unset;
   flex-wrap: wrap;
   max-width: unset;
-  flex-direction: var(--flex-direction);
   border: .1ch solid;
 }
 [role$=group] li {
