@@ -731,7 +731,6 @@ ul > li::after {}
 dl[aria-label]::before { text-transform: unset }
 li[data-icon]::before {
   /* float: left; */
-  /* display: list-item; */
 }
 [role=none], [role=presentation] {}
 
