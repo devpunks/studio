@@ -809,6 +809,8 @@ li[data-icon]::before {
   margin: 0 auto;
 }
 [role$=group] {
+  display: flex;
+  flex-direction: var(--flex-direction);
   background:red;
   border: .1ch solid;
 }
