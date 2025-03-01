@@ -859,7 +859,7 @@ menu, [role=menu], [role=toolbar] {
 :is( menu, [role=menu] )
   > li > * { max-width: unset }
 [role=toolbar]::before { background: Canvas }
-dl, ol, ul { background: rgba(255,255,255,0.5) }
+dl, ol, ul {max-width: calc(100% - 2ch);background: rgba(255,255,255,0.5)}
 dd > :is( dl, ol, ul ) {
   max-width: unset;
   background: inherit;
