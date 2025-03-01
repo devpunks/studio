@@ -903,18 +903,7 @@ footer ol, footer ol > *,
 footer ul, footer ul > *
   { background: inherit }
 ul[role=none] { width: calc( 100% - 1ch ) }
-ol {}
-ol[type=i] { unicode-bidi: embed }
-dd, dt, li {
-  -webkit-user-select: all;
-          user-select: all;
-}
-dd {
-  background: inherit;
-  border-radius: inherit;
-}
-dd[role=definition]
-  { counter-increment: definition }
+dd[role=definition] { counter-increment: definition }
 dt[role=term]::before,
 dd[role=definition]::before {}
 dd[role=definition] > :is( dl, ol, ul )
