@@ -505,7 +505,8 @@ p > time[datetime] {
 }
 
 [data-icon]::before { margin-right: 0.5ch }
-[role=toolbar] [data-icon]::before { margin-right: unset }
+[role=tree] li[data-icon]::before {margin-left: -1ch;}
+[role=toolbar] > [data-icon]::before { margin-right: unset }
 
 
 /* CSS3 Lists
