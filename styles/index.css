@@ -732,7 +732,6 @@ dl[aria-label]::before { text-transform: unset }
 li[data-icon]::before {
   /* float: left; */
   /* display: list-item; */
-  /* list-style-position: inside; */
 }
 [role=none], [role=presentation] {}
 
