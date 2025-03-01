@@ -560,9 +560,8 @@ ul > li::after {}
   li { margin: unset }
 
 :is(dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
-  /* flex: 0 0 auto; */
-  flex-basis: 100$;
-  padding: 0 0.5ch;
+  margin: 0;
+  padding: 0;
   font-size: inherit;
   font-weight: bolder;
   line-height: inherit;
