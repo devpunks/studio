@@ -819,8 +819,6 @@ li[data-icon]::before {
 }
 [aria-orientation=horizontal], [role=menubar] { display: flex }
 [aria-orientation=horizontal] {
-  /* max-width: 100%; */
-  /* min-width: 100%; */
   margin: 0 auto;
 }
 [role$=group] {
