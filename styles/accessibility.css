@@ -233,7 +233,7 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
  */
 [role=tablist] {
   margin: unset;
-  padding: 1ch 1ch 0;
+  padding: 0 .5ch;
   text-align: justify;
   background: rgba(255,255,255,0.6);
 
