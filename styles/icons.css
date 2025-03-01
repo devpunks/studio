@@ -200,8 +200,8 @@ li[data-icon]::before {
 
 [role] > summary::before { content: '▶' }
 [role][open] > summary::before { content: '▼' }
-[role=tree] > summary::before  { content: '⊞' }
-[role=tree][open] > summary::before  { content: '⊟' }
+[role=tree] > summary::before  { content: '⊞' '📁' }
+[role=tree][open] > summary::before  { content: '⊟' '📂' }
 [role$=group] > summary::before { content: '➕' }
 [role$=group][open] > summary::before { content: '➖' }
 :is( [role=none], [role=presentation], [open][role=none], [open][role=presentation] )
