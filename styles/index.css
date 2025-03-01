@@ -863,6 +863,7 @@ li[data-icon]::before {
   justify-content: flex-start;
   justify-content: unset;
 }
+[role=toolbar] li {}
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
   li { min-width: fit-content }
 menu, [role=menu], [role=toolbar] {
