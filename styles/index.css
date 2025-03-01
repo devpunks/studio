@@ -864,7 +864,6 @@ menu, [role=menu], [role=toolbar] {
 [role=tree] li {
   padding: 0;
   display: list-item;
-  list-style-position: outside;
   line-height: unset;
 }
 [role=toolbar] {
