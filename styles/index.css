@@ -693,7 +693,11 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
   color: inherit;
   font-size: inherit;
 }
-ul {}
+dl {
+  background: unset;
+  counter-reset: term 0
+}
+dt { counter-reset: definition 0 }
 ol { list-style-position: inside }
 ol[type='1'] { list-style-type: decimal-leading-zero }
 ol::before {}
