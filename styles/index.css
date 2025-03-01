@@ -814,7 +814,6 @@ li[data-icon]::before {
   margin: unset;
   flex-wrap: wrap;
   max-width: unset;
-  /* justify-items: left; */
   flex-direction: var(--flex-direction);
   background:red;
   border: .1ch solid;
