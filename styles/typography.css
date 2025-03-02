@@ -1014,9 +1014,7 @@ summary {
   font-size: larger;
   font-weight: bolder;
 }
-[name] > summary {
-  font-weight: 600;
-}
+[name] > summary { font-weight: 600 }
 summary::before, summary::after {
   margin: 0 .5ch 0 0;
   text-align: center;
