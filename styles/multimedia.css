@@ -79,8 +79,6 @@ audio:hover, video:hover, iframe[src*=youtube]:hover {
 img, svg {}
 /* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
 svg {
-  /* width: 100%; */
-  /* height: 100%; */
   background: inherit;
 }
 svg image {
