@@ -84,8 +84,8 @@ svg {
   background: inherit;
 }
 svg image {
-  width:  inherit;
-  height: inherit;
+  height: 100%;
+  margin: 0 auto;
 }
 
 p img , p svg {
