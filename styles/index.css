@@ -398,6 +398,10 @@ summary {
   cursor: s-resize;
   background-color: CanvasText;
 }
+details[name] { counter-increment: details }
+details[name]:first-of-type { counter-reset: details 0 }
+details[name] > summary { cursor: pointer }
+details[name] > summary::before { content: counter(details) '.' }
 [role]:not( [role=menu], [role=toolbar] )
   > summary {
     color: unset;
