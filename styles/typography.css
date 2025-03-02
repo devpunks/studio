@@ -1063,7 +1063,10 @@ legend {
 
 
 /* SVG ================================================================== */
-svg { vertical-align: middle }
+svg {
+  margin: 0 auto;
+  vertical-align: middle;
+}
 text{
   text-anchor: middle;
   dominant-baseline: middle;
