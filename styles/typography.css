@@ -1024,6 +1024,12 @@ summary {
   font-size: larger;
   font-weight: bolder;
 }
+summary::before, summary::after {
+  margin: 0 .5ch 0 0;
+  text-align: center;
+  line-height: normal;
+  vertical-align: middle;
+}
 [name] > summary {
   padding: 1ch;
   color: unset;
