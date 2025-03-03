@@ -396,9 +396,6 @@ details[open] {}
 details[name] { counter-increment: details }
 details[name]:first-of-type { counter-reset: details 0 }
 details :is( details, dl, ol, ul ) {}
-details details {
-  
-}
 summary {
   color: Canvas;
   cursor: s-resize;
@@ -424,6 +421,13 @@ details[role] summary::before { cursor: pointer }
 details:is( [role=menu], [role=menubar], [role=toolbar] )[open]
   summary { border-bottom: .1ch solid }
 
+details[role=tree] :is( details ) {
+  outline: none;
+  display: inline-block;
+}
+details[role=tree] :is( dl, ol, ul, menu ) {
+  border-left: .1ch solid;
+}
 
 /* Navigations ==================================================================
  *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role
