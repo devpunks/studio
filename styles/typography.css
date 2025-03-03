@@ -1014,7 +1014,13 @@ summary {
   font-size: larger;
   font-weight: bolder;
 }
-[name] > summary {padding: 1ch;color: unset;display: block;background: unset;font-weight: 600}
+[name] > summary {
+  padding: 1ch;
+  color: unset;
+  display: block;
+  background: unset;
+  font-weight: 600;
+}
 summary::before, summary::after {
   margin: 0 .5ch 0 0;
   text-align: center;
