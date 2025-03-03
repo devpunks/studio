@@ -236,7 +236,10 @@ dl[itemscope]::after {
   clear: both;
 }
 dl[itemscope] dt, dd {
-  display:inline-block;
+  display: block;
+  line-height: 1.68em;
+  margin: unset;
+  width: fit-content;
 }
 dl[itemscope] dt {
   float: left;
