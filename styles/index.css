@@ -751,7 +751,7 @@ ul > li::after {}
   width: 100%;
   flex-basis: 100%;
   display: list-item;
-  list-style-type: none;
+  /* list-style-type: none; */
   border-bottom: 0.1ch solid;
 }
 dl[aria-label]::before { text-transform: unset }
