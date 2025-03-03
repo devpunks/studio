@@ -249,4 +249,5 @@ dl[itemscope] dd {
   display: inline-block;
   background: blue;
   clear: both;
+  margin: unset;
 }
