@@ -754,6 +754,15 @@ ul > li::after {}
   /* list-style-type: none; */
   border-bottom: 0.1ch solid;
 }
+:is( [role=feed] ):is( [aria-label], [data-icon] )::before {
+  color: Canvas;
+  background: CanvasText;
+  border-bottom: unset;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  font-size: large;
+}
 dl[aria-label]::before { text-transform: unset }
 li[data-icon]::before {
 }
