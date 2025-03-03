@@ -1001,7 +1001,14 @@ details { /* details */
 details[open] { padding-bottom: 1ch }
 details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [role=tree] )
   { padding-bottom: unset }
-:is( [role=none], [role=tree], [role=menu], [role=toolbar] ) summary { font-weight: normal }
+details:is( [role=none], [role=tree], [role=menu], [role=toolbar] )
+  summary { font-weight: normal }
+details[role=tree] details {
+  padding: u;
+  margin-left: -1ch;
+  vertical-align: top;
+}
+details[role=tree][open] details { padding-bottom: unset }
 nav details, nav summary {
   margin: var(--margin-collapse-bugfix) auto;
   padding: var(--margin-collapse-bugfix) auto;
