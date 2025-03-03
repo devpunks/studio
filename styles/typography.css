@@ -1013,8 +1013,7 @@ nav details, nav summary {
   margin: var(--margin-collapse-bugfix) auto;
   padding: var(--margin-collapse-bugfix) auto;
 }
-body > header details { padding-left: 0 }
-nav  details {}
+nav details {}
 nav > details[open] {
   list-style-type: '😊';
   padding-block-end: 1ch;
