@@ -246,6 +246,7 @@ dl[itemscope] dt {
   float: left;
 }
 dl[itemscope] dd {
-  float: left;
+  display: inline-block;
+  background: blue;
   clear: both;
 }
