@@ -999,7 +999,7 @@ details { /* details */
   text-align: start;
 }
 details[open] { padding-bottom: 1ch }
-details[open]:is( [role=menu], [role=menubar], [role=toolbar ])
+details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [role=tree] )
   { padding-bottom: unset }
 :is( [role=none], [role=tree], [role=menu], [role=toolbar] ) summary { font-weight: normal }
 nav details, nav summary {
