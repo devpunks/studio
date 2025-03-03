@@ -232,6 +232,9 @@ dl[itemscope] {
 dl[itemscope]::after {
   clear: both;
 }
+dl[itemscope]::after {
+  clear: both;
+}
 dl[itemscope] dt, dd {
   display:inline-block;
 }
