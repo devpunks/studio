@@ -413,6 +413,7 @@ details[name] > summary::before { content: counter(details) '.' }
   background: green;
 }
 [open] > summary { cursor: n-resize }
+[role=tree] summary { display: block }
 [role] > summary::before { cursor: pointer }
 :is( [role=menu], [role=menubar], [role=toolbar] )[open]
   > summary { border-bottom: .1ch solid }
