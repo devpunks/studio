@@ -404,25 +404,6 @@ summary {
   cursor: s-resize;
   background: CanvasText;
 }
-details[name] { counter-increment: details }
-details[name]:first-of-type { counter-reset: details 0 }
-details[name] > summary { cursor: pointer }
-details[name] > summary::before { content: counter(details) '.' }
-[role]:not( [role=menu], [role=toolbar] )
-  > summary {
-    color: unset;
-    background-color: unset;
-}
-[role] > summary {
-  width: 100%;
-  display: block;
-  background: green;
-}
-[open] > summary { cursor: n-resize }
-[role=tree] summary { display: block }
-[role] > summary::before { cursor: pointer }
-:is( [role=menu], [role=menubar], [role=toolbar] )[open]
-  > summary { border-bottom: .1ch solid }
 summary::marker, /* Latest Chrome, Edge, Firefox */
 summary::-webkit-details-marker /* Safari */
   { display: none } /* https://stackoverflow.com/a/66814239 */
