@@ -125,7 +125,7 @@ q::before { content: '🗣️' open-quote }
 q::after  { content: close-quote }
 
 [data-icon]::before { content: attr(data-icon) }
-:is( dl, ol, ul, menu ):is( [aria-label], [data-icon] )::before {
+:is( dl, ol, ul, menu, [role=feed] ):is( [aria-label], [data-icon] )::before {
   content: attr(data-icon) ' ' attr(aria-label);
   /* list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
