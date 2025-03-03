@@ -884,7 +884,7 @@ menu, [role=menu], [role=toolbar] {
   display: block;
   list-style: disc;
   border-left: .1ch solid;
-  list-style-position: outside;
+  list-style-position: inside;
 }
 [role=tree] li {
   padding: 0;
