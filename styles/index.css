@@ -407,7 +407,7 @@ details[name] > summary::before { content: counter(details) '.' }
     color: unset;
     background-color: unset;
 }
-[role] summary {
+[role] > summary {
   width: 100%;
   display: block;
   background: green;
