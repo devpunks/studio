@@ -393,6 +393,12 @@ blockquote::after {
 /* https://nerdy.dev/open-and-close-transitions-for-the-details-element */
 details { outline: 0.1ch solid }
 details[open] {}
+details[name] { counter-increment: details }
+details[name]:first-of-type { counter-reset: details 0 }
+details :is( details, dl, ol, ul ) {}
+details details {
+  
+}
 summary {
   color: Canvas;
   cursor: s-resize;
