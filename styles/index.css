@@ -396,7 +396,7 @@ details[open] {}
 summary {
   color: Canvas;
   cursor: s-resize;
-  background-color: CanvasText;
+  background: CanvasText;
 }
 details[name] { counter-increment: details }
 details[name]:first-of-type { counter-reset: details 0 }
