@@ -229,6 +229,9 @@ table td::after  { content: '<' }
 dl[itemscope] {
   background: green;
 }
+dl[itemscope]::after {
+  clear: both;
+}
 dl[itemscope] dt, dd {
   display:inline-block;
 }
