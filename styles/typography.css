@@ -1037,12 +1037,6 @@ summary::before, summary::after {
   background: unset;
   font-weight: 600;
 }
-summary::before, summary::after {
-  margin: 0 .5ch 0 0;
-  text-align: center;
-  line-height: normal;
-  vertical-align: middle;
-}
 
 
 
