@@ -911,10 +911,7 @@ dd > :is( dl, ol, ul ) {
   max-width: unset;
   background: inherit;
 }
-details :is( details, dl, ol, ul ) {}
-[role=tree] :is( dl, ol, ul, menu ) {
-  border-left: .1ch solid;
-}
+
 
 nav > dl::before, nav > ol::before, nav > ul::before ,
 nav > dl::after, nav > ol::after, nav > ul::after  {
