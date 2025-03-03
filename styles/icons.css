@@ -241,4 +241,5 @@ dl[itemscope] dt {
 }
 dl[itemscope] dd {
   float: left;
+  clear: both;
 }
