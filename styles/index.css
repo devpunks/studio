@@ -409,6 +409,20 @@ summary::-webkit-details-marker /* Safari */
   { display: none } /* https://stackoverflow.com/a/66814239 */
 summary::before, summary::after
   { min-width: initial }
+[open] > summary { cursor: n-resize }
+details:is( [name], [role] ) summary {
+  color: unset;
+  background: unset;
+}
+[name] > summary { cursor: pointer }
+[name] > summary::before { content: counter(details) '.' }
+details[role] summary {
+  width: 100%;
+  display: block;
+}
+details[role] summary::before { cursor: pointer }
+details:is( [role=menu], [role=menubar], [role=toolbar] )[open]
+  summary { border-bottom: .1ch solid }
 
 
 /* Navigations ==================================================================
