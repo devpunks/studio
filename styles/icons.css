@@ -243,6 +243,7 @@ dl[itemscope] dt, dd {
 }
 dl[itemscope] dt {
   clear: both;
+  float: left;
 }
 dl[itemscope] dd {
   float: left;
