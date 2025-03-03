@@ -232,3 +232,7 @@ dl[itemscope] {
 dl[itemscope] dt, dd {
   display:inline-block;
 }
+dl[itemscope] dt {
+  float: left;
+  clear: both;
+}
