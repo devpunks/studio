@@ -225,3 +225,10 @@ table th::before, table th::after
   { content: 'th' }
 table td::before { content: '>' }
 table td::after  { content: '<' }
+
+dl[itemscope] {
+  background: green;
+}
+dl[itemscope] dt, dd {
+  display:inline-block;
+}
