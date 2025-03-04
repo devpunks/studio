@@ -233,15 +233,7 @@ dl[itemscope] {
   /* display: grid; */
   /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
 }
-dl[itemscope]::after {
-  clear: both;
-}
-dl[itemscope]::after {
-  clear: both;
-}
-dl[itemscope] dt, dd {
-  display: block;
-  line-height: 1.68em;
+dl[itemscope] :is( dt, dd ) {
   margin: unset;
   width: fit-content;
 }
