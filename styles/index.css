@@ -723,7 +723,7 @@ dt, dd, li {
   -webkit-user-select: all;
           user-select: all;
 }
-dt { background: red }
+dt {}
 dd {
   background: inherit;
   border-radius: inherit;
