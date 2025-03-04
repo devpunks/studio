@@ -227,7 +227,11 @@ table td::before { content: '>' }
 table td::after  { content: '<' }
 
 dl[itemscope] {
-  background: green;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: var(--flex-direction);
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
 }
 dl[itemscope]::after {
   clear: both;
