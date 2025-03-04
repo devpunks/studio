@@ -650,6 +650,7 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
 [role=tree] :is( dl, ol, ul, menu ) {
   margin: 0;
   /* margin: auto; */
+  margin-left: .68ch;
   border-left: .1ch solid;
 }
 nav > :is( dl, ol, ul ) {
