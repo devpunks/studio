@@ -252,8 +252,5 @@ dl[itemscope] dt::after {
   vertical-align: baseline;
 }
 dl[itemscope] dd {
-  display: inline-block;
-  background: blue;
-  clear: both;
-  margin: unset;
+  flex-basis: 70%;
 }
