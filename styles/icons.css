@@ -241,7 +241,7 @@ dl[itemscope] :is( dt, dd ) {
 }
 dl[itemscope] dt {
   flex-basis: 30%;
-  text-align: right;
+  /* text-align: right; */
   text-transform: capitalize;
   -webkit-user-select: none;
           user-select: none;
