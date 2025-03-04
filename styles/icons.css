@@ -240,8 +240,16 @@ dl[itemscope] :is( dt, dd ) {
   border-bottom: .1ch solid;
 }
 dl[itemscope] dt {
-  clear: both;
-  float: left;
+  flex-basis: 30%;
+  text-align: right;
+  text-transform: capitalize;
+  -webkit-user-select: none;
+          user-select: none;
+}
+dl[itemscope] dt::after {
+  content: ':';
+  font-size: larger;
+  vertical-align: baseline;
 }
 dl[itemscope] dd {
   display: inline-block;
