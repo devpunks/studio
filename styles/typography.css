@@ -1005,8 +1005,8 @@ details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [rol
 details:is( [role=none], [role=tree], [role=menu], [role=toolbar] )
   summary { font-weight: normal }
 details[role=tree] details {
-  padding: u;
-  margin-left: -1ch;
+  padding: unset;
+  margin-left: 0ch;
   vertical-align: top;
 }
 details[role=tree][open] details { padding-bottom: unset }
