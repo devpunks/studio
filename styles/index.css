@@ -888,6 +888,7 @@ menu, [role=menu], [role=toolbar] {
 }
 [role=tree] li {
   padding: 0;
+  padding-left: 1ch;
   display: list-item;
   line-height: unset;
 }
