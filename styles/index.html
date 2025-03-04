@@ -1320,12 +1320,12 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <header>Description List <code>&lt;dl <var>itemscope</var>&gt;</code></header>
 
       <dl itemscope id=1 itemid=1 itemtype=http://schema.org/Person><!-- https://schema.org/docs/schemas.html -->
-        <dt itemprop=givenName>name</dt> <dd>John</dd>
-        <dt itemprop=familyName>surname</dt><dd>Doe</dd>
-        <dt itemprop=email>email</dt> <dd>foo@bar.com</dd>
-        <dt itemprop=birthDate>birth</dt> <dd><time>January 1st, 2000</time></dd>
-        <dt>status</dt> <dd><data value=1 title=active>active</data></dd>
-        <dt itemprop=description>description</dt> <dd>The quick brown fox jumped over the lazy dog.</dd>
+        <dt>name</dt><dd itemprop=givenName>John</dd>
+        <dt>surname</dt><dd itemprop=familyName>Doe</dd>
+        <dt>email</dt><dd itemprop=email>foo@bar.com</dd>
+        <dt>birth</dt><dd itemprop=birthDate><time>January 1st, 2000</time></dd>
+        <dt>status</dt><dd><data value=1 title=active>active</data></dd>
+        <dt>description</dt><dd itemprop=description>The quick brown fox jumped over the lazy dog.</dd>
       </dl>
 
       <header>Description List</header>
