@@ -235,7 +235,9 @@ dl[itemscope] {
 }
 dl[itemscope] :is( dt, dd ) {
   margin: unset;
-  width: fit-content;
+  font-size: large;
+  line-height: 1.68em;
+  border-bottom: .1ch solid;
 }
 dl[itemscope] dt {
   clear: both;
