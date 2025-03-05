@@ -754,7 +754,7 @@ ul > li::after {}
 ol > li::after {}
 ul > li::after {}
 
-:is( dl, ol, ul, menu, [role=feed] ):where( [aria-label], [data-icon] )::before {
+:is( dl, ol, ul, menu, , [itemscope], [role=feed] )::before {
   width: 100%;
   flex-basis: 100%;
   display: list-item;
