@@ -349,7 +349,9 @@ pre {
   box-shadow: 0 0 0.618ch;
 }
 
-math {
+math, [role=math] {
+  /* float: unset; */
+  margin: 0 1e 1ch;
   width: fit-content;
   math-style: compact;
   display: inline-block;
