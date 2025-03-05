@@ -761,7 +761,9 @@ ul > li::after {}
   /* list-style-type: none; */
   border-bottom: 0.1ch solid;
 }
-:is( [role=feed] ):is( [aria-label], [data-icon] )::before {
+[role=feed]::before {
+  top: 0;
+  z-index: 1;
   color: Canvas;
   background: CanvasText;
   border-bottom: unset;
