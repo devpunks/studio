@@ -795,6 +795,7 @@ samp > kbd::before { font-size: 1.68em }
 
 math, [role=math] {
   padding: 0.5ch;
+  vertical-align: middle;
 }
 math[display=inline] {}
 math[display=block] {
