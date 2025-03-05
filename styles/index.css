@@ -765,8 +765,6 @@ ul > li::after {}
   top: 0;
   z-index: 1;
   color: Canvas;
-  background: CanvasText;
-  border-bottom: unset;
   position: sticky;
   z-index: 1;
   top: 0;
