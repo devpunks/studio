@@ -793,7 +793,7 @@ pre > samp kbd {
 samp {}
 samp > kbd::before { font-size: 1.68em }
 
-math {
+math, [role=math] {
   padding: 0.5ch;
 }
 math[display=inline] {}
