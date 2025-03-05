@@ -563,7 +563,7 @@ ul > li::after {}
 :is( [role=toolbar], [role=menubar] )
   li { margin: unset }
 
-:is( dl, ol, ul, menu, [role=feed] ):is( [aria-label], [data-icon] )::before {
+:is( dl, ol, ul, menu, [itemscope], [role=feed] )::before {
   margin: 0;
   padding: .25ch;
   font-size: inherit;
