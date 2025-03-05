@@ -258,3 +258,8 @@ dl[itemscope] dt::after {
 dl[itemscope] dd {
   flex-basis: 70%;
 }
+
+[role=math] {
+  margin: 0 auto;
+  background: CanvasText;
+}
