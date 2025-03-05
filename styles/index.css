@@ -766,9 +766,7 @@ ul > li::after {}
   z-index: 1;
   color: Canvas;
   position: sticky;
-  z-index: 1;
-  top: 0;
-  font-size: large;
+  background: CanvasText;
 }
 dl[aria-label]::before { text-transform: unset }
 li[data-icon]::before {
