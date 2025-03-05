@@ -91,6 +91,7 @@ p img , p svg {
   object-fit: cover;
   margin: 0 1em 1em;
   padding-block-start: 0;
+  vertical-align: text-top;
 }
 a img {
   margin: 0;
