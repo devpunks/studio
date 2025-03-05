@@ -125,6 +125,9 @@ code > dfn::before { content: '' }
 q::before { content: '🗣️' open-quote }
 q::after  { content: close-quote }
 
+samp > kbd::before { content: '$' }
+
+[itemscope]::before { content: '🆔' attr(itemid) }
 [data-icon]::before { content: attr(data-icon) }
 :is( dl, ol, ul, menu, [role=feed] ):is( [aria-label], [data-icon] )::before {
   content: attr(data-icon) ' ' attr(aria-label);
