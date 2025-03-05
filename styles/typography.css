@@ -695,6 +695,7 @@ ins::before { content: '+' }
 em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */ }
 b, strong { font-weight: bolder }
 b {}
+strong {}
 
 /* https://edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why */
 /* 16x0.81=13 */
