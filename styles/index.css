@@ -856,8 +856,6 @@ dt[role=term] {
   system: fixed 3;
   system: extends decimal;
   */
-  system: extends decimal-leading-zero;
-  fallback: decimal-leading-zero; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
 }
 @counter-style ordered {
   pad: '0' 2; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
