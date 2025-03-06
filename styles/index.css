@@ -537,7 +537,6 @@ table td {
           user-select: all; /* https://caniuse.com/mdn-css_properties_user-select_text */
 }
 table td:empty { border: none }
-
 table > caption {
   /* top: 0; */
   /* position: sticky; */
