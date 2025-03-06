@@ -212,8 +212,7 @@ header, h1, h2, h3, h4, h5, h6 {
   opacity: 25%;
   overflow:hidden;
   max-width: 1.68em;
-  display: inline-block;
-  border-radius: 0.68ch;
+  /* display: inline-block; */
   background-color: inherit;
 }
 :where( header, h1, h2, h3, h4, h5, h6 )[id]:hover::before
