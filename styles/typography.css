@@ -915,6 +915,13 @@ sub {
   top: 0.418em;
   position: relative;
 }
+ruby {
+  margin: 1ch;
+  text-align: center;
+  font-size: xx-large;
+  padding: 1.68ch 1ch;
+}
+[role=math] { margin: 0 auto }
 
 address {
   font-size: larger;
