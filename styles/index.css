@@ -823,7 +823,6 @@ dd > :is( dl, ol, ul ) {
   background: inherit;
 }
 
-
 nav > dl::before, nav > ol::before, nav > ul::before ,
 nav > dl::after, nav > ol::after, nav > ul::after  {
   margin: 1ch;
