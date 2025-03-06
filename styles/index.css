@@ -402,6 +402,7 @@ summary::before, summary::after
 [open] > summary { cursor: n-resize }
 details:is( [name], [role] ) summary {
   color: unset;
+  display: block;
   background: unset;
 }
 [name] > summary { cursor: pointer }
