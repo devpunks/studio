@@ -513,7 +513,6 @@ table::before, table::after {
 }
 table::before { border-radius: 1ch 1ch 0 0 }
 table::after  { border-radius: 0 0 1ch 1ch }
-
 table tr { display: flex }
 table tr > * {
   flex-grow: 1;
