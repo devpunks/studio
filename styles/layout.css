@@ -167,7 +167,8 @@ body > * { /* all immediate children of <body> */
   max-width: var(--max-width);
 }
 
-body > header, body > nav, body > main, body > aside, body > footer {}
+body > header, body > nav, body > main, body > aside, body > footer
+  {}
 
 /* https://css-tricks.com/almanac/properties/b/background-blend-mode */
 body > header { container: header }
