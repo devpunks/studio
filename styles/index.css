@@ -342,8 +342,7 @@ pre {
 }
 
 math, [role=math] {
-  /* float: unset; */
-  margin: 0 1e 1ch;
+  margin: 0 1em 1ch;
   width: fit-content;
   math-style: compact;
   display: inline-block;
