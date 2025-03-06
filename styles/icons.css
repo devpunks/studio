@@ -241,34 +241,3 @@ body > nav > details::after { content: '🍔' }
 body > nav > details > summary::before,
 body > nav > details > summary::after
   { content: '☰Menu' }
-
-
-nav > details > ul { margin: unset }
-nav > details { padding: unset }
-body > nav > details::after {
-    font-size: 25vh;
-    text-align: center;
-    line-height: 100vh;
-
-    top: 0;
-    z-index: -1;
-    opacity: 75%;
-    display: none;
-    width: inherit;
-    position: fixed;
-    background: inherit;
-     /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
-    -webkit-backdrop-filter: blur(19px);
-            backdrop-filter: blur(19px);
-}
-body > nav > details[open]::after { display: block }
-
-body > nav > details > summary {
-  margin: unset;
-  cursor: pointer;
-
-  /* clip-path: inset(0px 244px 1px 170px); */
-
-  &::after  { float: right }
-}
-body > nav > details > summary::before { float: left }
