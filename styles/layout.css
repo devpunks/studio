@@ -201,7 +201,9 @@ body > nav > details::after {
     background: inherit;
      /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
     -webkit-backdrop-filter: blur(19px);
-            backdrop-filter: blur(19px);
+    backdrop-filter: blur(19px);
+    width: -moz-available;
+    width: -webkit-fill-available;
 }
 body > nav > details[open]::after { display: block }
 
