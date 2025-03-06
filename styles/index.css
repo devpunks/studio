@@ -384,7 +384,7 @@ blockquote::after {
 
 /* http://html5doctor.com/the-details-and-summary-elements */
 /* https://nerdy.dev/open-and-close-transitions-for-the-details-element */
-details { outline: 0.1ch solid }
+details {}
 details[open] {}
 details[name] { counter-increment: details }
 details[name]:first-of-type { counter-reset: details 0 }
