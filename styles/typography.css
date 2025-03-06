@@ -937,13 +937,6 @@ body > footer address, [contentinfo] address {
 }
 article address {}
 
-ruby {
-  margin: 1ch;
-  text-align: center;
-  font-size: xx-large;
-  padding: 1.68ch 1ch;
-}
-
 article { margin: 0 .5ch .5ch }
 
 
