@@ -179,6 +179,7 @@ body > nav {
   container: nav;
   position: sticky;
 }
+
 @container nav ( orientation: landscape ) {}
 body > main { container: main }
 @container main ( orientation: landscape ) {}
