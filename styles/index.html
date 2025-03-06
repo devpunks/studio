@@ -94,6 +94,30 @@
         </ul>
     </ul>
   </nav>
+</section>
+
+<section id=tabs>
+<!--
+  - https://codepen.io/aardrian/pen/kdGMVx
+  - https://w3.org/TR/wai-aria-1.2/#tab
+  - https://w3.org/TR/wai-aria-1.2/#tablist
+  - https://w3.org/TR/wai-aria-1.2/#toolbar
+  - https://adrianroselli.com/2013/02/aria-tabs.html
+  - https://scottohara.me/blog/2019/07/10/the-output-element.html
+  - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual
+  - https://w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic
+  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tablist_role
+  - (Mobile) https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html
+-->
+  <menu role=tablist>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tab_role -->
+    <li role=tab>
+      <a title='Tab 1'aria-controls=view:1 aria-selected=false href=#view:1>Tab 1</a>
+    <li role=tab aria-selected=true>
+      <a aria-disabled=true title='Tab 2' tabindex='-1'aria-selected=true aria-controls=view:2 href=#view:2>Tab 2</a>
+    <li role=tab>
+      <a title='Tab 3' aria-controls=view:3 aria-selected=false href=#view:3>Tab 3</a>
+  </menu>
 
 <nav hidden aria-label=Main>
 <!--
