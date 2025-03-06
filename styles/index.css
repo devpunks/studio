@@ -831,12 +831,10 @@ nav > dl::after, nav > ol::after, nav > ul::after  {
   text-indent: 1ch;
   background: inherit;
 }
-aside dl, aside dl > *,
-aside ol, aside ol > *,
-aside ul, aside ul > *,
-footer dl, footer dl > *,
-footer ol, footer ol > *,
-footer ul, footer ul > *
+aside :is( dl, ol, ul ),
+footer :is( dl, ol, ul ),
+aside :is( dl, ol, ul ) > *,
+footer :is( dl, ol, ul ) > *
   { background: inherit }
 ul[role=none] { width: calc( 100% - 1ch ) }
 dd[role=definition] { counter-increment: definition }
