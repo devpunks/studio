@@ -667,16 +667,6 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
   margin-left: .68ch;
   border-left: .1ch solid;
 }
-nav > :is( dl, ol, ul ) {
-  margin: var(--margin-collapse-bugfix) 0;
-  padding: var(--margin-collapse-bugfix) 0;
-}
-nav dd, nav li {}
-nav dt + dd, nav li li:first-of-type
-  { margin-top: 0 }
-details > dl, details > dd,
-details > ol li, details > ul li {}
-nav > details > ul {}
 
 
 
