@@ -460,15 +460,6 @@ nav li:hover::before, nav li:focus-within::before { background: red }
 
 small {}
 body > footer small { opacity: 0.68 }
-article address, body > footer address, [contentinfo] address {
-  background: Canvas;
-  border-radius: 0.68ch;
-}
-body > footer address, [contentinfo] address {
-  border-radius: 0;
-}
-address { background: red }
-article address {}
 
 ruby {
   color: CanvasText;
