@@ -600,7 +600,6 @@ tbody tr:hover td:not(:hover) { opacity: 50% }
 */
 ::marker {
   color: inherit;
-  font-size: inherit;
 }
 dl {
   background: unset;
