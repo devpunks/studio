@@ -173,11 +173,6 @@ body > nav {
   background: Canvas;
   box-shadow: var(--box-shadow);
 }
-body > nav::before {
-  /* cursor: pointer; */
-  /* font-size: xxx-large; */
-}
-
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
 body > footer {
