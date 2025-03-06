@@ -348,7 +348,6 @@ body > header {
 body > nav {
   margin: 0 auto;
   text-align: left;
-  margin: var(--margin-collapse-bugfix) 0 1ch;
 }
 body > nav::before {
   /* padding: 0.5ch; */
