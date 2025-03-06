@@ -707,7 +707,6 @@ p {
   font: inherit;
   padding: 0 0.5em;
   text-align: start;
-  font-size: inherit;
   line-height: inherit;
   max-width: var(--line-length);
   display: flow-root; /* https://css-tricks.com/display-flow-root */
