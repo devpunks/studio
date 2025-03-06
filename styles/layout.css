@@ -189,7 +189,6 @@ body > footer {
   /* position: sticky; */
   container: footer;
 }
-@media ( orientation: landscape ) {}
 @container footer ( orientation: landscape ) {}
 
 /* https://css-tricks.com/almanac/properties/i/isolation */
