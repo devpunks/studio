@@ -198,6 +198,7 @@ body > nav > details::after {
     z-index: -1;
     opacity: 75%;
     display: none;
+    width: inherit;
     position: fixed;
     background: inherit;
      /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
