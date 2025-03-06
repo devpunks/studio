@@ -435,8 +435,8 @@ body > a[href='#main'] { z-index: 1 }
 
 nav {}
 nav > details > ul {
-  margin: unset;
-  width: inherit;
+  width: auto;
+  max-width: unset;
   display: list-item;
   position: relative;
 }
