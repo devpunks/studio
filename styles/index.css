@@ -445,8 +445,6 @@ nav > details > ul li li:hover { list-style-type: '➯' }
 nav li {
   display: flex;
   background: inherit;
-  align-items: center;
-  justify-content: space-between;
 }
 nav li::before, nav li::after {
   content: '\2009';
