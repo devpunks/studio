@@ -394,9 +394,9 @@ summary {
   cursor: s-resize;
   background: CanvasText;
 }
-summary::marker, /* Latest Chrome, Edge, Firefox */
-summary::-webkit-details-marker /* Safari */
-  { display: none } /* https://stackoverflow.com/a/66814239 */
+:is( [name], [role] ) > summary::-webkit-details-marker {
+  display:none;
+}
 summary::before, summary::after
   { min-width: initial }
 [open] > summary { cursor: n-resize }
