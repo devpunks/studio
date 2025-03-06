@@ -843,6 +843,8 @@ dt[role=term] {
   suffix: ') '; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix */
   system: numeric; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system */
   symbols: "0" "1" "2" "4" "5" "6" "7" "8" "9";
+  system: extends decimal-leading-zero;
+  fallback: decimal-leading-zero; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback */
 /*
   system: cyclic;
   system: numeric;
