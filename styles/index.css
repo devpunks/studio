@@ -532,7 +532,6 @@ table th {
   background: inherit;
 }
 table th:empty { border: none }
-
 table td {
   -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
           user-select: all; /* https://caniuse.com/mdn-css_properties_user-select_text */
