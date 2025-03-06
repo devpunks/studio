@@ -225,6 +225,7 @@ table > caption::before, table > caption::after
   { content: '🗨' }
 table tr::before, table tr::after
   { content: 'tr' }
+tbody tr:hover::after  { content: '◀' }
 table th::before, table th::after
   { content: 'th' }
 table td::before { content: '>' }
