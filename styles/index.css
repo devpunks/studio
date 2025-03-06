@@ -378,6 +378,7 @@ blockquote::after {
 
 /* http://html5doctor.com/the-details-and-summary-elements */
 /* https://nerdy.dev/open-and-close-transitions-for-the-details-element */
+
 details {}
 details[open] {}
 details[name] { counter-increment: details }
