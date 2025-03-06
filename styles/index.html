@@ -119,7 +119,13 @@
       <a title='Tab 3' aria-controls=view:3 aria-selected=false href=#view:3>Tab 3</a>
   </menu>
 
-<nav hidden aria-label=Main>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tabpanel_role -->
+  <main role=tabpanel id=view:1 tabindex=-1>View 1</main>
+  <main role=tabpanel id=view:2 tabindex=0 aria-selected=true>View 2</main>
+  <main role=tabpanel id=view:3 tabindex=-1>View 3</main>
+</section>
+
+<nav aria-label=Main>
 <!--
   - https://web.dev/website-navigation
   - https://www.w3.org/TR/wai-aria-1.2/#directory
