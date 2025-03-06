@@ -212,7 +212,7 @@ nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
 [role=form], body form {}
 [role=main], body > main {}
 [role=banner], body > header {}
-[role=navigation], body > nav {/* outline: 1ch dashed yellow; */}
+[role=navigation], body > nav {}
 [role=contentinfo], body > footer {}
 [role=complementary], body > aside {}
 [role=search], form[role=search], search {}
