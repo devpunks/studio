@@ -217,11 +217,8 @@ header, h1, h2, h3, h4, h5, h6 {
 :where( header, h1, h2, h3, h4, h5, h6 )[id]:hover::before
   { opacity: 75% }
 
-h1 {
-  display: list-item;
-  counter-reset: header 0;
-}
-header { list-style-type: decimal-leading-zero }
+h1 {counter-reset: header 0;}
+header {/* list-style-type: decimal-leading-zero; */}
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ),
 :where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) {
   width: auto;
