@@ -396,7 +396,7 @@ header, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-indent: initial;
   white-space: nowrap;
-  padding-inline: 0.1618ch;
+  vertical-align: baseline;
 }
 :where( header, h1, h2, h3, h4, h5, h6 )::before {
   background: inherit;
