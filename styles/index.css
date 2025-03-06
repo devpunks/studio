@@ -802,6 +802,22 @@ dl, ol, ul {
   max-width: calc( 100% - 2ch );
   background: rgba( 255, 255, 255, 0.5 );
 }
+
+dl[itemscope] {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: var(--flex-direction);
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+}
+dl[itemscope] :is( dt, dd ) { border-bottom: .1ch solid }
+dl[itemscope] dt {
+  flex-basis: 30%;
+  -webkit-user-select: none;
+          user-select: none;
+}
+dl[itemscope] dd { flex-basis: 70% }
+
 dd > :is( dl, ol, ul ) {
   max-width: unset;
   background: inherit;
