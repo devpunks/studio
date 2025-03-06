@@ -1051,7 +1051,7 @@ summary::before, summary::after {
   background: unset;
   font-weight: 600;
 }
-
+body > nav > details > summary { margin: unset }
 
 
 /* Navigations ================================================================== */
