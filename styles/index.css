@@ -590,7 +590,6 @@ tbody tr::before {
   opacity: 0.3;
   content: counter(rows) '.';
 }
-tbody tr::after { content: '\2800' }
 tbody tr:hover  { outline: 0.2ch solid currentColor }
 tbody tr:hover::before { opacity: 1.0 }
 tbody tr:hover::after  { content: '◀' }
