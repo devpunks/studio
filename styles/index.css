@@ -171,6 +171,7 @@ body > header, body > nav, body > main, body > aside, body > footer {
 }
 body > header {}
 body > nav {
+  background: Canvas;
   box-shadow: var(--box-shadow);
 }
 body > nav::before {
