@@ -1017,7 +1017,6 @@ details[role=tree] details {
 }
 details[role=tree][open] details { padding-bottom: unset }
 nav details, nav summary {
-  margin: var(--margin-collapse-bugfix) auto;
   padding: var(--margin-collapse-bugfix) auto;
 }
 nav details {}
