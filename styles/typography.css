@@ -704,6 +704,7 @@ strong {}
 /* https://edgee.net/what-font-size-should-you-use-for-body-copy-text-and-why */
 /* 16x0.81=13 */
 p {
+  font: inherit;
   padding: 0 0.5em;
   text-align: start;
   font-size: inherit;
