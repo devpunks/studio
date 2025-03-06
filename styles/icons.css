@@ -263,7 +263,8 @@ dl[itemscope] dd {
   flex-basis: 70%;
 }
 
-
+nav li > a:link::before { content: '▸' }
+nav li > a:link::after { content: '' }
 body > nav li li :link::before { content: '📄'}
 body > nav li li :link:hover::before { content: '📝' }
 body > nav > details::after { content: '🍔' }
