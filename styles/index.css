@@ -440,13 +440,8 @@ nav > details > ul {
   display: list-item;
   position: relative;
 }
-nav > details > ul li li {
-  list-style: '➱' inside;
-}
-nav > details > ul li li:hover {
-  list-style-type: '➯';
-}
-
+nav > details > ul li li { list-style: '➱' inside }
+nav > details > ul li li:hover { list-style-type: '➯' }
 nav li {
   margin: 1ch;
   padding: 1ch;
