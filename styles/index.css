@@ -470,6 +470,17 @@ ruby {
   box-shadow: 0 0 .168ch;
   background-color: Canvas;
 }
+[role=math] { background: CanvasText }
+
+article address, body > footer address, [contentinfo] address {
+  background: Canvas;
+  border-radius: 0.68ch;
+}
+body > footer address, [contentinfo] address {
+  border-radius: 0;
+}
+address { background: red }
+article address {}
 
 article {}
 
