@@ -1019,7 +1019,7 @@ details[role=tree][open] details { padding-bottom: unset }
 nav details, nav summary {
   padding: var(--margin-collapse-bugfix) auto;
 }
-nav details {}
+nav details { margin: unset }
 nav > details[open] {
   list-style-type: '😊';
   padding-block-end: 1ch;
