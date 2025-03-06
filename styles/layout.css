@@ -182,8 +182,7 @@ body > nav {
 @container nav ( orientation: landscape ) {}
 body > main { container: main }
 @container main ( orientation: landscape ) {}
-body > aside { container: asidee }
-@media ( orientation: landscape ) {}
+body > aside { container: aside }
 @container aside ( orientation: landscape ) {}
 body > footer {
   bottom: 0;
