@@ -392,6 +392,7 @@ header, h1, h2, h3, h4, h5, h6 {
 }
 :where( header, h1, h2, h3, h4, h5, h6 )::before,
 :where( header, h1, h2, h3, h4, h5, h6 )::after {
+  padding: 0 0.5ch;
   text-align: center;
   white-space: nowrap;
   padding-inline: 0.1618ch;
