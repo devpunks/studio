@@ -434,27 +434,6 @@ details[role=tree] :is( dl, ol, ul, menu ) {
 body > a[href='#main'] { z-index: 1 }
 
 nav {}
-nav > * {}
-nav > details {
-  width: inherit;
-  outline-style: dotted;
-  margin-block: var(--margin-collapse-bugfix);
-
-  &::before, &::after {}
-  &::before {
-    text-indent: 1em;
-    display: list-item;
-    list-style-type:  '⚙️';
-    list-style-position: inside;
-    margin: var(--margin-collapse-bugfix) auto;
-  }
-
-  &[open] {
-    /* overflow-y: scroll; */
-  }
-}
-nav > details > summary::marker {}
-
 nav > details > ul {
   margin: unset;
   width: inherit;
