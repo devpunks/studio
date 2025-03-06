@@ -756,6 +756,7 @@ code, kbd, pre, samp, var, data {
   vertical-align: text-bottom;
 }
 code {
+  margin: 0 .1em;
   white-space: nowrap;
   vertical-align: middle;
 }
