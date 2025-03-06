@@ -1026,6 +1026,12 @@ nav > details { padding: unset }
 nav > details[open] {
   list-style-type: '😊';
 }
+body > nav > details::after {
+  font-size: 25vh;
+  text-align: center;
+  line-height: 100vh;
+}
+
 summary {
   margin: 0 -1ch;
   padding: 0 1ch;
