@@ -221,7 +221,6 @@ h1 { counter-reset: header 0 }
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ),
 :where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) {
   width: auto;
-  margin: 0 auto;
   color: CanvasText;
   line-height: 1.68em;
   max-width: calc( 100% - 2ch );
