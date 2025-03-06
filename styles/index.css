@@ -205,7 +205,8 @@ header, h1, h2, h3, h4, h5, h6 {
   width: -webkit-fill-available;
   counter-increment: header;
   list-style-position: inside;
-  list-style-type: upper-alpha; /* default */
+  /* list-style-type: upper-alpha; */ /* default */
+  list-style: inside decimal-leading-zero;
   list-style-type: header; /* overrides */
 }
 :where( header, h1, h2, h3, h4, h5, h6 )[id]::before {
