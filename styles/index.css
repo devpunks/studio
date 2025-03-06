@@ -429,6 +429,16 @@ details[role=tree] :is( dl, ol, ul, menu ) {
 body > a[href='#main'] { z-index: 1 }
 
 nav {}
+
+body > nav > details > summary {
+  cursor: pointer;
+
+  /* clip-path: inset(0px 244px 1px 170px); */
+
+  &::after  { float: right }
+}
+body > nav > details > summary::before { float: left }
+
 nav > details > ul {
   width: auto;
   max-width: unset;
