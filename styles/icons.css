@@ -230,38 +230,8 @@ table th::before, table th::after
 table td::before { content: '>' }
 table td::after  { content: '<' }
 
-
-
-
-
-dl[itemscope] {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: var(--flex-direction);
-  /* display: grid; */
-  /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
-}
-dl[itemscope] :is( dt, dd ) {
-  margin: unset;
-  font-size: large;
-  line-height: 1.68em;
-  border-bottom: .1ch solid;
-}
-dl[itemscope] dt {
-  flex-basis: 30%;
-  /* text-align: right; */
-  text-transform: capitalize;
-  -webkit-user-select: none;
-          user-select: none;
-}
-dl[itemscope] dt::after {
-  content: ':';
-  font-size: larger;
-  vertical-align: baseline;
-}
-dl[itemscope] dd {
-  flex-basis: 70%;
-}
+dl[itemscope] dt::after { content: ':' }
+dl[itemscope] dt::after { content: ':' }
 
 nav li > a:link::before { content: '▸' }
 nav li > a:link::after { content: '' }
