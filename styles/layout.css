@@ -192,6 +192,21 @@ body > footer {
 }
 @container footer ( orientation: landscape ) {}
 
+body > nav > details::after {
+    top: 0;
+    z-index: -1;
+    opacity: 75%;
+    display: none;
+    width: inherit;
+    position: fixed;
+    background: inherit;
+     /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
+    -webkit-backdrop-filter: blur(19px);
+            backdrop-filter: blur(19px);
+}
+body > nav > details[open]::after { display: block }
+
+
 /* https://css-tricks.com/almanac/properties/i/isolation */
 body > header, body > nav, body > main, body > aside, body > footer,
 dialog, figcaption, fieldset, form, label
