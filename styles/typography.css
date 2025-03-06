@@ -574,6 +574,17 @@ ul > li::after {}
   line-height: inherit;
   text-transform: capitalize;
 }
+dl[itemscope] {}
+dl[itemscope] :is( dt, dd ) {
+  margin: unset;
+  font-size: large;
+  line-height: 1.68em;
+}
+dl[itemscope] dt { text-transform: capitalize }
+dl[itemscope] dt::after {
+  font-size: larger;
+  vertical-align: baseline;
+}
 dd, dt {
   text-indent: inherit;
 }
