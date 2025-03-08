@@ -406,7 +406,6 @@ header, h1, h2, h3, h4, h5, h6 {
   { margin-inline-start: 0.5ch }
 h1 {
   font-size: 2em;
-  line-height: 2em;
 }
 header {
   /* http://webtypography.net/3.2.1 */
