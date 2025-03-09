@@ -73,55 +73,6 @@ fieldset {
   text-align: var(--tab-size);
   border: 0.168ch solid currentColor;
   background: rgba(255,255,255,0.1);
-
-  /* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
-  /* border: none; */
-  &[disabled] { opacity: 0.682 }
-
-  &:active, &:focus-within {
-    legend { color: CanvasText }
-  }
-  &::marker {
-    color: red;
-    content: 'M';
-  }
-  &::before, &::after {
-    color: Canvas;
-    font-size: 1.618ch;
-    font-weight: lighter;
-    display: list-item;
-    background: inherit;
-    content: 'fieldset';
-    list-style-type: '\2636';
-  }
-  &::before { margin-bottom: 1ch }
-  &::after { margin-top: 1ch }
-
-  legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets */
-    z-index: 2;
-    width: 100%;
-    top: 0.681ch;
-    color: Canvas;
-    display: flex;
-    border: inherit;
-    position: sticky;
-    background: inherit;
-    border-radius: inherit;
-
-    &::before, &::after {
-      flex: 1;
-      content: '\2009';
-      background: inherit;
-      align-self: stretch;
-    }
-    &::before {
-      color: red;
-      content: '❌';
-      text-align: end;
-      display: list-item;
-      list-style-type: '⚠️';
-    }
-  }
 }
 
 form details { padding: 0 }
