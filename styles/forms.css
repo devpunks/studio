@@ -74,6 +74,55 @@ fieldset {
   border: 0.168ch solid currentColor;
   background: rgba(255,255,255,0.1);
 }
+fieldset::before, fieldset::after {
+  color: Canvas;
+  font-size: 1.618ch;
+  font-weight: lighter;
+  display: list-item;
+  background: inherit;
+  content: 'fieldset';
+  list-style-type: '\2636';
+}
+fieldset::before { margin-bottom: 1ch }
+fieldset::after { margin-top: 1ch }
+fieldset:active legend, fieldset:focus-within legend
+ { color: CanvasText }
+/* THIS IS A BUG - https://bugs.chromium.org/p/chromium/issues/detail?id=375693 */
+/* border: none; */
+fieldset[disabled] { opacity: 0.682 }
+legend { /* https://thatemil.com/blog/2017/07/01/fixing-fieldsets */
+  z-index: 2;
+  width: 100%;
+  top: 0.681ch;
+  color: Canvas;
+  display: flex;
+  border: inherit;
+  position: sticky;
+  font-weight: bold;
+  background: inherit;
+  line-height: 1.682em;
+  margin-block: 1ch auto;
+  border-radius: inherit;
+  font-size: var(--larger);
+  font-variant-caps: small-caps;
+}
+legend::before, legend::after {
+  flex: 1;
+  content: '\2009';
+  text-align: center;
+  background: inherit;
+  align-self: stretch;
+  padding-inline: 0.5ch;
+}
+legend::before {
+  color: red;
+  content: '❌';
+  text-align: end;
+  display: list-item;
+  list-style-type: '⚠️';
+  margin-inline-end: 0.5ch;
+}
+legend::after { margin-inline-start: 0.5ch }
 
 form details { padding: 0 }
 
