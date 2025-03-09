@@ -1018,6 +1018,7 @@ details[role=tree] details {
 }
 details[role=tree][open] details { padding-bottom: unset }
 nav details, nav summary {
+  width: fit-content;
   padding: var(--margin-collapse-bugfix) auto;
 }
 nav details { margin: unset }
