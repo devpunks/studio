@@ -1060,39 +1060,6 @@ nav {}
 nav > * {}
 
 
-/* fieldset / legend */
-fieldset {}
-legend {
-  font-weight: bold;
-  line-height: 1.682em;
-  margin-block: 1ch auto;
-  font-size: var(--larger);
-  font-variant-caps: small-caps;
-
-  &:has(> header) {
-    &::before, &::after {
-      margin: 0;
-      padding: 0;
-      content: '';
-    }
-  }
-
-  > header {
-    font: inherit;
-    margin: initial;
-    line-height: inherit;
-    display: inline-block;
-  }
-
-  &::before, &::after {
-    text-align: center;
-    padding-inline: 0.5ch;
-  }
-  &::before { margin-inline-end: 0.5ch }
-  &::after  { margin-inline-start: 0.5ch }
-}
-
-
 /* SVG ================================================================== */
 svg {
   margin: 0 auto;
