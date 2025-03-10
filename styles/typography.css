@@ -349,10 +349,7 @@ body > nav {
   margin: 0 auto;
   text-align: left;
 }
-body > nav::before {
-  /* padding: 0.5ch; */
-  /* line-height: 1em; */
-}
+body > nav::before {}
 
 body > main {}
 body > aside {}
