@@ -239,4 +239,11 @@ body > nav > details::after { content: '🍔' }
 body > nav > details > summary::before
   { content: 'MENU ☰' }
 body > nav > details > summary::after
-  { content: '☰Menu MENU ☰' }
+  { content: '☰ MENU' }
+body > nav :is( dl, ul, ol, details ) {
+  margin: none;
+}
+body > nav li :link::before { content: '📁'}
+body > nav li :link:hover::before { content: '📂' }
+body > nav li li :link::before { content: '📄'}
+body > nav li li :link:hover::before { content: '📝' }
