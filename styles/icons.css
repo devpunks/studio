@@ -240,4 +240,4 @@ body > nav li li :link:hover::before { content: '📝' }
 body > nav > details::after { content: '🍔' }
 body > nav > details > summary::before,
 body > nav > details > summary::after
-  { content: '☰Menu' }
+  { content: '☰Menu MENU ☰' }
