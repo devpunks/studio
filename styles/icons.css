@@ -136,8 +136,7 @@ samp > kbd::before { content: '$' }
   /* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
 }
 
-body > nav::before
-  {/* content: '🍔'; */} /* ☰ 🍔 */
+body > nav::before { content: '🍔' } /* ☰ 🍔 */
 nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
 nav > details > summary::marker { content: inherit }
