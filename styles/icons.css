@@ -139,7 +139,6 @@ samp > kbd::before { content: '$' }
 body > nav::before { content: '🍔' } /* ☰ 🍔 */
 nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
-nav > details > summary::marker { content: inherit }
 
 figcaption::before{ content: '⇧' }
 
