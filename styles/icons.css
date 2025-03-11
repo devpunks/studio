@@ -246,6 +246,8 @@ body > nav
     { content: 'MENU ☰' }
 body > nav :is( dl, ul, ol, details ) {
   width: auto;
+  margin: 0;
+  padding: inherit;
   min-width: max-content;
   max-width: fit-content;
 }
