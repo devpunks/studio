@@ -1022,7 +1022,6 @@ nav details, nav summary {
 nav details { margin: unset }
 nav > details { padding: unset }
 nav > details[open] {
-  list-style-type: '😊';
 }
 
 body > nav > details::after {
