@@ -586,7 +586,8 @@ dd, dt {
 }
 dd, li {
   padding: var(--margin-collapse-bugfix) 0;
-  margin: var(--margin-collapse-bugfix) auto 0;
+  /* margin: inherit; */
+  padding: inherit;
 }
 dd {
   margin-left: 1em;
