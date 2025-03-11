@@ -245,7 +245,6 @@ body > nav
   > details > summary::after
     { content: 'MENU ☰' }
 body > nav :is( dl, ul, ol, details ) {
-  margin: 0;
   width: auto;
   min-width: max-content;
   max-width: fit-content;
