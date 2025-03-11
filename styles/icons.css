@@ -238,8 +238,12 @@ nav li > a:link::after { content: '' }
 body > nav > details::after { content: '🍔' }
 body > nav > details > summary::before
   { content: '☰ MENU' }
-body > nav > details > summary::after
-  { content: 'MENU ☰' }
+body > nav
+  details > summary::after
+    { content: '\2009'}
+body > nav
+  > details > summary::after
+    { content: 'MENU ☰' }
 body > nav :is( dl, ul, ol, details ) {
   margin: 0;
   width: auto;
