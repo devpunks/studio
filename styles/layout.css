@@ -199,6 +199,8 @@ body > nav > details::after {
     opacity: 75%;
     display: none;
     width: inherit;
+    width: -moz-available;
+    width: -webkit-fill-available;
     position: fixed;
     background: inherit;
      /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
