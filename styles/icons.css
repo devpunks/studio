@@ -241,7 +241,10 @@ body > nav > details > summary::before
 body > nav > details > summary::after
   { content: 'MENU ☰' }
 body > nav :is( dl, ul, ol, details ) {
-  margin: none;
+  margin: 0;
+  width: auto;
+  min-width: max-content;
+  max-width: fit-content;
 }
 body > nav li :link::before { content: '📁'}
 body > nav li :link:hover::before { content: '📂' }
