@@ -435,15 +435,11 @@ body > nav > details > summary {
 
   /* clip-path: inset(0px 244px 1px 170px); */
 
-  &::after  { float: right }
 }
+body > nav details > summary::after { min-width: 1ch }
 body > nav > details > summary::before { float: left }
 
 nav > details > ul {
-  width: auto;
-  max-width: unset;
-  display: list-item;
-  position: relative;
 }
 nav > details > ul li li { list-style: '➱' inside }
 nav > details > ul li li:hover { list-style-type: '➯' }
