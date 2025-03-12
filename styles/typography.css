@@ -524,7 +524,7 @@ ol, ul { text-indent: initial }
 p + :is( dl, ol, ul ) { margin-top: 1.68em }
 :is( ol, ul )::marker {}
 ul { margin-left: 2em }
-nav > details > ul { margin: unset }
+nav > details > ul {}
 ol {}
 :is( [role=toolbar], [role=menubar] ) { margin: unset }
 :is( dl, ol, ul )
