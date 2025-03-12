@@ -438,6 +438,8 @@ body > nav {
   box-shadow: var(--shadow););
   box-shadow: 0ch 1ch 0ch 0ch black;
 }
+
+nav {}
 body > nav details > summary {
   color: unset;
   font: inherit;
