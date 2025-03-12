@@ -433,7 +433,6 @@ body > a[href='#main'] { z-index: 1 }
 nav {}
 
 body > nav {
-  /* z-index: 2; */
   color: Canvas;
   background: CanvasText;
   box-shadow: var(--shadow););
