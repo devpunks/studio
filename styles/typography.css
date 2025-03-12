@@ -1020,9 +1020,11 @@ nav details, nav summary {
   padding: var(--margin-collapse-bugfix) auto;
 }
 nav details { margin: unset }
-nav > details { padding: unset }
-nav > details[open] {
+nav > details {
+  margin: unset;
+  padding: unset;
 }
+nav > details[open] {}
 
 body > nav > details::after {
   font-size: 25vh;
