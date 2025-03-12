@@ -433,6 +433,12 @@ body > a[href='#main'] { z-index: 1 }
 
 nav {}
 
+body > nav {
+  z-index: 2;
+  background: purple;
+  box-shadow: var(--shadow););
+  box-shadow: 1ch 1ch 0ch black;
+}
 body > nav details > summary {
   color: unset;
   font: inherit;
