@@ -236,7 +236,7 @@ dl[itemscope] dt::after { content: ':' }
 nav li > a::before { content: '▸' }
 nav li > a::after { content: '' }
 body > nav > details::after { content: '🍔' }
-body > nav > details > summary::before
+body > nav > :is( details, [open] ) > summary::before
   { content: '☰ MENU' }
 body > nav
   details > summary::after
