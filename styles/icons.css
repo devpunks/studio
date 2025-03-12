@@ -252,7 +252,7 @@ body > nav :is( dl, ul, ol, details ) {
   min-width: max-content;
   max-width: fit-content;
 }
-body > nav li > a::before { content: '📁' }
-body > nav li > a:hover::before { content: '📂' }
+body > nav summary::before { content: '📁' }
+body > nav :where( [open] ) > summary::before { content: '📂' }
 body > nav li li > a::before { content: '📄' }
 body > nav li li > a:hover::before { content: '📝' }
