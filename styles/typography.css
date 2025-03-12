@@ -1024,7 +1024,8 @@ nav > details {
   margin: unset;
   padding: unset;
 }
-nav > details[open] {}
+nav > details[open] {
+}
 
 body > nav > details::after {
   font-size: 25vh;
