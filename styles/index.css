@@ -383,7 +383,7 @@ blockquote::after {
 /* https://nerdy.dev/open-and-close-transitions-for-the-details-element */
 
 details {}
-details[open] {/* overflow-y: auto; */background: red;}
+details[open] {}
 details[name] { counter-increment: details }
 details[name]:first-of-type { counter-reset: details 0 }
 details :is( details, dl, ol, ul ) {}
