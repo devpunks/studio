@@ -233,8 +233,8 @@ table td::after  { content: '<' }
 dl[itemscope] dt::after { content: ':' }
 dl[itemscope] dt::after { content: ':' }
 
-nav li > a:link::before { content: '▸' }
-nav li > a:link::after { content: '' }
+nav li > a::before { content: '▸' }
+nav li > a::after { content: '' }
 body > nav > details::after { content: '🍔' }
 body > nav > details > summary::before
   { content: '☰ MENU' }
