@@ -436,7 +436,9 @@ body > nav {
   color: Canvas;
   background: CanvasText;
   box-shadow: var(--shadow););
-  box-shadow: 1ch 1ch 0ch black;
+  box-shadow: 0ch 1ch 0ch 0ch black;
+  /* max-height: 100vh; */
+  /* overflow-y: scroll; */
 }
 body > nav details > summary {
   color: unset;
