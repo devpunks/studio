@@ -196,7 +196,7 @@ body > nav > details {width: inherit;/* background: inherit; */}
 body > nav > details::after {
     top: 0;
     z-index: -1;
-    opacity: 75%;
+    opacity: 68%;
     display: none;
     width: inherit;
     width: -moz-available;
