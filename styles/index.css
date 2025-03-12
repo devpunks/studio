@@ -433,8 +433,9 @@ body > a[href='#main'] { z-index: 1 }
 nav {}
 
 body > nav {
-  z-index: 2;
-  background: purple;
+  /* z-index: 2; */
+  color: Canvas;
+  background: CanvasText;
   box-shadow: var(--shadow););
   box-shadow: 1ch 1ch 0ch black;
 }
