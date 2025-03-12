@@ -170,6 +170,8 @@ body > header, body > nav, body > main, body > aside, body > footer
   { background: inherit }
 body > header {}
 body > nav {
+  left: 0;
+  width: auto;
   background: Canvas;
   box-shadow: var(--box-shadow);
 }
