@@ -172,7 +172,7 @@ body > header {}
 body > nav {
   width: -moz-available;
   width: -webkit-fill-available;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0ch 1ch 0ch 0ch black;
 }
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
