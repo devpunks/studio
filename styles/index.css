@@ -170,8 +170,7 @@ body > header, body > nav, body > main, body > aside, body > footer
   { background: inherit }
 body > header {}
 body > nav {
-  width: auto;
-  background: Canvas;
+  width: -moz-available;
   width: -webkit-fill-available;
   box-shadow: var(--box-shadow);
 }
