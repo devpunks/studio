@@ -80,6 +80,7 @@ img, svg {}
 /* overflow bug in IE10/11. https://github.com/twbs/bootstrap/issues/26878 */
 svg {
   background: inherit;
+  background: green;
 }
 image {
   width: 100%;
