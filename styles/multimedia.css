@@ -81,7 +81,7 @@ img, svg {}
 svg {
   background: inherit;
 }
-svg image {
+image {
   width: 100%;
   height: 100%;
 }
