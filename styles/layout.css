@@ -230,7 +230,15 @@ body > nav > details::after {
     backdrop-filter: blur(19px);
 }
 body > nav > details[open]::after { display: block }
-
+body > nav > details > summary {
+  top: 0;
+  width: 50%;
+  z-index: 1;
+  position: sticky;
+  width: 100%;
+  /* position: absolute; */
+  height: fit-content;
+}
 
 /* https://css-tricks.com/almanac/properties/i/isolation */
 body > header, body > nav, body > main, body > aside, body > footer,
