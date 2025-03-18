@@ -308,7 +308,7 @@ kbd {
   background-color: Canvas;
   box-shadow: 0.25ch 0.25ch 0 currentColor;
 }
-kbd > kbd:hover {
+kbd:hover {
   color: Canvas;
   background-color: CanvasText;
 }
