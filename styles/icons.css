@@ -244,12 +244,6 @@ body > nav
 body > nav
   > details > summary::after
     { content: 'MENU ☰' }
-body > nav :is( dl, ul, ol, details ) {
-  width: auto;
-  background: unset;
-  min-width: max-content;
-  max-width: fit-content;
-}
 body > nav summary::before { content: '📁' }
 body > nav :where( [open] ) > summary::before { content: '📂' }
 body > nav li li > a::before { content: '📄' }
