@@ -348,6 +348,7 @@ body > header {
 }
 body > nav {
   margin: 0 auto;
+  margin: unset;
   text-align: left;
 }
 body > nav::before {}
