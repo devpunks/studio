@@ -185,6 +185,10 @@ body > nav {
   max-width: unset;
   min-width: min-content;
 }
+@media ( orientation: portrait )
+  { body > nav { width: unset } }
+@media ( orientation: landscape )
+  { body > nav { width: fit-content } }
 
 @container nav ( orientation: landscape ) {}
 body > main { container: main }
