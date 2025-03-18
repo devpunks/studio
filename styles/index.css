@@ -450,7 +450,9 @@ body > nav > details > summary::after {
   background: red;
 }
 body > nav details > summary::after { min-width: 1ch }
-body > nav > details > summary::before { float: left }
+body > nav > details > summary::before {
+  background: blue;
+}
 
 nav > details > ul {
 }
