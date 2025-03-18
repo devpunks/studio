@@ -448,7 +448,6 @@ body > nav > details > summary {
 body > nav > details > summary::before,
 body > nav > details > summary::after {
   background: red;
-  float: left;
 }
 body > nav details > summary::after { min-width: 1ch }
 body > nav > details > summary::before { float: left }
