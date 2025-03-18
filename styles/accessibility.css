@@ -164,10 +164,7 @@ li > a:link::after {}
 [accesskey] {}
 [accesskey]::before {}
 
-[accesskey]:hover::after,
-[aria-label]:hover::after,
-[accesskey]:focus-visible::after,
-[aria-label]:focus-visible::after {
+a:is( [accesskey], [aria-label] ):is( :hover, :focus-visible )::after {
   left: 0;
   top: 100%;
   z-index: 1;
