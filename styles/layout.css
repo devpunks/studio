@@ -182,6 +182,8 @@ body > nav {
   overflow-y: auto;
   min-height: 100vh;
   max-height: 100vh;
+  max-width: unset;
+  min-width: min-content;
 }
 
 @container nav ( orientation: landscape ) {}
