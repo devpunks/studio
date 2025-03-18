@@ -1035,12 +1035,32 @@ summary::before, summary::after {
   background: unset;
   font-weight: 600;
 }
-body > nav details > summary { margin: unset }
 
 
 /* Navigations ================================================================== */
 nav {}
 nav > * {}
+
+body > nav :is( dl, ul, ol, details ) {
+  margin: 0;
+  padding: inherit;
+}
+body > nav > details::after {
+  font-size: 25vh;
+  text-align: center;
+  line-height: 100vh;
+}
+body > nav details > summary { margin: unset }
+nav details, nav summary {
+  width: fit-content;
+  padding: var(--margin-collapse-bugfix) auto;
+}
+nav details { margin: unset }
+nav > details {
+  margin: unset;
+  padding: unset;
+}
+nav > details[open] {}
 
 
 /* SVG ================================================================== */
