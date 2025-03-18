@@ -245,7 +245,6 @@ body > nav
   > details > summary::after
     { content: 'MENU ☰' }
 body > nav :is( dl, ul, ol, details ) {
-  width: auto;
   margin: 0;
   padding: inherit;
   background: unset;
