@@ -197,6 +197,13 @@ body > footer {
 }
 @container footer ( orientation: landscape ) {}
 
+
+body > nav :is( dl, ul, ol, details ) {
+  width: auto;
+  background: unset;
+  min-width: max-content;
+  max-width: fit-content;
+}
 body > nav > details {
   min-width: 100%;
   max-width: 100%;
