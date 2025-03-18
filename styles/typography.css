@@ -1050,7 +1050,10 @@ body > nav > details::after {
   text-align: center;
   line-height: 100vh;
 }
-body > nav details > summary { margin: unset }
+body > nav details > summary {
+  font: inherit;
+  margin: unset;
+}
 nav details, nav summary {
   width: fit-content;
   padding: var(--margin-collapse-bugfix) auto;
