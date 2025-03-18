@@ -443,6 +443,7 @@ body > nav details > summary {
 }
 body > nav > details > summary {
   cursor: pointer;
+  background: yellow;
   /* clip-path: inset(0px 244px 1px 170px); */
 }
 body > nav > details > summary::before,
