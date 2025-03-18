@@ -181,29 +181,12 @@ a:is( [accesskey], [aria-label] ):is( :hover, :focus-visible )::after {
   list-style-position: inside;
   line-height: var(--line-height);
 }
-[aria-label]:hover::after, [aria-label]:focus-visible::after {
-  content: attr(aria-label);
-}
-[accesskey]:hover::after, [accesskey]:focus-visible::after {
-  content: attr(accesskey);
-}
-[aria-label][accesskey]:hover::after,
-[aria-label][accesskey]:focus-visible::after {
-  content: attr(accesskey) ' - ' attr(aria-label);
-}
-
-nav > dl, nav > ol, nav > ul {
-  opacity: 0.7;
-  background: rgba(255,255,255,0.5);
-}
-nav > dl:hover, nav > ol:hover, nav > ul:hover,
-nav > dl:focus-within, nav > ol:focus-within, nav > ul:focus-within {
-  opacity: 1.0;
-}
-
-nav a:hover, nav a:focus-visible, nav [aria-disabled=false]:focus-visible {
-  background: inherit;
-}
+a[aria-label]:is( :hover, :focus-visible )::after
+  { content: attr(aria-label) }
+a[accesskey]:is( :hover, :focus-visible )::after
+  { content: attr(accesskey) }
+a[aria-label][accesskey]:is( :hover, :focus-visible )::after
+  { content: attr(accesskey) ' - ' attr(aria-label) }
 
 /* LANDMARKS - https://w3c.github.io/aria/#landmark */
 [role=form], body form {}
