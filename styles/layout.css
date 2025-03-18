@@ -198,7 +198,9 @@ body > footer {
 @container footer ( orientation: landscape ) {}
 
 body > nav > details {
-  width: inherit;
+  min-width: 100%;
+  max-width: 100%;
+  background: red;
   /* background: inherit; */
 }
 body > nav > details::after {
