@@ -1017,22 +1017,6 @@ details[role=tree] details {
   vertical-align: top;
 }
 details[role=tree][open] details { padding-bottom: unset }
-nav details, nav summary {
-  width: fit-content;
-  padding: var(--margin-collapse-bugfix) auto;
-}
-nav details { margin: unset }
-nav > details {
-  margin: unset;
-  padding: unset;
-}
-nav > details[open] {}
-
-body > nav > details::after {
-  font-size: 25vh;
-  text-align: center;
-  line-height: 100vh;
-}
 
 summary {
   margin: 0 -1ch;
