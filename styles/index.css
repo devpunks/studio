@@ -438,7 +438,6 @@ body > nav {
 nav {}
 body > nav details > summary {
   color: unset;
-  font: inherit;
   background: unset;
 }
 body > nav > details > summary {
