@@ -180,6 +180,9 @@ body > nav {
   width: 20%;
   container: nav;
   position: sticky;
+  overflow-y: auto;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 @container nav ( orientation: landscape ) {}
