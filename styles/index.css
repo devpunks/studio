@@ -798,7 +798,6 @@ menu, [role=menu], [role=toolbar] {
 }
 [role=tree] li {
   display: list-item;
-  line-height: unset;
 }
 [role=toolbar] {
   display: inline-flex;
