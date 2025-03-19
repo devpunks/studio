@@ -1028,10 +1028,7 @@ summary {
 }
 summary::before, summary::after { text-align: center }
 [name] > summary {
-  padding: 1ch;
-  color: unset;
-  display: block;
-  background: unset;
+  margin: 1ch 0;
   font-weight: 600;
 }
 
