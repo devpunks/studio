@@ -1009,7 +1009,6 @@ details[name] > :last-child:not( summary )
   { margin-bottom: unset }
 details[role=tree] details {
   padding: unset;
-  margin-left: 0ch;
   vertical-align: top;
 }
 details[role=tree][open] details { padding-bottom: unset }
