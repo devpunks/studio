@@ -1011,7 +1011,14 @@ details[role=tree] details {
   padding: unset;
   vertical-align: top;
 }
-details[role=tree][open] details { padding-bottom: unset }
+details[role=tree][open] details {
+  margin-left: -1ch;
+  padding-bottom: unset;
+}
+details[role=none], [role=none] > summary {
+  margin: 0;
+  padding: 0;
+}
 
 summary {
   margin: 0 -1ch;
