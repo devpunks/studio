@@ -393,9 +393,8 @@ summary {
   cursor: s-resize;
   background: CanvasText;
 }
-:is( [name], [role] ) > summary::-webkit-details-marker {
-  display:none;
-}
+:is( [name], [role] ) > summary::-webkit-details-marker
+  { display:none }
 summary::before, summary::after
   { min-width: initial }
 [open] > summary { cursor: n-resize }
