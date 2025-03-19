@@ -791,7 +791,6 @@ menu, [role=menu], [role=toolbar] {
 }
 [role=menubar] li {}
 [role=tree] {
-  padding: 0;
   display: block;
   list-style: disc;
   border-left: .1ch solid;
