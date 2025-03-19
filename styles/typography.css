@@ -1005,6 +1005,8 @@ details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [rol
   { padding-bottom: unset }
 details:is( [role=none], [role=tree], [role=menu], [role=toolbar] )
   summary { font-weight: normal }
+details[name] > :last-child:not( summary )
+  { margin-bottom: unset }
 details[role=tree] details {
   padding: unset;
   margin-left: 0ch;
