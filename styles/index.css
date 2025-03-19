@@ -407,6 +407,9 @@ details:is( [name], [role] ) summary {
 [name] > summary {
   color: unset;
   display: block;
+  cursor: pointer;
+  background: unset;
+  width: max-content;
 }
 details[role] summary::before { cursor: pointer }
 details:is( [role=menu], [role=menubar], [role=toolbar] )[open]
