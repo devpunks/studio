@@ -797,8 +797,6 @@ menu, [role=menu], [role=toolbar] {
   list-style-position: inside;
 }
 [role=tree] li {
-  padding: 0;
-  padding-left: 1ch;
   display: list-item;
   line-height: unset;
 }
