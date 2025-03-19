@@ -996,7 +996,7 @@ tbody tr { margin-inline: 1ch }
 
 
 details { /* details */
-  margin: 0 auto;
+  margin: unset;
   padding: 0 1ch;
   text-align: start;
 }
