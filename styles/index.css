@@ -386,6 +386,7 @@ details[name] {
   border-bottom-style: solid;
 }
 details[name]:first-of-type { counter-reset: details 0 }
+details[role] { width: max-content }
 details :is( details, dl, ol, ul ) {}
 summary {
   color: Canvas;
