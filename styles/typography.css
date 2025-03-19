@@ -659,13 +659,7 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
 :is( menu, [role=menu] )
   > li > * { margin: unset }
 [role=toolbar] > li::before { margin: 0 }
-
-[role=tree] :is( dl, ol, ul, menu ) {
-  margin: 0;
-  /* margin: auto; */
-  margin-left: .68ch;
-  border-left: .1ch solid;
-}
+[role=tree] :is( dl, ol, ul, menu ) { margin-left: .68ch }
 
 
 
