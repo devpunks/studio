@@ -1026,10 +1026,7 @@ summary {
   font-size: larger;
   font-weight: bolder;
 }
-summary::before, summary::after {
-  text-align: center;
-  vertical-align: middle;
-}
+summary::before, summary::after { text-align: center }
 [name] > summary {
   padding: 1ch;
   color: unset;
