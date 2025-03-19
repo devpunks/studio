@@ -404,10 +404,8 @@ details:is( [name], [role] ) summary {
   background: unset;
   width: fit-content;
 }
-[name] > summary { cursor: pointer }
-[name] > summary::before { content: counter(details) '.' }
-details[role] summary {
-  width: 100%;
+[name] > summary {
+  color: unset;
   display: block;
 }
 details[role] summary::before { cursor: pointer }
