@@ -402,6 +402,7 @@ details:is( [name], [role] ) summary {
   color: unset;
   display: block;
   background: unset;
+  width: fit-content;
 }
 [name] > summary { cursor: pointer }
 [name] > summary::before { content: counter(details) '.' }
