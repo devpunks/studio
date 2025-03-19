@@ -411,6 +411,8 @@ details:is( [name], [role] ) summary {
   background: unset;
   width: max-content;
 }
+[name] > summary::before { content: counter(details) '.' }
+details[role] summary { display: block }
 details[role] summary::before { cursor: pointer }
 details:is( [role=menu], [role=menubar], [role=toolbar] )[open]
   summary { border-bottom: .1ch solid }
