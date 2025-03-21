@@ -1057,7 +1057,7 @@ body > nav :is( dl, ul, ol, details ) {
   text-align: center;
   line-height: 100vh;
 }
-body > nav details > summary {
+:is( body > nav details, [role=navigation] ) > summary {
   font: inherit;
   margin: unset;
 }
