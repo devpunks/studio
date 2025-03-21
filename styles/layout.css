@@ -186,7 +186,15 @@ body > nav, [role=navigation] {
   max-height: 100vh;
   min-height: max-content;
   max-width: unset;
-  min-width: min-content;
+  min-width: unset;
+}
+[role=navigation] {
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+[role=navigation][open] {
+  min-height: 100vh;
 }
 @media ( orientation: portrait )
   { body > nav { width: unset } }
