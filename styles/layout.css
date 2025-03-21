@@ -241,6 +241,8 @@ body > nav > details {
     position: absolute;
     background: inherit;
     backdrop-filter: blur(19px);
+    -webkit-backdrop-filter: blur(19px);
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
 }
 body > nav > details[open]::after { display: block }
 body > nav > details > summary {
