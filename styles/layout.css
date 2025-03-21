@@ -179,7 +179,8 @@ body > nav, [role=navigation] {
   /* left: 0; */
   z-index: 1;
   container: nav;
-  position: sticky;
+  /* position: sticky; */
+  /* position: absolute; */
   overflow-y: auto;
   min-height: 100vh;
   max-height: 100vh;
