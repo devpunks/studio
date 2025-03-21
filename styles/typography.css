@@ -1051,7 +1051,8 @@ body > nav :is( dl, ul, ol, details ) {
   margin: 0;
   padding: 0;
 }
-body > nav > details::after {
+:is( body > nav, [role=navigation] ) > details::after {
+  margin: unset;
   font-size: 25vh;
   text-align: center;
   line-height: 100vh;
