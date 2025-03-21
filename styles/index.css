@@ -425,62 +425,6 @@ details[role=tree] :is( dl, ol, ul, menu ) {
   border-left: .1ch solid;
 }
 
-/* Navigations ==================================================================
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role
- *   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menubar_role
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
- *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
- */
-body > a[href='#main'] { z-index: 1 }
-
-nav {}
-
-body > nav {
-  color: Canvas;
-  background: CanvasText;
-}
-
-nav {}
-body > nav details > summary {
-  color: unset;
-  background: unset;
-}
-body > nav > :is( details, [open] ) > summary {
-  cursor: pointer;
-  background: yellow;
-  /* clip-path: inset(0px 244px 1px 170px); */
-}
-body > nav > details > summary::before,
-body > nav > details > summary::after {
-  background: red;
-}
-body > nav details > summary::after { min-width: 1ch }
-body > nav > details > summary::before {
-  background: blue;
-}
-
-nav > details > ul {
-}
-nav > details > ul li li { list-style: '➱' inside }
-nav > details > ul li li:hover { list-style-type: '➯' }
-nav li {
-  display: flex;
-  background: inherit;
-}
-nav li::before, nav li::after {
-  content: '\2009';
-  background: red;
-}
-nav li::before {
-  content: '▷';
-  background: inherit;
-}
-nav li::after  {}
-nav li:hover::before, nav li:focus-within::before { background: red }
-
-
 small {}
 body > footer small { opacity: 0.68 }
 
