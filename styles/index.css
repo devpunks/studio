@@ -447,7 +447,7 @@ body > nav details > summary {
   color: unset;
   background: unset;
 }
-body > nav > details > summary {
+body > nav > :is( details, [open] ) > summary {
   cursor: pointer;
   background: yellow;
   /* clip-path: inset(0px 244px 1px 170px); */
