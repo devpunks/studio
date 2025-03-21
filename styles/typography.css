@@ -1049,7 +1049,7 @@ nav, [role=navigation] {}
 [role=navigation],
 body > nav :is( dl, ul, ol, details ) {
   margin: 0;
-  padding: inherit;
+  padding: 0;
 }
 body > nav > details::after {
   font-size: 25vh;
