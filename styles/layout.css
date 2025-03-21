@@ -236,6 +236,7 @@ body > nav > details {
     width: inherit;
     width: -moz-available;
     width: -webkit-fill-available;
+    width: 100%;
     position: fixed;
     background: inherit;
      /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
