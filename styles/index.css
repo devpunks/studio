@@ -873,6 +873,49 @@ dt[role=term] {
 }
 
 
+/* Navigations ==================================================================
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
+ *   - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
+ *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
+ */
+body > a[href='#main'] { z-index: 1 }
+
+nav, [role=navigation] {}
+
+body > nav, [role=navigation] {
+  color: Canvas;
+  background: CanvasText;
+}
+:is( body > nav details, [role=navigation] ) > summary {
+  color: unset;
+  background: unset;
+}
+:is( [role=navigation], [role=navigation][open] ) > summary {
+  cursor: pointer;
+  background: yellow;
+  /* clip-path: inset(0px 244px 1px 170px); */
+}
+:is( body > nav details, [role=navigation] ) > summary::before,
+:is( body > nav details, [role=navigation] ) > summary::after {
+  background: red;
+}
+:is( nav, [role=navigation] ) li {
+  display: flex;
+  background: inherit;
+}
+:is( nav, [role=navigation] ) li::before,
+:is( nav, [role=navigation] ) li::after {
+  content: '\2009';
+  background: red;
+}
+:is( nav, [role=navigation] ) li::before {
+  content: '▷';
+  background: inherit;
+}
+nav li:hover::before,
+nav li:focus-within::before
+  { background: red }
+
 
 /* PWA RELATED */
 /* TODO: Use @supports - https://developer.mozilla.org/en-US/docs/Web/CSS/@supports */
