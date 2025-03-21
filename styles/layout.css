@@ -172,7 +172,7 @@ body > header, body > nav, body > main, body > aside, body > footer,
   {}
 
 /* https://css-tricks.com/almanac/properties/b/background-blend-mode */
-body > header { container: header }
+body > header, [role=banner] { container: header }
 @container header ( orientation: landscape ) {}
 body > nav {
   top: 0;
