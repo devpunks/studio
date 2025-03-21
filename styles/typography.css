@@ -1044,8 +1044,7 @@ summary::before, summary::after { text-align: center }
 
 
 /* Navigations ================================================================== */
-nav {}
-nav > * {}
+nav, [role=navigation] {}
 
 body > nav :is( dl, ul, ol, details ) {
   margin: 0;
