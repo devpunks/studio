@@ -729,7 +729,7 @@ menu, [role=menu], [role=toolbar] {
 [role=menu] {}
 [role=menu] li {}
 [role=menubar] {
-  width: inherit;
+  min-width: 100%;
   align-items: flex-start;
   justify-content: flex-start;
 }
