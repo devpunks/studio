@@ -1061,7 +1061,7 @@ body > nav :is( dl, ul, ol, details ) {
   font: inherit;
   margin: unset;
 }
-nav details, nav summary {
+:is( nav, [role=navigation] ) :is( details, summary ) {
   width: fit-content;
   padding: var(--margin-collapse-bugfix) auto;
 }
