@@ -257,6 +257,7 @@ body > nav > details {
 }
 
 /* https://css-tricks.com/almanac/properties/i/isolation */
+[role=banner], [role=navigation], [role=main], [role=complementary], [role=contentinfo],
 body > header, body > nav, body > main, body > aside, body > footer,
 dialog, figcaption, fieldset, form, label
   { isolation: isolate }
