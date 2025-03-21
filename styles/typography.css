@@ -1065,12 +1065,6 @@ body > nav :is( dl, ul, ol, details ) {
   width: fit-content;
   padding: var(--margin-collapse-bugfix) auto;
 }
-nav details { margin: unset }
-nav > details {
-  margin: unset;
-  padding: unset;
-}
-nav > details[open] {}
 
 
 /* SVG ================================================================== */
