@@ -238,13 +238,11 @@ dl[itemscope] dt::after { content: ':' }
 [role=navigation] > summary::before,
 [role=navigation] > summary::after
   { content: '☰ MENU' }
-body > nav
-  details > summary::after
-    { content: '\2009'}
-body > nav
-  > details > summary::after
-    { content: 'MENU ☰' }
-body > nav summary::before { content: '📁' }
-body > nav :where( [open] ) > summary::before { content: '📂' }
-body > nav li li > a::before { content: '📄' }
-body > nav li li > a:hover::before { content: '📝' }
+:is( body > nav, [role=navigation] )
+  details > summary::before { content: '📁' }
+:is( body > nav, [role=navigation] )
+  :where( [open] ) > summary::before { content: '📂' }
+:is( body > nav, [role=navigation] )
+  li li > a::before { content: '📄' }
+:is( body > nav, [role=navigation] )
+  li li > a:hover::before { content: '📝' }
