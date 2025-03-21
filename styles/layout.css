@@ -225,7 +225,7 @@ body > nav > details {
   min-width: 100%;
   max-width: 100%;
   background: red;
-  /* background: inherit; */
+  background: inherit;
 }
 body > nav > details::after {
     top: 0;
