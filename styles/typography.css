@@ -1046,6 +1046,7 @@ summary::before, summary::after { text-align: center }
 /* Navigations ================================================================== */
 nav, [role=navigation] {}
 
+[role=navigation],
 body > nav :is( dl, ul, ol, details ) {
   margin: 0;
   padding: inherit;
