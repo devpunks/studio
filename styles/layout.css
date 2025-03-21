@@ -244,8 +244,9 @@ body > nav > details {
     -webkit-backdrop-filter: blur(19px);
     // https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
 }
-body > nav > details[open]::after { display: block }
-body > nav > details > summary {
+[role=navigation][open]::before { display: block }
+ */
+:is( body > nav > details, [role=navigation] ) > summary {
   top: 0;
   width: 50%;
   z-index: 1;
