@@ -184,6 +184,7 @@ body > nav, [role=navigation] {
   overflow-y: auto;
   /* min-height: 100vh; */
   max-height: 100vh;
+  min-height: max-content;
   max-width: unset;
   min-width: min-content;
 }
