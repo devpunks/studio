@@ -200,13 +200,13 @@ body > nav, [role=navigation] {
   { body > nav { width: unset } }
 @media ( orientation: landscape )
   { body > nav { width: fit-content } }
-
 @container nav ( orientation: landscape ) {}
-body > main { container: main }
+
+body > main, [role=main] { container: main }
 @container main ( orientation: landscape ) {}
-body > aside { container: aside }
+body > aside, [role=complementary] { container: aside }
 @container aside ( orientation: landscape ) {}
-body > footer {
+body > footer, [role=contentinfo] {
   bottom: 0;
   /* position: sticky; */
   container: footer;
