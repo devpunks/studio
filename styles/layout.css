@@ -227,7 +227,8 @@ body > nav > details {
   background: red;
   background: inherit;
 }
-body > nav > details::after {
+/* 
+:is( body > nav > details, [role=navigation] )::after {
     top: 0;
     z-index: -1;
     opacity: 68%;
