@@ -182,7 +182,7 @@ body > nav, [role=navigation] {
   /* position: sticky; */
   /* position: absolute; */
   overflow-y: auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   max-height: 100vh;
   max-width: unset;
   min-width: min-content;
