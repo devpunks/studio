@@ -201,10 +201,6 @@ body > footer, [role=contentinfo] {
   body > nav { width: fit-content }
   [role=navigation] { width: max-content }
 }
-@container nav ( orientation: landscape ) {}
-
-
-/* Navigations ================================================================== */
 body > nav, [role=navigation] {
   /* top: 0; */
   /* left: 0; */
