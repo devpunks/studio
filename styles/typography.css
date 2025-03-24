@@ -1039,9 +1039,12 @@ summary::before, summary::after { text-align: center }
 
 /* Navigations ================================================================== */
 nav, [role=navigation] {}
-
-[role=navigation],
-body > nav :is( dl, ul, ol, details ) {
+body > nav, [role=navigation] {
+  margin: 0 auto;
+  margin: unset;
+  text-align: left;
+}
+[role=navigation] {
   margin: 0;
   padding: 0;
 }
