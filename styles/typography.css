@@ -1047,6 +1047,7 @@ body > nav, [role=navigation] {
 [role=navigation] {
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 :is( body > nav, [role=navigation] ) > details::after {
   margin: unset;
