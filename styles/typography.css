@@ -1069,7 +1069,9 @@ body > nav::before {}
   width: fit-content;
   padding: var(--margin-collapse-bugfix) auto;
 }
-
+:is( nav, [role=navigation] ) :is( dl, ol, ul, details ) summary {
+  font: inherit;
+}
 
 /* SVG ================================================================== */
 svg {
