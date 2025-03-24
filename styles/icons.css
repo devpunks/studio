@@ -235,6 +235,7 @@ nav > header::after { content: '⬊' }
 
 :is( nav, [role=navigation] )
   li > a::before { content: '▸' }
+[role=navigation] { content: attr(data-icon) }
 [role=navigation] > summary::before,
 [role=navigation] > summary::after
   { content: '☰ MENU' }
