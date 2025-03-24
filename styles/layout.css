@@ -262,8 +262,6 @@ body > nav > details {
   width: 50%;
   z-index: 1;
   position: sticky;
-  width: 100%;
-  /* position: absolute; */
   height: fit-content;
 }
 
