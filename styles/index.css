@@ -905,6 +905,8 @@ details[role=navigation][open] > summary
 :is( body > nav details, [role=navigation] ) > summary::before,
 :is( body > nav details, [role=navigation] ) > summary::after {
   background: red;
+  min-width: 2em;
+  line-height: 2em;
 }
 :is( nav, [role=navigation] ) li {
   display: flex;
