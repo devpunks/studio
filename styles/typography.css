@@ -1049,6 +1049,12 @@ body > nav, [role=navigation] {
   padding: 0;
   text-transform: capitalize;
 }
+body > nav::before {}
+:is( [role=navigation], body > nav )
+  :is( dl, ul, ol, details ) {
+    margin: 0;
+    padding: 0;
+  }
 :is( body > nav, [role=navigation] ) > details::after {
   margin: unset;
   font-size: 25vh;
