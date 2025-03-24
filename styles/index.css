@@ -893,6 +893,8 @@ body > nav, [role=navigation] {
 }
 :is( [role=navigation], [role=navigation][open] ) > summary {
   cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
   background: yellow;
   /* clip-path: inset(0px 244px 1px 170px); */
 }
