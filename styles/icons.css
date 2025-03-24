@@ -229,6 +229,10 @@ table td::after  { content: '<' }
 dl[itemscope] dt::after { content: ':' }
 dl[itemscope] dt::after { content: ':' }
 
+
+nav > header::before { content: '🧭' }
+nav > header::after { content: '⬊' }
+
 :is( nav, [role=navigation] )
   li > a::before { content: '▸' }
 [role=navigation] > summary::before,
