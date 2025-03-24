@@ -225,9 +225,6 @@ body > nav, [role=navigation] {
   min-height: unset;
   height: max-content;
 }
-@container footer ( orientation: landscape ) {}
-
-
 :is( body > nav, [role=navigation] )
   :is( dl, ul, ol, details ) {
     width: auto;
