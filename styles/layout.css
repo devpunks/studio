@@ -220,22 +220,10 @@ body > nav, [role=navigation] {
   position: fixed;
 }
 [role=navigation][open] {
-  min-height: 100vh;
-}
-@media ( orientation: portrait )
-  { body > nav { width: unset } }
-@media ( orientation: landscape )
-  { body > nav { width: fit-content } }
-@container nav ( orientation: landscape ) {}
-
-body > main, [role=main] { container: main }
-@container main ( orientation: landscape ) {}
-body > aside, [role=complementary] { container: aside }
-@container aside ( orientation: landscape ) {}
-body > footer, [role=contentinfo] {
-  bottom: 0;
-  /* position: sticky; */
-  container: footer;
+  overflow-y: auto;
+  max-height: 100vh;
+  min-height: unset;
+  height: max-content;
 }
 @container footer ( orientation: landscape ) {}
 
