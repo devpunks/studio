@@ -908,6 +908,12 @@ details[role=navigation][open] > summary
   min-width: 2em;
   line-height: 2em;
 }
+[role=navigation] > summary::before,
+[role=navigation] > summary::after
+  { box-shadow: inset 0ch 0ch .3ch .1ch }
+[role=navigation] > summary:is( :hover, :focus-within )::before,
+[role=navigation] > summary:is( :hover, :focus-within )::after
+  { box-shadow: inset 0ch 0ch .1ch .1ch }
 :is( nav, [role=navigation] ) li {
   display: flex;
   background: inherit;
