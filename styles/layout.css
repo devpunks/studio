@@ -216,6 +216,9 @@ body > nav, [role=navigation] {
   max-width: unset;
   min-width: unset;
 }
+:is( body > nav, [role=navigation] )[dir] { position: fixed }
+:is( body > nav, [role=navigation] )[dir=rtl] { left: 0 }
+:is( body > nav, [role=navigation] )[dir=ltr] {right: 0px;}
 [role=navigation] {
   top: 0;
   left: 0;
