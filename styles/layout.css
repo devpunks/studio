@@ -221,7 +221,7 @@ body > nav, [role=navigation] {
 :is( body > nav, [role=navigation] )[dir=ltr] {right: 0px;}
 [role=navigation] {
   top: 0;
-  left: unset;
+  width: auto;
   position: sticky;
 }
 [role=navigation][open] {
