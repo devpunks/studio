@@ -526,7 +526,10 @@ ol {}
   ol { margin: 0 0 0 auto }
 :is( dl, ol, ul )
   ul { margin: 0 0 0 1em }
-li { text-indent: unset }
+li {
+  text-indent: unset;
+  line-height: normal;
+}
 li::marker {}
 li::before, li::after { text-align: center }
 li::before {}
