@@ -231,6 +231,14 @@ body > nav, [role=navigation] {
     min-width: max-content;
     max-width: max-content;
   }
+:is( body > nav, [role=navigation] ) :is( details )::before {
+    content: 'x';
+    float: left;
+    background: magenta;
+    display: inline-block;
+    display: list-item;
+    line-height: normal;
+  }
 body > nav > details {
   min-width: 100%;
   max-width: 100%;
