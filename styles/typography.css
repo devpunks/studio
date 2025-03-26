@@ -1058,6 +1058,8 @@ body > nav::before {}
   font: inherit;
   font-weight: bold;
 }
+:is( body > nav details, [role=navigation] )[dir]
+  > summary { margin: unset }
 :is( nav, [role=navigation] ) :is( details, summary ) {
   margin: unset;
   padding: var(--margin-collapse-bugfix) auto;
