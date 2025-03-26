@@ -976,7 +976,7 @@ table > thead { padding-inline-start: 1ch; padding-inline-end: 1ch; }
 table > thead::before, table > thead::after { margin-block-start: 1ch; margin-block-end: 1ch; }
 
 table > tfoot {}
-table > tfoot::before, table > tfoot::after { margin-block: 1ch }
+table > tfoot::before, table > tfoot::after { margin-block-start: 1ch; margin-block-end: 1ch; }
 
 table > tbody { padding-block: 1ch }
 table > tbody::before, table > tbody::after { margin-inline: 1ch }
