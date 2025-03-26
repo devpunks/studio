@@ -882,8 +882,8 @@ nav, [role=navigation] {}
 
 body > nav, [role=navigation] {
   color: Canvas;
-  box-shadow: 0px 0px 2ch .5ch;
-  background: CanvasText;
+  background-color: CanvasText;
+  box-shadow: 0 0 2ch .5ch;
 }
 :is( body > nav details, [role=navigation] ) > summary {
   color: unset;
