@@ -1055,7 +1055,6 @@ body > nav::before {}
   line-height: 100vh;
 }
 :is( body > nav details, [role=navigation] ) > summary {
-  margin: auto;
   font: inherit;
   font-weight: bold;
 }
