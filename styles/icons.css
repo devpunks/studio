@@ -200,6 +200,7 @@ li[data-icon]::before {
 
 
 [role] > summary::before { content: '▶' }
+[role] > summary::after { content: '▶' }
 [role][open] > summary::before { content: '▼' }
 [role=tree] summary::before  { content: '⊞' '📁' }
 :is( [role=tree][open], [role=tree] [open] )
