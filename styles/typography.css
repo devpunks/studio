@@ -1065,6 +1065,10 @@ body > nav::before {}
   margin: unset;
   padding: var(--margin-collapse-bugfix) auto;
 }
+
+:is( nav, [role=navigation] ) :is( details, summary ):focus-within {
+  background: pink;
+}
 :is( nav, [role=navigation] ) :is( dl, ol, ul, details ) summary {
   font: inherit;
 }
