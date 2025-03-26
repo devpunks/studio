@@ -927,6 +927,7 @@ details[role=navigation][open] > summary
 :is( nav, [role=navigation] ) li::before {
   opacity: .168;
   background: inherit;
+  line-height: normal;
 }
 nav li:hover::before,
 nav li:focus-within::before
