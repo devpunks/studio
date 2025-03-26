@@ -491,7 +491,8 @@ p > time[datetime] {
   vertical-align: middle;
 }
 
-[data-icon]::before {margin-inline-end: 0.5ch;}
+[data-icon]::before { margin-inline-end: 0.5ch }
+[data-icon]::after { margin-inline-start: 0.5ch }
 [role=tree] li[data-icon]::before {
   margin: unset;
   margin-left: -1ch;
