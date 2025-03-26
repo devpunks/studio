@@ -889,14 +889,9 @@ body > nav, [role=navigation] {
   summary { display: inline-block }
 :is( body > nav > details, details[role=navigation] ) > summary {
   color: unset;
-  background: unset;
-}
-:is( [role=navigation], [role=navigation][open] ) > summary {
-  cursor: pointer;
-  overflow: hidden;
-  white-space: nowrap;
-  background: yellow;
-  /* clip-path: inset(0 50% 0% 0); */
+  display: block;
+  background: CanvasText;
+  box-shadow: 0 0 .3ch 0;
 }
 details[role=navigation][dir] > summary
   { width: 2em }
