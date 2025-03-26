@@ -12,6 +12,14 @@
   - Useful Symbols - https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols
   - Apple URL Protocol Schemes - https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007899
 */
+/* list-style-image:
+  url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
+/* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
+:is( body > nav, [role=navigation] )
+  :is( dl, ul, ol, details )::before {
+    /* list-style-image:
+      url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
+  }
 
 :where( header, h1, h2, h3, h4, h5, h6 )::marker
   {/* content: counter(header); */}
