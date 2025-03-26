@@ -608,8 +608,9 @@ ul > li::after {}
 ol > li::after {}
 ul > li::after {}
 
-[role=menubar] > summary, :is( dl, ol, ul, menu, , [itemscope], [role=feed] )::before {
-  width: 100%;
+[role=menubar] > summary, :is( dl, ol, ul, menu, [itemscope], [role=feed] )::before {
+  width: -moz-available;
+  width: -webkit-fill-available;
   flex-basis: 100%;
   border-bottom: 0.1ch solid;
 }
