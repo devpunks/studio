@@ -192,7 +192,7 @@ body > footer, [role=contentinfo] {
 @container nav ( orientation: landscape ) {}
 @media ( orientation: portrait ) {
   :is( body > nav, [role=navigation] )
-    > * { margin: unset }
+    > * { margin: auto }
 }
 @media ( orientation: landscape ) {
   :is( body > nav, [role=navigation] )
