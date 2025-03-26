@@ -190,7 +190,6 @@ body > footer, [role=contentinfo] {
 
 /* Navigations ================================================================== */
 @container nav ( orientation: landscape ) {}
-
 @media ( orientation: portrait ) {
   body > nav { width: unset }
   [role=navigation] {
