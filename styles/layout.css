@@ -209,13 +209,9 @@ body > nav, [role=navigation] {
   /* min-height: 100vh; */
   min-height: max-content;
 }
-:is( body > nav, [role=navigation] )[dir] { position: fixed }
-:is( body > nav, [role=navigation] )[dir=rtl] { left: 0 }
-:is( body > nav, [role=navigation] )[dir=ltr] {right: 0px;}
-[role=navigation] {
-  top: 0;
-  width: auto;
-  position: sticky;
+:is( body > nav, [role=navigation] )[dir] {
+  width: 2em;
+  position: fixed;
 }
 [role=navigation][open] {
   overflow-y: auto;
