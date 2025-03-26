@@ -266,7 +266,6 @@ body > nav > details {
  */
 :is( body > nav > details, [role=navigation] ) > summary {
   top: 0;
-  width: 50%;
   z-index: 1;
   position: sticky;
   height: fit-content;
