@@ -893,10 +893,6 @@ body > nav, [role=navigation] {
   background: CanvasText;
   box-shadow: 0 0 .3ch 0;
 }
-details[role=navigation][dir] > summary
-  { width: 2em }
-details[role=navigation][open] > summary
-  { width: max-content }
 :is( body > nav details, [role=navigation] ) > summary::before,
 :is( body > nav details, [role=navigation] ) > summary::after {
   background: red;
