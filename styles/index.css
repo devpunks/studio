@@ -593,11 +593,8 @@ li::marker {}
 li::before, li::after { width: auto }
 li::before {}
 li::after  { display: none }
-li:hover {
-  z-index: 1;
-  background: inherit;
-}
-:where( ol, ul ) > li {}
+li:hover { background: inherit }
+:is( ol, ul ) > li {}
 ol > li {}
 ul > li {}
 ol > li::before,
