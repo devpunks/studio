@@ -981,7 +981,7 @@ table > tfoot::before, table > tfoot::after { margin-block-start: 1ch; margin-bl
 table > tbody { padding-block: 1ch }
 table > tbody::before, table > tbody::after { margin-inline-start: 1ch; margin-inline-end: 1ch; }
 
-tbody tr { margin-inline: 1ch }
+tbody tr { margin-inline-start: 1ch; margin-inline-end: 1ch; }
 
 
 
