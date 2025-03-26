@@ -200,9 +200,7 @@ body > footer, [role=contentinfo] {
 }
 
 body > nav, [role=navigation] {
-  /* top: 0; */
-  /* left: 0; */
-  /* right: 0px; */
+  top: 0;
   z-index: 1;
   container: nav;
   /* position: sticky; */
