@@ -1045,6 +1045,7 @@ body > nav, [role=navigation] {
   padding: 0;
   text-transform: capitalize;
 }
+body > nav {}
 body > nav::before {}
 :is( [role=navigation], body > nav )
   :is( dl, ul, ol, details ) {
