@@ -137,13 +137,8 @@ samp > kbd::before { content: '$' }
 
 [itemscope]::before { content: '🆔' attr(itemid) }
 [data-icon]::before { content: attr(data-icon) }
-:is( dl, ol, ul, menu, [role=feed] ):is( [aria-label], [data-icon] )::before {
-  content: attr(data-icon) ' ' attr(aria-label);
-  /* list-style-image:
-    url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
-  /* list-style-image: url('https://dev.w3.org/SVG/profiles/1.1F2/test/images/20x20.png'); */
-}
-
+:is( dl, ol, ul, menu, [role=feed] ):is( [aria-label], [data-icon] )::before
+  { content: attr(data-icon) ' ' attr(aria-label) }
 figcaption::before{ content: '⇧' }
 
 time::before { content: '⌛' }
