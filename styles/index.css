@@ -922,7 +922,6 @@ details[role=navigation][open] > summary
 }
 :is( nav, [role=navigation] ) li::before,
 :is( nav, [role=navigation] ) li::after {
-  content: '\2009';
   background: red;
 }
 :is( nav, [role=navigation] ) li::before {
