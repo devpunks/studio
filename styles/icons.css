@@ -238,6 +238,8 @@ nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
 
 :is( nav, [role=navigation] )
+  li::before {content: '▷' }
+:is( nav, [role=navigation] )
   li > a::before { content: '▸' }
 [role=navigation] { content: attr(data-icon) }
 [role=navigation] > summary::before,
