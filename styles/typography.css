@@ -939,7 +939,7 @@ table::before, table::after {
 table::before { margin-block-start: 1ch }
 table::after { margin-block-end: 1ch }
 
-table > * { margin-inline: 1ch }
+table > * { margin-inline-start: 1ch; margin-inline-end: 1ch; }
 table tr > * {
   text-align: inherit;
   line-height: calc(1em * var(--GOLDEN-RATIO));
