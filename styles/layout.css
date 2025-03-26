@@ -195,8 +195,8 @@ body > footer, [role=contentinfo] {
     > * { margin: unset }
 }
 @media ( orientation: landscape ) {
-  body > nav { width: fit-content }
-  [role=navigation] {width: max-content;}
+  :is( body > nav, [role=navigation] )
+    > * { margin: auto }
 }
 body > nav, [role=navigation] {
   /* top: 0; */
