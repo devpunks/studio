@@ -925,7 +925,7 @@ details[role=navigation][open] > summary
   background: red;
 }
 :is( nav, [role=navigation] ) li::before {
-  content: '▷';
+  opacity: .168;
   background: inherit;
 }
 nav li:hover::before,
