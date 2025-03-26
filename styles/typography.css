@@ -1047,11 +1047,7 @@ body > nav, [role=navigation] {
 }
 body > nav {}
 body > nav::before {}
-:is( [role=navigation], body > nav )
-  :is( dl, ul, ol, details ) {
-    margin: 0;
-    padding: 0;
-  }
+:is( body > nav, [role=navigation] ) > * {}
 :is( body > nav, [role=navigation] ) > details::after {
   margin: unset;
   font-size: 25vh;
