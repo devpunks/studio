@@ -1039,9 +1039,7 @@ summary::before, summary::after { text-align: center }
 /* Navigations ================================================================== */
 nav, [role=navigation] {}
 body > nav, [role=navigation] {
-  /* margin: 0 auto; */
-  /* margin: unset; */
-  text-align: left;
+  margin: 0 auto;
 }
 [role=navigation] {
   padding: 0;
