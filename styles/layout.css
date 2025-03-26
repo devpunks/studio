@@ -191,10 +191,8 @@ body > footer, [role=contentinfo] {
 /* Navigations ================================================================== */
 @container nav ( orientation: landscape ) {}
 @media ( orientation: portrait ) {
-  body > nav { width: unset }
-  [role=navigation] {
-    width: unset;
-  }
+  :is( body > nav, [role=navigation] )
+    > * { margin: unset }
 }
 @media ( orientation: landscape ) {
   body > nav { width: fit-content }
