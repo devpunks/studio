@@ -933,7 +933,8 @@ table {
 }
 table::before, table::after {
   text-indent: 1ch;
-  margin-inline: 1ch;
+  margin-inline-end: 1ch;
+  margin-inline-start: 1ch;
 }
 table::before { margin-block-start: 1ch }
 table::after { margin-block-end: 1ch }
