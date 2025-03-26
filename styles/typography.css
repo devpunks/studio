@@ -1038,9 +1038,7 @@ summary::before, summary::after { text-align: center }
 
 /* Navigations ================================================================== */
 nav, [role=navigation] {}
-body > nav, [role=navigation] {
-  margin: 0 auto;
-}
+body > nav, [role=navigation] { margin: auto }
 [role=navigation] {
   padding: 0;
   text-transform: capitalize;
