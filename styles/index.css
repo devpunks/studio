@@ -899,6 +899,7 @@ body > nav, [role=navigation] {
   min-width: 2em;
   line-height: 2em;
 }
+[role=navigation] > summary {}
 [role=navigation] > summary::before,
 [role=navigation] > summary::after
   { box-shadow: inset 0ch 0ch .3ch .1ch }
