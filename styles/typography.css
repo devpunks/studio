@@ -1062,7 +1062,7 @@ body > nav::before {}
   font-weight: bold;
 }
 :is( nav, [role=navigation] ) :is( details, summary ) {
-  width: fit-content;
+  margin: unset;
   padding: var(--margin-collapse-bugfix) auto;
 }
 :is( nav, [role=navigation] ) :is( dl, ol, ul, details ) summary {
