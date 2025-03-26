@@ -248,7 +248,7 @@ nav > header::after { content: '⬊' }
 :is( body > nav, [role=navigation] )
   details > summary::before { content: '📁' }
 :is( body > nav, [role=navigation] )
-  :where( [open] ) > summary::before { content: '📂' }
+  :is( [open] ) > summary::before { content: '📂' }
 :is( body > nav, [role=navigation] )
   li li > a::before { content: '📄' }
 :is( body > nav, [role=navigation] )
