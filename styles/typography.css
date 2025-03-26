@@ -984,8 +984,8 @@ table > tbody::before, table > tbody::after { margin-inline-start: 1ch; margin-i
 tbody tr { margin-inline-start: 1ch; margin-inline-end: 1ch; }
 
 
-
-details { /* details */
+/* details */
+details {
   margin: unset;
   padding: 0 1ch;
   text-align: start;
