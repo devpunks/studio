@@ -929,6 +929,9 @@ details[role=navigation][open] > summary
   background: inherit;
   line-height: normal;
 }
+
+:is( nav, [role=navigation] )
+  li:is( :hover, :focus-within )::before { opacity: 1 }
 nav li:hover::before,
 nav li:focus-within::before
   { background: red }
