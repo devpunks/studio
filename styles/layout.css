@@ -208,8 +208,6 @@ body > nav, [role=navigation] {
   max-height: 100vh;
   /* min-height: 100vh; */
   min-height: max-content;
-  max-width: unset;
-  min-width: unset;
 }
 :is( body > nav, [role=navigation] )[dir] { position: fixed }
 :is( body > nav, [role=navigation] )[dir=rtl] { left: 0 }
