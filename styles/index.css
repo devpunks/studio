@@ -906,6 +906,16 @@ body > nav, [role=navigation] {
 [role=navigation] > summary:is( :hover, :focus-within )::before,
 [role=navigation] > summary:is( :hover, :focus-within )::after
   { box-shadow: inset 0ch 0ch .1ch .1ch }
+:is( [role=navigation], [role=navigation][open] ) > summary {
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  /* clip-path: inset(0 50% 0% 0); */
+}
+details[role=navigation][dir] > summary
+  { width: 2em }
+details[role=navigation][open] > summary
+  { width: max-content }
 :is( nav, [role=navigation] ) li {
   display: flex;
   background: inherit;
