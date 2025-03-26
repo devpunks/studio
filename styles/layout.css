@@ -227,6 +227,7 @@ body > nav, [role=navigation] {
   :is( dl, ul, ol, details ) {
     width: auto;
     background: unset;
+    outline: .2ch dashed;
     min-width: max-content;
     max-width: max-content;
   }
