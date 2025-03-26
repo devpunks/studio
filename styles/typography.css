@@ -969,7 +969,7 @@ table > caption {
   line-height: calc(var(--GOLDEN-RATIO) * 1em);
 }
 table > caption::before, table > caption::after {
-   margin-block-start: 1ch; margin-block-end: 1ch; 
+   margin-block-start: 1ch; margin-block-end: 1ch;
 }
 
 table > thead { padding-inline: 1ch }
