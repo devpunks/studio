@@ -620,7 +620,7 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
 :is( dl, ol, ul )[role=none] {
   margin: 0 auto;
 }
-:where( dl, ol, ul )[role=feed] {
+:is( dl, ol, ul )[role=feed] {
   margin: .5ch;
   padding: .5ch 0;
 }
