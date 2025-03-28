@@ -253,4 +253,4 @@ nav > header::after { content: '⬊' }
 :is( body > nav, [role=navigation] )
   :is( [open] ) > summary::before { content: '📂' }
 :is( body > nav, [role=navigation] )
-  li li > a:hover::before { content: '📝' }
+  :not( [open] ) > summary::before { content: '📁' }
