@@ -1057,6 +1057,7 @@ body > nav::before {}
 :is( body > nav details, [role=navigation] )
   summary {
      margin: auto;
+     font: inherit;
   }
 :is( body > nav details, [role=navigation] )
   > summary {
