@@ -846,9 +846,7 @@ blockquote {
   margin: 1.68em auto;
 }
 blockquote::before, blockquote::after {}
-blockquote::before {
-  line-height: 1.6182ch;
-}
+blockquote::before { line-height: 1.6182ch }
 blockquote p {
   text-align: start;
   font-style: oblique;
