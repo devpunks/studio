@@ -865,8 +865,8 @@ dt[role=term] {
 
 
 /* Navigations ==================================================================
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
- *   - https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
+ *   - https://w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
+ *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation
  *   - https://w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid
  */
 body > a[href='#main'] { z-index: 1 }
