@@ -880,13 +880,8 @@ body > nav, [role=navigation] {
 }
 :is( body > nav details, details[role=navigation] )
   summary { display: inline-block }
-:is( body > nav > details, details[role=navigation] ) > summary {}
-:is( body > nav details, [role=navigation] ) > summary::before,
-:is( body > nav details, [role=navigation] ) > summary::after {
-  background: red;
-  min-width: 2em;
-  line-height: 2em;
-}
+:is( body > nav > details, details[role=navigation] )
+  > summary {}
 details[role=navigation] > summary {
   display: flex;
   align-items: center;
