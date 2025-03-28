@@ -892,8 +892,12 @@ details[role=navigation] > summary {
   width: -webkit-fill-available;
 }
 [role=navigation] > summary::before,
-[role=navigation] > summary::after
-  { box-shadow: inset 0ch 0ch .3ch .1ch }
+[role=navigation] > summary::after {
+  background: red;
+  min-width: 2em;
+  line-height: 2em;
+  box-shadow: inset 0ch 0ch .3ch .1ch;
+}
 [role=navigation] > summary:is( :hover, :focus-within )::before,
 [role=navigation] > summary:is( :hover, :focus-within )::after
   { box-shadow: inset 0ch 0ch .1ch .1ch }
