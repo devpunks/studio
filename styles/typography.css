@@ -645,9 +645,8 @@ details :is( details, dl, ol, ul ) { margin-bottom: unset }
   white-space: nowrap;
   min-width: -webkit-fill-available;
 }
-:is( menu, [role=menu] ) [role=toolbar] {
-  margin: 0 0.2ch;
-}
+:is( menu, [role=menu] )
+  [role=toolbar] { margin: 0 0.2ch }
 :is( menu, [role=menu] )
   > li > * { margin: unset }
 [role=toolbar] > li::before { margin: 0 }
