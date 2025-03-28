@@ -603,7 +603,8 @@ dd[role=definition]::before {
   font-weight: bolder;
   margin-right: 0.5ch;
 }
-dd[role=definition] > :is( dl, ol, ul ) { margin-left: 2em }
+dd[role=definition]
+  > :is( dl, ol, ul ) { margin-left: 2em }
 
 details :is( details, dl, ol, ul ) { margin-bottom: unset }
 
