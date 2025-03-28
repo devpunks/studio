@@ -442,15 +442,8 @@ ruby {
   background: CanvasText;
 }
 
-article address, body > footer address, [contentinfo] address {
-  background: Canvas;
-  border-radius: 0.68ch;
-}
-body > footer address, [contentinfo] address {
-  border-radius: 0;
-}
-address { background: red }
-article address {}
+
+address {}
 
 article {}
 
