@@ -697,6 +697,8 @@ p {
   margin: var(--margin-collapse-bugfix) auto 1.68em;
   text-wrap: pretty; /* https://developer.chrome.com/blog/css-text-wrap-pretty */
 }
+:is( footer, [role=contentinfo] )
+  p { text-align: inherit }
 p + p { margin: 1.68em auto var(--margin-collapse-bugfix) }
 
 /* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/autocapitalize */
