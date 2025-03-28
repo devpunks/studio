@@ -913,7 +913,6 @@ ruby {
 [role=math] { margin: 0 auto }
 
 address {
-  font-size: larger;
   width: fit-content;
   padding: 1em 1.68em;
   margin: var(--margin-collapse-bugfix) auto 1em;
