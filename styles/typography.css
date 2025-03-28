@@ -1054,6 +1054,17 @@ body > nav::before {}
 :is( nav, [role=navigation] ) :is( details, summary ) {
   padding: var(--margin-collapse-bugfix) auto;
 }
+:is( body > nav details, [role=navigation] )
+  summary {
+     margin: auto;
+  }
+:is( body > nav details, [role=navigation] )
+  > summary {
+    font: inherit;
+    font-weight: bold;
+  }
+:is( body > nav details, [role=navigation] )[dir]
+  > summary { margin: unset }
 
 
 /* SVG ================================================================== */
