@@ -203,7 +203,7 @@ li[data-icon]::before {
   background: yellow;
 }
 
-
+[name] > summary::before { content: counter(details) '.' }
 [role] > summary::before { content: '▶' }
 [role] > summary::after { content: '▶' }
 [role][open] > summary::before { content: '▼' }
