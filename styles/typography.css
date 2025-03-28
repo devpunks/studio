@@ -917,13 +917,6 @@ address {
   padding: 1em 1.68em;
   margin: var(--margin-collapse-bugfix) auto 1em;
 }
-article address, body > footer address, [contentinfo] address { font-family: monospace }
-body > footer address, [contentinfo] address {
-  border: solid;
-  margin: 1em auto;
-  border-width: 0.1ch 0;
-}
-article address {}
 
 article { margin: 0 .5ch .5ch }
 
