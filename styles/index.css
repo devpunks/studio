@@ -880,12 +880,7 @@ body > nav, [role=navigation] {
 }
 :is( body > nav details, details[role=navigation] )
   summary { display: inline-block }
-:is( body > nav > details, details[role=navigation] ) > summary {
-  color: unset;
-  display: block;
-  background: CanvasText;
-  box-shadow: 0 0 .3ch 0;
-}
+:is( body > nav > details, details[role=navigation] ) > summary {}
 :is( body > nav details, [role=navigation] ) > summary::before,
 :is( body > nav details, [role=navigation] ) > summary::after {
   background: red;
