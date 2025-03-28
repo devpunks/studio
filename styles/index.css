@@ -371,7 +371,6 @@ blockquote::before {
 blockquote::after {
   opacity: 40%;
   font-size: large;
-  content: no-close-quote '⤷\2002' attr(cite);
 }
 
 
