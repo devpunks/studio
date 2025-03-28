@@ -396,7 +396,7 @@ summary {
 :is( [name], [role] ) > summary::-webkit-details-marker
   { display:none }
 summary::before, summary::after
-  { min-width: initial }
+  { width: fit-content }
 [open] > summary { cursor: n-resize }
 details:is( [name], [role] ) summary {
   color: unset;
