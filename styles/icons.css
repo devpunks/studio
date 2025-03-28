@@ -127,6 +127,9 @@ a[accesskey='0']::before
 a[aria-disabled=true]::before
   { content: '❌' }
 
+del::before { content: '−' }
+ins::before { content: '+' }
+
 dfn::before { content: '📖' }
 code > dfn::before { content: '' }
 
@@ -180,7 +183,6 @@ li[data-icon]::before {
   list-style-image:
     url('data:image/svg+xml;utf8,<svg width="1.2em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="90%" y="1.2em">┗</text></svg>');
 }
-
 
 [aria-haspopup] {
   /* display: inline-block; */

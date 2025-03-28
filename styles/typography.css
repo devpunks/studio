@@ -667,19 +667,6 @@ abbr[title] {
   /* font-variant-caps: all-small-caps; */
 }
 
-del, s {
-  opacity: 0.618;
-  text-decoration-style: wavy;
-  text-decoration: line-through;
-}
-del { text-decoration-color: ActiveText }
-ins { text-decoration-color: HighlightText }
-
-del::before
-  { content: '−' /* https://en.wikipedia.org/wiki/Dash */ }
-
-ins::before { content: '+' }
-
 em { /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis */ }
 b, strong { font-weight: bolder }
 b {}
@@ -735,7 +722,15 @@ p + p { margin: 1.68em auto var(--margin-collapse-bugfix) }
   text-decoration: revert;
 }
 
+del, s {
+  opacity: 0.618;
+  text-decoration-style: wavy;
+  text-decoration: line-through;
+}
 dfn { font-weight: 500 }
+del { text-decoration-color: ActiveText }
+ins { text-decoration-color: HighlightText }
+
 code, kbd, pre, samp, var, data {
   padding: 0 0.5em;
   text-indent: initial;
