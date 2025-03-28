@@ -366,7 +366,6 @@ blockquote { /* http://webtypography.net/2.3.3 */
 }
 blockquote::before {
   opacity: 80%;
-  content: open-quote;
   transform: translate(1ch, 2ch) scale(6);
 }
 blockquote::after {
