@@ -1042,20 +1042,15 @@ body > nav, [role=navigation] {
 }
 body > nav {}
 body > nav::before {}
-:is( body > nav, [role=navigation] ) > * {}
-:is( body > nav, [role=navigation] ) > details::after {
-  margin: unset;
-  font-size: 25vh;
-  text-align: center;
-  line-height: 100vh;
-}
-:is( body > nav details, [role=navigation] ) > summary {
-  font: inherit;
-  font-weight: bold;
-}
-:is( body > nav details, [role=navigation] ) summary {}
-:is( body > nav details, [role=navigation] )[dir]
-  > summary { margin: unset }
+:is( body > nav, [role=navigation] )
+  > * {}
+:is( body > nav, [role=navigation] )
+  > details::after {
+    margin: unset;
+    font-size: 25vh;
+    text-align: center;
+    line-height: 100vh;
+  }
 :is( nav, [role=navigation] ) :is( details, summary ) {
   padding: var(--margin-collapse-bugfix) auto;
 }
