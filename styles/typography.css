@@ -867,7 +867,6 @@ cite {
   line-height: inherit;
 }
 cite::before, cite::after {}
-cite::before { content: '\2014 ' }
 
 blockquote cite, q cite {}
 blockquote::after, blockquote cite {
