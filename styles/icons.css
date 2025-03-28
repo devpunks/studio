@@ -249,7 +249,7 @@ nav > header::after { content: '⬊' }
 :is( body > nav, [role=navigation] )
   li > a::before { content: '📄' }
 :is( body > nav, [role=navigation] )
-  :is( [open] ) > summary::before { content: '📂' }
+  li > a:hover::before { content: '📝' }
 :is( body > nav, [role=navigation] )
   li li > a::before { content: '📄' }
 :is( body > nav, [role=navigation] )
