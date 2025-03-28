@@ -887,7 +887,15 @@ body > nav, [role=navigation] {
   min-width: 2em;
   line-height: 2em;
 }
-[role=navigation] > summary {}
+details[role=navigation] > summary {
+  display: flex;
+  align-items: center;
+  background: CanvasText;
+  box-shadow: 0 0 .3ch 0;
+  justify-content: space-between;
+  width: -moz-available;
+  width: -webkit-fill-available;
+}
 [role=navigation] > summary::before,
 [role=navigation] > summary::after
   { box-shadow: inset 0ch 0ch .3ch .1ch }
