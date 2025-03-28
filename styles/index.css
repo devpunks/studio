@@ -877,7 +877,6 @@ body > nav, [role=navigation] {
   color: Canvas;
   background: CanvasText;
   box-shadow: 0 0 2ch .5ch;
-  background-color: CanvasText;
 }
 :is( body > nav details, details[role=navigation] )
   summary { display: inline-block }
