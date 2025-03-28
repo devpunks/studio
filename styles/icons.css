@@ -234,6 +234,7 @@ dl[itemscope] dt::after { content: ':' }
 dl[itemscope] dt::after { content: ':' }
 
 
+/* Navigations ================================================================== */
 nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
 
