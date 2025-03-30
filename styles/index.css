@@ -380,7 +380,7 @@ blockquote::after {
 details {}
 details[open] {}
 details[name] {
-  counter-increment: details;
+  border-bottom-width: thin;
   border-bottom-style: solid;
 }
 details[name]:first-of-type { counter-reset: details 0 }
