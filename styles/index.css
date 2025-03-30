@@ -382,6 +382,7 @@ details[open] {}
 details[name] {
   border-bottom-width: thin;
   border-bottom-style: solid;
+  counter-increment: details;
 }
 details[name]:first-of-type { counter-reset: details 0 }
 details[role] {}
