@@ -1024,7 +1024,7 @@ summary::before, summary::after { text-align: center }
 /* Navigations ================================================================== */
 nav, [role=navigation] {}
 body > nav, [role=navigation] {
-  margin: auto;
+  margin: 0 auto;
   text-align: var(--text-align);
 }
 [role=navigation] {
