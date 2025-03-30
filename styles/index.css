@@ -874,8 +874,7 @@ body > nav, [role=navigation] {
   > summary {}
 details[role=navigation] > summary {
   /* TODO: Fix Safari - https://stackoverflow.com/q/65301531/summary-with-flexbox-and-pseudo-element-fails-to-show-inline-in-safari */
-  display: flex;
-  align-items: center;
+  display: block;
   background: CanvasText;
   box-shadow: 0 0 .3ch 0;
   justify-content: space-between;
