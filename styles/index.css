@@ -897,6 +897,7 @@ details[role=navigation] > summary {
   white-space: nowrap;
   /* clip-path: inset(0 50% 0% 0); */
 }
+details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
   { width: 2em }
 details[role=navigation][open] > summary {}
