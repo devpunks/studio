@@ -900,7 +900,9 @@ details[role=navigation] > summary {
 details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
   { width: 2em }
-details[role=navigation][open] > summary {}
+details[role=navigation][dir][open] > summary
+  { width: min-content }
+
 :is( nav, [role=navigation] ) li {
   display: flex;
   background: inherit;
