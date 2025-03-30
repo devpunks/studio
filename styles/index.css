@@ -718,7 +718,7 @@ menu, [role=menu], [role=toolbar] {
 [role=menu] {}
 [role=menu] li {}
 [role=menubar] {
-  min-width: 100%;
+  min-width: fit-content;
   align-items: flex-start;
   justify-content: flex-start;
 }
