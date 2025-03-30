@@ -214,7 +214,9 @@ body > nav, [role=navigation] {
 }
 :is( body > nav, [role=navigation] )[dir][open] { width: unset }
 :is( body > nav, [role=navigation] )[dir=ltr] { margin-left: unset }
-[role=navigation] {}
+:is( body > nav, [role=navigation] )[dir=rtl] { margin-right: unset }
+body > nav { min-height: 100vh }
+[role=navigation] { height:max-content }
 [role=navigation][open] {
   overflow-y: auto;
   max-height: 100vh;
