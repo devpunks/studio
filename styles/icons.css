@@ -215,7 +215,7 @@ li[data-icon]::before {
 [role$=group] > summary::before { content: '➕' }
 [role$=group][open] > summary::before { content: '➖' }
 :is( [role=none], [role=presentation], [open][role=none], [open][role=presentation] )
-  > summary::before { content: '' }
+  > summary::before { content: '\200B' }
 
 
 table::before, table::after
