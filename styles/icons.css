@@ -206,9 +206,9 @@ li[data-icon]::before {
 }
 
 [name] > summary::before { content: counter(details) '.' }
-[role] > summary::before { content: '▶' }
-[role] > summary::after { content: '▶' }
-[role][open] > summary::before { content: '▼' }
+:where( [role] ) > summary::before { content: '▶' }
+[role] > summary::after {}
+:where( [role][open] ) > summary::before { content: '▼' }
 [role=tree] summary::before  { content: '⊞' '📁' }
 :is( [role=tree][open], [role=tree] [open] )
   > summary::before  { content: '⊟' '📂' }
