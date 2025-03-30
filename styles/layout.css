@@ -208,6 +208,7 @@ body > nav, [role=navigation] {
   max-height: 100vh;
 }
 :is( body > nav, [role=navigation] )[dir] {
+  top: 0;
   width: 2em;
   position: fixed;
 }
