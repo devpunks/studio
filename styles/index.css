@@ -721,11 +721,6 @@ menu, [role=menu], [role=toolbar] {
   }
 [role=menu] {}
 [role=menu] li {}
-[role=menubar] {
-  min-width: fit-content;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 
 [role=menubar] li {}
 [role=tree] {
