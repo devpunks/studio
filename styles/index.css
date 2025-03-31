@@ -686,10 +686,14 @@ li[data-icon]::before {
   flex-wrap: wrap;
   flex-direction: var(--flex-direction);
 }
-[aria-orientation=horizontal], [role=menubar] { display: flex }
-[aria-orientation=horizontal] {
-  margin: 0 auto;
+[role=menubar], [aria-orientation=horizontal] { display: flex }
+[role=menubar] {
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: -webkit-fill-available;
 }
+[role=menubar] li {}
+[aria-orientation=horizontal] { margin: 0 auto }
 [role$=group] {
   display: flex;
   margin: unset;
