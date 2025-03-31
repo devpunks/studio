@@ -872,7 +872,7 @@ blockquote::after, blockquote cite {
   /* margin: var(--margin-collapse-bugfix) 1.6821vw; */
   /* padding: var(--margin-collapse-bugfix) 1.6821vw; */
 }
-blockquote cite { margin-top: -1em }
+blockquote cite {}
 q cite {
   max-width: 21ch;
   overflow: hidden;
