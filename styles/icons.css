@@ -136,7 +136,7 @@ code > dfn::before { content: '\200B' }
 q::before { content: '🗣️' open-quote }
 q::after  { content: close-quote }
 blockquote::before { content: open-quote }
-blockquote::before { content: no-close-quote '⤷\2002' attr(cite) }
+blockquote::after { content: no-close-quote '⤷\2002' attr(cite) }
 
 cite::before { content: '\2014 ' }
 blockquote cite::before { content: normal }
