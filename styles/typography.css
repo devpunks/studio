@@ -528,7 +528,7 @@ ol {}
   ul { margin: 0 0 0 1em }
 li {
   text-indent: unset;
-  line-height: normal;
+  line-height: inherit;
 }
 li::marker {}
 li::before, li::after { text-align: center }
