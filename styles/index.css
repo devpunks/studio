@@ -599,7 +599,7 @@ ul > li::after {}
 ol > li::after {}
 ul > li::after {}
 
-[role=menubar] > summary, :is( dl, ol, ul, menu, [itemscope], [role=feed] )::before {
+details[role=menubar] > summary, :is( dl, ol, ul, menu, [itemscope], [role=feed] )::before {
   width: -moz-available;
   width: -webkit-fill-available;
   flex-basis: 100%;
