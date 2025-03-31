@@ -1043,6 +1043,7 @@ body > nav, [role=navigation] {
 }
 details[role=navigation] {
   padding: 0;
+  margin: 0 auto;
   text-transform: capitalize;
 }
 body > nav {}
