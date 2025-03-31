@@ -216,8 +216,6 @@ body > nav, [role=navigation] {
   position: fixed;
 }
 :is( body > nav, [role=navigation] )[dir][open] { width: unset }
-:is( body > nav, [role=navigation] )[dir=ltr] { margin-left: unset }
-:is( body > nav, [role=navigation] )[dir=rtl] { margin-right: unset }
 body > nav { min-height: 100vh }
 [role=navigation] { height:max-content }
 [role=navigation][open] {
