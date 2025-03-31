@@ -803,8 +803,7 @@ figcaption {
 
 q { /* quotes */
   font-style: italic;
-  border-radius: 1ch;
-  padding-inline: 0.5ch;
+  font-family: serif;
 
    /*
     - https://cl.cam.ac.uk/~mgk25/ucs/quotes.html
