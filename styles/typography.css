@@ -1030,7 +1030,18 @@ body > nav, [role=navigation] {
   margin: 0 auto;
   text-align: var(--text-align);
 }
-[role=navigation] {
+:is( body > nav, [role=navigation] )[dir] {}
+:is( body > nav, [role=navigation] )[dir=ltr] {
+  left: 0;
+  margin-right: auto;
+  margin-left: unset;
+}
+:is( body > nav, [role=navigation] )[dir=rtl] {
+  right: 0;
+  margin-left: auto;
+  margin-right: unset;
+}
+details[role=navigation] {
   padding: 0;
   text-transform: capitalize;
 }
