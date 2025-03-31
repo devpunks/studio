@@ -949,7 +949,6 @@ table > thead::after, table > tfoot::after, table > tbody::after, table > captio
   text-indent: 1ch;
   line-height: calc(1em * var(--GOLDEN-RATIO));
 }
-
 table > caption {
   padding: 1ch;
   margin: 1ch 0;
