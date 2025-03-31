@@ -977,6 +977,7 @@ tbody tr
 /* details */
 details {
   padding: 0 1ch;
+  margin: 0 0 1ch;
   text-align: start;
 }
 details[open] { padding-bottom: 1ch }
