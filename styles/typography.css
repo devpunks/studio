@@ -869,8 +869,8 @@ blockquote::after, blockquote cite {
   text-align: end;
   font-size: x-large;
   font-family: cursive;
-  margin: var(--margin-collapse-bugfix) 1.6821vw;
-  padding: var(--margin-collapse-bugfix) 1.6821vw;
+  /* margin: var(--margin-collapse-bugfix) 1.6821vw; */
+  /* padding: var(--margin-collapse-bugfix) 1.6821vw; */
 }
 blockquote cite { margin-top: -1em }
 q cite {
