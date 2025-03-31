@@ -702,7 +702,6 @@ li[data-icon]::before {
   border: .1ch solid;
   flex-direction: var(--flex-direction);
 }
-[role='radiogroup'] { justify-content: space-evenly }
 [role$=group] li {
   margin: 0;
   outline: .2ch dashed;
