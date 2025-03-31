@@ -1058,6 +1058,7 @@ body > nav::before {}
     line-height: 100vh;
   }
 :is( nav, [role=navigation] ) :is( details, summary ) {
+  margin: unset;
   padding: var(--margin-collapse-bugfix) auto;
 }
 :is( body > nav details, [role=navigation] )
