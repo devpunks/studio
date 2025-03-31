@@ -910,7 +910,8 @@ details[role=navigation][dir][open] > summary
 :is( nav, [role=navigation] ) li::after {
   background: inherit;
 }
-
+:is( nav, [role=navigation] )
+  li::before { opacity: .168 }
 :is( nav, [role=navigation] )
   li:is( :hover, :focus-within )::before { opacity: 1 }
 nav li:hover::before,
