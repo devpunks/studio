@@ -976,7 +976,6 @@ tbody tr
 
 /* details */
 details {
-  margin: unset;
   padding: 0 1ch;
   text-align: start;
 }
