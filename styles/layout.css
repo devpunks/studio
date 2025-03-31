@@ -228,17 +228,12 @@ body > nav { min-height: 100vh }
   :is( dl, ul, ol, details ) {
     width: auto;
     background: unset;
-    outline: .2ch dashed;
     min-width: max-content;
     max-width: max-content;
   }
 :is( body > nav, [role=navigation] ) :is( details )::before {
-    content: 'x';
-    float: left;
-    background: magenta;
-    display: inline-block;
-    display: list-item;
-    line-height: normal;
+    content: '⭐';
+    text-align: center;
   }
 body > nav > details {
   min-width: 100%;
