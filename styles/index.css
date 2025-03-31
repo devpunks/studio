@@ -722,7 +722,6 @@ menu, [role=menu], [role=toolbar] {
 [role=menu] {}
 [role=menu] li {}
 
-[role=menubar] li {}
 [role=tree] {
   display: block;
   list-style: disc;
