@@ -606,7 +606,7 @@ dd[role=definition]::before {
 dd[role=definition]
   > :is( dl, ol, ul ) { margin-left: 2em }
 
-details :is( details, dl, ol, ul ) { margin-bottom: unset }
+details :is( details, dl, ol, ul ) {}
 
 [role=none], [role=presentation] {}
 :is( [role=none], [role=presentation] )
