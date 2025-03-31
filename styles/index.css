@@ -903,6 +903,7 @@ details[role=navigation][dir][open] > summary
 
 :is( nav, [role=navigation] ) li {
   display: flex;
+  align-items: normal;
   background: inherit;
 }
 :is( nav, [role=navigation] ) li::before,
