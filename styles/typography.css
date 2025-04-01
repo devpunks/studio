@@ -438,8 +438,6 @@ a:hover { text-decoration-color: currentColor }
 
 :is( cite, sup, sub ) > a {
   padding: 0;
-  max-width: 12em;
-  overflow: hidden;
   white-space: nowrap;
   line-height: initial;
   text-overflow: ellipsis;
