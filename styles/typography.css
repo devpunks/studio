@@ -438,7 +438,7 @@ a:hover { text-decoration-color: currentColor }
 
 :is( cite, sup, sub ) > a {
   padding: 0;
-  white-space: nowrap;
+  display: inline;
   line-height: initial;
   vertical-align: text-bottom;
 }
