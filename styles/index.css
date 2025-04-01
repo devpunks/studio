@@ -188,6 +188,11 @@ a {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
+
+:is( sup a, sub a )::before,
+:is( sup a, sub a )::after
+  { color: CanvasText }
+
 p > a { display: inline }
 footer p > a { display: inline-block }
 
