@@ -127,6 +127,9 @@ a[accesskey='0']::before
 a[aria-disabled=true]::before
   { content: '❌' }
 
+:is( sup a, sub a )::before { content: '[' }
+:is( sup a, sub a )::after { content: ']' }
+
 del::before { content: '−' }
 ins::before { content: '+' }
 
