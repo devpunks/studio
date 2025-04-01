@@ -436,8 +436,7 @@ a::before, a::after {
 a:hover, header a:hover {}
 a:hover { text-decoration-color: currentColor }
 
-li > a { vertical-align: top }
-cite > a, sup > a, sub > a {
+:is( cite, sup, sub ) > a {
   padding: 0;
   max-width: 12em;
   overflow: hidden;
