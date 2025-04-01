@@ -440,7 +440,6 @@ a:hover { text-decoration-color: currentColor }
   padding: 0;
   white-space: nowrap;
   line-height: initial;
-  text-overflow: ellipsis;
   vertical-align: text-bottom;
 }
 
