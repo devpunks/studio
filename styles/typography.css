@@ -882,6 +882,7 @@ q cite {
   vertical-align: middle;
   text-overflow: ellipsis;
 }
+li > cite { white-space: normal }
 
 small { font-size: smaller }
 
