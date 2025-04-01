@@ -372,7 +372,7 @@ blockquote { /* http://webtypography.net/2.3.3 */
 }
 blockquote::before {
   opacity: 80%;
-  transform: translate(1ch, 2ch) scale(6);
+  transform: translate(0ch, 2ch) scale(6);
 }
 blockquote::after {
   opacity: 40%;
