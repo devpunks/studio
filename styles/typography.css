@@ -442,6 +442,13 @@ a:hover { text-decoration-color: currentColor }
   line-height: initial;
   vertical-align: text-bottom;
 }
+q cite a, q + cite a, cite + cite a {
+  max-width: 12em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+li > a { vertical-align: top }
 
 nav > a {
   margin: 1ch;
