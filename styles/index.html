@@ -1021,13 +1021,38 @@ Gesture symbols
         is another <code>&lt;q&gt;</code>uotation with multiple sibling <code>&lt;cite&gt;</code>s inside this <code>&lt;p&gt;</code>aragraph.
         <q cite=''>The quick brown fox jumps over the lazy dog.
         </q>
-        returning to prose from original <em>double</em> <code>&lt;q&gt;</code>uote
-      </q>
-      <cite title='Citation for previous &lt;q&gt;'>Citation <em>(Outside of <code>&lt;q&gt;</code>uote)</em></cite>
-      <cite title='with multiple sibling citations'>with <em>multiple</em>sibling citations</cite>
+        <sup><cite title='References'>
+          <a id=reference1 title='Reference #1' href=#cite1>1</a>
+          <a id=reference2 title='Reference #2' href=#cite2>2</a>
+          <a id=reference3 title='Reference #3' href=#cite3>3</a>
+        </cite></sup>
+        uses the following external references below.
+        <sup><cite title='References'>
+          <a title='Reference #1' href=#cite1>1</a>
+          <a title='Reference #2' href=#cite2>2</a>
+          <a title='Reference #3' href=#cite3>3</a>
+        </cite></sup>
 
-      <em>(Outside of a <code>&lt;p&gt;</code>aragraph)</em>
-      that would appear inline within text content.
+      <ol aria-label=Citations>
+        <li id=cite1>
+          <a href=#reference1 title='Jump to Reference #1'>🆙</a>
+          <cite>
+            <a target=external title='Cite #1' href='https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog'><em>(The quick brown fox jumps over the lazy dog)</em></a>:
+            This famous sentence contains every letter of the alphabet, and is used by companies worldwide to demonstrate font types.
+            It is an example of a pangram, a sentence that uses the whole alphabet.
+          </cite>
+        <li id=cite2>
+          <a href=#reference2 title='Jump to Reference #2'>🆙</a>
+          <cite>
+            <a target=external title='Cite #2' href='https://nycgovparks.org/parks/quick-brown-fox-triangle/history'><em>Quick Brown Fox Triangle</em></a>:
+            Quick Brown Fox Triangle is located in Maspeth, Queens. Maspeth derives its name from that of an Indian tribe, the Mespat, who inhabited the region at the head of Newtown Creek.
+          </cite>
+        <li id=cite3>
+          <a href=#reference3 title='Jump to Reference #3'>🆙</a>
+          <cite>
+            <a target=external title='Cite #3' href='https://google.com/maps/search/?api=1&query=Quick+Brown+Fox+Triangle'>Quick Brown Fox Triangle <em>(Google<sup>&trade;</sup> Maps)</em></a>
+          </cite>
+      </ol>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
