@@ -141,7 +141,7 @@ q::after  { content: close-quote }
 blockquote::before { content: open-quote }
 blockquote::after { content: no-close-quote '⤷\2002' attr(cite) }
 
-cite::before { content: '\2014 ' }
+q + ::before { content: '\2014 ' }
 blockquote cite::before { content: normal }
 
 samp > kbd::before { content: '$' }
