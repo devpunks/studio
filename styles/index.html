@@ -985,6 +985,24 @@ Gesture symbols
 
       <header><code>&lt;q&gt;</code>uotes</header><!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q -->
 
+      Free-form text with multiple quotes
+      <q cite=https://en.wikipedia.org/wiki/Quotation>1<sup>st</sup> is a normal <em>double</em> <code>&lt;q&gt;</code>uote
+        <q cite=https://en.wikipedia.org/wiki/Quotation_mark#In_English>with a 2<sup>nd</sup> <em>nested</em> <code>&lt;q&gt;</code>uote <em>(within <em>single</em> quotes)</em>
+          <q cite=https://painintheenglish.com/case/5112>
+            With a 3<sup>rd</sup> <em>nested</em> <code>&lt;q&gt;</code>uote
+            <em>(which should return. to double quotes)</em>.
+            <cite tile='https://painintheenglish.com/case/5112'>
+              <a rel=author target=external title='Pain in the English' href=https://painintheenglish.com/case/5112>https://painintheenglish.com/case/5112</a></cite></q>
+          <cite title='Citation for 3rd (or 2nd &lt;q&gt;uote'>Citation for <em>2<sup>nd</sup> <code>&lt;q&gt;</code>uote</em>
+            (<a rel=author target=external title='Nested Quotations' href=https://en.wikipedia.org/wiki/Nested_quotation>Nested Quotations</a>)</cite></q>
+        returning to prose from original <em>double</em> <code>&lt;q&gt;</code>uote
+        <cite title='Citation for previous &lt;q&gt;'>Citation <em>(Inside of <code>&lt;q&gt;</code>uote)</em></cite>
+      </q>
+      <cite title='Citation for previous &lt;q&gt;'>Citation <em>(Outside of <code>&lt;q&gt;</code>uote)</em></cite>
+      <cite title='with multiple sibling citations'>with <em>multiple</em>sibling citations</cite>
+
+      <em>(Outside of a <code>&lt;p&gt;</code>aragraph)</em>that would appear inline within text content.
+
       <p>A <code>&lt;p&gt;</code>aragraph
         <q cite=https://developer.mozilla.org/en-US/docs/HTML/Element/q>child <code>&lt;q&gt;</code>uotation.
           <cite title='https://developer.mozilla.org/en-US/docs/HTML/Element/q'>
