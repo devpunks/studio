@@ -180,6 +180,7 @@ body > footer {
   background: Canvas;
 }
 
+/* anchor links */
 a {
   position: relative;
   border-radius: 0.2ch;
