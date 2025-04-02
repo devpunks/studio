@@ -875,7 +875,7 @@ body > nav, [role=navigation] {
   box-shadow: 0 0 2ch .5ch;
 }
 :is( body > nav details, details[role=navigation] )
-  summary { display: inline-block }
+  summary { display: contents }
 :is( body > nav > details, details[role=navigation] )
   > summary {}
 details[role=navigation] > summary {
