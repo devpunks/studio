@@ -246,9 +246,15 @@ body > nav > details {
   background: red;
   background: inherit;
 }
-/* 
-:is( body > nav > details, [role=navigation] )::after {
-    top: 0;
+[role=navigation]::after {
+    /* border-top: 1ch solid transparent; */
+    /* box-shadow: inset 0ch 0ch 0ch 1ch; */
+    box-shadow: 0ch 0ch 0ch 3ch;
+    top: 0vh;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    /* height: calc(100% - 2em); */
+    /* min-height: calc(100% - 2em); */
     z-index: -1;
     /* z-index: 3; */
     opacity: 68%;
