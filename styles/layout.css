@@ -262,8 +262,8 @@ body > nav > details {
     width: -moz-available;
     width: -webkit-fill-available;
     position: fixed;
-    position: absolute;
-    background: inherit;
+    /* position: absolute; */
+    background: transparent;
     backdrop-filter: blur(19px);
     -webkit-backdrop-filter: blur(19px);
     // https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
