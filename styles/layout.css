@@ -250,6 +250,7 @@ body > nav > details {
 :is( body > nav > details, [role=navigation] )::after {
     top: 0;
     z-index: -1;
+    /* z-index: 3; */
     opacity: 68%;
     display: none;
     width: inherit;
