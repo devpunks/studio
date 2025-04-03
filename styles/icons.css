@@ -249,6 +249,7 @@ nav > header::before { content: '🧭' }
 nav > header::after { content: '⬊' }
 
 [role=navigation] { content: attr(data-icon) }
+[role=navigation]::after { content: '🍔' }
 [role=navigation] > summary::before,
 [role=navigation] > summary::after
   {}
