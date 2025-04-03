@@ -910,7 +910,6 @@ details[role=navigation][dir][open] > summary
 :is( nav, [role=navigation] ) li {
   display: flex;
   background: inherit;
-  align-self: start;
   background: aliceblue;
 }
 :is( nav, [role=navigation] ) li::before,
