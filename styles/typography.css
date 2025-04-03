@@ -1072,6 +1072,7 @@ body > nav::before {}
   }
 :is( body > nav details, [role=navigation] )
   > summary {
+    margin: unset;
     font: inherit;
     font-weight: bold;
   }
