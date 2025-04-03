@@ -196,7 +196,7 @@ body > footer, [role=contentinfo] {
     > * {}
 }
 :is( body > nav, [role=navigation] )[dir]
-    > * { margin: auto 0 }
+    > * { flex-direction: column }
 body > nav, [role=navigation] {
   top: 0;
   z-index: 1;
