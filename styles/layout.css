@@ -266,7 +266,8 @@ body > nav > details {
   top: 0;
   z-index: 1;
   position: sticky;
-  height: fit-content;
+  align-self: start;
+  flex: 0 0 fit-content;
 }
 
 /* https://css-tricks.com/almanac/properties/i/isolation */
