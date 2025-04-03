@@ -259,7 +259,6 @@ body > nav > details {
     /* z-index: 3; */
     opacity: 68%;
     display: none;
-    width: inherit;
     width: -moz-available;
     width: -webkit-fill-available;
     width: 100%;
