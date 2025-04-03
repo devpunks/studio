@@ -909,7 +909,6 @@ details[role=navigation][dir][open] > summary
   > * { background: CanvasText }
 :is( nav, [role=navigation] ) li {
   display: flex;
-  align-items: normal;
   background: inherit;
   align-self: start;
   background: aliceblue;
