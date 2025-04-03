@@ -905,6 +905,8 @@ details[role=navigation][dir] > summary
 details[role=navigation][dir][open] > summary
   { max-width: unset; max-height: unset }
 
+:is( body > nav, [role=navigation] )
+  > * { background: CanvasText }
 :is( nav, [role=navigation] ) li {
   display: flex;
   align-items: normal;
