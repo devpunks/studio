@@ -901,7 +901,7 @@ details[role=navigation] > summary {
 }
 details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
-  { max-width: 2em }
+  { max-width: 2em; max-height: 2em }
 details[role=navigation][dir][open] > summary
   { max-width: unset }
 
