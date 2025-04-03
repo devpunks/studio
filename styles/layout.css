@@ -261,7 +261,6 @@ body > nav > details {
     display: none;
     width: -moz-available;
     width: -webkit-fill-available;
-    width: 100%;
     position: fixed;
     position: absolute;
     background: inherit;
