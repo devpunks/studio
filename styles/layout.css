@@ -205,6 +205,7 @@ body > nav, [role=navigation] {
   position: sticky;
   overflow-y: auto;
   max-height: 100vh;
+  flex-direction: var(--flex-direction);
 }
 :is( body > nav, [role=navigation] )[dir] {
   top: 0;
