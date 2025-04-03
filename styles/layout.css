@@ -200,6 +200,7 @@ body > footer, [role=contentinfo] {
 body > nav, [role=navigation] {
   top: 0;
   z-index: 1;
+  display: flex;
   container: nav;
   position: sticky;
   overflow-y: auto;
