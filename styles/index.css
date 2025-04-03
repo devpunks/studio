@@ -904,7 +904,7 @@ details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
   { max-width: 2em }
 details[role=navigation][dir][open] > summary
-  { width: min-content }
+  { max-width: unset }
 
 :is( nav, [role=navigation] ) li {
   display: flex;
