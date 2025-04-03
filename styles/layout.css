@@ -193,7 +193,7 @@ body > footer, [role=contentinfo] {
 @media ( orientation: portrait ) {}
 @media ( orientation: landscape ) {
   :is( body > nav, [role=navigation] )[dir]
-    > * { margin: auto 0 }
+    > * {}
 }
 :is( body > nav, [role=navigation] )[dir]
     > * { margin: auto 0 }
