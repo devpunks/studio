@@ -222,6 +222,11 @@ body > nav { min-height: 100vh }
   height: max-content;
 }
 :is( body > nav, [role=navigation] )
+  > * {
+    display: flex;
+    flex-direction: var(--flex-direction);
+  }
+:is( body > nav, [role=navigation] )
   :is( dl, ul, ol, details ) {
     width: auto;
     background: unset;
