@@ -409,7 +409,6 @@ details:is( [name], [role] ) summary {
   color: unset;
   display: block;
   background: unset;
-  width: fit-content;
 }
 [name] > summary {
   color: unset;
