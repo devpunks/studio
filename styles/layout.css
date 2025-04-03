@@ -190,10 +190,7 @@ body > footer, [role=contentinfo] {
 
 /* Navigations ================================================================== */
 @container nav ( orientation: landscape ) {}
-@media ( orientation: portrait ) {
-  :is( body > nav, [role=navigation] )
-    > * { margin: auto }
-}
+@media ( orientation: portrait ) {}
 @media ( orientation: landscape ) {
   :is( body > nav, [role=navigation] )
     > * { margin: auto 0 }
