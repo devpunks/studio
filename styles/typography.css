@@ -1075,6 +1075,7 @@ body > nav::before {}
     margin: unset;
     font: inherit;
     font-weight: bold;
+    white-space: nowrap;
   }
 :is( body > nav details, [role=navigation] )[dir]
   > summary { margin: unset }
