@@ -206,6 +206,7 @@ body > nav, [role=navigation] {
   overflow-y: auto;
   max-height: 100vh;
   flex-direction: var(--flex-direction);
+  box-shadow: 0ch 0ch 1ch 0.5ch;
 }
 :is( body > nav, [role=navigation] )[dir] {
   top: 0;
