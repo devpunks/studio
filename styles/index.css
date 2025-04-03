@@ -902,7 +902,7 @@ details[role=navigation] > summary {
 }
 details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
-  { width: 2em }
+  { max-width: 2em }
 details[role=navigation][dir][open] > summary
   { width: min-content }
 
