@@ -216,11 +216,8 @@ body > nav, [role=navigation] {
   background: unset;
   flex-direction: column;
 }
-:is( body > nav, [role=navigation] )[dir][open]
-  { width: fit-content; height: -webkit-fill-available }
-body > nav { min-height: 100vh }
-[role=navigation] { height:max-content }
-[role=navigation][open] {
+:is( body > nav, [role=navigation] )[dir][open] {
+  height: 100vh;
   overflow-y: auto;
   max-height: 100vh;
   min-height: unset;
