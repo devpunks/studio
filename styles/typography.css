@@ -1028,10 +1028,8 @@ summary::before, summary::after { text-align: center }
 
 /* Navigations ================================================================== */
 nav, [role=navigation] {}
-body > nav, [role=navigation] {
-  margin: 0 auto;
-  text-align: var(--text-align);
-}
+body > nav, [role=navigation]
+  { margin: 0 auto }
 :is( body > nav, [role=navigation] )[open]
   {}
 :is( body > nav, [role=navigation] )[dir] {}
