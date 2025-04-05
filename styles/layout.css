@@ -205,6 +205,7 @@ body > nav, [role=navigation] {
   position: sticky;
   overflow-y: auto;
   max-height: 100vh;
+  background: CanvasText;
   flex-direction: var(--flex-direction);
   box-shadow: 0ch 0ch 1ch 0.5ch;
 }
