@@ -11,6 +11,8 @@
   - QR Code Links - https://adrianroselli.com/2013/03/calling-qr-in-print-css-only-when-needed.html
    ========================================================================== */
 :root {
+  --widows:  4; /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
+  --orphans: 4; /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
   --columns: 1 auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
   --orphans: 4;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
   --widows:  4;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
