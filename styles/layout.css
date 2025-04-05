@@ -246,7 +246,7 @@ body > nav > details {
   background: red;
   background: inherit;
 }
-[role=navigation]::after {
+[role=navigation][dir]::after {
     /* border-top: 1ch solid transparent; */
     /* box-shadow: inset 0ch 0ch 0ch 1ch; */
     box-shadow: 0ch 0ch 0ch 3ch;
