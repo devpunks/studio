@@ -14,8 +14,6 @@
   --widows:  4; /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
   --orphans: 4; /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
   --columns: 1 auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
-  --orphans: 4;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/orphans */
-  --widows:  4;      /* https://developer.mozilla.org/en-US/docs/Web/CSS/widows  */
 }
 
 @page { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page*/
