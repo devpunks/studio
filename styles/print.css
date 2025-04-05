@@ -9,7 +9,6 @@
   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout
   - https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
   - QR Code Links - https://adrianroselli.com/2013/03/calling-qr-in-print-css-only-when-needed.html
-
    ========================================================================== */
 :root {
   --columns: 1 auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
