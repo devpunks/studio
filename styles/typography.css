@@ -1056,7 +1056,7 @@ body > nav::before {}
   > * {
   margin: unset;
 }
-:is( body > nav, [role=navigation] )::after {
+:is( body > nav, [role=navigation] )[dir]::after {
     margin: unset;
     font-size: 25vh;
     text-align: center;
