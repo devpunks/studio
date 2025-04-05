@@ -223,6 +223,8 @@ body > nav, [role=navigation] {
   width: fit-content;
   height: -webkit-fill-available;
 }
+body > nav { min-height: 100vh }
+[role=navigation] { height:max-content }
 :is( body > nav, [role=navigation] )
   > * {
     display: flex;
