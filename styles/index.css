@@ -957,7 +957,7 @@ body[role=application] {
     - https://drafts.csswg.org/css-scroll-snap-1
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts
   */
-  /* scroll-snap-type: y mandatory */
+  scroll-snap-type: y mandatory
 }
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
 body > * {
