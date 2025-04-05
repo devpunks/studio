@@ -220,8 +220,8 @@ body > nav, [role=navigation] {
   height: 100vh;
   overflow-y: auto;
   max-height: 100vh;
-  min-height: unset;
-  height: max-content;
+  width: fit-content;
+  height: -webkit-fill-available;
 }
 :is( body > nav, [role=navigation] )
   > * {
