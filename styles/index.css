@@ -106,7 +106,11 @@
 }
 
 /* pseudo elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements */
-
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:target */
+:target :is( h1, h2, h3, h4, h5, h6, header ):first-of-type {
+  color: Canvas;
+  background: Canvastext;
+}
 /* Scrollbars
   - https://drafts.csswg.org/css-scrollbars-1
   - https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color
