@@ -1033,7 +1033,7 @@ body > nav, [role=navigation] {
   text-align: var(--text-align);
 }
 :is( body > nav, [role=navigation] )[open]
-  { padding-bottom: 1ch }
+  {}
 :is( body > nav, [role=navigation] )[dir] {}
 :is( body > nav, [role=navigation] )[dir=ltr] {
   left: 0;
