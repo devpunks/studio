@@ -16,7 +16,7 @@
   --columns: 1 auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/columns */
 }
 
-@page { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page*/
+@page { /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
   margin: 10%;
   size: A4 portrait;
 }
