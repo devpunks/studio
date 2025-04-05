@@ -233,7 +233,6 @@ body > nav { min-height: 100vh }
 :is( body > nav, [role=navigation] )
   :is( dl, ul, ol, details ) {
     width: auto;
-    background: unset;
     min-width: max-content;
     max-width: max-content;
   }
