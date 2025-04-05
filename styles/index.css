@@ -870,7 +870,7 @@ nav, [role=navigation] {}
 
 body > nav, [role=navigation] {
   color: Canvas;
-  box-shadow: ;
+  box-shadow: 0 0 1ch 0.168ch CanvasText;
 }
 :is( body > nav details, details[role=navigation] )
   summary { display: contents }
