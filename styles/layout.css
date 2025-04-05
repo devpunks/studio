@@ -213,6 +213,7 @@ body > nav, [role=navigation] {
   top: 0;
   width: 2em;
   position: fixed;
+  background: unset;
   flex-direction: column;
 }
 :is( body > nav, [role=navigation] )[dir][open]
