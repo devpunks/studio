@@ -2170,7 +2170,21 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <header>Horizontal rules <var>role=separator</var></header>
 
       <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/separator_role -->
-      <hr role=separator>
+      Foo<hr role=separator>Bar
+
+      <br>
+
+      Foo<hr role=separator data-icon=👉>Bar
+
+      <br>
+
+      <header>Horizontal rules <var>aria-orientation=…</var></header>
+
+      Foo<hr role=separator aria-orientation=vertical>Bar
+
+      <br>
+
+      Foo<hr role=separator data-icon=👉 aria-orientation=vertical>Bar
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
