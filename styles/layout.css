@@ -221,7 +221,7 @@ body > nav, [role=navigation] {
   width: fit-content;
   height: -webkit-fill-available;
 }
-body > nav { min-height: 100vh }
+body > nav {}
 [role=navigation] { height:max-content }
 :is( body > nav, [role=navigation] )
   > * {
