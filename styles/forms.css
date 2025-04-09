@@ -365,7 +365,10 @@ label [type=checkbox], label [type=radio] {}
   display: inherit;
   list-style-type: '🙁';
   list-style-position: inherit;
-  margin: 0.5em;
+  content: var( attr( data-check ), 'O' );
+  border: 0.5ch solid lime;
+  outline: 0.5ch solid magenta;
+  background: yellow;
 }
 [type=radio]:checked::before,
 [type=checkbox]:checked::before {
