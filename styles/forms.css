@@ -341,15 +341,7 @@ input[type=range] {
 [type=range]::-ms-track {}
 
 
-/* checksboxes & radios */
-#checkboxes label {
-  overflow: hidden;
-  background: orange;
-  outline: 1px dashed;
-  padding: 0;
-  margin: 0;
-  line-height: var(--line-height);
-}
+/* checkboxes & radios */
 [type=checkbox], [type=radio] {
   font-family: monospace;
   font-size: var(--largest);
