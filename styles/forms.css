@@ -347,8 +347,7 @@ input[type=range] {
   padding: 0.5em;
   cursor: pointer;
   display: list-item;
-  /* list-style-type: 'SHAZAM'; */
-  /* list-style-position: outside; */
+  list-style-position: inside;
   /* Adjusts the position of the checkboxes on the text baseline */
   vertical-align: middle;
   border: 0.5em solid lightgrey;
