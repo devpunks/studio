@@ -246,10 +246,10 @@ iframe {
 /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
 hr {
   border: 0;
-  height: .15em;
-  opacity: 0.25;
-  max-width: 80vw;
-  overflow: visible;
+  width: 80%;
+  opacity: 1;
+  display: flex;
+  background: CanvasText;
   box-sizing: content-box;
 }
 
