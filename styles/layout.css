@@ -186,8 +186,6 @@ body > footer, [role=contentinfo] {
 @container footer ( orientation: landscape ) {}
 
 
-
-
 /* Navigations ================================================================== */
 @container nav ( orientation: landscape ) {}
 @media ( orientation: portrait ) {}
