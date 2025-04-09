@@ -251,6 +251,7 @@ hr {
   display: flex;
   background: CanvasText;
   box-sizing: content-box;
+  justify-content: center;
 }
 
 abbr { border-bottom: 0 } /* http://webtypography.net/3.2.2 */
