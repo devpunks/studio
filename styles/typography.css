@@ -468,7 +468,7 @@ hr:is( [role], [aria-orientation], [data-icon] )::after {
   margin-inline-start: 0;
 }
 hr[role=presentation] { justify-content: space-between }
-hr[role=presentation]::before, hr[role=presentation]::after 
+hr[role=presentation]::before, hr[role=presentation]::after
   { padding: .5ch }
 hr[data-icon] { justify-content: center }
 hr[data-icon]::before {
