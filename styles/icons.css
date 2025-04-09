@@ -130,6 +130,8 @@ a[aria-disabled=true]::before
 :is( sup a, sub a )::before { content: '[' }
 :is( sup a, sub a )::after { content: ']' }
 
+hr[role=presentation]::before, hr[role=presentation]::after
+  { content: '\2020' }
 del::before { content: '−' }
 ins::before { content: '+' }
 
