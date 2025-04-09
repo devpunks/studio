@@ -370,10 +370,8 @@ label [type=checkbox], label [type=radio] {}
   outline: 0.5ch solid magenta;
   background: yellow;
 }
-[type=radio]:checked::before,
-[type=checkbox]:checked::before {
-  --checked:
-  attr(data-checked);
+:is( [type=radio], [type=checkbox] ):checked::before {
+  content: '🟩';
   list-style-type: '😊';
   content: var(--checked, 'X');
   content: 'XXXXXXXXXXXXXXXXXX';
