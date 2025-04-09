@@ -992,7 +992,6 @@ tbody tr
 /* details */
 :where( details ) {
   padding: 0 1ch;
-  margin: 0 0 1ch;
   text-align: start;
 }
 details:is( [role], [name] ) { margin: unset }
