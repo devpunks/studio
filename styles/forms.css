@@ -375,9 +375,7 @@ label [type=checkbox], label [type=radio] {}
   list-style-type: '😊';
 }
 /* checkbox */
-[type=checkbox] {
-  /* display: contents; */
-}
+[type=checkbox] {}
 [type=checkbox]:checked {}
 [type=checkbox]:checked::before {}
 /* radio */
