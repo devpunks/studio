@@ -381,7 +381,6 @@ label [type=checkbox], label [type=radio] {}
 [type=checkbox]:checked::before {}
 /* radio */
 [type=radio] {}
-[type=radio]::before {}
 [type=radio]:checked {}
 [type=radio]:checked::before {}
 
