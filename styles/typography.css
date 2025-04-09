@@ -521,6 +521,7 @@ p > time[datetime] {
  * https://perishablepress.com/css-center-align-list-left-align-text
  * Styling lists - https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
  */
+[role=tree] { padding: 0 }
 dl, ol, ul {
   text-align: left;
   margin: var(--margin-collapse-bugfix) auto var(--line-height);
