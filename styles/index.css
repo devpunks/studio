@@ -253,6 +253,36 @@ hr {
   box-sizing: content-box;
   justify-content: center;
 }
+hr:is( [data-icon], [role=presentation] ) {
+  justify-content: space-between;
+  background: linear-gradient(transparent 45%, CurrentColor 45%, CurrentColor 55%, transparent 55%);
+}
+hr[role=presentation] { justify-content: space-between }
+hr[role=presentation]::before, hr[role=presentation]::after {
+  min-width: 2ch;
+  max-width: 2ch;
+  min-height: 2ch;
+  max-height: 2ch;
+  border-radius: 50%;
+  background: CanvasText;
+}
+hr[data-icon] { justify-content: center }
+hr[aria-orientation] {
+  transform: unset;
+  display: inline-block;
+}
+hr[role=separator] { width: unset }
+hr[role=separator][data-icon] {
+  background: unset;
+  width: fit-content;
+}
+hr[role=separator][aria-orientation] {
+  width: unset;
+  min-width: .1ch;
+  min-height: 1.68em;
+  vertical-align: middle;
+}
+hr[aria-orientation][role=separator][data-icon] { transform: initial }
 
 abbr { border-bottom: 0 } /* http://webtypography.net/3.2.2 */
 abbr[title] { cursor: help }
