@@ -666,7 +666,7 @@ details :is( details, dl, ol, ul ) {}
 :is( menu, [role=menu] )
   > li > * { margin: unset }
 [role=toolbar] > li::before { margin: 0 }
-[role=tree] :is( dl, ol, ul, menu ) { margin-left: .68ch }
+[role=tree] :is( dl, ol, ul, menu ) { margin: 0 0 0 .68ch }
 
 
 
