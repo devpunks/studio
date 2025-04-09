@@ -349,33 +349,19 @@ input[type=range] {
   display: list-item;
   list-style-position: inside;
   /* Adjusts the position of the checkboxes on the text baseline */
-  vertical-align: middle;
-  border: 0.5em solid lightgrey;
-  padding: 0.5em;
-  background: pink;
-  outline: 0.5em solid green;
+  outline: .5ch solid;
+  outline-offset: .5ch;
+  border: .5ch solid lightgrey;
 }
-[type=checkbox]::marker, [type=radio]::marker {
-  content: '🙁';
-}
-[type=checkbox]:checked::marker, [type=radio]:checked::marker {
-  content: '😊';
-}
-label [type=checkbox], label [type=radio] {
-  width: auto;
-}
-[type=radio]:checked, [type=checkbox]:checked {}
-[type=radio]::before, [type=checkbox]::before {
-  --check:
-  attr(data-check);
-  content: var(--check, 'O');
-  content: 'O';
-  border: 0.5em solid lime;
-  outline: 0.5em solid magenta;
-  font-size: 1em;
-  background: yellow;
-  padding: 0.5em;
-  display: contents;
+label [type=checkbox], label [type=radio] {}
+:is( [type=checkbox], [type=radio] )::marker
+  { content: '🙁' }
+:is( [type=checkbox], [type=radio] ):checked::marker
+  { content: '😊' }
+:is( [type=radio], [type=checkbox] ):checked {}
+:is( [type=radio], [type=checkbox] )::before {
+  margin: 0.5ch;
+  padding: 0.5ch;
   display: inherit;
   list-style-type: '🙁';
   list-style-position: inherit;
