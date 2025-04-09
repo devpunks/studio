@@ -461,11 +461,23 @@ a:link.logo {
   margin-bottom: 0.2em;
 }
 
-hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
-  color: currentColor;
-  margin: 3.612em auto;
-  background-color: currentColor;
+hr { margin: 1.68em auto }
+hr:is( [role], [aria-orientation], [data-icon] )::before,
+hr:is( [role], [aria-orientation], [data-icon] )::after {
+  margin-inline-end: 0;
+  margin-inline-start: 0;
 }
+hr[role=presentation] { justify-content: space-between }
+hr[role=presentation]::before, hr[role=presentation]::after 
+  { padding: .5ch }
+hr[data-icon] { justify-content: center }
+hr[data-icon]::before {
+  padding: .5ch;
+  font-size: 200%;
+}
+hr[role=separator] { margin: 0.5ch }
+hr[role=separator]::before
+  { padding: unset }
 
 mark {}
 
