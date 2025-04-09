@@ -382,6 +382,7 @@ label [type=checkbox], label [type=radio] {}
 /* radio */
 [type=radio] {}
 [type=radio]:checked {}
+[type=radio]::before {}
 [type=radio]:checked::before {}
 
 /* "pressed" button
