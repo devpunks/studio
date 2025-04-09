@@ -242,7 +242,9 @@ iframe {
   border: none;
   height: 80dvh;
 }
-hr { /* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
+
+/* https://lifewire.com/styling-horizontal-rule-tag-3466399 */
+hr {
   border: 0;
   height: .15em;
   opacity: 0.25;
