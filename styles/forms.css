@@ -373,8 +373,6 @@ label [type=checkbox], label [type=radio] {}
 :is( [type=radio], [type=checkbox] ):checked::before {
   content: '🟩';
   list-style-type: '😊';
-  content: var(--checked, 'X');
-  content: 'XXXXXXXXXXXXXXXXXX';
 }
 /* checkbox */
 [type=checkbox] {
