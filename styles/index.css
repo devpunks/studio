@@ -232,7 +232,10 @@ h1 { counter-reset: header 0 }
 :is( a ) > :where( header, h1, h2, h3, h4, h5, h6 ) {}
 :where( header, h1, h2, h3, h4, h5, h6 ) > :is( a ) { width: auto }
 :where( a ):has( header, h1, h2, h3, h4, h5, h6 ) {}
-nav > header {}
+nav > header {
+  color: Canvas;
+  flex: 0 0 fit-content;
+}
 nav > header::before,
 nav > header::after {}
 nav > header::before {}
