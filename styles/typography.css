@@ -990,7 +990,7 @@ tbody tr
 
 
 /* details */
-details {
+:where( details ) {
   padding: 0 1ch;
   margin: 0 0 1ch;
   text-align: start;
