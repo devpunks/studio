@@ -391,7 +391,6 @@ label [type=checkbox], label [type=radio] {}
 [aria-pressed=true]  {}
 [aria-pressed=false] {}
 
-
 /* CSS TOGGLES [role=switch] https://tabatkins.github.io/css-toggle
   - WHAT ARE CSS TOGGLES - https://toggles.oddbird.net
   - Explainer proposal - https://css.oddbird.net/toggles/explainer
