@@ -343,9 +343,8 @@ input[type=range] {
 
 /* checkboxes & radios */
 [type=checkbox], [type=radio] {
-  font-family: monospace;
-  font-size: var(--largest);
-  margin: var(--margin);
+  margin: unset;
+  padding: 0.5em;
   cursor: pointer;
   display: list-item;
   /* list-style-type: 'SHAZAM'; */
