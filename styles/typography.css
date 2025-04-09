@@ -1063,9 +1063,9 @@ details[role=navigation] {
 body > nav {}
 body > nav::before {}
 :is( body > nav, [role=navigation] )
-  > * {
-  margin: unset;
-}
+  > footer { padding: 1ch 0 }
+:is( body > nav, [role=navigation] )
+  > * { margin: unset }
 :is( body > nav, [role=navigation] )[dir]::after {
     margin: unset;
     font-size: 25vh;
