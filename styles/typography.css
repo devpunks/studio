@@ -1030,8 +1030,6 @@ summary::before, summary::after { text-align: center }
   margin: unset;
   padding: 0 0.1ch;
 }
-
-[role=tree] { padding: 0 }
 [role=tree] li {
   padding: 0 0 0 1ch;
   line-height: unset;
