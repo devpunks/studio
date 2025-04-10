@@ -391,8 +391,7 @@ label :is( [type=checkbox], [type=radio] )[role] {}
   { content: '🙁' }
 :is( [type=checkbox], [type=radio] )[role]:checked::marker
   { content: '😊' }
-:is( [type=radio], [type=checkbox] ):checked {}
-:is( [type=radio], [type=checkbox] )::before {
+:is( [type=radio], [type=checkbox] )[role]::after {
   margin: 0.5ch;
   padding: 0.5ch;
   display: inherit;
