@@ -697,7 +697,7 @@ input:not([type]):read-only
   { /* https://caniuse.com/mdn-css_selectors_user-valid */ }
 input:valid::before, input:in-range::before,
 select:valid::before, textarea:invalid::before, [aria-invalid=false]::before {
-  content: ' ';
+  /* content: ' '; */
 }
 input:required:valid,
 select:required:valid,
