@@ -385,8 +385,9 @@ label [type=checkbox], label [type=radio] {}
   outline-offset: .5ch;
   border: .5ch solid lightgrey;
 }
-label [type=checkbox], label [type=radio] {}
-:is( [type=checkbox], [type=radio] )::marker
+:is( [type=radio], [type=checkbox] )[role]:checked {}
+label :is( [type=checkbox], [type=radio] )[role] {}
+:is( [type=checkbox], [type=radio] )[role]::marker
   { content: '🙁' }
 :is( [type=checkbox], [type=radio] ):checked::marker
   { content: '😊' }
