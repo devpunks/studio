@@ -388,6 +388,9 @@ label [type=checkbox], label [type=radio] {}
   display: list-item;
   outline: .5ch solid;
   outline-offset: .5ch;
+  -webkit-appearance: none;
+          appearance: none;
+  list-style-position: inside;
   border: .5ch solid lightgrey;
 }
 :is( [type=radio], [type=checkbox] )[role]:checked {}
