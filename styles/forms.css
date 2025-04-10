@@ -395,7 +395,6 @@ label :is( [type=checkbox], [type=radio] )[role] {}
   margin: 0.5ch;
   padding: 0.5ch;
   display: inherit;
-  list-style-type: '🙁';
   list-style-position: inherit;
   content: var( attr( data-check ), 'O' );
   border: 0.5ch solid lime;
