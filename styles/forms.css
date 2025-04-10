@@ -389,7 +389,7 @@ label [type=checkbox], label [type=radio] {}
 label :is( [type=checkbox], [type=radio] )[role] {}
 :is( [type=checkbox], [type=radio] )[role]::marker
   { content: '🙁' }
-:is( [type=checkbox], [type=radio] ):checked::marker
+:is( [type=checkbox], [type=radio] )[role]:checked::marker
   { content: '😊' }
 :is( [type=radio], [type=checkbox] ):checked {}
 :is( [type=radio], [type=checkbox] )::before {
