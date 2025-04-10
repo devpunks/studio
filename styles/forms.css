@@ -399,7 +399,8 @@ label :is( [type=checkbox], [type=radio] )[role] {}
   content: var( attr( data-check ), 'O' );
   border: 0.5ch solid lime;
   outline: 0.5ch solid magenta;
-  background: yellow;
+  background: grey;
+  color: lightgray;
 }
 :is( [type=radio], [type=checkbox] ):checked::before {
   content: '🟩';
