@@ -368,7 +368,7 @@ input[type=range] {
   max-height: 1em;
   aspect-ratio: 1;
   cursor: pointer;
-  appearance: auto;
+  margin-bottom: 0 !important;
   outline: .1ch solid;
   outline-offset: .2ch;
   accent-color: currentColor;
