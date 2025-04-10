@@ -341,6 +341,23 @@ input[type=range] {
 [type=range]::-ms-track {}
 
 
+:is( [role=alert] ) {
+  color: yellow;
+  border: .1ch solid;
+  text-indent: 1ch;
+  display: inline-block;
+  background: rgba(255,255,255,.3);
+}
+:is( [role=alert] )::before,
+:is( [role=alert] )::after {
+  padding: 0 1ch;
+  background: inherit;
+}
+:is( [role=alert] )::before { margin-inline-end: 1ch }
+:is( [role=alert] )::after  { margin-inline-start: 1ch }
+:is( [role=alert] )::before { content: 'ⓘ⚠︎✔✓✖✘×' }
+:is( [role=alert] )::after  { content: '📢📣🚨🛑⛔🔴🟡🟢✅🚫❌❗🔔⚠️🚩' }
+
 /* checkboxes & radios */
 [type=checkbox], [type=radio] {
   margin: unset;
