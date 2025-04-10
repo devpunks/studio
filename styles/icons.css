@@ -222,6 +222,33 @@ li[data-icon]::before {
 :is( [role=none], [open][role=none] )
   > summary::before { content: '\200B' }
 
+details[role=presentation] > summary {
+  padding: 1ch;
+  margin: unset;
+  background: darkgrey !important;!i;!;
+  display: flex !important;!;!;
+}
+[role=presentation] > summary::before,
+[role=presentation] > summary::after {
+  background: yellow;
+  aspect-ratio: 1;
+  min-width: 2ch;
+  min-height: 2ch;
+  /* margin: 1ch; */
+  font-size: xxx-large;
+  line-height: 1.3em;
+}
+[role=presentation] > summary::before { content: 'X' }
+[role=presentation] > summary::after  { content: 'X' }
+
+body > footer > [role=button] {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  background: yellow;
+  max-height: fit-content;
+}
 
 table::before, table::after
   { content: '☶ table' }
