@@ -372,8 +372,8 @@ input[type=range] {
   outline: .1ch solid;
   background: currentColor;
   accent-color: currentColor;
-  box-shadow: 0 0 0 .1ch blue;
-  transform: scale(var(--GOLDEN-RATIO));
+  -webkit-appearance: revert;
+  appearance: revert;
 }
 :is( [type=radio], [type=checkbox] ):checked {}
 label [type=checkbox], label [type=radio] {}
