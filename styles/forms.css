@@ -386,8 +386,6 @@ label [type=checkbox], label [type=radio] {}
   padding: 0.5em;
   cursor: pointer;
   display: list-item;
-  list-style-position: inside;
-  /* Adjusts the position of the checkboxes on the text baseline */
   outline: .5ch solid;
   outline-offset: .5ch;
   border: .5ch solid lightgrey;
