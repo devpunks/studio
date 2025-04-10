@@ -360,6 +360,21 @@ input[type=range] {
 
 /* checkboxes & radios */
 [type=checkbox], [type=radio] {
+  cursor: pointer;
+  appearance: auto;
+  outline: .1ch solid;
+  outline-offset: .2ch;
+  accent-color: currentColor;
+  box-shadow: 0 0 0 .1ch blue;
+  transform: scale(var(--GOLDEN-RATIO));
+}
+:is( [type=radio], [type=checkbox] ):checked {}
+label [type=checkbox], label [type=radio] {}
+:is( [type=checkbox], [type=radio] )::marker
+  { content: '🙁' }
+:is( [type=checkbox], [type=radio] ):checked::marker
+  { content: '😊' }
+:is( [type=checkbox], [type=radio] )[role] {
   margin: unset;
   padding: 0.5em;
   cursor: pointer;
