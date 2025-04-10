@@ -370,7 +370,7 @@ input[type=range] {
   cursor: pointer;
   margin-bottom: 0 !important;
   outline: .1ch solid;
-  outline-offset: .2ch;
+  background: currentColor;
   accent-color: currentColor;
   box-shadow: 0 0 0 .1ch blue;
   transform: scale(var(--GOLDEN-RATIO));
