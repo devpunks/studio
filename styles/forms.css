@@ -355,9 +355,10 @@ input[type=range] {
 }
 :is( [role=alert] )::before { margin-inline-end: 1ch }
 :is( [role=alert] )::after  { margin-inline-start: 1ch }
-:is( [role=alert] )::before { content: 'ⓘ⚠︎✔✓✖✘×' }
-:is( [role=alert] )::after  { content: '📢📣🚨🛑⛔🔴🟡🟢✅🚫❌❗🔔⚠️🚩' }
-
+:is( [role=alert] )::before { content: 'ⓘ⚠︎✦✱✶✷❋✴✳*️*⭑✖✘×✔✓' }
+:is( [role=alert] )::after  { content: '📢📣🚨🛑⛔🔴🟡🟢✳️✅🚫❌❗🔔⚠️🚩' }
+:is( label, label:has( input ) ) + :is( [role=alert] ) { display: inline-block }
+:is( input:checked, label:has( input:checked ) ) + :is( [role=alert] ) { display: none }
 /* checkboxes & radios */
 [type=checkbox], [type=radio] {
   cursor: pointer;
