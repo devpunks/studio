@@ -402,8 +402,12 @@ label :is( [type=checkbox], [type=radio] )[role] {}
   background: grey;
   color: lightgray;
 }
-:is( [type=radio], [type=checkbox] ):checked::before {
-  content: '🟩';
+:is( [type=radio], [type=checkbox] )[role]::after {
+  content: '□□○○';
+  list-style-type: '🙁';
+}
+:is( [type=radio], [type=checkbox] )[role]:checked::after {
+  content: '■☑●◉';
   list-style-type: '😊';
 }
 /* checkbox */
