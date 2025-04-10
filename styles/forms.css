@@ -361,6 +361,12 @@ input[type=range] {
 :is( input:checked, label:has( input:checked ) ) + :is( [role=alert] ) { display: none }
 /* checkboxes & radios */
 [type=checkbox], [type=radio] {
+  margin: 0;
+  min-width: 1em;
+  max-width: 1em;
+  min-height: 1em;
+  max-height: 1em;
+  aspect-ratio: 1;
   cursor: pointer;
   appearance: auto;
   outline: .1ch solid;
