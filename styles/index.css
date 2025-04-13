@@ -342,7 +342,10 @@ code, kbd, pre, samp, var, data {
   border-radius: .5ch;
   background-color: ButtonFace;
 }
-code {}
+code {
+  border-radius: unset;
+  display: inline-block;
+}
 pre > code {
   display: inherit;
   white-space: pre;
