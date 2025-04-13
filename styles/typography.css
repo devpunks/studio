@@ -1081,7 +1081,6 @@ body > nav::before {}
 :is( body > nav, [role=navigation] )[dir]::after {
     margin: unset;
     font-size: 25vh;
-    text-align: center;
     line-height: 93vh;
     /* line-height: calc(100% - 2ch); */
     text-align: center;
