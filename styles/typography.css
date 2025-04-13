@@ -999,6 +999,7 @@ tbody tr
   text-align: start;
 }
 details:is( [role], [name] ) { margin: unset }
+details:is( [open], [role=presentation][open] { padding-bottom: 1ch }
 
 details[open] { padding-bottom: 1ch }
 
