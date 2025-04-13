@@ -1001,13 +1001,6 @@ tbody tr
 details:is( [role], [name] ) { margin: unset }
 details:is( [open], [role=presentation][open] { padding-bottom: 1ch }
 
-details[open] { padding-bottom: 1ch }
-
-[open] > summary { margin-bottom:  1ch }
-
-[role][open] > summary { margin-bottom: unset }
-
-summary {}
 details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [role=tree] )
   { padding-bottom: unset }
 details[name] > :last-child:not( summary )
