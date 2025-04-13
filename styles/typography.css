@@ -759,7 +759,6 @@ code {
   padding: 0 .168em;
   line-height: inherit;
   white-space: nowrap;
-  vertical-align: middle;
 }
 code :is( var, data ) { padding: 0 }
 pre code { white-space: break-spaces }
