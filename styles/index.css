@@ -482,6 +482,37 @@ details[role=tree] :is( dl, ol, ul, menu ) {
   border-left: .1ch solid;
 }
 
+details[role=presentation] > summary {
+  min-height: var(--frame);
+  box-shadow: 0 0.1ch 0.4ch 0 Canvas;
+}
+[role=presentation] > summary::before,
+[role=presentation] > summary::after {
+  top: 0;
+  /* aspect-ratio: 1; */
+  position: absolute;
+  min-width: var(--frame);
+  min-height: var(--frame);
+  background-color: Canvas;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+ }
+[role=presentation] > summary::before {
+  left: 0;
+  cursor: default;
+}
+[role=presentation] > summary[data-icon]::before
+  { background-color: unset }
+[role=presentation] > summary::after  {
+  right: 0;
+  mask-size: 50%;
+  cursor: pointer;
+}
+[role=presentation][open] > summary::after
+  { transform: scale(1,-1) }
+
 small {}
 body > footer small { opacity: 0.68 }
 
