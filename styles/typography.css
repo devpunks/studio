@@ -760,7 +760,10 @@ code {
   line-height: inherit;
   white-space: nowrap;
 }
-code :is( var, data ) { padding: 0 }
+code :is( var, data ) {
+  margin: 0 .168em;
+  padding: 0 .168em;
+}
 pre code { white-space: break-spaces }
 var, data {
   margin: 0 .168em;
