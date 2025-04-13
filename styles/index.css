@@ -336,6 +336,7 @@ p > time::after {
 p > time[datetime] {}
 
 code, kbd, pre, samp, var, data {
+  direction: ltr;
   color: CanvasText;
   border-radius: .5ch;
   background-color: ButtonFace;
