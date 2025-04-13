@@ -750,8 +750,7 @@ ins { text-decoration-color: HighlightText }
 code, kbd, pre, samp, var, data {
   padding: 0 0.5em;
   text-indent: initial;
-  line-height: initial;
-  font-family: monospace;
+  line-height: inherit;
   text-transform: none;
   vertical-align: text-bottom;
 }
