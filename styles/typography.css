@@ -1033,8 +1033,6 @@ details[role=presentation] {
 summary {
   margin: 0 -1ch;
   padding: 0 1ch;
-  font-size: larger;
-  font-weight: bolder;
 }
 summary::before, summary::after { text-align: center }
 [name] > summary {
