@@ -338,6 +338,7 @@ p > time[datetime] {}
 code, kbd, pre, samp, var, data {
   direction: ltr;
   color: CanvasText;
+  unicode-bidi: embed;
   border-radius: .5ch;
   background-color: ButtonFace;
 }
