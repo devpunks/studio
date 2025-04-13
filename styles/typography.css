@@ -766,6 +766,7 @@ pre code { white-space: break-spaces }
 var, data {
   margin: 0 .168em;
   font-weight: bold;
+  line-height: inherit;
 }
 kbd {
   text-align: center;
