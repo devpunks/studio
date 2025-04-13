@@ -1028,6 +1028,9 @@ summary {
   margin: 0 -1ch;
   padding: 0 1ch;
 }
+[name] > summary { margin: 1ch 0 }
+[open] > summary { margin-bottom:  1ch }
+[role][open] > summary { margin-bottom: unset }
 summary::before, summary::after { text-align: center }
 [name] > summary {
   margin: 1ch 0;
