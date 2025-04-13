@@ -999,6 +999,12 @@ tbody tr
 details:is( [role], [name] ) { margin: unset }
 
 details[open] { padding-bottom: 1ch }
+
+[open] > summary { margin-bottom:  1ch }
+
+[role][open] > summary { margin-bottom: unset }
+
+summary {}
 details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [role=tree] )
   { padding-bottom: unset }
 details:is( [role=none], [role=tree], [role=menu], [role=toolbar] )
