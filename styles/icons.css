@@ -1,8 +1,17 @@
-/* Unicode - https://www.amp-what.com
- ' ' - space U+2020 \2020 &#x2020; &Space;
- ' ' - thin space U+2009 \2009 &#x2009; &ThinSpace;
- ' ' - hair space U+200A \200A &#x200A; &HairSpace;
- '​' - zero-width space U+200B \200B &#x200B; &ZeroWidthSpace;
+/*
+  SVG
+  - https://svgviewer.dev
+  - URL Encoder - https://yoksel.github.io/url-encoder
+
+  Backgrounds
+  - Use/Ref - https://codepen.io/noahblon/pen/JdojNv
+  - Sprites - https://codepen.io/noahblon/pen/xxNMvY
+  - https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images
+  Unicode - https://amp-what.com
+  ' ' - space U+2020 \2020 &#x2020; &Space;
+  ' ' - thin space U+2009 \2009 &#x2009; &ThinSpace;
+  ' ' - hair space U+200A \200A &#x200A; &HairSpace;
+  '​' - zero-width space U+200B \200B &#x200B; &ZeroWidthSpace;
 
   - Emoji Database - https://emojidb.org
   - Test Icons - https://dev.w3.org/SVG/profiles/1.1F2/test/images
