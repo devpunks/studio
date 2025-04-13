@@ -997,6 +997,7 @@ tbody tr
   text-align: start;
 }
 details:is( [role], [name] ) { margin: unset }
+
 details[open] { padding-bottom: 1ch }
 details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [role=tree] )
   { padding-bottom: unset }
