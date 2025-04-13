@@ -764,7 +764,7 @@ code {
 code :is( var, data ) { padding: 0 }
 pre code { white-space: break-spaces }
 var, data {
-  margin: 0 .1618em;
+  margin: 0 .168em;
   font-weight: bold;
 }
 kbd {
