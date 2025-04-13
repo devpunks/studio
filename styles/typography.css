@@ -755,7 +755,9 @@ code, kbd, pre, samp, var, data {
   font-family: monospace;
 }
 code {
-  margin: 0 .1em;
+  margin: 0 .168em;
+  padding: 0 .168em;
+  line-height: inherit;
   white-space: nowrap;
   vertical-align: middle;
 }
