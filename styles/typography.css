@@ -1023,6 +1023,12 @@ details[role=none], [role=none] > summary {
   margin: 0;
   padding: 0;
 }
+details[role=presentation] {
+  --frame: max(3em, var(--line-height));
+  margin: var(--frame);
+  padding: 0 var(--frame);
+  text-align: var(--text-align);
+}
 
 summary {
   margin: 0 -1ch;
