@@ -752,7 +752,7 @@ code, kbd, pre, samp, var, data {
   text-indent: initial;
   line-height: inherit;
   text-transform: none;
-  vertical-align: text-bottom;
+  font-family: monospace;
 }
 code {
   margin: 0 .1em;
