@@ -924,7 +924,6 @@ dt[role=term] {
   negative: '[' ']'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/negative */
   speak-as: unordered; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as */
 }
-
 @counter-style example {
   pad: 'x'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad */
   prefix: '»'; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/prefix */
