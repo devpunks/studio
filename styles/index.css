@@ -819,6 +819,7 @@ menu, [role=menu], [role=toolbar] {
 }
 [role=tree] li { display: list-item }
 [role=toolbar] {
+  align-items: start;
   display: inline-flex;
   align-items: flex-start;
   justify-content: flex-start;
