@@ -821,9 +821,7 @@ menu, [role=menu], [role=toolbar] {
 [role=toolbar] {
   align-items: start;
   display: inline-flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  justify-content: unset;
+  justify-content: start;
 }
 [role=toolbar] li {}
 :is( [aria-orientation=horizontal], [role=toolbar], [role=menubar] )
