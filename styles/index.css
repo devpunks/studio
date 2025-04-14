@@ -323,7 +323,7 @@ time::after {
 }
 time[title] { background: Canvas }
 time[datetime] { background: rgba(255,255,255,0.5) }
-time[datetime]:where( :hover, ,:focus-visible )::after {
+time[datetime]:where( :hover, :focus-visible )::after {
   z-index: 1;
   opacity: 1.0;
 }
