@@ -817,9 +817,7 @@ menu, [role=menu], [role=toolbar] {
   border-left: .1ch solid;
   list-style-position: inside;
 }
-[role=tree] li {
-  display: list-item;
-}
+[role=tree] li { display: list-item }
 [role=toolbar] {
   display: inline-flex;
   align-items: flex-start;
