@@ -803,7 +803,7 @@ menu, [role=menu], [role=toolbar] {
   width: fit-content;
   max-width: fit-content;
 }
-:is( menu, [role=menu], [role=menubar], , [role=tablist], [role=tree], [role=toolbar] )
+:is( menu, [role=menu], [role=menubar], [role=tablist], [role=tree], [role=toolbar] )
   li {
     -webkit-user-select: none;
             user-select: none;
