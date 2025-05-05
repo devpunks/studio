@@ -780,6 +780,10 @@ var, data {
   font-weight: bold;
   overflow: hidden;
   line-height: inherit;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  background-color: blue !important;
+  width: auto;
 }
 kbd {
   text-align: center;
