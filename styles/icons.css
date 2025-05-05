@@ -136,6 +136,16 @@ a[aria-disabled=true]::before
 :is( sup a, sub a )::before { content: '[' }
 :is( sup a, sub a )::after { content: ']' }
 
+p[role=presentation]::before
+  { content: '\00B6' }
+p[role=presentation]::before {
+  left: -1ch;
+  opacity: .5;
+  font-size: 2em;
+  position: absolute;
+}
+p[role=presentation]:hover::before { opacity: 1 }
+
 hr[role=presentation]::before, hr[role=presentation]::after
   { content: '\2020' }
 del::before { content: '−' }
