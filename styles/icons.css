@@ -250,6 +250,7 @@ li[data-icon]::before {
     url("data:image/svg+xml;utf8,<svg viewBox='0,0 20,20' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg'><text stroke='currentcolor' fill='currentcolor' color='none' text-anchor='middle' dominant-baseline='middle' x='50%' y='60%'>ⓘ</text></svg>");
 }
 [role=presentation] > summary::after {
+  /* https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images */
   -webkit-mask-image:
     url("data:image/svg+xml;utf8,<svg width='20' height='20' viewBox='0,0 20,20' xmlns='http://www.w3.org/2000/svg'><polyline points='2 5 10 15 18 5' stroke='currentcolor' fill='none' color='none' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'></polyline></svg>");
   mask-image:
