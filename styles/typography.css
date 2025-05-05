@@ -386,6 +386,7 @@ header, h1, h2, h3, h4, h5, h6 {
 :where( header, h1, h2, h3, h4, h5, h6 )::after {
   padding: 0 0.5ch;
   text-align: center;
+  vertical-align: top;
   text-indent: initial;
   white-space: nowrap;
   vertical-align: baseline;
