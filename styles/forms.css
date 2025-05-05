@@ -567,9 +567,9 @@ select:not([multiple]) {
   background:
     top left / 100% 100% no-repeat
     linear-gradient( 135deg,
-      rgba(255, 0, 0, 1) 0,
-      rgba(255, 0, 0, 1) 1em,
-      rgba(255, 255, 255, 0) 1em
+      ActiveText 0,
+      ActiveText 1ch,
+      transparent 1ch
     ),
     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path d='M 200 0 L 100 100 0 0 z' fill='Canvas'></path></svg>");
 }
