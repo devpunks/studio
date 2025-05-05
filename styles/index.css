@@ -178,10 +178,7 @@ body > header, body > main, body > aside, body > footer
 body > header {}
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
-body > footer {
-  color: CanvasText;
-  background: Canvas;
-}
+body > footer {}
 
 /* anchor links */
 a {
