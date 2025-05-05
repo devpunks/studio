@@ -34,7 +34,7 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors */
 @media screen and ( forced-colors: active ) { }
 
-*::before, *::after, *::marker {
+::before, ::after, ::marker {
   outline: 0;
   cursor: default;
 }
