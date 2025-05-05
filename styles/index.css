@@ -505,7 +505,6 @@ details[role=presentation] > summary {
   { background-color: unset }
 [role=presentation] > summary::after {
   right: 0;
-  mask-size: 50%;
   cursor: pointer;
 }
 [role=presentation][open] > summary::after
