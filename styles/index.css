@@ -506,6 +506,8 @@ details[role=presentation] > summary {
 [role=presentation] > summary::after {
   right: 0;
   cursor: pointer;
+  mask-size: 50%;
+  -webkit-mask-size: 50%;
 }
 [role=presentation][open] > summary::after
   { transform: scale(1,-1) }
