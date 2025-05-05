@@ -560,11 +560,16 @@ select:not([multiple]) {
   /* https://css-tricks.com/styling-a-select-like-its-2019/ */
   cursor: s-resize;
   padding-right: 4ch;
-  background-repeat: no-repeat;
-  background-position: calc(100% - 1ch) center;
-  background-position: left;
-  background-size: 100%;
-  background-image:
+  /* background-repeat: no-repeat; */
+  /* background-position: calc(100% - 1ch) center; */
+  /* background-position: left; */
+  /* background-size: 100%; */
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background */
+  /* https://css-tricks.com/css-basics-using-multiple-backgrounds */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds */
+  background:
+    top left / 100% 100% no-repeat
     linear-gradient( 135deg,
       rgba(255, 0, 0, 1) 0,
       rgba(255, 0, 0, 1) 1em,
