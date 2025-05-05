@@ -418,6 +418,13 @@ header code, h1 code
 /* anchor links */
 a {
   padding: 0 0.2ch;
+}
+
+a:has( img ) {
+  padding: unset;
+}
+
+a, a * {
   text-indent: unset;
   text-underline-offset: 0.168em;
   text-decoration-line: underline;
