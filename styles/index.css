@@ -998,7 +998,6 @@ details[role=navigation][dir][open] > summary
 :is( nav, [role=navigation] ) li {
   display: flex;
   background: inherit;
-  background: aliceblue;
 }
 :is( nav, [role=navigation] ) li::before,
 :is( nav, [role=navigation] ) li::after {
