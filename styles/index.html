@@ -2092,7 +2092,17 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <!-- https://w3c.github.io/aria/#radiogroup -->
       <details role=radiogroup>
         <summary>The <code>&lt;details <var>role=radiogroup</var>&gt;</code></summary>
-        Foo Bar Baz
+
+        <label>
+          <input title='Check 0' type=checkbox data-check=✅>Check 0
+        </label>
+        <input id=details:0 title='Check 0' type=checkbox data-check=✅>
+        <label for=details:0>Check 0</label>
+        <label>
+          <input name=details:1 title='Radio 1' type=radio data-check=✅>Radio 1
+        </label>
+        <input name=details:1 id=details:1 title='Radio 1' type=radio data-check=✅>
+        <label for=details:1>Radio 1</label>
       </details>
       <!-- https://w3c.github.io/aria/#tree -->
       <details role=tree>
