@@ -762,7 +762,7 @@ input:not(:placeholder-shown):out-of-range,
   accent-color: red;
   color: ActiveText;
   cursor:       not-allowed;
-  background-image: linear-gradient(
+  background: linear-gradient(
       135deg,
       currentColor 0,
       currentColor 2ch,
