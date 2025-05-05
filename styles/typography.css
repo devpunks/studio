@@ -778,6 +778,7 @@ pre code { white-space: break-spaces }
 var, data {
   margin: 0 .168em;
   font-weight: bold;
+  overflow: hidden;
   line-height: inherit;
 }
 kbd {
