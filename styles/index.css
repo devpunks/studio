@@ -173,7 +173,7 @@ html {
 }
 body {}
 body > * { outline: 0.3ch dashed }
-body > header, body > nav, body > main, body > aside, body > footer
+body > header, body > main, body > aside, body > footer
   { background: inherit }
 body > header {}
 body > nav {
