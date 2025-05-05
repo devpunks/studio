@@ -2170,7 +2170,24 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <label>
         <input name=alert:2 title='Alert' type=checkbox data-check=✅>Alert 2
       </label>
-        <span id=alert:1 role=alert>Alert 1❗</span>
+      <span id=alert:2 role=alert>Alert 2❗</span>
+
+      <!-- https://w3c.github.io/aria/#alert -->
+      <dialog id=alert:3 role=alert
+        aria-label='Generic Dialog role=alert'
+        aria-description='generic dialog role=alert description'>
+        Alert 3❗
+      </dialog>
+
+      <!-- https://w3c.github.io/aria/#alertdialog -->
+      <dialog open id=alert:4 role=alert aria-modal=true
+        aria-label='Generic Dialog role=alert' aria-description='generic dialog role=alert description'>
+        <header><code>&lt;dialog <var>role=alert</var>&gt;</code> Alert 4❗</header>
+
+        <form method=dialog>
+          <button title='Close alert' aria-label='Close alert'>Close</button>
+        </form>
+      </dialog>
 
       <footer><a title='Top of page' href=#>Top</a></footer>
     </article>
