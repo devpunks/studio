@@ -745,7 +745,8 @@ textarea:required:valid,
       currentColor 1ch,
       transparent 1ch
     ),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.55ch'>✓</text></svg>");
+    transparent left .5ch center / auto 1em no-repeat
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15' fill='Canvas'><text text-anchor='start' dominant-baseline='hanging'>✓</text></svg>");
 }
 
 /* INVALID
