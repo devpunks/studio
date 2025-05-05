@@ -441,6 +441,11 @@ details[role=presentation] {
   background-color: CanvasText;
 }
 details :is( details, dl, ol, ul ) {}
+
+:is( body > nav, [role=navigation] ) :is( dl, ul, ol ) {
+  color: Canvas;
+  background: CanvasText;
+}
 summary {
   color: Canvas;
   cursor: s-resize;
