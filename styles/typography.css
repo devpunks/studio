@@ -1090,7 +1090,7 @@ details[role=navigation] {
 body > nav {}
 body > nav::before {}
 :is( body > nav, [role=navigation] )
-  > footer {padding: 0 0 1ch;}
+  > footer { padding: 0 0 1ch }
 :is( body > nav, [role=navigation] )
   > * { margin: unset }
 :is( body > nav, [role=navigation] )[dir]::after {
