@@ -679,7 +679,6 @@ details :is( details, dl, ol, ul ) {}
 
 abbr {} /* http://webtypography.net/3.2.2 */
 abbr[title] {
-  /* font-size: 120%; */
   font-weight: bolder;
   /* text-transform: uppercase; */
   text-underline-offset: 0.16em;
