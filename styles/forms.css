@@ -707,7 +707,8 @@ textarea:read-only {
 /* REQUIRED */
 :required, [required], [aria-required=true] {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/:required */
-  background-image: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       currentColor 0,
       currentColor 2ch,
