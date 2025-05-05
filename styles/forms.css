@@ -765,8 +765,8 @@ input:not(:placeholder-shown):out-of-range,
   background: linear-gradient(
       135deg,
       currentColor 0,
-      currentColor 2ch,
-      transparent 2ch
+      currentColor 1ch,
+      transparent 1ch
     ),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.68ch' x='0ch'>✗</text></svg>");
   /* background-position: 0; */
