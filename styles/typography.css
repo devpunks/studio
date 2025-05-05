@@ -766,6 +766,9 @@ code {
   padding: 0 .168em;
   line-height: inherit;
   white-space: nowrap;
+  white-space: break-spaces;
+  vertical-align: middle;
+  vertical-align: top;
 }
 code :is( var, data ) {
   margin: 0 .168em;
