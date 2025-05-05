@@ -435,7 +435,6 @@ a, a * {
   text-decoration-skip-ink: auto;
 }
 a::before, a::after {
-  display: inline-block;
   white-space: pre-wrap;
   text-decoration: none;
 }
