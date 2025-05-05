@@ -711,8 +711,8 @@ textarea:read-only {
     linear-gradient(
       135deg,
       currentColor 0,
-      currentColor 2ch,
-      transparent 2ch,
+      currentColor 1ch,
+      transparent 1ch
     ),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='1.682em' y='1em' x='1em' fill='Mark'>*</text></svg>");
 }
