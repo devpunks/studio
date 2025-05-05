@@ -391,7 +391,6 @@ header, h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 :where( header, h1, h2, h3, h4, h5, h6 )::before {
-  background: inherit;
   margin-inline-end: 0.5ch;
 }
 :is( header, h1, h2, h3, h4, h5, h6 )::after
