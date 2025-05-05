@@ -1014,7 +1014,7 @@ tbody tr
   text-align: start;
 }
 details:is( [role], [name] ) { margin: unset }
-details:is( [open], [role=presentation][open] { padding-bottom: 1ch }
+details:not( [role=navigation] ):is( [open], [role=presentation][open] ) { padding-bottom: 1ch }
 
 details[open]:is( [role=none], [role=menu], [role=menubar], [role=toolbar], [role=tree] )
   { padding-bottom: unset }
