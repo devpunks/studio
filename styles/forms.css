@@ -768,10 +768,8 @@ input:not(:placeholder-shown):out-of-range,
       currentColor 1ch,
       transparent 1ch
     ),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><text font-size='2em' y='1.68ch' x='0ch'>✗</text></svg>");
-  /* background-position: 0; */
-  /* background-size: 1.68ch auto; */
-  /* background-repeat: no-repeat; */
+    transparent left .5ch center / auto 1em no-repeat
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='Canvas'><text y='.3em' text-anchor='start' dominant-baseline='hanging'>❌</text></svg>");
 }
 
 /* UNDETERMINED */
