@@ -740,6 +740,7 @@ p + p { margin: 1.68em auto var(--margin-collapse-bugfix) }
 }
 [autocapitalize] * {
   font-size: inherit;
+  line-height: inherit;
   text-indent: initial;
   text-decoration: revert;
 }
