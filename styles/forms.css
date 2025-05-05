@@ -343,6 +343,19 @@ input[type=range] {
   display: inline-block;
   background: rgba(255,255,255,.3);
 }
+:is( [role=alert][open] ):target {
+  display: block;
+  width: -webkit-fill-available;
+  /* width: 100vw; */
+  /* height: fit-content; */
+  background: red;
+  /* margin: 0; */
+  padding: 0;
+  position: sticky;
+  left: 0vw;
+  /* top: 0; */
+  /* bottom: 0; */
+}
 :is( [role=alert] )::before,
 :is( [role=alert] )::after {
   padding: 0 1ch;
