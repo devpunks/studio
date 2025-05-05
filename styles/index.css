@@ -155,7 +155,10 @@
 ::-webkit-scrollbar-thumb:active {
   border-color: CurrentColor;
 }
-::before, ::after, ::marker { display: inline-block }
+::before, ::after, ::marker {
+  background: inherit;
+  display: inline-block;
+}
 ::before, ::after { cursor: inherit }
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop */
 ::backdrop { background: currentColor }
