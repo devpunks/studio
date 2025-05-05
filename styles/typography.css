@@ -432,7 +432,7 @@ a, a * {
   text-decoration-thickness: 0.168em;
   text-decoration-color: transparent;
   -webkit-text-decoration-skip-ink: auto;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 a::before, a::after {
   display: inline-block;
