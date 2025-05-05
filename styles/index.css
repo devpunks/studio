@@ -176,11 +176,6 @@ body > * { outline: 0.3ch dashed }
 body > header, body > main, body > aside, body > footer
   { background: inherit }
 body > header {}
-body > nav {
-  background: CanvasText;
-  width: -moz-available;
-  box-shadow: 0ch 1ch 0ch 0ch black;
-}
 body > main { scroll-snap-align: start }
 body > aside { background: ButtonFace }
 body > footer {
