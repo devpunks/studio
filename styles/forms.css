@@ -677,7 +677,7 @@ button::before {
 
 
 /*
-  - input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
+  Input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
 */
 :default
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
