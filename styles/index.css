@@ -503,7 +503,7 @@ details[role=presentation] > summary {
 }
 [role=presentation] > summary[data-icon]::before
   { background-color: unset }
-[role=presentation] > summary::after  {
+[role=presentation] > summary::after {
   right: 0;
   mask-size: 50%;
   cursor: pointer;
