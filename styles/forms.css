@@ -760,7 +760,7 @@ textarea:not(:placeholder-shown):invalid,
 input:not(:placeholder-shown):out-of-range,
 [aria-invalid=true]:not(:placeholder-shown):invalid {
   accent-color: red;
-  color:        AccentColorText;
+  color: ActiveText;
   cursor:       not-allowed;
   background-image: linear-gradient(
       135deg,
