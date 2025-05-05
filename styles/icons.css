@@ -30,8 +30,8 @@
 :where( header, h1, h2, h3, h4, h5, h6 )::marker
   {/* content: counter(header); */}
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
-:where( header, h1, h2, h3, h4, h5, h6 )::before
-  { content: '\2009' }
+main :where( header, h1, h2, h3, h4, h5, h6 )::before
+  { content: '\00A7' }
 :where( header, h1, h2, h3, h4, h5, h6 )[id]::before
   { content: '\1F517' }
 
