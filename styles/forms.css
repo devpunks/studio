@@ -808,8 +808,8 @@ input:focus:not(:placeholder-shown):out-of-range,
   - https://stackoverflow.com/questions/12591966/html-disabled-button-getting-active-css-pseudo-class
   - https://dev.w3.org/html5/spec-LC/association-of-controls-and-forms.html#enabling-and-disabling-form-controls
 */
-:disabled, [disabled], [aria-disabled=true],
-:disabled:hover, [aria-disabled=true]:hover
+:is(input, select, textarea ):disabled, [disabled], [aria-disabled=true],
+:is(input, select, textarea ):disabled:hover, [aria-disabled=true]:hover
  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
   filter: none;
   outline: none;
