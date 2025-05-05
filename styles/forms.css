@@ -738,7 +738,8 @@ input:required:valid,
 select:required:valid,
 textarea:required:valid,
 [aria-invalid=false] {
-  background-image: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       currentColor 0,
       currentColor 2ch,
