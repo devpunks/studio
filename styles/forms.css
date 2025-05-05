@@ -818,6 +818,15 @@ input:focus:not(:placeholder-shown):out-of-range,
   -webkit-user-select: none;
   user-select: none;
   text-decoration-line: line-through;
+  background:
+    linear-gradient(
+      135deg,
+      currentColor 0,
+      currentColor 1ch,
+      transparent 1ch
+    ),
+    transparent left .5ch center / auto 1em no-repeat
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15' fill='Canvas'><text text-anchor='start' dominant-baseline='hanging'>⊘</text></svg>");
 }
 
 
