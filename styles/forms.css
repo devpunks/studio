@@ -115,7 +115,7 @@ legend::before, legend::after {
 }
 legend::before {
   color: red;
-  content: '❌';
+  content: '❌⛔🚫';
   text-align: end;
   display: list-item;
   list-style-type: '⚠️';
