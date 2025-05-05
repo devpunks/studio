@@ -441,7 +441,7 @@ a::before, a::after {
   vertical-align: middle;
 }
 a:hover, header a:hover {}
-a:hover { text-decoration-color: currentColor }
+:is( a, a * ):hover { text-decoration-color: currentColor }
 
 :is( cite, sup, sub ) > a {
   padding: 0;
