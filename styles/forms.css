@@ -675,6 +675,7 @@ button::before {
 [role=toolbar] :is( * ):hover { opacity: 1 }
 [role=toolbar] [data-icon]::before { width: 2em }
 
+
 /*
   - input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
 */
