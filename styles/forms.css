@@ -722,7 +722,6 @@ textarea:read-only {
   /*
     - https://developer.mozilla.org/en-US/docs/Web/CSS/:required
   */
-  background-image: initial;
 }
 
 /* VALID */
