@@ -948,6 +948,8 @@ nav, [role=navigation] {}
 
 body > nav, [role=navigation] {
   color: Canvas;
+  width: -moz-available;
+  background: CanvasText;
   box-shadow: 0 0 1ch 0.168ch CanvasText;
 }
 :is( body > nav, details[role=navigation] )[dir][open] {
