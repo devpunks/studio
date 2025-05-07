@@ -347,7 +347,7 @@ input[type=range] {
 }
 :is( [role=alert][open] ):target {
   display: block;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
   /* width: 100vw; */
   /* height: fit-content; */
   background: red;
