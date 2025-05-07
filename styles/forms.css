@@ -357,6 +357,22 @@ input[type=range] {
   /* top: 0; */
   /* bottom: 0; */
 }
+:is( [role=alert] ):target {
+  position: fixed;
+  /* position: sticky !important; */
+  /* width: 100vw; */
+  margin-left: -50vw;
+  line-height: 100px;
+  /* left: 50%; */
+  top: 70vh;
+  margin: 0 auto;
+  border: unset;
+}
+:is( [role$=alert] ):target {
+  background: red;
+  z-index: 2;
+}
+
 :is( [role=alert] )::before,
 :is( [role=alert] )::after {
   padding: 0 1ch;
