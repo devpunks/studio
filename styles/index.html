@@ -2886,6 +2886,14 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
 
         <output for=output-input>Output Text</output>
 
+        <header>With <var>role=alert</var></header>
+        <!-- https://w3c.github.io/aria//#alert -->
+        <output role=log for=output-input>Alert Text</output>
+
+        <header>With <var>role=note</var></header>
+        <!-- https://w3c.github.io/aria//#note -->
+        <output role=note for=output-input>Note Text</output>
+
         <header>With <var>role=log</var></header>
         <!-- https://w3c.github.io/aria//#log -->
         <output role=log for=output-input>Log Text</output>
