@@ -565,12 +565,6 @@ select:not([multiple]) {
   /* https://css-tricks.com/css-basics-using-multiple-backgrounds */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds */
   background:
-    top left / 100% 100% no-repeat
-    linear-gradient( 135deg,
-      ActiveText 0,
-      ActiveText 1ch,
-      transparent 1ch
-    ),
     right center / auto auto no-repeat
     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' style='color: Canvas;'><polygon fill='currentColor' points='2,3 8,3 5,7'/></svg>");
 
