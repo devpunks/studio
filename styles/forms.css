@@ -352,8 +352,8 @@ input[type=range] {
   /* height: fit-content; */
   /* margin: 0; */
   padding: 0;
-  position: sticky;
-  left: 0vw;
+  /* position: sticky; */
+  /* left: 0vw; */
   /* top: 0; */
   /* bottom: 0; */
 }
