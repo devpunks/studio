@@ -339,8 +339,9 @@ input[type=range] {
 
 :is( [role=alert] ) {
   color: yellow;
-  border: .1ch solid;
-  text-indent: 1ch;
+  /* border: .1ch solid; */
+  /* text-indent: 1ch; */
+  text-align: center;
   display: inline-block;
   background: rgba(255,255,255,.3);
 }
