@@ -1036,8 +1036,8 @@ body[role=application] {
 }
 /* https://ferdychristant.com/the-world-s-most-overlooked-web-optimization-for-ios-d88c7517d520 */
 body > * {
-  will-change: transform;
-  transform: translatez(0);
+  /* will-change: transform; */
+  /* transform: translatez(0); */
 }
 
 a { -webkit-touch-callout: default }
