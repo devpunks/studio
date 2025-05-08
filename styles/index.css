@@ -851,7 +851,6 @@ dl[itemscope] dd {
   flex-shrink: 0;
   flex-basis: 74%;
 }
-dl[itemscope] dd { flex-basis: 70% }
 
 dd > :is( dl, ol, ul ) {
   max-width: unset;
