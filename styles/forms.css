@@ -362,10 +362,9 @@ input[type=range] {
   height: max-content;
   /* margin-left: -50vw; */
   line-height: 100px;
-  /* left: 50%; */
-  top: 70vh;
-  margin: 0 auto;
-  border: unset;
+  /* top: 70vh; */
+  /* margin: 1ch auto; */
+  /* border: unset; */
 }
 :is( [role$=alert] ):target {
   background: red;
