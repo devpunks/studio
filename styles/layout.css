@@ -43,11 +43,7 @@
   Performance:
     - What forces layout & reflow - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
     - Avoid Layout Thrashing - https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing
-    - Containment
-      - https://drafts.csswg.org/css-contain
-      - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment
-      - https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment
-      - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
+    - $$$FIXEX POSITIONING BUG - https://stackoverflow.com/q/25824749/why-webkit-transform-translate3d0-0-0-messes-up-with-fixed-childs
 */
 
 /*
