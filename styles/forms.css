@@ -356,9 +356,11 @@ input[type=range] {
 }
 :is( [role=alert] ):target {
   position: fixed;
-  /* position: sticky !important; */
-  width: 100vw;
-  margin-left: -50vw;
+  /* top: -1ch; */
+  bottom: 10px;
+  /* width: calc(100% - 2ch); */
+  height: max-content;
+  /* margin-left: -50vw; */
   line-height: 100px;
   /* left: 50%; */
   top: 70vh;
