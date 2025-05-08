@@ -189,6 +189,9 @@ body > footer, [role=contentinfo] {
 @container footer ( orientation: landscape ) {}
 
 
+summary { position: relative }
+
+
 /* Navigations ================================================================== */
 @container nav ( orientation: landscape ) {}
 @media ( orientation: portrait ) {}
