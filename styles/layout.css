@@ -158,7 +158,6 @@ html {
 }
 
 body {
-  height: 100%;
   /* height: 100svh; */
   /* height: 100dvh; */
   display: flex;
