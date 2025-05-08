@@ -157,14 +157,6 @@ html {
   box-sizing: border-box; /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model */
 }
 
-/*
-  CSS Grid:
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
-
-  Flexbox:
-    - https://css-tricks.com/snippets/css/a-guide-to-flexbox
-    - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
-*/
 body {
   height: 100%;
   /* height: 100svh; */
