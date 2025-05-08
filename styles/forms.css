@@ -358,7 +358,7 @@ input[type=range] {
 :is( [role=alert] ):target {
   position: fixed;
   /* position: sticky !important; */
-  /* width: 100vw; */
+  width: 100vw;
   margin-left: -50vw;
   line-height: 100px;
   /* left: 50%; */
