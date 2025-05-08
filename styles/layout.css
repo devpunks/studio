@@ -138,6 +138,7 @@ html, body {
     - https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit
     - https://polypane.app/blog/strategies-for-dealing-with-horizontal-overflows
   */
+  height: 100%;
   /* TODO: REFACTOR */
   max-width: 100vw;                   /* fall-back */
   min-width: -moz-available;          /* WebKit-based browsers will ignore this. */
