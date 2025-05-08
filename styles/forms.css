@@ -887,7 +887,6 @@ meter, progress {
   border: none;
   position: relative;
   border: 0.5ch solid;
-  display: inline-block;
   margin: var(--margin);
   width: calc(100% - 2ch);
   -webkit-appearance: none;
