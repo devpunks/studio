@@ -885,6 +885,7 @@ input:focus:not(:placeholder-shown):out-of-range,
 meter, progress {
   height: auto;
   border: none;
+  position: relative;
   border: 0.5ch solid;
   display: inline-block;
   margin: var(--margin);
