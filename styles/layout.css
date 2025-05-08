@@ -43,7 +43,7 @@
   Performance:
     - What forces layout & reflow - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
     - Avoid Layout Thrashing - https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing
-    - $$$FIXEX POSITIONING BUG - https://stackoverflow.com/q/25824749/why-webkit-transform-translate3d0-0-0-messes-up-with-fixed-childs
+    - $$$FIXES POSITIONING BUG - https://stackoverflow.com/q/25824749/why-webkit-transform-translate3d0-0-0-messes-up-with-fixed-childs
 */
 
 /*
