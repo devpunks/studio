@@ -844,7 +844,7 @@ dl[itemscope] :is( dt, dd ) { border-bottom: .1ch solid }
 dl[itemscope] dt {
   flex-basis: 25%;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 dl[itemscope] dd { flex-basis: 70% }
 
