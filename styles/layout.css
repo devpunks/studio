@@ -40,7 +40,7 @@
 :root {}
 
 /*
-  Performance
+  Performance:
     - What forces layout & reflow - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
     - Avoid Layout Thrashing - https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing
     - Containment
