@@ -93,7 +93,6 @@
 
 body, ::before, ::after, ::marker {  /* https://stackoverflow.com/q/7327326 */
   min-width: unset; /* https://defensivecss.dev/tip/flexbox-min-content-size */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model */
   position: relative;
   box-sizing: inherit;
 }
