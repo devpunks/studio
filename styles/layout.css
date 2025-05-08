@@ -160,7 +160,8 @@ body {
   flex-direction: column;
 }
 
-body * { inset: 0 } /* https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/inset */
+body * { inset: 0 }
 
 body > * { /* all immediate children of <body> */
   margin-left: auto;
