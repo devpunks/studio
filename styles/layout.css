@@ -24,7 +24,8 @@
   Columns:
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout
     - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts
-  Floating
+  Floating:
+    - https://css-tricks.com/all-about-floats
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context
 */
 :root {}
