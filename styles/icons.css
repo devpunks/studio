@@ -258,9 +258,8 @@ li[data-icon]::before {
 }
 
 body > footer > [role=button] {
-  left: 0;
-  right: 0;
-  bottom: 0;
+  right: 50%;
+  top: 90%;
   position: fixed;
   background: yellow;
   max-height: fit-content;
