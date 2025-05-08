@@ -27,6 +27,13 @@
   Floating:
     - https://css-tricks.com/all-about-floats
     - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context
+  Containment:
+    - https://w3c.github.io/csswg-drafts/css-contain
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/contain
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries
+  Stacking Context:
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context
+    - https://stackoverflow.com/q/25824749/why-webkit-transform-translate3d0-0-0-messes-up-with-fixed-childs
 */
 :root {}
 
