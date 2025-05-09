@@ -361,6 +361,10 @@ input[type=range] {
   /* width: calc(100% - 2ch); */
   /* height: max-content; */
   /* margin-left: -50vw; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
   line-height: 100px;
   /* top: 70vh; */
   /* margin: 1ch auto; */
