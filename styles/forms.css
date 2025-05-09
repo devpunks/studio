@@ -359,7 +359,7 @@ input[type=range] {
   /* top: -1ch; */
   bottom: 10px;
   /* width: calc(100% - 2ch); */
-  height: max-content;
+  /* height: max-content; */
   /* margin-left: -50vw; */
   line-height: 100px;
   /* top: 70vh; */
