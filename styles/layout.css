@@ -256,8 +256,6 @@ body > nav > details {
     top: 0vh;
     height: -moz-available;
     height: -webkit-fill-available;
-    /* height: calc(100% - 2em); */
-    /* min-height: calc(100% - 2em); */
     z-index: -1;
     /* z-index: 3; */
     opacity: 68%;
