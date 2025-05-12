@@ -1062,7 +1062,7 @@ summary::before, summary::after { text-align: center }
   margin: 0 calc(-1 * var(--frame));
 }
 [role=presentation][open] > summary { margin-bottom: 1ch }
-[role=presentation] > summary::before {vertical-align: middle;}
+[role=presentation] > summary::before { vertical-align: middle }
 
 
 /* Navigations ================================================================== */
