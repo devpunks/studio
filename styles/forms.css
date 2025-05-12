@@ -707,8 +707,7 @@ button::before {
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write */ }
 :read-only
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only */ }
-input:read-only,
-textarea:read-only {
+input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only {
   cursor: not-allowed;
   background:
     left .5ch center / auto 1em no-repeat
