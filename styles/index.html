@@ -2242,8 +2242,11 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           <a rel=external target=external
             href=https://deque.com/blog/aria-modal-alert-dialogs-a11y-support-series-part-2
               ><abbr title='Accessible Rich Internet Applications'>ARIA</abbr> Dialog Boxes</a>
-          <button title='Cancel dialog' aria-label='Cancel dialog'>Cancel</button>
-          <input type=submit title='Okay dialog' aria-label='Okay dialog' value=Okay>
+
+          <input autofoccus placeholder=Foo><input placeholder=Bar>
+          <input type=submit value=Okay title=Okay aria-label=Okay>
+          <input type=reset value=Reset title=Reset aria-label=Reset>
+          <button formmethod=dialog title=Cancel aria-label='Cancel'>Cancel</button>
         </form>
       </dialog>
 
