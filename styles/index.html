@@ -2175,10 +2175,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <a href=#alert:toast title='Toast Alert'>Toast Alert</a>
       <span id=alert:toast role=alertdialog>Toast Alert❗</span>
 
-      <!-- https://w3c.github.io/aria/#alertdialog -->
-      <dialog open id=alert:4 role=alert aria-modal=true
-        aria-label='Generic Dialog role=alert' aria-description='generic dialog role=alert description'>
-        <header><code>&lt;dialog <var>role=alert</var>&gt;</code> Alert 4❗</header>
+      <details role=alert>
+        <summary>Details <var>role=alert</var></summary>
 
         <form method=dialog>
           <button title='Close alert' aria-label='Close alert'>Close</button>
