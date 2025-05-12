@@ -265,7 +265,7 @@ body > nav > details {
     background: transparent;
     backdrop-filter: blur(19px);
     -webkit-backdrop-filter: blur(19px);
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
 }
 details[role=navigation][dir][open]::after { display: block }
 
