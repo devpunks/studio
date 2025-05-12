@@ -57,8 +57,8 @@
 
 /* :hover CSS page transitions allows :hover and :active to work
   - https://dev.webonomic.nl/fixing-the-iphone-css-hover-problem-on-ios
-  - https://stackoverflow.com/questions/8330559/hover-effects-using-css3-touch-events
-  - https://www.beacontechnologies.com/blog/2015/05/simple-little-tricks-for-web-transition-touch-events-on-mobile-devices/
+  - https://stackoverflow.com/q/8330559/hover-effects-using-css3-touch-events
+  - https://beacontechnologies.com/blog/2015/05/simple-little-tricks-for-web-transition-touch-events-on-mobile-devices/
 */
 
 @media (any-hover) and (hover) { }
