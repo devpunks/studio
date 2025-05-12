@@ -139,7 +139,7 @@ html, body {
   /* TODO: REFACTOR */
   max-width: 100vw;                   /* fall-back */
   min-width: -moz-available;          /* WebKit-based browsers will ignore this. */
-  min-width: 0;                 /* https://caniuse.com/?search=fill-available */
+  min-width: 0;                       /* https://caniuse.com/?search=fill-available */
   min-height: 100vh;                  /* fall-back */
   min-height: -moz-available;         /* WebKit-based browsers will ignore this. */
   min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
