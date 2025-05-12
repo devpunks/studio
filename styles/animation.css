@@ -39,7 +39,7 @@
   html { scroll-behavior: smooth }
 }
 @media ( prefers-reduced-motion: reduce ) {
-  /* https://piccalil.li/blog/a-modern-css-reset/ */
+  /* https://piccalil.li/blog/a-modern-css-reset */
   *, *::before, *::after {
     scroll-behavior: auto !important;
     animation-duration: 0.01ms !important;
