@@ -292,10 +292,6 @@ body > a[href='#main']:focus-visible:hover {
   filter: unset;
 }
 a[href='#'][title^=Top] {
-  /* display: inline; */
-  /* height: initial; */
-  opacity: 0.681;
-  background: red;
 }
 a[href='#']:hover { opacity: 1 }
 
