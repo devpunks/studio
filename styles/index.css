@@ -468,7 +468,7 @@ details:is( [name], [role] ) summary {
   background: unset;
   width: max-content;
 }
-details[role] summary::before { cursor: default }
+details[role] summary::before {}
 details:is( [role=menu], [role=menubar], [role=toolbar] )[open]
   summary { border-bottom: .1ch solid }
 
