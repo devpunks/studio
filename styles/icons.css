@@ -260,8 +260,6 @@ li[data-icon]::before {
 body > footer > [role=button] {
   top: 90%;
   position: fixed;
-  background: yellow;
-  max-height: fit-content;
 }
 
 table::before, table::after
