@@ -641,6 +641,8 @@ button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::
   height: fit-content;
   width: fit-content;
   max-width: inherit;
+  height: fit-content;
+  max-height: inherit;
   white-space: normal;
   font-weight: bolder;
   font-family: inherit;
