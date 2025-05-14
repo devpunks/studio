@@ -149,8 +149,7 @@ a:visited:hover:focus, a:visited:hover:active, a:visited:focus:active {}
 a:local-link { background: red } /* https://drafts.csswg.org/selectors/#local-link-pseudo */
 a:link[rel=search] { cursor: help }
 a:link[href='#'][title^=Top] {
-  display: block;
-  width: fit-content;
+  margin: 1ch;
   text-decoration: none;
   margin: var(--p-margin) auto;
   padding: 1ch var(--line-height);
