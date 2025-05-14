@@ -293,7 +293,7 @@ body > a[href='#main']:focus-visible:hover {
 }
 a[href='#'][title^=Top] {
 }
-a[href='#']:hover { opacity: 1 }
+a:link[href='#'][title^=Top]:hover {opacity: 1;background: Canvas;color: CanvasText;}
 
 /*
   - https://kizu.dev/rotated-text
