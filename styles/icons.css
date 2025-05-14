@@ -258,7 +258,6 @@ li[data-icon]::before {
 }
 
 body > footer > [role=button] {
-  right: 50%;
   top: 90%;
   position: fixed;
   background: yellow;
