@@ -218,8 +218,6 @@ a[aria-label][accesskey]:is( :hover, :focus-visible )::after
   user-select: none;
 
   li, [role=tab] {
-    & + & {}
-
     display: inline-flex;
     border-top: 1px solid;
     border-left: 1px solid;
