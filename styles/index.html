@@ -2198,12 +2198,14 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <!-- https://w3.org/WAI/ARIA/apg/patterns/dialog-modal -->
       <!-- https://deque.com/blog/aria-modal-alert-dialogs-a11y-support-series -->
       <!-- https://deque.com/blog/aria-modal-alert-dialogs-a11y-support-series-part-2 -->
-      <dialog closedby=any
-        open
-        aria-label='Modal Dialog' aria-description='Modal dialog description'>
-          Modal Dialog
-          <button autofoccus title=Close>Close</button>
-          <input autofoccus value=Close title='Close' type=reset>
+      <dialog closedby=any open aria-label='Modal Dialog' aria-description='Modal dialog description'>
+        Modal Dialog
+        <button autofoccus title=Close>Close</button>
+        <input autofoccus value=Close title='Close' type=reset>
+
+        <footer>
+          <em>Click anywhere to close</em>
+        </footer>
       </dialog>
 
       <dialog open
