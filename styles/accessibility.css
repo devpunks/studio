@@ -151,8 +151,10 @@ a:link[rel=search] { cursor: help }
 a:link[href='#'][title^=Top] {
   margin: 1ch;
   text-decoration: none;
-  margin: var(--p-margin) auto;
-  padding: 1ch var(--line-height);
+  color: Canvas;
+  border: .1ch solid;
+  background: CanvasText;
+  padding: 1ch;
 }
 nav > a:link { display: inline-block }
 li > a:link {}
