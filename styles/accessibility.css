@@ -152,7 +152,6 @@ a:link[href='#'][title^=Top] {
   color: Canvas;
   border: .1ch solid;
   background: CanvasText;
-  padding: 1ch;
 }
 nav > a:link { display: inline-block }
 li > a:link {}
