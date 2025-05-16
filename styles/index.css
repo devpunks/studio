@@ -302,6 +302,7 @@ time:empty::before { margin-right: 0 }
 time, time::before, time::after { border-radius: inherit }
 time {
   cursor: wait;
+  position: relative;
   background: Canvas;
   border-radius: 1ch;
   font-weight: bolder;
