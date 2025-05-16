@@ -386,6 +386,37 @@ input[type=range] {
 :is( label, label:has( input ) ) + :is( [role=alert] ) { display: inline-block }
 :is( input:checked, label:has( input:checked ) ) + :is( [role=alert] ) { display: none }
 
+:is( dialog, [role=dialog] ) {
+  margin: 0;
+  top: 50vh;
+  left: 50vw;
+  z-index: 1;
+  border: solid;
+  position: fixed;
+  padding: 1ch 1ch 0;
+  text-align: center;
+  width: max-content;
+  max-width: 85vw;
+  height: fit-content;
+  background-color: Canvas;
+  transform: translate( -50%, -50% );
+}
+
+[role=dialog] {
+  display: none;
+}
+
+[role=dialog]:target {
+  z-index: 2;
+  display: block;
+}
+@media ( orientation: horizontal )
+  { dialog { max-width: 90vw } }
+dialog:not([open])
+  { display: none }
+dialog form
+  { margin: unset }
+
 
 
 /* checkboxes & radios */
