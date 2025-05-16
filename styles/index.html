@@ -2252,7 +2252,9 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         </form>
       </dialog>
 
-      <details role=dialog>
+      <a title='Show <details role=dialog>' href=#dialog:details>Show <code>&lt;details <var>role=dialog</var>&gt;</code></a>
+      <details id='dialog:details' closedby=any role=dialog
+        aria-label='Details Dialog' aria-description='Details dialog description'>
         <summary>Details <var>role=dialog</var></summary>
 
         This is a <var>role=dialog</var> in a <code>&lt;details&gt;</code> element.
