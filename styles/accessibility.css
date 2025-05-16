@@ -76,6 +76,12 @@
   padding: 0;
   border-style: none;
 }
+/* PRESSED */
+/* "pressed" button
+ * aria-pressed - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#Associated_ARIA_roles_states_and_properties
+ */
+[aria-pressed=true]  {}
+[aria-pressed=false] {}
 /*
   - https://hidde.blog/focus-visible-more-than-keyboard
   - https://w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F78
