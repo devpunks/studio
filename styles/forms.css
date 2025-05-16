@@ -492,12 +492,6 @@ label :is( [type=checkbox], [type=radio] )[role] {}
 [type=radio]::before {}
 [type=radio]:checked::before {}
 
-/* "pressed" button
- * aria-pressed - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role#Associated_ARIA_roles_states_and_properties
- */
-[aria-pressed=true]  {}
-[aria-pressed=false] {}
-
 /* CSS TOGGLES [role=switch] https://tabatkins.github.io/css-toggle
   - WHAT ARE CSS TOGGLES - https://toggles.oddbird.net
   - Explainer proposal - https://css.oddbird.net/toggles/explainer
