@@ -354,7 +354,7 @@ input[type=range] {
   /* top: 0; */
   /* bottom: 0; */
 }
-:is( [role=alert] ):target {
+:is( [role$=alert] ):target {
   position: fixed;
   /* top: -1ch; */
   bottom: 10px;
