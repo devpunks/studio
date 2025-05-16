@@ -620,7 +620,7 @@ dialog {
   border: solid;
   display: block;
   padding: 1ch 1ch 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: fit-content;
   height: fit-content;
