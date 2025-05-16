@@ -188,6 +188,7 @@ body > footer, [role=contentinfo] {
 @container footer ( orientation: landscape ) {}
 
 
+p { position: relative }
 summary { position: relative }
 
 
