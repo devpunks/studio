@@ -15,8 +15,6 @@
 /* Viewport Sizes - https://docs.adobe.com/content/help/en/target/using/experiences/vec/mobile-viewports.html */
 @media screen and (min-width: 786px) { :root { } }
 
-:placeholder-shown
-  { text-overflow: ellipsis }
 /* accessible placeholders & labels
   - https://nngroup.com/articles/form-design-placeholders
   - https://www.nngroup.com/articles/form-design-placeholders
