@@ -338,17 +338,7 @@ input[type=range] {
   text-align: center;
   background: rgba(255,255,255,.3);
 }
-[role=alert][open]:target {
-  display: block;
-  /* width: -webkit-fill-available; */
-  /* width: 100vw; */
-  /* margin: 0; */
-  padding: 0;
-  /* left: 0vw; */
-  /* top: 0; */
-  /* bottom: 0; */
-}
-[role$=alert]:target {
+[role^=alert]:target {
   position: fixed;
   /* top: -1ch; */
   /* width: calc(100% - 2ch); */
