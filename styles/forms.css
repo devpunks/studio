@@ -808,7 +808,7 @@ input:not(:placeholder-shown):out-of-range,
 /* DISABLED
   - https://catalin.red/disabled-form-controls
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-disabled
-  - https://stackoverflow.com/questions/12591966/html-disabled-button-getting-active-css-pseudo-class
+  - https://stackoverflow.com/q/12591966/html-disabled-button-getting-active-css-pseudo-class
   - https://dev.w3.org/html5/spec-LC/association-of-controls-and-forms.html#enabling-and-disabling-form-controls
 */
 :is(input, select, textarea ):disabled, [disabled], [aria-disabled=true],
