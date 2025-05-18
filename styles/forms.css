@@ -735,7 +735,6 @@ input:focus:not(:placeholder-shown):out-of-range,
   /* TODO: Possibly add inert */
   color: Mark;
 }
-
 /* REQUIRED */
 :required, [required], [aria-required=true] {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/:required */
@@ -790,7 +789,7 @@ textarea:required:valid,
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid
 */
 :user-invalid
-  { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
+  { /*  */ }
 input:not(:placeholder-shown):invalid,
 select:not(:placeholder-shown):invalid,
 textarea:not(:placeholder-shown):invalid,
