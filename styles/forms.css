@@ -126,7 +126,7 @@ legend::after { margin-inline-start: 0.5ch }
 form details { padding: 0 }
 
 /*
- * - https://www.w3.org/TR/WCAG20-TECHS/H44.html
+ * - https://w3.org/TR/WCAG20-TECHS/H44.html
  * - Form Label - https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#labelable
  *     Elements that can be associated with <label> elements. Contains:
  *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
