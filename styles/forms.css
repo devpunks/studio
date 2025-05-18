@@ -756,9 +756,11 @@ input:focus:not(:placeholder-shown):out-of-range,
   */
 }
 
-/* VALID */
-/* Styling validation using content
- *   - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
+/* VALID
+  - https://caniuse.com/?search=:user-valid
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:valid
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:user-valid
+  - https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes#Styling_controls_based_on_whether_their_data_is_valid
 */
 :user-valid
   { /* https://caniuse.com/mdn-css_selectors_user-valid */ }
