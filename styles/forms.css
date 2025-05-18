@@ -762,9 +762,6 @@ input:focus:not(:placeholder-shown):out-of-range,
 */
 :user-valid {}
 input:valid::before, input:in-range::before,
-select:valid::before, textarea:invalid::before, [aria-invalid=false]::before {
-  /* content: ' '; */
-}
 input:required:valid,
 select:required:valid,
 textarea:required:valid,
