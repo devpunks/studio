@@ -343,7 +343,7 @@ input[type=range] {
   right: 0;
   top: auto;
   z-index: 2;
-  line-height: 100px;
+  position: fixed;
   background: red;
 }
 [role=^alert][open]:target {
