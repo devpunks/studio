@@ -476,6 +476,8 @@ label :is( [type=checkbox], [type=radio] )[role] {}
 [type=radio]:checked::before {}
 
 /* CSS TOGGLES [role=switch] https://tabatkins.github.io/css-toggle
+  - https://github.com/whatwg/html/issues/5625
+  - https://inclusive-components.design/toggle-button
   - WHAT ARE CSS TOGGLES - https://toggles.oddbird.net
   - Explainer proposal - https://css.oddbird.net/toggles/explainer
   - *** https://blog.logrocket.com/advanced-guide-css-toggle-pseudo-class
