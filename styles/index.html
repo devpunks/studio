@@ -2262,8 +2262,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         </form>
       </dialog>
 
-      <a title='Show <details role=dialog>' href=#dialog:details>Show <code>&lt;details <var>role=dialog</var>&gt;</code></a>
-      <details id='dialog:details' closedby=any role=dialog
+      <a popovertarget=dialog:details popovertargetaction=toggle title='Show <details role=dialog>' href=#dialog:details>Show <code>&lt;details <var>role=dialog</var>&gt;</code></a>
+      <details popover role=dialog id=dialog:details closedby=closerequest
         aria-label='Details Dialog' aria-description='Details dialog description'>
         <summary>Details <var>role=dialog</var></summary>
 
