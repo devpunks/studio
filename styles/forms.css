@@ -155,9 +155,6 @@ label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be
   output { /* https://scottohara.me/blog/2019/07/10/the-output-element.html */ }
 
 }
-code {
-  background: red;
-}
 label > * { cursor: revert }
 label :is( button, [type=button], [type=submit], [type=reset], [role=button] ) {}
 label, label + input {
