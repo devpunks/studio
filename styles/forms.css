@@ -342,7 +342,6 @@ input[type=range] {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
   top: auto;
   line-height: 100px;
   background: red;
