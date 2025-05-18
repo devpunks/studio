@@ -736,16 +736,6 @@ input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only 
   -webkit-user-select: none;
           user-select: none;
 }
-:required:placeholder-shown,
-input:focus:not(:placeholder-shown):invalid,
-select:focus:not(:placeholder-shown):invalid,
-textarea:focus:not(:placeholder-shown):invalid,
-input:focus:not(:placeholder-shown):out-of-range,
-[aria-invalid=true]:focus:not(:placeholder-shown):invalid {
-  /* TODO: fix intermediate styles */
-  /* TODO: Possibly add inert */
-  color: Mark;
-}
 /* REQUIRED */
 :required, [required], [aria-required=true] {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/:required */
