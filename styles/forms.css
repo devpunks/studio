@@ -802,7 +802,7 @@ input:not(:placeholder-shown):invalid,
 select:not(:placeholder-shown):invalid,
 textarea:not(:placeholder-shown):invalid,
 input:not(:placeholder-shown):out-of-range,
-[aria-invalid=true]:not(:placeholder-shown):invalid {
+:not(:placeholder-shown)[aria-invalid=true] {
   accent-color: red;
   color: ActiveText;
   cursor:       not-allowed;
