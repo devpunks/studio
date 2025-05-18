@@ -809,7 +809,7 @@ input:not(:placeholder-shown):out-of-range,
   filter: none;
   outline: none;
   cursor: not-allowed;
-  pointer-events: none; /* https://jakearchibald.com/2017/events-and-disabled-form-fields/ */
+  pointer-events: none; /* https://jakearchibald.com/2017/events-and-disabled-form-fields */
   -webkit-user-select: none;
   user-select: none;
   text-decoration-line: line-through;
