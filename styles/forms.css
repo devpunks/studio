@@ -725,8 +725,6 @@ input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only 
   -webkit-user-select: none;
           user-select: none;
 }
-
-/* UNDETERMINED */
 :required:placeholder-shown,
 input:focus:not(:placeholder-shown):invalid,
 select:focus:not(:placeholder-shown):invalid,
