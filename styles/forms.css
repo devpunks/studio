@@ -889,7 +889,7 @@ input:not(:placeholder-shown):out-of-range,
  *   - https://css-tricks.com/html5-meter-element
  *   - https://codepen.io/team/css-tricks/pen/PNNQxm
  *   - https://scottaohara.github.io/a11y_styled_form_controls/src/meter
- *   - https://stackoverflow.com/questions/8094835/how-to-style-html5-meter-tag
+ *   - https://stackoverflow.com/q/8094835/how-to-style-html5-meter-tag
  */
 meter, progress {
   height: auto;
