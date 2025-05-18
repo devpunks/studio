@@ -352,8 +352,6 @@ input[type=range] {
   /* top: 70vh; */
   /* margin: 1ch auto; */
   /* border: unset; */
-}
-[role^=alert]:target {
   background: red;
   z-index: 2;
 }
