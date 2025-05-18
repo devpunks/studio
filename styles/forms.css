@@ -345,7 +345,6 @@ input[type=range] {
   z-index: 2;
   position: fixed;
   background: red;
-  line-height: 100px;
 }
 [role=^alert][open]:target {
   padding: 0;
