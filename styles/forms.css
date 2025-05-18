@@ -716,7 +716,7 @@ input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only 
   { text-overflow: ellipsis }
 /* INERT
   - https://github.com/WICG/inert/blob/main/explainer.md
-  - https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
+  - https://stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web
 */
 [inert], [inert] * {
   opacity: 0.5;
