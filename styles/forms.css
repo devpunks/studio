@@ -816,31 +816,6 @@ input:not(:placeholder-shown):out-of-range,
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='Canvas'><text y='.3em' text-anchor='start' dominant-baseline='hanging'>❌</text></svg>");
 }
 
-/* UNDETERMINED */
-:required:placeholder-shown,
-input:focus:not(:placeholder-shown):invalid,
-select:focus:not(:placeholder-shown):invalid,
-textarea:focus:not(:placeholder-shown):invalid,
-input:focus:not(:placeholder-shown):out-of-range,
-[aria-invalid=true]:focus:not(:placeholder-shown):invalid {
-  /* TODO: fix intermediate styles */
-  /* TODO: Possibly add inert */
-  color: Mark;
-}
-
-/* INERT */
-/*
-  - https://github.com/WICG/inert/blob/main/explainer.md
-  - https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
-*/
-[inert], [inert] * {
-  opacity: 0.5;
-  cursor: default;
-  pointer-events: none;
-  -webkit-user-select: none;
-          user-select: none;
-}
-
 /* ENABLED */
 :enabled, [aria-disabled=false]
  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled */ }
