@@ -340,6 +340,10 @@ input[type=range] {
   left: 0vw;
   bottom: 0vh;
   position: fixed;
+  text-align: center;
+  max-height: fit-content;
+  width: -moz-available;
+  width: -webkit-fill-available;
   background: red;
 }
 [role=^alert][open]:target {
