@@ -353,7 +353,7 @@ input[type=range] {
   /* margin: 1ch auto; */
   /* border: unset; */
 }
-[role$=alert]:target {
+[role^=alert]:target {
   background: red;
   z-index: 2;
 }
