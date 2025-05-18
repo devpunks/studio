@@ -365,7 +365,7 @@ input[type=range] {
   /* margin: 1ch auto; */
   /* border: unset; */
 }
-:is( [role$=alert] ):target {
+[role$=alert]:target {
   background: red;
   z-index: 2;
 }
