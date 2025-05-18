@@ -336,9 +336,6 @@ input[type=range] {
   background: rgba(255,255,255,.3);
 }
 [role^=alert]:target {
-  left: 0;
-  right: 0;
-  top: auto;
   z-index: 1;
   position: fixed;
   background: red;
