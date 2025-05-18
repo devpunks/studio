@@ -831,7 +831,25 @@ input:not(:placeholder-shown):out-of-range,
     transparent left .5ch center / auto 1em no-repeat
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15' fill='Canvas'><text text-anchor='start' dominant-baseline='hanging'>⊘</text></svg>");
 }
-
+/* FOCUS
+  - https://mayank.co/blog/safari-focus
+  - https://caniuse.com/?search=:focus
+  - https://caniuse.com/?search=:focus-visible
+  - https://caniuse.com/?search=:focus-within
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within
+*/
+:is( :focus, :focus-visible )
+  { background-color: yellow }
+:focus:not(:focus-visible)
+  { background-color: green }
+/* :focus Polyfill - https://itnext.io/fixing-focus-for-safari-b5916fef1064 */
+:focus {}
+/* :focus-visible Polyfill - https://github.com/WICG/focus-visible */
+:focus-visible {}
+/* :focus-within Polyfill - https://github.com/matteobad/focus-within-polyfill */
+:focus-within {}
 
 ::-webkit-slider-runnable-track {
   margin: 0ch;
