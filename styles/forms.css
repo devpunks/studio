@@ -711,9 +711,10 @@ input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only 
   /* opacity: 70%; */
   border: 1ch solid magenta;
 }
-
-/* INERT */
-/*
+/* PLACEHOLDER SHOWN - https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown */
+:placeholder-shown
+  { text-overflow: ellipsis }
+/* INERT
   - https://github.com/WICG/inert/blob/main/explainer.md
   - https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
 */
