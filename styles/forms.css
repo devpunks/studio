@@ -783,8 +783,12 @@ textarea:required:valid,
 }
 
 /* INVALID
- *  - https://issues.chromium.org/issues/365802576
- *  - https://bugs.webkit.org/show_bug.cgi?id=279503 */
+  - https://caniuse.com/?search=:user-invalid
+  - https://issues.chromium.org/issues/365802576
+  - https://bugs.webkit.org/show_bug.cgi?id=279503
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid
+*/
 :user-invalid
   { /* https://caniuse.com/mdn-css_selectors_user-invalid */ }
 input:not(:placeholder-shown):invalid,
