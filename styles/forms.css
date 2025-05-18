@@ -357,6 +357,10 @@ input[type=range] {
   background: red;
   z-index: 2;
 }
+[role=^alert][open]:target {
+  padding: 0;
+  display: block;
+}
 [role=alert]::before,
 [role=alert]::after {
   padding: 0 1ch;
