@@ -369,9 +369,8 @@ input[type=range] {
   background: red;
   z-index: 2;
 }
-
-:is( [role=alert] )::before,
-:is( [role=alert] )::after {
+[role=alert]::before,
+[role=alert]::after {
   padding: 0 1ch;
   background: inherit;
 }
