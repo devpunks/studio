@@ -333,7 +333,7 @@ input[type=range] {
 
 
 
-:is( [role=alert] ) {
+[role=alert] {
   color: yellow;
   /* border: .1ch solid; */
   /* text-indent: 1ch; */
