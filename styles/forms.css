@@ -784,8 +784,7 @@ textarea:required:valid,
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid
 */
-:user-invalid
-  { /*  */ }
+:user-invalid {}
 input:not(:placeholder-shown):invalid,
 select:not(:placeholder-shown):invalid,
 textarea:not(:placeholder-shown):invalid,
