@@ -343,6 +343,7 @@ input[type=range] {
   left: 0;
   right: 0;
   top: auto;
+  z-index: 2;
   line-height: 100px;
   background: red;
   z-index: 2;
