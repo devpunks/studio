@@ -526,8 +526,6 @@ label :is( [type=checkbox], [type=radio] )[role] {}
 [type=file] {
   height: auto;
   padding: 1ch;
-  /* opacity: 0; */
-  /* clip-path: inset(50%); */
 }
 
 /* input[type=color]
