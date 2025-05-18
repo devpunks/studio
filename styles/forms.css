@@ -340,7 +340,7 @@ input[type=range] {
   text-align: center;
   background: rgba(255,255,255,.3);
 }
-:is( [role=alert][open] ):target {
+[role=alert][open]:target {
   display: block;
   /* width: -webkit-fill-available; */
   /* width: 100vw; */
