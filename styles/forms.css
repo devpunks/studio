@@ -610,7 +610,7 @@ option {
   overflow-x: visible;
 }
 
-/* ARIA - https://www.w3.org/TR/wai-aria-1.1/#button */
+/* ARIA - https://w3.org/TR/wai-aria-1.1/#button */
 /* TODO: [type=file]::file-selector-button */
 button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::-webkit-file-upload-button {
   -webkit-appearance: none;
