@@ -315,7 +315,6 @@ search, [role=search] {
   { height: auto }
 /*
  * - http://danielstern.ca/range.css
-
  * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
 */
 input[type=range] {
