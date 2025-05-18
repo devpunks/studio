@@ -337,6 +337,8 @@ input[type=range] {
 }
 [role^=alert]:target {
   z-index: 1;
+  left: 0vw;
+  bottom: 0vh;
   position: fixed;
   background: red;
 }
