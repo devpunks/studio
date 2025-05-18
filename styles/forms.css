@@ -532,7 +532,7 @@ label :is( [type=checkbox], [type=radio] )[role] {}
 
 [list] { /* combobox */ }
 
-input[type=file] {
+[type=file] {
   height: auto;
   padding: 1ch;
   /* opacity: 0; */
