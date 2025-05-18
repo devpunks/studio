@@ -345,9 +345,6 @@ input[type=range] {
   bottom: 0;
   top: auto;
   line-height: 100px;
-  /* top: 70vh; */
-  /* margin: 1ch auto; */
-  /* border: unset; */
   background: red;
   z-index: 2;
 }
