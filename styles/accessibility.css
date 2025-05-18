@@ -330,16 +330,9 @@ a:link[href='#'][title^=Top]:hover {opacity: 1;background: Canvas;color: CanvasT
   border-inline-start: 0.3ch solid;
 }
 
-mark::before,
-mark::after {
-  color: red;
-  /* width: 0ch; */
-  /* overflow: auto; */
-  /* clip-path: inset(50%); */
-}
-mark::before { content: '[highlight start]' }
-mark::after  { content: '[highlight end]' }
-
+mark::before { content: '[start]' }
+mark::after  { content: '[finish]' }
+mark::before, mark::after { color: red }
 
 
 meter[tabindex='0'], progress[tabindex='0'] {
