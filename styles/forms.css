@@ -805,8 +805,7 @@ input:not(:placeholder-shown):out-of-range,
   - https://dev.w3.org/html5/spec-LC/association-of-controls-and-forms.html#enabling-and-disabling-form-controls
 */
 :is(input, select, textarea ):disabled, [disabled], [aria-disabled=true],
-:is(input, select, textarea ):disabled:hover, [aria-disabled=true]:hover
- { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
+:is(input, select, textarea ):disabled:hover, [aria-disabled=true]:hover {
   filter: none;
   outline: none;
   cursor: not-allowed;
