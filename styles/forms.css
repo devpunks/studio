@@ -530,7 +530,7 @@ label :is( [type=checkbox], [type=radio] )[role] {}
   and https://github.com/twbs/bootstrap/issues/11266 */
  { -webkit-appearance: listbox }
 
-input[list] { /* combobox */ }
+[list] { /* combobox */ }
 
 input[type=file] {
   height: auto;
