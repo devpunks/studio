@@ -340,10 +340,6 @@ input[type=range] {
 }
 [role^=alert]:target {
   position: fixed;
-  /* top: -1ch; */
-  /* width: calc(100% - 2ch); */
-  /* height: max-content; */
-  /* margin-left: -50vw; */
   left: 0;
   right: 0;
   bottom: 0;
