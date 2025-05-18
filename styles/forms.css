@@ -706,9 +706,8 @@ input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only 
     left .5ch center / auto 1em no-repeat
     transparent url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15' fill='Canvas'><text text-anchor='start' dominant-baseline='hanging'>👓</text></svg>");
 }
-
-/* OPTIONAL */
-:optional:not(:disabled) { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
+/* OPTIONAL - https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
+:optional:not(:disabled) {
   /* opacity: 70%; */
 }
 
