@@ -92,12 +92,7 @@
 :focus-visible, [aria-disabled=false]:focus-visible {
   outline-width: .3ch;
   outline-offset: 0.2ch;
-  outline: 0.3ch dashed;
-
-  p[contenteditable]& {
-    border-radius: 0.681ch;
-    outline-offset: 0.681ch;
-  }
+  outline-style: dashed;
 }
 /* https://css-tricks.com/fixing-smooth-scrolling-with-find-on-page */
 html:focus-within { scroll-behavior: smooth }
