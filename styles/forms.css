@@ -362,6 +362,14 @@ input[type=range] {
 :is( label, label:has( input ) ) + :is( [role=alert] ) { display: inline-block }
 :is( input:checked, label:has( input:checked ) ) + :is( [role=alert] ) { display: none }
 
+/* DIALOG - https://caniuse.com/?search=dialog
+  - https://bitsofco.de/accessible-modal-dialog
+  - https://css-tricks.com/some-hands-on-with-the-html-dialog-element
+  - Polyfill
+    - https://github.com/KittyGiraudel/a11y-dialog
+    - https://googlechrome.github.io/dialog-polyfill
+    - https://github.com/GoogleChrome/dialog-polyfill
+*/
 :is( dialog, [role=dialog] ) {
   margin: 0;
   top: 50vh;
