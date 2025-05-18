@@ -169,7 +169,7 @@ label + :not(input) {
 :not(li) > label {
 }
 
-select { /* https://github.com/whatwg/html/issues/3244 */}
+select { /* https://github.com/whatwg/html/issues/3244 */ }
 
 button, [role=button], input, select, textarea {
   font: inherit;
