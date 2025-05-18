@@ -90,8 +90,7 @@
   - https://w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
 */
 :focus-visible, [aria-disabled=false]:focus-visible {
-  outline-width: 0.3ch;
-  outline-style: dashed;
+  outline-width: .3ch;
   outline-offset: 0.2ch;
   outline: 0.3ch dashed;
 
