@@ -403,6 +403,7 @@ math::after {}
 
 p {}
 p::after { clear: both }
+p[contenteditable] { border-radius: 0.681ch }
 
 /*
   - https://isotropic.co/the-best-css-styling-for-blockquotes
