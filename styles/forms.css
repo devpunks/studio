@@ -60,7 +60,7 @@ form[autocomplete] {
 }
 form:focus-within { }¸
 fieldset:focus-within { }
-/*
+/* fieldset / legend
   - https://thatemil.com/blog/2017/07/01/fixing-fieldsets/
   - https://adrianroselli.com/2022/07/use-legend-and-fieldset.html
 */
