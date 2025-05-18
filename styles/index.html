@@ -2172,8 +2172,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       </label>
       <output role=alert anchor=alert:anchor>Alert Output❗</output>
 
-      <input title='Alert Popover' type=checkbox
-        data-check=✅ popovertarget=alert:popover:output popovertargetaction=toggle>
+      <input id=alert:popover type=checkbox data-check=✅
+        popovertarget=alert:popover:output popovertargetaction=toggle title='Alert Popover'>
       <label for=alert:popover>Alert Popover</label>
       <output popover role=alert id=alert:popover:output>Alert Popover❗</output>
 
