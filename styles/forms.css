@@ -1005,7 +1005,6 @@ progress:indeterminate::-webkit-progress-value {
 }
 progress::-webkit-progress-value::after {
  /* Only webkit/blink browsers understand pseudo elements on pseudo classes. A rare phenomenon! */
-
   content: 'x';
   background-color: white;
 }
