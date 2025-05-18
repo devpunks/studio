@@ -677,14 +677,25 @@ button::before {
 /*
   Input Pseudo-classes - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#ui_pseudo-classes
 */
-:default
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:default */ }
-:indeterminate
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */ }
-:blank /* https://github.com/w3c/csswg-drafts/issues/1967*/
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:blank */ }
-:empty
-  { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:empty */ }
+/* DEFAULT (checkbox, radio, select, button) - https://developer.mozilla.org/en-US/docs/Web/CSS/:default */
+:default {}
+/* UNDETERMINED - https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate */
+:indeterminate {}
+/* BLANK
+  - https://github.com/w3c/csswg-drafts/issues/1967
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:blank
+*/
+:blank {}
+/* EMPTY - https://developer.mozilla.org/en-US/docs/Web/CSS/:empty */
+:empty {}
+/* CHECKED - https://developer.mozilla.org/en-US/docs/Web/CSS/:checked */
+:checked {}
+/* OPEN
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:open
+  - https://caniuse.com/?search=%3Aopen
+*/
+:is( input, select ):open { background: magenta }
+/* READABILITY */
 :read-write
   { /* https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write */ }
 :read-only
