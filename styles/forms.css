@@ -709,6 +709,7 @@ input:not(button):not([type=submit],[type=reset]):read-only, textarea:read-only 
 /* OPTIONAL - https://developer.mozilla.org/en-US/docs/Web/CSS/:optional */
 :optional:not(:disabled) {
   /* opacity: 70%; */
+  border: 1ch solid magenta;
 }
 
 /* INERT */
