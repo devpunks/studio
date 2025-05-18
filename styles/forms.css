@@ -598,13 +598,6 @@ select:not([multiple]) {
   background:
     right center / auto auto no-repeat
     url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' style='color: Canvas;'><polygon fill='currentColor' points='2,3 8,3 5,7'/></svg>");
-
-  /* ,  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path d='M 200 0 L 100 100 0 0 z' fill='Canvas'></path></svg>"); */
-  /* mask-size: 5%; */
-  /* mask-position: 100%; */
-  /* mask-repeat: no-repeat; */
-  /* mask-image:
-    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'><path d='M0 2h10L5 8z'/></svg>"); */
 }
 option, optgroup {
   padding: 1ch 0;
