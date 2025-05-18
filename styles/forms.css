@@ -131,7 +131,7 @@ form details { padding: 0 }
  *     Elements that can be associated with <label> elements. Contains:
  *     <button>, <input>, <meter>, <output>, <progress>, <select>, and <textarea>.
 */
-label { /* https://stackoverflow.com/questions/25315730/can-the-label-element-be-used-with-an-output-element */
+label { /* https://stackoverflow.com/q/25315730/can-the-label-element-be-used-with-an-output-element */
   cursor: pointer;
   margin: 0 1ch 0;
   flex-wrap: wrap;
