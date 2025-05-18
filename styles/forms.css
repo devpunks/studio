@@ -529,7 +529,7 @@ label :is( [type=checkbox], [type=radio] )[role] {}
 }
 
 /* input[type=color]
-    - https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/
+    - https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences
 */
 input[type=color] {
   opacity: 1.0;
