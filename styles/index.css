@@ -264,7 +264,6 @@ hr[role=presentation]::before, hr[role=presentation]::after {
   border-radius: 50%;
   background: CanvasText;
 }
-
 hr[role=presentation]::before { float: left }
 hr[role=presentation]::after  { float: right }
 hr[aria-orientation] {
