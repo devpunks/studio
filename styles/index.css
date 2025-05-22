@@ -245,7 +245,8 @@ hr {
   border: 0;
   width: 80%;
   opacity: 1;
-  display: flex;
+  /* display: flex; */
+  position: relative;
   background: CanvasText;
   box-sizing: content-box;
   justify-content: center;
