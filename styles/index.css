@@ -269,7 +269,7 @@ hr[role=presentation]::before {
   float: left
 }
 
-hr[role=presentation]::after {float: right;}
+hr[role=presentation]::after {float: right}
 hr[data-icon] { justify-content: center }
 hr[aria-orientation] {
   transform: unset;
