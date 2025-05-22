@@ -266,7 +266,6 @@ hr[role=presentation]::before, hr[role=presentation]::after {
 }
 
 hr[role=presentation]::before { float: left }
-
 hr[role=presentation]::after { float: right }
 hr[data-icon] { justify-content: center }
 hr[aria-orientation] {
