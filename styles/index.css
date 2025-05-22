@@ -255,7 +255,7 @@ hr:is( [data-icon], [role=presentation] ) {
   justify-content: space-between;
   background: linear-gradient(transparent 45%, CurrentColor 45%, CurrentColor 55%, transparent 55%);
 }
-hr[role=presentation] { justify-content: space-between }
+hr[role=presentation] {}
 hr[role=presentation]::before, hr[role=presentation]::after {
   min-width: 2ch;
   max-width: 2ch;
