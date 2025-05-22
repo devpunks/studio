@@ -265,8 +265,7 @@ hr[role=presentation]::before, hr[role=presentation]::after {
   background: CanvasText;
 }
 
-hr[role=presentation]::before {
-  float: left }
+hr[role=presentation]::before { float: left }
 
 hr[role=presentation]::after { float: right }
 hr[data-icon] { justify-content: center }
