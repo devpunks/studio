@@ -269,7 +269,7 @@ hr[aria-orientation] {
   transform: unset;
   display: inline-block;
 }
-hr[role=separator] { width: unset }
+hr[role=separator] {}
 hr[role=separator][data-icon] {
   background: unset;
   width: fit-content;
