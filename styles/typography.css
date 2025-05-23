@@ -489,6 +489,7 @@ hr[role=separator]::before
 mark {}
 
 time {
+  margin: 0.5ch;
   font-size: medium;
   padding: 0 0.628ch;
   margin: 0.5ch;
