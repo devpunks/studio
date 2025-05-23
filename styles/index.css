@@ -248,7 +248,6 @@ hr {
   opacity: 1;
   /* display: flex; */
   position: relative;
-  background: CanvasText;
   box-sizing: content-box;
   justify-content: center;
 }
