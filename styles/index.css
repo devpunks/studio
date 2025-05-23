@@ -245,8 +245,6 @@ iframe {
   - https://lifewire.com/styling-horizontal-rule-tag-3466399
 */
 hr {
-  /* border: 0; */
-  width: 80%;
   opacity: 1;
   /* display: flex; */
   position: relative;
