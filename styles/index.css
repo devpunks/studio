@@ -249,7 +249,6 @@ hr {
   /* display: flex; */
   position: relative;
   box-sizing: content-box;
-  justify-content: center;
 }
 hr:is( [data-icon], [role=presentation] ) {
   justify-content: space-between;
