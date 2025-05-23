@@ -482,7 +482,7 @@ hr[data-icon]::before {
   padding: .5ch;
   font-size: 200%;
 }
-hr[role=separator] {margin: var(--margin) }
+hr[role=separator] { margin: var(--margin) }
 hr[role=separator]::before
   { padding: unset }
 
