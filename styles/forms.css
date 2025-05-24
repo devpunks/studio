@@ -832,7 +832,7 @@ input:not(:placeholder-shown):out-of-range,
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
   - https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within
 */
-:is( :focus, :focus-visible )
+form :is( :focus, :focus-visible )
   { background-color: yellow }
 :focus:not(:focus-visible)
   { background-color: green }
