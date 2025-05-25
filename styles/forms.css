@@ -372,7 +372,7 @@ input[type=range] {
 [role=alert]::before,
 [role=alert]::after {
   padding: 0 1ch;
-  background: inherit;
+  background: transparent;
 }
 [role=alert]::before { margin-inline-end: 1ch }
 [role=alert]::after  { margin-inline-start: 1ch }
