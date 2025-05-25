@@ -351,7 +351,8 @@ input[type=range] {
 [role=alert] {
   color: yellow;
   text-align: center;
-  background: rgba(255,255,255,.3);
+  width: fit-content;
+  min-width: fit-content;
 }
 [role^=alert]:target {
   z-index: 1;
