@@ -191,7 +191,6 @@ input:where( :not( [type] ),
   [type=number], [type=color], [type=url], [type=email], [type=tel],
   [type=date], [type=time], [type=datetime], [type=datetime-local], [type=month], [type=week]
 ) { /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types */
-  width: var(--width);
   margin: 0 auto;
   padding: 0 1ch;
   text-indent: 1ch;
