@@ -237,6 +237,9 @@ input + output[role=alert] {
   background: red;
 }
 
+output {
+  display: inline-block;
+}
 
 label output, label select, label textarea, label [type], label input:not([type]) {
   border: none;
