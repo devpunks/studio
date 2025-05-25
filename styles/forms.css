@@ -194,7 +194,6 @@ input:where( :not( [type] ),
   margin: 0 auto;
   padding: 0 1ch;
   text-indent: 1ch;
-  border-style: solid;
   white-space: nowrap;
   line-height: 1.682em;
   border: solid Canvas;
