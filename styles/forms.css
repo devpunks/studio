@@ -219,6 +219,23 @@ input:where( :not( [type] ),
   }
 */
 }
+output:not( [role=alert] ) {
+  border: unset;
+  box-shadow: unset;
+  width: fit-content;
+  background: Canvas;
+  display: inline-block;
+}
+output[role=note] {
+  Background: unset;
+  font-size: smaller;
+  border-radius: .5ch;
+  box-shadow: 0 0 .5ch 0;
+}
+
+input + output[role=alert] {
+  background: red;
+}
 
 
 label output, label select, label textarea, label [type], label input:not([type]) {
