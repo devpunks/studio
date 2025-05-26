@@ -233,7 +233,7 @@ output[role=note] {
   box-shadow: 0 0 .5ch 0;
 }
 
-input + output[role=alert] {
+input:required + output[role=alert] {
   background: red;
 }
 
