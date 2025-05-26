@@ -237,6 +237,14 @@ input:required + output[role=alert] {
   background: red;
 }
 
+input:required:valid + output[role=alert] {
+  display: none;
+}
+
+input + output[role=alert]::before {
+  content: '❌';
+}
+
 output {
   display: inline-block;
 }
