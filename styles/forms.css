@@ -241,7 +241,8 @@ input:required:valid + output[role=alert] {
   display: none;
 }
 
-input + output[role=alert]::before { content: '❌' }
+input + output[role=alert]::before
+  { content: '❌' }
 
 output {
   display: inline-block;
