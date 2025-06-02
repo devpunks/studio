@@ -961,7 +961,6 @@ body > nav, [role=navigation] {
 }
 :is( body > nav, details[role=navigation] )[dir][open] {
   outline: unset;
-  border: 0 solid red;
 }
 :is( body > nav, details[role=navigation]
    )[dir=ltr][open] { border-right-width: .1ch }
