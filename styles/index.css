@@ -990,7 +990,6 @@ details[role=navigation] > summary {
 :is( [role=navigation], [role=navigation][open] ) > summary {
   cursor: pointer;
   overflow: hidden;
-  /* clip-path: inset(0 50% 0% 0); */
 }
 details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
