@@ -92,7 +92,7 @@ FontFace API
     https://w3.org/TR/css-scroll-snap-1
     https://drafts.csswg.org/css-scroll-snap
     http://caniuse.com/#feat=css-snappoints
-    https://css-tricks.com/introducing-css-scroll-snap-points/
+    https://css-tricks.com/introducing-css-scroll-snap-points
   https://github.com/ckrack/scrollsnap-polyfill
 
   CSS Grids
