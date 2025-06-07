@@ -89,8 +89,8 @@ FontFace API
 
   CSS Snappoints (OH SNAP!)
     https://blog.hospodarets.com/css-scroll-snap
-    https://w3.org/TR/css-scroll-snap-1/
-    https://drafts.csswg.org/css-scroll-snap/
+    https://w3.org/TR/css-scroll-snap-1
+    https://drafts.csswg.org/css-scroll-snap
     http://caniuse.com/#feat=css-snappoints
     https://css-tricks.com/introducing-css-scroll-snap-points/
   https://github.com/ckrack/scrollsnap-polyfill
