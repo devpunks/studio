@@ -63,7 +63,7 @@ https://github.com/devpunks/snuggsi/tree/master/dist#gzip-compression-mingz
 https://tools.ietf.org/html/rfc4329#section-8.2
 Font Loading
 https://tabatkins.github.io/specs/css-font-display
-FontFace API 
+FontFace API
     Oh the irony not supported in IE (they made @font-face)
     https://igvita.com/2014/01/31/optimizing-web-font-rendering-performance/https://gist.github.com/paulirish/d511793a1c3b74b31460
     http://caniuse.com/#feat=font-loading
