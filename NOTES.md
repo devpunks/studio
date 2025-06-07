@@ -98,7 +98,7 @@ FontFace API
   CSS Grids
     https://alistapart.com/article/practical-grid
     https://webkit.org/status/#specification-css-grid-layout-level-1
-    https://developer.microsoft.com/en-us/microsoft-edge/platform/status/cssgridlayout/
+    https://developer.microsoft.com/en-us/microsoft-edge/platform/status/cssgridlayout
   Tom Ethernet Packet
     - https://en.wikipedia.org/wiki/Ethernet_frame#Structure
     - https://en.wikipedia.org/wiki/Maximum_transmission_unit
