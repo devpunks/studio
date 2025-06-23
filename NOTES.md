@@ -19,9 +19,7 @@ String([‘foo’, ‘bar’])
 [].concat
 
 TRAILING SLASH
-https://github.com/pyeve/eve/issues/118#issuecomment-373893759
-https://tools.ietf.org/html/rfc3986#section-3.3
-https://groups.google.com/forum/#!topic/api-craft/L2YlSS7FmEk
+- https://tools.ietf.org/html/rfc3986#section-3.3
 - https://github.com/pedestal/pedestal/pull/352
 
 CONDITIONAL (IF) vs Expressions. https://fsharpforfunandprofit.com/posts/expressions-vs-statements
