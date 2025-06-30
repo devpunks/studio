@@ -323,6 +323,14 @@ body > :is( nav, [role=navigation] )
 :is( body > nav, [role=navigation] )
   li > a:hover::before { content: '📝' }
 :is( body > nav, [role=navigation] )
+  > summary::before {}
+:is( body > nav, [role=navigation] )
+  details > summary::before {
+    min-width: 1.68em;
+    text-align: center;
+    background: lime;
+  }
+:is( body > nav, [role=navigation] )
   :is( [open] ) > summary::before { content: '📂' }
 :is( body > nav, [role=navigation] )
   :not( [open] ) > summary::before { content: '📁' }
