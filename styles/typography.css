@@ -1103,6 +1103,8 @@ body > :is( nav, [role=navigation] )
     line-height: 93vh;
     text-align: center;
   }
+:is( nav, [role=navigation] )
+  li { padding: unset }
 :is( nav, [role=navigation] ) :is( details, summary ) {
   margin: unset;
   padding: var(--margin-collapse-bugfix) auto;
