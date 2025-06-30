@@ -553,7 +553,7 @@ li {
   line-height: inherit;
 }
 li::marker {}
-li::before, li::after { text-align: center }
+li::before, li::after {/* text-align: center; */}
 li::before {}
 li::after { margin-left: 0.5ch }
 li li {}
