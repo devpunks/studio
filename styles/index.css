@@ -1009,9 +1009,6 @@ details[role=navigation][dir][open] > summary
   li::before { opacity: .168 }
 :is( nav, [role=navigation] )
   li:is( :hover, :focus-within )::before { opacity: 1 }
-nav li:hover::before,
-nav li:focus-within::before
-  { background: red }
 
 
 /* PWA RELATED */
