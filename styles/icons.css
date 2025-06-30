@@ -307,7 +307,13 @@ nav > header::after { content: '⬊' }
 [role=navigation] > summary::after
   { content: '\200B' }
 :is( nav, [role=navigation] )
-  li::before {content: '▷' }
+  li::before {
+    content: '⚫';
+    min-width: 1.68em;
+    background: yellow;
+  }
+:is( nav, [role=navigation] )
+  a::before { min-width: 1.68em }
 :is( nav, [role=navigation] )
   li > a::before { content: '▸' }
 :is( body > nav, [role=navigation] )
