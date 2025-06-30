@@ -242,8 +242,7 @@ body > nav {}
     max-width: max-content;
   }
 :is( body > nav, [role=navigation] ) :is( details )::before {
-    content: '⭐';
-    text-align: center;
+    background: red;
   }
 body > nav > details {
   min-width: 100%;
