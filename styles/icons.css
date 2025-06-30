@@ -316,8 +316,10 @@ nav > header::after { content: '⬊' }
   a::before { min-width: 1.68em }
 :is( nav, [role=navigation] )
   li > a::before { content: '▸' }
-:is( body > nav, [role=navigation] )
-  li > a::before { content: '📄' }
+body > :is( nav, [role=navigation] )
+  li > a::before {
+    content: '📄';
+  }
 :is( body > nav, [role=navigation] )
   li > a:hover::before { content: '📝' }
 :is( body > nav, [role=navigation] )
