@@ -1004,7 +1004,6 @@ details[role=navigation][dir][open] > summary
 }
 :is( nav, [role=navigation] ) li::before,
 :is( nav, [role=navigation] ) li::after {
-  background: inherit;
 }
 :is( nav, [role=navigation] )
   li::before { opacity: .168 }
