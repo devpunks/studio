@@ -264,6 +264,7 @@
   /* https://blog.kizu.dev/cap-height-align */
   /* https://stackoverflow.com/q/8820286/how-to-remove-only-underline-from-aafter */
   font: inherit;
+  text-align: center;
   line-height: inherit;
   text-indent: initial;
   vertical-align: baseline;
