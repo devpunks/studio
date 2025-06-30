@@ -682,7 +682,6 @@ ul > li {}
 ol > li::before,
 ol > li::before {}
 ul > li::before {
-  display: inline;
   line-height: inherit;
 }
 ol > li::after,
@@ -967,7 +966,7 @@ body > nav, [role=navigation] {
 :is( body > nav, details[role=navigation]
    )[dir=rtl][open] { border-left-width: .1ch }
 :is( body > nav details, details[role=navigation] )
-  summary { display: contents }
+  summary { display: inline-block }
 :is( body > nav > details, details[role=navigation] )
   > summary {}
 details[role=navigation] > summary {
