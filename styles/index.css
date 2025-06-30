@@ -672,7 +672,7 @@ dd {
 li { clear: both }
 li li {}
 li::marker {}
-li::before, li::after { width: auto }
+li::before, li::after {}
 li::before {}
 li::after  { display: none }
 li:hover { background: inherit }
