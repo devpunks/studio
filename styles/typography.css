@@ -417,9 +417,7 @@ header code, h1 code
 
 
 /* anchor links */
-a {
-  padding: 0 0.2ch;
-}
+a {}
 
 a:has( img ) {
   padding: unset;
