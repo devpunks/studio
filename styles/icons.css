@@ -27,6 +27,13 @@
       url('data:image/svg+xml;utf8,<svg width="1.3em" height="1.3em" xmlns="http://www.w3.org/2000/svg"><text fill="Canvas" font-size="100%" y="1em">➤</text></svg>'); */
   }
 
+:is( body > nav, [role=navigation] ) :is( details )::before {
+  content: '⭐';
+  min-width: 1.682em;
+  text-align: center;
+  background: red;
+}
+
 :where( header, h1, h2, h3, h4, h5, h6 )::marker
   {/* content: counter(header); */}
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:where */
