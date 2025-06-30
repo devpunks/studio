@@ -434,7 +434,7 @@ a, a * {
   text-decoration-skip-ink: auto;
 }
 a::before, a::after {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   text-decoration: none;
   background: red;
   vertical-align: middle;
