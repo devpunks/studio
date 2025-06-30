@@ -1434,8 +1434,21 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
           </ol>
       </dl>
 
-      <header>Description List <code>&lt;dt <var>role=term</var>&gt;</code>
-        &amp; <code>&lt;dd <var>role=definition</var>&gt;</code></header>
+      <!-- https://html.spec.whatwg.org/multipage/microdata.html -->
+      <header>Description List <code>&lt;dl<var>itemscope</var>&gt;</code></header>
+      <!-- https://stackoverflow.com/q/6084718/html-best-tag-for-labels-outside-of-forms -->
+      <dl itemscope itemid=1 itemtype=http://schema.org/Person><!-- https://schema.org/docs/schemas.html -->
+        <dt>name</dt><dd itemprop=givenName>John</dd>
+        <dt>surname</dt><dd itemprop=familyName>Doe</dd>
+        <dt>email</dt><dd itemprop=email>foo@bar.com</dd>
+        <dt>birth</dt><dd itemprop=birthDate><time>January 1st, 2000</time></dd>
+        <dt>status</dt><dd><data value=1 title=active>active</data></dd>
+        <dt>description</dt><dd itemprop=description>The quick brown fox jumps over the lazy dog.</dd>
+      </dl>
+
+      <header>Description List
+        <code>&lt;dl&gt;</code> <code>&lt;dt<var>role=term</var>&gt;</code> &amp; <code>&lt;dd <var>role=definition</var>&gt;</code>
+      </header>
       <dl data-icon=📖 aria-label='https://merriam-webster.com/dictionary/list'>
         <!-- https://w3c.github.io/aria#term -->
         <!--https://w3c.github.io/aria#definition -->
