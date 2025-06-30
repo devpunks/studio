@@ -438,7 +438,6 @@ a::before, a::after {
   /* white-space: pre-wrap; */
   text-decoration: none;
   background: red;
-  vertical-align: middle;
 }
 a:hover, header a:hover {}
 :is( a, a * ):hover { text-decoration-color: currentColor }
