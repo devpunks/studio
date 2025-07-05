@@ -67,6 +67,8 @@ canvas, video, iframe[src*=youtube] {
 
   canvas::after, video::after, iframe[src*=youtube]::after {
     clear: both;
+    content: "foo";
+    display: block;
   }
 }
 
