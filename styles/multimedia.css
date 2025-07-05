@@ -113,7 +113,6 @@ img, picture {
   }
 }
 img {
-  /* width: 100%; */
   position: relative;
   display: inline-block;
   background: Canvas;
