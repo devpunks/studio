@@ -317,9 +317,7 @@ nav > header::after { content: '⬊' }
 :is( nav, [role=navigation] )
   li > a::before { content: '▸' }
 body > :is( nav, [role=navigation] )
-  li > a::before {
-    content: '📄';
-  }
+  li > a::before { content: '📄' }
 :is( body > nav, [role=navigation] )
   li > a:hover::before { content: '📝' }
 :is( body > nav, [role=navigation] )
