@@ -125,9 +125,7 @@ img::after {
   top: 0;
   left: 0;
   height: 100%;
-  text-align: center;
-  /* outline: 2ch dashed currentColor; */
-  box-shadow: -1em 0 0 1em blue;
+  display: grid;
   content: attr(alt);
   background: Canvas;
   font: bold 1.6em/1.5 system-ui;
