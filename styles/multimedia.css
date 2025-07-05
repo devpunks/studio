@@ -114,7 +114,6 @@ img, picture {
 }
 img {
   position: relative;
-  display: inline-block;
   background: Canvas;
   color: currentColor;
 }
