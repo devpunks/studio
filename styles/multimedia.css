@@ -36,6 +36,7 @@ iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
   width: auto;
   height: auto;
   max-width: 100%;
+  vertical-align: middle;
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
