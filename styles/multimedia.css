@@ -112,7 +112,29 @@ img, picture {
     &::before, &::after { content: unset }
   }
 }
-img {}
+img {
+  /* width: 100%; */
+  position: relative;
+  display: inline-block;
+  background: Canvas;
+  color: currentColor;
+}
+/* https://css-tip.com/broken-image */
+/* https://css-tricks.com/you-can-style-alt-text-like-any-other-text */
+img::after {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  text-align: center;
+  /* outline: 2ch dashed currentColor; */
+  box-shadow: -1em 0 0 1em blue;
+  content: attr(alt);
+  background: Canvas;
+  font: bold 1.6em/1.5 system-ui;
+}
 blockquote picture { margin: 0 4ch 1.618em }
 
 figure img, iframe, picture img, audio, canvas, video {
