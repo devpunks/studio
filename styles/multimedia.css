@@ -124,8 +124,6 @@ img::after {
   /* position: absolute; */
   top: 0;
   left: 0;
-  display: grid;
-  place-items: center;
   height: 100%;
   text-align: center;
   /* outline: 2ch dashed currentColor; */
