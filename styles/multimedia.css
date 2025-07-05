@@ -116,6 +116,7 @@ img {
   position: relative;
   background: Canvas;
   color: currentColor;
+  display: inline-block;
 }
 /* https://css-tip.com/broken-image */
 /* https://css-tricks.com/you-can-style-alt-text-like-any-other-text */
