@@ -941,7 +941,7 @@ dt[role=term] {
   symbols: "\24B6" "\24B7" "\24B8"; /* https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols */
 }
 
-[data-icon]::before { min-width: 2ch }
+[data-icon]::before { min-width: 1.682em }
 
 /* Navigations ==================================================================
  *   - https://w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation
