@@ -61,7 +61,6 @@ canvas, video, iframe[src*=youtube] {
 @supports not (aspect-ratio: 16 / 9) {
   canvas::before, video::before, iframe[src*=youtube]::before {
     float: left;
-    padding-top: 56.25%;
     content: "foo";
   }
 
