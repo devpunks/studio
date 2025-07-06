@@ -62,9 +62,6 @@ fieldset:focus-within { }
   - https://adrianroselli.com/2022/07/use-legend-and-fieldset.html
 */
 fieldset {
-  list-style-position: inside;
-  width: calc( 100% - 1ch);
-  max-width: 100%;
   inset: 1ch 1em;
   border-radius: 0.5ch;
   margin: var(--margin);
