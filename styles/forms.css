@@ -65,8 +65,8 @@ fieldset {
   inset: 1ch 1em;
   border-radius: 0.5ch;
   margin: var(--margin);
-  /* See https://github.com/twbs/bootstrap/issues/12359 */
-  text-align: var(--tab-size);
+  max-inline-size: 100%;
+  inline-size: calc( 100% - 1ch);
   border: 0.168ch solid currentColor;
   background: rgba(255,255,255,0.1);
 }
