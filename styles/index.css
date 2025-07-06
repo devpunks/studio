@@ -992,7 +992,7 @@ details[role=navigation] > summary {
 }
 details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
-  { max-width: 2em; max-height: 2em }
+  { max-inline-size: 2em; max-block-size: 2em }
 details[role=navigation][dir][open] > summary
   { max-width: unset; max-height: unset }
 
