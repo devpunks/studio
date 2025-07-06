@@ -243,12 +243,6 @@ body > nav {}
   }
 :is( body > nav, [role=navigation] ) :is( details )::before {
   }
-body > nav > details {
-  min-width: 100%;
-  max-width: 100%;
-  background: red;
-  background: inherit;
-}
 [role=navigation][dir]::after {
     /* border-top: 1ch solid transparent; */
     /* box-shadow: inset 0ch 0ch 0ch 1ch; */
