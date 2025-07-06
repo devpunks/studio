@@ -344,6 +344,9 @@ input[type=range] {
   margin: 0 auto;
   cursor: ew-resize;
   background: Canvas;
+  border: solid Canvas;
+  border-width: 0 1ch 1ch;
+  max-inline-size: calc(100% - 2ch);
 }
 [type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
