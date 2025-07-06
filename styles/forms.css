@@ -340,9 +340,6 @@ search, [role=search] {
  * - Cross browser range inputs - https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css
 */
 input[type=range] {
-  border: solid Canvas;
-  border-width: 0 1ch 1ch;
-  cursor: ew-resize;
   width: inherit;
   margin: 0 auto;
   max-width: calc(100% - 2ch);
