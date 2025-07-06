@@ -997,7 +997,7 @@ details[role=navigation][dir][open] > summary
   { max-inline-size: unset; max-block-size: unset }
 
 :is( body > nav, [role=navigation] )
-  > * {color: Canvas;background: CanvasText;}
+  > * { color: Canvas; background: CanvasText; }
 :is( nav, [role=navigation] ) li {
   display: flex;
   background: inherit;
