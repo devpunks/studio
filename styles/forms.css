@@ -434,6 +434,11 @@ dialog form
   cursor: pointer;
   aspect-ratio: 1;
   outline: .1ch solid;
+  min-block-size: 1em;
+  max-block-size: 1em;
+  min-inline-size: 1em;
+  max-inline-size: 1em;
+  border: .1ch solid red;
   background: currentColor;
   accent-color: currentColor;
   -webkit-appearance: revert;
