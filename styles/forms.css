@@ -656,6 +656,10 @@ button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::
   background: CanvasText;
   letter-spacing: inherit;
   border-radius: 0.1618em;
+  block-size: fit-content;
+  max-block-size: inherit;
+  inline-size: fit-content;
+  max-inline-size: inherit;
   /* outline-color: CanvasText; */
   box-shadow: var(--box-shadow);
   line-height: var(--line-height);
