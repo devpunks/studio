@@ -832,7 +832,7 @@ menu, [role=menu], [role=toolbar] {
 [role=toolbar]::before { background: Canvas }
 dl, ol, ul {
   max-width: calc( 100% - 2ch );
-  background: rgba( 255, 255, 255, 0.5 );
+  background: hsl( 0 0% 50% / .2 );
 }
 
 dl[itemscope] {
