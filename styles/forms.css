@@ -342,7 +342,7 @@ search, [role=search] {
 input[type=range] {
   width: inherit;
   margin: 0 auto;
-  max-width: calc(100% - 2ch);
+  cursor: ew-resize;
   background: Canvas;
 }
 [type=range]::-webkit-slider-thumb {
