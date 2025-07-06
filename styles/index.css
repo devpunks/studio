@@ -994,7 +994,7 @@ details[role=navigation][open] > summary {}
 details[role=navigation][dir] > summary
   { max-inline-size: 2em; max-block-size: 2em }
 details[role=navigation][dir][open] > summary
-  { max-width: unset; max-height: unset }
+  { max-inline-size: unset; max-block-size: unset }
 
 :is( body > nav, [role=navigation] )
   > * {color: Canvas;background: CanvasText;}
