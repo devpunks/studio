@@ -648,10 +648,6 @@ button, [type=button], [type=submit], [type=reset], [role=button], [type=file]::
   color: Canvas;
   cursor: pointer;
   font-size: inherit;
-  width: fit-content;
-  max-width: inherit;
-  height: fit-content;
-  max-height: inherit;
   white-space: normal;
   font-weight: bolder;
   font-family: inherit;
