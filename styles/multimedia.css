@@ -102,7 +102,7 @@ a:hover img {
   opacity: 100%;
   background: buttonFace;
 }
-body > footer small ~ a img { max-height: 2.5em }
+body > footer small ~ a img { max-block-size: 2.5em }
 
 img, picture {
   a:has(&) {
