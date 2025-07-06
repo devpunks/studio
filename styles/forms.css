@@ -420,7 +420,7 @@ input[type=range] {
   display: block;
 }
 @media ( orientation: horizontal )
-  { dialog { max-width: 90vw } }
+  { dialog { max-inline-size: 90vw } }
 dialog:not([open])
   { display: none }
 dialog form
