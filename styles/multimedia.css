@@ -33,7 +33,6 @@
 [loading=eager] {}
 
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
-  inline-size: auto;
   block-size: auto;
   max-inline-size: 100%;
   vertical-align: middle;
