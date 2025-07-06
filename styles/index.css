@@ -412,7 +412,6 @@ p[contenteditable] { border-radius: 0.681ch }
 */
 blockquote { /* http://webtypography.net/2.3.3 */
   opacity: 85%;
-  max-width: 80%;
   border-radius: 1ch;
   border: 0.01618em solid;
 }
