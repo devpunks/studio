@@ -183,6 +183,6 @@ video:picture-in-picture {
   box-shadow: 0 0 10px 0;
 }
 canvas {
-  width: 100%;
+  inline-size: 100%;
   background: Canvas;
 }
