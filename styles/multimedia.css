@@ -165,8 +165,8 @@ iframe {
   overscroll-behavior: contain;
 }
 audio { /* https://blog.shahednasser.com/how-to-style-an-audio-element */
-  height: 3em;
-  width: 100%;
+  block-size: 3em;
+  inline-size: 100%;
   }
 audio:not([controls]) {
   height: 0;
