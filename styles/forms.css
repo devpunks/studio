@@ -406,6 +406,8 @@ input[type=range] {
   padding: 1ch 1ch 0;
   text-align: center;
   height: fit-content;
+  max-inline-size: 85vw;
+  inline-size: max-content;
   background-color: Canvas;
   transform: translate( -50%, -50% );
 }
