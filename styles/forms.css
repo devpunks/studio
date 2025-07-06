@@ -203,9 +203,9 @@ input:where( :not( [type] ),
   -webkit-user-select: text;
   user-select: text;
   background-repeat: no-repeat;
-  max-width: calc(100% - 2ch);
-  width: -moz-available;
-  width: -webkit-fill-available;
+  max-inline-size: calc(100% - 2ch);
+  inline-size: -moz-available;
+  inline-size: -webkit-fill-available;
   box-shadow: inset 0 0 0 0.168ch;
   background-color: transparent;
 
