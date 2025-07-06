@@ -51,7 +51,7 @@ picture, figure, canvas, audio, video, embed, object {
   margin: 1ch auto var(--line-height);
 }
 canvas, video, iframe[src*=youtube] {
-  width: 100%;
+  inline-size: 100%;
   padding:  0.5ch;
   aspect-ratio: 16/9;
   vertical-align: baseline;
