@@ -40,7 +40,7 @@ iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
-  max-height: 80vh;
+  max-block-size: 80vh;
   object-fit: contain;
   object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
