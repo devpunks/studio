@@ -136,8 +136,7 @@ img::after {
 blockquote picture { margin: 0 4ch 1.618em }
 
 figure img, iframe, picture img, audio, canvas, video {
-
-    border-radius: inherit;
+  border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
 figure img, picture img, figure picture {}
