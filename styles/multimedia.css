@@ -124,7 +124,7 @@ img::after {
   /* position: absolute; */
   top: 0;
   left: 0;
-  height: 100%;
+  block-size: 100%;
   display: grid;
   content: attr(alt);
   text-align: center;
