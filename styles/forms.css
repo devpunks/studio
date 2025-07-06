@@ -405,8 +405,6 @@ input[type=range] {
   position: fixed;
   padding: 1ch 1ch 0;
   text-align: center;
-  width: max-content;
-  max-width: 85vw;
   height: fit-content;
   background-color: Canvas;
   transform: translate( -50%, -50% );
