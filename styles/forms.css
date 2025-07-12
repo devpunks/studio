@@ -533,9 +533,6 @@ label :is( [type=checkbox], [type=radio] )[role] {}
   transform: translate(0.5em, -0.05em)
 }
 
-
-
-
 /*
   - https://bugs.webkit.org/show_bug.cgi?id=139848
   - https://github.com/twbs/bootstrap/issues/11266
