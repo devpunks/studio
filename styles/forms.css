@@ -203,7 +203,8 @@ input:where( :not( [type] ),
   -webkit-user-select: text;
   user-select: text;
   background-repeat: no-repeat;
-  max-inline-size: calc(100% - 2ch);
+  /* max-inline-size: calc(100% - 2ch); */
+  max-inline-size: 50%;
   inline-size: -moz-available;
   inline-size: -webkit-fill-available;
   box-shadow: inset 0 0 0 0.168ch;
