@@ -622,8 +622,8 @@ table > tbody {
 table > tbody::before, table > tbody::after {
   display: block;
   background: inherit;
-  border: solid currentColor;
-  border-width: 0.1618em 0;
+  /* border: solid currentColor; */
+  /* border-width: 0.1618em 0; */
 }
 tbody tr { counter-increment: rows }
 tbody tr:nth-child(even) { background: inherit }

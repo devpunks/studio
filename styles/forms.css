@@ -387,7 +387,7 @@ input[type=range] {
 [role=alert]::after  { margin-inline-start: 1ch }
 [role=alert]::before { content: 'ⓘ⚠︎✦✱✶✷❋✴✳*️*⭑✖✘×✔✓' }
 [role=alert]::after  { content: '📢📣🚨🛑⛔🔴🟡🟢✳️✅🚫❌❗🔔⚠️🚩' }
-:is( label, label:has( input ) ) + :is( [role=alert] ) { display: inline-block }
+:is( label, label:has( input ) ) + :is( [role=alert] ) {/* display: inline-block; */}
 :is( input:checked, label:has( input:checked ) ) + :is( [role=alert] ) { display: none }
 
 /* DIALOG - https://caniuse.com/?search=dialog
