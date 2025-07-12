@@ -550,7 +550,7 @@ table {
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
   counter-reset: table rows th tr td;
-  background: rgba(255,255,255,0.5);
+  background: hsl( 0 0% 50% / .2 );
 }
 table::before, table::after {
   display: block;
