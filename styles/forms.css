@@ -360,6 +360,7 @@ input[type=range] {
   color: yellow;
   text-align: center;
   width: fit-content;
+  white-space: break-spaces;
   min-width: fit-content;
 }
 [role^=alert]:target {
