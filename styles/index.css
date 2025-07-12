@@ -635,6 +635,7 @@ tbody tr::before {
 tbody tr:hover  { outline: 0.2ch solid currentColor }
 tbody tr:hover::before { opacity: 1.0 }
 tbody tr:hover td:not(:hover) { opacity: 50% }
+tbody td:nth-child(even) { background: inherit }
 
 
 /* CSS3 Lists
