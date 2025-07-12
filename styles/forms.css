@@ -607,7 +607,7 @@ textarea:not([rows]) { min-height: 10em }
 select[multiple] { padding: 0 }
 select[multiple]:where( :hover, :focus-visible ) { overflow: auto }
 select:not([multiple]) {
-  /* https://css-tricks.com/styling-a-select-like-its-2019/ */
+  /* https://css-tricks.com/styling-a-select-like-its-2019 */
   cursor: s-resize;
   padding-right: 4ch;
 
