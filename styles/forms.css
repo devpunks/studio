@@ -321,8 +321,6 @@ search, [role=search] {
       background: yellow no-repeat 50% 50% / 100% 100% url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg);
     }
     &::-webkit-search-results-button {
-      /* width: 10px; */
-      /* height: 10px; */
       cursor: pointer;
       /* background: red; */
       /* -webkit-appearance: none; */
