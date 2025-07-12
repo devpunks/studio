@@ -583,7 +583,7 @@ table td:empty { border: none }
 table > caption {
   /* top: 0; */
   /* position: sticky; */
-  /* caption-side: bottom; */
+  caption-side: top;
   border-radius: 1ch;
   background: inherit;
 }
