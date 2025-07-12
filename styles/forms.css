@@ -350,8 +350,6 @@ input[type=range] {
 }
 [type=range]::-ms-track {}
 
-
-
 [role=alert] {
   color: yellow;
   text-align: center;
