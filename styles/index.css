@@ -546,6 +546,7 @@ article {}
 table {
   border-radius: 1ch;
   table-layout: fixed;
+  min-inline-size: 80%;
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
   counter-reset: table rows th tr td;
