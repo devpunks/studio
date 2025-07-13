@@ -284,6 +284,11 @@ table > caption::before, table > caption::after
   { content: '🗨' }
 tr::before, tr::after
   { content: 'tr' }
+th::before, th::after
+  { content: 'th' }
+td::before { content: '>' }
+td::after  { content: '<' }
+tbody tr::before { content: counter(rows) '.' }
 tbody tr::after { content: '\2800' }
 tbody tr:hover::after  { content: '◀' }
 table th::before, table th::after
