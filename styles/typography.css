@@ -1055,6 +1055,7 @@ summary::before, summary::after { text-align: center }
 [role=tree] li {
   padding: 0 0 0 1ch;
   line-height: unset;
+  white-space: nowrap;
 }
 [role=presentation] > summary {
   padding: 0 var(--frame);
