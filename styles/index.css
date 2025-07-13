@@ -579,7 +579,10 @@ caption::before, caption::after {
 col {
   color: blue;
 }
-thead, tfoot {background: inherit;background: CanvasText;}
+thead, tfoot {
+  background: inherit;
+  background: CanvasText;
+}
 thead {
   top: 0;
   z-index: 1;
