@@ -999,7 +999,7 @@ table > caption {
 table > caption::before, table > caption::after {
    margin-block-start: 1ch; margin-block-end: 1ch;
 }
-table > thead { padding-inline-start: 1ch; padding-inline-end: 1ch; }
+table > thead {}
 table > thead::before, table > thead::after
   { margin-block-start: 1ch; margin-block-end: 1ch; }
 
