@@ -554,6 +554,7 @@ table {
   box-shadow: var(--box-shadow);
   counter-reset: table rows th tr td;
   background: hsl( 0 0% 50% / .2 );
+  inline-size: -webkit-fill-available;
 }
 table::before, table::after { display: block }
 table > * { background: inherit }
