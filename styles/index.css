@@ -641,7 +641,6 @@ td:empty { border: none }
 tbody tr { counter-increment: rows }
 
 tbody tr:nth-child(even) { background: inherit }
-tbody tr::before { content: counter(rows) '.' }
 tbody tr:hover  {}
 tbody:hover tr { opacity: .5 }
 tbody tr:hover { opacity: 1 }
