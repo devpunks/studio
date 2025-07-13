@@ -605,6 +605,7 @@ tbody {
   position: relative;
   background: inherit;
 }
+tbody:hover {}
 tbody::before, tbody::after {
   display: block;
   background: inherit;
