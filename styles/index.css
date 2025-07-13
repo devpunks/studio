@@ -610,8 +610,8 @@ tbody::before, tbody::after {
   display: block;
   background: inherit;
 }
-table > * {/* background: inherit; */}
-tr {display: flex;}
+table > * {}
+tr { display: flex }
 tr > * {
   flex-grow: 1;
   flex-basis: 0;
