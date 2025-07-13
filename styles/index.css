@@ -638,7 +638,10 @@ td {
           user-select: all; /* https://caniuse.com/mdn-css_properties_user-select_text */
 }
 td:empty { border: none }
-tbody tr { counter-increment: rows }
+tbody tr {
+  counter-reset: td;
+  counter-increment: rows;
+}
 
 tbody tr:nth-child(even) { background: inherit }
 tbody tr:hover  {}
