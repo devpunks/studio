@@ -129,7 +129,6 @@ img::after {
   display: grid;
   block-size: 100%;
   content: attr(alt);
-  text-align: center;
   background: Canvas;
   place-items: center;
   box-shadow: -1em 0 0 1em blue;
