@@ -35,13 +35,13 @@
 iframe, img, svg, picture, figure, canvas, audio, video, embed, object {
   block-size: auto;
   inline-size: auto;
-  max-inline-size: 100%;
   vertical-align: middle;
+  max-inline-size: -webkit-fill-available;
 }
 /* Replaced Elements - https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element */
 iframe, audio, video, embed, img {
-  max-block-size: 80vh;
   object-fit: contain;
+  max-block-size: max-content;
   object-position: center center; /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
 }
 picture, figure, canvas, audio, video, embed, object {
