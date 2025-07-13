@@ -291,10 +291,7 @@ td::after  { content: '<' }
 tbody tr::before { content: counter(rows) '.' }
 tbody tr::after { content: '\2800' }
 tbody tr:hover::after  { content: '◀' }
-table th::before, table th::after
-  { content: 'th' }
-table td::before { content: '>' }
-table td::after  { content: '<' }
+tbody td::before { content: counter(td) '.' }
 
 dl[itemscope] dt::after { content: ':' }
 dl[itemscope] dt::after { content: ':' }
