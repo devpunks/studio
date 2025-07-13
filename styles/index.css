@@ -577,10 +577,14 @@ caption::before, caption::after {
   display: block;
   background: inherit;
 }
-table > thead, table > tfoot { background: inherit }
-table > thead {
-  z-index: 0;
-  display: block;
+
+col {
+  color: blue;
+}
+thead, tfoot {background: inherit;background: CanvasText;}
+thead {
+  top: 0;
+  z-index: 1;
   position: relative;
   background: inherit;
 }
