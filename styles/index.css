@@ -586,7 +586,7 @@ thead {
   top: 0;
   z-index: 1;
   position: relative;
-  background: inherit;
+  position: sticky;
 }
 table > thead::before, table > thead::after {
   display: block;
