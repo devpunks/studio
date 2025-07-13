@@ -132,7 +132,6 @@ img::after {
   background: Canvas;
   place-items: center;
   box-shadow: -1em 0 0 1em blue;
-  font: bold 1.6em/1.5 system-ui;
 }
 picture {}
 a picture { margin: unset }
