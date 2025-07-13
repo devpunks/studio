@@ -639,10 +639,7 @@ td:empty { border: none }
 tbody tr { counter-increment: rows }
 
 tbody tr:nth-child(even) { background: inherit }
-tbody tr::before {
-  opacity: 0.3;
-  content: counter(rows) '.';
-}
+tbody tr::before { content: counter(rows) '.' }
 tbody tr:hover  {}
 tbody tr:hover::before { opacity: 1.0 }
 tbody tr:hover td:not(:hover) { opacity: 50% }
