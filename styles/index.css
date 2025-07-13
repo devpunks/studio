@@ -553,7 +553,7 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   box-shadow: var(--box-shadow);
-  counter-reset: table rows th tr td;
+  counter-reset: table th tr td;
   background: hsl( 0 0% 50% / .2 );
   inline-size: -webkit-fill-available;
 }
