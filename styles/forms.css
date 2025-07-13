@@ -396,7 +396,7 @@ input[type=range] {
   margin: 0;
   top: 50vh;
   left: 50vw;
-  z-index: 1;
+  z-index: 2;
   border: solid;
   position: fixed;
   padding: 1ch 1ch 0;
