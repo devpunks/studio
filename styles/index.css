@@ -604,6 +604,7 @@ tfoot::before, tfoot::after {
 }
 tbody {
   position: relative;
+  counter-reset: rows;
   background: inherit;
 }
 tbody:hover {}
