@@ -573,7 +573,7 @@ caption {
   inline-size: -webkit-fill-available;
   min-inline-size: -webkit-fill-available;
 }
-table > caption::before, table > caption::after {
+caption::before, caption::after {
   display: block;
   background: inherit;
 }
