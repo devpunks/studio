@@ -544,6 +544,10 @@ article {}
     - https://stackoverflow.com/q/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody/17380697#17380697
 */
 table {
+  display: grid;
+  /* display: block; */
+  position: relative;
+  grid-template-columns: minmax(150px, 1fr);
   border-radius: 1ch;
   table-layout: fixed;
   min-inline-size: 80%;
