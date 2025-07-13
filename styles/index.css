@@ -621,10 +621,8 @@ tr > * {
   outline: 0.1em solid currentColor;
 }
 tr::before, tr::after,
-tr > *::before, tr > *::after {
-  min-width: 2em;
-  background: red;
-}
+tr > *::before, tr > *::after
+  { min-width: 2em }
 th {
   /* top: 0; */
   /* position: sticky; */
