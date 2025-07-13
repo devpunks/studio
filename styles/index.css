@@ -637,6 +637,7 @@ td {
 }
 td:empty { border: none }
 tbody tr { counter-increment: rows }
+
 tbody tr:nth-child(even) { background: inherit }
 tbody tr::before {
   opacity: 0.3;
