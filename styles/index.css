@@ -592,33 +592,57 @@ thead::before, thead::after {
   display: block;
   background: inherit;
 }
-table > tfoot {
+tfoot {
   z-index: 0;
+  position: relative;
+}
+tfoot::before, tfoot::after {
   display: block;
+  background: inherit;
+}
+tbody {
   position: relative;
   background: inherit;
 }
-table > tfoot::before, table > tfoot::after {
+tbody::before, tbody::after {
   display: block;
   background: inherit;
 }
-table > tbody {
-  z-index: 1;
-  display: block;
-  position: relative;
-  background: inherit;
+table > * {/* background: inherit; */}
+tr {display: flex;}
+tr > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-shrink: 1;
+  display: inline-flex;
+  justify-content: space-between;
+  outline: 0.1em solid currentColor;
 }
-table > tbody::before, table > tbody::after {
-  display: block;
-  background: inherit;
+tr::before, tr::after,
+tr > *::before, tr > *::after {
+  min-width: 2em;
+  background: red;
 }
+th {
+  /* top: 0; */
+  /* position: sticky; */
+  color: Canvas;
+  background: inherit;
+  background: CanvasText;
+}
+th:empty { border: none }
+td {
+  -webkit-user-select: all; /* Webkit (Chrome all / Safari all) */
+          user-select: all; /* https://caniuse.com/mdn-css_properties_user-select_text */
+}
+td:empty { border: none }
 tbody tr { counter-increment: rows }
 tbody tr:nth-child(even) { background: inherit }
 tbody tr::before {
   opacity: 0.3;
   content: counter(rows) '.';
 }
-tbody tr:hover  {/* outline: 0.2ch solid currentColor; */}
+tbody tr:hover  {}
 tbody tr:hover::before { opacity: 1.0 }
 tbody tr:hover td:not(:hover) { opacity: 50% }
 tbody td:nth-child(even) { background: inherit }
