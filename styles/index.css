@@ -588,7 +588,7 @@ thead {
   position: relative;
   position: sticky;
 }
-table > thead::before, table > thead::after {
+thead::before, thead::after {
   display: block;
   background: inherit;
 }
