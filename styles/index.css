@@ -652,6 +652,8 @@ tbody tr:hover td { opacity: .5 }
 tbody tr:hover td:hover { opacity: 1 }
 tbody td:nth-child(even) { background: inherit }
 
+tr > td { counter-increment: td }
+
 
 /* CSS3 Lists
   https://drafts.csswg.org/css-lists-3
