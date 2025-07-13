@@ -570,6 +570,8 @@ caption {
   /* caption-side: top; */
   border-radius: 1ch;
   background: inherit;
+  inline-size: -webkit-fill-available;
+  min-inline-size: -webkit-fill-available;
 }
 table > caption::before, table > caption::after {
   display: block;
