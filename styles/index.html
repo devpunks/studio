@@ -2549,7 +2549,10 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
       <picture title='Placeholder Image'>
         <!-- Use this image if the user's OS setting is dark -->
         <source media='(prefers-color-scheme: dark)'
-          width=420 height=420 sizes='' type=image/png srcset='https://placehold.co/420x420/000/fff 1x'>
+          width=420 height=420 sizes='' type=image/png srcset='https://placehold.co/420x420/000/fff?text=src+dark 1x'>
+
+        <source media='(prefers-color-scheme: light)'
+          width=420 height=420 sizes='' type=image/png srcset='https://placehold.co/420x420/fff/000?text=src+light 1x'>
 
         <!-- img as last item or nothing is displayed -->
         <img alt='Default placeholder image'
