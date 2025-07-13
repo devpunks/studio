@@ -2364,7 +2364,122 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
             <th scope=row colspan=5 headers='table:foot1 table:foot2 table:foot3 table:foot4'><strong>Total
       </table>
 
-      <table>
+      <table tabindex=0 aria-labelledby=caption>
+        <caption id=caption>Multi-Body Table</caption>
+
+        <colgroup style='background:magenta;visibility:collapse'>
+          <col style='background:red'>
+          <col span=2 style='background:green'>
+          <col span=2 style='background:blue'>
+
+        <tbody>
+          <tr>
+            <th scope=row headers=table:thead:th>Row
+            <td>Cell 1
+            <td>Cell 2
+            <td>Cell 3
+            <td>Cell 4
+          <tr>
+            <th scope=row headers=table:thead:th>Row
+            <td>Cell 1
+            <td>Cell 2
+            <td>Cell 3
+            <td>Cell 4
+
+        <tbody>
+          <tr>
+            <th scope=row headers=table:thead:th>Row
+            <td>Cell 1
+            <td>Cell 2
+            <td>Cell 3
+            <td>Cell 4
+          <tr>
+            <th scope=row headers=table:thead:th>Row
+            <td>Cell 1
+            <td>Cell 2
+            <td>Cell 3
+            <td>Cell 4
+      </table>
+
+      <!-- https://adrianroselli.com/2022/08/brief-note-on-calendar-tables.html -->
+      <table tabindex=0 aria-labelledby=caption:calendar>
+        <caption id=caption:calendar>September</caption>
+
+        <colgroup style='background:magenta;visibility:collapse'>
+          <col>
+          <col span=5 style='background:red'>
+          <col>
+        </colgroup>
+
+        <thead>
+          <tr>
+            <th scope=col abbr=Sunday>Su
+            <th scope=col abbr=Monday>Mo
+            <th scope=col abbr=Tuesday>Tu
+            <th scope=col abbr=Wednesday>We
+            <th scope=col abbr=Thursday>Th
+            <th scope=col abbr=Friday>Fr
+            <th scope=col abbr=Saturday>Sa
+
+        <tbody>
+          <tr>
+            <td>&nbsp;
+            <td>&nbsp;
+            <td>&nbsp;
+            <td>&nbsp;
+            <td>1
+            <td>2
+            <td>3
+          <tr>
+            <td>4
+            <td>5
+            <td>6
+            <td>7
+            <td>8
+            <td>9
+            <td>10
+          <tr>
+            <td>11
+            <td>12
+            <td>13
+            <td>14
+            <td>15
+            <td>16
+            <td>17
+          <tr>
+            <td>18
+            <td>19
+            <td>20
+            <td>21
+            <td>22
+            <td>23
+            <td>24
+          <tr>
+            <td>25
+            <td>26
+            <td>27
+            <td>28
+            <td>29
+            <td>30
+            <td>&nbsp;
+      </table>
+
+      <!-- https://adrianroselli.com/2018/02/github-contributions-chart.html -->
+      <table tabindex=0>
+        <caption><em>TODO:</em>Contributions Chart</caption>
+      </table>
+
+      <!-- https://adrianroselli.com/2019/05/periodic-table-of-the-elements.html -->
+      <table tabindex=0>
+        <caption><em>TODO:</em>Periodic Table of Elements</caption>
+      </table>
+
+      <!-- https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/examples/treegrid-1 -->
+      <table tabindex=0>
+        <caption><em>TODO:</em><code>&lt;table <var>role=tree</var>&gt;</code> Grid</caption>
+      </table>
+
+      <table tabindex=0>
         <caption>Container Table</caption>
 
         <tbody>
