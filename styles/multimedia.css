@@ -152,7 +152,6 @@ figure img, picture img {
 }
 
 figure {
-  background: red;
 }
 figcaption { opacity: 0.682 }
 figure:hover figcaption { opacity: 1.0 }
