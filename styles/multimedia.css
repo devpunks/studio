@@ -121,6 +121,8 @@ img {
 /* https://css-tip.com/broken-image */
 /* https://css-tricks.com/you-can-style-alt-text-like-any-other-text */
 img::after {
+  text-align: center;
+  font: bold 1.6em/1.5 system-ui;
   /* position: absolute; */
   top: 0;
   left: 0;
