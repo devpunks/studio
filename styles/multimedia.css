@@ -153,8 +153,7 @@ figure img, picture img {
   border-image: fill 0 linear-gradient(CanvasText, Canvas);
 }
 
-figure {
-}
+figure {}
 figcaption { opacity: 0.682 }
 figure:hover figcaption { opacity: 1.0 }
 figcaption::before {
