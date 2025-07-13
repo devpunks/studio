@@ -481,6 +481,7 @@ details[role=tree] :is( details ) {
 }
 details[role=tree] :is( dl, ol, ul, menu ) {
   border-left: .1ch solid;
+  inline-size: fit-content;
 }
 
 details[role=presentation] > summary {
