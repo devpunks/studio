@@ -564,11 +564,10 @@ table::before, table::after {
   /* display: contents; */
   display: block;
 }
-table td:empty { border: none }
-table > caption {
-  /* top: 0; */
-  /* position: sticky; */
-  caption-side: top;
+caption {
+  top: 0;
+  position: sticky;
+  /* caption-side: top; */
   border-radius: 1ch;
   background: inherit;
 }
