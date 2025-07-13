@@ -141,7 +141,8 @@ figure img, iframe, picture img, audio, canvas, video {
   border-radius: inherit;
   box-shadow: var(--box-shadow);
 }
-figure img, picture img, figure picture {}
+figure img, picture img, figure picture
+  { margin: unset }
 figure img, picture img {
   padding: 1ch;
   object-fit: cover;
