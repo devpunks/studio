@@ -2319,10 +2319,8 @@ MD5 ("Hello world") = 3e25960a79dbc69b674cd4ec67a72c62
         - https://adrianroselli.com/2017/11/a-responsive-accessible-table.html
         - https://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html
       -->
-      <header>Tables</header>
-
-      <table>
-        <caption>Two-Dimensional Table</caption>
+      <table tabindex=0 aria-labelledby=caption>
+        <caption id=caption>Two-Dimensional Table</caption>
 
         <colgroup span=5 style='background:magenta;visibility:collapse'>
           <col style='background:red'>
