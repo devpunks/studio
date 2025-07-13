@@ -600,11 +600,7 @@ dl[itemscope] dt::after {
 dd, dt {
   text-indent: inherit;
 }
-dd, li {
-  padding: var(--margin-collapse-bugfix) 0;
-  /* margin: inherit; */
-  padding: inherit;
-}
+dd, li { padding: inherit }
 dd {
   margin-left: 1em;
   padding-left: 0.618em;
