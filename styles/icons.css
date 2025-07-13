@@ -282,7 +282,7 @@ table > tfoot::before, table > tfoot::after
   { content: '👣' }
 table > caption::before, table > caption::after
   { content: '🗨' }
-table tr::before, table tr::after
+tr::before, tr::after
   { content: 'tr' }
 tbody tr::after { content: '\2800' }
 tbody tr:hover::after  { content: '◀' }
