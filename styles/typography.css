@@ -981,7 +981,10 @@ table tr > *::before, table tr > *::after {
 table tr > *::before { margin-right: 1ch }
 table tr > *::after  { margin-left: 1ch }
 
-table > thead, table > tfoot, table > tbody {}
+table > thead, table > tfoot, table > tbody {
+  padding-inline-start: 1ch;
+  padding-inline-end: 1ch;
+}
 table > thead::before, table > tfoot::before, table > tbody::before, table > caption::before,
 table > thead::after, table > tfoot::after, table > tbody::after, table > caption::after {
   text-indent: 1ch;
