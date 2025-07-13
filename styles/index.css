@@ -831,6 +831,7 @@ menu, [role=menu], [role=toolbar] {
   list-style: disc;
   border-left: .1ch solid;
   list-style-position: inside;
+  inline-size: fit-content;
 }
 [role=tree] li { display: list-item }
 [role=toolbar] {
