@@ -850,10 +850,7 @@ menu, [role=menu], [role=toolbar] {
 :is( menu, [role=menu] )
   > li > * { max-width: unset }
 [role=toolbar]::before { background: Canvas }
-dl, ol, ul {
-  max-width: calc( 100% - 2ch );
-  background: hsl( 0 0% 50% / .2 );
-}
+dl, ol, ul { background: hsl( 0 0% 50% / .2 ) }
 
 dl[itemscope] {
   display: flex;
