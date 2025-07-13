@@ -125,6 +125,7 @@ img::after {
   top: 0;
   left: 0;
   display: grid;
+  block-size: 100%;
   content: attr(alt);
   text-align: center;
   background: Canvas;
