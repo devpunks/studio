@@ -185,6 +185,7 @@ a {
   position: relative;
   border-radius: 0.2ch;
   display: inline-block;
+  max-inline-size: 100%;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
