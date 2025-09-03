@@ -1074,7 +1074,7 @@ pre code, var, p, cite, blockquote, address
   -webkit-user-drag: auto; /* https://stackoverflow.com/q/15034842 */
   -webkit-user-select: text; /* Webkit (Chrome all / Safari all) */
           user-select: text; /* https://caniuse.com/mdn-css_properties_user-select_text */
-  -webkit-tap-highlight-color: HighlightText; /* https://davidwalsh.name/mobile-highlight-color */
+  -webkit-tap-highlight-color: transparent; /* https://hartenfeller.dev/blog/chrome-mobile-highlight-color */
 }
 
 code, data, kbd, mark, pre, q, samp, var {
