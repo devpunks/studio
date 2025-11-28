@@ -74,6 +74,8 @@ a[rel=ugc]::before
   { content: '🗣️' }
 a[rel=help]::after
   { content: '❓' }
+a[rel=help]::before
+  { content: revert }
 a[rel=author]::before
   { content: '🖊️' }
 a[rel=bookmark]::before
