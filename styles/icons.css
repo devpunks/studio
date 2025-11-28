@@ -84,6 +84,8 @@ a[ping]::before
   { content: '🔄' }
 a[rel=next]::after
   { content: '⇨' }
+a[rel=next]::before
+  { content: revert }
 a[rel=prev]::before
   { content: '⇦' }
 a[rel=tag]::before
