@@ -88,6 +88,8 @@ a[rel=next]::before
   { content: revert }
 a[rel=prev]::before
   { content: '⇦' }
+a[rel=prev]::after
+  { content: revert }
 a[rel=tag]::before
   { content: '#' }
 a[rel=search]::before
