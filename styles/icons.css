@@ -68,7 +68,7 @@ a[rel=external]::before
   { content: '🌐' }
 a[rel=nofollow]::before
   { content: '🤫' }
-a[rel=sponsored]::after
+a[rel=sponsored]::before
   { content: '💸' }
 a[rel=ugc]::before
   { content: '🗣️' }
