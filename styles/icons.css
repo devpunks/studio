@@ -80,8 +80,8 @@ a[rel=bookmark]::before
   { content: '📁' }
 a[download]::before
   { content: '⟱' }
-a[rel=pingback]::before
-  { content: '⥹' }
+a[ping]::before
+  { content: '🔄' }
 a[rel=next]::after
   { content: '⇨' }
 a[rel=prev]::before
