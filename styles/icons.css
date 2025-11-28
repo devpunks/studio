@@ -97,8 +97,6 @@ a[rel=search]::before
 a[rel=alternate][hreflang]::before
   { content: attr(hreflang) attr(target) }
 
-a[href='#']::before /* Jump-To-Top link */
-  { content: '⇭' }
 a[href*=github]::before
   { content: '🐙' }
 a[href^=mailto]::before
