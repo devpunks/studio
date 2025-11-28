@@ -66,7 +66,7 @@ a:link[rel=terms-of-service]::before
   { content: '🔰' }
 a[rel=external]::before
   { content: '🌐' }
-a[rel=nofollow]::after
+a[rel=nofollow]::before
   { content: '🤫' }
 a[rel=sponsored]::after
   { content: '💸' }
