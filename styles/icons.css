@@ -44,6 +44,10 @@ main :where( header, h1, h2, h3, h4, h5, h6 )::before
 
 a::before, a::after
   { content: '\200B' } /* needed for flex stretch - https://compart.com/en/unicode/U+200B */
+a[href^='#']::before
+  { content: '⚓' }
+a[href='#']::before /* Jump-To-Top link */
+  { content: '⇭' }
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
 body > footer small::before
