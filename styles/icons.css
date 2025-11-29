@@ -47,7 +47,7 @@ a::before, a::after
 a[href^='#']::before
   { content: '⚓' }
 a[href='#']::before /* Jump-To-Top link */
-  { content: '⇭' }
+  { content: '🔝' }
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel */
 body > footer small::before
