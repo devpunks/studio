@@ -20,6 +20,7 @@ function log ( request ) {
   let agent = request.get ( 'User-Agent' )
   , { method, protocol, hostname, path, query, url } = request
   , url_parts = new URL ( url, `${ protocol }://${ hostname }` )
+  , ip = request.get ( 'x-forwarded-for' ) || request.socket.remoteAddress
 
   console.log ( 'Query: ', query )
 
