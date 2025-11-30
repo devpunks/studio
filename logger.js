@@ -27,7 +27,7 @@ function log ( request ) {
   return `[${ ip }] `
     + method + ' '
     + `${ protocol }://${ hostname }:${ process.env.PORT }${ url }  `
-    + 'Query Search: ' + url_parts.search + ' | '
+    + 'Query Search: ' + url_parts.search.replace ( /\?/, '' )  + ' | '
     + agent
 } // log
 
