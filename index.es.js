@@ -23,7 +23,7 @@ export default class Resource extends Router {
 } // Resource
 
 const app = ( new Resource )
-  .use ( log )
+  .use ( log ( 'foo.log' ) )
   .use ( ( req, res, next ) => res.status ( 404 ).send ( "That route doesn't exist" ) )
 
 
