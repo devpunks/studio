@@ -24,7 +24,6 @@ class Logger {
 export default function ( location = './index.log' ) {
   console.log ( 'Logger: ', location, this )
 
-  return function ( req, res ) {
+  return ( req, res ) =>
     console.log ( new Date, ' Logging to: ', location )
-  }
 }
