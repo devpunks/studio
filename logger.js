@@ -1,5 +1,5 @@
 // https://youtube.com/watch?v=lWmbK6iZML4
-// Logging libraries - https://betterstack.com/community/guides/logging/best-nodejs-logging-libraries/
+// Logging libraries - https://betterstack.com/community/guides/logging/best-nodejs-logging-libraries
 // Pino vs Winston - https://betterstack.com/community/comparisons/pino-vs-winston
 console.log ('LOGGERRRRRRRRRRRRRRRR')
 
