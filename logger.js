@@ -3,7 +3,7 @@
 // Pino vs Winston - https://betterstack.com/community/comparisons/pino-vs-winston
 console.log ('LOGGERRRRRRRRRRRRRRRR')
 
-export default class {
+class Logger {
 
   constructor ( location = './index.log' ) {
     console.log ('Log location: ', location )
