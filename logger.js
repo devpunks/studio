@@ -15,10 +15,12 @@ const LEVELS = {
 , debug: 4
 } // LEVELS
 
-function log ( { method, host, path } ) {
-  return \
-    method + ' '
-    host + path
+function log ( { method, protocol, hostname, path, query, url } ) {
+  console.log ( 'URL: ', url )
+  console.log ( 'Query: ', query )
+
+  return method + ' '
+    + `${ protocol }://${ hostname }:${ process.env.PORT }${ path }`
 } // log
 
 export default ( location = './index.log' ) =>
