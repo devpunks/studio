@@ -4,7 +4,6 @@
 console.log ('LOGGERRRRRRRRRRRRRRRR')
 
 class Logger {
-
   constructor ( location = './index.log' ) {
     console.log ('Log location: ', location )
   }
