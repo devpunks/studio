@@ -15,6 +15,7 @@ const LEVELS = {
 , debug: 4
 } // LEVELS
 
+import url from 'url'
 function log ( { method, protocol, hostname, path, query, url } ) {
   console.log ( 'URL: ', url )
   console.log ( 'Query: ', query )
