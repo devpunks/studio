@@ -11,7 +11,7 @@ console.log ( METHODS )
 export default class Resource extends Router {
   constructor() {
     super ().route ( '/' )
-    console.warn (this)
+    console.warn ( this )
   }
 }
 
