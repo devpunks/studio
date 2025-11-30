@@ -36,5 +36,6 @@ export default ( location = './index.log' ) =>
     console.log ( new Date, location, log ( req ) )
 
     res.set('x-timestamp', Date.now () )
+
     next ( req, res )
   }
