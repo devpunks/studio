@@ -20,8 +20,6 @@ function log ( request ) {
   let { method, protocol, hostname, path, query, url }
   , url_parts = new URL ( url, `${ protocol }://${ hostname }` )
 
-  console.log ( 'URL: ', url )
-  console.log ( 'URL (object): ', url_parts )
   console.log ( 'Query: ', query )
   console.log ( 'Query {object): ', url_parts.search )
 
