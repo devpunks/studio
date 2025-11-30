@@ -1,1 +1,16 @@
 console.log ('LOGGERRRRRRRRRRRRRRRR')
+
+export default class {
+
+  constructor ( location = './index.log' ) {
+    console.log ('Log location: ', location )
+  }
+}
+
+export default function ( location = './index.log' ) {
+  console.log ( 'This: ', this )
+
+  return function ( req, res ) {
+    console.log ( new Date, ' Logging to: ', location )
+  }
+}
