@@ -22,6 +22,7 @@ function log ( { method, protocol, hostname, path, query, url } ) {
   console.log ( 'URL: ', url )
   console.log ( 'URL (object): ', url_parts )
   console.log ( 'Query: ', query )
+  console.log ( 'Query {object): ', url_parts.search )
 
   return method + ' '
     + `${ protocol }://${ hostname }:${ process.env.PORT }${ path }`
