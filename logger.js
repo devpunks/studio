@@ -15,13 +15,7 @@ const LEVELS = {
 , debug: 4
 } // LEVELS
 
-class Logger {
-  constructor ( location = './index.log' ) {
-    console.log ('Log location: ', location )
-  }
-}
-
-export default function ( location = './index.log' ) {
+export default function Logger ( location = './index.log' ) {
   console.log ( 'Logger: ', location, this )
 
   return ( req, res, next ) =>
