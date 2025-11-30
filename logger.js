@@ -7,6 +7,11 @@
 console.log ('LOGGERRRRRRRRRRRRRRRR')
 
 const LEVELS = {
+  error: 0 // highest
+, warning: 1
+, info: 2
+, http: 3
+, debug: 4
 } // LEVELS
 
 class Logger {
