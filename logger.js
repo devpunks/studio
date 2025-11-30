@@ -17,6 +17,8 @@ const LEVELS = {
 
 import url from 'url'
 function log ( { method, protocol, hostname, path, query, url } ) {
+  var url_parts = new URL ( `${ protocol }://${ hostname }${ url }` )
+
   console.log ( 'URL: ', url )
   console.log ( 'Query: ', query )
 
