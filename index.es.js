@@ -24,8 +24,6 @@ const app = ( new Resource )
   .use ( ( req, res, next ) => res.status ( 404 ).send ( "That route doesn't exist" ) )
 
 
-const { PORT = 3000 } = process.env
-
 void ( new express () )
   .use( app )
   .listen ( PORT, _ => console.log ( `Listening on port ${PORT}` ) )
