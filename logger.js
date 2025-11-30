@@ -25,7 +25,8 @@ function log ( { method, protocol, hostname, path, query, url } ) {
   console.log ( 'Query {object): ', url_parts.search )
 
   return method + ' '
-    + `${ protocol }://${ hostname }:${ process.env.PORT }${ path }`
+    + `${ protocol }://${ hostname }:${ process.env.PORT }${ path }  `
+    + 'Query Search: ' + url_parts.search
 } // log
 
 export default ( location = './index.log' ) =>
