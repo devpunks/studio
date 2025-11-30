@@ -17,4 +17,4 @@ const LEVELS = {
 
 export default ( location = './index.log' ) =>
   ( req, res, next ) =>
-    console.log ( new Date, ' Logging to: ', location, req, res, next ( req, res ) )
+    console.log ( new Date, ' Logging to: ', location, next ( req, res ) )
