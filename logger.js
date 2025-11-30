@@ -24,7 +24,8 @@ function log ( request ) {
 
   console.log ( 'Query: ', query )
 
-  return method + ' '
+  return `[${ ip }] `
+    + method + ' '
     + `${ protocol }://${ hostname }:${ process.env.PORT }${ url }  `
     + 'Query Search: ' + url_parts.search + ' | '
     + agent
