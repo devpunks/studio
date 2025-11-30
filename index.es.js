@@ -25,7 +25,7 @@ const app = ( new Resource )
     res.status(404).send("That route doesn't exist") })
 
 
-class Server extends express() {
+class Server extends express () {
   constructor() {
     super()
     console.warn ( 'WTF AM I ', this )
