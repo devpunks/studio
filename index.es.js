@@ -1,4 +1,3 @@
-import { METHODS } from 'http'
 import http from 'http'
 import { Router, default as express, json } from 'express'
 
