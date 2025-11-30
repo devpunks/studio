@@ -28,7 +28,7 @@ const app = ( new Resource )
 class Server extends express() {
   constructor() {
     super()
-    console.warn('WTF AM I ', this)
+    console.warn ( 'WTF AM I ', this )
   }
 }
 
