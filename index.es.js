@@ -4,6 +4,8 @@ import { Router, default as express, json } from 'express'
 
 import log from './logger.js'
 
+const { PORT = 3000 } = process.env
+
 console.log ( METHODS )
 console.log ( json )
 
