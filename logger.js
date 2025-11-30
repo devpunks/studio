@@ -6,6 +6,9 @@
 // Structured logging in Node.js with Winston - https://thedreaming.org/2020/06/24/structured-logging-nodejs
 console.log ('LOGGERRRRRRRRRRRRRRRR')
 
+const LEVELS = {
+} // LEVELS
+
 class Logger {
   constructor ( location = './index.log' ) {
     console.log ('Log location: ', location )
