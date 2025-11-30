@@ -25,7 +25,8 @@ function log ( request ) {
 
   return method + ' '
     + `${ protocol }://${ hostname }:${ process.env.PORT }${ url }  `
-    + 'Query Search: ' + url_parts.search
+    + 'Query Search: ' + url_parts.search + ' | '
+    + agent
 } // log
 
 export default ( location = './index.log' ) =>
