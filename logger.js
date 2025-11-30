@@ -15,6 +15,12 @@ const LEVELS = {
 , debug: 4
 } // LEVELS
 
+function log ( { method, host, path } ) {
+  return \
+    method + ' '
+    host + path
+} // log
+
 export default ( location = './index.log' ) =>
   ( req, res, next ) =>
     console.log ( new Date, ' Logging to: ', location, next ( req, res ) )
