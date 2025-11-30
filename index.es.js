@@ -17,7 +17,7 @@ export default class Resource extends Router {
 
 const app = ( new Resource )
   .use ( log )
-  .get ( '/', function ( req, res ) { res.json( { data: 'SHEESH' } ) } )
+  .get ( '/', function ( req, res ) { res.json ( { data: 'SHEESH' } ) } )
   .get ( '/welcome', ( req, res ) =>
     res.send ( '<h1>Hello</h1> welcome to my http server made with express' ) )
   .use(function(req, res, next) {
