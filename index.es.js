@@ -16,6 +16,7 @@ export default class Resource extends Router{
 }
 
 const app = (new Resource)
+  .use ( log )
   .get('/', function (req, res) {
     res.json({ data: 'SHEESH' }) })
   .get('/welcome', function (req, res) {
