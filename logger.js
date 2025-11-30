@@ -25,6 +25,5 @@ export default function ( location = './index.log' ) {
   console.log ( 'Logger: ', location, this )
 
   return ( req, res, next ) =>
-    console.log ( new Date, ' Logging to: ', location )
-    , next ( req, res )
+    console.log ( new Date, ' Logging to: ', location , next ( req, res ) )
 }
