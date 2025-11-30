@@ -1,5 +1,6 @@
 // https://youtube.com/watch?v=lWmbK6iZML4
 // Pino vs Winston - https://betterstack.com/community/comparisons/pino-vs-winston
+// Logging libraries - https://betterstack.com/community/guides/logging/best-nodejs-logging-libraries
 // Structured logging in Node.js with Winston - https://thedreaming.org/2020/06/24/structured-logging-nodejs
 console.log ('LOGGERRRRRRRRRRRRRRRR')
 
