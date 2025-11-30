@@ -21,7 +21,6 @@ function log ( request ) {
   , url_parts = new URL ( url, `${ protocol }://${ hostname }` )
 
   console.log ( 'Query: ', query )
-  console.log ( 'Query {object): ', url_parts.search )
 
   return method + ' '
     + `${ protocol }://${ hostname }:${ process.env.PORT }${ path }  `
