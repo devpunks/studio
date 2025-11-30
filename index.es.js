@@ -2,6 +2,8 @@ import { METHODS } from "http"
 import http from "http"
 import { Router, default as express, json } from 'express'
 
+import Logger from 'logger.es'
+
 console.log(METHODS)
 //console.log(http)
 // console.log(express)
