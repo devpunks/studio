@@ -36,8 +36,8 @@ export default ( location = './index.log' ) =>
   ( req, res, next ) => {
     console.log ( new Date, location, log ( req ) )
 
-    res.set ( 'X-Powered-By', 'devPunks' )
-    res.set ( 'X-Timestamp', `${ Date.now () } (${ new Date })` )
+    res.setHeader ( 'X-Powered-By', 'devPunks' )
+    res.setHeader ( 'X-Timestamp', `${ Date.now () } (${ new Date })` )
 
     next ( req, res )
   }
