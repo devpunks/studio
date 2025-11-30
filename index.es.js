@@ -14,7 +14,7 @@ console.log ( METHODS )
 
 export default class Resource extends Router {
   constructor() {
-    super ( { mergeParams: true } )
+    super ( { caseSensitivity: true, mergeParams: true } )
       // .route ( '/' )
       .get ( '/', ( req, res ) => res.json ( { data: 'SHEESH' } ) )
       .get ( '/welcome', ( req, res ) =>
