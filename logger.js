@@ -17,8 +17,8 @@ const LEVELS = {
 
 import url from 'url'
 function log ( request ) {
-  let { method, protocol, hostname, path, query, url }
-  , agent = request.get ( 'User-Agent' )
+  let agent = request.get ( 'User-Agent' )
+  , { method, protocol, hostname, path, query, url } = request
   , url_parts = new URL ( url, `${ protocol }://${ hostname }` )
 
   console.log ( 'Query: ', query )
