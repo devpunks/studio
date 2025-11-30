@@ -21,8 +21,8 @@ const app = ( new Resource )
     res.json ( { data: 'SHEESH' } ) )
   .get ( '/welcome', ( req, res ) =>
     res.send ( '<h1>Hello</h1> welcome to my http server made with express' ) )
-  .use(function(req, res, next) {
-    res.status(404).send("That route doesn't exist") })
+  .use ( function ( req, res, next ) =>
+    res.status ( 404 ).send ( "That route doesn't exist" ) )
 
 
 class Server extends express () {
