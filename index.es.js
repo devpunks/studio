@@ -20,7 +20,7 @@ export default class Resource extends Router {
       .get ( '/welcome', ( req, res ) =>
         res.send ( '<h1>Hello</h1> welcome to my http server made with express' ) )
   } // custructor
-}
+} // Resource
 
 const app = ( new Resource )
   .use ( log )
