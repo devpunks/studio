@@ -23,7 +23,7 @@ function log ( request ) {
   console.log ( 'Query: ', query )
 
   return method + ' '
-    + `${ protocol }://${ hostname }:${ process.env.PORT }${ path }  `
+    + `${ protocol }://${ hostname }:${ process.env.PORT }${ url }  `
     + 'Query Search: ' + url_parts.search
 } // log
 
