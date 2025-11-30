@@ -34,6 +34,6 @@ class Server extends express() {
 
 const { PORT = 3000 } = process.env
 
-void (new express() )
+void ( new express () )
   .use( app )
   .listen ( PORT, _ => console.log ( `Listening on port ${PORT}` ) )
