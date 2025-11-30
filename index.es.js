@@ -11,7 +11,6 @@ const
 , { PORT = 3000 } = process.env
 
 console.log ( METHODS )
-console.log ( json )
 
 export default class Resource extends Router {
   constructor() {
