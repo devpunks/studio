@@ -1,3 +1,4 @@
+// Express documentation - https://expressjs.com/en/api.html#express.router
 // Express.js Alternatives - https://betterstack.com/community/guides/scaling-nodejs/expressjs-alternatives
 import http from 'http'
 import { json // parser
