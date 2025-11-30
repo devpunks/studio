@@ -26,4 +26,5 @@ export default function ( location = './index.log' ) {
 
   return ( req, res, next ) =>
     console.log ( new Date, ' Logging to: ', location )
+    , next
 }
