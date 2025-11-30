@@ -8,7 +8,7 @@ console.log(METHODS)
 //console.log(http)
 // console.log(express)
 
-export default class Resource extends Router{
+export default class Resource extends Router {
   constructor() {
     super ().route ('/')
     console.warn (this)
