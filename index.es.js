@@ -22,13 +22,6 @@ const app = ( new Resource )
   .use ( ( req, res, next ) => res.status ( 404 ).send ( "That route doesn't exist" ) )
 
 
-class Server extends express () {
-  constructor () {
-    super ()
-    console.warn ( 'WTF AM I ', this )
-  }
-}
-
 const { PORT = 3000 } = process.env
 
 void ( new express () )
