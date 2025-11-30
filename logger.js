@@ -24,5 +24,7 @@ function log ( { method, protocol, hostname, path, query, url } ) {
 } // log
 
 export default ( location = './index.log' ) =>
-  ( req, res, next ) =>
-    console.log ( new Date, location, log ( req ), next ( req, res ) )
+  ( req, res, next ) => {
+    console.log ( new Date, location, log ( req ) )
+    next ( req, res )
+  }
