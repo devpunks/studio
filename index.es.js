@@ -15,7 +15,7 @@ console.log ( METHODS )
 export default class Resource extends Router {
   constructor() {
     super ()
-      .route ( '/' )
+      // .route ( '/' )
       .get ( '/', ( req, res ) => res.json ( { data: 'SHEESH' } ) )
       .get ( '/welcome', ( req, res ) =>
         res.send ( '<h1>Hello</h1> welcome to my http server made with express' ) )
