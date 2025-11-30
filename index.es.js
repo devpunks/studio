@@ -4,7 +4,7 @@ import { Router, default as express, json } from 'express'
 
 import log from './logger.js'
 
-console.log(METHODS)
+console.log ( METHODS )
 //console.log(http)
 // console.log(express)
 
