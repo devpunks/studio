@@ -1,5 +1,5 @@
 // https://youtube.com/watch?v=lWmbK6iZML4
-// Pino vs Winston 
+// Pino vs Winston
 //   - https://betterstack.com/community/comparisons/pino-vs-winston
 //   - https://dev.to/wallacefreitas/pino-vs-winston-choosing-the-right-logger-for-your-nodejs-application-369n
 // Logging libraries - https://betterstack.com/community/guides/logging/best-nodejs-logging-libraries
