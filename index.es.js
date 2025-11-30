@@ -13,7 +13,6 @@ export default class Resource extends Router{
   }
 }
 
-console.log(express)
 const app = (new Resource)
   .get('/', function (req, res) {
     res.json({ data: 'SHEESH' }) })
