@@ -20,6 +20,7 @@ function log ( { method, protocol, hostname, path, query, url } ) {
   var url_parts = new URL ( `${ protocol }://${ hostname }${ url }` )
 
   console.log ( 'URL: ', url )
+  console.log ( 'URL (object): ', url_parts )
   console.log ( 'Query: ', query )
 
   return method + ' '
