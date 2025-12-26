@@ -40,4 +40,4 @@ export default ( location = './index.log' ) =>
     res.setHeader ( 'X-Timestamp', `${ Date.now () } (${ new Date })` )
 
     next ( req, res )
-  }
+  } // =>
